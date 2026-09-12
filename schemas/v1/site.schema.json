@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:gt:schema:site:1",
+  "title": "Site",
+  "description": "A fixed, publicly known facility outside Türkiye: air base, naval base, garrison, radar, port, test range.",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "pattern": "^sit_[0-7][0-9a-hjkmnp-tv-z]{25}$" },
+    "schema": { "const": "site/1" },
+    "name": { "$ref": "urn:gt:schema:defs:1#/$defs/name" },
+    "aliases": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+    "site_type": { "$ref": "urn:gt:schema:defs:1#/$defs/code", "description": "vocab/site-types.yaml" },
+    "country": { "$ref": "urn:gt:schema:defs:1#/$defs/country", "description": "State operating the site" },
+    "operators": { "type": "array", "uniqueItems": true, "items": { "$ref": "urn:gt:schema:defs:1#/$defs/ref_act" } },
+    "location": { "$ref": "urn:gt:schema:defs:1#/$defs/location" },
+    "regions": { "type": "array", "uniqueItems": true, "items": { "$ref": "urn:gt:schema:defs:1#/$defs/code" } },
+    "wikidata": { "$ref": "urn:gt:schema:defs:1#/$defs/wikidata" },
+    "description": { "$ref": "urn:gt:schema:defs:1#/$defs/text" },
+    "sources": { "type": "array", "minItems": 1, "items": { "$ref": "urn:gt:schema:defs:1#/$defs/citation" } },
+    "tags": { "$ref": "urn:gt:schema:defs:1#/$defs/tags" },
+    "corrections": { "type": "array", "items": { "$ref": "urn:gt:schema:defs:1#/$defs/correction" } }
+  },
+  "required": ["id", "schema", "name", "site_type", "location", "sources"],
+  "additionalProperties": false
+}

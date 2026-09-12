@@ -1,0 +1,8 @@
+id: eqp_01m2bez69jfv7axwssvyham2be
+schema: equipment/1
+name:
+  tr: S-300PMU-1
+  en: S-300PMU-1
+aliases: [SA-20 Gargoyle]
+category: air-defense.long-range
+origin_country: RUS

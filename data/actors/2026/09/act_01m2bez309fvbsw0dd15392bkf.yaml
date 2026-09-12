@@ -1,0 +1,9 @@
+id: act_01m2bez309fvbsw0dd15392bkf
+schema: actor/1
+name:
+  tr: Yunan Deniz Kuvvetleri
+  en: Hellenic Navy
+  local: Πολεμικό Ναυτικό
+kind: service-branch
+country: GRC
+parent: act_01m2bez28yf09tj4v9hwekpwmq

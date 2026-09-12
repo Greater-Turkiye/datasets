@@ -1,0 +1,9 @@
+id: act_01m2bez2myedeb6tydgpdte1qw
+schema: actor/1
+name:
+  tr: Rum Millî Muhafız Ordusu
+  en: Greek Cypriot National Guard
+  local: Εθνική Φρουρά
+aliases: [National Guard, Ethniki Froura]
+kind: armed-forces
+country: CYP

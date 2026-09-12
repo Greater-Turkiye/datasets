@@ -1,0 +1,28 @@
+# Tartışmalı nitelendirmeler: proje bunları iddia etmez, claims[].by ile kimin iddiası olduğunu kaydeder.
+# Contested characterizations: never asserted by the project, always attributed via claims[].by.
+version: 1
+codes:
+  - code: airspace-violation
+    label: {tr: Hava sahası ihlali, en: Airspace violation}
+  - code: fir-violation
+    label: {tr: FIR ihlali, en: FIR violation}
+  - code: territorial-waters-violation
+    label: {tr: Karasuları ihlali, en: Territorial waters violation}
+  - code: demilitarized-status-violation
+    label: {tr: Silahsızlandırılmış statü ihlali, en: Demilitarized status violation}
+  - code: continental-shelf-violation
+    label: {tr: Kıta sahanlığı/MEB ihlali, en: Continental shelf/EEZ violation}
+  - code: harassment
+    label: {tr: Taciz, en: Harassment}
+  - code: unsafe-intercept
+    label: {tr: Güvensiz önleme, en: Unsafe intercept}
+  - code: provocation
+    label: {tr: Provokasyon, en: Provocation}
+  - code: ceasefire-violation
+    label: {tr: Ateşkes ihlali, en: Ceasefire violation}
+  - code: terrorist-attack
+    label: {tr: Terör saldırısı, en: Terrorist attack}
+  - code: self-defense
+    label: {tr: Meşru müdafaa, en: Self-defence}
+  - code: disinformation
+    label: {tr: Dezenformasyon, en: Disinformation}

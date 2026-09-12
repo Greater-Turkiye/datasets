@@ -1,0 +1,8 @@
+id: eqp_01m2bez5h0eqpvgbq2c1j8ccyr
+schema: equipment/1
+name:
+  tr: F-16 Fighting Falcon
+  en: F-16 Fighting Falcon
+aliases: [F-16, Viper]
+category: aircraft.fighter
+origin_country: USA

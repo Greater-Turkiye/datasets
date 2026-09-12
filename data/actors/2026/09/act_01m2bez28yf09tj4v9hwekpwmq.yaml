@@ -1,0 +1,9 @@
+id: act_01m2bez28yf09tj4v9hwekpwmq
+schema: actor/1
+name:
+  tr: Yunanistan Millî Savunma Genelkurmay Başkanlığı
+  en: Hellenic National Defence General Staff
+  local: Γενικό Επιτελείο Εθνικής Άμυνας
+aliases: [GEETHA, HNDGS, ΓΕΕΘΑ]
+kind: armed-forces
+country: GRC

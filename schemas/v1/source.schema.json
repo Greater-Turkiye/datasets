@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:gt:schema:source:1",
+  "title": "Source (registry entry)",
+  "description": "A publisher/outlet/account/dataset whose reliability and reuse terms we track.",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "pattern": "^src_[0-7][0-9a-hjkmnp-tv-z]{25}$" },
+    "schema": { "const": "source/1" },
+    "name": { "$ref": "urn:gt:schema:defs:1#/$defs/name" },
+    "url": { "$ref": "urn:gt:schema:defs:1#/$defs/url" },
+    "source_type": { "$ref": "urn:gt:schema:defs:1#/$defs/code", "description": "vocab/source-types.yaml" },
+    "country": { "$ref": "urn:gt:schema:defs:1#/$defs/country" },
+    "operator": { "$ref": "urn:gt:schema:defs:1#/$defs/ref_act" },
+    "languages": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z]{2,3}$" } },
+    "reliability": { "type": "string", "enum": ["A", "B", "C", "D", "E", "F"], "description": "Admiralty source reliability" },
+    "terms": {
+      "type": "string",
+      "enum": ["open", "attribution", "restricted", "no-redistribution"],
+      "description": "Reuse terms. restricted/no-redistribution sources may be used as leads only, never copied."
+    },
+    "description": { "$ref": "urn:gt:schema:defs:1#/$defs/text" },
+    "tags": { "$ref": "urn:gt:schema:defs:1#/$defs/tags" },
+    "corrections": { "type": "array", "items": { "$ref": "urn:gt:schema:defs:1#/$defs/correction" } }
+  },
+  "required": ["id", "schema", "name", "url", "source_type", "reliability", "terms"],
+  "additionalProperties": false
+}

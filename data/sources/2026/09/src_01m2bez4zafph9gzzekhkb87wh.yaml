@@ -1,0 +1,13 @@
+id: src_01m2bez4zafph9gzzekhkb87wh
+schema: source/1
+name:
+  tr: ACLED
+  en: ACLED (Armed Conflict Location & Event Data)
+url: https://acleddata.com/
+source_type: dataset
+languages: [en]
+reliability: B
+terms: restricted
+description:
+  tr: Lisansı ham verinin yeniden yayınlanmasını yasaklar. Sadece ipucu olarak kullanılır, tek kaynak olamaz, satırlar kopyalanmaz.
+  en: Its licence forbids republishing raw data. Use as a lead only; never the sole citation; never copy rows.

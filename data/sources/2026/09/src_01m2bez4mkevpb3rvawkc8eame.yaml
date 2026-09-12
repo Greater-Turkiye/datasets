@@ -1,0 +1,11 @@
+id: src_01m2bez4mkevpb3rvawkc8eame
+schema: source/1
+name:
+  tr: Reuters
+  en: Reuters
+url: https://www.reuters.com/
+source_type: news-agency
+country: GBR
+languages: [en]
+reliability: B
+terms: attribution

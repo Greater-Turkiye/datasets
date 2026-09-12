@@ -1,0 +1,28 @@
+version: 1
+codes:
+  - code: air-base
+    label: {tr: Hava üssü, en: Air base}
+  - code: naval-base
+    label: {tr: Deniz üssü, en: Naval base}
+  - code: garrison
+    label: {tr: Garnizon, en: Garrison}
+  - code: missile-site
+    label: {tr: Füze mevzii, en: Missile site}
+  - code: air-defense-site
+    label: {tr: Hava savunma mevzii, en: Air defence site}
+  - code: radar-site
+    label: {tr: Radar tesisi, en: Radar site}
+  - code: port
+    label: {tr: Liman, en: Port}
+  - code: dual-use-airport
+    label: {tr: Çift kullanımlı havalimanı, en: Dual-use airport}
+  - code: test-range
+    label: {tr: Test sahası, en: Test range}
+  - code: training-area
+    label: {tr: Eğitim sahası, en: Training area}
+  - code: headquarters
+    label: {tr: Karargâh, en: Headquarters}
+  - code: defense-industry
+    label: {tr: Savunma sanayii tesisi, en: Defence industry facility}
+  - code: other
+    label: {tr: Diğer, en: Other}

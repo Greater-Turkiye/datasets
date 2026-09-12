@@ -1,0 +1,15 @@
+id: src_01m2bez3g6fgwb9nhs14271a8f
+schema: source/1
+name:
+  tr: T.C. Millî Savunma Bakanlığı (resmi site)
+  en: Türkiye Ministry of National Defence (official site)
+url: https://www.msb.gov.tr/
+source_type: official-government
+country: TUR
+operator: act_01m2bez1w9ef8vp8p9n6z7krjg
+languages: [tr, en]
+reliability: B
+terms: attribution
+description:
+  tr: Resmi açıklamalar. Tartışmalı nitelendirmeler claims[] ile MSB'ye atfedilir.
+  en: Official statements. Contested characterizations are attributed to MSB via claims[].

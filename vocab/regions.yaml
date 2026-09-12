@@ -1,0 +1,47 @@
+# İzleme bölgeleri — editoryal ilgi alanları, egemenlik iddiası değildir.
+# Watch regions — editorial areas of interest, not sovereignty claims.
+# Kodlar asla silinmez/yeniden kullanılmaz; kaldırmak için status: deprecated + replaced_by.
+version: 1
+codes:
+  - code: syria
+    label: {tr: Suriye, en: Syria}
+    definition: {tr: "Suriye toprakları ve hava sahası.", en: "Syrian territory and airspace."}
+  - code: iraq
+    label: {tr: Irak, en: Iraq}
+    definition: {tr: "Kuzey Irak dahil Irak toprakları.", en: "Iraq, including northern Iraq."}
+  - code: iran
+    label: {tr: İran, en: Iran}
+    definition: {tr: "İran ve İran'ın bölgesel askeri faaliyetleri.", en: "Iran and Iran's regional military activity."}
+  - code: levant
+    label: {tr: Levant, en: Levant}
+    definition: {tr: "İsrail, Filistin, Lübnan, Ürdün.", en: "Israel, Palestine, Lebanon, Jordan."}
+  - code: caucasus
+    label: {tr: Kafkasya, en: Caucasus}
+    definition: {tr: "Azerbaycan, Ermenistan, Gürcistan ve Kuzey Kafkasya.", en: "Azerbaijan, Armenia, Georgia and the North Caucasus."}
+  - code: aegean
+    label: {tr: Ege, en: Aegean}
+    definition: {tr: "Ege Denizi, adalar ve hava sahası.", en: "Aegean Sea, islands and airspace."}
+  - code: east-med
+    label: {tr: Doğu Akdeniz, en: Eastern Mediterranean}
+    definition: {tr: "Doğu Akdeniz deniz yetki alanları ve enerji sahaları.", en: "Eastern Mediterranean maritime zones and energy fields."}
+  - code: cyprus
+    label: {tr: Kıbrıs, en: Cyprus}
+    definition: {tr: "Kıbrıs adası (KKTC ve GKRY).", en: "The island of Cyprus (TRNC and Greek Cypriot side)."}
+  - code: black-sea
+    label: {tr: Karadeniz, en: Black Sea}
+    definition: {tr: "Karadeniz ve kıyı devletlerinin deniz/hava faaliyeti.", en: "Black Sea and littoral states' naval/air activity."}
+  - code: libya-north-africa
+    label: {tr: Libya ve Kuzey Afrika, en: Libya and North Africa}
+    definition: {tr: "Libya, Mısır, Tunus, Cezayir, Fas.", en: "Libya, Egypt, Tunisia, Algeria, Morocco."}
+  - code: gulf-red-sea
+    label: {tr: Körfez ve Kızıldeniz, en: Gulf and Red Sea}
+    definition: {tr: "Basra Körfezi, Kızıldeniz, Yemen ve Afrika Boynuzu.", en: "Persian Gulf, Red Sea, Yemen and the Horn of Africa."}
+  - code: balkans
+    label: {tr: Balkanlar, en: Balkans}
+    definition: {tr: "Batı Balkanlar, Bulgaristan, Romanya.", en: "Western Balkans, Bulgaria, Romania."}
+  - code: central-asia
+    label: {tr: Orta Asya, en: Central Asia}
+    definition: {tr: "Türk devletleri ve Orta Asya.", en: "Turkic states and Central Asia."}
+  - code: global
+    label: {tr: Küresel, en: Global}
+    definition: {tr: "Bölgeye bağlı olmayan (tedarik, küresel güçler, siber).", en: "Not region-specific (procurement, great powers, cyber)."}

@@ -1,0 +1,11 @@
+id: act_01m2bez1w9ef8vp8p9n6z7krjg
+schema: actor/1
+name:
+  tr: T.C. Millî Savunma Bakanlığı
+  en: Ministry of National Defence of the Republic of Türkiye
+aliases: [MSB, MoND]
+kind: ministry
+country: TUR
+description:
+  tr: Türkiye'nin savunma bakanlığı. Projede genellikle açıklama sahibi (claimant/reporter) olarak yer alır.
+  en: Türkiye's defence ministry. Usually appears in the project as a claimant or reporter.

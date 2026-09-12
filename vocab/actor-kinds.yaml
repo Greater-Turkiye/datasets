@@ -1,0 +1,29 @@
+version: 1
+codes:
+  - code: state
+    label: {tr: Devlet, en: State}
+  - code: ministry
+    label: {tr: Bakanlık, en: Ministry}
+  - code: armed-forces
+    label: {tr: Silahlı kuvvetler / genelkurmay, en: Armed forces / general staff}
+  - code: service-branch
+    label: {tr: Kuvvet komutanlığı, en: Service branch}
+  - code: unit
+    label: {tr: Birlik, en: Unit}
+  - code: intelligence-agency
+    label: {tr: İstihbarat teşkilatı, en: Intelligence agency}
+  - code: security-force
+    label: {tr: Güvenlik gücü (jandarma, sahil güvenlik, polis), en: Security force (gendarmerie, coast guard, police)}
+  - code: paramilitary
+    label: {tr: Paramiliter, en: Paramilitary}
+  - code: non-state-armed-group
+    label: {tr: Devlet dışı silahlı grup, en: Non-state armed group}
+  - code: company
+    label: {tr: Şirket, en: Company}
+  - code: international-organization
+    label: {tr: Uluslararası örgüt, en: International organization}
+  - code: media
+    label: {tr: Medya kuruluşu, en: Media organization}
+  - code: person
+    label: {tr: Kamu görevlisi (kişi), en: Public official (person)}
+    definition: {tr: "Sadece kamusal rolüyle; public_role ve wikidata zorunlu.", en: "Only in a public role; public_role and wikidata required."}

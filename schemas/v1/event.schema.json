@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:gt:schema:event:1",
+  "title": "Event",
+  "description": "Something that happened at a time and (optionally) a place: exercise, deployment report, strike, incident, statement, procurement announcement...",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "pattern": "^evt_[0-7][0-9a-hjkmnp-tv-z]{25}$" },
+    "schema": { "const": "event/1" },
+    "event_type": { "$ref": "urn:gt:schema:defs:1#/$defs/code", "description": "vocab/event-types.yaml" },
+    "title": { "$ref": "urn:gt:schema:defs:1#/$defs/text" },
+    "summary": { "$ref": "urn:gt:schema:defs:1#/$defs/text" },
+    "i18n": { "$ref": "urn:gt:schema:defs:1#/$defs/i18n" },
+    "time": {
+      "type": "object",
+      "properties": {
+        "start": { "$ref": "urn:gt:schema:defs:1#/$defs/datetime" },
+        "end": { "$ref": "urn:gt:schema:defs:1#/$defs/datetime" },
+        "precision": { "type": "string", "enum": ["minute", "hour", "day", "month", "year"] },
+        "basis": { "type": "string", "enum": ["reported", "chronolocated", "estimated"] }
+      },
+      "required": ["start", "precision", "basis"],
+      "additionalProperties": false
+    },
+    "reported_at": { "$ref": "urn:gt:schema:defs:1#/$defs/datetime" },
+    "location": { "$ref": "urn:gt:schema:defs:1#/$defs/location" },
+    "regions": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "urn:gt:schema:defs:1#/$defs/code" } },
+    "countries": {
+      "description": "States whose actors are involved. NOT a sovereignty assertion about the location.",
+      "type": "array", "uniqueItems": true, "items": { "$ref": "urn:gt:schema:defs:1#/$defs/country" }
+    },
+    "actors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ref": { "$ref": "urn:gt:schema:defs:1#/$defs/ref_act" },
+          "role": { "type": "string", "enum": ["perpetrator", "participant", "target", "claimant", "reporter", "host", "buyer", "seller"] }
+        },
+        "required": ["ref", "role"],
+        "additionalProperties": false
+      }
+    },
+    "equipment": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ref": { "$ref": "urn:gt:schema:defs:1#/$defs/ref_eqp" },
+          "quantity": { "type": "integer", "minimum": 1 },
+          "quantity_basis": { "type": "string", "enum": ["reported", "counted", "estimated"] }
+        },
+        "required": ["ref"],
+        "additionalProperties": false
+      }
+    },
+    "sites": { "type": "array", "uniqueItems": true, "items": { "$ref": "urn:gt:schema:defs:1#/$defs/ref_sit" } },
+    "claims": {
+      "description": "Contested characterizations are attributed to whoever makes them, never asserted by the project.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "by": { "$ref": "urn:gt:schema:defs:1#/$defs/ref_act" },
+          "characterization": { "$ref": "urn:gt:schema:defs:1#/$defs/code" },
+          "source": { "type": "integer", "minimum": 0, "description": "Index into sources[]" },
+          "note": { "$ref": "urn:gt:schema:defs:1#/$defs/text" }
+        },
+        "required": ["by", "characterization", "source"],
+        "additionalProperties": false
+      }
+    },
+    "sources": { "type": "array", "minItems": 1, "items": { "$ref": "urn:gt:schema:defs:1#/$defs/citation" } },
+    "assessment": { "$ref": "urn:gt:schema:defs:1#/$defs/assessment" },
+    "policy": { "$ref": "urn:gt:schema:defs:1#/$defs/policy" },
+    "tags": { "$ref": "urn:gt:schema:defs:1#/$defs/tags" },
+    "corrections": { "type": "array", "items": { "$ref": "urn:gt:schema:defs:1#/$defs/correction" } }
+  },
+  "required": ["id", "schema", "event_type", "title", "time", "regions", "sources", "assessment"],
+  "additionalProperties": false
+}

@@ -1,0 +1,93 @@
+# ISO 3166-1 alpha-3 + ISO kullanıcı-atanmış X** aralığında proje kodları.
+# Etiketler Türkiye resmi kullanımını izler; "aliases" arama içindir.
+# ISO 3166-1 alpha-3 + project codes in the ISO user-assigned X** range.
+# Labels follow Türkiye's official usage; aliases are for search.
+# Eksik ülke gerekiyorsa PR ile ekleyin. Add missing countries via PR.
+version: 1
+codes:
+  - {code: TUR, label: {tr: Türkiye, en: Türkiye}}
+  - code: XNC
+    label: {tr: Kuzey Kıbrıs Türk Cumhuriyeti (KKTC), en: Turkish Republic of Northern Cyprus (TRNC)}
+    definition: {tr: "ISO kodu yok; proje kodu (kullanıcı-atanmış X** aralığı).", en: "No ISO code; project code (user-assigned X** range)."}
+  - code: CYP
+    label: {tr: Güney Kıbrıs Rum Yönetimi (GKRY), en: Greek Cypriot Administration of Southern Cyprus}
+    aliases: [Republic of Cyprus, Kıbrıs Cumhuriyeti]
+  - {code: GRC, label: {tr: Yunanistan, en: Greece}}
+  - {code: SYR, label: {tr: Suriye, en: Syria}}
+  - {code: IRQ, label: {tr: Irak, en: Iraq}}
+  - {code: IRN, label: {tr: İran, en: Iran}}
+  - {code: ARM, label: {tr: Ermenistan, en: Armenia}}
+  - {code: AZE, label: {tr: Azerbaycan, en: Azerbaijan}}
+  - {code: GEO, label: {tr: Gürcistan, en: Georgia}}
+  - {code: RUS, label: {tr: Rusya, en: Russia}}
+  - {code: UKR, label: {tr: Ukrayna, en: Ukraine}}
+  - {code: BLR, label: {tr: Belarus, en: Belarus}}
+  - {code: MDA, label: {tr: Moldova, en: Moldova}}
+  - {code: ROU, label: {tr: Romanya, en: Romania}}
+  - {code: BGR, label: {tr: Bulgaristan, en: Bulgaria}}
+  - {code: SRB, label: {tr: Sırbistan, en: Serbia}}
+  - {code: BIH, label: {tr: Bosna-Hersek, en: Bosnia and Herzegovina}}
+  - {code: MNE, label: {tr: Karadağ, en: Montenegro}}
+  - {code: MKD, label: {tr: Kuzey Makedonya, en: North Macedonia}}
+  - {code: ALB, label: {tr: Arnavutluk, en: Albania}}
+  - code: XKX
+    label: {tr: Kosova, en: Kosovo}
+    definition: {tr: "Yaygın kullanılan kullanıcı-atanmış kod.", en: "Widely used user-assigned code."}
+  - {code: HRV, label: {tr: Hırvatistan, en: Croatia}}
+  - {code: SVN, label: {tr: Slovenya, en: Slovenia}}
+  - {code: HUN, label: {tr: Macaristan, en: Hungary}}
+  - {code: ISR, label: {tr: İsrail, en: Israel}}
+  - {code: PSE, label: {tr: Filistin, en: Palestine}}
+  - {code: LBN, label: {tr: Lübnan, en: Lebanon}}
+  - {code: JOR, label: {tr: Ürdün, en: Jordan}}
+  - {code: EGY, label: {tr: Mısır, en: Egypt}}
+  - {code: LBY, label: {tr: Libya, en: Libya}}
+  - {code: TUN, label: {tr: Tunus, en: Tunisia}}
+  - {code: DZA, label: {tr: Cezayir, en: Algeria}}
+  - {code: MAR, label: {tr: Fas, en: Morocco}}
+  - {code: SDN, label: {tr: Sudan, en: Sudan}}
+  - {code: SAU, label: {tr: Suudi Arabistan, en: Saudi Arabia}}
+  - {code: ARE, label: {tr: Birleşik Arap Emirlikleri, en: United Arab Emirates}}
+  - {code: QAT, label: {tr: Katar, en: Qatar}}
+  - {code: KWT, label: {tr: Kuveyt, en: Kuwait}}
+  - {code: BHR, label: {tr: Bahreyn, en: Bahrain}}
+  - {code: OMN, label: {tr: Umman, en: Oman}}
+  - {code: YEM, label: {tr: Yemen, en: Yemen}}
+  - {code: SOM, label: {tr: Somali, en: Somalia}}
+  - {code: DJI, label: {tr: Cibuti, en: Djibouti}}
+  - {code: ERI, label: {tr: Eritre, en: Eritrea}}
+  - {code: ETH, label: {tr: Etiyopya, en: Ethiopia}}
+  - {code: KAZ, label: {tr: Kazakistan, en: Kazakhstan}}
+  - {code: UZB, label: {tr: Özbekistan, en: Uzbekistan}}
+  - {code: TKM, label: {tr: Türkmenistan, en: Turkmenistan}}
+  - {code: KGZ, label: {tr: Kırgızistan, en: Kyrgyzstan}}
+  - {code: TJK, label: {tr: Tacikistan, en: Tajikistan}}
+  - {code: AFG, label: {tr: Afganistan, en: Afghanistan}}
+  - {code: PAK, label: {tr: Pakistan, en: Pakistan}}
+  - {code: IND, label: {tr: Hindistan, en: India}}
+  - {code: CHN, label: {tr: Çin, en: China}}
+  - {code: PRK, label: {tr: Kuzey Kore, en: North Korea}}
+  - {code: KOR, label: {tr: Güney Kore, en: South Korea}}
+  - {code: JPN, label: {tr: Japonya, en: Japan}}
+  - {code: USA, label: {tr: Amerika Birleşik Devletleri, en: United States}}
+  - {code: CAN, label: {tr: Kanada, en: Canada}}
+  - {code: GBR, label: {tr: Birleşik Krallık, en: United Kingdom}}
+  - {code: FRA, label: {tr: Fransa, en: France}}
+  - {code: DEU, label: {tr: Almanya, en: Germany}}
+  - {code: ITA, label: {tr: İtalya, en: Italy}}
+  - {code: ESP, label: {tr: İspanya, en: Spain}}
+  - {code: PRT, label: {tr: Portekiz, en: Portugal}}
+  - {code: NLD, label: {tr: Hollanda, en: Netherlands}}
+  - {code: BEL, label: {tr: Belçika, en: Belgium}}
+  - {code: POL, label: {tr: Polonya, en: Poland}}
+  - {code: CZE, label: {tr: Çekya, en: Czechia}}
+  - {code: SVK, label: {tr: Slovakya, en: Slovakia}}
+  - {code: AUT, label: {tr: Avusturya, en: Austria}}
+  - {code: NOR, label: {tr: Norveç, en: Norway}}
+  - {code: SWE, label: {tr: İsveç, en: Sweden}}
+  - {code: FIN, label: {tr: Finlandiya, en: Finland}}
+  - {code: DNK, label: {tr: Danimarka, en: Denmark}}
+  - {code: MLT, label: {tr: Malta, en: Malta}}
+  - {code: BRA, label: {tr: Brezilya, en: Brazil}}
+  - {code: IDN, label: {tr: Endonezya, en: Indonesia}}
+  - {code: MYS, label: {tr: Malezya, en: Malaysia}}

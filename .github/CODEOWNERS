@@ -1,0 +1,10 @@
+# Veri: reviewers. Şema/sözlük/politika/araçlar: maintainers.
+# Data: reviewers. Schemas/vocab/policy/tools: maintainers.
+*                   @Greater-Turkiye/maintainers
+/data/              @Greater-Turkiye/reviewers
+/examples/          @Greater-Turkiye/reviewers
+/schemas/           @Greater-Turkiye/maintainers
+/vocab/             @Greater-Turkiye/maintainers
+/policy.yaml        @Greater-Turkiye/maintainers
+/tools/             @Greater-Turkiye/maintainers
+/.github/           @Greater-Turkiye/maintainers

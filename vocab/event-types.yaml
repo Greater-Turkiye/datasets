@@ -1,0 +1,97 @@
+# Olay türleri: iki seviyeli "alan.tür" kodları. Tanımlar projeye aittir (başka veri setlerinden kopyalanmaz).
+# Event types: two-level "domain.type" codes. Definitions are our own (not copied from other datasets).
+version: 1
+codes:
+  - code: exercise.military
+    label: {tr: Askeri tatbikat, en: Military exercise}
+    definition: {tr: "Ulusal kara/karma tatbikat.", en: "National land or combined exercise."}
+  - code: exercise.naval
+    label: {tr: Deniz tatbikatı, en: Naval exercise}
+    definition: {tr: "Deniz kuvvetleri tatbikatı, atışlı eğitim.", en: "Naval exercise or live-fire drill."}
+  - code: exercise.air
+    label: {tr: Hava tatbikatı, en: Air exercise}
+    definition: {tr: "Hava kuvvetleri tatbikatı.", en: "Air force exercise."}
+  - code: exercise.multinational
+    label: {tr: Çok uluslu tatbikat, en: Multinational exercise}
+    definition: {tr: "Birden fazla devletin katıldığı tatbikat.", en: "Exercise with more than one participating state."}
+  - code: deployment.announced
+    label: {tr: Konuşlanma (açıklanan), en: Deployment (announced)}
+    definition: {tr: "Resmi olarak duyurulan yabancı kuvvet konuşlanması.", en: "Officially announced foreign force deployment."}
+  - code: deployment.observed
+    label: {tr: Konuşlanma (gözlenen), en: Deployment (observed)}
+    definition: {tr: "Açık kaynaklarla gözlenen konuşlanma (uydu, takip, görüntü).", en: "Deployment observed in open sources (imagery, tracking, footage)."}
+  - code: deployment.withdrawal
+    label: {tr: Çekilme, en: Withdrawal}
+    definition: {tr: "Kuvvetlerin bölgeden çekilmesi.", en: "Withdrawal of forces from an area."}
+  - code: basing.construction
+    label: {tr: Askeri inşaat, en: Military construction}
+    definition: {tr: "Üs/tesis inşası veya genişletilmesi.", en: "Construction or expansion of a base/facility."}
+  - code: basing.agreement
+    label: {tr: Üs anlaşması, en: Basing agreement}
+    definition: {tr: "Üs kullanımı veya askeri varlık anlaşması.", en: "Agreement on base use or military presence."}
+  - code: procurement.contract
+    label: {tr: Silah alım sözleşmesi, en: Procurement contract}
+    definition: {tr: "İmzalanan savunma tedarik sözleşmesi.", en: "Signed defence procurement contract."}
+  - code: procurement.delivery
+    label: {tr: Teslimat, en: Delivery}
+    definition: {tr: "Silah/platform teslimatı.", en: "Delivery of weapons or platforms."}
+  - code: procurement.announcement
+    label: {tr: Tedarik açıklaması, en: Procurement announcement}
+    definition: {tr: "Niyet, talep veya onay (ör. ihracat onayı).", en: "Intent, request or approval (e.g. export approval)."}
+  - code: test.missile
+    label: {tr: Füze testi, en: Missile test}
+    definition: {tr: "Balistik/seyir füzesi test atışı.", en: "Ballistic or cruise missile test launch."}
+  - code: test.weapon
+    label: {tr: Silah testi, en: Weapon test}
+    definition: {tr: "Füze dışı silah sistemi testi.", en: "Test of a non-missile weapon system."}
+  - code: kinetic.airstrike
+    label: {tr: Hava saldırısı, en: Airstrike}
+    definition: {tr: "İnsanlı uçakla saldırı.", en: "Strike by crewed aircraft."}
+  - code: kinetic.drone-strike
+    label: {tr: İHA/SİHA saldırısı, en: Drone strike}
+    definition: {tr: "İnsansız hava aracı veya dolanan mühimmat saldırısı.", en: "Strike by UAV or loitering munition."}
+  - code: kinetic.missile-strike
+    label: {tr: Füze/roket saldırısı, en: Missile or rocket strike}
+    definition: {tr: "Füze, roket veya topçu roketi saldırısı.", en: "Missile, rocket or artillery rocket strike."}
+  - code: kinetic.shelling
+    label: {tr: Topçu atışı, en: Shelling}
+    definition: {tr: "Topçu veya havan atışı.", en: "Artillery or mortar fire."}
+  - code: kinetic.clash
+    label: {tr: Çatışma, en: Armed clash}
+    definition: {tr: "Silahlı gruplar arasında çatışma.", en: "Armed clash between parties."}
+  - code: kinetic.attack
+    label: {tr: Saldırı (EYP/intihar vb.), en: Attack (IED/suicide etc.)}
+    definition: {tr: "Patlayıcı veya asimetrik saldırı.", en: "Explosive or asymmetric attack."}
+  - code: air.airspace-incident
+    label: {tr: Hava sahası olayı, en: Airspace incident}
+    definition: {tr: "Hava sahası/FIR ile ilgili bildirilen olay. Nitelendirme claims[] ile atfedilir.", en: "Reported airspace/FIR incident. Characterization is attributed via claims[]."}
+  - code: air.intercept
+    label: {tr: Önleme, en: Intercept}
+    definition: {tr: "Uçak önleme veya it dalaşı.", en: "Aircraft intercept or engagement."}
+  - code: air.activity
+    label: {tr: Hava faaliyeti, en: Air activity}
+    definition: {tr: "Keşif, devriye, olağandışı uçuş.", en: "ISR, patrol, unusual flight activity."}
+  - code: maritime.incident
+    label: {tr: Deniz olayı, en: Maritime incident}
+    definition: {tr: "Karasuları/deniz yetki alanı ile ilgili olay, taciz, çarpışma.", en: "Territorial-waters/maritime-zone incident, harassment, collision."}
+  - code: maritime.activity
+    label: {tr: Deniz faaliyeti, en: Naval activity}
+    definition: {tr: "Savaş gemisi/denizaltı hareketi, sismik/araştırma gemisi.", en: "Warship/submarine movement, survey vessel activity."}
+  - code: maritime.navtex
+    label: {tr: NAVTEX/NOTAM, en: NAVTEX/NOTAM}
+    definition: {tr: "Yayınlanan NAVTEX, NOTAM veya atış duyurusu.", en: "Published NAVTEX, NOTAM or firing notice."}
+  - code: cyber.incident
+    label: {tr: Siber olay, en: Cyber incident}
+    definition: {tr: "Devlet bağlantılı siber saldırı veya operasyon.", en: "State-linked cyber attack or operation."}
+  - code: diplomatic.statement
+    label: {tr: Resmi açıklama, en: Official statement}
+    definition: {tr: "Savunma/güvenlik ile ilgili resmi açıklama.", en: "Official defence/security statement."}
+  - code: diplomatic.agreement
+    label: {tr: Savunma anlaşması, en: Defence agreement}
+    definition: {tr: "İkili/çok taraflı savunma veya güvenlik anlaşması.", en: "Bilateral/multilateral defence or security agreement."}
+  - code: policy.defense
+    label: {tr: Savunma politikası, en: Defence policy}
+    definition: {tr: "Bütçe, doktrin, yapılanma değişikliği.", en: "Budget, doctrine, force structure change."}
+  - code: other
+    label: {tr: Diğer, en: Other}
+    definition: {tr: "Başka koda uymayan; yeni kod önerisi açılmalı.", en: "Fits no other code; propose a new code."}

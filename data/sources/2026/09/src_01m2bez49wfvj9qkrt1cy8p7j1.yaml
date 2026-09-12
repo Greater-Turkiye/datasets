@@ -1,0 +1,11 @@
+id: src_01m2bez49wfvj9qkrt1cy8p7j1
+schema: source/1
+name:
+  tr: Anadolu Ajansı
+  en: Anadolu Agency
+url: https://www.aa.com.tr/
+source_type: news-agency
+country: TUR
+languages: [tr, en, ar]
+reliability: B
+terms: attribution

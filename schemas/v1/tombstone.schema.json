@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:gt:schema:tombstone:1",
+  "title": "Tombstone",
+  "description": "A withdrawn record. The file and ID stay forever; the content is removed.",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "pattern": "^(evt|act|sit|eqp|src)_[0-7][0-9a-hjkmnp-tv-z]{25}$" },
+    "schema": { "const": "tombstone/1" },
+    "withdrawn_at": { "$ref": "urn:gt:schema:defs:1#/$defs/date" },
+    "reason": { "type": "string", "enum": ["duplicate", "false", "legal", "safety", "personal-data", "out-of-scope", "other"] },
+    "replaced_by": { "type": "string", "pattern": "^(evt|act|sit|eqp|src)_[0-7][0-9a-hjkmnp-tv-z]{25}$" },
+    "note": { "$ref": "urn:gt:schema:defs:1#/$defs/text" }
+  },
+  "required": ["id", "schema", "withdrawn_at", "reason"],
+  "additionalProperties": false
+}

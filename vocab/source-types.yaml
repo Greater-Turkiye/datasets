@@ -1,0 +1,24 @@
+version: 1
+codes:
+  - code: official-government
+    label: {tr: Resmi (hükümet), en: Official (government)}
+  - code: official-military
+    label: {tr: Resmi (askeri), en: Official (military)}
+  - code: news-agency
+    label: {tr: Haber ajansı, en: News agency}
+  - code: media
+    label: {tr: Medya, en: Media}
+  - code: think-tank
+    label: {tr: Düşünce kuruluşu, en: Think tank}
+  - code: academic
+    label: {tr: Akademik, en: Academic}
+  - code: social-media
+    label: {tr: Sosyal medya hesabı, en: Social media account}
+  - code: imagery-provider
+    label: {tr: Uydu görüntüsü sağlayıcı, en: Imagery provider}
+  - code: tracking-service
+    label: {tr: Uçak/gemi takip servisi, en: Flight/ship tracking service}
+  - code: dataset
+    label: {tr: Veri seti, en: Dataset}
+  - code: other
+    label: {tr: Diğer, en: Other}

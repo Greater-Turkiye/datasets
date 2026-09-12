@@ -1,0 +1,72 @@
+# İçerik güvenliği ve inceleme kuralları — tools/gt.py tarafından zorlanır.
+# Content-safety and review rules — enforced by tools/gt.py.
+# Değişiklikler maintainers onayı gerektirir (CODEOWNERS). Changes require maintainer approval.
+version: 1
+
+review:
+  # Faz 1: tek maintainer. Reviewer sayısı >= 3 olunca verified/first_time 2'ye çıkarılır.
+  approvals_default: 1
+  approvals_verified: 1
+  approvals_first_time_contributor: 1
+
+verified:
+  max_credibility: 2
+  min_independent_sources: 2
+  strong_methods: [geolocation, chronolocation, satellite-imagery]
+
+# Kırmızı çizgi: Türk kuvvetlerine ait konum/hareket yayınlanmaz.
+# Red line: no positions/movements of Turkish forces.
+tur_forces_gate:
+  military_actor_kinds: [armed-forces, service-branch, unit, intelligence-agency, security-force, paramilitary]
+  gated_roles: [perpetrator, participant, target, host]
+  allowed_precisions: [admin1, country, sea-area]
+  min_delay_hours: 24
+
+forbidden_keys:
+  - email
+  - e_mail
+  - phone
+  - telephone
+  - mobile
+  - home_address
+  - address
+  - national_id
+  - tc_kimlik
+  - tckn
+  - passport
+  - iban
+  - plate
+  - license_plate
+  - date_of_birth
+  - birth_date
+
+pii_patterns:
+  email: '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}'
+  phone: '(?<!\d)(\+?90[\s-]?)?0?5\d{2}[\s-]?\d{3}[\s-]?\d{2}[\s-]?\d{2}(?!\d)'
+  tc_kimlik: '(?<!\d)[1-9]\d{10}(?!\d)'
+  iban: '\b[A-Z]{2}\d{2}(?:\s?[A-Z0-9]{4}){3,7}\b'
+
+classification_markers:
+  - ÇOK GİZLİ
+  - GİZLİ
+  - HİZMETE ÖZEL
+  - KİŞİYE ÖZEL
+  - TOP SECRET
+  - SECRET
+  - CONFIDENTIAL
+  - NOFORN
+  - COSMIC TOP SECRET
+  - NATO SECRET
+  - NATO CONFIDENTIAL
+  - NATO RESTRICTED
+
+blocked_domains:
+  - bit.ly
+  - tinyurl.com
+  - t.co
+  - goo.gl
+  - ow.ly
+  - is.gd
+  - cutt.ly
+  - shorturl.at
+  - rebrand.ly

@@ -1,0 +1,56 @@
+version: 1
+codes:
+  - code: aircraft.fighter
+    label: {tr: Savaş uçağı, en: Fighter aircraft}
+  - code: aircraft.transport
+    label: {tr: Nakliye uçağı, en: Transport aircraft}
+  - code: aircraft.tanker
+    label: {tr: Tanker uçak, en: Tanker aircraft}
+  - code: aircraft.isr
+    label: {tr: Keşif/gözetleme uçağı, en: ISR aircraft}
+  - code: aircraft.helicopter
+    label: {tr: Helikopter, en: Helicopter}
+  - code: uav.male-hale
+    label: {tr: MALE/HALE İHA, en: MALE/HALE UAV}
+  - code: uav.tactical
+    label: {tr: Taktik İHA, en: Tactical UAV}
+  - code: uav.loitering-munition
+    label: {tr: Dolanan mühimmat, en: Loitering munition}
+  - code: naval.surface-combatant
+    label: {tr: Su üstü muharip gemi, en: Surface combatant}
+  - code: naval.submarine
+    label: {tr: Denizaltı, en: Submarine}
+  - code: naval.amphibious
+    label: {tr: Amfibi gemi, en: Amphibious ship}
+  - code: naval.patrol
+    label: {tr: Karakol gemisi, en: Patrol vessel}
+  - code: naval.auxiliary
+    label: {tr: Yardımcı gemi, en: Auxiliary ship}
+  - code: naval.usv
+    label: {tr: İnsansız deniz aracı, en: Uncrewed surface vessel}
+  - code: land.tank
+    label: {tr: Tank, en: Tank}
+  - code: land.armored-vehicle
+    label: {tr: Zırhlı araç, en: Armoured vehicle}
+  - code: land.artillery
+    label: {tr: Topçu, en: Artillery}
+  - code: land.mlrs
+    label: {tr: Çok namlulu roketatar, en: Multiple rocket launcher}
+  - code: missile.ballistic
+    label: {tr: Balistik füze, en: Ballistic missile}
+  - code: missile.cruise
+    label: {tr: Seyir füzesi, en: Cruise missile}
+  - code: missile.anti-ship
+    label: {tr: Gemisavar füze, en: Anti-ship missile}
+  - code: air-defense.long-range
+    label: {tr: Uzun menzilli hava savunma, en: Long-range air defence}
+  - code: air-defense.medium-range
+    label: {tr: Orta menzilli hava savunma, en: Medium-range air defence}
+  - code: air-defense.short-range
+    label: {tr: Kısa menzilli hava savunma, en: Short-range air defence}
+  - code: sensor.radar
+    label: {tr: Radar, en: Radar}
+  - code: electronic-warfare
+    label: {tr: Elektronik harp, en: Electronic warfare}
+  - code: other
+    label: {tr: Diğer, en: Other}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Bu veri setini kullanırsanız lütfen atıf yapın. / If you use this dataset, please cite it."
+type: dataset
+title: "Greater Türkiye OSINT Datasets"
+abstract: "Open-source, verified, bilingual (TR/EN) records of military and security developments in Türkiye's neighbourhood."
+authors:
+  - name: "Greater Türkiye OSINT community"
+license: CC-BY-4.0
+repository-code: "https://github.com/Greater-Turkiye/datasets"
+keywords: [osint, turkiye, defense, geoint, open-data]

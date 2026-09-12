@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:gt:schema:actor:1",
+  "title": "Actor",
+  "description": "State, armed force, unit, ministry, non-state armed group, company, international organization, or a public official acting in a public role.",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "pattern": "^act_[0-7][0-9a-hjkmnp-tv-z]{25}$" },
+    "schema": { "const": "actor/1" },
+    "name": { "$ref": "urn:gt:schema:defs:1#/$defs/name" },
+    "aliases": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+    "kind": { "$ref": "urn:gt:schema:defs:1#/$defs/code", "description": "vocab/actor-kinds.yaml" },
+    "country": { "$ref": "urn:gt:schema:defs:1#/$defs/country" },
+    "parent": { "$ref": "urn:gt:schema:defs:1#/$defs/ref_act" },
+    "public_role": { "$ref": "urn:gt:schema:defs:1#/$defs/text", "description": "Required when kind is person" },
+    "wikidata": { "$ref": "urn:gt:schema:defs:1#/$defs/wikidata" },
+    "designations": {
+      "description": "Terrorist/sanctions designations, always attributed to the designating state or body.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "by": { "type": "string", "pattern": "^([A-Z]{3}|UN|EU|NATO)$" },
+          "list": { "type": "string", "enum": ["terrorist", "sanctions"] },
+          "since": { "$ref": "urn:gt:schema:defs:1#/$defs/date" }
+        },
+        "required": ["by", "list"],
+        "additionalProperties": false
+      }
+    },
+    "description": { "$ref": "urn:gt:schema:defs:1#/$defs/text" },
+    "sources": { "type": "array", "items": { "$ref": "urn:gt:schema:defs:1#/$defs/citation" } },
+    "tags": { "$ref": "urn:gt:schema:defs:1#/$defs/tags" },
+    "corrections": { "type": "array", "items": { "$ref": "urn:gt:schema:defs:1#/$defs/correction" } }
+  },
+  "required": ["id", "schema", "name", "kind"],
+  "additionalProperties": false
+}

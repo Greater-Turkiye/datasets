@@ -1,0 +1,8 @@
+id: eqp_01m2bez5vjev4bp57n13mr2g61
+schema: equipment/1
+name:
+  tr: Dassault Rafale
+  en: Dassault Rafale
+aliases: [Rafale]
+category: aircraft.fighter
+origin_country: FRA

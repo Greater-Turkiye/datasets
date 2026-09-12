@@ -1,0 +1,23 @@
+id: sit_01m2bez6pmfb69evst2hmrhy5r
+schema: site/1
+name:
+  tr: Suda Deniz Üssü
+  en: Souda Bay Naval Base
+  local: Ναύσταθμος Κρήτης
+aliases: [Souda Bay, NSA Souda Bay]
+site_type: naval-base
+country: GRC
+operators: [act_01m2bez309fvbsw0dd15392bkf]
+location:
+  geometry: {type: Point, coordinates: [24.12, 35.49]}
+  precision: locality
+  uncertainty_m: 5000
+  method: reported
+  place_name: {tr: "Suda Körfezi, Girit", en: "Souda Bay, Crete"}
+regions: [aegean, east-med]
+description:
+  tr: Girit'te, ABD ve NATO unsurlarının da kullandığı kamuya açık bilinen deniz üssü.
+  en: Publicly known naval base on Crete, also used by US and NATO assets.
+sources:
+  - url: https://en.wikipedia.org/wiki/Souda_Bay
+    lang: en

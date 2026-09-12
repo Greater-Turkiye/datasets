@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:gt:schema:equipment:1",
+  "title": "Equipment type",
+  "description": "A platform or weapon TYPE (e.g. F-35A, S-400), not an individual airframe/hull.",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "pattern": "^eqp_[0-7][0-9a-hjkmnp-tv-z]{25}$" },
+    "schema": { "const": "equipment/1" },
+    "name": { "$ref": "urn:gt:schema:defs:1#/$defs/name" },
+    "aliases": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+    "category": { "$ref": "urn:gt:schema:defs:1#/$defs/code", "description": "vocab/equipment-categories.yaml" },
+    "origin_country": { "$ref": "urn:gt:schema:defs:1#/$defs/country" },
+    "manufacturer": { "$ref": "urn:gt:schema:defs:1#/$defs/ref_act" },
+    "variant_of": { "$ref": "urn:gt:schema:defs:1#/$defs/ref_eqp" },
+    "wikidata": { "$ref": "urn:gt:schema:defs:1#/$defs/wikidata" },
+    "description": { "$ref": "urn:gt:schema:defs:1#/$defs/text" },
+    "sources": { "type": "array", "items": { "$ref": "urn:gt:schema:defs:1#/$defs/citation" } },
+    "tags": { "$ref": "urn:gt:schema:defs:1#/$defs/tags" },
+    "corrections": { "type": "array", "items": { "$ref": "urn:gt:schema:defs:1#/$defs/correction" } }
+  },
+  "required": ["id", "schema", "name", "category"],
+  "additionalProperties": false
+}

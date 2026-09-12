@@ -1,0 +1,31 @@
+# ÖRNEK KAYIT — KURGUSALDIR. EXAMPLE RECORD — FICTIONAL.
+id: evt_01m2bez7e7ef3a0fvh5nan5jng
+schema: event/1
+event_type: exercise.naval
+title:
+  tr: "ÖRNEK: Yunan Deniz Kuvvetleri Doğu Akdeniz'de atışlı tatbikat duyurdu"
+  en: "EXAMPLE: Hellenic Navy announces live-fire exercise in the Eastern Mediterranean"
+summary:
+  tr: "Kurgusal örnek. Tatbikat alanı yalnızca deniz alanı hassasiyetinde kaydedilmiştir."
+  en: "Fictional example. The exercise area is recorded at sea-area precision only."
+time:
+  start: 2026-09-05T06:00Z
+  end: 2026-09-07T18:00Z
+  precision: day
+  basis: reported
+location:
+  precision: sea-area
+  method: reported
+  place_name: {tr: Girit'in güneyi, en: South of Crete}
+regions: [east-med]
+countries: [GRC]
+actors:
+  - {ref: act_01m2bez309fvbsw0dd15392bkf, role: participant}   # Hellenic Navy
+sites: [sit_01m2bez6pmfb69evst2hmrhy5r]
+sources:
+  - url: https://example.org/ornek-navtex
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+tags: [example]
