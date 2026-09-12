@@ -479,12 +479,15 @@ def cmd_build(args) -> int:
     out = ROOT / "dist"
     out.mkdir(exist_ok=True)
     by_kind: dict[str, list[dict]] = {k: [] for k in list(KINDS) + ["tombstone"]}
+    examples: list[dict] = []
     for rid in sorted(records):
         rec = records[rid]
         if rec.base == "data":
             by_kind[rec.kind].append(rec.data)
-    for kind, rows in by_kind.items():
-        name = "withdrawn" if kind == "tombstone" else kind
+        else:
+            examples.append(rec.data)
+    # examples.jsonl holds fictional records for demos only; consumers must label them as such
+    for name, rows in [("withdrawn" if k == "tombstone" else k, v) for k, v in by_kind.items()] + [("examples", examples)]:
         with open(out / f"{name}.jsonl", "w", encoding="utf-8", newline="\n") as f:
             for row in rows:
                 f.write(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n")

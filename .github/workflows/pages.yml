@@ -1,0 +1,57 @@
+name: pages
+
+# Publishes the build exports (dist/) to https://greater-turkiye.github.io/datasets/
+# so the web panel can read them from the same origin.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python tools/gt.py build
+      - name: Index page
+        run: |
+          {
+            echo '<!doctype html><meta charset="utf-8"><title>Greater Türkiye — datasets export</title>'
+            echo '<h1>Greater Türkiye — datasets export</h1><ul>'
+            for f in dist/*; do n=$(basename "$f"); echo "<li><a href=\"$n\">$n</a></li>"; done
+            echo '</ul><p>CC BY 4.0 · <a href="https://github.com/Greater-Turkiye/datasets">source</a></p>'
+          } > "$RUNNER_TEMP/index.html"
+          mv "$RUNNER_TEMP/index.html" dist/index.html
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
