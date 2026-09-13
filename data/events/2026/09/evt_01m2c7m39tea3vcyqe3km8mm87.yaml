@@ -25,7 +25,10 @@ sources:
     url: https://tass.com/defense/2168487
     title: Kazakhstan to hold drills with troop redeployment in August, September
     lang: en
-    archives: []
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260804060901/https://tass.com/defense/2168487
+        captured_at: 2026-08-04T06:09:01Z
   - ref: src_01m2c7mcrseg08fbe73r38p4vj  # Caspian Post
     url: https://caspianpost.com/kazakhstan/kazakhstan-launches-nationwide-troop-deployment-for-military-drills
     title: Kazakhstan Launches Nationwide Troop Deployment for Military Drills

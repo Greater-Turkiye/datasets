@@ -22,12 +22,18 @@ sources:
     title: Bulgaria, Romania and Spain Sign Agreement for NATO Cross-Border Air Policing Operations
     published_at: 2026-08-06T13:52Z
     lang: en
-    archives: []
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260807031154/https://www.bta.bg/en/news/world/1180894-bulgaria-romania-and-spain-sign-agreement-for-nato-cross-border-air-policing-op
+        captured_at: 2026-08-07T03:11:54Z
   - ref: src_01m2c7mc03fr4rfm6d7v6r35rv  # The Sofia Globe
     url: https://sofiaglobe.com/2026/08/06/romanian-bulgarian-spanish-air-forces-sign-air-policing-agreement/
     title: Romanian, Bulgarian, Spanish air forces sign air policing agreement
     lang: en
-    archives: []
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260913021535/https://sofiaglobe.com/2026/08/06/romanian-bulgarian-spanish-air-forces-sign-air-policing-agreement/
+        captured_at: 2026-09-13T02:15:35Z
 assessment:
   status: unverified
   credibility: 2
