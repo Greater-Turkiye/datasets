@@ -1,0 +1,9 @@
+id: act_01m2c7m59kf02t527qy1qzf41e
+schema: actor/1
+name:
+  tr: İsrail Savunma Bakanlığı
+  en: Israel Ministry of Defense
+  local: משרד הביטחון
+aliases: [IMOD]
+kind: ministry
+country: ISR

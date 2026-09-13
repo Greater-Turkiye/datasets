@@ -1,0 +1,40 @@
+id: evt_01m2c7m39tea3vcyqe3km8mm87
+schema: event/1
+event_type: exercise.military
+title:
+  tr: "Kazakistan Savunma Bakanlığı, 'Batyl Toitarys-2026' tatbikatı için ülke genelinde birlik intikali duyurdu"
+  en: "Kazakhstan's Defence Ministry announced nationwide troop movements for exercise 'Batyl Toitarys-2026'"
+summary:
+  tr: "TASS ve Caspian Post'un aktardığı Kazakistan Savunma Bakanlığı açıklamasına göre, 'Batyl Toitarys-2026' ('Kararlı Püskürtme') stratejik komuta-kurmay tatbikatı kapsamında silah, askerî teçhizat ve personel Ağustos ve Eylül 2026 boyunca ülke genelindeki eğitim sahalarına demiryolu, karayolu konvoyları ve hava araçlarıyla intikal ettirilecek. Bakanlık 3 Ağustos'ta yaptığı açıklamada tatbikatın kara, hava, deniz ve siber alanda birlik intikali ile kuvvetler arası koordinasyonu sınamayı amaçladığını belirtti. Yabancı katılımdan söz edilmedi."
+  en: "According to a Kazakh Defence Ministry statement reported by TASS and Caspian Post, weapons, military equipment and personnel will be moved to training areas across the country during August and September 2026 by rail, road convoys and aircraft for the 'Batyl Toitarys-2026' ('Decisive Repulse') strategic command-and-staff exercise. In its 3 August statement the ministry said the exercise would test troop deployment and inter-service coordination on land, in the air, at sea and in cyberspace. No foreign participation was mentioned."
+time:
+  start: 2026-08-03T00:00Z
+  precision: day
+  basis: reported
+location:
+  precision: country
+  method: reported
+  place_name: {tr: Kazakistan, en: Kazakhstan}
+regions: [central-asia]
+countries: [KAZ]
+actors:
+  - {ref: act_01m2c7m7b8f22awb8nks7pg1tc, role: participant}   # Kazakhstan MoD
+  - {ref: act_01m2c7m7b8f22awb8nks7pg1tc, role: reporter}
+sources:
+  - ref: src_01m2c7mccce46rpdb7a8h6w6wg
+    url: https://tass.com/defense/2168487
+    title: "Kazakhstan to hold drills with troop redeployment in August, September"
+    lang: en
+    archives: []
+  - ref: src_01m2c7mcrseg08fbe73r38p4vj
+    url: https://caspianpost.com/kazakhstan/kazakhstan-launches-nationwide-troop-deployment-for-military-drills
+    title: "Kazakhstan Launches Nationwide Troop Deployment for Military Drills"
+    lang: en
+    archives: []
+assessment:
+  status: unverified
+  credibility: 2
+  method: [official-statement]
+  note:
+    tr: "Başlangıç, bakanlığın duyuru tarihidir; tatbikatın kesin başlangıç ve bitiş tarihleri açıklanmadı. İki yayın organı aynı bakanlık açıklamasına dayanıyor."
+    en: "The start is the ministry's announcement date; exact exercise start and end dates were not given. Both outlets rely on the same ministry statement."

@@ -1,0 +1,14 @@
+id: src_01m2c7macyfj3a9qggd1kw88zw
+schema: source/1
+name:
+  tr: "Cyprus Mail"
+  en: "Cyprus Mail"
+url: https://cyprus-mail.com/
+source_type: media
+country: CYP
+languages: [en]
+reliability: F
+terms: attribution
+description:
+  tr: "Güney Kıbrıs'ta yayımlanan İngilizce gazete; GKRY makamlarının açıklamalarını sıkça aktarır. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
+  en: "English-language newspaper published in the Greek Cypriot south; often relays Greek Cypriot official statements. New source: default reliability F pending maintainer review."

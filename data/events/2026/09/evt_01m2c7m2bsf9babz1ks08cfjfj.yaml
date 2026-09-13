@@ -1,0 +1,51 @@
+id: evt_01m2c7m2bsf9babz1ks08cfjfj
+schema: event/1
+event_type: kinetic.missile-strike
+title:
+  tr: "BAE Savunma Bakanlığı: İran'dan fırlatılan iki balistik füze denize düştü; İran suçlamayı reddetti"
+  en: "UAE Defence Ministry said two ballistic missiles launched from Iran fell into the sea; Iran rejected the accusation"
+summary:
+  tr: "BAE Savunma Bakanlığı'na göre 18 Ağustos 2026'da hava savunma sistemleri İran'dan gelen iki balistik füze tespit etti; füzelerden biri BAE karasuları dışına, diğeri içine düştü. Bakanlık daha sonra yaptığı değerlendirmede füzelerin deniz seyrüseferini hedef aldığını açıkladı. Al Jazeera'ya göre İran Dışişleri Bakanlığı Sözcüsü suçlamayı 'asılsız' olarak reddetti ve olayı 'sahte bayrak operasyonu' olarak niteledi; BAE Dışişleri Bakanlığı ise 19 Ağustos'ta İran ile ticareti süresiz olarak durdurduğunu duyurdu. Fırlatma yeri ve fail bağımsız olarak doğrulanmadı."
+  en: "According to the UAE Ministry of Defence, its air defences detected two ballistic missiles coming from Iran on 18 August 2026; one fell outside UAE territorial waters and the other inside them. In a later assessment the ministry said the missiles had targeted maritime navigation. According to Al Jazeera, Iran's foreign ministry spokesperson rejected the accusation as 'baseless' and called it a 'false flag operation'; the UAE foreign ministry announced an indefinite halt to trade with Iran on 19 August. The launch point and perpetrator have not been independently verified."
+time:
+  start: 2026-08-18T00:00Z
+  precision: day
+  basis: reported
+location:
+  precision: sea-area
+  method: reported
+  place_name: {tr: "BAE kıyı açıkları (karasuları içi ve dışı)", en: "Off the UAE coast (inside and outside territorial waters)"}
+regions: [gulf-red-sea, iran]
+countries: [ARE, IRN]
+actors:
+  - {ref: act_01m2c7m63ff2nttenpg2mkyn43, role: claimant}   # UAE MoD
+  - {ref: act_01m2c7m6gje9dad794298z38bh, role: claimant}   # Iran MFA
+claims:
+  - by: act_01m2c7m6gje9dad794298z38bh
+    characterization: disinformation
+    source: 1
+    note:
+      tr: "İran Dışişleri Bakanlığı Sözcüsü BAE'nin suçlamasını 'asılsız' ve 'sahte bayrak operasyonu' olarak nitelendirdi."
+      en: "Iran's foreign ministry spokesperson called the UAE accusation 'baseless' and a 'false flag operation'."
+sources:
+  - ref: src_01m2c7mb6yepfb9h25ztbkck4t
+    url: https://qna.org.qa/en/News-Area/News/2026-8/19/uae-ministry-of-defense-two-missiles-from-iran-targeted-maritime-navigation
+    title: "UAE Ministry of Defense: Two Missiles from Iran Targeted Maritime Navigation"
+    lang: en
+    archives:
+      - {service: wayback, url: https://web.archive.org/web/20260913021202/https://qna.org.qa/en/News-Area/News/2026-8/19/uae-ministry-of-defense-two-missiles-from-iran-targeted-maritime-navigation, captured_at: 2026-09-13T02:12:02Z}
+  - ref: src_01m2c7m9jvf02sjm7wbzmh04jz
+    url: https://www.aljazeera.com/news/2026/8/19/uae-imposes-indefinite-trade-embargo-on-iran-over-alleged-missile-attacks
+    title: "UAE imposes indefinite trade embargo on Iran over alleged missile attacks"
+    lang: en
+    archives:
+      - {service: wayback, url: https://web.archive.org/web/20260913021249/https://www.aljazeera.com/news/2026/8/19/uae-imposes-indefinite-trade-embargo-on-iran-over-alleged-missile-attacks, captured_at: 2026-09-13T02:12:49Z}
+assessment:
+  status: disputed
+  credibility: 3
+  method: [official-statement]
+  note:
+    tr: "BAE'nin anlatımı İran tarafından reddedildi; proje taraf tutmaz. Olay türü BAE'nin anlatımını yansıtır."
+    en: "The UAE account is rejected by Iran; the project takes no side. The event type reflects the UAE account."
+policy:
+  sensitivity: elevated

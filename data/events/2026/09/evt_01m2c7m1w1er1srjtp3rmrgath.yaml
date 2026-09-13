@@ -1,0 +1,54 @@
+id: evt_01m2c7m1w1er1srjtp3rmrgath
+schema: event/1
+event_type: exercise.multinational
+title:
+  tr: "Yunanistan, Mısır, Fransa, İtalya ve GKRY kuvvetleri Girit açıklarında MEDUSA 2026 tatbikatına katıldı"
+  en: "Forces from Greece, Egypt, France, Italy and the Greek Cypriot Administration took part in exercise MEDUSA 2026 off Crete"
+summary:
+  tr: "Cyprus Mail'e göre çok uluslu MEDUSA 2026 tatbikatı kapsamında 10 Eylül 2026'da Girit'in güneyinde Yunanistan, Mısır, Fransa, İtalya ve GKRY kuvvetlerinin katıldığı deniz ve hava faaliyetleri yapıldı; tatbikat alanı Yunanistan'ın güneydoğu Girit Denizi için yayımladığı NAVTEX ile ayrıldı. Yunan Deniz Kuvvetleri Hidrografi Dairesi'nin 10 Eylül'de yayımladığı NAVTEX'lere göre aynı tatbikat kapsamında 16 Eylül'de Mirtoa Denizi'ndeki Karavia atış sahasında 05.00-09.00 UTC arası atışlı eğitim ve 12.30-14.30 UTC arası hava tatbikatı, 17 Eylül 00.01 UTC ile 19 Eylül 12.00 UTC arasında ise Kuzey Girit Denizi'nde bir demirleme sahası duyuruldu."
+  en: "According to Cyprus Mail, naval and air activities of the multinational exercise MEDUSA 2026 took place south of Crete on 10 September 2026 with forces from Greece, Egypt, France, Italy and the Greek Cypriot Administration; the area was reserved through a Greek NAVTEX for the south-eastern Cretan Sea. NAVTEX notices published by the Hellenic Navy Hydrographic Service on 10 September announced, for the same exercise, live firing in the Karavia firing practice area in the Myrtoan Sea on 16 September (05:00-09:00 UTC), an air exercise there the same day (12:30-14:30 UTC) and an anchorage area in the northern Cretan Sea from 00:01 UTC on 17 September to 12:00 UTC on 19 September."
+time:
+  start: 2026-09-10T00:00Z
+  end: 2026-09-19T12:00Z
+  precision: day
+  basis: reported
+location:
+  precision: sea-area
+  method: reported
+  place_name: {tr: "Girit çevresi (Girit Denizi, Mirtoa Denizi)", en: "Around Crete (Cretan Sea, Myrtoan Sea)"}
+regions: [aegean, east-med]
+countries: [GRC, EGY, FRA, ITA, CYP]
+actors:
+  - {ref: act_01m2bez309fvbsw0dd15392bkf, role: reporter}   # Hellenic Navy (NAVTEX via its Hydrographic Service)
+sources:
+  - ref: src_01m2c7macyfj3a9qggd1kw88zw
+    url: https://cyprus-mail.com/2026/09/10/cyprus-participates-in-medusa-military-exercise-south-of-crete
+    title: "Cyprus participates in Medusa military exercise south of Crete"
+    lang: en
+    archives:
+      - {service: wayback, url: https://web.archive.org/web/20260913020749/https://cyprus-mail.com/2026/09/10/cyprus-participates-in-medusa-military-exercise-south-of-crete, captured_at: 2026-09-13T02:07:49Z}
+  - ref: src_01m2c7maswet3b4yyazqwtqzs0
+    url: https://hnhs.gr/en/1072-2026-myrtoo-sea-activation-of-firing-practice-area-karavia-multinational-exercise-medusa-2026-live-firing/
+    title: "1072/2026 - Myrtoo Sea. Activation of firing practice area Karavia. Multinational exercise MEDUSA 2026 live firing"
+    lang: en
+    archives:
+      - {service: wayback, url: https://web.archive.org/web/20260913020829/https://hnhs.gr/en/1072-2026-myrtoo-sea-activation-of-firing-practice-area-karavia-multinational-exercise-medusa-2026-live-firing/, captured_at: 2026-09-13T02:08:29Z}
+  - ref: src_01m2c7maswet3b4yyazqwtqzs0
+    url: https://hnhs.gr/en/1073-2026-myrtoo-sea-multinational-aeronautical-exercise-medusa-2026/
+    title: "1073/2026 - Myrtoo Sea. Multinational aeronautical exercise MEDUSA 2026"
+    lang: en
+    archives:
+      - {service: wayback, url: https://web.archive.org/web/20260913020918/https://hnhs.gr/en/1073-2026-myrtoo-sea-multinational-aeronautical-exercise-medusa-2026/, captured_at: 2026-09-13T02:09:18Z}
+  - ref: src_01m2c7maswet3b4yyazqwtqzs0
+    url: https://hnhs.gr/en/1074-2026-north-creatn-sea-multinational-exercise-medusa-2026-anchorage-area/
+    title: "1074/2026 - North Cretan Sea. Multinational exercise MEDUSA 2026 anchorage area"
+    lang: en
+    archives:
+      - {service: wayback, url: https://web.archive.org/web/20260913021102/https://hnhs.gr/en/1074-2026-north-creatn-sea-multinational-exercise-medusa-2026-anchorage-area/, captured_at: 2026-09-13T02:11:02Z}
+assessment:
+  status: unverified
+  credibility: 2
+  method: [official-statement, document]
+  note:
+    tr: "Başlangıç tarihi, 10 Eylül 2026 (Perşembe) tarihli haberdeki 'perşembe' ifadesine dayanıyor. Bitiş, NAVTEX ile duyurulan son MEDUSA 2026 faaliyetinin (demirleme sahası) bitişidir; tatbikatın resmî bitiş tarihi doğrulanmadı. 16-19 Eylül faaliyetleri duyuru niteliğindedir."
+    en: "Start date rests on 'on Thursday' in the article dated Thursday 10 September 2026. The end is the end of the last NAVTEX-announced MEDUSA 2026 activity (anchorage area); the official end of the exercise was not confirmed. The 16-19 September activities are announcements."

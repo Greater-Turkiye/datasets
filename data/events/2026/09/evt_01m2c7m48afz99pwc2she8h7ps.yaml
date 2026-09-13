@@ -1,0 +1,53 @@
+id: evt_01m2c7m48afz99pwc2she8h7ps
+schema: event/1
+event_type: basing.agreement
+title:
+  tr: "Suriye ve Rusya, Hmeymim ve Tartus'taki Rus askerî varlığını yeniden düzenleyen mutabakat zaptı imzaladı"
+  en: "Syria and Russia signed a memorandum reorganising the Russian military presence at Hmeimim and Tartus"
+summary:
+  tr: "Suriye Dışişleri Bakanlığı'nın 9 Ağustos 2026'daki açıklamasına göre (SANA), yaklaşık 18 aylık müzakerelerin ardından Suriye ile Rusya, Rusya'nın Suriye kıyısındaki varlığını yeniden düzenleyen bir mutabakat zaptına vardı. Açıklamaya göre Suriye, Hmeymim Havalimanı ve Tartus Limanı'nın dördüncü ticari rıhtımı dahil sivil kullanıma ayrılan tesislerin yönetimini devralacak; askerî amaçla kullanılan Rus üsleri ortak eğitim ve yeterlilik merkezlerine dönüştürülecek ve geçiş en geç üç ay içinde tamamlanacak. The Moscow Times'ın aktardığına göre Rusya Dışişleri Bakanlığı, 9 Ağustos'ta imzalanan mutabakatı askerî alanda ikili işbirliğini geliştirmeye yönelik önemli bir adım olarak nitelendirdi."
+  en: "According to a statement by the Syrian Ministry of Foreign Affairs on 9 August 2026 (SANA), Syria and Russia reached a memorandum reorganising Russia's presence on the Syrian coast after about 18 months of negotiations. According to the statement, Syria will take over management of facilities designated for civilian use, including Hmeimim Airport and the fourth commercial berth at Tartus port; Russian military bases will be turned into joint training and qualification centres, and the transition is to be completed within three months. According to The Moscow Times, the Russian Foreign Ministry described the memorandum signed on 9 August as an important step towards improving bilateral military cooperation."
+time:
+  start: 2026-08-09T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-08-09T12:27Z
+location:
+  precision: country
+  method: reported
+  place_name: {tr: "Suriye kıyısı (Hmeymim ve Tartus)", en: "Syrian coast (Hmeimim and Tartus)"}
+regions: [syria, east-med]
+countries: [SYR, RUS]
+actors:
+  - {ref: act_01m2c7m8e8fmy8gx2yjfh04c8y, role: host}          # Syrian MFA
+  - {ref: act_01m2c7m8e8fmy8gx2yjfh04c8y, role: reporter}
+  - {ref: act_01m2c7m8svemr8bdq8emxz3y5e, role: participant}   # Russian MFA
+sources:
+  - ref: src_01m2c7mdg3ekb9qfhbj79zcnpk
+    url: https://sana.sy/en/syria/2335254/
+    title: "Syria, Russia agree to reorganize Russian military presence under new memorandum"
+    published_at: 2026-08-09T12:27Z
+    lang: en
+    archives: []
+  - ref: src_01m2c7me90ekrap0w2mgn2gsjh
+    url: https://www.themoscowtimes.com/2026/08/09/syria-russia-reach-deal-on-future-of-tartous-and-hmeimim-bases-after-18-months-of-talks-a93444
+    title: "Russia Says Syria Base Deal Will Boost Ties, Source Says Some Russian Forces Will Stay"
+    lang: en
+    archives: []
+  - ref: src_01m2c7mdw5e6bbh6ypp2v3nygb
+    url: https://www.arabnews.com/node/2653994/middle-east
+    title: "Syria, Russia reach deal to transfer civilian sites, convert military bases"
+    lang: en
+    archives: []
+  - ref: src_01m2c7m9jvf02sjm7wbzmh04jz
+    url: https://www.aljazeera.com/news/2026/8/9/syria-says-it-reached-deal-with-moscow-on-future-of-russian-bases
+    title: "Syria says it reached deal with Moscow on future of Russian bases"
+    lang: en
+    archives: []
+assessment:
+  status: unverified
+  credibility: 2
+  method: [official-statement, multiple-independent-sources]
+  note:
+    tr: "Anlaşmanın varlığı iki tarafın resmî açıklamalarıyla örtüşüyor. Kalacak Rus kuvvetlerine ilişkin bilgi isimsiz bir kaynağa dayandığı için özete alınmadı. SANA yayın saati sayfadaki 15.27'den (Şam, UTC+3) çevrildi."
+    en: "The existence of the agreement is consistent across both parties' official statements. A report on Russian forces remaining, based on an unnamed source, was left out of the summary. SANA publication time converted from 15:27 Damascus time (UTC+3)."

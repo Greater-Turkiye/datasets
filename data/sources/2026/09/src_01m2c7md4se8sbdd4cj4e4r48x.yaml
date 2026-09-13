@@ -1,0 +1,14 @@
+id: src_01m2c7md4se8sbdd4cj4e4r48x
+schema: source/1
+name:
+  tr: "Armenpress"
+  en: "Armenpress"
+url: https://armenpress.am/
+source_type: news-agency
+country: ARM
+languages: [hy, en]
+reliability: F
+terms: attribution
+description:
+  tr: "Ermenistan devlet haber ajansı. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
+  en: "Armenian state news agency. New source: default reliability F pending maintainer review."

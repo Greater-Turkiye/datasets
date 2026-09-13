@@ -1,0 +1,37 @@
+id: evt_01m2c7m0zgfdcaaahx6kzaw6tr
+schema: event/1
+event_type: exercise.multinational
+title:
+  tr: "GKRY, Yunanistan, ABD, İtalya ve Almanya savaş gemileri Leymosun açıklarında 'Cyprus Arrow' tatbikatı yaptı"
+  en: "Warships from the Greek Cypriot Administration, Greece, the US, Italy and Germany held exercise 'Cyprus Arrow' off Limassol"
+summary:
+  tr: "Cyprus Mail'in aktardığı Rum Millî Muhafız Ordusu açıklamasına göre, 17 Ağustos 2026'da Leymosun'un (Limasol) güneyindeki sularda 'Cyprus Arrow' adlı çok uluslu bir deniz tatbikatı yapıldı. Tatbikata Rum Millî Muhafız Ordusu'na ait Ioannides açık deniz karakol gemisi, Yunan fırkateyni Nikiforos Fokas, ABD muhribi Paul Ignatius, İtalyan fırkateyni Carabiniere ve Alman fırkateyni Baden-Württemberg katıldı. Açıklama 20 Ağustos'ta yapıldı; bilgi tek bir yayın organına dayanıyor."
+  en: "According to a Greek Cypriot National Guard statement reported by Cyprus Mail, a multinational naval exercise named 'Cyprus Arrow' took place in waters south of Limassol on 17 August 2026. Participants were the National Guard offshore patrol vessel Ioannides, the Greek frigate Nikiforos Fokas, the US destroyer Paul Ignatius, the Italian frigate Carabiniere and the German frigate Baden-Württemberg. The statement was released on 20 August; the information rests on a single outlet."
+time:
+  start: 2026-08-17T00:00Z
+  precision: day
+  basis: reported
+location:
+  precision: sea-area
+  method: reported
+  place_name: {tr: "Leymosun'un (Limasol) güneyi", en: "South of Limassol"}
+regions: [cyprus, east-med]
+countries: [CYP, GRC, USA, ITA, DEU]
+actors:
+  - {ref: act_01m2bez2myedeb6tydgpdte1qw, role: participant}   # Greek Cypriot National Guard
+  - {ref: act_01m2bez2myedeb6tydgpdte1qw, role: reporter}
+  - {ref: act_01m2bez309fvbsw0dd15392bkf, role: participant}   # Hellenic Navy
+sources:
+  - ref: src_01m2c7macyfj3a9qggd1kw88zw
+    url: https://cyprus-mail.com/2026/08/20/four-nations-join-forces-with-cyprus-for-joint-naval-exercise
+    title: "Four nations join forces with Cyprus for joint naval exercise"
+    lang: en
+    archives:
+      - {service: wayback, url: https://web.archive.org/web/20260913020635/https://cyprus-mail.com/2026/08/20/four-nations-join-forces-with-cyprus-for-joint-naval-exercise, captured_at: 2026-09-13T02:06:35Z}
+assessment:
+  status: unverified
+  credibility: 3
+  method: [official-statement]
+  note:
+    tr: "Tarih, 20 Ağustos 2026 (Perşembe) tarihli haberdeki 'pazartesi' ifadesinden türetildi."
+    en: "Date derived from 'on Monday' in the article dated Thursday 20 August 2026."

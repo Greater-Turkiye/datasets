@@ -1,0 +1,14 @@
+id: src_01m2c7mc03fr4rfm6d7v6r35rv
+schema: source/1
+name:
+  tr: "The Sofia Globe"
+  en: "The Sofia Globe"
+url: https://sofiaglobe.com/
+source_type: media
+country: BGR
+languages: [en]
+reliability: F
+terms: attribution
+description:
+  tr: "Sofya merkezli İngilizce haber sitesi. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
+  en: "Sofia-based English-language news site. New source: default reliability F pending maintainer review."

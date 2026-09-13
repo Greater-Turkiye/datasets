@@ -1,0 +1,14 @@
+id: src_01m2c7mb6yepfb9h25ztbkck4t
+schema: source/1
+name:
+  tr: "Katar Haber Ajansı (QNA)"
+  en: "Qatar News Agency (QNA)"
+url: https://qna.org.qa/
+source_type: news-agency
+country: QAT
+languages: [ar, en]
+reliability: F
+terms: attribution
+description:
+  tr: "Katar devlet haber ajansı. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
+  en: "Qatari state news agency. New source: default reliability F pending maintainer review."

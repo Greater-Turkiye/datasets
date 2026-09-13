@@ -1,0 +1,14 @@
+id: src_01m2c7ma1qe2hbgrf6acd8940p
+schema: source/1
+name:
+  tr: "Jewish Telegraphic Agency (JTA)"
+  en: "Jewish Telegraphic Agency (JTA)"
+url: https://www.jta.org/
+source_type: news-agency
+country: USA
+languages: [en]
+reliability: F
+terms: attribution
+description:
+  tr: "ABD merkezli haber ajansı. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
+  en: "US-based news agency. New source: default reliability F pending maintainer review."

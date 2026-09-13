@@ -1,0 +1,36 @@
+id: evt_01m2c7m1dqevwbdhjetgshg74r
+schema: event/1
+event_type: exercise.multinational
+title:
+  tr: "GKRY ve Yunanistan, Doğu Akdeniz'de 'Salamis-03/26' arama-kurtarma tatbikatı yaptı"
+  en: "The Greek Cypriot Administration and Greece held search-and-rescue exercise 'Salamis-03/26' in the Eastern Mediterranean"
+summary:
+  tr: "Larnaka Ortak Kurtarma Koordinasyon Merkezi'nin (JRCC) açıklamasına göre, 2 Eylül 2026'da Doğu Akdeniz'de 'Salamis-03/26' adlı ortak arama-kurtarma tatbikatı yapıldı; tatbikat Larnaka JRCC tarafından Yunan Deniz Kuvvetleri Komutanlığı ile işbirliği içinde koordine edildi. Cyprus Mail'e göre Yunan fırkateynleri Nikiforos Fokas ve Hydra, Rum Millî Muhafız Ordusu'nun Ioannidis karakol gemisi ve 460. Arama-Kurtarma Filosu'na ait bir helikopter, Rum polisine ait bir helikopter ve bir sağlık tahliye (MEDEVAC) ekibi katıldı."
+  en: "According to the Larnaca Joint Rescue Coordination Centre (JRCC), a joint search-and-rescue exercise named 'Salamis-03/26' took place in the Eastern Mediterranean on 2 September 2026, coordinated by the Larnaca JRCC in cooperation with the Hellenic Navy General Staff. According to Cyprus Mail, participants included the Greek frigates Nikiforos Fokas and Hydra, the National Guard patrol vessel Ioannidis and a helicopter of its 460 Search and Rescue Squadron, a Greek Cypriot police helicopter and a medical evacuation (MEDEVAC) team."
+time:
+  start: 2026-09-02T00:00Z
+  precision: day
+  basis: reported
+location:
+  precision: sea-area
+  method: reported
+  place_name: {tr: Doğu Akdeniz, en: Eastern Mediterranean}
+regions: [cyprus, east-med]
+countries: [CYP, GRC]
+actors:
+  - {ref: act_01m2bez2myedeb6tydgpdte1qw, role: participant}   # Greek Cypriot National Guard
+  - {ref: act_01m2bez309fvbsw0dd15392bkf, role: participant}   # Hellenic Navy
+sources:
+  - ref: src_01m2c7macyfj3a9qggd1kw88zw
+    url: https://cyprus-mail.com/2026/09/04/cyprus-and-greece-hold-joint-search-and-rescue-exercise-2
+    title: "Cyprus and Greece hold joint search and rescue exercise"
+    lang: en
+    archives:
+      - {service: wayback, url: https://web.archive.org/web/20260913020713/https://cyprus-mail.com/2026/09/04/cyprus-and-greece-hold-joint-search-and-rescue-exercise-2, captured_at: 2026-09-13T02:07:13Z}
+assessment:
+  status: unverified
+  credibility: 3
+  method: [official-statement]
+  note:
+    tr: "Tarih, 4 Eylül 2026 (Cuma) tarihli haberdeki 'çarşamba' ifadesinden türetildi. Kaynak, tatbikat alanını GKRY'nin arama-kurtarma sorumluluk sahası olarak tanımlıyor; bu nitelendirme projeye ait değildir."
+    en: "Date derived from 'on Wednesday' in the article dated Friday 4 September 2026. The source describes the area as the Greek Cypriot search-and-rescue area of responsibility; that characterization is not the project's."

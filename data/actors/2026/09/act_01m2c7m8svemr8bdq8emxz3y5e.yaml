@@ -1,0 +1,9 @@
+id: act_01m2c7m8svemr8bdq8emxz3y5e
+schema: actor/1
+name:
+  tr: Rusya Dışişleri Bakanlığı
+  en: Ministry of Foreign Affairs of Russia
+  local: Министерство иностранных дел Российской Федерации
+aliases: [Russian MFA]
+kind: ministry
+country: RUS
