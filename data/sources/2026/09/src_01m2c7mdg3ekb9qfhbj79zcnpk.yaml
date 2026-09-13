@@ -7,8 +7,8 @@ url: https://sana.sy/
 source_type: news-agency
 country: SYR
 languages: [ar, en]
-reliability: F
+reliability: C
 terms: attribution
 description:
-  tr: "Suriye devlet haber ajansı; Suriye hükümetinin açıklamalarını aktarır. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
-  en: "Syrian state news agency; carries Syrian government statements. New source: default reliability F pending maintainer review."
+  tr: Suriye devlet haber ajansı; çatışmaların tarafı olan hükümetin denetiminde olduğu için C, Suriye hükümetinin açıklamaları için kullanılır ve iddiaları claims[] ile atfedilmelidir.
+  en: Syria's state news agency; rated C because it is controlled by a government that is a party to conflicts, so it is used for Syrian government statements whose claims must be attributed via claims[].

@@ -7,8 +7,8 @@ url: https://hnhs.gr/
 source_type: official-military
 country: GRC
 languages: [el, en]
-reliability: F
+reliability: B
 terms: attribution
 description:
-  tr: "Yunanistan'ın yayımladığı NAVTEX metinleri. Olgusal duyurular için birincil kaynak; alan/yetki nitelendirmeleri Yunan tarafına atfedilir. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
-  en: "NAVTEX texts issued by Greece. Primary source for factual notices; area/jurisdiction characterizations are attributed to the Greek side. New source: default reliability F pending maintainer review."
+  tr: Yunan Deniz Kuvvetlerinin yayımladığı NAVTEX metinleri olgusal duyurular için birincil resmî askerî kaynak olduğundan B; alan ve yetki nitelendirmeleri daima claims[] ile Yunan tarafına atfedilir.
+  en: NAVTEX texts issued by the Hellenic Navy are an official military primary source for factual notices, hence B; area and jurisdiction characterizations are always attributed to the Greek side via claims[].

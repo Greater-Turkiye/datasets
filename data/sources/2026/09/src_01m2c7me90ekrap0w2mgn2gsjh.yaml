@@ -6,8 +6,8 @@ name:
 url: https://www.themoscowtimes.com/
 source_type: media
 languages: [en, ru]
-reliability: F
+reliability: C
 terms: attribution
 description:
-  tr: "Rusya'yı izleyen bağımsız haber sitesi. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
-  en: "Independent news outlet covering Russia. New source: default reliability F pending maintainer review."
+  tr: Rusya'yı izleyen, uzun geçmişi olan ve sürgünde yayın yapan bağımsız haber sitesi olduğu için C; haberlerinin önemli kısmı Rus yetkililerini ve medyasını aktarır, isimsiz kaynaklı bilgiler atfedilir.
+  en: Independent outlet covering Russia with a long track record, now publishing from exile, hence C; much of its reporting relays Russian officials and media, and anonymously sourced reports are attributed.

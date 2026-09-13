@@ -7,8 +7,8 @@ url: https://www.bta.bg/
 source_type: news-agency
 country: BGR
 languages: [bg, en]
-reliability: F
+reliability: B
 terms: attribution
 description:
-  tr: "Bulgaristan'ın ulusal haber ajansı. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
-  en: "Bulgaria's national news agency. New source: default reliability F pending maintainer review."
+  tr: Yasayla bağımsız kamu kurumu olan ve uzun geçmişi bulunan Bulgaristan ulusal haber ajansı olduğu için B; BTA haberini veya aynı bakanlık açıklamasını aktaran yayın organları bağımsız kaynak sayılmaz.
+  en: Bulgaria's national news agency, a statutorily independent public body with a long track record, hence B; outlets republishing BTA copy or the same ministry statement are not independent sources.

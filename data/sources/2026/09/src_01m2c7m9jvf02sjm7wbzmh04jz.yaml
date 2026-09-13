@@ -7,8 +7,8 @@ url: https://www.aljazeera.com/
 source_type: media
 country: QAT
 languages: [en, ar]
-reliability: F
+reliability: B
 terms: attribution
 description:
-  tr: "Katar merkezli yayın kuruluşu. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
-  en: "Qatar-based broadcaster. New source: default reliability F pending maintainer review."
+  tr: Kendi muhabir ağı ve uzun geçmişi olan Katar merkezli uluslararası yayın kuruluşu olduğu için B; Katar devletince finanse edildiğinden Katar ve Körfez'i ilgilendiren nitelendirmeler atfedilir.
+  en: Qatar-based international broadcaster with its own correspondent network and a long track record, hence B; it is funded by the Qatari state, so characterizations of matters involving Qatar or the Gulf are attributed.

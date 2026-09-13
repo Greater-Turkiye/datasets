@@ -7,8 +7,8 @@ url: https://qna.org.qa/
 source_type: news-agency
 country: QAT
 languages: [ar, en]
-reliability: F
+reliability: C
 terms: attribution
 description:
-  tr: "Katar devlet haber ajansı. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
-  en: "Qatari state news agency. New source: default reliability F pending maintainer review."
+  tr: Katar devlet haber ajansı; hükümet denetiminde olduğu için C, Katar hükümetinin açıklamaları için kullanılır ve iddiaları Katar hükümetine atfedilmelidir.
+  en: Qatar's state news agency; rated C because it is government-controlled, so it is used for Qatari official statements and its claims must be attributed to the Qatari government.
