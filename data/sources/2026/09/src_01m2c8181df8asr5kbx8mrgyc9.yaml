@@ -1,0 +1,16 @@
+id: src_01m2c8181df8asr5kbx8mrgyc9
+schema: source/1
+name:
+  tr: ADSB.lol
+  en: ADSB.lol
+url: https://adsb.lol/
+source_type: tracking-service
+languages:
+- en
+reliability: C
+terms: attribution
+description:
+  tr: 'Gönüllü alıcı ağından filtresiz ADS-B/MLAT uçak takip verisi; veri ODbL lisanslıdır (atıf ve aynı lisansla paylaşım). Kapsama boşlukları, MLAT tahminleri ve bölgedeki GNSS karıştırması nedeniyle
+    C. Kırmızı çizgi: Türk askerî uçaklarının verisi izlenmez, kaydedilmez.'
+  en: 'Unfiltered ADS-B/MLAT flight tracking from a volunteer receiver network; data is licensed under ODbL (attribution and share-alike). Rated C due to coverage gaps, MLAT estimates and GNSS interference
+    in the region. Red line: Turkish military aircraft are never tracked or recorded.'

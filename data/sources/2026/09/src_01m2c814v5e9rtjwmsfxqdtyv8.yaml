@@ -1,0 +1,18 @@
+id: src_01m2c814v5e9rtjwmsfxqdtyv8
+schema: source/1
+name:
+  tr: Rusya Savunma Bakanlığı (resmi Telegram kanalı)
+  en: Russian Ministry of Defence (official Telegram channel)
+  local: Минобороны России
+url: https://t.me/mod_russia
+source_type: social-media
+country: RUS
+languages:
+- ru
+reliability: B
+terms: attribution
+description:
+  tr: 'Kanal kendini Rusya Savunma Bakanlığının resmi kanalı olarak tanımlar ve doğrulanmış işareti taşır. mil.ru ağımızdan erişilemediği için kanal kaydedildi. Resmi kaynak olarak B; ancak Rusya savaşın
+    tarafıdır: muharebe sonuçları, kayıplar ve düşürme iddiaları daima claims[] ile atfedilir.'
+  en: 'The channel describes itself as the official channel of the Russian Ministry of Defence and carries the verified mark. Registered because mil.ru was unreachable from our network. Rated B as an official
+    source, but Russia is a party to the war: combat results, losses and shoot-down claims are always attributed via claims[].'

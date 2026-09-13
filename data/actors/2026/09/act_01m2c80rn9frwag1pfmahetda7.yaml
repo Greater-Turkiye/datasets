@@ -1,0 +1,12 @@
+id: act_01m2c80rn9frwag1pfmahetda7
+schema: actor/1
+name:
+  tr: İsrail Savunma Kuvvetleri
+  en: Israel Defense Forces
+  local: צבא הגנה לישראל
+kind: armed-forces
+country: ISR
+wikidata: Q58967
+sources:
+- url: https://www.wikidata.org/wiki/Q58967
+  lang: en

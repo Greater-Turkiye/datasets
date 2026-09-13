@@ -1,0 +1,17 @@
+id: src_01m2c816agfez8x6d89rxbwh70
+schema: source/1
+name:
+  tr: Bulgaristan Savunma Bakanlığı (resmi site)
+  en: Ministry of Defence of Bulgaria (official site)
+  local: Министерство на Отбраната
+url: https://www.mod.bg/
+source_type: official-government
+country: BGR
+languages:
+- bg
+- en
+reliability: B
+terms: attribution
+description:
+  tr: Bulgaristan Savunma Bakanlığının resmi sitesi. Resmi kurum olduğu için B.
+  en: Official website of Bulgaria's defence ministry. Rated B as an official body.

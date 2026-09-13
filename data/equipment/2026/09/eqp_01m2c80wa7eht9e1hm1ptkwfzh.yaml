@@ -1,0 +1,19 @@
+id: eqp_01m2c80wa7eht9e1hm1ptkwfzh
+schema: equipment/1
+name:
+  tr: Sukhoi Su-35
+  en: Sukhoi Su-35
+aliases:
+- Su-35
+- Su-35S
+category: aircraft.fighter
+origin_country: RUS
+wikidata: Q245275
+description:
+  tr: Su-27'den türetilmiş, çift motorlu Rus hava üstünlüğü savaş uçağı.
+  en: Twin-engine Russian air-superiority fighter derived from the Su-27.
+sources:
+- url: https://en.wikipedia.org/wiki/Sukhoi_Su-35
+  lang: en
+- url: https://www.wikidata.org/wiki/Q245275
+  lang: en

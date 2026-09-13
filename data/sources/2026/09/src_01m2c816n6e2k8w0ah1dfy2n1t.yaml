@@ -1,0 +1,20 @@
+id: src_01m2c816n6e2k8w0ah1dfy2n1t
+schema: source/1
+name:
+  tr: Agence France-Presse (AFP)
+  en: Agence France-Presse (AFP)
+url: https://www.afp.com/
+source_type: news-agency
+country: FRA
+languages:
+- fr
+- en
+- ar
+- es
+- de
+- pt
+reliability: B
+terms: attribution
+description:
+  tr: Paris merkezli uluslararası haber ajansı. Geniş muhabir ağı ve düzeltme pratiği nedeniyle B. AFP haberini yeniden yayımlayan yayın organları bağımsız kaynak sayılmaz.
+  en: Paris-based international news agency. Rated B for its wide correspondent network and correction practice. Outlets republishing AFP copy are not independent sources.

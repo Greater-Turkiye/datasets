@@ -1,0 +1,13 @@
+id: act_01m2c80mewf9rrwn9ese5r0c76
+schema: actor/1
+name:
+  tr: Ermenistan Hava Kuvvetleri
+  en: Armenian Air Force
+  local: Հայաստանի ռազմաօդային ուժեր
+kind: service-branch
+country: ARM
+parent: act_01m2c80m40fs5t363nkp1faq1c
+wikidata: Q1834601
+sources:
+- url: https://www.wikidata.org/wiki/Q1834601
+  lang: en

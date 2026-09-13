@@ -1,0 +1,12 @@
+id: act_01m2c80nw1enqveycq32w1fwrg
+schema: actor/1
+name:
+  tr: Gürcistan Savunma Kuvvetleri
+  en: Defence Forces of Georgia
+  local: საქართველოს თავდაცვის ძალები
+kind: armed-forces
+country: GEO
+wikidata: Q770753
+sources:
+- url: https://www.wikidata.org/wiki/Q770753
+  lang: en

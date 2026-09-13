@@ -1,0 +1,18 @@
+id: act_01m2c80q9gfq8tkn156g8pcr6q
+schema: actor/1
+name:
+  tr: Rusya Karadeniz Filosu
+  en: Black Sea Fleet (Russian Navy)
+  local: Черноморский флот ВМФ России
+aliases:
+- Black Sea Fleet
+kind: unit
+country: RUS
+parent: act_01m2c80pjte4kv4rkx8kz1td16
+wikidata: Q934022
+description:
+  tr: Rusya Deniz Kuvvetleri'nin Karadeniz'deki bölgesel filo komutanlığı.
+  en: Regional fleet command of the Russian Navy in the Black Sea.
+sources:
+- url: https://www.wikidata.org/wiki/Q934022
+  lang: en

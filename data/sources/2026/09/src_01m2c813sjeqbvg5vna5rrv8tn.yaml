@@ -1,0 +1,18 @@
+id: src_01m2c813sjeqbvg5vna5rrv8tn
+schema: source/1
+name:
+  tr: Ermenistan Savunma Bakanlığı (resmi site)
+  en: Ministry of Defence of Armenia (official site)
+  local: Հայաստանի Հանրապետության պաշտպանության նախարարություն
+url: https://www.mil.am/
+source_type: official-government
+country: ARM
+languages:
+- hy
+- ru
+- en
+reliability: B
+terms: attribution
+description:
+  tr: Ermenistan Savunma Bakanlığının resmi sitesi. Resmi kurum olduğu için B; Azerbaycan ile ilgili tartışmalı nitelendirmeler (ör. ateşkes ihlali) claims[] ile Ermeni tarafına atfedilir.
+  en: Official website of Armenia's defence ministry. Rated B as an official body; contested characterizations regarding Azerbaijan (e.g. ceasefire violations) are attributed to the Armenian side via claims[].
