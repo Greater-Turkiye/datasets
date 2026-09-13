@@ -2,11 +2,11 @@ id: evt_01m2c7m3s5f69rxc4emdtbwdv2
 schema: event/1
 event_type: diplomatic.agreement
 title:
-  tr: "Ermenistan ve Hindistan, genelkurmaylar arasında yeni işbirliği çerçevesini belirleyen belgeyi teati etti"
-  en: "Armenia and India exchanged a document setting a new framework for cooperation between their general staffs"
+  tr: Ermenistan ve Hindistan, genelkurmaylar arasında yeni işbirliği çerçevesini belirleyen belgeyi teati etti
+  en: Armenia and India exchanged a document setting a new framework for cooperation between their general staffs
 summary:
-  tr: "Armenpress'in aktardığı Ermenistan Savunma Bakanlığı açıklamasına göre, 17 Ağustos 2026'da Ermenistan Silahlı Kuvvetleri Genelkurmay Başkanı ile Hindistan Savunma Müsteşarı, iki ülke silahlı kuvvetlerinin genelkurmayları arasında yeni bir işbirliği çerçevesi belirleyen belgeyi teati etti. Teati, Hindistan Savunma Müsteşarı'nın Ermenistan'a yaptığı resmî ziyaret sırasında ve daha önce varılan bir mutabakat kapsamında gerçekleşti. Belgenin içeriği açıklanmadı; bilgi tek bir yayın organına dayanıyor."
-  en: "According to an Armenian Defence Ministry readout reported by Armenpress, on 17 August 2026 the Chief of the General Staff of the Armenian Armed Forces and India's Defence Secretary exchanged a document establishing a new framework for cooperation between the general staffs of the two countries' armed forces. The exchange took place during the Indian Defence Secretary's official visit to Armenia, as part of a previously reached agreement. The content of the document was not disclosed; the information rests on a single outlet."
+  tr: Armenpress'in aktardığı Ermenistan Savunma Bakanlığı açıklamasına göre, 17 Ağustos 2026'da Ermenistan Silahlı Kuvvetleri Genelkurmay Başkanı ile Hindistan Savunma Müsteşarı, iki ülke silahlı kuvvetlerinin genelkurmayları arasında yeni bir işbirliği çerçevesi belirleyen belgeyi teati etti. Teati, Hindistan Savunma Müsteşarı'nın Ermenistan'a yaptığı resmî ziyaret sırasında ve daha önce varılan bir mutabakat kapsamında gerçekleşti. Belgenin içeriği açıklanmadı; bilgi tek bir yayın organına dayanıyor.
+  en: According to an Armenian Defence Ministry readout reported by Armenpress, on 17 August 2026 the Chief of the General Staff of the Armenian Armed Forces and India's Defence Secretary exchanged a document establishing a new framework for cooperation between the general staffs of the two countries' armed forces. The exchange took place during the Indian Defence Secretary's official visit to Armenia, as part of a previously reached agreement. The content of the document was not disclosed; the information rests on a single outlet.
 time:
   start: 2026-08-17T00:00Z
   precision: day
@@ -18,13 +18,13 @@ location:
 regions: [caucasus]
 countries: [ARM, IND]
 actors:
-  - {ref: act_01m2c7m7q0eqmvjh96g3206te1, role: participant}   # Armenian MoD
-  - {ref: act_01m2c7m7q0eqmvjh96g3206te1, role: reporter}
-  - {ref: act_01m2c7m82vf379tydgtnh1nf47, role: participant}   # Indian MoD
+  - {ref: act_01m2c80m40fs5t363nkp1faq1c, role: participant}  # Armed Forces of Armenia
+  - {ref: act_01m2c7m7q0eqmvjh96g3206te1, role: reporter}  # Ministry of Defence of Armenia
+  - {ref: act_01m2c7m82vf379tydgtnh1nf47, role: participant}  # Ministry of Defence of India
 sources:
-  - ref: src_01m2c7md4se8sbdd4cj4e4r48x
+  - ref: src_01m2c7md4se8sbdd4cj4e4r48x  # Armenpress
     url: https://armenpress.am/en/article/1258157
-    title: "Armenian top general, India's Defense Secretary exchange new cooperation framework document"
+    title: Armenian top general, India's Defense Secretary exchange new cooperation framework document
     published_at: 2026-08-17T10:28Z
     lang: en
     archives: []
@@ -33,5 +33,5 @@ assessment:
   credibility: 3
   method: [official-statement]
   note:
-    tr: "published_at, sayfadaki 14.28 (Erivan, UTC+4) saatinden UTC'ye çevrildi."
-    en: "published_at converted to UTC from 14:28 Yerevan time (UTC+4) shown on the page."
+    tr: published_at, sayfadaki 14.28 (Erivan, UTC+4) saatinden UTC'ye çevrildi.
+    en: published_at converted to UTC from 14:28 Yerevan time (UTC+4) shown on the page.

@@ -1,8 +1,8 @@
 id: src_01m2c7maswet3b4yyazqwtqzs0
 schema: source/1
 name:
-  tr: "Yunan Deniz Kuvvetleri Hidrografi Dairesi (NAVTEX duyuruları)"
-  en: "Hellenic Navy Hydrographic Service (NAVTEX notices)"
+  tr: Yunan Deniz Kuvvetleri Hidrografi Dairesi (NAVTEX duyuruları)
+  en: Hellenic Navy Hydrographic Service (NAVTEX notices)
 url: https://hnhs.gr/
 source_type: official-military
 country: GRC

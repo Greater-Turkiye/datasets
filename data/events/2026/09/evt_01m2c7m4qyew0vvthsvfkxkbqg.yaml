@@ -2,11 +2,11 @@ id: evt_01m2c7m4qyew0vvthsvfkxkbqg
 schema: event/1
 event_type: exercise.air
 title:
-  tr: "Romanya Hava Kuvvetleri, 14-25 Eylül'de ülke genelinde 'Burebista 26' tatbikatı düzenleyeceğini duyurdu"
-  en: "The Romanian Air Force announced exercise 'Burebista 26' across Romania for 14-25 September"
+  tr: Romanya Hava Kuvvetleri, 14-25 Eylül'de ülke genelinde 'Burebista 26' tatbikatı düzenleyeceğini duyurdu
+  en: The Romanian Air Force announced exercise 'Burebista 26' across Romania for 14-25 September
 summary:
-  tr: "București FM'in aktardığı Romanya Hava Kuvvetleri Kurmay Başkanlığı duyurusuna göre Romanya Hava Kuvvetleri, 14-25 Eylül 2026 tarihleri arasında tüm ülke genelinde 'Burebista 26' tatbikatını yapacak. Tatbikata Hava Kuvvetleri'nin komuta-kontrol ve icra unsurları katılacak; Kara Kuvvetleri ve Özel Harekât Kuvvetleri destek verecek. Duyuruya göre tatbikat süresince karayolu üzerinde askerî araç intikalleri ve ülkenin tüm bölgelerinde alçak irtifa uçuşları yapılacak. Yabancı katılımdan söz edilmedi."
-  en: "According to a Romanian Air Force Staff announcement reported by București FM, the Romanian Air Force will hold exercise 'Burebista 26' across the whole country from 14 to 25 September 2026. Air Force command-and-control and execution structures will take part, supported by the Land Forces and Special Operations Forces. According to the announcement, military vehicles will move along roads and low-altitude flights will take place in all regions of the country. No foreign participation was mentioned."
+  tr: București FM'in aktardığı Romanya Hava Kuvvetleri Kurmay Başkanlığı duyurusuna göre Romanya Hava Kuvvetleri, 14-25 Eylül 2026 tarihleri arasında tüm ülke genelinde 'Burebista 26' tatbikatını yapacak. Tatbikata Hava Kuvvetleri'nin komuta-kontrol ve icra unsurları katılacak; Kara Kuvvetleri ve Özel Harekât Kuvvetleri destek verecek. Duyuruya göre tatbikat süresince karayolu üzerinde askerî araç intikalleri ve ülkenin tüm bölgelerinde alçak irtifa uçuşları yapılacak. Yabancı katılımdan söz edilmedi.
+  en: According to a Romanian Air Force Staff announcement reported by București FM, the Romanian Air Force will hold exercise 'Burebista 26' across the whole country from 14 to 25 September 2026. Air Force command-and-control and execution structures will take part, supported by the Land Forces and Special Operations Forces. According to the announcement, military vehicles will move along roads and low-altitude flights will take place in all regions of the country. No foreign participation was mentioned.
 time:
   start: 2026-09-14T00:00Z
   end: 2026-09-25T00:00Z
@@ -19,12 +19,12 @@ location:
 regions: [balkans, black-sea]
 countries: [ROU]
 actors:
-  - {ref: act_01m2c7m95rf6mrr4wtskajm2v8, role: participant}   # Romanian Air Force
-  - {ref: act_01m2c7m95rf6mrr4wtskajm2v8, role: reporter}
+  - {ref: act_01m2c7m95rf6mrr4wtskajm2v8, role: participant}  # Romanian Air Force
+  - {ref: act_01m2c7m95rf6mrr4wtskajm2v8, role: reporter}  # Romanian Air Force
 sources:
-  - ref: src_01m2c7men3ehmrpjw98a2w0r5r
+  - ref: src_01m2c7men3ehmrpjw98a2w0r5r  # București FM
     url: https://www.bucurestifm.ro/2026/09/11/fortele-aeriene-desfasoara-exercitiul-burebista-26-in-perioada-14-25-septembrie/
-    title: "Forţele Aeriene desfăşoară exerciţiul 'Burebista 26', în perioada 14 - 25 septembrie"
+    title: Forţele Aeriene desfăşoară exerciţiul 'Burebista 26', în perioada 14 - 25 septembrie
     lang: ro
     archives: []
 assessment:
@@ -32,5 +32,5 @@ assessment:
   credibility: 3
   method: [official-statement]
   note:
-    tr: "Duyurulan, henüz başlamamış bir tatbikattır (kayıt tarihi 13 Eylül 2026). Tek yayın organına dayanıyor."
-    en: "An announced exercise that had not yet started when recorded (13 September 2026). Rests on a single outlet."
+    tr: Duyurulan, henüz başlamamış bir tatbikattır (kayıt tarihi 13 Eylül 2026). Tek yayın organına dayanıyor.
+    en: An announced exercise that had not yet started when recorded (13 September 2026). Rests on a single outlet.

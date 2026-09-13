@@ -1,8 +1,8 @@
 id: src_01m2c7mdg3ekb9qfhbj79zcnpk
 schema: source/1
 name:
-  tr: "Suriye Arap Haber Ajansı (SANA)"
-  en: "Syrian Arab News Agency (SANA)"
+  tr: Suriye Arap Haber Ajansı (SANA)
+  en: Syrian Arab News Agency (SANA)
 url: https://sana.sy/
 source_type: news-agency
 country: SYR

@@ -1,8 +1,8 @@
 id: src_01m2c7m9jvf02sjm7wbzmh04jz
 schema: source/1
 name:
-  tr: "Al Jazeera"
-  en: "Al Jazeera"
+  tr: Al Jazeera
+  en: Al Jazeera
 url: https://www.aljazeera.com/
 source_type: media
 country: QAT

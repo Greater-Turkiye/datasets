@@ -1,8 +1,8 @@
 id: src_01m2c7macyfj3a9qggd1kw88zw
 schema: source/1
 name:
-  tr: "Cyprus Mail"
-  en: "Cyprus Mail"
+  tr: Cyprus Mail
+  en: Cyprus Mail
 url: https://cyprus-mail.com/
 source_type: media
 country: CYP

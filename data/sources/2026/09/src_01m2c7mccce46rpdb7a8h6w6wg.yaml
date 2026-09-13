@@ -1,8 +1,8 @@
 id: src_01m2c7mccce46rpdb7a8h6w6wg
 schema: source/1
 name:
-  tr: "TASS"
-  en: "TASS"
+  tr: TASS
+  en: TASS
 url: https://tass.com/
 source_type: news-agency
 country: RUS

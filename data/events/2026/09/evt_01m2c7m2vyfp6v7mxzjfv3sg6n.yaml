@@ -2,11 +2,11 @@ id: evt_01m2c7m2vyfp6v7mxzjfv3sg6n
 schema: event/1
 event_type: diplomatic.agreement
 title:
-  tr: "Bulgaristan, Romanya ve İspanya hava kuvvetleri sınır ötesi NATO hava polisliği anlaşması imzaladı"
-  en: "Bulgarian, Romanian and Spanish air forces signed a NATO cross-border air policing agreement"
+  tr: Bulgaristan, Romanya ve İspanya hava kuvvetleri sınır ötesi NATO hava polisliği anlaşması imzaladı
+  en: Bulgarian, Romanian and Spanish air forces signed a NATO cross-border air policing agreement
 summary:
-  tr: "Bulgaristan Savunma Bakanlığı'nın 6 Ağustos 2026'daki açıklamasına göre Bulgaristan, Romanya ve İspanya hava kuvvetleri, sınır ötesi NATO hava polisliği operasyonlarına ilişkin üçlü bir teknik anlaşma imzaladı. Anlaşma, Bulgaristan ile Romanya hükümetleri arasındaki 2021 tarihli anlaşmaya dayanıyor ve üçüncü bir ülkenin, bu durumda İspanya'nın, nöbetçi savaş uçaklarının sınır ötesi hava polisliğine katılmasını mümkün kılıyor. Açıklamaya göre Romanya'da konuşlu İspanyol unsurları, NATO Entegre Hava ve Füze Savunma Sistemi (NATINAMDS) çerçevesinde Romanya hava sahasında ve gerektiğinde Bulgaristan hava sahasında devriye görevi yapabilecek. İmzanın tarihi ve yeri açıklanmadı."
-  en: "According to a Bulgarian Defence Ministry statement on 6 August 2026, the air forces of Bulgaria, Romania and Spain signed a trilateral technical agreement on NATO cross-border air policing operations. The agreement is based on a 2021 accord between the governments of Bulgaria and Romania and allows on-duty fighter aircraft of a third country, in this case Spain, to take part in cross-border air policing. According to the statement, Spanish forces deployed in Romania will be able to perform air patrol tasks in Romanian airspace and, if necessary, in Bulgarian airspace within the NATO Integrated Air and Missile Defence System (NATINAMDS). The date and place of signing were not given."
+  tr: Bulgaristan Savunma Bakanlığı'nın 6 Ağustos 2026'daki açıklamasına göre Bulgaristan, Romanya ve İspanya hava kuvvetleri, sınır ötesi NATO hava polisliği operasyonlarına ilişkin üçlü bir teknik anlaşma imzaladı. Anlaşma, Bulgaristan ile Romanya hükümetleri arasındaki 2021 tarihli anlaşmaya dayanıyor ve üçüncü bir ülkenin, bu durumda İspanya'nın, nöbetçi savaş uçaklarının sınır ötesi hava polisliğine katılmasını mümkün kılıyor. Açıklamaya göre Romanya'da konuşlu İspanyol unsurları, NATO Entegre Hava ve Füze Savunma Sistemi (NATINAMDS) çerçevesinde Romanya hava sahasında ve gerektiğinde Bulgaristan hava sahasında devriye görevi yapabilecek. İmzanın tarihi ve yeri açıklanmadı.
+  en: According to a Bulgarian Defence Ministry statement on 6 August 2026, the air forces of Bulgaria, Romania and Spain signed a trilateral technical agreement on NATO cross-border air policing operations. The agreement is based on a 2021 accord between the governments of Bulgaria and Romania and allows on-duty fighter aircraft of a third country, in this case Spain, to take part in cross-border air policing. According to the statement, Spanish forces deployed in Romania will be able to perform air patrol tasks in Romanian airspace and, if necessary, in Bulgarian airspace within the NATO Integrated Air and Missile Defence System (NATINAMDS). The date and place of signing were not given.
 time:
   start: 2026-08-06T00:00Z
   precision: day
@@ -14,17 +14,18 @@ time:
 regions: [balkans, black-sea]
 countries: [BGR, ROU, ESP]
 actors:
-  - {ref: act_01m2c7m6x9erks1dhxyrj4zy4j, role: reporter}   # Bulgarian MoD
+  - {ref: act_01m2c80vjhf75bda4sm9d48kfv, role: participant}  # Bulgarian Air Force
+  - {ref: act_01m2c7m6x9erks1dhxyrj4zy4j, role: reporter}  # Bulgarian Ministry of Defence
 sources:
-  - ref: src_01m2c7mbjrfh9v5j12416rpbnt
+  - ref: src_01m2c7mbjrfh9v5j12416rpbnt  # Bulgarian News Agency (BTA)
     url: https://www.bta.bg/en/news/world/1180894-bulgaria-romania-and-spain-sign-agreement-for-nato-cross-border-air-policing-op
-    title: "Bulgaria, Romania and Spain Sign Agreement for NATO Cross-Border Air Policing Operations"
+    title: Bulgaria, Romania and Spain Sign Agreement for NATO Cross-Border Air Policing Operations
     published_at: 2026-08-06T13:52Z
     lang: en
     archives: []
-  - ref: src_01m2c7mc03fr4rfm6d7v6r35rv
+  - ref: src_01m2c7mc03fr4rfm6d7v6r35rv  # The Sofia Globe
     url: https://sofiaglobe.com/2026/08/06/romanian-bulgarian-spanish-air-forces-sign-air-policing-agreement/
-    title: "Romanian, Bulgarian, Spanish air forces sign air policing agreement"
+    title: Romanian, Bulgarian, Spanish air forces sign air policing agreement
     lang: en
     archives: []
 assessment:
@@ -32,5 +33,5 @@ assessment:
   credibility: 2
   method: [official-statement]
   note:
-    tr: "Olay tarihi, açıklama tarihidir; imza tarihi kaynaklarda yok. İki yayın organı da aynı bakanlık açıklamasına dayanıyor (bağımsız değil). BTA yayın saati 16.52 (Sofya, UTC+3) UTC'ye çevrildi."
-    en: "The event date is the announcement date; the signing date is not in the sources. Both outlets rely on the same ministry statement (not independent). BTA time 16:52 (Sofia, UTC+3) converted to UTC."
+    tr: Olay tarihi, açıklama tarihidir; imza tarihi kaynaklarda yok. İki yayın organı da aynı bakanlık açıklamasına dayanıyor (bağımsız değil). BTA yayın saati 16.52 (Sofya, UTC+3) UTC'ye çevrildi.
+    en: The event date is the announcement date; the signing date is not in the sources. Both outlets rely on the same ministry statement (not independent). BTA time 16:52 (Sofia, UTC+3) converted to UTC.

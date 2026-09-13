@@ -1,8 +1,8 @@
 id: src_01m2c7mbjrfh9v5j12416rpbnt
 schema: source/1
 name:
-  tr: "Bulgaristan Haber Ajansı (BTA)"
-  en: "Bulgarian News Agency (BTA)"
+  tr: Bulgaristan Haber Ajansı (BTA)
+  en: Bulgarian News Agency (BTA)
 url: https://www.bta.bg/
 source_type: news-agency
 country: BGR

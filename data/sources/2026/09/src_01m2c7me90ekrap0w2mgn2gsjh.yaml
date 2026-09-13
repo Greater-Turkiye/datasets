@@ -1,8 +1,8 @@
 id: src_01m2c7me90ekrap0w2mgn2gsjh
 schema: source/1
 name:
-  tr: "The Moscow Times"
-  en: "The Moscow Times"
+  tr: The Moscow Times
+  en: The Moscow Times
 url: https://www.themoscowtimes.com/
 source_type: media
 languages: [en, ru]

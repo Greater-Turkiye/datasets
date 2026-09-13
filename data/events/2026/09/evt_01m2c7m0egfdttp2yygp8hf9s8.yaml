@@ -2,11 +2,11 @@ id: evt_01m2c7m0egfdttp2yygp8hf9s8
 schema: event/1
 event_type: procurement.contract
 title:
-  tr: "Yunanistan ve İsrail, 'Achilles Shield' hava ve füze savunma sistemi için anlaşma imzaladı"
-  en: "Greece and Israel signed an agreement for the 'Achilles Shield' air and missile defence system"
+  tr: Yunanistan ve İsrail, 'Achilles Shield' hava ve füze savunma sistemi için anlaşma imzaladı
+  en: Greece and Israel signed an agreement for the 'Achilles Shield' air and missile defence system
 summary:
-  tr: "Yunanistan Millî Savunma Bakanlığı ile İsrail Savunma Bakanlığı, 31 Ağustos 2026'da Tel Aviv'de Yunanistan için çok katmanlı bir hava ve füze savunma sistemi ('Achilles Shield') kurulmasına ilişkin anlaşmayı imzaladı. Al Jazeera ve JTA'ya göre anlaşmanın değeri yaklaşık 3,5 milyar USD'dir; paket David's Sling, SPYDER ve Barak MX sistemlerini, çok görevli radarları ve bir komuta-kontrol merkezini kapsıyor. Aynı gün Drone Dome sistemleri için ayrı ve daha küçük bir sözleşme de imzalandı (Al Jazeera'ya göre 26 milyon EUR). JTA'nın aktardığına göre İsrail Savunma Bakanlığı anlaşmayı İsrail-Yunanistan ilişkilerindeki en büyük savunma ihracatı olarak tanımladı."
-  en: "The Hellenic Ministry of National Defence and the Israel Ministry of Defense signed an agreement in Tel Aviv on 31 August 2026 for a multi-layered air and missile defence system for Greece ('Achilles Shield'). According to Al Jazeera and JTA the deal is worth about USD 3.5 billion and covers the David's Sling, SPYDER and Barak MX systems, multi-mission radars and a command-and-control centre. A separate, smaller contract for Drone Dome systems was signed the same day (EUR 26 million according to Al Jazeera). JTA reported that the Israeli Defence Ministry described it as the largest defence export deal in the history of Israel-Greece relations."
+  tr: Yunanistan Millî Savunma Bakanlığı ile İsrail Savunma Bakanlığı, 31 Ağustos 2026'da Tel Aviv'de Yunanistan için çok katmanlı bir hava ve füze savunma sistemi ('Achilles Shield') kurulmasına ilişkin anlaşmayı imzaladı. Al Jazeera ve JTA'ya göre anlaşmanın değeri yaklaşık 3,5 milyar USD'dir; paket David's Sling, SPYDER ve Barak MX sistemlerini, çok görevli radarları ve bir komuta-kontrol merkezini kapsıyor. Aynı gün Drone Dome sistemleri için ayrı ve daha küçük bir sözleşme de imzalandı (Al Jazeera'ya göre 26 milyon EUR). JTA'nın aktardığına göre İsrail Savunma Bakanlığı anlaşmayı İsrail-Yunanistan ilişkilerindeki en büyük savunma ihracatı olarak tanımladı.
+  en: The Hellenic Ministry of National Defence and the Israel Ministry of Defense signed an agreement in Tel Aviv on 31 August 2026 for a multi-layered air and missile defence system for Greece ('Achilles Shield'). According to Al Jazeera and JTA the deal is worth about USD 3.5 billion and covers the David's Sling, SPYDER and Barak MX systems, multi-mission radars and a command-and-control centre. A separate, smaller contract for Drone Dome systems was signed the same day (EUR 26 million according to Al Jazeera). JTA reported that the Israeli Defence Ministry described it as the largest defence export deal in the history of Israel-Greece relations.
 time:
   start: 2026-08-31T00:00Z
   precision: day
@@ -18,26 +18,30 @@ location:
 regions: [east-med]
 countries: [GRC, ISR]
 actors:
-  - {ref: act_01m2c7m5p9ebcs1qtezs2kx50y, role: buyer}    # Hellenic MoD
-  - {ref: act_01m2c7m59kf02t527qy1qzf41e, role: seller}   # Israel MoD
+  - {ref: act_01m2c7m5p9ebcs1qtezs2kx50y, role: buyer}  # Hellenic Ministry of National Defence
+  - {ref: act_01m2c7m59kf02t527qy1qzf41e, role: seller}  # Israel Ministry of Defense
 sources:
-  - ref: src_01m2c7m9jvf02sjm7wbzmh04jz
+  - ref: src_01m2c7m9jvf02sjm7wbzmh04jz  # Al Jazeera
     url: https://www.aljazeera.com/news/2026/8/31/why-has-greece-signed-a-3-5bn-missile-deal-with-israel
-    title: "Why has Greece signed a $3.5bn missile deal with Israel?"
+    title: Why has Greece signed a $3.5bn missile deal with Israel?
     lang: en
     archives:
-      - {service: wayback, url: https://web.archive.org/web/20260913020344/https://www.aljazeera.com/news/2026/8/31/why-has-greece-signed-a-3-5bn-missile-deal-with-israel, captured_at: 2026-09-13T02:03:44Z}
-  - ref: src_01m2c7ma1qe2hbgrf6acd8940p
+      - service: wayback
+        url: https://web.archive.org/web/20260913020344/https://www.aljazeera.com/news/2026/8/31/why-has-greece-signed-a-3-5bn-missile-deal-with-israel
+        captured_at: 2026-09-13T02:03:44Z
+  - ref: src_01m2c7ma1qe2hbgrf6acd8940p  # Jewish Telegraphic Agency (JTA)
     url: https://www.jta.org/2026/08/31/israel/israel-and-greece-ink-defense-deal-to-protect-against-regional-threats
-    title: "Israel and Greece ink defense deal to protect against regional threats"
+    title: Israel and Greece ink defense deal to protect against regional threats
     lang: en
     archives:
-      - {service: wayback, url: https://web.archive.org/web/20260913020548/https://www.jta.org/2026/08/31/israel/israel-and-greece-ink-defense-deal-to-protect-against-regional-threats, captured_at: 2026-09-13T02:05:48Z}
+      - service: wayback
+        url: https://web.archive.org/web/20260913020548/https://www.jta.org/2026/08/31/israel/israel-and-greece-ink-defense-deal-to-protect-against-regional-threats
+        captured_at: 2026-09-13T02:05:48Z
 assessment:
   status: unverified
   credibility: 2
   method: [official-statement]
   note:
-    tr: "İki yayın organı aynı resmî duyurulara dayanıyor; değer rakamları kaynaklar arasında küçük farklılık gösteriyor. Resmî Yunan açıklaması (mod.mil.gr) erişim engeli nedeniyle okunamadı."
-    en: "Both outlets rely on the same official announcements; value figures differ slightly across outlets. The official Greek statement (mod.mil.gr) could not be read because access was blocked."
+    tr: İki yayın organı aynı resmî duyurulara dayanıyor; değer rakamları kaynaklar arasında küçük farklılık gösteriyor. Resmî Yunan açıklaması (mod.mil.gr) erişim engeli nedeniyle okunamadı.
+    en: Both outlets rely on the same official announcements; value figures differ slightly across outlets. The official Greek statement (mod.mil.gr) could not be read because access was blocked.
 tags: [air-defence]
