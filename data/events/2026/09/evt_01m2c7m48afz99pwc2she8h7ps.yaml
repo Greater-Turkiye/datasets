@@ -57,7 +57,7 @@ sources:
         url: https://web.archive.org/web/20260913024104/https://www.aljazeera.com/news/2026/8/9/syria-says-it-reached-deal-with-moscow-on-future-of-russian-bases
         captured_at: 2026-09-13T02:41:04Z
 assessment:
-  status: unverified
+  status: verified
   credibility: 2
   method: [official-statement, multiple-independent-sources]
   note:
