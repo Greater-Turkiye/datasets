@@ -36,5 +36,11 @@ jobs:
           else
             python tools/gt.py validate
           fi
+      - name: Check formatting
+        run: python tools/gt.py fmt --check
       - name: Build exports
         run: python tools/gt.py build
+      - name: Unit tests
+        run: |
+          pip install "pytest>=9,<10"
+          python -m pytest -q tests
