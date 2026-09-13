@@ -7,8 +7,8 @@ url: https://sofiaglobe.com/
 source_type: media
 country: BGR
 languages: [en]
-reliability: F
+reliability: C
 terms: attribution
 description:
-  tr: "Sofya merkezli İngilizce haber sitesi. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
-  en: "Sofia-based English-language news site. New source: default reliability F pending maintainer review."
+  tr: Yerel geçmişi olan Sofya merkezli İngilizce haber sitesi olduğu için C; büyük ölçüde Bulgaristan'ın resmî açıklamalarını ve BTA haberlerini aktarır.
+  en: Sofia-based English-language news site with a local track record, hence C; it largely relays Bulgarian official statements and BTA reporting.

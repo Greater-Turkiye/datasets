@@ -7,8 +7,8 @@ url: https://armenpress.am/
 source_type: news-agency
 country: ARM
 languages: [hy, en]
-reliability: F
+reliability: C
 terms: attribution
 description:
-  tr: "Ermenistan devlet haber ajansı. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
-  en: "Armenian state news agency. New source: default reliability F pending maintainer review."
+  tr: Ermenistan devlet haber ajansı; hükümet denetiminde olduğu ve Ermenistan Azerbaycan ile çatışmanın tarafı olduğu için C, tartışmalı iddialar claims[] ile Ermeni tarafına atfedilmelidir.
+  en: Armenia's state news agency; rated C because it is government-controlled and Armenia is a party to the conflict with Azerbaijan, so contested claims must be attributed to the Armenian side via claims[].

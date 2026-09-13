@@ -7,8 +7,8 @@ url: https://tass.com/
 source_type: news-agency
 country: RUS
 languages: [ru, en]
-reliability: F
+reliability: C
 terms: attribution
 description:
-  tr: "Rusya devlet haber ajansı; Rusya'nın taraf olduğu konularda iddialar atfedilir. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
-  en: "Russian state news agency; claims on matters where Russia is a party are attributed. New source: default reliability F pending maintainer review."
+  tr: Rusya devlet haber ajansı; çatışmaların tarafı olan bir devletin denetiminde olduğu için C, iddiaları daima claims[] ile Rusya tarafına atfedilmelidir.
+  en: Russian state news agency; rated C because it is controlled by a state that is a party to armed conflicts, so its claims must always be attributed to the Russian side via claims[].

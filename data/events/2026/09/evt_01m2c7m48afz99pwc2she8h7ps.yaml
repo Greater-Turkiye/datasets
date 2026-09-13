@@ -28,22 +28,34 @@ sources:
     title: Syria, Russia agree to reorganize Russian military presence under new memorandum
     published_at: 2026-08-09T12:27Z
     lang: en
-    archives: []
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260913023545/https://sana.sy/en/syria/2335254/
+        captured_at: 2026-09-13T02:35:45Z
   - ref: src_01m2c7me90ekrap0w2mgn2gsjh  # The Moscow Times
     url: https://www.themoscowtimes.com/2026/08/09/syria-russia-reach-deal-on-future-of-tartous-and-hmeimim-bases-after-18-months-of-talks-a93444
     title: Russia Says Syria Base Deal Will Boost Ties, Source Says Some Russian Forces Will Stay
     lang: en
-    archives: []
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260810020102/https://www.themoscowtimes.com/2026/08/09/syria-russia-reach-deal-on-future-of-tartous-and-hmeimim-bases-after-18-months-of-talks-a93444
+        captured_at: 2026-08-10T02:01:02Z
   - ref: src_01m2c7mdw5e6bbh6ypp2v3nygb  # Arab News
     url: https://www.arabnews.com/node/2653994/middle-east
     title: Syria, Russia reach deal to transfer civilian sites, convert military bases
     lang: en
-    archives: []
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260811153951/https://www.arabnews.com/node/2653994/middle-east
+        captured_at: 2026-08-11T15:39:51Z
   - ref: src_01m2c7m9jvf02sjm7wbzmh04jz  # Al Jazeera
     url: https://www.aljazeera.com/news/2026/8/9/syria-says-it-reached-deal-with-moscow-on-future-of-russian-bases
     title: Syria says it reached deal with Moscow on future of Russian bases
     lang: en
-    archives: []
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260913024104/https://www.aljazeera.com/news/2026/8/9/syria-says-it-reached-deal-with-moscow-on-future-of-russian-bases
+        captured_at: 2026-09-13T02:41:04Z
 assessment:
   status: unverified
   credibility: 2

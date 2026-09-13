@@ -26,7 +26,10 @@ sources:
     url: https://www.bucurestifm.ro/2026/09/11/fortele-aeriene-desfasoara-exercitiul-burebista-26-in-perioada-14-25-septembrie/
     title: Forţele Aeriene desfăşoară exerciţiul 'Burebista 26', în perioada 14 - 25 septembrie
     lang: ro
-    archives: []
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260911233243/https://www.bucurestifm.ro/2026/09/11/fortele-aeriene-desfasoara-exercitiul-burebista-26-in-perioada-14-25-septembrie/
+        captured_at: 2026-09-11T23:32:43Z
 assessment:
   status: unverified
   credibility: 3

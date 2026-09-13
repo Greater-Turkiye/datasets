@@ -27,7 +27,10 @@ sources:
     title: Armenian top general, India's Defense Secretary exchange new cooperation framework document
     published_at: 2026-08-17T10:28Z
     lang: en
-    archives: []
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260913023405/https://armenpress.am/en/article/1258157
+        captured_at: 2026-09-13T02:34:05Z
 assessment:
   status: unverified
   credibility: 3

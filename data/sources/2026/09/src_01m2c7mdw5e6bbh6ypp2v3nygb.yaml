@@ -7,8 +7,8 @@ url: https://www.arabnews.com/
 source_type: media
 country: SAU
 languages: [en]
-reliability: F
+reliability: C
 terms: attribution
 description:
-  tr: "Suudi Arabistan merkezli İngilizce gazete. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
-  en: "Saudi-based English-language daily. New source: default reliability F pending maintainer review."
+  tr: Uzun geçmişi olan Suudi Arabistan merkezli İngilizce gazete olduğu için C; Suudi devletine yakın bir gruba ait olduğundan Suudi Arabistan'ı ilgilendiren nitelendirmeler atfedilir.
+  en: Saudi-based English-language daily with a long track record, hence C; it is owned by a group close to the Saudi state, so characterizations of matters involving Saudi Arabia are attributed.

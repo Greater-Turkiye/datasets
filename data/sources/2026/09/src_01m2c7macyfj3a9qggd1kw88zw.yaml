@@ -7,8 +7,8 @@ url: https://cyprus-mail.com/
 source_type: media
 country: CYP
 languages: [en]
-reliability: F
+reliability: C
 terms: attribution
 description:
-  tr: "Güney Kıbrıs'ta yayımlanan İngilizce gazete; GKRY makamlarının açıklamalarını sıkça aktarır. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
-  en: "English-language newspaper published in the Greek Cypriot south; often relays Greek Cypriot official statements. New source: default reliability F pending maintainer review."
+  tr: Güney Kıbrıs'ta yayımlanan, uzun yerel geçmişi olan İngilizce gazete olduğu için C; GKRY makamlarının açıklamalarını sıkça aktarır ve bu nitelendirmeler GKRY tarafına atfedilir.
+  en: English-language newspaper in the Greek Cypriot south with a long local track record, hence C; it often relays Greek Cypriot official statements, whose characterizations are attributed to the Greek Cypriot side.
