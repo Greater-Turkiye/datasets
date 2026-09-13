@@ -1,0 +1,15 @@
+id: src_01m2c815z3fwbbb320vscf265d
+schema: source/1
+name:
+  tr: Mısır Savunma Bakanlığı (resmi site)
+  en: Ministry of Defence of Egypt (official site)
+  local: وزارة الدفاع
+url: https://www.mod.gov.eg/
+source_type: official-government
+country: EGY
+languages: [ar, en, fr]
+reliability: B
+terms: attribution
+description:
+  tr: Mısır Savunma Bakanlığının resmi sitesi (Arapça, İngilizce ve Fransızca sürümleri var). Resmi kurum olduğu için B.
+  en: Official website of Egypt's defence ministry (Arabic, English and French versions). Rated B as an official body.

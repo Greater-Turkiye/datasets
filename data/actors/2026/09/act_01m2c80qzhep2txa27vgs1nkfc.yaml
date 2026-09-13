@@ -1,0 +1,13 @@
+id: act_01m2c80qzhep2txa27vgs1nkfc
+schema: actor/1
+name:
+  tr: Ukrayna Deniz Kuvvetleri
+  en: Ukrainian Navy
+  local: Військово-Морські сили Збройних сил України
+kind: service-branch
+country: UKR
+parent: act_01m2c80qmpf7vs7v0n4k4qvqvj  # Armed Forces of Ukraine
+wikidata: Q932840
+sources:
+  - url: https://www.wikidata.org/wiki/Q932840
+    lang: en

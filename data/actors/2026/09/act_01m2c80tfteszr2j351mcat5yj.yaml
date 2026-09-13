@@ -1,0 +1,13 @@
+id: act_01m2c80tfteszr2j351mcat5yj
+schema: actor/1
+name:
+  tr: Mısır Hava Kuvvetleri
+  en: Egyptian Air Force
+  local: القوات الجوية المصرية
+kind: service-branch
+country: EGY
+parent: act_01m2c80ssde529ka99swtxedky  # Egyptian Armed Forces
+wikidata: Q1351405
+sources:
+  - url: https://www.wikidata.org/wiki/Q1351405
+    lang: en

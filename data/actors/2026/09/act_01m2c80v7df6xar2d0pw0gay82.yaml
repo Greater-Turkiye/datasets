@@ -1,0 +1,13 @@
+id: act_01m2c80v7df6xar2d0pw0gay82
+schema: actor/1
+name:
+  tr: Bulgaristan Deniz Kuvvetleri
+  en: Bulgarian Navy
+  local: Военноморски сили на България
+kind: service-branch
+country: BGR
+parent: act_01m2c80tw4ep4bzxvvx7qnamc2  # Bulgarian Armed Forces
+wikidata: Q1188381
+sources:
+  - url: https://www.wikidata.org/wiki/Q1188381
+    lang: en

@@ -1,0 +1,12 @@
+id: act_01m2c80m40fs5t363nkp1faq1c
+schema: actor/1
+name:
+  tr: Ermenistan Silahlı Kuvvetleri
+  en: Armed Forces of Armenia
+  local: Հայաստանի զինված ուժեր
+kind: armed-forces
+country: ARM
+wikidata: Q935464
+sources:
+  - url: https://www.wikidata.org/wiki/Q935464
+    lang: en

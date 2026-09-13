@@ -1,0 +1,14 @@
+id: act_01m2c80fx3fw2btc9ww4cck9pr
+schema: actor/1
+name:
+  tr: Yunan Hava Kuvvetleri
+  en: Hellenic Air Force
+  local: Ελληνική Πολεμική Αεροπορία
+aliases: [HAF]
+kind: service-branch
+country: GRC
+parent: act_01m2bez28yf09tj4v9hwekpwmq  # Hellenic National Defence General Staff
+wikidata: Q631668
+sources:
+  - url: https://www.wikidata.org/wiki/Q631668
+    lang: en

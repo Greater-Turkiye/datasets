@@ -1,0 +1,13 @@
+id: act_01m2c80qmpf7vs7v0n4k4qvqvj
+schema: actor/1
+name:
+  tr: Ukrayna Silahlı Kuvvetleri
+  en: Armed Forces of Ukraine
+  local: Збройні сили України
+aliases: [ZSU]
+kind: armed-forces
+country: UKR
+wikidata: Q936105
+sources:
+  - url: https://www.wikidata.org/wiki/Q936105
+    lang: en

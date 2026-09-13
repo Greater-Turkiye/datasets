@@ -1,0 +1,17 @@
+id: eqp_01m2c80z68e0cr335ab8jmxa1w
+schema: equipment/1
+name:
+  tr: MIM-104 Patriot
+  en: MIM-104 Patriot
+aliases: [Patriot]
+category: air-defense.long-range
+origin_country: USA
+wikidata: Q339025
+description:
+  tr: ABD yapımı mobil karadan havaya füze sistemi.
+  en: US mobile surface-to-air missile system.
+sources:
+  - url: https://en.wikipedia.org/wiki/MIM-104_Patriot
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q339025
+    lang: en

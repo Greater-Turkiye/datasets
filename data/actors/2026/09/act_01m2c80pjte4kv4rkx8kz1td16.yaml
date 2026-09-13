@@ -1,0 +1,13 @@
+id: act_01m2c80pjte4kv4rkx8kz1td16
+schema: actor/1
+name:
+  tr: Rusya Deniz Kuvvetleri
+  en: Russian Navy
+  local: Военно-морской флот Российской Федерации
+kind: service-branch
+country: RUS
+parent: act_01m2c80p79fzxsfq1kcmd0ms7n  # Russian Armed Forces
+wikidata: Q465283
+sources:
+  - url: https://www.wikidata.org/wiki/Q465283
+    lang: en

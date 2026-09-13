@@ -6,8 +6,8 @@ title:
   tr: "ÖRNEK: Yunan Deniz Kuvvetleri Doğu Akdeniz'de atışlı tatbikat duyurdu"
   en: "EXAMPLE: Hellenic Navy announces live-fire exercise in the Eastern Mediterranean"
 summary:
-  tr: "Kurgusal örnek. Tatbikat alanı yalnızca deniz alanı hassasiyetinde kaydedilmiştir."
-  en: "Fictional example. The exercise area is recorded at sea-area precision only."
+  tr: Kurgusal örnek. Tatbikat alanı yalnızca deniz alanı hassasiyetinde kaydedilmiştir.
+  en: Fictional example. The exercise area is recorded at sea-area precision only.
 time:
   start: 2026-09-05T06:00Z
   end: 2026-09-07T18:00Z
@@ -20,8 +20,8 @@ location:
 regions: [east-med]
 countries: [GRC]
 actors:
-  - {ref: act_01m2bez309fvbsw0dd15392bkf, role: participant}   # Hellenic Navy
-sites: [sit_01m2bez6pmfb69evst2hmrhy5r]
+  - {ref: act_01m2bez309fvbsw0dd15392bkf, role: participant}  # Hellenic Navy
+sites: [sit_01m2bez6pmfb69evst2hmrhy5r]  # Souda Bay Naval Base
 sources:
   - url: https://example.org/ornek-navtex
     lang: en

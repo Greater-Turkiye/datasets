@@ -1,0 +1,16 @@
+id: src_01m2c813eket095x7mpbpcjfx1
+schema: source/1
+name:
+  tr: Rum Millî Muhafız Ordusu Genelkurmayı (resmi site)
+  en: Greek Cypriot National Guard General Staff (official site)
+  local: Γενικό Επιτελείο Εθνικής Φρουράς
+url: https://www.gov.cy/army/
+source_type: official-military
+country: CYP
+operator: act_01m2bez2myedeb6tydgpdte1qw  # Greek Cypriot National Guard
+languages: [el, en]
+reliability: B
+terms: attribution
+description:
+  tr: Rum Millî Muhafız Ordusu Genelkurmayının gov.cy portalındaki resmi sayfası (army.gov.cy buraya yönlenir). Resmi kurum olduğu için B; iddialar GKRY tarafına atfedilir.
+  en: Official page of the Greek Cypriot National Guard General Staff on the gov.cy portal (army.gov.cy redirects here). Rated B as an official body; claims are attributed to the Greek Cypriot side.

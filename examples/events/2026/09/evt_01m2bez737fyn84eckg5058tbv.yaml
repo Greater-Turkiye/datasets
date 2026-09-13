@@ -7,8 +7,8 @@ title:
   tr: "ÖRNEK: Ege'de bildirilen hava sahası olayı"
   en: "EXAMPLE: Reported airspace incident over the Aegean"
 summary:
-  tr: "Kurgusal örnek. MSB'ye göre iki F-16, Ege üzerinde hava sahası ihlali gerçekleştirdi. Nitelendirme MSB'ye atfedilmiştir."
-  en: "Fictional example. According to MSB, two F-16s violated airspace over the Aegean. The characterization is attributed to MSB."
+  tr: Kurgusal örnek. MSB'ye göre iki F-16, Ege üzerinde hava sahası ihlali gerçekleştirdi. Nitelendirme MSB'ye atfedilmiştir.
+  en: Fictional example. According to MSB, two F-16s violated airspace over the Aegean. The characterization is attributed to MSB.
 time:
   start: 2026-09-01T10:00Z
   precision: hour
@@ -23,17 +23,17 @@ location:
 regions: [aegean]
 countries: [GRC]
 actors:
-  - {ref: act_01m2bez28yf09tj4v9hwekpwmq, role: participant}   # Hellenic NDGS
-  - {ref: act_01m2bez1w9ef8vp8p9n6z7krjg, role: claimant}      # MSB
+  - {ref: act_01m2bez28yf09tj4v9hwekpwmq, role: participant}  # Hellenic National Defence General Staff
+  - {ref: act_01m2bez1w9ef8vp8p9n6z7krjg, role: claimant}  # Ministry of National Defence of the Republic of Türkiye
 equipment:
-  - {ref: eqp_01m2bez5h0eqpvgbq2c1j8ccyr, quantity: 2, quantity_basis: reported}   # F-16
+  - {ref: eqp_01m2bez5h0eqpvgbq2c1j8ccyr, quantity: 2, quantity_basis: reported}  # F-16 Fighting Falcon
 claims:
-  - {by: act_01m2bez1w9ef8vp8p9n6z7krjg, characterization: airspace-violation, source: 0}
+  - {by: act_01m2bez1w9ef8vp8p9n6z7krjg, characterization: airspace-violation, source: 0}  # Ministry of National Defence of the Republic of Türkiye
 sources:
-  - ref: src_01m2bez3g6fgwb9nhs14271a8f
+  - ref: src_01m2bez3g6fgwb9nhs14271a8f  # Türkiye Ministry of National Defence (official site)
     url: https://example.org/ornek-msb-aciklamasi
-    lang: tr
     published_at: 2026-09-01T15:00Z
+    lang: tr
 assessment:
   status: unverified
   credibility: 3

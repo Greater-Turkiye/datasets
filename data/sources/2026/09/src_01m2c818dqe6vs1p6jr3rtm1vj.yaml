@@ -1,0 +1,13 @@
+id: src_01m2c818dqe6vs1p6jr3rtm1vj
+schema: source/1
+name:
+  tr: ADS-B Exchange
+  en: ADS-B Exchange
+url: https://www.adsbexchange.com/
+source_type: tracking-service
+languages: [en]
+reliability: C
+terms: restricted
+description:
+  tr: "Gönüllü alıcı ağına dayanan uçak takip servisi. Kullanım şartları (JETNET) verinin yayımlanmasını ve yeniden dağıtılmasını yasaklar; yalnızca ipucu olarak kullanılır, tek kaynak olamaz. Kırmızı çizgi: Türk askerî uçaklarının verisi izlenmez, kaydedilmez."
+  en: "Flight tracking service based on a volunteer receiver network. Its terms of use (JETNET) prohibit publishing or redistributing the data; use as a lead only, never the sole citation. Red line: Turkish military aircraft are never tracked or recorded."

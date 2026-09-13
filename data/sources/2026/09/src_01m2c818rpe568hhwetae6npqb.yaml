@@ -1,0 +1,13 @@
+id: src_01m2c818rpe568hhwetae6npqb
+schema: source/1
+name:
+  tr: MarineTraffic
+  en: MarineTraffic
+url: https://www.marinetraffic.com/
+source_type: tracking-service
+languages: [en]
+reliability: C
+terms: restricted
+description:
+  tr: "AIS tabanlı ticari gemi takip servisi (Kpler). Kullanım şartları sayfası ağımızdan erişilemedi (403); verinin dışarıya dağıtımı ve ticari kullanımı yasak olduğu için ihtiyaten restricted: yalnızca ipucu, tek kaynak olamaz. AIS kapatılabilir veya sahte olabilir, bu nedenle C. Kırmızı çizgi: Türk gemilerinin AIS verisi izlenmez, kaydedilmez."
+  en: "Commercial AIS-based ship tracking service (Kpler). The terms page was not reachable from our network (403); marked restricted as a precaution because external dissemination and commercial use of its data are prohibited: lead only, never the sole citation. AIS can be switched off or spoofed, hence C. Red line: AIS data of Turkish ships is never tracked or recorded."

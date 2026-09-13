@@ -1,0 +1,17 @@
+id: eqp_01m2c80xbmftg9g02snqpgv0ph
+schema: equipment/1
+name:
+  tr: Dassault Mirage 2000
+  en: Dassault Mirage 2000
+aliases: [Mirage 2000]
+category: aircraft.fighter
+origin_country: FRA
+wikidata: Q200038
+description:
+  tr: Dassault Aviation yapımı, tek motorlu, delta kanatlı çok rollü savaş uçağı ailesi.
+  en: Single-engine, delta-wing multirole fighter family built by Dassault Aviation.
+sources:
+  - url: https://en.wikipedia.org/wiki/Dassault_Mirage_2000
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q200038
+    lang: en

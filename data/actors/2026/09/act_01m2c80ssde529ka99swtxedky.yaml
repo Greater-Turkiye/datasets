@@ -1,0 +1,12 @@
+id: act_01m2c80ssde529ka99swtxedky
+schema: actor/1
+name:
+  tr: Mısır Silahlı Kuvvetleri
+  en: Egyptian Armed Forces
+  local: القوات المسلحة المصرية
+kind: armed-forces
+country: EGY
+wikidata: Q1075553
+sources:
+  - url: https://www.wikidata.org/wiki/Q1075553
+    lang: en

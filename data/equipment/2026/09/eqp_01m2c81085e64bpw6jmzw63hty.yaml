@@ -1,0 +1,16 @@
+id: eqp_01m2c81085e64bpw6jmzw63hty
+schema: equipment/1
+name:
+  tr: Kh-101
+  en: Kh-101
+category: missile.cruise
+origin_country: RUS
+wikidata: Q3562874
+description:
+  tr: Rus yapımı havadan atılan seyir füzesi.
+  en: Russian air-launched cruise missile.
+sources:
+  - url: https://en.wikipedia.org/wiki/Kh-101
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q3562874
+    lang: en

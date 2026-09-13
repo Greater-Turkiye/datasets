@@ -3,6 +3,7 @@
 
   python tools/gt.py validate [--base REF]   schema + vocab + reference + policy checks
   python tools/gt.py build                   compile data/ into dist/ (JSONL, CSV, GeoJSON)
+  python tools/gt.py fmt [--check]           canonical key order + "# label" comments on references
   python tools/gt.py new <kind>              create a record skeleton with a fresh ID
   python tools/gt.py id <prefix>             print a fresh ID (evt, act, sit, eqp, src)
 """
@@ -11,6 +12,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import math
 import os
 import re
 import secrets
@@ -18,7 +20,8 @@ import subprocess
 import sys
 import time
 from dataclasses import dataclass
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
+from functools import lru_cache
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -43,6 +46,9 @@ DIR_OF_PREFIX = {prefix: directory for prefix, directory in KINDS.values()}
 ALPHABET = "0123456789abcdefghjkmnpqrstvwxyz"
 ID_RE = re.compile(r"^(evt|act|sit|eqp|src)_([0-7][0-9a-hjkmnp-tv-z]{25})$")
 TEXT_FIELDS = ("title", "summary", "description", "public_role")
+TUR_BOUNDARY = ROOT / "tools" / "data" / "tur_boundary.json"
+GEOFENCE_MSG = ("location/geometry is inside Türkiye's land territory or within 12 nm of its coast; "
+                "remove the geometry and use a coarse location precision")
 
 
 # --- YAML: no implicit timestamps, only true/false are booleans (country/lang "no" stays a string)
@@ -90,6 +96,88 @@ def parse_dt(value: str) -> datetime:
     return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
+# --- Türkiye geofence: land territory + 12 nm of sea (Natural Earth 1:50m, see tools/data/README.md)
+
+TERRITORIAL_SEA_KM = 12 * 1.852  # 12 nautical miles = 22.224 km
+KM_PER_DEG = 111.195  # mean Earth radius 6371.0088 km * pi / 180
+DENSIFY_KM = 5.0
+
+
+class Geofence:
+    """Is a point on Türkiye's land, in its internal waters, or in the sea within 12 nm of its coast?
+
+    In order: inside a Turkish land ring or the Marmara box -> in; within `border_tolerance_km` of a land
+    border -> in; on another state's land -> out (the 12 nm buffer is sea, it does not reach into Greece,
+    Georgia...); within 12 nm + `coast_tolerance_km` of the Turkish coast -> in. The tolerances are the
+    outline's maximum simplification error, so the check never under-flags compared with Natural Earth.
+    Distances are approximate: a local equirectangular projection centred on the tested point
+    (x = dlon * cos(lat) * 111.195 km, y = dlat * 111.195 km), far below 1% off great-circle over ~25 km.
+    """
+
+    def __init__(self, path: Path) -> None:
+        doc = json.loads(path.read_text(encoding="utf-8"))
+        self.coast_km = TERRITORIAL_SEA_KM + float(doc["coast_tolerance_km"])
+        self.border_km = float(doc["border_tolerance_km"])
+        self.rings = doc["polygons"] + doc["internal_waters"]
+        self.coast, self.border = doc["coast"], doc["border"]
+        self.foreign = [f["ring"] for f in doc["foreign_land"]]
+        pts = [p for ring in self.rings for p in ring]
+        lat_pad = self.coast_km / KM_PER_DEG
+        lat_min, lat_max = min(p[1] for p in pts) - lat_pad, max(p[1] for p in pts) + lat_pad
+        lon_pad = lat_pad / math.cos(math.radians(lat_max))
+        self.bbox = (min(p[0] for p in pts) - lon_pad, lat_min, max(p[0] for p in pts) + lon_pad, lat_max)
+
+    def contains(self, lon: float, lat: float) -> bool:
+        x0, y0, x1, y1 = self.bbox
+        if not (x0 <= lon <= x1 and y0 <= lat <= y1):
+            return False
+        if any(_in_ring(lon, lat, ring) for ring in self.rings):
+            return True
+        if any(self.distance_km(lon, lat, line) <= self.border_km for line in self.border):
+            return True
+        if any(_in_ring(lon, lat, ring) for ring in self.foreign):
+            return False
+        return any(self.distance_km(lon, lat, line) <= self.coast_km for line in self.coast)
+
+    @staticmethod
+    def distance_km(lon: float, lat: float, line: list) -> float:
+        k = math.cos(math.radians(lat)) * KM_PER_DEG
+        xy = [((p[0] - lon) * k, (p[1] - lat) * KM_PER_DEG) for p in line]
+        return min(_origin_seg_dist(a, b) for a, b in zip(xy, xy[1:]))
+
+    def intersects(self, geometry: dict) -> bool:
+        """Point: the point. Polygon: every vertex, points every 5 km along each edge, and whether it encloses Türkiye."""
+        if geometry.get("type") == "Point":
+            return self.contains(*geometry["coordinates"][:2])
+        if geometry.get("type") != "Polygon":
+            return False
+        rings = geometry["coordinates"]
+        for ring in rings:
+            for (ax, ay), (bx, by) in zip(ring, ring[1:] + ring[:1]):
+                km = math.hypot((bx - ax) * math.cos(math.radians((ay + by) / 2)), by - ay) * KM_PER_DEG
+                steps = max(1, math.ceil(km / DENSIFY_KM))
+                if any(self.contains(ax + (bx - ax) * i / steps, ay + (by - ay) * i / steps) for i in range(steps)):
+                    return True
+        # a polygon drawn around Türkiye (edges entirely outside the buffer) still covers it
+        return any(sum(_in_ring(r[0][0], r[0][1], ring) for ring in rings) % 2 for r in self.rings)
+
+
+def _in_ring(lon: float, lat: float, ring: list) -> bool:
+    inside = False
+    for (ax, ay), (bx, by) in zip(ring, ring[1:] + ring[:1]):
+        if (ay > lat) != (by > lat) and lon < ax + (lat - ay) * (bx - ax) / (by - ay):
+            inside = not inside
+    return inside
+
+
+def _origin_seg_dist(a, b) -> float:
+    (ax, ay), (bx, by) = a, b
+    dx, dy = bx - ax, by - ay
+    L = dx * dx + dy * dy
+    t = 0.0 if L == 0 else max(0.0, min(1.0, -(ax * dx + ay * dy) / L))
+    return math.hypot(ax + t * dx, ay + t * dy)
+
+
 # --- reporting
 
 class Report:
@@ -130,14 +218,16 @@ def load_yaml(path: Path):
     return yaml.load(path.read_text(encoding="utf-8"), Loader=Loader)
 
 
+def load_schemas() -> dict[str, dict]:
+    return {f.name.removesuffix(".schema.json"): json.loads(f.read_text(encoding="utf-8"))
+            for f in sorted(SCHEMA_DIR.glob("*.schema.json"))}
+
+
 def load_validators(report: Report) -> dict[str, Draft202012Validator]:
-    schemas, resources = {}, []
-    for f in sorted(SCHEMA_DIR.glob("*.schema.json")):
-        schema = json.loads(f.read_text(encoding="utf-8"))
+    schemas = load_schemas()
+    for schema in schemas.values():
         Draft202012Validator.check_schema(schema)
-        resources.append((schema["$id"], Resource.from_contents(schema)))
-        schemas[f.name.removesuffix(".schema.json")] = schema
-    registry = Registry().with_resources(resources)
+    registry = Registry().with_resources([(s["$id"], Resource.from_contents(s)) for s in schemas.values()])
     return {name: Draft202012Validator(s, registry=registry) for name, s in schemas.items() if not name.startswith("_")}
 
 
@@ -208,6 +298,11 @@ class Checker:
         self.pii = {name: re.compile(rx) for name, rx in policy["pii_patterns"].items()}
         self.markers = [re.compile(rf"(?<!\w){re.escape(m)}(?!\w)") for m in policy["classification_markers"]]
         self.now = datetime.now(timezone.utc)
+        self.geofence = Geofence(TUR_BOUNDARY)
+
+    def in_geofence(self, rec) -> bool:
+        geometry = (rec.data.get("location") or {}).get("geometry")
+        return bool(geometry) and self.geofence.intersects(geometry)
 
     def run(self) -> None:
         for rid, rec in self.records.items():
@@ -300,6 +395,8 @@ class Checker:
             self.code(rec, "countries", d["country"], "country")
         if d.get("country") == "TUR":
             self.report.error(rec.path, "sites operated by Türkiye are out of scope (red line)")
+        if self.in_geofence(rec):
+            self.report.error(rec.path, f"[Türk kuvvetleri kapısı / TUR forces gate] {GEOFENCE_MSG}")
         for i, a in enumerate(d.get("operators", [])):
             self.ref(rec, a, f"operators/{i}")
         for r in d.get("regions", []):
@@ -355,14 +452,18 @@ class Checker:
                     and actor.data["kind"] in gate["military_actor_kinds"] and a["role"] in gate["gated_roles"]:
                 gated = True
         flags = d.get("policy", {})
-        if not (gated or flags.get("involves_tur_forces")):
+        fenced = self.in_geofence(rec)
+        if not (gated or fenced or flags.get("involves_tur_forces")):
             return
         err = lambda msg: self.report.error(rec.path, f"[Türk kuvvetleri kapısı / TUR forces gate] {msg}")
-        if not flags.get("involves_tur_forces") or flags.get("sensitivity") != "elevated":
+        if (gated or flags.get("involves_tur_forces")) and \
+                (not flags.get("involves_tur_forces") or flags.get("sensitivity") != "elevated"):
             err("set policy.involves_tur_forces: true and policy.sensitivity: elevated")
         loc = d.get("location")
         if loc:
-            if "geometry" in loc:
+            if fenced:
+                err(GEOFENCE_MSG)
+            elif "geometry" in loc:
                 err("records involving Turkish forces must not contain coordinates")
             if loc["precision"] not in gate["allowed_precisions"]:
                 err(f"location precision must be one of {gate['allowed_precisions']}")
@@ -459,6 +560,192 @@ def validate_all(report: Report, base: str | None = None) -> dict[str, Record]:
     if base:
         check_git(base, report)
     return records
+
+
+# --- fmt: canonical key order (the order of `properties` in the schema) + "# English label" after references
+
+FMT_WIDTH = 120  # a mapping/list goes on one line in flow style only if the line (without comment) fits
+BLOCK_ITEM_KEYS = ("sources", "corrections")  # items of these lists are always block mappings
+REF_RE = re.compile(r"^(act|sit|eqp|src)_[0-7][0-9a-hjkmnp-tv-z]{25}$")
+
+
+class Formatter:
+    """Emits the constrained YAML of this repo deterministically.
+
+    Top-level mappings (title, time, location...) are block style; deeper mappings and list items are flow
+    style when they fit in FMT_WIDTH (except items of sources/corrections); scalar lists are flow when they fit;
+    `coordinates` is always flow. Strings are plain when that reads back identically (with gt.py's loader and
+    with a standard YAML 1.1 loader, apart from timestamps), otherwise double-quoted. Only the leading comment
+    header of a file is kept; reference comments are regenerated, any other comment is dropped.
+    """
+
+    def __init__(self, schemas: dict[str, dict], labels: dict[str, str]) -> None:
+        self.schemas = schemas
+        self.by_id = {s["$id"]: s for s in schemas.values()}
+        self.labels = labels
+
+    def format(self, text: str, data: dict, kind: str) -> str:
+        header = []
+        for line in text.splitlines():
+            if line.strip() and not line.lstrip().startswith("#"):
+                break
+            header.append(line.rstrip())
+        while header and not header[-1]:
+            header.pop()
+        while header and not header[0]:
+            header.pop(0)
+        lines: list[tuple[str, list[str]]] = []
+        schema = self.schemas[kind]
+        self.emit_map(self.order(data, schema, schema), 0, 0, lines)
+        body = [t + (f"  # {'; '.join(refs)}" if refs else "") for t, refs in lines]
+        out = "\n".join(header + body) + "\n"
+        if yaml.load(out, Loader=Loader) != data:
+            raise ValueError("formatted output does not read back identically")
+        return out
+
+    # key order
+
+    def resolve(self, node: dict, doc: dict) -> tuple[dict, dict]:
+        while "$ref" in node:
+            base, _, frag = node["$ref"].partition("#")
+            doc = self.by_id[base] if base else doc
+            node = doc
+            for part in filter(None, frag.split("/")):
+                node = node[part]
+        return node, doc
+
+    def order(self, value, node: dict, doc: dict):
+        node, doc = self.resolve(node, doc)
+        if isinstance(value, dict):
+            props: dict[str, tuple[dict, dict]] = {}
+            for branch in [node] + node.get("oneOf", []) + node.get("anyOf", []):
+                branch, bdoc = self.resolve(branch, doc)
+                for k, sub in branch.get("properties", {}).items():
+                    props.setdefault(k, (sub, bdoc))
+            keys = [k for k in props if k in value] + [k for k in value if k not in props]
+            return {k: self.order(value[k], *props.get(k, ({}, doc))) for k in keys}
+        if isinstance(value, list):
+            return [self.order(v, node.get("items", {}), doc) for v in value]
+        return value
+
+    # emitting
+
+    def emit_map(self, d: dict, indent: int, depth: int, lines: list) -> None:
+        for k, v in d.items():
+            head = f"{' ' * indent}{self.scalar(k)}:"
+            if isinstance(v, dict) and v:
+                one = f"{head} {self.flow(v)}"
+                if depth > 0 and len(one) <= FMT_WIDTH:
+                    lines.append((one, self.refs(v)))
+                else:
+                    lines.append((head, []))
+                    self.emit_map(v, indent + 2, depth + 1, lines)
+            elif isinstance(v, list) and v:
+                one = f"{head} {self.flow(v)}"
+                scalars = not any(isinstance(x, (dict, list)) for x in v)
+                if k == "coordinates" or (scalars and len(one) <= FMT_WIDTH):
+                    lines.append((one, self.refs(v)))
+                else:
+                    lines.append((head, []))
+                    for item in v:
+                        self.emit_item(item, indent + 2, depth + 1, lines, block=k in BLOCK_ITEM_KEYS)
+            else:
+                value = self.flow(v) if isinstance(v, (dict, list)) else self.scalar(v)
+                lines.append((f"{head} {value}", [] if depth == 0 and k == "id" else self.refs(v)))
+
+    def emit_item(self, item, indent: int, depth: int, lines: list, block: bool) -> None:
+        pad = " " * indent
+        if isinstance(item, dict) and item:
+            one = f"{pad}- {self.flow(item)}"
+            if not block and len(one) <= FMT_WIDTH:
+                lines.append((one, self.refs(item)))
+                return
+            sub: list = []
+            self.emit_map(item, indent + 2, depth + 1, sub)
+            sub[0] = (f"{pad}- {sub[0][0][indent + 2:]}", sub[0][1])
+            lines.extend(sub)
+        else:
+            value = self.flow(item) if isinstance(item, (dict, list)) else self.scalar(item)
+            lines.append((f"{pad}- {value}", self.refs(item)))
+
+    def flow(self, v) -> str:
+        if isinstance(v, dict):
+            return "{" + ", ".join(f"{self.scalar(k, True)}: {self.flow(x)}" for k, x in v.items()) + "}"
+        if isinstance(v, list):
+            return "[" + ", ".join(self.flow(x) for x in v) + "]"
+        return self.scalar(v, True)
+
+    def refs(self, v) -> list[str]:
+        found: list[str] = []
+        if isinstance(v, dict):
+            v = list(v.values())
+        if isinstance(v, list):
+            for x in v:
+                found += [r for r in self.refs(x) if r not in found]
+        elif isinstance(v, str) and REF_RE.match(v) and self.labels.get(v):
+            found.append(self.labels[v])
+        return found
+
+    @staticmethod
+    def scalar(v, flow: bool = False) -> str:
+        if v is None:
+            return "null"
+        if isinstance(v, bool):
+            return "true" if v else "false"
+        if isinstance(v, int):
+            return str(v)
+        if isinstance(v, float):
+            r = repr(v)
+            return r if "e" not in r and "n" not in r else f"{v:.10f}".rstrip("0")
+        s = str(v)
+        return s if _plain_ok(s, flow) else json.dumps(s, ensure_ascii=False)
+
+
+@lru_cache(maxsize=None)
+def _plain_ok(s: str, flow: bool) -> bool:
+    if not s or s != s.strip() or any(c in s for c in "\n\r\t") or (flow and any(c in s for c in ",[]{}")):
+        return False
+    docs = [(f"k: {s}", {"k": s})] + ([(f"[{s}]", [s]), (f"{{k: {s}}}", {"k": s})] if flow else [])
+    try:
+        if any(yaml.load(src, Loader=Loader) != want for src, want in docs):
+            return False
+        std = yaml.safe_load(f"k: {s}")["k"]
+    except yaml.YAMLError:
+        return False
+    return std == s or isinstance(std, (date, datetime))
+
+
+def record_label(rec: Record) -> str | None:
+    name = rec.data.get("name")
+    return (name.get("en") or name.get("tr")) if isinstance(name, dict) else None
+
+
+def cmd_fmt(args) -> int:
+    report = Report()
+    records = load_records(report)
+    formatter = Formatter(load_schemas(), {rid: record_label(rec) for rid, rec in records.items()})
+    changed = 0
+    for rid, rec in sorted(records.items(), key=lambda item: item[1].path):
+        kind = str(rec.data.get("schema", "")).partition("/")[0]
+        if kind.startswith("_") or kind not in formatter.schemas:
+            report.error(rec.path, f"unknown schema {rec.data.get('schema')!r}; not formatted")
+            continue
+        text = rec.path.read_text(encoding="utf-8")
+        try:
+            new = formatter.format(text, rec.data, kind)
+        except (ValueError, KeyError) as e:
+            report.error(rec.path, f"cannot format: {e}")
+            continue
+        if new != text:
+            changed += 1
+            if args.check:
+                report.error(rec.path, "not formatted; run `python tools/gt.py fmt`")
+            else:
+                rec.path.write_text(new, encoding="utf-8", newline="\n")
+                print(f"formatted {rec.path.relative_to(ROOT).as_posix()}")
+    verb = "would be reformatted" if args.check else "reformatted"
+    print(f"{len(records)} records, {changed} {verb}, {report.errors} errors")
+    return 1 if report.errors else 0
 
 
 # --- commands
@@ -615,6 +902,9 @@ def main() -> int:
     p.add_argument("--base", help="git ref to diff against (blocks deleted/renamed records)")
     p.set_defaults(func=cmd_validate)
     sub.add_parser("build").set_defaults(func=cmd_build)
+    p = sub.add_parser("fmt")
+    p.add_argument("--check", action="store_true", help="do not write; exit 1 if any record would change")
+    p.set_defaults(func=cmd_fmt)
     p = sub.add_parser("new")
     p.add_argument("kind", choices=list(KINDS))
     p.add_argument("--example", action="store_true", help="create under examples/ instead of data/")

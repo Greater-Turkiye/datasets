@@ -1,0 +1,17 @@
+id: eqp_01m2c81214e818e8vys68b7wd3
+schema: equipment/1
+name:
+  tr: FDI frigate (Amiral Ronarc'h / Kimon class)
+  en: FDI frigate (Amiral Ronarc'h / Kimon class)
+aliases: [FDI, Amiral Ronarc'h class, Kimon class]
+category: naval.surface-combatant
+origin_country: FRA
+wikidata: Q20724657
+description:
+  tr: Fransız Savunma ve Müdahale Firkateyni (FDI) sınıfı; Yunanistan'ın siparişi Kimon sınıfı olarak anılır.
+  en: French Defence and Intervention Frigate (FDI) class; Greece's order is known as the Kimon class.
+sources:
+  - url: https://en.wikipedia.org/wiki/Amiral_Ronarc'h-class_frigate
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q20724657
+    lang: en

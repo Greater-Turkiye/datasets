@@ -1,0 +1,17 @@
+id: eqp_01m2c812qzfqns4x40v74pfq9r
+schema: equipment/1
+name:
+  tr: Kalibr
+  en: Kalibr
+aliases: [3M-54 Kalibr, 3M14 Biryuza]
+category: missile.cruise
+origin_country: RUS
+wikidata: Q1333260
+description:
+  tr: Rus seyir füzesi ailesi; gemi, denizaltı ve havadan atılan gemisavar ve kara hedefi versiyonları var.
+  en: Russian cruise missile family with ship-, submarine- and air-launched anti-ship and land-attack versions.
+sources:
+  - url: https://en.wikipedia.org/wiki/Kalibr_(missile_family)
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q1333260
+    lang: en

@@ -1,0 +1,13 @@
+id: act_01m2c80vjhf75bda4sm9d48kfv
+schema: actor/1
+name:
+  tr: Bulgaristan Hava Kuvvetleri
+  en: Bulgarian Air Force
+  local: Военновъздушни сили на България
+kind: service-branch
+country: BGR
+parent: act_01m2c80tw4ep4bzxvvx7qnamc2  # Bulgarian Armed Forces
+wikidata: Q591198
+sources:
+  - url: https://www.wikidata.org/wiki/Q591198
+    lang: en

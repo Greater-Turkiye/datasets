@@ -1,0 +1,15 @@
+id: src_01m2c814g9e0kaerhrf0xe2t4g
+schema: source/1
+name:
+  tr: Gürcistan Savunma Bakanlığı (resmi site)
+  en: Ministry of Defence of Georgia (official site)
+  local: თავდაცვის სამინისტრო
+url: https://mod.gov.ge/
+source_type: official-government
+country: GEO
+languages: [ka, en]
+reliability: B
+terms: attribution
+description:
+  tr: Gürcistan Savunma Bakanlığının resmi sitesi. Canlı site otomatik istemcilere bot doğrulaması gösterdiği için içerik 2026-08-31 tarihli Wayback kopyasından doğrulandı. Resmi kurum olduğu için B.
+  en: Official website of Georgia's defence ministry. The live site serves a bot challenge to automated clients, so content was verified from a Wayback capture dated 2026-08-31. Rated B as an official body.

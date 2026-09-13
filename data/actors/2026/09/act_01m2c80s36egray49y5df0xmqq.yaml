@@ -1,0 +1,14 @@
+id: act_01m2c80s36egray49y5df0xmqq
+schema: actor/1
+name:
+  tr: İsrail Hava Kuvvetleri
+  en: Israeli Air Force
+  local: חיל האוויר הישראלי
+aliases: [IAF]
+kind: service-branch
+country: ISR
+parent: act_01m2c80rn9frwag1pfmahetda7  # Israel Defense Forces
+wikidata: Q462211
+sources:
+  - url: https://www.wikidata.org/wiki/Q462211
+    lang: en

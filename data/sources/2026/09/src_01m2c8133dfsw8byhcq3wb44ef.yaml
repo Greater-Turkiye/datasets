@@ -1,0 +1,15 @@
+id: src_01m2c8133dfsw8byhcq3wb44ef
+schema: source/1
+name:
+  tr: GKRY Savunma Bakanlığı (resmi site)
+  en: Greek Cypriot Administration Ministry of Defence (official site)
+  local: Υπουργείο Άμυνας
+url: https://www.gov.cy/mod/
+source_type: official-government
+country: CYP
+languages: [el, en]
+reliability: B
+terms: attribution
+description:
+  tr: GKRY Savunma Bakanlığının gov.cy portalındaki resmi sayfası (mod.gov.cy buraya yönlenir). Resmi kurum olduğu için B; Kıbrıs ve Doğu Akdeniz'e dair nitelendirmeler daima GKRY tarafına atfedilir.
+  en: Official page of the Greek Cypriot Administration's defence ministry on the gov.cy portal (mod.gov.cy redirects here). Rated B as an official body; characterizations about Cyprus and the Eastern Mediterranean are always attributed to the Greek Cypriot side.

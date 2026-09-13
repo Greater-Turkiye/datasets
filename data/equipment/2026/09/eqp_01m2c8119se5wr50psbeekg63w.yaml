@@ -1,0 +1,17 @@
+id: eqp_01m2c8119se5wr50psbeekg63w
+schema: equipment/1
+name:
+  tr: Type 214 submarine
+  en: Type 214 submarine
+aliases: [Type 214]
+category: naval.submarine
+origin_country: DEU
+wikidata: Q494403
+description:
+  tr: HDW tarafından ihracat için geliştirilen, havadan bağımsız tahrikli (AIP) dizel-elektrik denizaltı sınıfı.
+  en: Diesel-electric submarine class with air-independent propulsion (AIP), developed by HDW for export.
+sources:
+  - url: https://en.wikipedia.org/wiki/Type_214_submarine
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q494403
+    lang: en

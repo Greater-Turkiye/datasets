@@ -1,0 +1,16 @@
+id: act_01m2c80jayfzx9jn3manmgyt63
+schema: actor/1
+name:
+  tr: İslam Devrim Muhafızları Ordusu
+  en: Islamic Revolutionary Guard Corps
+  local: سپاه پاسداران انقلاب اسلامی
+aliases: [IRGC, Sepah]
+kind: armed-forces
+country: IRN
+wikidata: Q271110
+description:
+  tr: İran'da düzenli ordudan (Artêş) ayrı, kendi kara, deniz ve hava-uzay kuvvetleri olan paralel silahlı kuvvet.
+  en: Iran's parallel armed force with its own ground, naval and aerospace branches, separate from the regular army (Artesh).
+sources:
+  - url: https://www.wikidata.org/wiki/Q271110
+    lang: en

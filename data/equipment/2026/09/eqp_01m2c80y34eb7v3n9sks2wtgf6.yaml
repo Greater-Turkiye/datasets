@@ -1,0 +1,16 @@
+id: eqp_01m2c80y34eb7v3n9sks2wtgf6
+schema: equipment/1
+name:
+  tr: T-90
+  en: T-90
+category: land.tank
+origin_country: RUS
+wikidata: Q192757
+description:
+  tr: T-72'den geliştirilmiş Rus ana muharebe tankı.
+  en: Russian main battle tank developed from the T-72.
+sources:
+  - url: https://en.wikipedia.org/wiki/T-90
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q192757
+    lang: en

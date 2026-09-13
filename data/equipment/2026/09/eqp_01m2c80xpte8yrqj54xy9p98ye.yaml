@@ -1,0 +1,16 @@
+id: eqp_01m2c80xpte8yrqj54xy9p98ye
+schema: equipment/1
+name:
+  tr: Leopard 2
+  en: Leopard 2
+category: land.tank
+origin_country: DEU
+wikidata: Q151968
+description:
+  tr: Alman yapımı üçüncü nesil ana muharebe tankı.
+  en: German third-generation main battle tank.
+sources:
+  - url: https://en.wikipedia.org/wiki/Leopard_2
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q151968
+    lang: en

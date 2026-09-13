@@ -1,0 +1,17 @@
+id: eqp_01m2c80wn7fxv8sqh33a0etzfa
+schema: equipment/1
+name:
+  tr: Sukhoi Su-30
+  en: Sukhoi Su-30
+aliases: [Su-30]
+category: aircraft.fighter
+origin_country: RUS
+wikidata: Q204331
+description:
+  tr: Sovyetler Birliği'nde geliştirilmiş, iki kişilik, çift motorlu çok rollü savaş uçağı ailesi.
+  en: Two-seat, twin-engine multirole fighter family developed in the Soviet Union.
+sources:
+  - url: https://en.wikipedia.org/wiki/Sukhoi_Su-30
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q204331
+    lang: en

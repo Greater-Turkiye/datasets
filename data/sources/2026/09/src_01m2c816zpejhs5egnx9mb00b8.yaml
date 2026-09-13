@@ -1,0 +1,14 @@
+id: src_01m2c816zpejhs5egnx9mb00b8
+schema: source/1
+name:
+  tr: Associated Press (AP)
+  en: Associated Press (AP)
+url: https://apnews.com/
+source_type: news-agency
+country: USA
+languages: [en]
+reliability: B
+terms: attribution
+description:
+  tr: New York merkezli kâr amacı gütmeyen haber kooperatifi. Geniş muhabir ağı nedeniyle B. AP haberini yeniden yayımlayan yayın organları bağımsız kaynak sayılmaz.
+  en: New York-based not-for-profit news cooperative. Rated B for its wide correspondent network. Outlets republishing AP copy are not independent sources.
