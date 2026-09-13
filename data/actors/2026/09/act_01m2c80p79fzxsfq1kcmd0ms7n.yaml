@@ -8,5 +8,5 @@ kind: armed-forces
 country: RUS
 wikidata: Q193159
 sources:
-- url: https://www.wikidata.org/wiki/Q193159
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q193159
+    lang: en

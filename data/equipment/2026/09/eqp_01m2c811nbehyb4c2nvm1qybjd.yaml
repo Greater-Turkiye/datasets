@@ -3,10 +3,7 @@ schema: equipment/1
 name:
   tr: FREMM multipurpose frigate
   en: FREMM multipurpose frigate
-aliases:
-- FREMM
-- Aquitaine class
-- Bergamini class
+aliases: [FREMM, Aquitaine class, Bergamini class]
 category: naval.surface-combatant
 origin_country: FRA
 wikidata: Q1380284
@@ -14,7 +11,7 @@ description:
   tr: Naval Group ve Fincantieri tarafından tasarlanan Fransız-İtalyan çok amaçlı firkateyn ailesi.
   en: Franco-Italian multipurpose frigate family designed by Naval Group and Fincantieri.
 sources:
-- url: https://en.wikipedia.org/wiki/FREMM_multipurpose_frigate
-  lang: en
-- url: https://www.wikidata.org/wiki/Q1380284
-  lang: en
+  - url: https://en.wikipedia.org/wiki/FREMM_multipurpose_frigate
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q1380284
+    lang: en

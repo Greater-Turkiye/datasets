@@ -8,5 +8,5 @@ kind: armed-forces
 country: EGY
 wikidata: Q1075553
 sources:
-- url: https://www.wikidata.org/wiki/Q1075553
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q1075553
+    lang: en

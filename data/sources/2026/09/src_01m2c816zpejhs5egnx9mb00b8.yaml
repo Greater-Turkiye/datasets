@@ -6,8 +6,7 @@ name:
 url: https://apnews.com/
 source_type: news-agency
 country: USA
-languages:
-- en
+languages: [en]
 reliability: B
 terms: attribution
 description:

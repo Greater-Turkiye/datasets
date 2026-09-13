@@ -10,7 +10,7 @@ description:
   tr: Fransız yapımı gemisavar seyir füzesi; gemi, denizaltı, helikopter ve uçaktan atılabilen versiyonları var.
   en: French anti-ship cruise missile with ship-, submarine-, helicopter- and aircraft-launched versions.
 sources:
-- url: https://en.wikipedia.org/wiki/Exocet
-  lang: en
-- url: https://www.wikidata.org/wiki/Q150570
-  lang: en
+  - url: https://en.wikipedia.org/wiki/Exocet
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q150570
+    lang: en

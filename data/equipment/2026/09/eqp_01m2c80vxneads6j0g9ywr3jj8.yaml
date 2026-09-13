@@ -3,11 +3,7 @@ schema: equipment/1
 name:
   tr: Lockheed Martin F-35 Lightning II
   en: Lockheed Martin F-35 Lightning II
-aliases:
-- F-35
-- F-35A
-- F-35B
-- F-35C
+aliases: [F-35, F-35A, F-35B, F-35C]
 category: aircraft.fighter
 origin_country: USA
 wikidata: Q29261
@@ -15,7 +11,7 @@ description:
   tr: ABD yapımı, tek motorlu, gizlilik özellikli çok rollü savaş uçağı ailesi (F-35A/B/C varyantları).
   en: US single-engine stealth multirole fighter family (F-35A/B/C variants).
 sources:
-- url: https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II
-  lang: en
-- url: https://www.wikidata.org/wiki/Q29261
-  lang: en
+  - url: https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q29261
+    lang: en

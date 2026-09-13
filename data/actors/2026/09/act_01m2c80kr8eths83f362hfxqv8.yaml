@@ -4,12 +4,11 @@ name:
   tr: Devrim Muhafızları Hava-Uzay Kuvvetleri
   en: Islamic Revolutionary Guard Corps Aerospace Force
   local: نیروی هوافضای سپاه پاسداران انقلاب اسلامی
-aliases:
-- IRGC-ASF
+aliases: [IRGC-ASF]
 kind: service-branch
 country: IRN
-parent: act_01m2c80jayfzx9jn3manmgyt63
+parent: act_01m2c80jayfzx9jn3manmgyt63  # Islamic Revolutionary Guard Corps
 wikidata: Q4410582
 sources:
-- url: https://www.wikidata.org/wiki/Q4410582
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q4410582
+    lang: en

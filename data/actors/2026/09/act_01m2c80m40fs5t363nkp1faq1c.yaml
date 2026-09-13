@@ -8,5 +8,5 @@ kind: armed-forces
 country: ARM
 wikidata: Q935464
 sources:
-- url: https://www.wikidata.org/wiki/Q935464
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q935464
+    lang: en

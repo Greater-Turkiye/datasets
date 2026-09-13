@@ -5,8 +5,7 @@ name:
   en: Copernicus Browser (Copernicus Data Space Ecosystem)
 url: https://browser.dataspace.copernicus.eu/
 source_type: imagery-provider
-languages:
-- en
+languages: [en]
 reliability: B
 terms: attribution
 description:

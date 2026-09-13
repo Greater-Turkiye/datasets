@@ -10,7 +10,7 @@ description:
   tr: T-72'den geliştirilmiş Rus ana muharebe tankı.
   en: Russian main battle tank developed from the T-72.
 sources:
-- url: https://en.wikipedia.org/wiki/T-90
-  lang: en
-- url: https://www.wikidata.org/wiki/Q192757
-  lang: en
+  - url: https://en.wikipedia.org/wiki/T-90
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q192757
+    lang: en

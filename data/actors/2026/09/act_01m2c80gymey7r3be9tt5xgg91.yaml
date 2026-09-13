@@ -8,5 +8,5 @@ kind: armed-forces
 country: IRQ
 wikidata: Q15611742
 sources:
-- url: https://www.wikidata.org/wiki/Q15611742
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q15611742
+    lang: en

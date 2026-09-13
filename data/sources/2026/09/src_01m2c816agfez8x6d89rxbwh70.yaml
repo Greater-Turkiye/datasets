@@ -7,9 +7,7 @@ name:
 url: https://www.mod.bg/
 source_type: official-government
 country: BGR
-languages:
-- bg
-- en
+languages: [bg, en]
 reliability: B
 terms: attribution
 description:

@@ -10,7 +10,7 @@ description:
   tr: Kısa menzilli roket ve topçu mermilerini önlemek için geliştirilmiş İsrail hava savunma sistemi.
   en: Israeli air defence system designed to intercept short-range rockets and artillery shells.
 sources:
-- url: https://en.wikipedia.org/wiki/Iron_Dome
-  lang: en
-- url: https://www.wikidata.org/wiki/Q81231
-  lang: en
+  - url: https://en.wikipedia.org/wiki/Iron_Dome
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q81231
+    lang: en
