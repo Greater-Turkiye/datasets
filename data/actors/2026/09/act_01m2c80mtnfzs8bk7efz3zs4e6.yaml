@@ -1,0 +1,12 @@
+id: act_01m2c80mtnfzs8bk7efz3zs4e6
+schema: actor/1
+name:
+  tr: Azerbaycan Silahlı Kuvvetleri
+  en: Azerbaijani Armed Forces
+  local: Azərbaycan Silahlı Qüvvələri
+kind: armed-forces
+country: AZE
+wikidata: Q724216
+sources:
+- url: https://www.wikidata.org/wiki/Q724216
+  lang: en

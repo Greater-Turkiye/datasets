@@ -1,0 +1,12 @@
+id: act_01m2c80tw4ep4bzxvvx7qnamc2
+schema: actor/1
+name:
+  tr: Bulgaristan Silahlı Kuvvetleri
+  en: Bulgarian Armed Forces
+  local: Българска армия
+kind: armed-forces
+country: BGR
+wikidata: Q276261
+sources:
+- url: https://www.wikidata.org/wiki/Q276261
+  lang: en

@@ -1,0 +1,18 @@
+id: src_01m2c8144sf3sbbjka9rw21q02
+schema: source/1
+name:
+  tr: Azerbaycan Savunma Bakanlığı (resmi site)
+  en: Ministry of Defence of Azerbaijan (official site)
+  local: Azərbaycan Respublikası Müdafiə Nazirliyi
+url: https://mod.gov.az/
+source_type: official-government
+country: AZE
+languages:
+- az
+- ru
+- en
+reliability: B
+terms: attribution
+description:
+  tr: Azerbaycan Savunma Bakanlığının resmi sitesi. Resmi kurum olduğu için B; Ermenistan ile ilgili tartışmalı nitelendirmeler claims[] ile Azerbaycan tarafına atfedilir.
+  en: Official website of Azerbaijan's defence ministry. Rated B as an official body; contested characterizations regarding Armenia are attributed to the Azerbaijani side via claims[].

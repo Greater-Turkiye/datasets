@@ -1,0 +1,18 @@
+id: eqp_01m2c80yv6fk2v3735bxjk0vx2
+schema: equipment/1
+name:
+  tr: Bayraktar TB2
+  en: Bayraktar TB2
+aliases:
+- TB2
+category: uav.male-hale
+origin_country: TUR
+wikidata: Q17501733
+description:
+  tr: Baykar yapımı orta irtifa uzun havada kalışlı (MALE) silahlı İHA; bölgedeki ihracat kullanıcıları için tip kaydı.
+  en: MALE armed UAV built by Baykar; type record for export operators in the region.
+sources:
+- url: https://en.wikipedia.org/wiki/Baykar_Bayraktar_TB2
+  lang: en
+- url: https://www.wikidata.org/wiki/Q17501733
+  lang: en

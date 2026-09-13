@@ -1,0 +1,13 @@
+id: act_01m2c80h9ge6nsrn7ry08vzq9d
+schema: actor/1
+name:
+  tr: Irak Hava Kuvvetleri
+  en: Iraqi Air Force
+  local: القوة الجوية العراقية
+kind: service-branch
+country: IRQ
+parent: act_01m2c80gymey7r3be9tt5xgg91
+wikidata: Q2443729
+sources:
+- url: https://www.wikidata.org/wiki/Q2443729
+  lang: en

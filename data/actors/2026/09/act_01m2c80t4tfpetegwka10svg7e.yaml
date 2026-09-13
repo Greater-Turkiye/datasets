@@ -1,0 +1,13 @@
+id: act_01m2c80t4tfpetegwka10svg7e
+schema: actor/1
+name:
+  tr: Mısır Deniz Kuvvetleri
+  en: Egyptian Navy
+  local: القوات البحرية المصرية
+kind: service-branch
+country: EGY
+parent: act_01m2c80ssde529ka99swtxedky
+wikidata: Q382551
+sources:
+- url: https://www.wikidata.org/wiki/Q382551
+  lang: en
