@@ -10,7 +10,7 @@ description:
   tr: Alman yapımı üçüncü nesil ana muharebe tankı.
   en: German third-generation main battle tank.
 sources:
-- url: https://en.wikipedia.org/wiki/Leopard_2
-  lang: en
-- url: https://www.wikidata.org/wiki/Q151968
-  lang: en
+  - url: https://en.wikipedia.org/wiki/Leopard_2
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q151968
+    lang: en

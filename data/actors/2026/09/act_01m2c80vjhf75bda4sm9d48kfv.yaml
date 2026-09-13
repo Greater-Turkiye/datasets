@@ -6,8 +6,8 @@ name:
   local: Военновъздушни сили на България
 kind: service-branch
 country: BGR
-parent: act_01m2c80tw4ep4bzxvvx7qnamc2
+parent: act_01m2c80tw4ep4bzxvvx7qnamc2  # Bulgarian Armed Forces
 wikidata: Q591198
 sources:
-- url: https://www.wikidata.org/wiki/Q591198
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q591198
+    lang: en

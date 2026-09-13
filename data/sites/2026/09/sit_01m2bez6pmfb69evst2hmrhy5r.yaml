@@ -7,7 +7,7 @@ name:
 aliases: [Souda Bay, NSA Souda Bay]
 site_type: naval-base
 country: GRC
-operators: [act_01m2bez309fvbsw0dd15392bkf]
+operators: [act_01m2bez309fvbsw0dd15392bkf]  # Hellenic Navy
 location:
   geometry: {type: Point, coordinates: [24.12, 35.49]}
   precision: locality

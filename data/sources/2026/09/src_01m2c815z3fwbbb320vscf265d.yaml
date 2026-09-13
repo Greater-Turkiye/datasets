@@ -7,10 +7,7 @@ name:
 url: https://www.mod.gov.eg/
 source_type: official-government
 country: EGY
-languages:
-- ar
-- en
-- fr
+languages: [ar, en, fr]
 reliability: B
 terms: attribution
 description:

@@ -3,9 +3,7 @@ schema: equipment/1
 name:
   tr: HESA Shahed 136
   en: HESA Shahed 136
-aliases:
-- Shahed-136
-- Geran-2
+aliases: [Shahed-136, Geran-2]
 category: uav.loitering-munition
 origin_country: IRN
 wikidata: Q109044360
@@ -13,7 +11,7 @@ description:
   tr: İran tasarımı tek yönlü saldırı İHA'sı (dolanan mühimmat); Rusya'daki adı Geran-2.
   en: Iranian-designed one-way attack drone (loitering munition); Russian designation Geran-2.
 sources:
-- url: https://en.wikipedia.org/wiki/HESA_Shahed_136
-  lang: en
-- url: https://www.wikidata.org/wiki/Q109044360
-  lang: en
+  - url: https://en.wikipedia.org/wiki/HESA_Shahed_136
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q109044360
+    lang: en

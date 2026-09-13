@@ -8,5 +8,5 @@ kind: armed-forces
 country: GEO
 wikidata: Q770753
 sources:
-- url: https://www.wikidata.org/wiki/Q770753
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q770753
+    lang: en

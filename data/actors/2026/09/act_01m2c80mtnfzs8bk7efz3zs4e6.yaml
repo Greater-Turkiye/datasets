@@ -8,5 +8,5 @@ kind: armed-forces
 country: AZE
 wikidata: Q724216
 sources:
-- url: https://www.wikidata.org/wiki/Q724216
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q724216
+    lang: en

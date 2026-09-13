@@ -7,10 +7,7 @@ name:
 url: https://mod.gov.az/
 source_type: official-government
 country: AZE
-languages:
-- az
-- ru
-- en
+languages: [az, ru, en]
 reliability: B
 terms: attribution
 description:

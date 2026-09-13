@@ -6,8 +6,8 @@ name:
   local: القوة الجوية العراقية
 kind: service-branch
 country: IRQ
-parent: act_01m2c80gymey7r3be9tt5xgg91
+parent: act_01m2c80gymey7r3be9tt5xgg91  # Iraqi Armed Forces
 wikidata: Q2443729
 sources:
-- url: https://www.wikidata.org/wiki/Q2443729
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q2443729
+    lang: en

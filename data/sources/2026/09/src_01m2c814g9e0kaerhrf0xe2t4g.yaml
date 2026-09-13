@@ -7,9 +7,7 @@ name:
 url: https://mod.gov.ge/
 source_type: official-government
 country: GEO
-languages:
-- ka
-- en
+languages: [ka, en]
 reliability: B
 terms: attribution
 description:

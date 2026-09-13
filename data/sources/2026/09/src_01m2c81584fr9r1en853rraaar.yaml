@@ -7,11 +7,9 @@ name:
 url: https://mod.gov.ua/
 source_type: official-government
 country: UKR
-languages:
-- uk
-- en
+languages: [uk, en]
 reliability: B
 terms: attribution
 description:
-  tr: 'Ukrayna Savunma Bakanlığının resmi sitesi. Resmi kaynak olarak B; ancak Ukrayna savaşın tarafıdır: muharebe sonuçları, kayıplar ve düşürme iddiaları daima claims[] ile atfedilir.'
-  en: 'Official website of Ukraine''s defence ministry. Rated B as an official source, but Ukraine is a party to the war: combat results, losses and shoot-down claims are always attributed via claims[].'
+  tr: "Ukrayna Savunma Bakanlığının resmi sitesi. Resmi kaynak olarak B; ancak Ukrayna savaşın tarafıdır: muharebe sonuçları, kayıplar ve düşürme iddiaları daima claims[] ile atfedilir."
+  en: "Official website of Ukraine's defence ministry. Rated B as an official source, but Ukraine is a party to the war: combat results, losses and shoot-down claims are always attributed via claims[]."

@@ -6,8 +6,8 @@ name:
   local: Հայաստանի ռազմաօդային ուժեր
 kind: service-branch
 country: ARM
-parent: act_01m2c80m40fs5t363nkp1faq1c
+parent: act_01m2c80m40fs5t363nkp1faq1c  # Armed Forces of Armenia
 wikidata: Q1834601
 sources:
-- url: https://www.wikidata.org/wiki/Q1834601
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q1834601
+    lang: en

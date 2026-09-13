@@ -7,10 +7,7 @@ name:
 url: https://www.mil.am/
 source_type: official-government
 country: ARM
-languages:
-- hy
-- ru
-- en
+languages: [hy, ru, en]
 reliability: B
 terms: attribution
 description:

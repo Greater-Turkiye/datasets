@@ -4,8 +4,7 @@ name:
   tr: İran İslam Cumhuriyeti Ordusu
   en: Islamic Republic of Iran Army
   local: ارتش جمهوری اسلامی ایران
-aliases:
-- Artesh
+aliases: [Artesh]
 kind: armed-forces
 country: IRN
 wikidata: Q2465096
@@ -13,5 +12,5 @@ description:
   tr: İran'ın düzenli silahlı kuvvetleri (Artêş). Devrim Muhafızları Ordusu'ndan ayrı bir yapıdır.
   en: Iran's regular armed forces (Artesh), distinct from the Islamic Revolutionary Guard Corps.
 sources:
-- url: https://www.wikidata.org/wiki/Q2465096
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q2465096
+    lang: en

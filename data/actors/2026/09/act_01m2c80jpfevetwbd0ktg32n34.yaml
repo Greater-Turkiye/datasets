@@ -4,15 +4,14 @@ name:
   tr: İran Deniz Kuvvetleri
   en: Islamic Republic of Iran Navy
   local: نیروی دریایی ارتش جمهوری اسلامی ایران
-aliases:
-- IRIN
+aliases: [IRIN]
 kind: service-branch
 country: IRN
-parent: act_01m2c80hzxfkrrmq80wwvr3a8w
+parent: act_01m2c80hzxfkrrmq80wwvr3a8w  # Islamic Republic of Iran Army
 wikidata: Q2408298
 description:
   tr: Düzenli ordunun (Artêş) deniz kuvveti; Devrim Muhafızları Deniz Kuvvetleri ile karıştırılmamalıdır.
   en: Naval branch of the regular army (Artesh); not to be confused with the IRGC Navy.
 sources:
-- url: https://www.wikidata.org/wiki/Q2408298
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q2408298
+    lang: en

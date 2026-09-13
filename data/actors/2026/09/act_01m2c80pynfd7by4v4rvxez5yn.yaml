@@ -4,12 +4,11 @@ name:
   tr: Rusya Hava-Uzay Kuvvetleri
   en: Russian Aerospace Forces
   local: Воздушно-космические силы Российской Федерации
-aliases:
-- VKS
+aliases: [VKS]
 kind: service-branch
 country: RUS
-parent: act_01m2c80p79fzxsfq1kcmd0ms7n
+parent: act_01m2c80p79fzxsfq1kcmd0ms7n  # Russian Armed Forces
 wikidata: Q21042210
 sources:
-- url: https://www.wikidata.org/wiki/Q21042210
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q21042210
+    lang: en

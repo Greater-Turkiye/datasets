@@ -3,9 +3,7 @@ schema: equipment/1
 name:
   tr: 9K720 Iskander
   en: 9K720 Iskander
-aliases:
-- Iskander
-- SS-26 Stone
+aliases: [Iskander, SS-26 Stone]
 category: missile.ballistic
 origin_country: RUS
 wikidata: Q483042
@@ -13,7 +11,7 @@ description:
   tr: Rus yapımı mobil kısa menzilli balistik füze sistemi ailesi.
   en: Russian family of mobile short-range ballistic missile systems.
 sources:
-- url: https://en.wikipedia.org/wiki/9K720_Iskander
-  lang: en
-- url: https://www.wikidata.org/wiki/Q483042
-  lang: en
+  - url: https://en.wikipedia.org/wiki/9K720_Iskander
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q483042
+    lang: en

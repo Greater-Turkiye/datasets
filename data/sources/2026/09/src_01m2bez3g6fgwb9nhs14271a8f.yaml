@@ -6,7 +6,7 @@ name:
 url: https://www.msb.gov.tr/
 source_type: official-government
 country: TUR
-operator: act_01m2bez1w9ef8vp8p9n6z7krjg
+operator: act_01m2bez1w9ef8vp8p9n6z7krjg  # Ministry of National Defence of the Republic of Türkiye
 languages: [tr, en]
 reliability: B
 terms: attribution

@@ -8,5 +8,5 @@ kind: armed-forces
 country: SYR
 wikidata: Q849180
 sources:
-- url: https://www.wikidata.org/wiki/Q849180
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q849180
+    lang: en

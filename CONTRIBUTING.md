@@ -16,8 +16,17 @@ Open a data-submission issue; a reviewer turns it into a record.
    - Bölge, olay türü, ülke kodları: `vocab/` klasörü. Uygun kod yoksa önce **kod önerisi** issue'su açın.
    - Aktör/ekipman/kaynak kaydı yoksa `new actor`, `new equipment`, `new source` ile oluşturun.
    - Her web kaynağı için arşiv alın: `https://web.archive.org/save/<url>` → `archives:` altına ekleyin.
-4. `python tools/gt.py validate` hatasız geçmeli (uyarılar olabilir).
-5. PR açın, şablondaki kontrol listesini işaretleyin.
+4. `python tools/gt.py fmt` → anahtarları kanonik sıraya dizer, `act_/sit_/eqp_/src_` referanslarına `# English label` yorumu ekler.
+   Dosya başındaki yorum bloğu korunur, diğer yorumlar silinir. CI `fmt --check` ile denetler.
+   Run `fmt` to canonicalise key order and annotate references; CI runs `fmt --check`.
+5. `python tools/gt.py validate` hatasız geçmeli (uyarılar olabilir).
+6. PR açın, şablondaki kontrol listesini işaretleyin.
+
+## Araçlar / Tooling
+
+`tools/gt.py` değişiklikleri için testler: `pip install pytest && python -m pytest tests`. Testler reponun geçici bir kopyasında çalışır, gerçek kayıtlara dokunmaz.
+Yeni bir politika kuralı eklerseniz `tests/test_gt.py` içindeki `CASES` listesine reddedilen bir örnek ekleyin.
+Tests for `tools/gt.py` run on a temporary copy of the repo. When you add a policy rule, add a failing example to `CASES`.
 
 ## Yazım kuralları / Style
 

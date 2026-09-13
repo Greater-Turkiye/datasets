@@ -6,12 +6,9 @@ name:
 url: https://firms.modaps.eosdis.nasa.gov/
 source_type: dataset
 country: USA
-languages:
-- en
+languages: [en]
 reliability: B
 terms: attribution
 description:
-  tr: MODIS ve VIIRS uydularından neredeyse gerçek zamanlı aktif yangın/ısı anomalisi tespitleri. Bir ısı noktası tek başına saldırı kanıtı değildir; yalnızca destekleyici kanıttır. NASA verisi açıktır,
-    FIRMS'e atıf istenir.
-  en: Near-real-time active fire/thermal anomaly detections from MODIS and VIIRS. A hotspot alone is not proof of a strike; it is corroborating evidence only. NASA data is open; acknowledgement of FIRMS
-    is requested.
+  tr: MODIS ve VIIRS uydularından neredeyse gerçek zamanlı aktif yangın/ısı anomalisi tespitleri. Bir ısı noktası tek başına saldırı kanıtı değildir; yalnızca destekleyici kanıttır. NASA verisi açıktır, FIRMS'e atıf istenir.
+  en: Near-real-time active fire/thermal anomaly detections from MODIS and VIIRS. A hotspot alone is not proof of a strike; it is corroborating evidence only. NASA data is open; acknowledgement of FIRMS is requested.

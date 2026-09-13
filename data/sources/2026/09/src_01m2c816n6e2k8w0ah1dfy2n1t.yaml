@@ -6,13 +6,7 @@ name:
 url: https://www.afp.com/
 source_type: news-agency
 country: FRA
-languages:
-- fr
-- en
-- ar
-- es
-- de
-- pt
+languages: [fr, en, ar, es, de, pt]
 reliability: B
 terms: attribution
 description:

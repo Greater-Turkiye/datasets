@@ -6,8 +6,8 @@ name:
   local: Azərbaycan Hərbi Hava Qüvvələri
 kind: service-branch
 country: AZE
-parent: act_01m2c80mtnfzs8bk7efz3zs4e6
+parent: act_01m2c80mtnfzs8bk7efz3zs4e6  # Azerbaijani Armed Forces
 wikidata: Q1966995
 sources:
-- url: https://www.wikidata.org/wiki/Q1966995
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q1966995
+    lang: en

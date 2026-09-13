@@ -3,10 +3,7 @@ schema: equipment/1
 name:
   tr: Harpoon
   en: Harpoon
-aliases:
-- AGM-84 Harpoon
-- RGM-84 Harpoon
-- UGM-84 Harpoon
+aliases: [AGM-84 Harpoon, RGM-84 Harpoon, UGM-84 Harpoon]
 category: missile.anti-ship
 origin_country: USA
 wikidata: Q331436
@@ -14,7 +11,7 @@ description:
   tr: ABD yapımı her hava koşulunda kullanılabilen gemisavar füze ailesi.
   en: US all-weather anti-ship missile family.
 sources:
-- url: https://en.wikipedia.org/wiki/Harpoon_(missile)
-  lang: en
-- url: https://www.wikidata.org/wiki/Q331436
-  lang: en
+  - url: https://en.wikipedia.org/wiki/Harpoon_(missile)
+    lang: en
+  - url: https://www.wikidata.org/wiki/Q331436
+    lang: en

@@ -4,12 +4,11 @@ name:
   tr: İran Hava Kuvvetleri
   en: Islamic Republic of Iran Air Force
   local: نیروی هوایی ارتش جمهوری اسلامی ایران
-aliases:
-- IRIAF
+aliases: [IRIAF]
 kind: service-branch
 country: IRN
-parent: act_01m2c80hzxfkrrmq80wwvr3a8w
+parent: act_01m2c80hzxfkrrmq80wwvr3a8w  # Islamic Republic of Iran Army
 wikidata: Q378442
 sources:
-- url: https://www.wikidata.org/wiki/Q378442
-  lang: en
+  - url: https://www.wikidata.org/wiki/Q378442
+    lang: en

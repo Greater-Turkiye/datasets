@@ -3,14 +3,13 @@ schema: equipment/1
 name:
   tr: Sukhoi Su-30SM
   en: Sukhoi Su-30SM
-aliases:
-- Su-30SM
+aliases: [Su-30SM]
 category: aircraft.fighter
 origin_country: RUS
-variant_of: eqp_01m2c80wn7fxv8sqh33a0etzfa
+variant_of: eqp_01m2c80wn7fxv8sqh33a0etzfa  # Sukhoi Su-30
 description:
   tr: Su-30 ailesinin Rus Hava-Uzay Kuvvetleri'nde kullanılan varyantı.
   en: Variant of the Su-30 family in service with the Russian Aerospace Forces.
 sources:
-- url: https://en.wikipedia.org/wiki/Sukhoi_Su-30
-  lang: en
+  - url: https://en.wikipedia.org/wiki/Sukhoi_Su-30
+    lang: en
