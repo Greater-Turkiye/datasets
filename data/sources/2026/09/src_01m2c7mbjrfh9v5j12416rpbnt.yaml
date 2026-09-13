@@ -1,0 +1,14 @@
+id: src_01m2c7mbjrfh9v5j12416rpbnt
+schema: source/1
+name:
+  tr: Bulgaristan Haber Ajansı (BTA)
+  en: Bulgarian News Agency (BTA)
+url: https://www.bta.bg/
+source_type: news-agency
+country: BGR
+languages: [bg, en]
+reliability: F
+terms: attribution
+description:
+  tr: "Bulgaristan'ın ulusal haber ajansı. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
+  en: "Bulgaria's national news agency. New source: default reliability F pending maintainer review."

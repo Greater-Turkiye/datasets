@@ -1,0 +1,9 @@
+id: act_01m2c7m63ff2nttenpg2mkyn43
+schema: actor/1
+name:
+  tr: Birleşik Arap Emirlikleri Savunma Bakanlığı
+  en: United Arab Emirates Ministry of Defence
+  local: وزارة الدفاع
+aliases: [UAE MoD]
+kind: ministry
+country: ARE

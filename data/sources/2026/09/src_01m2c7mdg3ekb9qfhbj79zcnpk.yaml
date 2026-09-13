@@ -1,0 +1,14 @@
+id: src_01m2c7mdg3ekb9qfhbj79zcnpk
+schema: source/1
+name:
+  tr: Suriye Arap Haber Ajansı (SANA)
+  en: Syrian Arab News Agency (SANA)
+url: https://sana.sy/
+source_type: news-agency
+country: SYR
+languages: [ar, en]
+reliability: F
+terms: attribution
+description:
+  tr: "Suriye devlet haber ajansı; Suriye hükümetinin açıklamalarını aktarır. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
+  en: "Syrian state news agency; carries Syrian government statements. New source: default reliability F pending maintainer review."

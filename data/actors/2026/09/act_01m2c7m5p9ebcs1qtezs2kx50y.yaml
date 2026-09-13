@@ -1,0 +1,9 @@
+id: act_01m2c7m5p9ebcs1qtezs2kx50y
+schema: actor/1
+name:
+  tr: Yunanistan Millî Savunma Bakanlığı
+  en: Hellenic Ministry of National Defence
+  local: Υπουργείο Εθνικής Άμυνας
+aliases: [Hellenic MoD]
+kind: ministry
+country: GRC

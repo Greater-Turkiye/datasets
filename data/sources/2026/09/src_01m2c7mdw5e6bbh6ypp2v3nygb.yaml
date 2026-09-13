@@ -1,0 +1,14 @@
+id: src_01m2c7mdw5e6bbh6ypp2v3nygb
+schema: source/1
+name:
+  tr: Arab News
+  en: Arab News
+url: https://www.arabnews.com/
+source_type: media
+country: SAU
+languages: [en]
+reliability: F
+terms: attribution
+description:
+  tr: "Suudi Arabistan merkezli İngilizce gazete. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
+  en: "Saudi-based English-language daily. New source: default reliability F pending maintainer review."

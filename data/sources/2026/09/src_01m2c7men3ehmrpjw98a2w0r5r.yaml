@@ -1,0 +1,14 @@
+id: src_01m2c7men3ehmrpjw98a2w0r5r
+schema: source/1
+name:
+  tr: București FM
+  en: București FM
+url: https://www.bucurestifm.ro/
+source_type: media
+country: ROU
+languages: [ro]
+reliability: F
+terms: attribution
+description:
+  tr: "Bükreş merkezli radyo istasyonunun haber sitesi. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
+  en: "News site of a Bucharest-based radio station. New source: default reliability F pending maintainer review."

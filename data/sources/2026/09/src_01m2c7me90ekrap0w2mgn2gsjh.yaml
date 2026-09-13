@@ -1,0 +1,13 @@
+id: src_01m2c7me90ekrap0w2mgn2gsjh
+schema: source/1
+name:
+  tr: The Moscow Times
+  en: The Moscow Times
+url: https://www.themoscowtimes.com/
+source_type: media
+languages: [en, ru]
+reliability: F
+terms: attribution
+description:
+  tr: "Rusya'yı izleyen bağımsız haber sitesi. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
+  en: "Independent news outlet covering Russia. New source: default reliability F pending maintainer review."

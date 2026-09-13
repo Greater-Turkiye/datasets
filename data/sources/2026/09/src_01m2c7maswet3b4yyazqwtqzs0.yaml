@@ -1,0 +1,14 @@
+id: src_01m2c7maswet3b4yyazqwtqzs0
+schema: source/1
+name:
+  tr: Yunan Deniz Kuvvetleri Hidrografi Dairesi (NAVTEX duyuruları)
+  en: Hellenic Navy Hydrographic Service (NAVTEX notices)
+url: https://hnhs.gr/
+source_type: official-military
+country: GRC
+languages: [el, en]
+reliability: F
+terms: attribution
+description:
+  tr: "Yunanistan'ın yayımladığı NAVTEX metinleri. Olgusal duyurular için birincil kaynak; alan/yetki nitelendirmeleri Yunan tarafına atfedilir. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
+  en: "NAVTEX texts issued by Greece. Primary source for factual notices; area/jurisdiction characterizations are attributed to the Greek side. New source: default reliability F pending maintainer review."

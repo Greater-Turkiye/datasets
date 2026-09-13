@@ -1,0 +1,9 @@
+id: act_01m2c7m6gje9dad794298z38bh
+schema: actor/1
+name:
+  tr: İran Dışişleri Bakanlığı
+  en: Ministry of Foreign Affairs of Iran
+  local: وزارت امور خارجه
+aliases: [Iranian MFA]
+kind: ministry
+country: IRN

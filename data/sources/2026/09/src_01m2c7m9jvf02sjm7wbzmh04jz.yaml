@@ -1,0 +1,14 @@
+id: src_01m2c7m9jvf02sjm7wbzmh04jz
+schema: source/1
+name:
+  tr: Al Jazeera
+  en: Al Jazeera
+url: https://www.aljazeera.com/
+source_type: media
+country: QAT
+languages: [en, ar]
+reliability: F
+terms: attribution
+description:
+  tr: "Katar merkezli yayın kuruluşu. Yeni kaynak: güvenilirlik notu varsayılan F, bakımcı değerlendirmesi bekliyor."
+  en: "Qatar-based broadcaster. New source: default reliability F pending maintainer review."
