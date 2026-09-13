@@ -1,0 +1,19 @@
+id: eqp_01m2c80zhkfbttn933c8h6pksq
+schema: equipment/1
+name:
+  tr: S-400 Triumf
+  en: S-400 Triumf
+aliases:
+- S-400
+- SA-21 Growler
+category: air-defense.long-range
+origin_country: RUS
+wikidata: Q861006
+description:
+  tr: Rus yapımı mobil uzun menzilli karadan havaya füze sistemi.
+  en: Russian mobile long-range surface-to-air missile system.
+sources:
+- url: https://en.wikipedia.org/wiki/S-400_missile_system
+  lang: en
+- url: https://www.wikidata.org/wiki/Q861006
+  lang: en

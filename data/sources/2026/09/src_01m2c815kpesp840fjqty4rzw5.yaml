@@ -1,0 +1,21 @@
+id: src_01m2c815kpesp840fjqty4rzw5
+schema: source/1
+name:
+  tr: İsrail Savunma Kuvvetleri (resmi site)
+  en: Israel Defense Forces (official site)
+  local: צבא הגנה לישראל
+url: https://www.idf.il/
+source_type: official-military
+country: ISR
+operator: act_01m2c80rn9frwag1pfmahetda7
+languages:
+- he
+- en
+- ar
+- fr
+- es
+reliability: B
+terms: attribution
+description:
+  tr: 'İsrail Savunma Kuvvetlerinin resmi sitesi. Resmi kaynak olarak B; ancak silahlı çatışmaların tarafıdır: hedef, kayıp ve saldırı nitelendirmeleri daima claims[] ile atfedilir.'
+  en: 'Official website of the Israel Defense Forces. Rated B as an official source, but the IDF is a party to armed conflicts: target, casualty and attack characterizations are always attributed via claims[].'

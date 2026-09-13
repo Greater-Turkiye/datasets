@@ -1,0 +1,13 @@
+id: act_01m2c80sdwfdrv9he31cz97prr
+schema: actor/1
+name:
+  tr: İsrail Deniz Kuvvetleri
+  en: Israeli Navy
+  local: חיל הים
+kind: service-branch
+country: ISR
+parent: act_01m2c80rn9frwag1pfmahetda7
+wikidata: Q510534
+sources:
+- url: https://www.wikidata.org/wiki/Q510534
+  lang: en

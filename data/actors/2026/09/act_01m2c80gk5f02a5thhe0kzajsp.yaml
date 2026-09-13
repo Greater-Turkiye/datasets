@@ -1,0 +1,12 @@
+id: act_01m2c80gk5f02a5thhe0kzajsp
+schema: actor/1
+name:
+  tr: Suriye Silahlı Kuvvetleri
+  en: Syrian Armed Forces
+  local: القوات المسلحة السورية
+kind: armed-forces
+country: SYR
+wikidata: Q849180
+sources:
+- url: https://www.wikidata.org/wiki/Q849180
+  lang: en

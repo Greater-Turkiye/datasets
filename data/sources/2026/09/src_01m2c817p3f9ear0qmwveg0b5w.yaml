@@ -1,0 +1,14 @@
+id: src_01m2c817p3f9ear0qmwveg0b5w
+schema: source/1
+name:
+  tr: Copernicus Browser
+  en: Copernicus Browser (Copernicus Data Space Ecosystem)
+url: https://browser.dataspace.copernicus.eu/
+source_type: imagery-provider
+languages:
+- en
+reliability: B
+terms: attribution
+description:
+  tr: Sentinel uydu görüntüleri için tarayıcı. Sentinel verisi ücretsiz, tam ve açık erişimlidir; portal içeriği için uygun atıf gerekir. Görüntü çözünürlüğü sınırlıdır, yorum dikkatle yapılmalıdır.
+  en: Browser for Sentinel satellite imagery. Sentinel data is available on a free, full and open basis; portal content requires appropriate credit. Resolution is limited, so interpret with care.
