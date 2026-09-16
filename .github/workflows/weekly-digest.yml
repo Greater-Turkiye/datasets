@@ -1,0 +1,84 @@
+# Weekly bulletin draft: builds dist/ and opens an issue with the 7-day digest for a human to review.
+# Nothing is posted anywhere by this workflow — a maintainer decides what, if anything, goes to a channel
+# (ADR 0007, human-in-the-loop publishing).
+name: Haftalık bülten taslağı / Weekly bulletin draft
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: weekly-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Build the export
+        run: python tools/gt.py build
+
+      - name: Prepare the draft
+        id: draft
+        run: |
+          set -euo pipefail
+          if [ ! -s dist/feed.md ]; then
+            echo "::notice::no digest was produced; nothing to draft"
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          # the digest covers the newest records; if it lists no item, stay quiet rather than open an empty issue
+          if ! grep -q '^## ' dist/feed.md; then
+            echo "::notice::the digest has no items this week"
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          {
+            echo "Bu, son yedi günün **taslak** bültenidir; \`dist/feed.md\` dosyasından üretildi."
+            echo "Hiçbir yere paylaşılmadı. Bir bakımcı okuyup onaylamadan hiçbir kanala gitmez (ADR 0007)."
+            echo
+            echo "This is a **draft** bulletin for the last seven days, generated from \`dist/feed.md\`."
+            echo "It has not been posted anywhere. Nothing reaches a channel before a maintainer reads and approves it."
+            echo
+            echo "---"
+            echo
+            cat dist/feed.md
+            echo
+            echo "---"
+            echo
+            echo "- [ ] Her madde kaynağıyla ve doğrulama durumuyla tutarlı / every item matches its source and verification status"
+            echo "- [ ] Tartışmalı nitelendirme yok, atıf var / no contested characterisation stated in our own voice"
+            echo "- [ ] Kırmızı çizgiler kontrol edildi / red lines checked"
+            echo "- [ ] Paylaşılacak kanallar seçildi / channels chosen"
+          } > digest_issue.md
+          echo "ready=true" >> "$GITHUB_OUTPUT"
+          echo "title=Haftalık bülten taslağı / Weekly bulletin draft — $(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      - name: Open the draft issue
+        if: steps.draft.outputs.ready == 'true'
+        env:
+          TITLE: ${{ steps.draft.outputs.title }}
+        run: |
+          set -euo pipefail
+          url=$(gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" \
+            --body-file digest_issue.md --label bulten-taslagi)
+          echo "::notice::bulletin draft: $url"
