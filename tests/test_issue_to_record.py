@@ -266,6 +266,78 @@ def test_minimal_submission_falls_back_without_inventing(repo):
     assert "fell back to `other`" in body_md and "Archive links were missing" in body_md
 
 
+# --- fallback: the organisation forbids Actions from opening pull requests
+
+def test_compare_url_points_at_the_pushed_branch():
+    assert ITR.compare_url("Greater-Turkiye/datasets", "record/issue-42") == \
+        "https://github.com/Greater-Turkiye/datasets/compare/main...record/issue-42?expand=1"
+
+
+def test_fallback_comment_is_written_next_to_the_pull_request_body(repo):
+    outputs, out = repo.run(event("complete"))
+    assert outputs["status"] == "ok"
+    assert outputs["compare_url"] == \
+        "https://github.com/Greater-Turkiye/datasets/compare/main...record/issue-42?expand=1"
+
+    comment = (out / "fallback_comment.md").read_text(encoding="utf-8")
+    # one-click link, the branch, and every checklist item that would have been the pull request body
+    assert outputs["compare_url"] in comment
+    assert "`record/issue-42`" in comment
+    for item in ITR.REVIEWER_CHECKLIST:
+        assert f"- [ ] {item}" in comment
+    # the exact organisation setting that removes the fallback
+    assert 'Organisation settings → Actions → General → Workflow permissions → ' \
+           '"Allow GitHub Actions to create and approve pull requests"' in comment
+    assert "GT_BOT_TOKEN" in comment
+    # the ready-made body is offered whole, so nothing a reviewer needs is lost
+    assert (out / "pr_body.md").read_text(encoding="utf-8") in comment
+
+
+def test_fallback_comment_survives_backtick_fences_in_the_issue_body(repo):
+    """The issue form renders URL fields as ``` blocks, so the paste-ready body uses a ~~~ fence."""
+    _, out = repo.run(event("complete"))
+    comment = (out / "fallback_comment.md").read_text(encoding="utf-8")
+    assert "```text" in comment  # the quoted form really does contain backtick fences
+    opened = [i for i, line in enumerate(comment.splitlines()) if line.strip() == "~~~markdown"]
+    closed = [i for i, line in enumerate(comment.splitlines()) if line.strip() == "~~~"]
+    assert len(opened) == 1 and len(closed) == 1 and closed[0] > opened[0]
+
+
+def test_fallback_comment_neutralises_a_tilde_fence_in_the_issue_body(repo):
+    payload = event("complete")
+    payload["issue"]["body"] = payload["issue"]["body"].replace("```text", "~~~text")
+    _, out = repo.run(payload)
+    comment = (out / "fallback_comment.md").read_text(encoding="utf-8")
+    body = comment.split("~~~markdown\n", 1)[1].rsplit("\n~~~", 1)[0]
+    assert "~~~" not in body and "~ ~ ~text" in body
+
+
+def test_the_workflow_falls_back_on_the_exit_status_and_still_ends_green():
+    wf = yaml.safe_load((REPO / ".github" / "workflows" / "record-from-issue.yml").read_text(encoding="utf-8"))
+    steps = {key: s for s in wf["jobs"]["draft"]["steps"]
+             for key in [s.get("id") or s.get("name")] if key}
+    create, fallback = steps["pr"], steps["Comment a compare link when the pull request could not be created"]
+
+    # the branch is decided by gh's exit status; the message only words the warning
+    assert 'status=$?' in create["run"] and '[ "$status" -eq 0 ]' in create["run"]
+    assert "set -euo pipefail" not in create["run"]  # a non-zero exit must not abort the step
+    assert "does not allow GitHub Actions to create or approve pull requests" in create["run"]
+    assert "::warning::" in create["run"] and "::error::" not in create["run"]
+    assert 'echo "created=false" >> "$GITHUB_OUTPUT"' in create["run"]
+
+    assert fallback["if"] == "steps.pr.outputs.created == 'false'"
+    assert "fallback_comment.md" in fallback["run"]
+    # the happy path is unchanged and only runs when a pull request really was created
+    for name in ("Add the region label, if there is one", "Comment the pull request link on the proposal"):
+        assert steps[name]["if"] == "steps.pr.outputs.created == 'true'"
+
+
+def test_no_fallback_comment_when_the_submission_is_rejected(repo):
+    outputs, out = repo.run(event("policy-pii", number=99))
+    assert outputs["status"] == "rejected" and "compare_url" not in outputs
+    assert not (out / "fallback_comment.md").exists()
+
+
 def test_the_draft_passes_fmt_and_validate(repo):
     repo.run(event("complete"))
     for args in (["validate"], ["fmt", "--check"]):

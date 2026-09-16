@@ -83,6 +83,25 @@ If `validate` rejects the record — TUR forces gate, personal data, classificat
 red-line box — the workflow opens **nothing**: no branch, no commit, no pull request. It comments why on the issue
 and fails the run. The gate is never stripped to make a record pass.
 
+**PR açılamazsa / When the pull request cannot be opened.** Bu kuruluş şu anda Actions'ın pull request açmasına izin
+vermiyor. Kayıt yine üretilir, `fmt` + `validate` yine çalışır ve dal yine itilir; `gh pr create` başarısız olursa
+iş akışı **yeşil biter** ve issue'ya tek tıklık bir bağlantı (`…/compare/main...record/issue-<n>?expand=1`), inceleme
+kontrol listesi ve PR açıklaması için hazır gövde yorumlanır — koşu günlüğünde bir `::warning::` ile. /
+This organisation currently does not allow Actions to open pull requests. The record is still generated, `fmt` and
+`validate` still run and the branch is still pushed; if `gh pr create` fails, the workflow **ends green** and
+comments a one-click `…/compare/main...record/issue-<n>?expand=1` link, the reviewer checklist and a ready-made body
+on the issue, with a `::warning::` in the run log. The fallback is chosen on `gh`'s exit status; its message is only
+a hint used to word the warning.
+
+Bunu tamamen otomatik hâle getirmek için / To make it fully automatic again, either:
+
+- bir kuruluş sahibi şunu açar / an organisation owner enables **Organisation settings → Actions → General →
+  Workflow permissions → "Allow GitHub Actions to create and approve pull requests"**; veya / or
+- depoya `GT_BOT_TOKEN` sırrı eklenir (contents / pull-requests / issues yazma yetkisi olan bir makine hesabı) — bu
+  aynı zamanda üretilen PR'da `validate` kontrolünü de kendiliğinden başlatır. / add a `GT_BOT_TOKEN` secret (a
+  machine account with contents / pull-requests / issues write), which also makes the generated PR start the
+  `validate` check on its own.
+
 ## Temel kurallar / Core rules
 
 - **ID'ler kalıcıdır** — değişmez, silinmez, taşınmaz; dosya yolu ID'den türetilir. / IDs are permanent; the path is derived from the ID.

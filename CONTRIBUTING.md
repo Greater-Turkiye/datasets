@@ -22,6 +22,26 @@ then opens a draft pull request with an `unverified` record and comments the lin
 source records, archives, English text, attributed `claims[]` — and only then raises `assessment`. If the policy
 gate rejects the draft, nothing is opened at all and the workflow says why on the issue.
 
+### PR'ı elle açmak / Opening the pull request by hand
+
+Bu kuruluş şu anda GitHub Actions'ın pull request açmasına izin vermiyor. Böyle bir durumda iş akışı **yeşil biter**:
+kayıt üretilir, `fmt` + `validate` geçer, dal itilir ve issue'ya şunları içeren bir yorum düşer — tek tıklık
+`…/compare/main...record/issue-<n>?expand=1` bağlantısı, inceleme kontrol listesi ve PR açıklamasına yapıştırılacak
+hazır gövde. Yapmanız gereken tek şey bağlantıya tıklayıp gövdeyi yapıştırmak; kayıt zaten kontrollerden geçmiştir.
+
+This organisation currently does not allow Actions to open pull requests. When that happens the workflow **ends
+green**: the record is generated, `fmt` and `validate` pass, the branch is pushed, and the issue gets a comment with
+a one-click `…/compare/main...record/issue-<n>?expand=1` link, the reviewer checklist and a ready-made pull request
+body. Click the link, paste the body, review as usual. The run log carries a `::warning::` explaining why. The
+fallback is chosen on `gh pr create`'s exit status, not on its wording.
+
+Kalıcı çözüm / To remove the fallback permanently, one of:
+
+- **Organisation settings → Actions → General → Workflow permissions → "Allow GitHub Actions to create and approve
+  pull requests"** (kuruluş sahibi gerekir / needs an organisation owner); veya / or
+- depoya bir `GT_BOT_TOKEN` sırrı ekleyin / add a `GT_BOT_TOKEN` secret — contents / pull-requests / issues yazma
+  yetkisi olan bir makine hesabı / a machine account with contents / pull-requests / issues write.
+
 > Bir pull request iş akışı jetonuyla açıldığında `validate` kontrolü kendiliğinden başlamaz; incelerken bir commit
 > itin veya PR'ı kapatıp yeniden açın ki zorunlu kontrol raporlansın. / A pull request opened with the workflow
 > token does not start the `validate` check on its own: push a commit while reviewing, or close and reopen the PR,
