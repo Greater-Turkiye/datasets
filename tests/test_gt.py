@@ -10,6 +10,7 @@ import importlib.util
 import json
 import shutil
 import sys
+import xml.etree.ElementTree as ET
 from argparse import Namespace
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -369,7 +370,8 @@ def test_build_outputs(repo, world):
     dist = repo.root / "dist"
     assert sorted(p.name for p in dist.iterdir()) == sorted([
         "event.jsonl", "actor.jsonl", "site.jsonl", "equipment.jsonl", "source.jsonl", "withdrawn.jsonl",
-        "examples.jsonl", "events.csv", "events.geojson", "vocab.json", "manifest.json"])
+        "examples.jsonl", "events.csv", "events.geojson", "vocab.json", "manifest.json",
+        "feed.xml", "feed.json", "feed.md"])
 
     def ids(name):
         return [json.loads(line)["id"] for line in (dist / name).read_text(encoding="utf-8").splitlines()]
@@ -387,6 +389,7 @@ def test_build_outputs(repo, world):
     assert [f["id"] for f in features] == [e["id"]]
     manifest = json.loads((dist / "manifest.json").read_text(encoding="utf-8"))
     assert manifest["counts"] == {"event": 1, "actor": 2, "site": 0, "equipment": 0, "source": 2, "tombstone": 1}
+    assert manifest["feed"] == {"items": 0, "statuses": {"verified": 0, "partially_verified": 0}, "updated": None}
     assert "aegean" in {c["code"] for c in json.loads((dist / "vocab.json").read_text(encoding="utf-8"))["regions"]}
 
 
@@ -468,3 +471,133 @@ def test_fmt_scalars_roundtrip():
             loaded = yaml.load(text, Loader=GT.Loader)["k"]
             assert (loaded[0] if flow else loaded) == value, (value, flow, text)
     assert f.scalar(1e-05) == "0.00001" and f.scalar(24.12) == "24.12" and f.scalar(True) == "true"
+
+
+# --- feed
+
+def published_event(repo, ids, slug: str, status: str = "verified", days_ago: int = 3) -> dict:
+    """An event the feed is allowed to publish: verified/partially verified, bilingual, archived sources."""
+    e = good_event(repo, ids)
+    e["title"] = {"tr": f"TR {slug}", "en": f"EN {slug}"}
+    e["summary"] = {"tr": f"Kaynağa göre {slug}.", "en": f"According to the source, {slug}."}
+    e["time"]["start"] = iso(NOW - timedelta(days=days_ago))
+    e["reported_at"] = iso(NOW - timedelta(days=days_ago))
+    e["assessment"] = {"status": status, "credibility": 2, "method": ["geolocation"]}
+    e["sources"][0]["archives"] = [{"service": "wayback", "url": "https://web.archive.org/web/2026/https://example.org/a"}]
+    return e
+
+
+def build_feed(repo) -> tuple[dict, str, str]:
+    """Build and return (feed.json document, feed.xml text, feed.md text)."""
+    assert repo.gt.cmd_build(Namespace()) == 0
+    dist = repo.root / "dist"
+    return (json.loads((dist / "feed.json").read_text(encoding="utf-8")),
+            (dist / "feed.xml").read_text(encoding="utf-8"),
+            (dist / "feed.md").read_text(encoding="utf-8"))
+
+
+def feed_ids(doc: dict) -> list[str]:
+    return [item["_gt"]["record_id"] for item in doc["items"]]
+
+
+def test_feed_publishes_only_verified_and_partially_verified(repo, world):
+    keep = {s: published_event(repo, world, s, status=s) for s in ("verified", "partially_verified")}
+    drop = {s: published_event(repo, world, s, status=s) for s in ("unverified", "disputed", "false")}
+    for e in list(keep.values()) + list(drop.values()):
+        repo.write(e)
+    doc, xml, digest = build_feed(repo)
+    assert set(feed_ids(doc)) == {e["id"] for e in keep.values()}
+    for e in drop.values():
+        assert e["id"] not in xml and e["id"] not in digest
+    root = ET.fromstring(xml)
+    assert len(root.findall(".//item")) == 2
+    manifest = json.loads((repo.root / "dist" / "manifest.json").read_text(encoding="utf-8"))
+    assert manifest["feed"]["statuses"] == {"verified": 1, "partially_verified": 1}
+
+
+def test_feed_never_publishes_fictional_examples(repo, world):
+    real = published_event(repo, world, "real")
+    fictional = published_event(repo, world, "fictional")
+    repo.write(real)
+    repo.write(fictional, base="examples")
+    doc, xml, digest = build_feed(repo)
+    assert feed_ids(doc) == [real["id"]]
+    assert fictional["id"] not in xml and fictional["id"] not in digest
+
+
+def test_feed_item_carries_status_credibility_sources_and_attribution(repo, world):
+    e = published_event(repo, world, "memorandum", status="partially_verified")
+    e["assessment"]["note"] = {"tr": "Tek kaynak.", "en": "Single source."}
+    repo.write(e)
+    doc, xml, digest = build_feed(repo)
+    item = doc["items"][0]
+    assert item["_gt"]["verification_status"] == "partially_verified"
+    assert item["_gt"]["credibility"] == 2 and item["_gt"]["method"] == ["geolocation"]
+    assert item["tags"] == ["status:partially_verified", "region:aegean"]
+    assert item["title"].startswith("[KISMEN DOĞRULANMIŞ / PARTIALLY VERIFIED] ")
+    for text in (item["content_html"], digest):
+        assert "PARTIALLY VERIFIED" in text
+        assert "https://example.org/a" in text                      # the source
+        assert e["id"] in text                                       # the permalink to the record
+    assert "https://web.archive.org/web/2026/" in item["content_html"]  # the archive
+    assert "contested characterisations belong to their sources" in item["content_html"]
+    assert "Single source." in item["content_html"]                  # the assessment caveat travels with the item
+    root = ET.fromstring(xml)
+    entry = root.find(".//item")
+    assert entry.findtext("title").startswith("[KISMEN DOĞRULANMIŞ / PARTIALLY VERIFIED] ")
+    assert [c.text for c in entry.findall("category")] == ["status:partially_verified", "region:aegean"]
+    assert entry.find("guid").text == f"urn:gt:record:{e['id']}"
+    assert e["id"] in entry.findtext("link")
+
+
+def test_feed_is_newest_first_and_stable_across_rebuilds(repo, world):
+    old = published_event(repo, world, "older", days_ago=5)
+    new = published_event(repo, world, "newer", days_ago=1)
+    tie_a, tie_b = (published_event(repo, world, f"tie-{n}", days_ago=3) for n in ("a", "b"))
+    for e in (old, new, tie_a, tie_b):
+        repo.write(e)
+    doc, xml, digest = build_feed(repo)
+    ties = sorted([tie_a["id"], tie_b["id"]], reverse=True)  # equal timestamps: by ID, never by filesystem order
+    assert feed_ids(doc) == [new["id"], *ties, old["id"]]
+
+    before = [(repo.root / "dist" / n).read_bytes() for n in ("feed.xml", "feed.json", "feed.md")]
+    build_feed(repo)
+    assert [(repo.root / "dist" / n).read_bytes() for n in ("feed.xml", "feed.json", "feed.md")] == before
+
+    # the channel timestamp comes from the newest record, not from the moment of the build
+    root = ET.fromstring(xml)
+    assert root.findtext("./channel/lastBuildDate") == root.findtext(".//item/pubDate")
+    assert doc["items"][0]["date_published"] == repo.gt._iso_z(GT.parse_dt(new["reported_at"]))
+
+
+def test_feed_updated_time_follows_the_latest_correction(repo, world):
+    e = published_event(repo, world, "corrected", days_ago=5)
+    e["corrections"] = [{"date": iso(NOW - timedelta(days=2))[:10], "note": {"tr": "Düzeltildi.", "en": "Corrected."}}]
+    repo.write(e)
+    doc, _, _ = build_feed(repo)
+    item = doc["items"][0]
+    assert item["date_modified"] > item["date_published"]
+    assert item["date_modified"].startswith(iso(NOW - timedelta(days=2))[:10])
+    assert "Corrected." in item["content_html"]
+
+
+def test_digest_window_is_anchored_on_the_newest_record(repo, world):
+    recent = published_event(repo, world, "recent", days_ago=1)
+    stale = published_event(repo, world, "stale", days_ago=30)
+    repo.write(recent)
+    repo.write(stale)
+    doc, xml, digest = build_feed(repo)
+    assert feed_ids(doc) == [recent["id"], stale["id"]]        # the feed keeps everything
+    assert "EN recent" in digest and "EN stale" not in digest  # the digest is the last 7 days only
+    assert "1 doğrulanmış veya kısmen doğrulanmış kayıt" in digest
+    assert repo.gt._iso_z(GT.parse_dt(recent["reported_at"]))[:10] in digest
+
+
+def test_feed_is_valid_when_nothing_is_published_yet(repo, world):
+    repo.write(good_event(repo, world))  # unverified only
+    doc, xml, digest = build_feed(repo)
+    assert doc["items"] == [] and doc["version"] == "https://jsonfeed.org/version/1.1"
+    root = ET.fromstring(xml)
+    assert root.findall(".//item") == [] and root.findtext("./channel/title")
+    assert root.findtext("./channel/lastBuildDate") is None
+    assert "No records to publish in this window." in digest

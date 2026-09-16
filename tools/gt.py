@@ -2,7 +2,7 @@
 """Greater-Turkiye dataset tool.
 
   python tools/gt.py validate [--base REF]   schema + vocab + reference + policy checks
-  python tools/gt.py build                   compile data/ into dist/ (JSONL, CSV, GeoJSON)
+  python tools/gt.py build                   compile data/ into dist/ (JSONL, CSV, GeoJSON, feeds)
   python tools/gt.py fmt [--check]           canonical key order + "# label" comments on references
   python tools/gt.py new <kind>              create a record skeleton with a fresh ID
   python tools/gt.py id <prefix>             print a fresh ID (evt, act, sit, eqp, src)
@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import html
 import json
 import math
 import os
@@ -21,6 +22,7 @@ import sys
 import time
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
+from email.utils import format_datetime
 from functools import lru_cache
 from pathlib import Path
 from urllib.parse import urlparse
@@ -748,6 +750,224 @@ def cmd_fmt(args) -> int:
     return 1 if report.errors else 0
 
 
+# --- feed: a public, account-free feed of the records the project stands behind
+#
+# Only event records under data/ whose assessment.status is `verified` or `partially_verified` are
+# published.  examples/ is fictional and never reaches the feed, and neither do unverified, disputed,
+# false or withdrawn records.  Every item repeats its verification status, its Admiralty credibility,
+# the assessment note and every source with its archive, so no item can be read as an unattributed
+# fact.  All times are derived from the record (`reported_at`, else `time.start`; `corrections[].date`
+# for the update time) and never from the clock, so rebuilding unchanged data is byte-identical.
+
+FEED_STATUSES = ("verified", "partially_verified")
+FEED_SITE = "https://greater-turkiye.github.io/datasets/"
+REPO_URL = "https://github.com/Greater-Turkiye/datasets"
+FEED_TITLE = "Greater Türkiye — doğrulanmış kayıtlar / verified records"
+FEED_DESCRIPTION = (
+    "Türkiye'nin çevresindeki askerî ve güvenlik gelişmelerine dair doğrulanmış ve kısmen doğrulanmış "
+    "açık kaynaklı kayıtlar. Her madde doğrulama durumunu ve kaynaklarını taşır. / Verified and "
+    "partially verified open-source records of military and security developments in Türkiye's "
+    "neighbourhood. Every item carries its verification status and its sources."
+)
+FEED_RIGHTS = ("Veriler CC BY 4.0 ile yayımlanır. / Data is published under CC BY 4.0.")
+STATUS_LABEL = {"verified": ("DOĞRULANMIŞ", "VERIFIED"),
+                "partially_verified": ("KISMEN DOĞRULANMIŞ", "PARTIALLY VERIFIED")}
+CREDIBILITY_NOTE = ("1 teyitli … 6 değerlendirilemez / 1 confirmed … 6 cannot be judged")
+ATTRIBUTION_NOTE = (
+    "Kayıtlar, listelenen kaynaklara atfedilen bilgilerden derlenmiştir; tartışmalı nitelendirmeler "
+    "kaynaklarına aittir ve projenin kendi sesiyle ileri sürülmez. / Records are compiled from "
+    "information attributed to the sources listed; contested characterisations belong to their sources "
+    "and are never asserted in the project's own voice."
+)
+DIGEST_DAYS = 7
+DIGEST_SUMMARY_CHARS = 400
+
+
+def _feed_dt(value: str) -> datetime:
+    """A record date or timestamp as an aware UTC datetime (`2026-08-09` counts as midnight UTC)."""
+    t = parse_dt(value if len(value) > 10 else f"{value}T00:00:00+00:00")
+    return t if t.tzinfo else t.replace(tzinfo=timezone.utc)
+
+
+def _esc(value, attr: bool = False) -> str:
+    """XML/HTML escaping that leaves apostrophes alone; attribute values are double-quoted."""
+    out = html.escape(str(value), quote=False)
+    return out.replace('"', "&quot;") if attr else out
+
+
+def _iso_z(t: datetime) -> str:
+    return t.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _text(field, lang: str) -> str:
+    """A bilingual field in the requested language, falling back to the other one."""
+    field = field if isinstance(field, dict) else {}
+    for key in (lang, "en", "tr"):
+        if field.get(key):
+            return str(field[key])
+    return ""
+
+
+def _clip(s: str, limit: int) -> str:
+    if len(s) <= limit:
+        return s
+    cut = s[:limit].rsplit(" ", 1)[0].rstrip(" ,;:.—-")
+    return f"{cut}…"
+
+
+def feed_entries(records: dict[str, Record], region_labels: dict[str, dict]) -> list[dict]:
+    """The published records, newest first; ties broken by ID so the order never depends on the clock."""
+    entries: list[dict] = []
+    for rid, rec in records.items():
+        if rec.base != "data" or rec.kind != "event":
+            continue  # examples/ is fictional, other kinds are the registry behind the events
+        e = rec.data
+        status = e["assessment"]["status"]
+        if status not in FEED_STATUSES:
+            continue
+        published = _feed_dt(e.get("reported_at") or e["time"]["start"])
+        updated = max([published] + [_feed_dt(c["date"]) for c in e.get("corrections", [])])
+        sources = []
+        for c in e["sources"]:
+            publisher = record_label(records[c["ref"]]) if c.get("ref") in records else None
+            sources.append({"publisher": publisher or (urlparse(c["url"]).hostname or c["url"]),
+                            "title": c.get("title") or c["url"], "url": c["url"],
+                            "archives": [a["url"] for a in c.get("archives", [])]})
+        entries.append({
+            "id": rid, "record": e, "status": status,
+            "path": rec.path.relative_to(ROOT).as_posix(),
+            "url": f"{REPO_URL}/blob/main/{rec.path.relative_to(ROOT).as_posix()}",
+            "published": published, "updated": updated, "sources": sources,
+            "regions": [{"code": r, "tr": _text(region_labels.get(r), "tr") or r,
+                         "en": _text(region_labels.get(r), "en") or r} for r in e["regions"]],
+        })
+    entries.sort(key=lambda it: (it["published"], it["id"]), reverse=True)
+    return entries
+
+
+def entry_title(entry: dict) -> str:
+    tr, en = STATUS_LABEL[entry["status"]]
+    return f"[{tr} / {en}] {_text(entry['record'].get('title'), 'en')}"
+
+
+def entry_html(entry: dict) -> str:
+    """The item body: status first, then both summaries, the caveats and every source with its archive."""
+    e, esc = entry["record"], _esc
+    a = e["assessment"]
+    tr, en = STATUS_LABEL[entry["status"]]
+    t = e["time"]
+    when = t["start"] + (f" – {t['end']}" if t.get("end") else "")
+    parts = [
+        f"<p><strong>[{esc(tr)} / {esc(en)}]</strong> — Admiralty {a['credibility']}/6 "
+        f"({esc(CREDIBILITY_NOTE)})"
+        + (f" · {esc(', '.join(a['method']))}" if a.get("method") else "") + "</p>",
+        f"<p lang=\"tr\">{esc(_text(e.get('summary'), 'tr'))}</p>",
+        f"<p lang=\"en\">{esc(_text(e.get('summary'), 'en'))}</p>",
+        "<p>Bölge / Region: " + esc(", ".join(f"{r['tr']} / {r['en']}" for r in entry["regions"]))
+        + (" · Ülkeler / Countries: " + esc(", ".join(e["countries"])) if e.get("countries") else "")
+        + f" · Zaman / Time: {esc(when)} (UTC, {esc(t['precision'])}, {esc(t['basis'])})</p>",
+    ]
+    for lang in ("tr", "en"):
+        if _text(a.get("note"), lang):
+            parts.append(f"<p lang=\"{lang}\">Değerlendirme notu / Assessment note: "
+                         f"{esc(_text(a.get('note'), lang))}</p>")
+    for c in e.get("corrections", []):
+        parts.append(f"<p>Düzeltme / Correction {esc(c['date'])}: {esc(_text(c.get('note'), 'en'))}</p>")
+    parts.append(f"<p>{esc(ATTRIBUTION_NOTE)}</p><p>Kaynaklar / Sources:</p><ul>")
+    for s in entry["sources"]:
+        archives = "".join(f" — <a href=\"{esc(u, attr=True)}\">arşiv / archive</a>" for u in s["archives"])
+        parts.append(f"<li>{esc(s['publisher'])}: <a href=\"{esc(s['url'], attr=True)}\">{esc(s['title'])}</a>{archives}</li>")
+    parts.append("</ul>")
+    parts.append(f"<p>Kayıt / Record: <a href=\"{esc(entry['url'], attr=True)}\">{esc(entry['id'])}</a> · {esc(FEED_RIGHTS)}</p>")
+    return "".join(parts)
+
+
+def render_rss(entries: list[dict]) -> str:
+    esc = _esc
+    updated = max((it["updated"] for it in entries), default=None)
+    lines = ['<?xml version="1.0" encoding="utf-8"?>',
+             '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">', "  <channel>",
+             f"    <title>{esc(FEED_TITLE)}</title>", f"    <link>{esc(FEED_SITE)}</link>",
+             f"    <description>{esc(FEED_DESCRIPTION)}</description>",
+             "    <language>tr</language>", f"    <copyright>{esc(FEED_RIGHTS)}</copyright>",
+             "    <docs>https://www.rssboard.org/rss-specification</docs>",
+             f'    <atom:link href="{esc(FEED_SITE, attr=True)}feed.xml" rel="self" type="application/rss+xml"/>']
+    if updated:
+        lines.append(f"    <lastBuildDate>{format_datetime(updated)}</lastBuildDate>")
+    for it in entries:
+        lines += ["    <item>", f"      <title>{esc(entry_title(it))}</title>",
+                  f"      <link>{esc(it['url'])}</link>",
+                  f'      <guid isPermaLink="false">urn:gt:record:{it["id"]}</guid>',
+                  f"      <pubDate>{format_datetime(it['published'])}</pubDate>",
+                  f"      <category>status:{it['status']}</category>"]
+        lines += [f"      <category>region:{esc(r['code'])}</category>" for r in it["regions"]]
+        lines += [f"      <description>{esc(entry_html(it))}</description>", "    </item>"]
+    lines += ["  </channel>", "</rss>", ""]
+    return "\n".join(lines)
+
+
+def render_json_feed(entries: list[dict]) -> str:
+    """JSON Feed 1.1; `_gt` carries the verification status in machine-readable form."""
+    doc = {
+        "version": "https://jsonfeed.org/version/1.1", "title": FEED_TITLE,
+        "home_page_url": FEED_SITE, "feed_url": f"{FEED_SITE}feed.json",
+        "description": FEED_DESCRIPTION, "language": "tr",
+        "authors": [{"name": "Greater Türkiye", "url": REPO_URL}],
+        "items": [{
+            "id": f"urn:gt:record:{it['id']}", "url": it["url"], "title": entry_title(it),
+            "summary": _text(it["record"].get("summary"), "en"), "content_html": entry_html(it),
+            "date_published": _iso_z(it["published"]), "date_modified": _iso_z(it["updated"]),
+            "tags": [f"status:{it['status']}"] + [f"region:{r['code']}" for r in it["regions"]],
+            "_gt": {"record_id": it["id"], "verification_status": it["status"],
+                    "credibility": it["record"]["assessment"]["credibility"],
+                    "method": it["record"]["assessment"].get("method", []),
+                    "event_type": it["record"]["event_type"],
+                    "regions": [r["code"] for r in it["regions"]],
+                    "countries": it["record"].get("countries", []),
+                    "title": it["record"]["title"], "record_path": it["path"],
+                    "sources": it["sources"], "rights": "CC-BY-4.0"},
+        } for it in entries],
+    }
+    return json.dumps(doc, ensure_ascii=False, indent=1) + "\n"
+
+
+def render_digest(entries: list[dict], days: int = DIGEST_DAYS) -> str:
+    """A copy-paste digest. The window ends at the newest item, not at the build time, so it is stable."""
+    newest = max((it["published"] for it in entries), default=None)
+    window = [it for it in entries if newest and it["published"] > newest - timedelta(days=days)]
+    since = (newest - timedelta(days=days)) if newest else None
+    header = (f"{_iso_z(since)[:10]} → {_iso_z(newest)[:10]} (UTC)" if newest else "—")
+    out = [f"# Greater Türkiye — son {days} gün / last {days} days", "", header, "",
+           f"{len(window)} doğrulanmış veya kısmen doğrulanmış kayıt / verified or partially verified records", ""]
+    if not window:
+        out += ["Bu pencerede yayımlanacak kayıt yok. / No records to publish in this window.", ""]
+    for it in window:
+        tr, en = STATUS_LABEL[it["status"]]
+        e = it["record"]
+        out += [f"## [{tr} / {en}] {_text(e.get('title'), 'en')}", "",
+                f"- TR: {_clip(_text(e.get('summary'), 'tr'), DIGEST_SUMMARY_CHARS)}",
+                f"- EN: {_clip(_text(e.get('summary'), 'en'), DIGEST_SUMMARY_CHARS)}",
+                f"- Bölge / Region: {', '.join(r['en'] for r in it['regions'])}"
+                f" · {_iso_z(it['published'])[:10]} (UTC)"
+                f" · Admiralty {e['assessment']['credibility']}/6",
+                "- Kaynaklar / Sources: " + "; ".join(f"{s['publisher']} — {s['url']}" for s in it["sources"]),
+                f"- Kayıt / Record: {it['url']}", ""]
+    out += ["---", "",
+            f"Tümü / full feed: {FEED_SITE}feed.xml · {FEED_SITE}feed.json", "",
+            ATTRIBUTION_NOTE, "", FEED_RIGHTS, ""]
+    return "\n".join(out)
+
+
+def write_feeds(out: Path, records: dict[str, Record], region_labels: dict[str, dict]) -> dict:
+    entries = feed_entries(records, region_labels)
+    (out / "feed.xml").write_text(render_rss(entries), encoding="utf-8", newline="\n")
+    (out / "feed.json").write_text(render_json_feed(entries), encoding="utf-8", newline="\n")
+    (out / "feed.md").write_text(render_digest(entries), encoding="utf-8", newline="\n")
+    return {"items": len(entries), "statuses": {s: sum(1 for it in entries if it["status"] == s)
+                                                for s in FEED_STATUSES},
+            "updated": _iso_z(max(it["updated"] for it in entries)) if entries else None}
+
+
 # --- commands
 
 def cmd_validate(args) -> int:
@@ -802,12 +1022,14 @@ def cmd_build(args) -> int:
                                                    ensure_ascii=False), encoding="utf-8")
     vocab = {f.stem: load_yaml(f)["codes"] for f in sorted(VOCAB_DIR.glob("*.yaml"))}
     (out / "vocab.json").write_text(json.dumps(vocab, ensure_ascii=False, indent=1), encoding="utf-8")
+    region_labels = {c["code"]: c.get("label", {}) for c in vocab.get("regions", [])}
+    feed = write_feeds(out, records, region_labels)
     commit = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
     manifest = {"schema_major": 1, "built_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "commit": commit or None, "counts": {k: len(v) for k, v in by_kind.items()},
-                "license": "CC-BY-4.0"}
+                "feed": feed, "license": "CC-BY-4.0"}
     (out / "manifest.json").write_text(json.dumps(manifest, indent=1), encoding="utf-8")
-    print(f"dist/ written: {manifest['counts']}")
+    print(f"dist/ written: {manifest['counts']}; feed: {feed['items']} items")
     return 0
 
 
