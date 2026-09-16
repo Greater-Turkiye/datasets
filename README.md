@@ -18,8 +18,10 @@ policy.yaml     CI ile zorlanan içerik güvenliği kuralları / content-safety 
 data/<tür>/<yyyy>/<mm>/<id>.yaml   her kayıt bir dosya / one file per record
 examples/       kurgusal örnek kayıtlar (yayınlanmaz) / fictional examples (not exported)
 tools/gt.py     validate | build | fmt | new | id
+tools/issue_to_record.py   onaylı öneriyi taslak kayda çevirir / turns an approved proposal into a draft record
 tools/data/     Türkiye coğrafi çiti (Natural Earth, kamu malı) / Türkiye geofence (Natural Earth, public domain)
-tests/          gt.py birim testleri (pytest) / unit tests for gt.py
+tests/          araç birim testleri (pytest) / unit tests for the tooling
+tests/fixtures/issues/     örnek issue gövdeleri / sample issue bodies used by the tests
 ```
 
 | Tür / Kind | Önek / Prefix | Açıklama / Description |
@@ -45,6 +47,41 @@ pip install pytest && python -m pytest tests   # araç testleri / tooling tests
 CI bunların hepsini çalıştırır; `fmt --check` biçimsiz kaydı reddeder. / CI runs all of these; `fmt --check` rejects unformatted records.
 
 Katkı adımları için / how to contribute: [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Öneriden kayda / From proposal to record
+
+Bir [veri önerisi](https://github.com/Greater-Turkiye/datasets/issues/new?template=01-data-submission.yml) issue'suna bir maintainer veya triyajcı **`kayda-gec`** etiketini eklediğinde, [`record-from-issue`](.github/workflows/record-from-issue.yml) iş akışı formu okur, `python tools/gt.py new event` ile bir kayıt üretir, `fmt` + `validate` çalıştırır ve **taslak bir pull request** açar; sonra issue'ya PR bağlantısını yorumlar. Etiket yalnızca "bu aday kayda değer" demektir; kaydın doğru olduğuna karar veren hâlâ PR'ı inceleyen insandır.
+
+When a maintainer or triager applies the **`kayda-gec`** label to a data-submission issue, the
+[`record-from-issue`](.github/workflows/record-from-issue.yml) workflow parses the form, creates a record with
+`python tools/gt.py new event`, runs `fmt` and `validate`, opens a **draft pull request** and comments the link on
+the issue. The label only says "this candidate is worth recording"; whether the record is *true* stays a human
+decision made on that pull request.
+
+| Form alanı / Form field | Kayıt / Record |
+|---|---|
+| issue başlığı / issue title (`[Veri / Data]` öneki atılır) | `title.tr` |
+| Ne oldu? TR / EN | `summary.tr`, `summary.en` |
+| Ne zaman? (UTC) | `time.start`; yalnız tarih → `precision: day`, saat de varsa → `minute`; `basis: reported` |
+| Bölge / Region | `regions[0]` (`vocab/regions.yaml` kodu değilse reddedilir / rejected if not a vocabulary code) |
+| Yer / Place | `location.place_name.tr` + `precision: locality`, `method: reported` — **koordinat asla üretilmez / coordinates are never generated** |
+| Olay türü / Event type | `event_type`; serbest metin sözlüğe eşlenir, eşleşmezse `other` / mapped to the vocabulary, else `other` |
+| Kaynak bağlantıları / Source URLs | `sources[].url` (+ `lang` alan adından tahmin / guessed from the domain) — en az bir kaynak zorunlu / at least one is required |
+| Arşiv bağlantıları / Archive URLs | `sources[].archives[]`, yalnızca sayılar birebir eşleşirse / only when the counts line up one-to-one |
+| Güven düzeyiniz / Your confidence | `assessment.credibility` — 4'ten iyisi asla / never better than 4 |
+| Kırmızı çizgi kutuları / Red-line boxes | hepsi işaretli değilse reddedilir / all must be ticked |
+
+`assessment.status` daima `unverified`'dır; `countries`, `actors`, `equipment`, `sites` ve `claims` bilerek boş bırakılır — kimin karıştığını bir makine çıkarsamaz. Provenans, dosyanın başındaki yorum bloğunda ve PR gövdesinde issue bağlantısı olarak durur. /
+`assessment.status` is always `unverified`, and `countries`, `actors`, `equipment`, `sites` and `claims` are left
+empty on purpose — a machine does not infer who was involved. Provenance is the comment header of the record file
+and the issue link in the pull request.
+
+**Kapı kapanırsa / When the gate closes.** `validate` kaydı reddederse (Türk kuvvetleri kapısı, kişisel veri,
+gizlilik damgası, kaynaksızlık, işaretlenmemiş kırmızı çizgi kutusu) iş akışı **hiçbir şey açmaz**: dal yok, commit
+yok, PR yok. Sebebi issue'ya yorumlar ve kırmızı biter; kontrol asla zayıflatılmaz. /
+If `validate` rejects the record — TUR forces gate, personal data, classification markers, no source, an unticked
+red-line box — the workflow opens **nothing**: no branch, no commit, no pull request. It comments why on the issue
+and fails the run. The gate is never stripped to make a record pass.
 
 ## Temel kurallar / Core rules
 

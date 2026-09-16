@@ -1,0 +1,146 @@
+name: record-from-issue
+
+# A human decision becomes a draft record: when a maintainer or triager applies the `kayda-gec`
+# label to a data-submission issue, this opens a pull request with an *unverified* draft record.
+# It never commits to main and never marks anything verified — the reviewers of that PR do that.
+#
+# The issue body is untrusted. It is read from $GITHUB_EVENT_PATH by tools/issue_to_record.py and is
+# never interpolated into a `run:` script; every gh call takes its text from a file or a quoted env var.
+on:
+  issues:
+    types: [labeled]
+
+permissions: {}
+
+concurrency:
+  group: record-from-issue-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    # Cheap pre-filter; tools/issue_to_record.py re-checks all of this from the event payload.
+    if: >-
+      github.event.label.name == 'kayda-gec' &&
+      github.event.issue.state == 'open' &&
+      !github.event.issue.pull_request &&
+      contains(github.event.issue.labels.*.name, 'data-submission')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write        # push the draft branch
+      pull-requests: write   # open the draft pull request
+      issues: write          # report back on the proposal
+    env:
+      # Works out of the box with the workflow token. An optional GT_BOT_TOKEN (a machine account with
+      # contents/pull-requests/issues write) makes the generated PR start the `validate` check on its own:
+      # a pull request opened with GITHUB_TOKEN does not trigger other workflows.
+      GH_TOKEN: ${{ secrets.GT_BOT_TOKEN || github.token }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - name: Check that the label was applied by someone with write or triage rights
+        env:
+          ACTOR: ${{ github.event.sender.login }}
+        run: |
+          set -euo pipefail
+          level=$(gh api "repos/$GITHUB_REPOSITORY/collaborators/$ACTOR/permission" --jq .permission)
+          echo "$ACTOR has $level permission"
+          case "$level" in
+            admin|maintain|write|triage) ;;
+            *) echo "::error::only maintainers and triagers can approve a submission"; exit 1 ;;
+          esac
+
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Stop if a draft for this proposal already exists
+        id: existing
+        env:
+          BRANCH: record/issue-${{ github.event.issue.number }}
+        run: |
+          set -euo pipefail
+          open=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --head "$BRANCH" --json number --jq 'length')
+          echo "count=$open" >> "$GITHUB_OUTPUT"
+          if [ "$open" != "0" ]; then
+            echo "::notice::an open pull request already exists for $BRANCH; nothing to do"
+          fi
+
+      # Reads the event JSON from disk, runs `gt.py new event`, fills what the form states, then runs
+      # `gt.py fmt` and `gt.py validate`. status=ok | rejected | skipped. It never touches the network.
+      - name: Build the draft record
+        id: draft
+        if: steps.existing.outputs.count == '0'
+        run: python tools/issue_to_record.py --event "$GITHUB_EVENT_PATH" --out-dir "$RUNNER_TEMP"
+
+      - name: Commit and push the draft branch
+        if: steps.draft.outputs.status == 'ok'
+        env:
+          BRANCH: ${{ steps.draft.outputs.branch }}
+          RECORD_PATH: ${{ steps.draft.outputs.record_path }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add -- "$RECORD_PATH"
+          TZ=UTC git commit --file "$RUNNER_TEMP/commit_msg.txt"
+          git push --quiet "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            "HEAD:refs/heads/$BRANCH"
+
+      - name: Open the pull request
+        id: pr
+        if: steps.draft.outputs.status == 'ok'
+        env:
+          BRANCH: ${{ steps.draft.outputs.branch }}
+          PR_TITLE: ${{ steps.draft.outputs.pr_title }}
+        run: |
+          set -euo pipefail
+          url=$(gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$BRANCH" \
+            --title "$PR_TITLE" --body-file "$RUNNER_TEMP/pr_body.md" \
+            --label data-submission --label kind:event --label status:needs-verification)
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          echo "::notice::draft record pull request: $url"
+
+      - name: Add the region label, if there is one
+        if: steps.draft.outputs.status == 'ok'
+        continue-on-error: true
+        env:
+          PR_URL: ${{ steps.pr.outputs.url }}
+          REGION: ${{ steps.draft.outputs.region }}
+        run: gh pr edit "$PR_URL" --add-label "region:$REGION"
+
+      - name: Comment the pull request link on the proposal
+        if: steps.draft.outputs.status == 'ok'
+        env:
+          ISSUE: ${{ github.event.issue.number }}
+          PR_URL: ${{ steps.pr.outputs.url }}
+        run: |
+          set -euo pipefail
+          {
+            echo "Taslak kayıt hazır / Draft record ready: $PR_URL"
+            echo
+            echo "Kayıt **doğrulanmamıştır**; birleştirmeden önce bir insanın kontrol listesini tamamlaması"
+            echo "gerekir. / The record is **unverified**; a human must complete the reviewer checklist"
+            echo "before it is merged."
+          } > "$RUNNER_TEMP/issue_comment.md"
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/issue_comment.md"
+
+      # Fail closed: the policy gate (Turkish forces, PII, classification markers), a missing source, an
+      # unticked red line or an unparseable field means no branch, no commit and no pull request — and a
+      # red run. The check is explained on the issue; it is never stripped or weakened to let a record through.
+      - name: Explain the rejection and fail
+        if: steps.draft.outputs.status == 'rejected'
+        env:
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          set -euo pipefail
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/rejection.md"
+          echo "::error::the submission did not pass the gates; no record was created"
+          exit 1
