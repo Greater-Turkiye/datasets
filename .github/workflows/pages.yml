@@ -32,7 +32,12 @@ jobs:
         run: |
           {
             echo '<!doctype html><meta charset="utf-8"><title>Greater Türkiye — datasets export</title>'
-            echo '<h1>Greater Türkiye — datasets export</h1><ul>'
+            echo '<link rel="alternate" type="application/rss+xml" title="Greater Türkiye" href="feed.xml">'
+            echo '<link rel="alternate" type="application/feed+json" title="Greater Türkiye" href="feed.json">'
+            echo '<h1>Greater Türkiye — datasets export</h1>'
+            echo '<p>Akış / feed: <a href="feed.xml">feed.xml</a> (RSS) · <a href="feed.json">feed.json</a>'
+            echo ' (JSON Feed) · <a href="feed.md">feed.md</a> (7 gün özeti / 7-day digest). Hesap gerekmez / no account needed.</p>'
+            echo '<ul>'
             for f in dist/*; do n=$(basename "$f"); echo "<li><a href=\"$n\">$n</a></li>"; done
             echo '</ul><p>CC BY 4.0 · <a href="https://github.com/Greater-Turkiye/datasets">source</a></p>'
           } > "$RUNNER_TEMP/index.html"

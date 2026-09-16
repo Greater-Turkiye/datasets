@@ -40,7 +40,7 @@ pip install -r requirements.txt
 python tools/gt.py new event        # data/events/2026/09/evt_....yaml oluşturur / creates a skeleton
 python tools/gt.py fmt              # kanonik sıra + referans etiketleri / canonical order + "# label" on references
 python tools/gt.py validate         # tüm kontroller / all checks
-python tools/gt.py build            # dist/: *.jsonl, events.csv, events.geojson, vocab.json
+python tools/gt.py build            # dist/: *.jsonl, events.csv, events.geojson, vocab.json, feed.xml, feed.json, feed.md
 pip install pytest && python -m pytest tests   # araç testleri / tooling tests
 ```
 
@@ -91,6 +91,31 @@ and fails the run. The gate is never stripped to make a record pass.
 - `verified` için: doğruluk ≤ 2, İngilizce metin, her kaynağa arşiv linki, 2 bağımsız kaynak **veya** geolocation/chronolocation/uydu.
 - Kişisel veri, gizlilik dereceli belge, URL kısaltıcı → CI reddeder. / Personal data, classified markings, URL shorteners → rejected by CI.
 - **Coğrafi çit:** Türkiye kara toprakları, iç suları veya kıyıdan 12 deniz mili içindeki koordinat → Türk kuvvetleri kapısı (koordinat kaldırılır). / **Geofence:** coordinates on Türkiye's land, internal waters or within 12 nm of its coast trigger the Turkish forces gate. Ayrıntı / details: [tools/data/README.md](tools/data/README.md).
+
+## Akış / Feed
+
+`build`, `dist/` içine **hesap gerektirmeyen** bir kamu akışı da yazar; `pages.yml` bunu GitHub Pages'e taşır.
+`build` also writes a **public, account-free** feed into `dist/`; `pages.yml` publishes it to GitHub Pages.
+
+| Dosya / File | Biçim / Format | İçerik / Contents |
+|---|---|---|
+| `feed.xml` | RSS 2.0 (+ `atom:self`) | Yayımlanan her kayıt: başlık, iki dilli özet, bölge, doğrulama durumu, kalıcı bağlantı, kaynak ve arşiv bağlantıları / every published record: title, bilingual summary, region, verification status, permalink, source and archive links |
+| `feed.json` | JSON Feed 1.1 | Aynı maddeler; `_gt` uzantısı durumu, güvenilirliği, yöntemi, bölgeleri ve kaynakları makine okunur biçimde taşır / the same items; the `_gt` extension carries status, credibility, method, regions and sources machine-readably |
+| `feed.md` | Markdown | Son 7 günün özeti — kanal gönderisine yapıştırmaya uygun / a digest of the last 7 days, ready to paste into a channel post |
+
+Abonelik (birleştikten sonra) / Subscribing (once merged): akış okuyucunuza
+`https://greater-turkiye.github.io/datasets/feed.xml` veya `.../feed.json` adresini ekleyin; dizin sayfası
+`<link rel="alternate">` ile otomatik keşfi de destekler. Hesap, anahtar veya kayıt gerekmez.
+Add `https://greater-turkiye.github.io/datasets/feed.xml` (or `.../feed.json`) to any reader; the index page
+also advertises them with `<link rel="alternate">`. No account, key or sign-up.
+
+Kurallar / Rules:
+
+- **Yalnızca `data/` altındaki `verified` ve `partially_verified` olay kayıtları yayımlanır.** `examples/` kurgusaldır ve akışa hiç girmez; `unverified`, `disputed`, `false` ve geri çekilmiş kayıtlar da girmez. / Only `verified` and `partially_verified` event records from `data/` are published; fictional `examples/`, unverified, disputed, false and withdrawn records never appear.
+- **Her madde doğrulama durumunu ve atfını taşır:** başlıkta `[DOĞRULANMIŞ / VERIFIED]` ya da `[KISMEN DOĞRULANMIŞ / PARTIALLY VERIFIED]`, gövdede Admiralty doğruluğu, değerlendirme notu, düzeltmeler, her kaynak ve arşivi, kayda kalıcı bağlantı. Hiçbir madde atıfsız gerçek gibi okunmaz. / Every item repeats its verification status and attribution, so nothing reads as an unattributed fact.
+- **Zamanlar kayıttan türer, saatten değil:** yayın zamanı `reported_at`, yoksa `time.start`; güncelleme zamanı en son `corrections[].date`; kanal zamanı en yeni maddenin zamanı. Sıralama yeniden eskiye, eşitlikte ID'ye göredir ve özet penceresi en yeni maddeye sabitlenir — bu yüzden değişmeyen veriyi yeniden derlemek bayt bayt aynı dosyaları üretir. / All times come from the records (`reported_at`, else `time.start`; `corrections[].date`), never from the clock, and ordering is newest-first with the ID breaking ties, so a rebuild of unchanged data is byte-identical.
+- Kalıcı bağlantı kaydın kendisidir: `https://github.com/Greater-Turkiye/datasets/blob/main/<kayıt yolu>`. / The permalink is the record itself.
+- Akış yalnızca `dist/` içindekini yansıtır; metin kayıtlardan gelir, akış üretiminde hiçbir içerik yazılmaz. / The feed only reflects `dist/`; it never writes content of its own.
 
 ## Sürümler / Releases
 
