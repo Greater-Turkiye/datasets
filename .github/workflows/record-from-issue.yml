@@ -94,6 +94,11 @@ jobs:
           git push --quiet "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
             "HEAD:refs/heads/$BRANCH"
 
+      # An organisation may forbid Actions from opening pull requests (Organisation settings -> Actions ->
+      # General -> Workflow permissions -> "Allow GitHub Actions to create and approve pull requests").
+      # The branch is already pushed, so a failure here is not fatal: fall back to a compare link on the
+      # issue and end green. The decision is made on the exit status; the message is only a hint used to
+      # word the warning, because gh's wording is not a contract.
       - name: Open the pull request
         id: pr
         if: steps.draft.outputs.status == 'ok'
@@ -101,15 +106,32 @@ jobs:
           BRANCH: ${{ steps.draft.outputs.branch }}
           PR_TITLE: ${{ steps.draft.outputs.pr_title }}
         run: |
-          set -euo pipefail
+          set -uo pipefail
+          err="$RUNNER_TEMP/pr_create.err"
           url=$(gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$BRANCH" \
             --title "$PR_TITLE" --body-file "$RUNNER_TEMP/pr_body.md" \
-            --label data-submission --label kind:event --label status:needs-verification)
-          echo "url=$url" >> "$GITHUB_OUTPUT"
-          echo "::notice::draft record pull request: $url"
+            --label data-submission --label kind:event --label status:needs-verification 2> "$err")
+          status=$?
+          cat "$err" >&2 || true
+          if [ "$status" -eq 0 ] && [ -n "$url" ]; then
+            echo "created=true" >> "$GITHUB_OUTPUT"
+            echo "url=$url" >> "$GITHUB_OUTPUT"
+            echo "::notice::draft record pull request: $url"
+            exit 0
+          fi
+          echo "created=false" >> "$GITHUB_OUTPUT"
+          if grep -qF 'does not allow GitHub Actions to create or approve pull requests' "$err"; then
+            echo "::warning::the organisation policy blocked automatic pull request creation; the branch is"\
+                 "pushed and the proposal now carries a compare link. An organisation owner can lift this in"\
+                 "Organisation settings -> Actions -> General -> Workflow permissions ->"\
+                 "\"Allow GitHub Actions to create and approve pull requests\", or add a GT_BOT_TOKEN secret."
+          else
+            echo "::warning::gh pr create failed with exit status $status; the branch is pushed and the"\
+                 "proposal now carries a compare link so a human can open the pull request."
+          fi
 
       - name: Add the region label, if there is one
-        if: steps.draft.outputs.status == 'ok'
+        if: steps.pr.outputs.created == 'true'
         continue-on-error: true
         env:
           PR_URL: ${{ steps.pr.outputs.url }}
@@ -117,7 +139,7 @@ jobs:
         run: gh pr edit "$PR_URL" --add-label "region:$REGION"
 
       - name: Comment the pull request link on the proposal
-        if: steps.draft.outputs.status == 'ok'
+        if: steps.pr.outputs.created == 'true'
         env:
           ISSUE: ${{ github.event.issue.number }}
           PR_URL: ${{ steps.pr.outputs.url }}
@@ -131,6 +153,19 @@ jobs:
             echo "before it is merged."
           } > "$RUNNER_TEMP/issue_comment.md"
           gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/issue_comment.md"
+
+      # Graceful degradation, not a failure: the pushed branch plus a one-click compare link and the
+      # reviewer checklist that would have been the pull request body. tools/issue_to_record.py wrote this
+      # comment already, so no untrusted text is assembled in the shell.
+      - name: Comment a compare link when the pull request could not be created
+        if: steps.pr.outputs.created == 'false'
+        env:
+          ISSUE: ${{ github.event.issue.number }}
+          COMPARE_URL: ${{ steps.draft.outputs.compare_url }}
+        run: |
+          set -euo pipefail
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/fallback_comment.md"
+          echo "::notice::branch pushed; open the pull request here: $COMPARE_URL"
 
       # Fail closed: the policy gate (Turkish forces, PII, classification markers), a missing source, an
       # unticked red line or an unparseable field means no branch, no commit and no pull request — and a
