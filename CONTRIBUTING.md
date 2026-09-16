@@ -5,8 +5,27 @@ Read the org-wide guide and the **red lines** first.
 
 ## Kod yazmadan / Without code
 
-[Veri önerisi formu](https://github.com/Greater-Turkiye/datasets/issues/new?template=01-data-submission.yml) ile olay/kaynak önerin. Bir reviewer kayda dönüştürür.
-Open a data-submission issue; a reviewer turns it into a record.
+[Veri önerisi formu](https://github.com/Greater-Turkiye/datasets/issues/new?template=01-data-submission.yml) ile olay/kaynak önerin. Formu eksiksiz doldurun: zaman UTC, bölge açılır listeden, her satıra bir kaynak bağlantısı, mümkünse aynı sırada arşiv bağlantıları.
+Open a data-submission issue and fill the form completely: UTC time, a region from the dropdown, one source URL per line and, if you can, archive links in the same order.
+
+### Etiketten kayda / From label to record
+
+1. Bir maintainer veya triyajcı öneriyi inceler ve uygun bulursa **`kayda-gec`** etiketini ekler. Bu etiket "bu aday kayda değer" demektir, "bu doğrudur" demek değildir.
+2. [`record-from-issue`](.github/workflows/record-from-issue.yml) iş akışı formu ayrıştırır, `python tools/gt.py new event` ile kaydı üretir, `fmt` + `validate` çalıştırır ve **taslak bir pull request** açar; issue'ya PR bağlantısını yorumlar. Doğrudan `main`'e hiçbir şey yazılmaz.
+3. Alan eşlemesi ve boş bırakılanlar: [README](README.md#öneriden-kayda--from-proposal-to-record). Kayıt `assessment.status: unverified` ile gelir ve `countries`, `actors`, `equipment`, `sites`, `claims` boştur.
+4. İnceleyen kişi PR'daki kontrol listesini tamamlar: aktör/kaynak kayıtlarını bağlar, arşivleri tamamlar, `en` metinleri yazar, tartışmalı nitelendirmeleri `claims[]` altına atfeder ve ancak kendi kontrolünden sonra `assessment` değerlerini yükseltir.
+5. `validate` reddederse (Türk kuvvetleri kapısı, kişisel veri, gizlilik damgası, kaynaksızlık, işaretlenmemiş kırmızı çizgi kutusu) hiçbir dal veya PR açılmaz; iş akışı sebebi issue'ya yorumlar ve kırmızı biter. Kontrol kaldırılmaz — öneri düzeltilip etiket yeniden uygulanır.
+
+A maintainer or triager applies the **`kayda-gec`** label to an approved proposal; the `record-from-issue` workflow
+then opens a draft pull request with an `unverified` record and comments the link on the issue. It never commits to
+`main` and never marks anything verified. The reviewer of that pull request completes the checklist — actor and
+source records, archives, English text, attributed `claims[]` — and only then raises `assessment`. If the policy
+gate rejects the draft, nothing is opened at all and the workflow says why on the issue.
+
+> Bir pull request iş akışı jetonuyla açıldığında `validate` kontrolü kendiliğinden başlamaz; incelerken bir commit
+> itin veya PR'ı kapatıp yeniden açın ki zorunlu kontrol raporlansın. / A pull request opened with the workflow
+> token does not start the `validate` check on its own: push a commit while reviewing, or close and reopen the PR,
+> so the required check reports before merge.
 
 ## PR ile / Via pull request
 
@@ -24,9 +43,13 @@ Open a data-submission issue; a reviewer turns it into a record.
 
 ## Araçlar / Tooling
 
-`tools/gt.py` değişiklikleri için testler: `pip install pytest && python -m pytest tests`. Testler reponun geçici bir kopyasında çalışır, gerçek kayıtlara dokunmaz.
+`tools/` değişiklikleri için testler: `pip install pytest && python -m pytest tests`. Testler reponun geçici bir kopyasında çalışır, gerçek kayıtlara dokunmaz.
 Yeni bir politika kuralı eklerseniz `tests/test_gt.py` içindeki `CASES` listesine reddedilen bir örnek ekleyin.
-Tests for `tools/gt.py` run on a temporary copy of the repo. When you add a policy rule, add a failing example to `CASES`.
+Issue formunu veya `tools/issue_to_record.py` eşlemesini değiştirirseniz `tests/fixtures/issues/` altına gerçekçi bir issue gövdesi ekleyin ve `tests/test_issue_to_record.py` içinde doğrulayın — kötü niyetli (kabuk metakarakterleri) ve politika kapısına takılan örnekler dahil.
+Tests for `tools/` run on a temporary copy of the repo. When you add a policy rule, add a failing example to `CASES`.
+When you change the issue form or the mapping in `tools/issue_to_record.py`, add a realistic issue body under
+`tests/fixtures/issues/` and cover it in `tests/test_issue_to_record.py` — including a hostile one and one the
+policy gate must reject.
 
 ## Yazım kuralları / Style
 
