@@ -133,6 +133,17 @@ Kurallar / Rules:
 - **Yalnızca `data/` altındaki `verified` ve `partially_verified` olay kayıtları yayımlanır.** `examples/` kurgusaldır ve akışa hiç girmez; `unverified`, `disputed`, `false` ve geri çekilmiş kayıtlar da girmez. / Only `verified` and `partially_verified` event records from `data/` are published; fictional `examples/`, unverified, disputed, false and withdrawn records never appear.
 - **Her madde doğrulama durumunu ve atfını taşır:** başlıkta `[DOĞRULANMIŞ / VERIFIED]` ya da `[KISMEN DOĞRULANMIŞ / PARTIALLY VERIFIED]`, gövdede Admiralty doğruluğu, değerlendirme notu, düzeltmeler, her kaynak ve arşivi, kayda kalıcı bağlantı. Hiçbir madde atıfsız gerçek gibi okunmaz. / Every item repeats its verification status and attribution, so nothing reads as an unattributed fact.
 - **Zamanlar kayıttan türer, saatten değil:** yayın zamanı `reported_at`, yoksa `time.start`; güncelleme zamanı en son `corrections[].date`; kanal zamanı en yeni maddenin zamanı. Sıralama yeniden eskiye, eşitlikte ID'ye göredir ve özet penceresi en yeni maddeye sabitlenir — bu yüzden değişmeyen veriyi yeniden derlemek bayt bayt aynı dosyaları üretir. / All times come from the records (`reported_at`, else `time.start`; `corrections[].date`), never from the clock, and ordering is newest-first with the ID breaking ties, so a rebuild of unchanged data is byte-identical.
+
+### Haftalık bülten taslağı / Weekly bulletin draft
+
+[`weekly-digest.yml`](.github/workflows/weekly-digest.yml) her pazartesi (ve elle tetiklendiğinde) `build` çalıştırır ve
+`dist/feed.md` özetini **taslak bir issue** olarak açar (`bulten-taslagi` etiketiyle). Hiçbir yere paylaşmaz: issue bir
+kontrol listesiyle gelir ve kanala ne gideceğine bir bakımcı karar verir ([ADR 0007](https://github.com/Greater-Turkiye/handbook/blob/main/decisions/0007-human-in-the-loop-publishing.md)).
+Özette madde yoksa issue açılmaz.
+
+Every Monday (and on manual dispatch) [`weekly-digest.yml`](.github/workflows/weekly-digest.yml) runs `build` and opens the
+`dist/feed.md` digest as a **draft issue** labelled `bulten-taslagi`. It posts nothing anywhere: the issue carries a checklist,
+and a maintainer decides what reaches a channel. If the digest has no items, no issue is opened.
 - Kalıcı bağlantı kaydın kendisidir: `https://github.com/Greater-Turkiye/datasets/blob/main/<kayıt yolu>`. / The permalink is the record itself.
 - Akış yalnızca `dist/` içindekini yansıtır; metin kayıtlardan gelir, akış üretiminde hiçbir içerik yazılmaz. / The feed only reflects `dist/`; it never writes content of its own.
 
