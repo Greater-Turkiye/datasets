@@ -19,6 +19,7 @@ data/<tür>/<yyyy>/<mm>/<id>.yaml   her kayıt bir dosya / one file per record
 examples/       kurgusal örnek kayıtlar (yayınlanmaz) / fictional examples (not exported)
 tools/gt.py     validate | build | fmt | new | id
 tools/issue_to_record.py   onaylı öneriyi taslak kayda çevirir / turns an approved proposal into a draft record
+tools/osm_military.py      bir adada OpenStreetMap'te askerî olarak etiketlenmiş nesneleri sayar (ipucu listesi, koordinatsız) / counts what OpenStreetMap has tagged as military on an island (a lead list, no coordinates)
 tools/data/     Türkiye coğrafi çiti (Natural Earth, kamu malı) / Türkiye geofence (Natural Earth, public domain)
 tests/          araç birim testleri (pytest) / unit tests for the tooling
 tests/fixtures/issues/     örnek issue gövdeleri / sample issue bodies used by the tests
