@@ -1,0 +1,32 @@
+id: evt_01m2w6d91te3fv7rjfxxkgthbf
+schema: event/1
+event_type: policy.sanctions
+title:
+  tr: BM Güvenlik Konseyi, İran yaptırımları uzmanlar panelinin görev süresini yenilemedi
+  en: The UN Security Council did not renew the mandate of the Iran sanctions Panel of Experts
+summary:
+  tr: Güvenlik Konseyi 17 Eylül 2026'daki 10224'üncü oturumunda, İran yaptırımları uzmanlar panelinin görev süresini yenileyen karar tasarısını kabul edemedi. Hem usul hem esas oylamasında sonuç 11 kabul, 2 ret (Çin, Rusya Federasyonu) ve 2 çekimser (Pakistan, Somali) oldu; daimî üyelerin ret oyu tasarıyı düşürdü. Oturumda ABD panelin "yasaklı ikili savunma iş birliğine ışık tutacağını", Letonya sonucun "BM yaptırım mimarisini zayıflatan kasıtlı bir örüntünün parçası" olduğunu söyledi; Rusya snapback mekanizmasının işletilmesinin "ne hakkı ne de gerekçesi" bulunduğunu, Çin ise Konsey'in tarafları "eşit zeminde müzakereye" yöneltmesi gerektiğini savundu. Bu kayıt, oturumda söylenenleri aktarmaktadır; nitelendirmeler konuşan devletlere aittir.
+  en: At its 10224th meeting on 17 September 2026 the Security Council failed to adopt the draft resolution renewing the mandate of the Iran sanctions Panel of Experts. Both the procedural and the substantive vote were 11 in favour, 2 against (China, the Russian Federation) and 2 abstentions (Pakistan, Somalia); the negative votes of permanent members defeated the text. The United States said the panel would have "shined a light on prohibited bilateral defensive cooperation"; Latvia called the outcome part of "a deliberate pattern of weakening UN sanctions architecture"; the Russian Federation said the invocation of snapback had "no right nor justification", and China said the Council should facilitate negotiations "on equal footing". This record relays what was said at the meeting; the characterisations belong to the states that made them.
+time:
+  start: 2026-09-17T00:00Z
+  precision: day
+  basis: reported
+location:
+  precision: locality
+  method: reported
+  place_name: {tr: "BM Genel Merkezi, New York", en: "UN Headquarters, New York"}
+regions: [iran, global]
+countries: [IRN, USA, RUS, CHN]
+sources:
+  - url: https://press.un.org/en/2026/sc16455.doc.htm
+    title: Security Council Fails to Renew Iran Sanctions Panel amid Dispute over 'Snapback' (SC/16455, 10224th Meeting)
+    published_at: 2026-09-17T00:00Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 2
+  method: [official-statement]
+  note:
+    tr: "Tek kaynak, olayın birincil kaynağıdır: BM'nin kendi oturum tutanağı özeti. İkinci bağımsız kaynak ve arşiv bağlantısı eklenmeden doğrulanmış sayılmaz (ADR 0006)."
+    en: "The single source is the primary one: the UN's own meetings coverage. Without a second independent source and an archive link it is not counted as verified (ADR 0006)."
+tags: [iran, yaptirimlar, bmgk]

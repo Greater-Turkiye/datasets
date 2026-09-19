@@ -1,0 +1,37 @@
+id: evt_01m2w6d9e3fn3a0x4zq1vwygwq
+schema: event/1
+event_type: maritime.activity
+title:
+  tr: "BM brifingi: Husiler Bab-ül Mendep'e doğru ilerliyor, Güney Kızıldeniz'de adalar ele geçirildi"
+  en: UN briefing — Houthi forces advancing towards Bab al-Mandab, islands taken in the southern Red Sea
+summary:
+  tr: Güvenlik Konseyi'nin 15 Eylül 2026 tarihli 10222'nci oturumunda Siyasi İşler ve Barışı İnşa Genel Sekreter Yardımcısı Khaled Khiari, Husi güçlerinin Yemen'in batı kıyısı boyunca Bab-ül Mendep Boğazı'na doğru ilerlemeyi sürdürdüğünü ve "Güney Kızıldeniz'de birkaç adayı ele geçirdiklerinin bildirildiğini" aktardı. Brifinge göre 1 Eylül'den bu yana Yemen genelinde en az 125.000 kişi yerinden oldu, yaklaşık 2.300 kişi Cibuti'ye geçti; ticari deniz trafiği brifing anında etkilenmemişti. Khiari, Bab-ül Mendep çevresindeki gelişmelerin "Yemen'deki çatışmanın Kızıldeniz'in güvenliğini ve bu hayatî deniz yolunu daha fazla tehdit etmesini önleme ihtiyacının" altını çizdiğini söyledi. Bu kayıt BM brifingini aktarır; ada ele geçirme bilgisi brifingde de "bildirildiğine göre" kaydıyla verilmiştir.
+  en: At the Security Council's 10222nd meeting on 15 September 2026, Assistant Secretary-General for Political and Peacebuilding Affairs Khaled Khiari said Houthi forces continued advancing along Yemen's west coast towards the Bab al-Mandab Strait and had "reportedly captured several islands in the southern Red Sea". According to the briefing at least 125,000 people have been displaced across Yemen since 1 September and some 2,300 crossed into Djibouti; commercial shipping through the Red Sea was unaffected at the time. Khiari said developments around the strait underline "the urgent need to prevent Yemen's conflict from further threatening the security of the Red Sea and this vital international maritime route". This record relays the briefing; the capture of islands is reported as such in the briefing itself.
+time:
+  start: 2026-09-15T00:00Z
+  precision: day
+  basis: reported
+location:
+  precision: sea-area
+  method: reported
+  place_name: {tr: Bab-ül Mendep Boğazı ve Güney Kızıldeniz, en: Bab al-Mandab Strait and the southern Red Sea}
+regions: [gulf-red-sea]
+countries: [YEM, DJI]
+sources:
+  - url: https://press.un.org/en/2026/sc16453.doc.htm
+    title: Houthi Advance towards Key Red Sea Chokepoint Raises Risk of Wider Conflict, Assistant Secretary-General Warns Security Council (SC/16453, 10222nd Meeting)
+    published_at: 2026-09-15T00:00Z
+    lang: en
+  - url: https://news.un.org/feed/view/en/story/2026/09/1168343
+    title: "Security Council LIVE: Rising violence triggers emergency meeting on Yemen"
+    published_at: 2026-09-15T00:00Z
+    lang: en
+    reliability: B
+assessment:
+  status: unverified
+  credibility: 3
+  method: [official-statement]
+  note:
+    tr: İki kaynak da BM'nindir, dolayısıyla bağımsız sayılmaz; ada ele geçirme bilgisi brifingde ikinci elden aktarılmıştır. Arşiv bağlantısı henüz alınmadı. Doğrulanmış sayılması için BM dışından bağımsız bir kaynak veya gemi takibi/uydu gibi güçlü bir yöntem gerekir (ADR 0006).
+    en: Both sources are the UN's own, so they are not independent, and the capture of islands is relayed at second hand inside the briefing. No archive link yet. Counting it as verified needs a source outside the UN or a strong method such as ship tracking or satellite imagery.
+tags: [kizildeniz, bab-ul-mendep, deniz-guvenligi]
