@@ -332,6 +332,7 @@ class Checker:
         self.check_citations(rec)
         self.check_i18n(rec)
         self.check_coordinates(rec, rec.data)
+        self.check_no_coordinate_tags(rec)
 
     # vocab / references
 
@@ -389,6 +390,17 @@ class Checker:
         for i, des in enumerate(d.get("designations", [])):
             if len(des["by"]) == 3:
                 self.code(rec, "countries", des["by"], f"designations/{i}/by")
+
+    def check_no_coordinate_tags(self, rec):
+        """A register kept deliberately without coordinates stays that way (ADR 0019 §3)."""
+        tags = set(rec.data.get("tags", []))
+        held = tags & set(self.policy.get("no_coordinate_tags", []))
+        if held and (rec.data.get("location") or {}).get("geometry"):
+            self.report.error(
+                rec.path,
+                f"location/geometry: records tagged {', '.join(sorted(held))} carry no coordinates "
+                "until each one is verified against a primary source (policy.yaml no_coordinate_tags)",
+            )
 
     def check_site(self, rec):
         d = rec.data

@@ -60,6 +60,14 @@ classification_markers:
   - NATO CONFIDENTIAL
   - NATO RESTRICTED
 
+# Kayıtları koordinatsız tutulan siciller. Bir koordinat, birincil kaynağıyla doğrulanmadan
+# yazılmaz; doğrulanmamış tek bir koordinat, gerisi sağlam olan kaydı çürütülebilir kılar
+# (handbook ADR 0019 §3). Etiketi taşıyan kayıtta `location.geometry` bulunması hatadır.
+# Registers whose records are kept without coordinates until each one is verified against a
+# primary source: a record carrying the tag must not carry `location.geometry`.
+no_coordinate_tags:
+  - ege-silahsizlandirilmis-statu
+
 blocked_domains:
   - bit.ly
   - tinyurl.com

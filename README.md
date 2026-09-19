@@ -110,6 +110,7 @@ Bunu tamamen otomatik hâle getirmek için / To make it fully automatic again, e
 - **Doğrulama ölçeği** / Verification: Admiralty — kaynak güvenilirliği A–F, bilgi doğruluğu 1–6, `assessment.status`.
 - `verified` için: doğruluk ≤ 2, İngilizce metin, her kaynağa arşiv linki, 2 bağımsız kaynak **veya** geolocation/chronolocation/uydu.
 - Kişisel veri, gizlilik dereceli belge, URL kısaltıcı → CI reddeder. / Personal data, classified markings, URL shorteners → rejected by CI.
+- **Koordinatsız siciller:** `policy.yaml → no_coordinate_tags` içindeki bir etiketi taşıyan kayıt `location.geometry` taşıyamaz. Bugün bu etiket `ege-silahsizlandirilmis-statu`'dur: koordinat, birincil kaynağıyla doğrulanana kadar yazılmaz ([ADR 0019](https://github.com/Greater-Turkiye/handbook/blob/main/decisions/0019-foreign-installations-register.md)). / **Registers without coordinates:** a record tagged in `no_coordinate_tags` may not carry `location.geometry`; a coordinate is written once it has been verified against a primary source.
 - **Coğrafi çit:** Türkiye kara toprakları, iç suları veya kıyıdan 12 deniz mili içindeki koordinat → Türk kuvvetleri kapısı (koordinat kaldırılır). / **Geofence:** coordinates on Türkiye's land, internal waters or within 12 nm of its coast trigger the Turkish forces gate. Ayrıntı / details: [tools/data/README.md](tools/data/README.md).
 
 ## Akış / Feed
