@@ -1,0 +1,30 @@
+id: sit_01m2w2nfabfscr49qgb0f2f229
+schema: site/1
+name:
+  tr: 96'ncı Millî Muhafız Yüksek Komutanlığı (Sakız)
+  en: 96th National Guard Higher Command (Chios)
+  local: 96 ΑΔΤΕ
+aliases: [96 ΑΔΤΕ]
+site_type: garrison
+country: GRC
+operators: [act_01m2c80g7xffrb953fyf02ragv]  # Hellenic Army
+location:
+  precision: admin2
+  method: reported
+  place_name: {tr: Sakız, en: Chios}
+regions: [aegean]
+description:
+  tr: "Sakız adasında konuşlu, Yunan Kara Kuvvetlerine bağlı ada komutanlığı. Lozan Barış Antlaşması (1923) md. 13: adada deniz üssü ve istihkâm kurulamaz, Yunan kuvvetleri \"normal contingent called up for military service\" ile sınırlıdır. Bu kayıt, adadaki kalıcı askerî varlığın antlaşma yükümlülüğü karşısındaki durumunu izlemek için açılmıştır. Komutanlığın varlığı ve konuşlandığı ada bugün yalnızca ikincil bir kaynağa dayanmaktadır; birincil kaynak (Yunan Genelkurmayı veya Resmî Gazetesi), kuruluş tarihi, tesis dökümü ve koordinat **doğrulanmamıştır** ve bilerek boş bırakılmıştır (ADR 0019). Kayıt, hedefleme verisi değil, antlaşma uyum kaydıdır: güncel hareket, personel ve zafiyet bilgisi içermez ve içermeyecektir."
+  en: "The Hellenic Army island command based on Chios. Treaty of Lausanne (1923) Art. 13: no naval base and no fortification may be established on the island, and Greek forces there are limited to the \"normal contingent called up for military service\". This record exists to track the permanent military presence on the island against that treaty obligation. The command's existence and its island are so far attested by a secondary source only; the primary source (the Hellenic Army General Staff or the Greek official gazette), the date it was established, the inventory of installations and the coordinates are **not verified** and are deliberately left empty (ADR 0019). This is a compliance record, not targeting data: it carries no current movements, no personnel and no vulnerability assessment, and it never will."
+sources:
+  - url: https://en.wikipedia.org/wiki/Supreme_Military_Command_of_the_Interior_and_Islands
+    title: Supreme Military Command of the Interior and Islands
+    lang: en
+    reliability: D
+  - url: https://en.wikisource.org/wiki/Treaty_of_Lausanne/Part_I
+    title: Treaty of Lausanne, Part I (Articles 12 and 13)
+    lang: en
+  - url: https://www.mfa.gov.tr/sc_-4_-disisleri-bakanligi-sozcusu-oncu-keceli-nin-ege-adalarinin-silahsizlandirilmis-statusune-iliskin-son-donemde-yasanan-gelismeler-hk-sc.tr.mfa
+    title: SC-4, 5 Mart 2026 — Dışişleri Bakanlığı Sözcüsü'nün Ege Adalarının Silahsızlandırılmış Statüsüne İlişkin Soruya Cevabı
+    lang: tr
+tags: [ege-silahsizlandirilmis-statu, lozan-md-13, birincil-kaynak-bekliyor, koordinat-yok]

@@ -1,0 +1,30 @@
+id: sit_01m2w2ngfmf1s9b07zx92k91mn
+schema: site/1
+name:
+  tr: 95'inci Millî Muhafız Yüksek Komutanlığı (Rodos)
+  en: 95th National Guard Higher Command (Rhodes)
+  local: 95 ΑΔΤΕ
+aliases: [95 ΑΔΤΕ]
+site_type: garrison
+country: GRC
+operators: [act_01m2c80g7xffrb953fyf02ragv]  # Hellenic Army
+location:
+  precision: admin2
+  method: reported
+  place_name: {tr: Rodos, en: Rhodes}
+regions: [aegean]
+description:
+  tr: "Rodos adasında konuşlu, Yunan Kara Kuvvetlerine bağlı ada komutanlığı. Paris Barış Antlaşması (1947) md. 14(2): Oniki Ada \"shall be and shall remain demilitarised\" (süresiz askerden arındırılmış). Bu kayıt, adadaki kalıcı askerî varlığın antlaşma yükümlülüğü karşısındaki durumunu izlemek için açılmıştır. Komutanlığın varlığı ve konuşlandığı ada bugün yalnızca ikincil bir kaynağa dayanmaktadır; birincil kaynak (Yunan Genelkurmayı veya Resmî Gazetesi), kuruluş tarihi, tesis dökümü ve koordinat **doğrulanmamıştır** ve bilerek boş bırakılmıştır (ADR 0019). Kayıt, hedefleme verisi değil, antlaşma uyum kaydıdır: güncel hareket, personel ve zafiyet bilgisi içermez ve içermeyecektir."
+  en: "The Hellenic Army island command based on Rhodes. Treaty of Paris (1947) Art. 14(2): the Dodecanese \"shall be and shall remain demilitarised\". This record exists to track the permanent military presence on the island against that treaty obligation. The command's existence and its island are so far attested by a secondary source only; the primary source (the Hellenic Army General Staff or the Greek official gazette), the date it was established, the inventory of installations and the coordinates are **not verified** and are deliberately left empty (ADR 0019). This is a compliance record, not targeting data: it carries no current movements, no personnel and no vulnerability assessment, and it never will."
+sources:
+  - url: https://en.wikipedia.org/wiki/Supreme_Military_Command_of_the_Interior_and_Islands
+    title: Supreme Military Command of the Interior and Islands
+    lang: en
+    reliability: D
+  - url: https://www.mfa.gr/archive/1/docs/diethneis_symvaseis/1947_italy_treaty.doc
+    title: Treaty of Peace with Italy (1947), Article 14
+    lang: en
+  - url: https://www.mfa.gov.tr/sc_-4_-disisleri-bakanligi-sozcusu-oncu-keceli-nin-ege-adalarinin-silahsizlandirilmis-statusune-iliskin-son-donemde-yasanan-gelismeler-hk-sc.tr.mfa
+    title: SC-4, 5 Mart 2026 — Dışişleri Bakanlığı Sözcüsü'nün Ege Adalarının Silahsızlandırılmış Statüsüne İlişkin Soruya Cevabı
+    lang: tr
+tags: [ege-silahsizlandirilmis-statu, paris-md-14, birincil-kaynak-bekliyor, koordinat-yok]

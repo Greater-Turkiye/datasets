@@ -1,0 +1,40 @@
+id: evt_01m2w3veb3ejzvts0xpb641qx4
+schema: event/1
+event_type: diplomatic.agreement
+title:
+  tr: Türkiye, Brezilya ile Savunma Sanayii İş Birliği Anlaşması'nı onayladı
+  en: Türkiye ratified the Defence Industry Cooperation Agreement with Brazil
+summary:
+  tr: 18 Eylül 2026 tarihli Resmî Gazete'de yayımlanan 11799 sayılı Cumhurbaşkanı Kararı ile "Türkiye Cumhuriyeti Hükümeti ile Brezilya Federatif Cumhuriyeti Hükümeti arasında Savunma Sanayi İşbirliği Anlaşması" ve ekli notalar onaylandı. Anlaşma 25 Mart 2022'de imzalanmış, TBMM'nin onay kanunu (7586 sayılı Kanun) 4 Temmuz 2026'da Resmî Gazete'de yayımlanmıştı; Cumhurbaşkanı kararı onay sürecinin son adımıdır. Habere göre anlaşma, iki ülkenin yetkili kurumları ve savunma sanayii kuruluşları arasında savunma ürün ve hizmetlerinin geliştirilmesi, üretimi, tedariki ve bakımı ile teknik ve lojistik destek alanlarında iş birliğini kapsıyor.
+  en: Presidential Decision 11799, published in the Official Gazette of 18 September 2026, approved the "Defence Industry Cooperation Agreement between the Government of the Republic of Türkiye and the Government of the Federative Republic of Brazil" together with its annexed notes. The agreement was signed on 25 March 2022 and the Turkish parliament's approving law (Law 7586) was published in the Official Gazette on 4 July 2026; the presidential decision is the final step of ratification. As reported, the agreement covers cooperation between the two states' authorised bodies and defence industry organisations in the development, production, supply and maintenance of defence goods and services, and in technical and logistic support.
+time:
+  start: 2026-09-18T00:00Z
+  precision: day
+  basis: reported
+location:
+  precision: country
+  method: reported
+  place_name: {tr: Türkiye, en: Türkiye}
+regions: [global]
+countries: [TUR, BRA]
+sources:
+  - url: https://www.resmigazete.gov.tr/18.09.2026
+    title: 18 Eylül 2026 tarihli Resmî Gazete (11799 sayılı Cumhurbaşkanı Kararı)
+    published_at: 2026-09-18T00:00Z
+    lang: tr
+  - url: https://www.gercekgundem.com/guncel/resmi-gazetede-yayimlandi-turkiye-ve-brezilya-savunma-sanayisinde-guclerini-birlestiriyor-578861
+    title: "Resmi Gazete'de Yayımlandı: Türkiye ve Brezilya Savunma Sanayisinde Güçlerini Birleştiriyor"
+    lang: tr
+    reliability: D
+  - url: https://www.politikam.com/18-eylul-2026-resmi-gazete-kararlari
+    title: 18 Eylül Resmî Gazete yayımlandı — kararlar
+    lang: tr
+    reliability: D
+assessment:
+  status: unverified
+  credibility: 3
+  method: [document, multiple-independent-sources]
+  note:
+    tr: Karar numarası (11799) ve başlık iki haber kaynağında aynı biçimde geçiyor; Resmî Gazete'nin kendi sayfası bu makinede TLS zinciri doğrulanamadığı için okunamadı, bu yüzden birincil belge bizzat görülmedi. Anlaşmanın imza tarihi (25 Mart 2022) ve TBMM onay kanunu (7586, RG 4 Temmuz 2026) bağımsız olarak kayıtlıdır. Arşiv bağlantısı henüz alınamadı.
+    en: The decision number (11799) and the heading appear identically in two news sources; the Official Gazette's own page could not be read from this machine because its TLS chain did not verify, so the primary document was not seen directly. The signature date (25 March 2022) and the approving law (7586, Official Gazette 4 July 2026) are recorded independently. No archive link yet.
+tags: [savunma-sanayii, anlasma-onayi]
