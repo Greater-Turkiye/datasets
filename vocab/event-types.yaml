@@ -89,6 +89,9 @@ codes:
   - code: diplomatic.agreement
     label: {tr: Savunma anlaşması, en: Defence agreement}
     definition: {tr: "İkili/çok taraflı savunma veya güvenlik anlaşması.", en: "Bilateral/multilateral defence or security agreement."}
+  - code: policy.sanctions
+    label: {tr: Yaptırım kararı, en: Sanctions decision}
+    definition: {tr: "Yaptırım rejiminin kurulması, yenilenmesi, genişletilmesi veya sona ermesi (BMGK kararı, ulusal veya bölgesel rejim).", en: "A sanctions regime being established, renewed, widened or allowed to lapse (Security Council decision, national or regional regime)."}
   - code: policy.defense
     label: {tr: Savunma politikası, en: Defence policy}
     definition: {tr: "Bütçe, doktrin, yapılanma değişikliği.", en: "Budget, doctrine, force structure change."}
