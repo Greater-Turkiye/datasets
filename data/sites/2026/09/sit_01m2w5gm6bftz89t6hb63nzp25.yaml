@@ -1,0 +1,28 @@
+id: sit_01m2w5gm6bftz89t6hb63nzp25
+schema: site/1
+name:
+  tr: Kalimnos adasındaki askerî varlık
+  en: Military presence on Kalymnos
+  local: Κάλυμνος
+site_type: other
+country: GRC
+location:
+  precision: admin2
+  method: reported
+  place_name: {tr: Kalimnos, en: Kalymnos}
+regions: [aegean]
+description:
+  tr: "Kalimnos adasındaki askerî varlığın antlaşma yükümlülüğü karşısındaki durumunu izleyen kayıt. Paris Barış Antlaşması (1947) md. 14(2): Oniki Ada \"shall be and shall remain demilitarised\" (süresiz askerden arındırılmış). Kayıtta koordinat ve geometri **yoktur**: bir koordinat, birincil kaynağıyla doğrulanmadan yazılmaz (ADR 0019). OpenStreetMap'te (ODbL, sorgu 2026-09-19, yalnızca Yunan toprağı) adada askerî olarak etiketlenmiş 1 nesne kayıtlı: military 1. Bunlar doğrulanacak ipuçlarıdır: gönüllü etiketleri bir tesisin bugün faal olduğunu kanıtlamaz; İkinci Dünya Savaşı'ndan kalma mevziler de aynı etiketi taşıyabilir. Kayıt bir uyum kaydıdır; güncel hareket, personel ve zafiyet bilgisi içermez ve içermeyecektir."
+  en: "A record tracking the military presence on Kalymnos against its treaty obligation. Treaty of Paris (1947) Art. 14(2): the Dodecanese \"shall be and shall remain demilitarised\". It carries **no coordinates and no geometry**: a coordinate is written when it has been verified against a primary source, not before (ADR 0019). OpenStreetMap (ODbL, queried 2026-09-19, Greek territory only) has 1 features tagged as military on the island: military 1. These are leads to verify: a volunteer's tag does not prove a facility is in use today — Second World War positions carry the same tag. This is a compliance record: it carries no current movements, no personnel and no vulnerability assessment, and it never will."
+sources:
+  - url: https://www.mfa.gr/archive/1/docs/diethneis_symvaseis/1947_italy_treaty.doc
+    title: Treaty of Peace with Italy (1947), Article 14
+    lang: en
+  - url: https://www.mfa.gov.tr/sc_-4_-disisleri-bakanligi-sozcusu-oncu-keceli-nin-ege-adalarinin-silahsizlandirilmis-statusune-iliskin-son-donemde-yasanan-gelismeler-hk-sc.tr.mfa
+    title: SC-4, 5 Mart 2026 — Dışişleri Bakanlığı Sözcüsü'nün Ege Adalarının Silahsızlandırılmış Statüsüne İlişkin Soruya Cevabı
+    lang: tr
+  - url: https://www.openstreetmap.org/copyright
+    title: OpenStreetMap — features tagged military on the island (Overpass query, tools/osm_military.py, 2026-09-19); © OpenStreetMap contributors, ODbL 1.0
+    lang: en
+    reliability: D
+tags: [ege-silahsizlandirilmis-statu, paris-md-14, birincil-kaynak-bekliyor, koordinat-yok]

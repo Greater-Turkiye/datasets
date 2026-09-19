@@ -1,0 +1,34 @@
+id: sit_01m2w2ng37f7ab9a59fxsfzbsa
+schema: site/1
+name:
+  tr: 88'inci Askerî Komutanlık (Limni)
+  en: 88th Military Command (Lemnos)
+  local: 88 ΣΔΙ
+aliases: [88 ΣΔΙ]
+site_type: garrison
+country: GRC
+operators: [act_01m2c80g7xffrb953fyf02ragv]  # Hellenic Army
+location:
+  precision: admin2
+  method: reported
+  place_name: {tr: Limni, en: Lemnos}
+regions: [aegean]
+description:
+  tr: "Limni adasında konuşlu, Yunan Kara Kuvvetlerine bağlı ada komutanlığı. Lozan (1923) md. 12 adayı Yunan egemenliğinde sayar; Limni ve Semadirek'in askerden arındırılmış statüsü Lozan'a ek Boğazlar Sözleşmesi'nden gelir ve 1936 Montrö sonrası statüsü taraflarca tartışmalıdır. Türkiye statünün sürdüğü görüşündedir. Bu kayıt, adadaki kalıcı askerî varlığın antlaşma yükümlülüğü karşısındaki durumunu izlemek için açılmıştır. Komutanlığın varlığı ve konuşlandığı ada bugün yalnızca ikincil bir kaynağa dayanmaktadır; birincil kaynak (Yunan Genelkurmayı veya Resmî Gazetesi), kuruluş tarihi, tesis dökümü ve koordinat **doğrulanmamıştır** ve bilerek boş bırakılmıştır (ADR 0019). Kayıt, hedefleme verisi değil, antlaşma uyum kaydıdır: güncel hareket, personel ve zafiyet bilgisi içermez ve içermeyecektir. OpenStreetMap'te (ODbL, sorgu 2026-09-19, yalnızca Yunan toprağı) adada askerî olarak etiketlenmiş 13 nesne kayıtlı: military 6, bunker 2, office 2, checkpoint 1, airfield 1, range 1. Adlandırılmış olanlar: Lemnos Air Base; Navtex station; Φρουράς Λήμνου; Πεδίο βολής Ατσικής. Bunlar doğrulanacak ipuçlarıdır: gönüllülerin etiketlediği kayıtlar bu komutanlığa ait olduklarını kanıtlamaz ve etiketlerin güncelliği denetlenmemiştir."
+  en: "The Hellenic Army island command based on Lemnos. Lausanne (1923) Art. 12 confirms Greek sovereignty; the demilitarised status of Lemnos and Samothrace derives from the Straits Convention annexed to Lausanne, and what Montreux (1936) did to that status is disputed between the parties. Türkiye holds that it stands. This record exists to track the permanent military presence on the island against that treaty obligation. The command's existence and its island are so far attested by a secondary source only; the primary source (the Hellenic Army General Staff or the Greek official gazette), the date it was established, the inventory of installations and the coordinates are **not verified** and are deliberately left empty (ADR 0019). This is a compliance record, not targeting data: it carries no current movements, no personnel and no vulnerability assessment, and it never will. OpenStreetMap (ODbL, queried 2026-09-19, Greek territory only) has 13 features tagged as military on the island: military 6, bunker 2, office 2, checkpoint 1, airfield 1, range 1. Named: Lemnos Air Base; Navtex station; Φρουράς Λήμνου; Πεδίο βολής Ατσικής. These are leads to verify: a volunteer's tag does not prove the facility belongs to this command, and the tags' currency has not been checked."
+sources:
+  - url: https://en.wikipedia.org/wiki/Supreme_Military_Command_of_the_Interior_and_Islands
+    title: Supreme Military Command of the Interior and Islands
+    lang: en
+    reliability: D
+  - url: https://en.wikisource.org/wiki/Treaty_of_Lausanne/Part_I
+    title: Treaty of Lausanne, Part I (Articles 12 and 13)
+    lang: en
+  - url: https://www.mfa.gov.tr/sc_-4_-disisleri-bakanligi-sozcusu-oncu-keceli-nin-ege-adalarinin-silahsizlandirilmis-statusune-iliskin-son-donemde-yasanan-gelismeler-hk-sc.tr.mfa
+    title: SC-4, 5 Mart 2026 — Dışişleri Bakanlığı Sözcüsü'nün Ege Adalarının Silahsızlandırılmış Statüsüne İlişkin Soruya Cevabı
+    lang: tr
+  - url: https://www.openstreetmap.org/copyright
+    title: OpenStreetMap — features tagged military on the island (Overpass query, tools/osm_military.py, 2026-09-19); © OpenStreetMap contributors, ODbL 1.0
+    lang: en
+    reliability: D
+tags: [ege-silahsizlandirilmis-statu, lozan-bogazlar-sozlesmesi, birincil-kaynak-bekliyor, koordinat-yok]
