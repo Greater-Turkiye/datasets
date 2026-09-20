@@ -19,6 +19,7 @@ data/<tür>/<yyyy>/<mm>/<id>.yaml   her kayıt bir dosya / one file per record
 examples/       kurgusal örnek kayıtlar (yayınlanmaz) / fictional examples (not exported)
 tools/gt.py     validate | build | fmt | new | id
 tools/issue_to_record.py   onaylı öneriyi taslak kayda çevirir / turns an approved proposal into a draft record
+tools/archive.py           kaynakları Wayback Machine'de kalıcılaştırır / gives every source a permanent copy
 tools/osm_military.py      bir adada OpenStreetMap'te askerî olarak etiketlenmiş nesneleri sayar (ipucu listesi, koordinatsız) / counts what OpenStreetMap has tagged as military on an island (a lead list, no coordinates)
 tools/data/     Türkiye coğrafi çiti (Natural Earth, kamu malı) / Türkiye geofence (Natural Earth, public domain)
 tests/          araç birim testleri (pytest) / unit tests for the tooling
@@ -43,7 +44,10 @@ python tools/gt.py fmt              # kanonik sıra + referans etiketleri / cano
 python tools/gt.py validate         # tüm kontroller / all checks
 python tools/gt.py build            # dist/: *.jsonl, events.csv, events.geojson, vocab.json, feed.xml, feed.json, feed.md
 pip install pytest && python -m pytest tests   # araç testleri / tooling tests
+python tools/archive.py --dry-run   # arşivsiz kaynakları listeler / lists sources with no archive
 ```
+
+Arşivleyici, önce Wayback'te zaten bir kopya var mı diye sorar (hesapsız, ücretsiz); yoksa Save Page Now ile bir kopya aldırır. Save Page Now bir hesap ister: anahtarlar yalnızca ortamdan okunur (`IA_ACCESS_KEY`, `IA_SECRET_KEY`; [archive.org/account/s3.php](https://archive.org/account/s3.php)) ve hiçbir yere yazılmaz. Anahtarsız da çalışır, yalnızca var olan kopyaları alır. / The archiver asks the Wayback availability API first (free, no account) and falls back to Save Page Now, which needs an account: the keys are read from `IA_ACCESS_KEY` and `IA_SECRET_KEY` in the environment and are never written anywhere. Without them it still runs, taking only captures that already exist.
 
 CI bunların hepsini çalıştırır; `fmt --check` biçimsiz kaydı reddeder. / CI runs all of these; `fmt --check` rejects unformatted records.
 
