@@ -19,6 +19,7 @@ data/<tür>/<yyyy>/<mm>/<id>.yaml   her kayıt bir dosya / one file per record
 examples/       kurgusal örnek kayıtlar (yayınlanmaz) / fictional examples (not exported)
 tools/gt.py     validate | build | fmt | new | id
 tools/issue_to_record.py   onaylı öneriyi taslak kayda çevirir / turns an approved proposal into a draft record
+tools/osm_military.py      bir adada OpenStreetMap'te askerî olarak etiketlenmiş nesneleri sayar (ipucu listesi, koordinatsız) / counts what OpenStreetMap has tagged as military on an island (a lead list, no coordinates)
 tools/data/     Türkiye coğrafi çiti (Natural Earth, kamu malı) / Türkiye geofence (Natural Earth, public domain)
 tests/          araç birim testleri (pytest) / unit tests for the tooling
 tests/fixtures/issues/     örnek issue gövdeleri / sample issue bodies used by the tests
@@ -109,6 +110,7 @@ Bunu tamamen otomatik hâle getirmek için / To make it fully automatic again, e
 - **Doğrulama ölçeği** / Verification: Admiralty — kaynak güvenilirliği A–F, bilgi doğruluğu 1–6, `assessment.status`.
 - `verified` için: doğruluk ≤ 2, İngilizce metin, her kaynağa arşiv linki, 2 bağımsız kaynak **veya** geolocation/chronolocation/uydu.
 - Kişisel veri, gizlilik dereceli belge, URL kısaltıcı → CI reddeder. / Personal data, classified markings, URL shorteners → rejected by CI.
+- **Koordinatsız siciller:** `policy.yaml → no_coordinate_tags` içindeki bir etiketi taşıyan kayıt `location.geometry` taşıyamaz. Bugün bu etiket `ege-silahsizlandirilmis-statu`'dur: koordinat, birincil kaynağıyla doğrulanana kadar yazılmaz ([ADR 0019](https://github.com/Greater-Turkiye/handbook/blob/main/decisions/0019-foreign-installations-register.md)). / **Registers without coordinates:** a record tagged in `no_coordinate_tags` may not carry `location.geometry`; a coordinate is written once it has been verified against a primary source.
 - **Coğrafi çit:** Türkiye kara toprakları, iç suları veya kıyıdan 12 deniz mili içindeki koordinat → Türk kuvvetleri kapısı (koordinat kaldırılır). / **Geofence:** coordinates on Türkiye's land, internal waters or within 12 nm of its coast trigger the Turkish forces gate. Ayrıntı / details: [tools/data/README.md](tools/data/README.md).
 
 ## Akış / Feed
