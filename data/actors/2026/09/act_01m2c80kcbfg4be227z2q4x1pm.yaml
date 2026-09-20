@@ -12,3 +12,7 @@ wikidata: Q2670650
 sources:
   - url: https://www.wikidata.org/wiki/Q2670650
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260615083823/https://www.wikidata.org/wiki/Q2670650
+        captured_at: 2026-06-15T08:38:23Z

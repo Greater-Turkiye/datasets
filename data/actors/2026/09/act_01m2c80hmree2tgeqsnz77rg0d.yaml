@@ -11,3 +11,7 @@ wikidata: Q898671
 sources:
   - url: https://www.wikidata.org/wiki/Q898671
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260112003528/https://www.wikidata.org/wiki/Q898671
+        captured_at: 2026-01-12T00:35:28Z

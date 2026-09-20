@@ -12,3 +12,7 @@ wikidata: Q21042210
 sources:
   - url: https://www.wikidata.org/wiki/Q21042210
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260410223731/https://www.wikidata.org/wiki/Q21042210
+        captured_at: 2026-04-10T22:37:31Z

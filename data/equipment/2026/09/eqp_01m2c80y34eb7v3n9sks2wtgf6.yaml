@@ -12,5 +12,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/T-90
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260918000556/https://en.wikipedia.org/wiki/T-90
+        captured_at: 2026-09-18T00:05:56Z
   - url: https://www.wikidata.org/wiki/Q192757
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260519092934/https://www.wikidata.org/wiki/Q192757
+        captured_at: 2026-05-19T09:29:34Z

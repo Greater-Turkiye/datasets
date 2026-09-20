@@ -15,3 +15,7 @@ description:
 sources:
   - url: https://www.wikidata.org/wiki/Q934022
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260610062711/https://www.wikidata.org/wiki/Q934022
+        captured_at: 2026-06-10T06:27:11Z

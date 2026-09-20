@@ -12,3 +12,7 @@ wikidata: Q378442
 sources:
   - url: https://www.wikidata.org/wiki/Q378442
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260326100028/https://www.wikidata.org/wiki/Q378442
+        captured_at: 2026-03-26T10:00:28Z

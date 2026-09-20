@@ -14,3 +14,7 @@ description:
 sources:
   - url: https://www.wikidata.org/wiki/Q2465096
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260511121729/https://www.wikidata.org/wiki/Q2465096
+        captured_at: 2026-05-11T12:17:29Z

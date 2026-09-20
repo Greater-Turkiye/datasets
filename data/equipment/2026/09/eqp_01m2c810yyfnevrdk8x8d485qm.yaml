@@ -12,5 +12,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/Exocet
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260903041015/https://en.wikipedia.org/wiki/Exocet
+        captured_at: 2026-09-03T04:10:15Z
   - url: https://www.wikidata.org/wiki/Q150570
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260209082019/https://www.wikidata.org/wiki/Q150570
+        captured_at: 2026-02-09T08:20:19Z

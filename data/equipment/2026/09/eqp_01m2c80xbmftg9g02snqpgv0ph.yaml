@@ -13,5 +13,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/Dassault_Mirage_2000
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260827112309/https://en.wikipedia.org/wiki/Dassault_Mirage_2000
+        captured_at: 2026-08-27T11:23:09Z
   - url: https://www.wikidata.org/wiki/Q200038
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20251223122814/https://www.wikidata.org/wiki/Q200038
+        captured_at: 2025-12-23T12:28:14Z

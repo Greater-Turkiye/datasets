@@ -12,5 +12,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/Kh-101
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260829113430/https://en.wikipedia.org/wiki/Kh-101
+        captured_at: 2026-08-29T11:34:30Z
   - url: https://www.wikidata.org/wiki/Q3562874
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20250824185614/https://www.wikidata.org/wiki/Q3562874
+        captured_at: 2025-08-24T18:56:14Z

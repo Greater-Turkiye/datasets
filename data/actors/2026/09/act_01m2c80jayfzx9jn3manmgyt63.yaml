@@ -14,3 +14,7 @@ description:
 sources:
   - url: https://www.wikidata.org/wiki/Q271110
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260909144558/https://www.wikidata.org/wiki/Q271110
+        captured_at: 2026-09-09T14:45:58Z

@@ -11,3 +11,7 @@ wikidata: Q2443729
 sources:
   - url: https://www.wikidata.org/wiki/Q2443729
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260408184505/https://www.wikidata.org/wiki/Q2443729
+        captured_at: 2026-04-08T18:45:05Z

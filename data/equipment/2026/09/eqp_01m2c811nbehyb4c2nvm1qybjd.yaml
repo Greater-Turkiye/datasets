@@ -13,5 +13,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/FREMM_multipurpose_frigate
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260828060212/https://en.wikipedia.org/wiki/FREMM_multipurpose_frigate
+        captured_at: 2026-08-28T06:02:12Z
   - url: https://www.wikidata.org/wiki/Q1380284
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260129003000/https://www.wikidata.org/wiki/Q1380284
+        captured_at: 2026-01-29T00:30:00Z

@@ -12,5 +12,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/Iron_Dome
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260916174503/https://en.wikipedia.org/wiki/Iron_Dome
+        captured_at: 2026-09-16T17:45:03Z
   - url: https://www.wikidata.org/wiki/Q81231
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260826092234/https://www.wikidata.org/wiki/Q81231
+        captured_at: 2026-08-26T09:22:34Z

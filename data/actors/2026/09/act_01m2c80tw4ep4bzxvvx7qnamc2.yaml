@@ -10,3 +10,7 @@ wikidata: Q276261
 sources:
   - url: https://www.wikidata.org/wiki/Q276261
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20251122203131/https://www.wikidata.org/wiki/Q276261
+        captured_at: 2025-11-22T20:31:31Z

@@ -11,3 +11,7 @@ wikidata: Q1546449
 sources:
   - url: https://www.wikidata.org/wiki/Q1546449
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260905114609/https://www.wikidata.org/wiki/Q1546449
+        captured_at: 2026-09-05T11:46:09Z

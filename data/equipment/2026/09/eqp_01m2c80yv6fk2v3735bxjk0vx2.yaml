@@ -13,5 +13,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/Baykar_Bayraktar_TB2
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260916041929/https://en.wikipedia.org/wiki/Baykar_Bayraktar_TB2
+        captured_at: 2026-09-16T04:19:29Z
   - url: https://www.wikidata.org/wiki/Q17501733
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260731063759/https://www.wikidata.org/wiki/Q17501733
+        captured_at: 2026-07-31T06:37:59Z

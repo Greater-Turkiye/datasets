@@ -12,3 +12,7 @@ wikidata: Q631668
 sources:
   - url: https://www.wikidata.org/wiki/Q631668
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260920025658/https://www.wikidata.org/wiki/Q631668
+        captured_at: 2026-09-20T02:56:58Z

@@ -10,3 +10,7 @@ wikidata: Q1075553
 sources:
   - url: https://www.wikidata.org/wiki/Q1075553
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20250703052834/https://www.wikidata.org/wiki/Q1075553
+        captured_at: 2025-07-03T05:28:34Z

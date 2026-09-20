@@ -13,3 +13,7 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/Sukhoi_Su-30
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260829045450/https://en.wikipedia.org/wiki/Sukhoi_Su-30
+        captured_at: 2026-08-29T04:54:50Z
