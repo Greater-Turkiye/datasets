@@ -7,13 +7,16 @@ name:
 site_type: other
 country: GRC
 location:
+  geometry: {type: Point, coordinates: [26.84194, 37.14667]}
   precision: admin2
+  uncertainty_m: 5000
   method: reported
   place_name: {tr: Leros, en: Leros}
 regions: [aegean]
+wikidata: Q426893
 description:
-  tr: "Leros adasındaki askerî varlığın antlaşma yükümlülüğü karşısındaki durumunu izleyen kayıt. Paris Barış Antlaşması (1947) md. 14(2): Oniki Ada \"shall be and shall remain demilitarised\" (süresiz askerden arındırılmış). Kayıtta koordinat ve geometri **yoktur**: bir koordinat, birincil kaynağıyla doğrulanmadan yazılmaz (ADR 0019). OpenStreetMap'te (ODbL, sorgu 2026-09-19, yalnızca Yunan toprağı) adada askerî olarak etiketlenmiş 17 nesne kayıtlı: bunker 10, military 3, barracks 1, office 1, checkpoint 1, airfield 1. Adlandırılmış olanlar: Κρατικός Αερολιμένας Λέρου; Old WWII; Old WWII; Old WWII. Bunlar doğrulanacak ipuçlarıdır: gönüllü etiketleri bir tesisin bugün faal olduğunu kanıtlamaz; İkinci Dünya Savaşı'ndan kalma mevziler de aynı etiketi taşıyabilir. Kayıt bir uyum kaydıdır; güncel hareket, personel ve zafiyet bilgisi içermez ve içermeyecektir."
-  en: "A record tracking the military presence on Leros against its treaty obligation. Treaty of Paris (1947) Art. 14(2): the Dodecanese \"shall be and shall remain demilitarised\". It carries **no coordinates and no geometry**: a coordinate is written when it has been verified against a primary source, not before (ADR 0019). OpenStreetMap (ODbL, queried 2026-09-19, Greek territory only) has 17 features tagged as military on the island: bunker 10, military 3, barracks 1, office 1, checkpoint 1, airfield 1. Named: Κρατικός Αερολιμένας Λέρου; Old WWII; Old WWII; Old WWII. These are leads to verify: a volunteer's tag does not prove a facility is in use today — Second World War positions carry the same tag. This is a compliance record: it carries no current movements, no personnel and no vulnerability assessment, and it never will."
+  tr: "Leros adasındaki askerî varlığın antlaşma yükümlülüğü karşısındaki durumunu izleyen kayıt. Paris Barış Antlaşması (1947) md. 14(2): Oniki Ada \"shall be and shall remain demilitarised\" (süresiz askerden arındırılmış). Kayıttaki nokta **adanın kendisidir**, tesisin değil: Leros adasının Wikidata'daki koordinatı (`Q426893`), hata payı ±5 km — adanın alanına eşit dairenin yarıçapı. Tesis düzeyinde bir koordinat, açık bir kaynak verene kadar yazılmaz; ayak izi ne çıkarılır ne yayımlanır (ADR 0021). OpenStreetMap'te (ODbL, sorgu 2026-09-19, yalnızca Yunan toprağı) adada askerî olarak etiketlenmiş 17 nesne kayıtlı: bunker 10, military 3, barracks 1, office 1, checkpoint 1, airfield 1. Adlandırılmış olanlar: Κρατικός Αερολιμένας Λέρου; Old WWII; Old WWII; Old WWII. Bunlar doğrulanacak ipuçlarıdır: gönüllü etiketleri bir tesisin bugün faal olduğunu kanıtlamaz; İkinci Dünya Savaşı'ndan kalma mevziler de aynı etiketi taşıyabilir. Kayıt bir uyum kaydıdır; güncel hareket, personel ve zafiyet bilgisi içermez ve içermeyecektir."
+  en: "A record tracking the military presence on Leros against its treaty obligation. Treaty of Paris (1947) Art. 14(2): the Dodecanese \"shall be and shall remain demilitarised\". The point is **the island itself**, not an installation: the Wikidata coordinate for Leros (`Q426893`), with an uncertainty of ±5 km — the radius of a circle with the island's area. A coordinate at installation level is written when an open source gives one; no footprint is traced or published. OpenStreetMap (ODbL, queried 2026-09-19, Greek territory only) has 17 features tagged as military on the island: bunker 10, military 3, barracks 1, office 1, checkpoint 1, airfield 1. Named: Κρατικός Αερολιμένας Λέρου; Old WWII; Old WWII; Old WWII. These are leads to verify: a volunteer's tag does not prove a facility is in use today — Second World War positions carry the same tag. This is a compliance record: it carries no current movements, no personnel and no vulnerability assessment, and it never will."
 sources:
   - url: https://www.mfa.gr/archive/1/docs/diethneis_symvaseis/1947_italy_treaty.doc
     title: Treaty of Peace with Italy (1947), Article 14
@@ -25,4 +28,8 @@ sources:
     title: OpenStreetMap — features tagged military on the island (Overpass query, tools/osm_military.py, 2026-09-19); © OpenStreetMap contributors, ODbL 1.0
     lang: en
     reliability: D
-tags: [ege-silahsizlandirilmis-statu, paris-md-14, birincil-kaynak-bekliyor, koordinat-yok]
+  - url: https://www.wikidata.org/wiki/Q426893
+    title: "Wikidata Q426893 — Leros: coordinate (P625) and area (P2046), CC0"
+    lang: en
+    reliability: C
+tags: [ege-silahsizlandirilmis-statu, paris-md-14, birincil-kaynak-bekliyor]

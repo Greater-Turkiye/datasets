@@ -96,7 +96,8 @@ def good_event(repo, ids) -> dict:
         "event_type": "air.airspace-incident",
         "title": {"tr": "Ege'de bildirilen hava sahası olayı", "en": "Reported airspace incident over the Aegean"},
         "time": {"start": iso(NOW - timedelta(days=3)), "precision": "hour", "basis": "reported"},
-        "location": {"geometry": {"type": "Point", "coordinates": [25.5, 38.9]}, "precision": "sea-area", "method": "reported"},
+        "location": {"geometry": {"type": "Point", "coordinates": [25.5, 38.9]}, "precision": "sea-area",
+                     "method": "reported", "uncertainty_m": 15000},
         "regions": ["aegean"],
         "countries": ["GRC"],
         "actors": [{"ref": ids.grc, "role": "participant"}],
@@ -192,8 +193,10 @@ def _text(s):
     return _set("summary", {"tr": f"Kurgusal metin: {s}", "en": "Fictional text."})
 
 
-def _geometry(geometry, precision="sea-area"):
-    return _set("location", {"geometry": geometry, "precision": precision, "method": "reported"})
+def _geometry(geometry, precision="sea-area", uncertainty_m=None):
+    floors = {"sea-area": 10000, "locality": 500, "admin2": 5000, "site": 50, "exact": 0}
+    return _set("location", {"geometry": geometry, "precision": precision, "method": "reported",
+                             "uncertainty_m": floors[precision] if uncertainty_m is None else uncertainty_m})
 
 
 def _polygon(*ring):
@@ -267,7 +270,8 @@ def test_verified_with_archives_passes(repo, world):
 def site(repo, ids, lon, lat) -> dict:
     return {"id": repo.gt.new_id("sit"), "schema": "site/1", "name": {"tr": "Deniz Üssü", "en": "Naval Base"},
             "site_type": "naval-base", "country": "GRC", "operators": [ids.grc],
-            "location": {"geometry": {"type": "Point", "coordinates": [lon, lat]}, "precision": "locality", "method": "reported"},
+            "location": {"geometry": {"type": "Point", "coordinates": [lon, lat]}, "precision": "locality",
+                         "method": "reported", "uncertainty_m": 800},
             "sources": [{"url": "https://example.org/base", "lang": "en"}]}
 
 
@@ -281,6 +285,32 @@ def test_site_inside_geofence_rejected(repo, world):
     repo.write(site(repo, world, 27.14, 38.42))  # İzmir
     errors, _ = repo.validate()
     assert any(GATE in m and FENCE in m for m in errors), errors
+
+
+# --- coordinates carry their provenance (ADR 0021)
+
+def test_a_coordinate_without_an_uncertainty_is_rejected(repo, world):
+    s = site(repo, world, 24.12, 35.49)
+    del s["location"]["uncertainty_m"]
+    repo.write(s)
+    errors, _ = repo.validate()
+    assert any("needs uncertainty_m" in m for m in errors), errors
+
+
+def test_an_uncertainty_below_the_floor_for_its_precision_is_rejected(repo, world):
+    s = site(repo, world, 24.12, 35.49)
+    s["location"]["uncertainty_m"] = 10  # ten metres at locality precision claims what nobody has
+    repo.write(s)
+    errors, _ = repo.validate()
+    assert any("below the floor for precision" in m for m in errors), errors
+
+
+def test_a_register_record_may_now_carry_a_sourced_coordinate(repo, world):
+    """The old gate refused coordinates on these records outright; ADR 0021 asks for provenance."""
+    s = site(repo, world, 26.14, 39.09)  # Lesbos, Greek territory, outside the geofence
+    s["tags"] = ["ege-silahsizlandirilmis-statu"]
+    repo.write(s)
+    assert repo.validate() == ([], [])
 
 
 def test_wrong_path_rejected(repo, world):
@@ -412,7 +442,7 @@ sources:
   - lang: en
     url: https://example.org/site
 operators: [{world.grc}]   # stale comment
-location: {{method: reported, precision: locality, geometry: {{coordinates: [24.12, 35.49], type: Point}}}}
+location: {{method: reported, uncertainty_m: 800, precision: locality, geometry: {{coordinates: [24.12, 35.49], type: Point}}}}
 site_type: naval-base
 name: {{en: Souda Bay Naval Base, tr: Suda Deniz Üssü}}
 schema: site/1
@@ -436,6 +466,7 @@ operators: [{world.grc}]  # Hellenic Navy
 location:
   geometry: {{type: Point, coordinates: [24.12, 35.49]}}
   precision: locality
+  uncertainty_m: 800
   method: reported
 sources:
   - url: https://example.org/site

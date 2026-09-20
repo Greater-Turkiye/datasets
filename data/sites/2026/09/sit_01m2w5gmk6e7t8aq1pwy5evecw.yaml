@@ -7,13 +7,16 @@ name:
 site_type: other
 country: GRC
 location:
+  geometry: {type: Point, coordinates: [25.5875, 40.45]}
   precision: admin2
+  uncertainty_m: 7653
   method: reported
   place_name: {tr: Semadirek, en: Samothrace}
 regions: [aegean]
+wikidata: Q203175
 description:
-  tr: "Semadirek adasındaki askerî varlığın antlaşma yükümlülüğü karşısındaki durumunu izleyen kayıt. Lozan (1923) md. 12 adayı Yunan egemenliğinde sayar; askerden arındırılmış statüsü Lozan'a ek Boğazlar Sözleşmesi'nden gelir ve 1936 Montrö sonrası statüsü taraflarca tartışmalıdır. Türkiye statünün sürdüğü görüşündedir. Kayıtta koordinat ve geometri **yoktur**: bir koordinat, birincil kaynağıyla doğrulanmadan yazılmaz (ADR 0019). OpenStreetMap'te (ODbL, sorgu 2026-09-19, yalnızca Yunan toprağı) adada askerî olarak etiketlenmiş 12 nesne kayıtlı: bunker 8, barracks 1, base 1, trench 1, military 1. Bunlar doğrulanacak ipuçlarıdır: gönüllü etiketleri bir tesisin bugün faal olduğunu kanıtlamaz; İkinci Dünya Savaşı'ndan kalma mevziler de aynı etiketi taşıyabilir. Kayıt bir uyum kaydıdır; güncel hareket, personel ve zafiyet bilgisi içermez ve içermeyecektir."
-  en: "A record tracking the military presence on Samothrace against its treaty obligation. Lausanne (1923) Art. 12 confirms Greek sovereignty; the demilitarised status derives from the Straits Convention annexed to Lausanne, and what Montreux (1936) did to it is disputed between the parties. Türkiye holds that it stands. It carries **no coordinates and no geometry**: a coordinate is written when it has been verified against a primary source, not before (ADR 0019). OpenStreetMap (ODbL, queried 2026-09-19, Greek territory only) has 12 features tagged as military on the island: bunker 8, barracks 1, base 1, trench 1, military 1. These are leads to verify: a volunteer's tag does not prove a facility is in use today — Second World War positions carry the same tag. This is a compliance record: it carries no current movements, no personnel and no vulnerability assessment, and it never will."
+  tr: "Semadirek adasındaki askerî varlığın antlaşma yükümlülüğü karşısındaki durumunu izleyen kayıt. Lozan (1923) md. 12 adayı Yunan egemenliğinde sayar; askerden arındırılmış statüsü Lozan'a ek Boğazlar Sözleşmesi'nden gelir ve 1936 Montrö sonrası statüsü taraflarca tartışmalıdır. Türkiye statünün sürdüğü görüşündedir. Kayıttaki nokta **adanın kendisidir**, tesisin değil: Semadirek adasının Wikidata'daki koordinatı (`Q203175`), hata payı ±7.7 km — adanın alanına eşit dairenin yarıçapı. Tesis düzeyinde bir koordinat, açık bir kaynak verene kadar yazılmaz; ayak izi ne çıkarılır ne yayımlanır (ADR 0021). OpenStreetMap'te (ODbL, sorgu 2026-09-19, yalnızca Yunan toprağı) adada askerî olarak etiketlenmiş 12 nesne kayıtlı: bunker 8, barracks 1, base 1, trench 1, military 1. Bunlar doğrulanacak ipuçlarıdır: gönüllü etiketleri bir tesisin bugün faal olduğunu kanıtlamaz; İkinci Dünya Savaşı'ndan kalma mevziler de aynı etiketi taşıyabilir. Kayıt bir uyum kaydıdır; güncel hareket, personel ve zafiyet bilgisi içermez ve içermeyecektir."
+  en: "A record tracking the military presence on Samothrace against its treaty obligation. Lausanne (1923) Art. 12 confirms Greek sovereignty; the demilitarised status derives from the Straits Convention annexed to Lausanne, and what Montreux (1936) did to it is disputed between the parties. Türkiye holds that it stands. The point is **the island itself**, not an installation: the Wikidata coordinate for Samothrace (`Q203175`), with an uncertainty of ±7.7 km — the radius of a circle with the island's area. A coordinate at installation level is written when an open source gives one; no footprint is traced or published. OpenStreetMap (ODbL, queried 2026-09-19, Greek territory only) has 12 features tagged as military on the island: bunker 8, barracks 1, base 1, trench 1, military 1. These are leads to verify: a volunteer's tag does not prove a facility is in use today — Second World War positions carry the same tag. This is a compliance record: it carries no current movements, no personnel and no vulnerability assessment, and it never will."
 sources:
   - url: https://en.wikisource.org/wiki/Treaty_of_Lausanne/Part_I
     title: Treaty of Lausanne, Part I (Articles 12 and 13)
@@ -25,4 +28,8 @@ sources:
     title: OpenStreetMap — features tagged military on the island (Overpass query, tools/osm_military.py, 2026-09-19); © OpenStreetMap contributors, ODbL 1.0
     lang: en
     reliability: D
-tags: [ege-silahsizlandirilmis-statu, lozan-bogazlar-sozlesmesi, birincil-kaynak-bekliyor, koordinat-yok]
+  - url: https://www.wikidata.org/wiki/Q203175
+    title: "Wikidata Q203175 — Samothrace: coordinate (P625) and area (P2046), CC0"
+    lang: en
+    reliability: C
+tags: [ege-silahsizlandirilmis-statu, lozan-bogazlar-sozlesmesi, birincil-kaynak-bekliyor]

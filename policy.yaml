@@ -60,13 +60,23 @@ classification_markers:
   - NATO CONFIDENTIAL
   - NATO RESTRICTED
 
-# Kayıtları koordinatsız tutulan siciller. Bir koordinat, birincil kaynağıyla doğrulanmadan
-# yazılmaz; doğrulanmamış tek bir koordinat, gerisi sağlam olan kaydı çürütülebilir kılar
-# (handbook ADR 0019 §3). Etiketi taşıyan kayıtta `location.geometry` bulunması hatadır.
-# Registers whose records are kept without coordinates until each one is verified against a
-# primary source: a record carrying the tag must not carry `location.geometry`.
-no_coordinate_tags:
-  - ege-silahsizlandirilmis-statu
+# Koordinat, açık kaynak verdiği her yerde kaydedilir — ama asla çıplak değil. `location.geometry`
+# taşıyan her kayıt, konumu nasıl bildiğini (`method`), hangi düzeyde bildiğini (`precision`) ve ne
+# kadar yanlış olabileceğini (`uncertainty_m`) birlikte taşır; hata payı, o düzey için buradaki alt
+# sınırın altına inemez. Küçük bir hata payı, sahip olmadığımız bir kesinliğin iddiasıdır
+# (handbook ADR 0021; 0019 §3'ün yerine geçer).
+# A coordinate is recorded wherever an open source gives one, never bare: a record carrying
+# `location.geometry` also carries how it is known, at what level, and how wrong it can be, and the
+# uncertainty may not fall below the floor for that level.
+coordinate_provenance:
+  min_uncertainty_m:
+    exact: 0
+    site: 50
+    locality: 500
+    admin2: 5000
+    admin1: 25000
+    country: 100000
+    sea-area: 10000
 
 blocked_domains:
   - bit.ly
