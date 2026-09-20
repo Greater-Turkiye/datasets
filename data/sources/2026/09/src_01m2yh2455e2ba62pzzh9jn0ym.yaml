@@ -1,0 +1,13 @@
+id: src_01m2yh2455e2ba62pzzh9jn0ym
+schema: source/1
+name:
+  tr: Uluslararası Atom Enerjisi Ajansı (UAEA)
+  en: International Atomic Energy Agency (IAEA)
+url: https://www.iaea.org/
+source_type: official-government
+languages: [en]
+reliability: A
+terms: restricted
+description:
+  tr: Nükleer tesisler, denetimler ve güvenlik konularında resmî duyurular; Akkuyu ve bölgedeki nükleer programlar için birincil kaynak. Kullanım şartları sayfası bizim tanıtıcı istemcimize 403 döndüğü için şartlar doğrulanamadı (2026-09-20); bu yüzden alıntı değil, yalnızca bağlantı ve kendi özetimiz kullanılır.
+  en: Official announcements on nuclear facilities, inspections and safety; primary for Akkuyu and the region's nuclear programmes. The terms-of-use page answered 403 to our descriptive client, so the terms could not be confirmed (2026-09-20); only a link and our own summary are used, never an excerpt.

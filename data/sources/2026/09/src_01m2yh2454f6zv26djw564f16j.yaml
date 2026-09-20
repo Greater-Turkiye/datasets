@@ -1,0 +1,13 @@
+id: src_01m2yh2454f6zv26djw564f16j
+schema: source/1
+name:
+  tr: BM Basın Bülteni (UN Press)
+  en: UN Press releases and meetings coverage
+url: https://press.un.org/
+source_type: official-government
+languages: [en, fr]
+reliability: A
+terms: attribution
+description:
+  tr: Güvenlik Konseyi ve Genel Kurul oturumlarının resmî basın bültenleri ve toplantı tutanağı özetleri. Bir BM organının ne karar aldığı ve kimin ne söylediği için birincil kaynaktır.
+  en: Official press releases and meetings coverage for the Security Council and the General Assembly. Primary for what a UN organ decided and who said what.

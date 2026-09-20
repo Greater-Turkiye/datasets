@@ -1,0 +1,14 @@
+id: src_01m2yh2456em0rngwszethn9g2
+schema: source/1
+name:
+  tr: Lübnan Ordusu (resmî site)
+  en: Lebanese Armed Forces (official site)
+url: https://www.lebarmy.gov.lb/
+source_type: official-military
+country: LBN
+languages: [ar, en]
+reliability: B
+terms: attribution
+description:
+  tr: Lübnan Silahlı Kuvvetlerinin resmî duyuruları. Kullanım şartları sayfası bulunamadı (2026-09-20).
+  en: Official announcements of the Lebanese Armed Forces. No terms-of-use page was found (checked 2026-09-20).

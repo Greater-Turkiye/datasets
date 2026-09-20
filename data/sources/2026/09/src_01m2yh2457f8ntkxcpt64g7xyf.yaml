@@ -1,0 +1,14 @@
+id: src_01m2yh2457f8ntkxcpt64g7xyf
+schema: source/1
+name:
+  tr: Romanya Dışişleri Bakanlığı (resmî site)
+  en: Ministry of Foreign Affairs of Romania (official site)
+url: https://www.mae.ro/
+source_type: official-government
+country: ROU
+languages: [ro, en]
+reliability: B
+terms: attribution
+description:
+  tr: Romanya Dışişleri Bakanlığının resmî açıklamaları; Karadeniz ve NATO'nun doğu kanadı için ilgili. Kullanım şartları sayfası 503 döndüğü için şartlar doğrulanamadı (2026-09-20).
+  en: Official statements of Romania's foreign ministry, relevant to the Black Sea and NATO's eastern flank. The terms page answered 503, so the terms could not be confirmed (2026-09-20).

@@ -1,0 +1,14 @@
+id: src_01m2yh2451e85sj52c9pt9z1b7
+schema: source/1
+name:
+  tr: Rusya Devlet Başkanlığı (resmî site)
+  en: President of Russia (official site)
+url: http://en.kremlin.ru/
+source_type: official-government
+country: RUS
+languages: [ru, en]
+reliability: B
+terms: attribution
+description:
+  tr: Rusya devlet başkanlığının resmî açıklamaları ve duyuruları. Site içeriği Creative Commons Atıf 4.0 altındadır (kaynak gösterme koşuluyla sınırsız çoğaltma; 2026-09-20'de doğrulandı). Kayıtlarda iddialar daima Rus tarafına atfedilir.
+  en: Official statements and announcements of the Russian presidency. The site's content is licensed Creative Commons Attribution 4.0 — reproduction without limit, on condition of a reference to the source (checked 2026-09-20). Claims are always attributed to the Russian side.
