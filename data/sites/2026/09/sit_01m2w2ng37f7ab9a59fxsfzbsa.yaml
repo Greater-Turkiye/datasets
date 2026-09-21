@@ -20,15 +20,31 @@ sources:
   - url: https://en.wikipedia.org/wiki/Supreme_Military_Command_of_the_Interior_and_Islands
     title: Supreme Military Command of the Interior and Islands
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20251115154318/https://en.wikipedia.org/wiki/Supreme_Military_Command_of_the_Interior_and_Islands
+        captured_at: 2025-11-15T15:43:18Z
     reliability: D
   - url: https://en.wikisource.org/wiki/Treaty_of_Lausanne/Part_I
     title: Treaty of Lausanne, Part I (Articles 12 and 13)
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260608170407/https://en.wikisource.org/wiki/Treaty_of_Lausanne/Part_I
+        captured_at: 2026-06-08T17:04:07Z
   - url: https://www.mfa.gov.tr/sc_-4_-disisleri-bakanligi-sozcusu-oncu-keceli-nin-ege-adalarinin-silahsizlandirilmis-statusune-iliskin-son-donemde-yasanan-gelismeler-hk-sc.tr.mfa
     title: SC-4, 5 Mart 2026 — Dışişleri Bakanlığı Sözcüsü'nün Ege Adalarının Silahsızlandırılmış Statüsüne İlişkin Soruya Cevabı
     lang: tr
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260920031609/https://www.mfa.gov.tr/sc_-4_-disisleri-bakanligi-sozcusu-oncu-keceli-nin-ege-adalarinin-silahsizlandirilmis-statusune-iliskin-son-donemde-yasanan-gelismeler-hk-sc.tr.mfa
+        captured_at: 2026-09-20T03:16:09Z
   - url: https://www.openstreetmap.org/copyright
     title: OpenStreetMap — features tagged military on the island (Overpass query, tools/osm_military.py, 2026-09-19); © OpenStreetMap contributors, ODbL 1.0
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260920030847/https://www.openstreetmap.org/copyright
+        captured_at: 2026-09-20T03:08:47Z
     reliability: D
 tags: [ege-silahsizlandirilmis-statu, lozan-bogazlar-sozlesmesi, birincil-kaynak-bekliyor, koordinat-yok]

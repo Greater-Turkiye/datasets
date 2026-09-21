@@ -20,15 +20,31 @@ sources:
   - url: https://en.wikipedia.org/wiki/Supreme_Military_Command_of_the_Interior_and_Islands
     title: Supreme Military Command of the Interior and Islands
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20251115154318/https://en.wikipedia.org/wiki/Supreme_Military_Command_of_the_Interior_and_Islands
+        captured_at: 2025-11-15T15:43:18Z
     reliability: D
   - url: https://www.mfa.gr/archive/1/docs/diethneis_symvaseis/1947_italy_treaty.doc
     title: Treaty of Peace with Italy (1947), Article 14
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260129183026/https://www.mfa.gr/archive/1/docs/diethneis_symvaseis/1947_italy_treaty.doc
+        captured_at: 2026-01-29T18:30:26Z
   - url: https://www.mfa.gov.tr/sc_-4_-disisleri-bakanligi-sozcusu-oncu-keceli-nin-ege-adalarinin-silahsizlandirilmis-statusune-iliskin-son-donemde-yasanan-gelismeler-hk-sc.tr.mfa
     title: SC-4, 5 Mart 2026 — Dışişleri Bakanlığı Sözcüsü'nün Ege Adalarının Silahsızlandırılmış Statüsüne İlişkin Soruya Cevabı
     lang: tr
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260920031609/https://www.mfa.gov.tr/sc_-4_-disisleri-bakanligi-sozcusu-oncu-keceli-nin-ege-adalarinin-silahsizlandirilmis-statusune-iliskin-son-donemde-yasanan-gelismeler-hk-sc.tr.mfa
+        captured_at: 2026-09-20T03:16:09Z
   - url: https://www.openstreetmap.org/copyright
     title: OpenStreetMap — features tagged military on the island (Overpass query, tools/osm_military.py, 2026-09-19); © OpenStreetMap contributors, ODbL 1.0
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260920030847/https://www.openstreetmap.org/copyright
+        captured_at: 2026-09-20T03:08:47Z
     reliability: D
 tags: [ege-silahsizlandirilmis-statu, paris-md-14, birincil-kaynak-bekliyor, koordinat-yok]

@@ -10,3 +10,7 @@ wikidata: Q935464
 sources:
   - url: https://www.wikidata.org/wiki/Q935464
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20251101043620/https://www.wikidata.org/wiki/Q935464
+        captured_at: 2025-11-01T04:36:20Z

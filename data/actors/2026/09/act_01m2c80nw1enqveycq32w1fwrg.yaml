@@ -10,3 +10,7 @@ wikidata: Q770753
 sources:
   - url: https://www.wikidata.org/wiki/Q770753
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20251220221212/https://www.wikidata.org/wiki/Q770753
+        captured_at: 2025-12-20T22:12:12Z

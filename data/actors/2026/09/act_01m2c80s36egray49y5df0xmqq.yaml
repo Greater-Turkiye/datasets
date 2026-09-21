@@ -12,3 +12,7 @@ wikidata: Q462211
 sources:
   - url: https://www.wikidata.org/wiki/Q462211
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260508203509/https://www.wikidata.org/wiki/Q462211
+        captured_at: 2026-05-08T20:35:09Z

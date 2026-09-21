@@ -13,5 +13,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/9K720_Iskander
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260829113429/https://en.wikipedia.org/wiki/9K720_Iskander
+        captured_at: 2026-08-29T11:34:29Z
   - url: https://www.wikidata.org/wiki/Q483042
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260522021706/https://www.wikidata.org/wiki/Q483042
+        captured_at: 2026-05-22T02:17:06Z

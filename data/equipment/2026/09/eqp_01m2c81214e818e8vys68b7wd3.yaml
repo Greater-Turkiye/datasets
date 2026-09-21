@@ -13,5 +13,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/Amiral_Ronarc'h-class_frigate
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260816021602/https://en.wikipedia.org/wiki/Amiral_Ronarc%27h-class_frigate
+        captured_at: 2026-08-16T02:16:02Z
   - url: https://www.wikidata.org/wiki/Q20724657
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260129004420/https://www.wikidata.org/wiki/Q20724657
+        captured_at: 2026-01-29T00:44:20Z

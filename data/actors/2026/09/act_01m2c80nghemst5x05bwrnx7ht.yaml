@@ -11,3 +11,7 @@ wikidata: Q1966995
 sources:
   - url: https://www.wikidata.org/wiki/Q1966995
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20251011220409/https://www.wikidata.org/wiki/Q1966995
+        captured_at: 2025-10-11T22:04:09Z

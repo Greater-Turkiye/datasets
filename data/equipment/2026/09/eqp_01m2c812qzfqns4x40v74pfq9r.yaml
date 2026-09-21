@@ -13,5 +13,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/Kalibr_(missile_family)
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260912013303/https://en.wikipedia.org/wiki/Kalibr_(missile_family)
+        captured_at: 2026-09-12T01:33:03Z
   - url: https://www.wikidata.org/wiki/Q1333260
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260613163327/https://www.wikidata.org/wiki/Q1333260
+        captured_at: 2026-06-13T16:33:27Z

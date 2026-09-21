@@ -11,3 +11,7 @@ wikidata: Q1834601
 sources:
   - url: https://www.wikidata.org/wiki/Q1834601
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20250819153757/https://www.wikidata.org/wiki/Q1834601
+        captured_at: 2025-08-19T15:37:57Z

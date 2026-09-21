@@ -10,3 +10,7 @@ wikidata: Q849180
 sources:
   - url: https://www.wikidata.org/wiki/Q849180
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260116145615/https://www.wikidata.org/wiki/Q849180
+        captured_at: 2026-01-16T14:56:15Z

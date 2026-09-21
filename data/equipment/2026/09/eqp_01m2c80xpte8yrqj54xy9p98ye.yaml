@@ -12,5 +12,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/Leopard_2
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260911180331/https://en.wikipedia.org/wiki/Leopard_2
+        captured_at: 2026-09-11T18:03:31Z
   - url: https://www.wikidata.org/wiki/Q151968
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260218121115/https://www.wikidata.org/wiki/Q151968
+        captured_at: 2026-02-18T12:11:15Z

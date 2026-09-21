@@ -22,13 +22,25 @@ sources:
     title: 18 Eylül 2026 tarihli Resmî Gazete (11799 sayılı Cumhurbaşkanı Kararı)
     published_at: 2026-09-18T00:00Z
     lang: tr
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260920031216/https://www.resmigazete.gov.tr/18.09.2026
+        captured_at: 2026-09-20T03:12:16Z
   - url: https://www.gercekgundem.com/guncel/resmi-gazetede-yayimlandi-turkiye-ve-brezilya-savunma-sanayisinde-guclerini-birlestiriyor-578861
     title: "Resmi Gazete'de Yayımlandı: Türkiye ve Brezilya Savunma Sanayisinde Güçlerini Birleştiriyor"
     lang: tr
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260918074639/https://www.gercekgundem.com/guncel/resmi-gazetede-yayimlandi-turkiye-ve-brezilya-savunma-sanayisinde-guclerini-birlestiriyor-578861
+        captured_at: 2026-09-18T07:46:39Z
     reliability: D
   - url: https://www.politikam.com/18-eylul-2026-resmi-gazete-kararlari
     title: 18 Eylül Resmî Gazete yayımlandı — kararlar
     lang: tr
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260920031251/https://www.politikam.com/18-eylul-2026-resmi-gazete-kararlari
+        captured_at: 2026-09-20T03:12:51Z
     reliability: D
 assessment:
   status: unverified

@@ -12,3 +12,7 @@ wikidata: Q4410582
 sources:
   - url: https://www.wikidata.org/wiki/Q4410582
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260311173049/https://www.wikidata.org/wiki/Q4410582
+        captured_at: 2026-03-11T17:30:49Z

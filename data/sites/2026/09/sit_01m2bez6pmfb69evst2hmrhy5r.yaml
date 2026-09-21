@@ -21,3 +21,7 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/Souda_Bay
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260913174646/https://en.wikipedia.org/wiki/Souda_Bay
+        captured_at: 2026-09-13T17:46:46Z

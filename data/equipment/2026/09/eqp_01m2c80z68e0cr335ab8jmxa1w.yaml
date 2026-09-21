@@ -13,5 +13,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/MIM-104_Patriot
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260917190917/https://en.wikipedia.org/wiki/MIM-104_Patriot
+        captured_at: 2026-09-17T19:09:17Z
   - url: https://www.wikidata.org/wiki/Q339025
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260827194538/https://www.wikidata.org/wiki/Q339025
+        captured_at: 2026-08-27T19:45:38Z

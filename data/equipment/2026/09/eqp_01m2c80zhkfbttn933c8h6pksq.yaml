@@ -13,5 +13,13 @@ description:
 sources:
   - url: https://en.wikipedia.org/wiki/S-400_missile_system
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260823160226/https://en.wikipedia.org/wiki/S-400_missile_system
+        captured_at: 2026-08-23T16:02:26Z
   - url: https://www.wikidata.org/wiki/Q861006
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260918115215/https://www.wikidata.org/wiki/Q861006
+        captured_at: 2026-09-18T11:52:15Z

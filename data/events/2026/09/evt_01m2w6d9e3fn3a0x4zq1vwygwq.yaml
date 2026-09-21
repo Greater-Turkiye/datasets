@@ -22,10 +22,18 @@ sources:
     title: Houthi Advance towards Key Red Sea Chokepoint Raises Risk of Wider Conflict, Assistant Secretary-General Warns Security Council (SC/16453, 10222nd Meeting)
     published_at: 2026-09-15T00:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260920031332/https://press.un.org/en/2026/sc16453.doc.htm
+        captured_at: 2026-09-20T03:13:32Z
   - url: https://news.un.org/feed/view/en/story/2026/09/1168343
     title: "Security Council LIVE: Rising violence triggers emergency meeting on Yemen"
     published_at: 2026-09-15T00:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260920031508/https://news.un.org/feed/view/en/story/2026/09/1168343
+        captured_at: 2026-09-20T03:15:08Z
     reliability: B
 assessment:
   status: unverified

@@ -22,6 +22,10 @@ sources:
     title: Security Council Fails to Renew Iran Sanctions Panel amid Dispute over 'Snapback' (SC/16455, 10224th Meeting)
     published_at: 2026-09-17T00:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260919064447/https://press.un.org/en/2026/sc16455.doc.htm
+        captured_at: 2026-09-19T06:44:47Z
 assessment:
   status: unverified
   credibility: 2

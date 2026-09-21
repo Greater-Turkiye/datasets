@@ -33,7 +33,10 @@ sources:
     url: https://caspianpost.com/kazakhstan/kazakhstan-launches-nationwide-troop-deployment-for-military-drills
     title: Kazakhstan Launches Nationwide Troop Deployment for Military Drills
     lang: en
-    archives: []
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260913142634/https://caspianpost.com/kazakhstan/kazakhstan-launches-nationwide-troop-deployment-for-military-drills
+        captured_at: 2026-09-13T14:26:34Z
 assessment:
   status: unverified
   credibility: 2
