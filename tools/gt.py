@@ -332,7 +332,7 @@ class Checker:
         self.check_citations(rec)
         self.check_i18n(rec)
         self.check_coordinates(rec, rec.data)
-        self.check_no_coordinate_tags(rec)
+        self.check_coordinate_provenance(rec)
 
     # vocab / references
 
@@ -391,16 +391,31 @@ class Checker:
             if len(des["by"]) == 3:
                 self.code(rec, "countries", des["by"], f"designations/{i}/by")
 
-    def check_no_coordinate_tags(self, rec):
-        """A register kept deliberately without coordinates stays that way (ADR 0019 §3)."""
-        tags = set(rec.data.get("tags", []))
-        held = tags & set(self.policy.get("no_coordinate_tags", []))
-        if held and (rec.data.get("location") or {}).get("geometry"):
-            self.report.error(
-                rec.path,
-                f"location/geometry: records tagged {', '.join(sorted(held))} carry no coordinates "
-                "until each one is verified against a primary source (policy.yaml no_coordinate_tags)",
+    def check_coordinate_provenance(self, rec):
+        """A coordinate may be published; a coordinate without its provenance may not (ADR 0021).
+
+        The schema already requires `precision` and `method` on any location. What it cannot express
+        is the part that matters: a record that puts a point on the map must also say how wrong the
+        point can be, and that figure has to be at least as large as the level of detail allows. A
+        small `uncertainty_m` under a coarse `precision` claims a sharpness nobody has."""
+        loc = rec.data.get("location") or {}
+        if not loc.get("geometry"):
+            return
+        rules = self.policy.get("coordinate_provenance", {})
+        floors = rules.get("min_uncertainty_m", {})
+        err = lambda msg: self.report.error(rec.path, f"location: {msg} (ADR 0021)")
+        if "uncertainty_m" not in loc:
+            err("a record with coordinates needs uncertainty_m: how wrong the point can be, in metres")
+            return
+        precision = loc.get("precision")
+        floor = floors.get(precision)
+        if floor is not None and loc["uncertainty_m"] < floor:
+            err(
+                f"uncertainty_m {loc['uncertainty_m']} is below the floor for precision "
+                f"{precision!r} ({floor} m): say what the source supports, not more"
             )
+        if not rec.data.get("sources"):
+            err("a coordinate needs the source that published it")
 
     def check_site(self, rec):
         d = rec.data

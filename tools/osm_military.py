@@ -15,9 +15,12 @@ records that quote it say so.
 the Turkish coast in several of these straits and a Turkish military feature must never be counted
 here, whoever mapped it.
 
-**No coordinates.** The output is counts and names only. A coordinate belongs in a record when it
-has been verified against a primary source, not before (ADR 0019 §3), and an unverified one would
-discredit a record whose other fields are sound.
+**Coordinates, with their uncertainty.** Each feature is printed with the centre of what the mapper
+drew and with half the diagonal of its bounding box in metres: the feature is somewhere inside that
+box, and the figure says how much "somewhere" is. A record that uses one of these points cites
+OpenStreetMap as the source that published it and carries the same uncertainty (ADR 0021). What is
+never done is sharpening: we do not trace a footprint, and we do not report a point more precisely
+than the mapper drew it.
 
     python tools/osm_military.py                  # every island in ISLANDS
     python tools/osm_military.py rhodes kos       # only these
@@ -31,6 +34,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import sys
 import time
 import urllib.error
@@ -39,7 +43,7 @@ from collections import Counter
 
 OVERPASS = "https://overpass-api.de/api/interpreter"
 USER_AGENT = "GreaterTurkiye-OSINT/0.1 (+https://github.com/Greater-Turkiye)"
-PAUSE_S = 12  # Overpass is a shared free service; a dozen seconds between queries keeps us welcome
+PAUSE_S = 25  # Overpass is a shared free service and answers 429 when pushed; this keeps us welcome
 
 # south, west, north, east — generous enough to include an island's offshore islets
 ISLANDS: dict[str, tuple[str, tuple[float, float, float, float]]] = {
@@ -67,15 +71,40 @@ area["ISO3166-1"="GR"][admin_level=2]->.gr;
   relation["military"](area.gr)({bbox});
   node["military"](area.gr)({bbox});
 );
-out tags 500;
+out tags bb 500;
 """
 
 
 def fetch(bbox: tuple[float, float, float, float]) -> list[dict]:
     body = QUERY.format(bbox=",".join(str(v) for v in bbox)).encode("utf-8")
     req = urllib.request.Request(OVERPASS, data=body, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=180) as r:  # noqa: S310 - fixed https endpoint
+    with urllib.request.urlopen(req, timeout=180) as r:
         return json.loads(r.read().decode("utf-8"))["elements"]
+
+
+def place_of(e: dict) -> dict | None:
+    """The centre of what the mapper drew, and how large the thing around it is.
+
+    `uncertainty_m` is half the diagonal of the element's bounding box, rounded up to the floor the
+    policy sets for `locality` precision. It is deliberately generous: the point is the middle of an
+    area somebody drew, not a surveyed position, and claiming metres we do not have is the one way a
+    sourced coordinate can still mislead."""
+    bounds = e.get("bounds")
+    if bounds:  # a way or a relation: the middle of the box the mapper drew, and half its diagonal
+        centre = {"lat": (bounds["minlat"] + bounds["maxlat"]) / 2, "lon": (bounds["minlon"] + bounds["maxlon"]) / 2}
+        dlat = bounds["maxlat"] - bounds["minlat"]
+        dlon = (bounds["maxlon"] - bounds["minlon"]) * math.cos(math.radians(centre["lat"]))
+        half_diagonal = math.hypot(dlat, dlon) * 111_320 / 2
+    elif e.get("lat") is not None:  # a node: one point, and the floor below carries the uncertainty
+        centre, half_diagonal = {"lat": e["lat"], "lon": e["lon"]}, 0.0
+    else:
+        return None
+    return {
+        "lon": round(centre["lon"], 5),
+        "lat": round(centre["lat"], 5),
+        "uncertainty_m": max(500, int(math.ceil(half_diagonal / 50) * 50)),
+        "osm": f"{e['type']}/{e['id']}",
+    }
 
 
 def summarise(elements: list[dict]) -> dict:
@@ -87,7 +116,7 @@ def summarise(elements: list[dict]) -> dict:
         kinds[kind] += 1
         name = tags.get("name") or tags.get("name:en") or tags.get("name:el")
         if name:
-            named.append({"name": name, "kind": kind, "operator": tags.get("operator")})
+            named.append({"name": name, "kind": kind, "operator": tags.get("operator"), **(place_of(e) or {})})
     named.sort(key=lambda n: (n["kind"], n["name"]))
     return {"total": len(elements), "by_kind": dict(kinds.most_common()), "named": named}
 
@@ -121,7 +150,8 @@ def main(argv: list[str]) -> int:
             print(f"{label}: {s['total']} features — {kinds}")
             for n in s["named"]:
                 op = f" · {n['operator']}" if n["operator"] else ""
-                print(f"    {n['kind']:12} {n['name']}{op}")
+                where = f"  {n['lat']:.5f},{n['lon']:.5f} ±{n['uncertainty_m']}m  {n['osm']}" if "lat" in n else ""
+                print(f"    {n['kind']:12} {n['name']}{op}{where}")
     if args.json:
         print(json.dumps(out, ensure_ascii=False, indent=2))
     return 0

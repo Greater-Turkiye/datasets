@@ -7,13 +7,16 @@ name:
 site_type: other
 country: GRC
 location:
+  geometry: {type: Point, coordinates: [26.16667, 37.58333]}
   precision: admin2
+  uncertainty_m: 9015
   method: reported
   place_name: {tr: Ahikerya, en: Ikaria}
 regions: [aegean]
+wikidata: Q209576
 description:
-  tr: "Ahikerya adasındaki askerî varlığın antlaşma yükümlülüğü karşısındaki durumunu izleyen kayıt. Lozan Barış Antlaşması (1923) md. 13: adada deniz üssü ve istihkâm kurulamaz; Yunan kuvvetleri \"normal contingent called up for military service\" ile sınırlıdır. Kayıtta koordinat ve geometri **yoktur**: bir koordinat, birincil kaynağıyla doğrulanmadan yazılmaz (ADR 0019). OpenStreetMap'te (sorgu 2026-09-19, yalnızca Yunan toprağı) adada askerî olarak etiketlenmiş hiçbir nesne yok. Bu, adada askerî varlık olmadığı anlamına gelmez; yalnızca açık haritada kayıt bulunmadığını gösterir. Kayıt bir uyum kaydıdır; güncel hareket, personel ve zafiyet bilgisi içermez ve içermeyecektir."
-  en: "A record tracking the military presence on Ikaria against its treaty obligation. Treaty of Lausanne (1923) Art. 13: no naval base and no fortification may be established on the island, and Greek forces there are limited to the \"normal contingent called up for military service\". It carries **no coordinates and no geometry**: a coordinate is written when it has been verified against a primary source, not before (ADR 0019). OpenStreetMap (queried 2026-09-19, Greek territory only) has nothing tagged as military on the island. That is not evidence of absence: it only says the open map holds no record. This is a compliance record: it carries no current movements, no personnel and no vulnerability assessment, and it never will."
+  tr: "Ahikerya adasındaki askerî varlığın antlaşma yükümlülüğü karşısındaki durumunu izleyen kayıt. Lozan Barış Antlaşması (1923) md. 13: adada deniz üssü ve istihkâm kurulamaz; Yunan kuvvetleri \"normal contingent called up for military service\" ile sınırlıdır. Kayıttaki nokta **adanın kendisidir**, tesisin değil: Ahikerya adasının Wikidata'daki koordinatı (`Q209576`), hata payı ±9 km — adanın alanına eşit dairenin yarıçapı. Tesis düzeyinde bir koordinat, açık bir kaynak verene kadar yazılmaz; ayak izi ne çıkarılır ne yayımlanır (ADR 0021). OpenStreetMap'te (sorgu 2026-09-19, yalnızca Yunan toprağı) adada askerî olarak etiketlenmiş hiçbir nesne yok. Bu, adada askerî varlık olmadığı anlamına gelmez; yalnızca açık haritada kayıt bulunmadığını gösterir. Kayıt bir uyum kaydıdır; güncel hareket, personel ve zafiyet bilgisi içermez ve içermeyecektir."
+  en: "A record tracking the military presence on Ikaria against its treaty obligation. Treaty of Lausanne (1923) Art. 13: no naval base and no fortification may be established on the island, and Greek forces there are limited to the \"normal contingent called up for military service\". The point is **the island itself**, not an installation: the Wikidata coordinate for Ikaria (`Q209576`), with an uncertainty of ±9 km — the radius of a circle with the island's area. A coordinate at installation level is written when an open source gives one; no footprint is traced or published. OpenStreetMap (queried 2026-09-19, Greek territory only) has nothing tagged as military on the island. That is not evidence of absence: it only says the open map holds no record. This is a compliance record: it carries no current movements, no personnel and no vulnerability assessment, and it never will."
 sources:
   - url: https://en.wikisource.org/wiki/Treaty_of_Lausanne/Part_I
     title: Treaty of Lausanne, Part I (Articles 12 and 13)
@@ -37,4 +40,8 @@ sources:
         url: https://web.archive.org/web/20260920030847/https://www.openstreetmap.org/copyright
         captured_at: 2026-09-20T03:08:47Z
     reliability: D
-tags: [ege-silahsizlandirilmis-statu, lozan-md-13, birincil-kaynak-bekliyor, koordinat-yok]
+  - url: https://www.wikidata.org/wiki/Q209576
+    title: "Wikidata Q209576 — Ikaria: coordinate (P625) and area (P2046), CC0"
+    lang: en
+    reliability: C
+tags: [ege-silahsizlandirilmis-statu, lozan-md-13, birincil-kaynak-bekliyor]
