@@ -1,0 +1,13 @@
+id: src_01m2yh2453f48a5kyphajfwmp1
+schema: source/1
+name:
+  tr: BM Haber Merkezi (UN News)
+  en: UN News
+url: https://news.un.org/
+source_type: official-government
+languages: [en, ar, ru, fr, es, zh]
+reliability: B
+terms: attribution
+description:
+  tr: Birleşmiş Milletler'in kendi haber servisi. BM telif sayfası, haber niteliğindeki malzemenin kaynak gösterilerek kullanılabileceğini söyler (2026-09-20). Kurumun kendi açıklamaları için birincil, üçüncü taraf iddiaları için aktarıcı kaynaktır.
+  en: The United Nations' own news service. The UN copyright page allows news-related material to be used with appropriate credit (checked 2026-09-20). Primary for the organisation's own statements, a relay for third-party claims.
