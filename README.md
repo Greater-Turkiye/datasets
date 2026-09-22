@@ -166,3 +166,30 @@ Veri, sözlük ve şemalar **CC BY 4.0** ([LICENSE-DATA](LICENSE-DATA)); kod **M
 
 Yapay zeka araclari ve yeni katkicilar icin kisa calisma kurallari: [CLAUDE.md](CLAUDE.md). Bu kurallarin ilki, her degisiklikte README dosyasini ayni PR icinde guncel tutmaktir.
 Short working rules for AI agents and new contributors: [CLAUDE.md](CLAUDE.md). The first of them is keeping the README true in the same pull request as the change.
+
+### Kaynak arşivi, ayda bir / monthly source archiving
+
+`.github/workflows/archive-sources.yml`, her ayın 8'inde `tools/archive.py`'yi çalıştırır: kopyası
+olmayan her kaynağı Internet Archive'a kaydeder, kaydedemediklerini tek bir issue'da bildirir ve
+hepsi kopyalandığında o issue'yu kendisi kapatır.
+
+Bir kayıt, arkasındaki belge kadar iyidir ve belgeler taşınır — bakanlıklar sitelerini yeniden
+düzenler, gazeteler arşiv numaralarını değiştirir, bir açıklama kaldırılır. Proje zaten her kaynağın
+yanına arşiv bağlantısı yazıyor; bu iş akışı o sözü birinin hatırlamasına değil takvime bağlar.
+
+İki depo sırrı ister (https://archive.org/account/s3.php):
+
+| sır | ne için |
+|---|---|
+| `IA_ACCESS_KEY` | yeni kopya almak |
+| `IA_SECRET_KEY` | aynısı |
+
+**Sırlar tanımlı değilse akış yine çalışır** ve yine rapor eder; sadece yeni kopya alamaz ve bunu
+açıkça söyler. Bir sırrın yokluğu yüzünden kırmızıya dönen iş akışı, insanlara kırmızıyı görmezden
+gelmeyi öğretir.
+
+Depoya hiçbir şey yazmaz. Bir kaynağın gerçekten öldüğüne karar vermek bir yargıdır (ADR 0007), bu
+yüzden sessizce düşürülmez, issue'da bildirilir.
+
+Runs monthly. Without the two Internet Archive secrets it still reports and simply cannot capture,
+and says so. It writes nothing to the repository: deciding that a source has died is a judgement.

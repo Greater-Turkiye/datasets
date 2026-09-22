@@ -1,0 +1,130 @@
+name: archive-sources
+
+# Give every cited source a permanent copy, and keep those copies from going stale.
+#
+# A record here is only as good as the document behind it, and documents move. Ministries
+# reorganise their sites, gazettes renumber their archives, a statement is taken down. The project
+# already writes an archive link beside every source; this keeps that promise on a schedule instead
+# of whenever somebody remembers.
+#
+# It needs an Internet Archive account, because anonymous Save Page Now now answers 500. Two
+# repository secrets, from https://archive.org/account/s3.php:
+#
+#     IA_ACCESS_KEY
+#     IA_SECRET_KEY
+#
+# Without them the job still runs and still reports — it just cannot capture anything new, and says
+# so. That is deliberate: the check is worth having even when the capturing is not available, and a
+# workflow that fails because a secret is absent teaches people to ignore red marks.
+#
+# Nothing here writes to the repository. New captures go to archive.org and the report goes to an
+# issue, because deciding that a source has genuinely died is a judgement (ADR 0007).
+on:
+  schedule:
+    - cron: "29 3 8 * *" # the 8th of each month, 03:29 UTC — off the hour
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: List what is missing and capture nothing
+        type: boolean
+        default: false
+
+permissions: {}
+
+concurrency:
+  group: archive-sources
+  cancel-in-progress: false
+
+env:
+  TITLE: "Arşivsiz ya da bayat kaynaklar / sources with no archive copy"
+  LABEL: arsiv
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
+      IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+
+      - name: Say whether capturing is possible at all
+        id: creds
+        run: |
+          set -euo pipefail
+          if [ -n "${IA_ACCESS_KEY:-}" ] && [ -n "${IA_SECRET_KEY:-}" ]; then
+            echo "have=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::Internet Archive credentials present; new captures can be made"
+          else
+            echo "have=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::no IA_ACCESS_KEY/IA_SECRET_KEY: this run can only report what is already archived"
+          fi
+
+      - name: Archive what has no copy
+        id: run
+        run: |
+          set +e
+          extra=""
+          if [ "${{ inputs.dry_run }}" = "true" ] || [ "${{ steps.creds.outputs.have }}" != "true" ]; then
+            extra="--dry-run"
+          fi
+          python tools/archive.py $extra 2>&1 | tee "$RUNNER_TEMP/report.txt"
+          echo "failed=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+          {
+            echo '```'
+            tail -n 60 "$RUNNER_TEMP/report.txt"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Find the open report, if there is one
+        id: existing
+        run: |
+          set -euo pipefail
+          number=$(gh issue list -R "$GITHUB_REPOSITORY" --state open --label "$LABEL" --json number,title \
+                   | python3 -c 'import json,os,sys; t=os.environ["TITLE"]; print(next((str(i["number"]) for i in json.load(sys.stdin) if i["title"] == t), ""))')
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+
+      - name: Say what could not be archived
+        if: steps.run.outputs.failed != '0'
+        run: |
+          set -euo pipefail
+          {
+            if [ "${{ steps.creds.outputs.have }}" != "true" ]; then
+              echo "> **Bu koşu yeni kopya alamadı**: \`IA_ACCESS_KEY\` / \`IA_SECRET_KEY\` tanımlı değil."
+              echo "> **This run could capture nothing**: the Internet Archive secrets are not set."
+              echo
+            fi
+            echo "Bazı kaynakların arşiv kopyası yok ya da alınamadı. Bir kaynağın gerçekten"
+            echo "öldüğüne karar vermek bir yargıdır; bu yüzden burada rapor edilir, sessizce"
+            echo "düşürülmez."
+            echo
+            echo "Some sources have no archive copy, or one could not be taken. Deciding that a"
+            echo "source has genuinely died is a judgement, so it is reported here rather than"
+            echo "quietly dropped."
+            echo
+            echo '```'
+            tail -n 60 "$RUNNER_TEMP/report.txt"
+            echo '```'
+            echo
+            echo "Koşu / run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          } > "$RUNNER_TEMP/issue.md"
+          gh label create "$LABEL" --description "Kaynak arşivi" --color 5319E7 2>/dev/null || true
+          if [ -n "${{ steps.existing.outputs.number }}" ]; then
+            gh issue comment "${{ steps.existing.outputs.number }}" -R "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/issue.md"
+          else
+            gh issue create -R "$GITHUB_REPOSITORY" --title "$TITLE" --label "$LABEL" --body-file "$RUNNER_TEMP/issue.md"
+          fi
+
+      - name: Close it when everything has a copy again
+        if: steps.run.outputs.failed == '0' && steps.existing.outputs.number != ''
+        run: gh issue close "${{ steps.existing.outputs.number }}" -R "$GITHUB_REPOSITORY" --comment "Her kaynağın arşiv kopyası var; kapatılıyor. / Every source has an archive copy; closing."
