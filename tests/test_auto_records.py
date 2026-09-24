@@ -136,3 +136,29 @@ def test_opinion_headlines_are_analysis():
     c = AR.candidates(batch(row("Kosovo Verdict Reflects West's Strategic Priorities", "https://e.org/x",
                                 region="balkans")))[0]
     assert AR.refused(c) == "analysis, not an occurrence"
+
+
+def test_a_town_in_the_headline_places_the_event_at_city_scale():
+    c = AR.candidates(batch(row("Russia strikes Kramatorsk with Uragan MLRS, injuring nine", "https://e.org/k")))[0]
+    loc = AR.locate(c)
+    assert loc["place_name"]["en"] == "Kramatorsk" and loc["precision"] == "locality"
+    assert loc["method"] == "inferred" and loc["uncertainty_m"] == 20_000
+
+
+def test_a_province_is_placed_at_province_scale():
+    c = AR.candidates(batch(row("Russian attack hits shopping center in Odesa region", "https://e.org/o")))[0]
+    loc = AR.locate(c)
+    assert loc["precision"] == "admin1" and loc["uncertainty_m"] == 100_000
+    assert loc["place_name"]["en"].endswith(" region")
+
+
+def test_a_person_named_like_a_town_is_not_placed_there():
+    c = AR.candidates(batch(row("Telephone conversation with President of Turkmenistan Serdar Berdimuhamedov",
+                                "https://e.org/t", region="central-asia")))[0]
+    assert AR.locate(c) is None
+
+
+def test_no_place_in_turkiye_is_in_the_gazetteer():
+    import json
+    places = json.loads(AR.PLACES_FILE.read_text(encoding="utf-8"))["places"]
+    assert places and not any(p["a"] == "TUR" for p in places)
