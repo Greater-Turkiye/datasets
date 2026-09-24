@@ -1,8 +1,10 @@
 name: auto-records
 
-# Turns the collector's relevant candidates into unverified event records and commits them to main
-# (handbook ADR 0023). Every record says it is automatic and unverified; nothing about Turkish forces
-# goes this way; every file passes `gt.py validate` and `fmt --check` before it is committed.
+# Turns the collector's relevant candidates into unverified event records and commits them to the
+# `auto-data` branch (handbook ADR 0023). `main` stays the human-reviewed record; the Pages build lays
+# the automatic records over it, so the site shows both and says which is which. Every record says it
+# is automatic and unverified; nothing about Turkish forces goes this way; every file passes
+# `gt.py validate` and `fmt --check` before it is committed.
 #
 # Kill switch: the repository variable AUTO_RECORDS must be `on`. Set it to `off` and this writes
 # nothing (Settings -> Secrets and variables -> Actions -> Variables, or
@@ -20,7 +22,7 @@ on:
         type: string
 
 permissions:
-  contents: write   # commit the records to main (ruleset bypass for GitHub Actions, ADR 0023)
+  contents: write   # commit the records to the auto-data branch (main is protected and stays human-reviewed)
   models: read      # GitHub Models writes the titles and summaries
   actions: write    # start the Pages build: pushes made with GITHUB_TOKEN do not trigger it
 
@@ -37,6 +39,18 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: main
+          fetch-depth: 0
+      - name: Check out auto-data, up to date with main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch -q origin auto-data; then
+            git checkout -q -B auto-data FETCH_HEAD
+            # main wins: a record a person has since moved to main and edited keeps the person's version
+            git merge -q --no-edit -X theirs origin/main
+          else
+            git checkout -q -B auto-data
+          fi
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.13"
@@ -60,10 +74,8 @@ jobs:
             exit 0
           fi
           n=$(git diff --cached --name-only --diff-filter=A | wc -l)
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -q -m "Automatic records: $n unverified events from the collector (ADR 0023)"
-          git push origin HEAD:main
+          git push -q origin auto-data
           echo "changed=true" >> "$GITHUB_OUTPUT"
       - name: Rebuild the site data
         if: steps.commit.outputs.changed == 'true'
