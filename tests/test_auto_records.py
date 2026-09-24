@@ -123,3 +123,16 @@ def test_the_note_carries_no_long_digit_runs_the_policy_would_flag():
     t = {"tr": "a", "en": "a", "i18n": {"source": "en", "machine": ["tr"]}}
     note = AR.record(cl[0], t, set())["assessment"]["note"]
     assert not re.search(r"\d{8,}", note["tr"] + note["en"])
+
+
+def test_a_named_casualty_waits_for_a_person():
+    for title in ("Ministry of Defence confirms the death of Major Paul Wilks",
+                  "Tribute to Sergeant Jane Doe, killed in a training accident"):
+        c = AR.candidates(batch(row(title, "https://e.org/x")))[0]
+        assert AR.refused(c) == "names a casualty", title
+
+
+def test_opinion_headlines_are_analysis():
+    c = AR.candidates(batch(row("Kosovo Verdict Reflects West's Strategic Priorities", "https://e.org/x",
+                                region="balkans")))[0]
+    assert AR.refused(c) == "analysis, not an occurrence"

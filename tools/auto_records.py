@@ -71,9 +71,17 @@ TUR_FORCES = re.compile(
 ANALYSIS_FEEDS = frozenset({"rss-usa-atlanticcouncil"})
 NOT_AN_EVENT = re.compile(
     r"\?\s*$|\b(podcast|digest|live blog|newsletter|explainer|analysis|opinion|interview|weekly|"
-    r"quoted|cited|comments on|in the news|trial stories|questions|brace[sd]? for|"
+    r"quoted|cited|comments on|in the news|trial stories|questions|brace[sd]? for|reflects|stirs|lessons|"
     r"what .{0,40} means|how .{0,40} could|why .{0,40} (is|are))\b",
     re.IGNORECASE,
+)
+# A person named in a death or injury notice is personal data even when a ministry published it; the
+# record can wait for someone to decide whether the name belongs in it.
+NAMED_CASUALTY = re.compile(
+    r"(death|died|dies|killed|funeral|tribute).{0,60}(major|captain|lieutenant|sergeant|corporal|"
+    r"private|lance|colonel|commander|officer|soldier|sailor|airman|marine|gunner|trooper)\s+[A-Z][a-z]+|"
+    r"(major|captain|lieutenant|sergeant|corporal|private|lance|colonel|commander|gunner|trooper)\s+"
+    r"[A-Z][a-z]+\s+[A-Z][a-z]+.{0,60}(death|died|dies|killed|funeral|tribute)",
 )
 STOP = set("""a an and the of in on at to for by with from as is are was were be been has have had after
 before over into about amid its it this that these those new says said say will would could
@@ -192,6 +200,8 @@ def refused(c: Candidate) -> str | None:
         return "mentions Turkish forces"
     if c.reliability and c.reliability > "D":
         return f"source graded {c.reliability}"
+    if NAMED_CASUALTY.search(c.title):
+        return "names a casualty"
     if c.feed in ANALYSIS_FEEDS or NOT_AN_EVENT.search(c.title):
         return "analysis, not an occurrence"
     return None
