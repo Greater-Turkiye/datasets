@@ -65,50 +65,61 @@ def test_repeat_reports_of_one_event_cluster_into_one():
     assert [len(c.items) for c in clusters] == [2, 1]
 
 
-def stub(is_event=True, region="black-sea"):
-    def fake(url, token=None, data=None, timeout=90):
-        import re
-        ns = re.findall(r'<item n="(\d+)">', data["messages"][1]["content"])
-        items = [{"i": int(n), "is_event": is_event, "dup_of": None, "event_type": "maritime.incident",
-                  "region": region, "title_tr": "Karadeniz'de bir yük gemisine saldırı bildirildi",
-                  "title_en": "Attack on a cargo ship reported in the Black Sea",
-                  "summary_tr": "Ukrinform'a göre gemi saldırıya uğradı.",
-                  "summary_en": "According to Ukrinform, the ship was attacked."} for n in ns]
-        return {"choices": [{"message": {"content": json.dumps({"items": items})}}]}
-    return fake
+def fake_translate(url, token=None, timeout=90):
+    return {"responseStatus": 200, "quotaFinished": False, "responseData": {"translatedText": "Çevrilmiş başlık"}}
 
 
-def test_model_output_becomes_a_record_that_says_what_it_is():
-    cl = AR.cluster(AR.candidates(batch(row("Cargo ship attacked", "https://e.org/s"))))
-    AR.http_json = stub()
+def test_a_record_says_what_it_is():
+    AR.http_json = fake_translate
     AR.PAUSE = 0
-    texts = AR.write_text(cl, "t", AR.vocab_codes())
-    rec = AR.record(cl[0], texts[0], set(AR.vocab_codes()))
+    cl = AR.cluster(AR.candidates(batch(row("Cargo ship attacked in Black Sea, captain killed", "https://e.org/s"))))
+    rec = AR.record(cl[0], AR.titles(cl[0]), set(AR.vocab_codes()))
     assert rec["assessment"]["status"] == "unverified" and rec["assessment"]["credibility"] == 6
     assert rec["event_type"] == "maritime.incident" and rec["regions"] == ["black-sea"]
-    assert rec["tags"] == ["otomatik"] and rec["i18n"]["machine"] == ["tr", "en"]
-    assert "ADR 0023" in rec["assessment"]["note"]["tr"]
+    assert rec["title"] == {"tr": "Çevrilmiş başlık", "en": "Cargo ship attacked in Black Sea, captain killed"}
+    assert rec["i18n"] == {"source": "en", "machine": ["tr"]}
+    assert rec["tags"] == ["otomatik"] and "ADR 0023" in rec["assessment"]["note"]["tr"]
+    assert "summary" not in rec  # the excerpt is the source's text, not ours
 
 
-def test_non_events_and_out_of_area_items_are_not_recorded():
-    cl = AR.cluster(AR.candidates(batch(row("Podcast: the Iran war", "https://e.org/p"))))
-    for kwargs in ({"is_event": False}, {"region": "none"}):
-        AR.http_json = stub(**kwargs)
-        texts = AR.write_text(cl, "t", AR.vocab_codes())
-        assert AR.record(cl[0], texts[0], set(AR.vocab_codes())) is None
-
-
-def test_an_invented_code_falls_back_to_the_collector_topic():
+def test_a_quota_stops_translation_instead_of_writing_a_wrong_language():
+    AR.http_json = lambda url, token=None, timeout=90: {"responseStatus": 429, "quotaFinished": True}
     cl = AR.cluster(AR.candidates(batch(row("Cargo ship attacked", "https://e.org/s"))))
-    text = {"is_event": True, "event_type": "kinetic.invented", "region": "atlantis", "title_tr": "a",
-            "title_en": "a", "summary_tr": "a", "summary_en": "a"}
-    rec = AR.record(cl[0], text, set(AR.vocab_codes()))
-    assert rec["event_type"] == "kinetic.drone-strike" and rec["regions"] == ["black-sea"]
+    try:
+        AR.titles(cl[0])
+    except AR.TranslationUnavailable:
+        pass
+    else:
+        raise AssertionError("expected TranslationUnavailable")
+
+
+def test_the_headline_decides_the_type_before_the_keyword_match():
+    codes = set(AR.vocab_codes())
+    kinds = {
+        "G7 Statement on Bab al-Mandab and Navigational Rights": "diplomatic.statement",
+        "Croatia Buys South Korean Rocket Launchers": "procurement.contract",
+        "Telephone conversation with President of Kazakhstan": "diplomatic.talks",
+        "Hague Court Convicts Kosovo Liberation Army Leaders": "other",
+        "Russia strikes Kramatorsk with Uragan MLRS, injuring nine": "kinetic.shelling",
+        "Russians drop guided glide bombs on Sumy": "kinetic.airstrike",
+    }
+    for title, want in kinds.items():
+        c = AR.candidates(batch(row(title, "https://e.org/x", topics=("kinetic.attack",))))[0]
+        assert AR.classify(c, codes) == want, title
+
+
+def test_analysis_is_not_recorded():
+    for title, feed in (("Could the GCC and Iran solve the Strait of Hormuz crisis?", "rss-x"),
+                        ("Democracy Digest: Hungary opens a debate", "rss-x"),
+                        ("Strait talk podcast: Yemen and the Iran war", "rss-x"),
+                        ("Russia's bombing campaign is terrorizing schoolchildren", "rss-usa-atlanticcouncil")):
+        c = AR.candidates(batch(row(title, "https://e.org/x", feed=feed)))[0]
+        assert AR.refused(c) == "analysis, not an occurrence", title
 
 
 def test_the_note_carries_no_long_digit_runs_the_policy_would_flag():
-    cl = AR.cluster(AR.candidates(batch(row("Cargo ship attacked", "https://e.org/s"))))
-    text = {"is_event": True, "title_tr": "a", "title_en": "a", "summary_tr": "a", "summary_en": "a"}
     import re
-    note = AR.record(cl[0], text, set())["assessment"]["note"]
+    cl = AR.cluster(AR.candidates(batch(row("Cargo ship attacked", "https://e.org/s"))))
+    t = {"tr": "a", "en": "a", "i18n": {"source": "en", "machine": ["tr"]}}
+    note = AR.record(cl[0], t, set())["assessment"]["note"]
     assert not re.search(r"\d{8,}", note["tr"] + note["en"])

@@ -23,7 +23,6 @@ on:
 
 permissions:
   contents: write   # commit the records to the auto-data branch (main is protected and stays human-reviewed)
-  models: read      # GitHub Models writes the titles and summaries
   actions: write    # start the Pages build: pushes made with GITHUB_TOKEN do not trigger it
 
 concurrency:
