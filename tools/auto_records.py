@@ -78,10 +78,10 @@ NOT_AN_EVENT = re.compile(
 # A person named in a death or injury notice is personal data even when a ministry published it; the
 # record can wait for someone to decide whether the name belongs in it.
 NAMED_CASUALTY = re.compile(
-    r"(death|died|dies|killed|funeral|tribute).{0,60}(major|captain|lieutenant|sergeant|corporal|"
-    r"private|lance|colonel|commander|officer|soldier|sailor|airman|marine|gunner|trooper)\s+[A-Z][a-z]+|"
-    r"(major|captain|lieutenant|sergeant|corporal|private|lance|colonel|commander|gunner|trooper)\s+"
-    r"[A-Z][a-z]+\s+[A-Z][a-z]+.{0,60}(death|died|dies|killed|funeral|tribute)",
+    r"(?i:\b(death|died|dies|killed|funeral|tribute)\b).{0,60}"
+    r"(?i:\b(major|captain|lieutenant|sergeant|corporal|private|lance|colonel|commander|gunner|trooper))\s+[A-Z][a-z]+"
+    r"|(?i:\b(major|captain|lieutenant|sergeant|corporal|private|lance|colonel|commander|gunner|trooper))\s+"
+    r"[A-Z][a-z]+\s+[A-Z][a-z]+.{0,60}(?i:\b(death|died|dies|killed|funeral|tribute)\b)"
 )
 STOP = set("""a an and the of in on at to for by with from as is are was were be been has have had after
 before over into about amid its it this that these those new says said say will would could
