@@ -18,6 +18,10 @@ sources:
     title: Kosovo Verdict Reflects West’s Strategic Priorities, Not Pursuit of Justice
     published_at: 2026-09-17T12:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260918131546/https://balkaninsight.com/2026/09/17/kosovo-verdict-reflects-wests-strategic-priorities-not-pursuit-of-justice/btj/
+        captured_at: 2026-09-18T13:15:46Z
 assessment:
   status: unverified
   credibility: 6

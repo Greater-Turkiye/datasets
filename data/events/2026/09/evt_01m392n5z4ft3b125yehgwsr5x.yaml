@@ -18,6 +18,10 @@ sources:
     title: Croatia Buys South Korean Rocket Launchers as Regional Arms Race Accelerates
     published_at: 2026-09-10T15:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260917013159/https://balkaninsight.com/2026/09/10/croatia-buys-south-korean-rocket-launchers-as-regional-arms-race-accelerates/bi/
+        captured_at: 2026-09-17T01:31:59Z
 assessment:
   status: unverified
   credibility: 6

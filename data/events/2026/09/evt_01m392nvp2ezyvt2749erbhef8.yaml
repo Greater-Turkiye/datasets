@@ -18,6 +18,10 @@ sources:
     title: "The UK stands ready to support efforts in the destruction of Assad-era chemical weapons for Syria to emerge as a sovereign, stable state: UK statement at the UN Security Council"
     published_at: 2026-09-17T18:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260919220430/https://www.gov.uk/government/speeches/the-uk-stands-ready-to-support-efforts-in-the-destruction-of-assad-era-chemical-weapons-for-syria-to-emerge-as-a-sovereign-stable-state-uk-statement-a
+        captured_at: 2026-09-19T22:04:30Z
 assessment:
   status: unverified
   credibility: 6

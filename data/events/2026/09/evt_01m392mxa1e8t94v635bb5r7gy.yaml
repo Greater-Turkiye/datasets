@@ -18,6 +18,10 @@ sources:
     title: UK expertise to bolster Polish air defences in boost to NATO security
     published_at: 2026-09-07T13:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260909053319/https://www.gov.uk/government/news/uk-expertise-to-bolster-polish-air-defences-in-boost-to-nato-security
+        captured_at: 2026-09-09T05:33:19Z
 assessment:
   status: unverified
   credibility: 6

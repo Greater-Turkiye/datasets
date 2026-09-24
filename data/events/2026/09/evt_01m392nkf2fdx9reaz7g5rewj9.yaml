@@ -18,6 +18,10 @@ sources:
     title: Kosovo Slams ‘Unjust’ Conviction of Hashim Thaci; Serbian Minister Applauds
     published_at: 2026-09-16T17:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260918204944/https://balkaninsight.com/2026/09/16/kosovo-slams-unjust-conviction-of-hashim-thaci-serbian-minister-applauds/btj/
+        captured_at: 2026-09-18T20:49:44Z
 assessment:
   status: unverified
   credibility: 6

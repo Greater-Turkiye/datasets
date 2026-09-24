@@ -18,6 +18,10 @@ sources:
     title: "Enforced Disappearances: Joint Statement to the OSCE, September 2026"
     published_at: 2026-09-17T15:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260919215436/https://www.gov.uk/government/speeches/enforced-disappearances-joint-statement-to-the-osce-september-2026
+        captured_at: 2026-09-19T21:54:36Z
 assessment:
   status: unverified
   credibility: 6

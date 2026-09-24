@@ -18,6 +18,10 @@ sources:
     title: Hague Court Convicts Kosovo Liberation Army Leaders of War Crimes
     published_at: 2026-09-16T11:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260919172648/https://balkaninsight.com/2026/09/16/hague-court-convicts-kosovo-liberation-army-leaders-of-war-crimes/btj/
+        captured_at: 2026-09-19T17:26:48Z
 assessment:
   status: unverified
   credibility: 6

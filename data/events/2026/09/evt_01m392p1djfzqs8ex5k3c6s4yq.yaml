@@ -18,6 +18,10 @@ sources:
     title: Ceremony to present state decorations of the Russian Federation
     published_at: 2026-09-18T13:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260919123549/http://en.kremlin.ru/events/president/news/80789
+        captured_at: 2026-09-19T12:35:49Z
 assessment:
   status: unverified
   credibility: 6

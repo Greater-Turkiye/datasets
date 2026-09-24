@@ -18,6 +18,10 @@ sources:
     title: UK pledges winter air defence package to boost Ukraine's defences
     published_at: 2026-09-08T07:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260916052138/https://www.gov.uk/government/news/uk-pledges-winter-air-defence-package-to-boost-ukraines-defences
+        captured_at: 2026-09-16T05:21:38Z
 assessment:
   status: unverified
   credibility: 6

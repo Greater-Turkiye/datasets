@@ -18,6 +18,10 @@ sources:
     title: Kosovo’s New Govt Challenged in Court as Presidential Pick Withdraws
     published_at: 2026-09-15T11:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260919133003/https://balkaninsight.com/2026/09/15/kosovos-new-govt-challenged-in-court-as-presidential-pick-withdraws/bi/
+        captured_at: 2026-09-19T13:30:03Z
 assessment:
   status: unverified
   credibility: 6

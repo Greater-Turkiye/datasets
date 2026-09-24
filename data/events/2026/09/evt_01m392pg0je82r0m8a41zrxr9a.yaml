@@ -12,6 +12,12 @@ time:
   precision: day
   basis: reported
 reported_at: 2026-09-21T12:00Z
+location:
+  geometry: {type: Point, coordinates: [46.771, 24.643]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Riyad, en: Riyadh}
 regions: [gulf-red-sea]
 sources:
   - url: https://news.un.org/feed/view/en/story/2026/09/1168387
@@ -22,6 +28,6 @@ assessment:
   status: unverified
   credibility: 6
   note:
-    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: un-news-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
-    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: un-news-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: un-news-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, başlıktaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: un-news-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the headline (Natural Earth; ±20 km). Not verified."
 tags: [otomatik]
