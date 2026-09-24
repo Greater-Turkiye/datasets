@@ -50,8 +50,9 @@ STATE_REF = "collector-state"
 BATCH_DIR = "collectors/state/batches"
 MODELS_URL = "https://models.github.ai/inference/chat/completions"
 MODEL = os.environ.get("AUTO_RECORDS_MODEL", "openai/gpt-4.1-mini")
-PER_REQUEST = 10
+PER_REQUEST = 12
 PAUSE = float(os.environ.get("AUTO_RECORDS_PAUSE", "5"))
+BUDGET_S = float(os.environ.get("AUTO_RECORDS_BUDGET_S", "900"))
 AUTO_TAG = "otomatik"
 USER_AGENT = "GreaterTurkiyeDatasets/auto-records (+https://github.com/Greater-Turkiye/datasets)"
 
@@ -110,7 +111,11 @@ def http_json(url: str, token: str | None = None, data: dict | None = None, time
         headers["Content-Type"] = "application/json"
     req = urllib.request.Request(url, data=body, headers=headers, method="POST" if body else "GET")
     with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.loads(r.read().decode("utf-8"))
+        raw = r.read().decode("utf-8", "replace")
+        try:
+            return json.loads(raw)
+        except ValueError:
+            raise ValueError(f"HTTP {r.status} {r.headers.get('Content-Type')} is not JSON: {raw[:200]!r}") from None
 
 
 def recent_batches(days: int, token: str | None) -> list[dict]:
@@ -229,20 +234,24 @@ def publisher(c: Candidate) -> str:
 
 
 def chunks(clusters: list[Cluster]) -> list[list[int]]:
-    """Indices in groups the model sees together: same day and region, so it can spot duplicates."""
-    groups: dict[tuple[str, str], list[int]] = {}
-    for i, cl in enumerate(clusters):
-        groups.setdefault((cl.lead.published_at[:10], cl.lead.region), []).append(i)
-    out = []
-    for idx in groups.values():
-        out += [idx[k:k + PER_REQUEST] for k in range(0, len(idx), PER_REQUEST)]
-    return out
+    """Indices in groups the model sees together, ordered by day and region so that reports of the
+    same occurrence sit next to each other and the model can spot duplicates. Full groups, because
+    the free tier counts requests, not items."""
+    order = sorted(range(len(clusters)), key=lambda i: (clusters[i].lead.published_at[:10], clusters[i].lead.region))
+    return [order[k:k + PER_REQUEST] for k in range(0, len(order), PER_REQUEST)]
 
 
 def write_text(clusters: list[Cluster], token: str, codes: list[str]) -> dict[int, dict]:
     out: dict[int, dict] = {}
+    started, failures = time.monotonic(), 0
     prompt = PROMPT.replace("{codes}", ", ".join(codes)).replace("{regions}", REGION_HELP)
     for group in chunks(clusters):
+        if time.monotonic() - started > BUDGET_S:
+            print(f"model time budget ({BUDGET_S:.0f}s) spent; the rest waits for the next run", file=sys.stderr)
+            break
+        if failures >= 2:
+            print("two requests in a row failed; stopping, the next run tries again", file=sys.stderr)
+            break
         chunk = [(i, clusters[i]) for i in group]
         items = "\n".join(
             f"<item n=\"{i}\">\npublisher: {publisher(cl.lead)}\nheadline: {cl.lead.title}\n"
@@ -257,15 +266,19 @@ def write_text(clusters: list[Cluster], token: str, codes: list[str]) -> dict[in
                 for it in parsed.get("items", []):
                     if isinstance(it, dict) and isinstance(it.get("i"), int):
                         out[it["i"]] = it
+                failures = 0
+                print(f"model: {len(out)} items answered so far", file=sys.stderr)
                 break
             except urllib.error.HTTPError as e:
                 print(f"model request failed: HTTP {e.code} {e.read()[:300]!r}", file=sys.stderr)
-                if e.code in (401, 403):
+                if e.code in (401, 403, 404):
                     return out
                 time.sleep(20 * (attempt + 1))
             except (urllib.error.URLError, KeyError, ValueError, TimeoutError) as e:
                 print(f"model request failed ({type(e).__name__}: {e}); attempt {attempt + 1}", file=sys.stderr)
                 time.sleep(10 * (attempt + 1))
+        else:
+            failures += 1
         time.sleep(PAUSE)  # the free tier allows a handful of requests a minute
     return out
 
