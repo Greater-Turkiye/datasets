@@ -112,13 +112,14 @@ Bunu tamamen otomatik hâle getirmek için / To make it fully automatic again, e
 [`auto-records`](.github/workflows/auto-records.yml) günde iki kez (06:41 ve 18:41 UTC) toplayıcının son üç
 günlük partilerini okur ve ilgi süzgecinden geçen adayları **doğrulanmamış olay kaydı** olarak **`auto-data`**
 dalına yazar ([ADR 0023](https://github.com/Greater-Turkiye/handbook/blob/main/decisions/0023-automatic-unverified-records.md)).
-GitHub Models her aday için olay mı yoksa analiz/yorum mu olduğuna karar verir, türü ve bölgeyi sözlükten
-seçer, aynı olayın tekrar haberlerini tek kayda toplar ve Türkçe/İngilizce başlık ile özeti kaynağa atfederek
-yazar. Her kayıt `assessment.status: unverified`, `credibility: 6`, `i18n.machine: [tr, en]`, `tags: [otomatik]`
-ve bunu söyleyen bir not taşır; `gt.py validate` ile `fmt --check`'ten geçmeyen dosya yazılmaz.
+İngilizce başlık kaynağın kendi başlığıdır, Türkçesi MyMemory ile makine çevirisidir; tür başlıktaki eyleme bakan
+kurallarla bulunur, aynı gün aynı bölgede başlığı büyük ölçüde örtüşen haberler tek kayda birden çok kaynak olarak
+girer. Özet yazılmaz: elimizdeki tek metin kaynağın alıntısıdır ve onu kopyalamak ADR 0009'a aykırıdır. Her kayıt
+`assessment.status: unverified`, `credibility: 6`, `i18n.machine`, `tags: [otomatik]` ve bunu söyleyen bir not taşır;
+`gt.py validate` ile `fmt --check`'ten geçmeyen dosya yazılmaz ([ADR 0024](https://github.com/Greater-Turkiye/handbook/blob/main/decisions/0024-automatic-records-without-a-language-model.md)).
 
 Otomatik yoldan **geçmeyenler:** toplayıcının `redline_check` işaretlediği ve metninde Türk kuvvetlerini anan
-adaylar (bir insanı bekler), E/F notlu kaynaklar ve zaten bir kayıtta kaynak olan adresler. Herkese açık akış
+adaylar (bir insanı bekler), E/F notlu kaynaklar, analiz ve yorum yazıları (soru başlıkları, podcast, bülten; Atlantic Council akışının tamamı) ve zaten bir kayıtta kaynak olan adresler. Herkese açık akış
 (`feed.xml`) otomatik kayıtları içermez; yalnızca `verified` ve `partially_verified` olanları yayar.
 
 `main` insan incelemesinden geçmiş kayıtların dalı olarak kalır. Pages derlemesi `main`'in üstüne yalnızca
@@ -134,9 +135,10 @@ gh variable set AUTO_RECORDS --body off -R Greater-Turkiye/datasets   # durdur
 
 Twice a day the workflow reads the collector's last three days of batches and commits the candidates that
 passed its relevance filter as unverified event records to the `auto-data` branch; `main` stays the
-human-reviewed record, and the Pages build lays the automatic records over it. The model decides whether an item is an event at all,
-picks the type and region from the vocabularies, folds repeat reports together and writes an attributed title
-and summary in both languages; each record says it is automatic, machine-written and unverified. Items the
+human-reviewed record, and the Pages build lays the automatic records over it. The English title is the source's
+headline and the Turkish one a MyMemory machine translation; rules on the headline pick the type and drop analysis
+pieces; repeat reports fold into one record; there is no summary, because the only text is the source's own.
+Each record says it is automatic, machine-translated and unverified. Items the
 collector flagged for the red line, items naming Turkish forces and sources graded E or F never take this path.
 The repository variable `AUTO_RECORDS` is the kill switch.
 
