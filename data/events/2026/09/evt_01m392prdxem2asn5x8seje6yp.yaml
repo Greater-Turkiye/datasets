@@ -1,0 +1,27 @@
+id: evt_01m392prdxem2asn5x8seje6yp
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: G7 Bab al - Mandab ve Seyrüsefer Hakları ve Özgürlükleri Beyanı
+  en: G7 Statement on Bab al-Mandab and Navigational Rights and Freedoms
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-22T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-22T08:27Z
+regions: [gulf-red-sea]
+sources:
+  - url: https://www.gov.uk/government/news/g7-statement-on-bab-al-mandab-and-navigational-rights-and-freedoms
+    title: G7 Statement on Bab al-Mandab and Navigational Rights and Freedoms
+    published_at: 2026-09-22T08:27Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-fcdo. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-fcdo. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

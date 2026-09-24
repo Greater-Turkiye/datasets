@@ -1,0 +1,27 @@
+id: evt_01m392phpxes5tyb3vg9djsr80
+schema: event/1
+event_type: kinetic.clash
+title:
+  tr: Hırvatistan'da Protestocular Kadına Yönelik Şiddete Daha Sert Tepki İstiyor
+  en: Across Croatia, Protesters Demand Tougher Response to Violence Against Women
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-21T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-21T15:18Z
+regions: [balkans]
+sources:
+  - url: https://balkaninsight.com/2026/09/21/across-croatia-protesters-demand-tougher-response-to-violence-against-women/bi/
+    title: Across Croatia, Protesters Demand Tougher Response to Violence Against Women
+    published_at: 2026-09-21T15:18Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-bih-balkaninsight. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-bih-balkaninsight. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

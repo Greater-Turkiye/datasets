@@ -1,0 +1,27 @@
+id: evt_01m392nhxwfgzbx3preg55kzc5
+schema: event/1
+event_type: policy.defense
+title:
+  tr: Savunma Bakanlığı, Binbaşı Paul Wilks'in ölümünü doğruladı
+  en: Ministry of Defence confirms the death of Major Paul Wilks
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-16T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-16T16:45Z
+regions: [black-sea]
+sources:
+  - url: https://www.gov.uk/government/fatalities/ministry-of-defence-confirms-the-death-of-major-paul-wilks
+    title: Ministry of Defence confirms the death of Major Paul Wilks
+    published_at: 2026-09-16T16:45Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-mod. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-mod. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

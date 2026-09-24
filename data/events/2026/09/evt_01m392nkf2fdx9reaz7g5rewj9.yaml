@@ -1,0 +1,27 @@
+id: evt_01m392nkf2fdx9reaz7g5rewj9
+schema: event/1
+event_type: other
+title:
+  tr: "Kosova, Haşim Taçi'nin \"Haksız\" Mahkumiyetini Eleştirdi: Sırbistan Bakanı Alkışladı"
+  en: Kosovo Slams ‘Unjust’ Conviction of Hashim Thaci; Serbian Minister Applauds
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-16T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-16T17:43Z
+regions: [balkans]
+sources:
+  - url: https://balkaninsight.com/2026/09/16/kosovo-slams-unjust-conviction-of-hashim-thaci-serbian-minister-applauds/btj/
+    title: Kosovo Slams ‘Unjust’ Conviction of Hashim Thaci; Serbian Minister Applauds
+    published_at: 2026-09-16T17:43Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-bih-balkaninsight. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-bih-balkaninsight. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

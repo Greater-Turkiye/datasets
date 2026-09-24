@@ -1,0 +1,27 @@
+id: evt_01m392mz29e4f9jvde2twk7e94
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: Birleşik Krallık, Ukrayna'nın savunmasını güçlendirmek için kış hava savunma paketi sözü verdi
+  en: UK pledges winter air defence package to boost Ukraine's defences
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-08T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-08T07:38Z
+regions: [black-sea]
+sources:
+  - url: https://www.gov.uk/government/news/uk-pledges-winter-air-defence-package-to-boost-ukraines-defences
+    title: UK pledges winter air defence package to boost Ukraine's defences
+    published_at: 2026-09-08T07:38Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-mod. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-mod. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

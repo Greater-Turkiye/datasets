@@ -1,0 +1,27 @@
+id: evt_01m392n0qpfm39af97zy75gxx8
+schema: event/1
+event_type: diplomatic.talks
+title:
+  tr: Mikhail Mishustin'in Vietnam Komünist Partisi Merkez Komitesi Genel Sekreteri, Vietnam Sosyalist Cumhuriyeti Başkanı To Lam ile görüşmesi
+  en: Mikhail Mishustin’s conversation with General Secretary of the Communist Party of Vietnam Central Committee, President of the Socialist Republic of Vietnam To Lam
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-08T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-08T11:15Z
+regions: [black-sea]
+sources:
+  - url: http://government.ru/en/news/59810/
+    title: Mikhail Mishustin’s conversation with General Secretary of the Communist Party of Vietnam Central Committee, President of the Socialist Republic of Vietnam To Lam
+    published_at: 2026-09-08T11:15Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rus-government-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rus-government-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

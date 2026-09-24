@@ -1,0 +1,27 @@
+id: evt_01m392n7h1fsna7b2nws8bc0zy
+schema: event/1
+event_type: other
+title:
+  tr: Kosova'nın Gerilla Merkezlerinde Yaklaşan Dava Kararı Öfke ve Şiddetli Sadakati Artırıyor
+  en: In Kosovo’s Guerrilla Heartlands, Impending Trial Verdict Stirs Anger, Fierce Loyalty
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-14T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-14T05:51Z
+regions: [balkans]
+sources:
+  - url: https://balkaninsight.com/2026/09/14/in-kosovos-guerrilla-heartlands-impending-trial-verdict-stirs-anger-fierce-loyalty/btj/
+    title: In Kosovo’s Guerrilla Heartlands, Impending Trial Verdict Stirs Anger, Fierce Loyalty
+    published_at: 2026-09-14T05:51Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-bih-balkaninsight. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-bih-balkaninsight. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

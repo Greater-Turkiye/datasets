@@ -1,0 +1,27 @@
+id: evt_01m392ng9ke62s11n1tf10972h
+schema: event/1
+event_type: kinetic.airstrike
+title:
+  tr: Gazze'deki bir binanın çöküşünde en az 20 kişi öldü ve hayatta kalanların aranması devam ediyor
+  en: At least 20 people were killed in the collapse of a building in Gaza, and the search for survivors continues
+i18n:
+  source: en
+  machine: [tr, en]
+time:
+  start: 2026-09-16T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-16T12:00Z
+regions: [levant]
+sources:
+  - url: https://news.un.org/feed/view/ru/story/2026/09/1468696
+    title: В результате обрушения здания в Газе погибли по меньшей мере 20 человек, поиски выживших продолжаются
+    published_at: 2026-09-16T12:00Z
+    lang: ru
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: un-news-ru. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: un-news-ru. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -1,0 +1,27 @@
+id: evt_01m392rjvkf4gsajr6a12aqn4d
+schema: event/1
+event_type: kinetic.shelling
+title:
+  tr: Ukrayna kuvvetleri Huliaipole'deki Rus mühimmat deposunu imha etti
+  en: Ukrainian forces destroy Russian ammunition depot in Huliaipole
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-23T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-23T21:38Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4166967-ukrainian-forces-destroy-russian-ammunition-depot-in-huliaipole.html
+    title: Ukrainian forces destroy Russian ammunition depot in Huliaipole
+    published_at: 2026-09-23T21:38Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

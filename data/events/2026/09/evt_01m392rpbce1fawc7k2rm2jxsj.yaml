@@ -1,0 +1,27 @@
+id: evt_01m392rpbce1fawc7k2rm2jxsj
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: "Siyasi İşler Şefi Güvenlik Konseyini Uyardı: Saldırılar Arttıkça Ukrayna Savaşı \"Tehlikeli Yeni Aşamaya\" Giriyor, Bölgesel Yayılma Riski Artıyor"
+  en: Ukraine War Entering ‘Dangerous New Phase’ as Attacks Intensify, Risk of Regional Spillover Grows, Political Affairs Chief Warns Security Council
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-24T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-24T01:17Z
+regions: [black-sea]
+sources:
+  - url: https://press.un.org/en/2026/sc16460.doc.htm
+    title: Ukraine War Entering ‘Dangerous New Phase’ as Attacks Intensify, Risk of Regional Spillover Grows, Political Affairs Chief Warns Security Council
+    published_at: 2026-09-24T01:17Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: un-press-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: un-press-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -1,0 +1,27 @@
+id: evt_01m392nvp2ezyvt2749erbhef8
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: "Birleşik Krallık, Suriye'nin egemen ve istikrarlı bir devlet olarak ortaya çıkması için Esad dönemi kimyasal silahlarının imhasına yönelik çabaları desteklemeye hazır: Birleşik Krallık, BM Güvenlik Konseyi'nde yaptığı açıklamada"
+  en: "The UK stands ready to support efforts in the destruction of Assad-era chemical weapons for Syria to emerge as a sovereign, stable state: UK statement at the UN Security Council"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-17T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-17T18:52Z
+regions: [syria]
+sources:
+  - url: https://www.gov.uk/government/speeches/the-uk-stands-ready-to-support-efforts-in-the-destruction-of-assad-era-chemical-weapons-for-syria-to-emerge-as-a-sovereign-stable-state-uk-statement-a
+    title: "The UK stands ready to support efforts in the destruction of Assad-era chemical weapons for Syria to emerge as a sovereign, stable state: UK statement at the UN Security Council"
+    published_at: 2026-09-17T18:52Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-fcdo. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-fcdo. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

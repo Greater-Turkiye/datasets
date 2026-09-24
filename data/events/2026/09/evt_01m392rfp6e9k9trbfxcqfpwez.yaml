@@ -1,0 +1,27 @@
+id: evt_01m392rfp6e9k9trbfxcqfpwez
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: Dışişleri Bakanı Ukrayna konusunda BMGK'ya hitap etti
+  en: Foreign Secretary address to the UNSC on Ukraine
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-23T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-23T16:29Z
+regions: [black-sea]
+sources:
+  - url: https://www.gov.uk/government/speeches/foreign-secretary-address-to-the-unsc-on-ukraine
+    title: Foreign Secretary address to the UNSC on Ukraine
+    published_at: 2026-09-23T16:29Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-fcdo. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-fcdo. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

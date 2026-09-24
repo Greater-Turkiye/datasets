@@ -1,0 +1,27 @@
+id: evt_01m392p1djfzqs8ex5k3c6s4yq
+schema: event/1
+event_type: procurement.contract
+title:
+  tr: Rusya Federasyonu devlet dekorasyonlarını sunma töreni
+  en: Ceremony to present state decorations of the Russian Federation
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-18T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-18T13:50Z
+regions: [black-sea]
+sources:
+  - url: http://en.kremlin.ru/events/president/news/80789
+    title: Ceremony to present state decorations of the Russian Federation
+    published_at: 2026-09-18T13:50Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rus-kremlin-news-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rus-kremlin-news-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

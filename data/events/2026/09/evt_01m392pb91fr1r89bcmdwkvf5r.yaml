@@ -1,0 +1,27 @@
+id: evt_01m392pb91fr1r89bcmdwkvf5r
+schema: event/1
+event_type: diplomatic.talks
+title:
+  tr: Kazakistan Cumhurbaşkanı Kasım - Zhomart Tokayev ile telefon görüşmesi
+  en: Telephone conversation with President of Kazakhstan Kassym-Zhomart Tokayev
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-21T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-21T08:55Z
+regions: [central-asia]
+sources:
+  - url: http://en.kremlin.ru/events/president/news/80803
+    title: Telephone conversation with President of Kazakhstan Kassym-Zhomart Tokayev
+    published_at: 2026-09-21T08:55Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rus-kremlin-news-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rus-kremlin-news-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]
