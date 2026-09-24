@@ -12,8 +12,7 @@ name: auto-records
 
 on:
   schedule:
-    - cron: "41 6 * * *"   # after the collector's 05:23 UTC run
-    - cron: "41 18 * * *"  # a second pass picks up anything the model could not reach in the morning
+    - cron: "3 0,6,12,18 * * *"  # forty minutes after each six-hourly collector run (ADR 0025)
   workflow_dispatch:
     inputs:
       days:
@@ -33,7 +32,7 @@ jobs:
   records:
     if: vars.AUTO_RECORDS == 'on'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -60,6 +59,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DAYS: ${{ inputs.days || '3' }}
         run: python tools/auto_records.py --days "$DAYS"
+      - name: Archive the automatic records' sources
+        # The first step towards verification: every source a record cites gets a Wayback copy. An
+        # existing capture is taken as is; otherwise Save Page Now is asked anonymously, a few pages a
+        # run, so four runs a day catch up without flooding it. Pages that cannot be captured yet are
+        # retried next time; this never fails the job.
+        run: python tools/archive.py --tag otomatik --anonymous --limit 15 --no-fail
       - name: Validate and check formatting
         run: |
           python tools/gt.py validate

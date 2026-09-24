@@ -29,6 +29,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -116,6 +117,29 @@ def save_now(url: str, auth: str) -> tuple[str, str] | None:
     return None
 
 
+STAMP_RE = re.compile(r"/web/(\d{14})/")
+
+
+def save_anonymous(url: str) -> tuple[str, str] | None:
+    """Save Page Now without an account: one GET that returns once the capture exists. Slower and more
+    rate-limited than the authenticated API, which is why callers pass a small --limit."""
+    req = urllib.request.Request(f"{SAVE}/{url}", headers={"User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=150) as r:
+            where = r.headers.get("Content-Location") or r.geturl()
+    except urllib.error.HTTPError as e:
+        print(f"    anonymous save refused: HTTP {e.code}")
+        return None
+    except (urllib.error.URLError, TimeoutError) as e:
+        print(f"    anonymous save failed: {e}")
+        return None
+    m = STAMP_RE.search(where or "")
+    if not m:
+        print(f"    anonymous save gave no capture: {str(where)[:120]}")
+        return None
+    return f"https://web.archive.org/web/{m.group(1)}/{url}", m.group(1)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
@@ -123,6 +147,10 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true", help="list what is missing, capture nothing")
     ap.add_argument("--only", default="data", help="limit to a path under the repository")
     ap.add_argument("--limit", type=int, default=0, help="stop after this many captures")
+    ap.add_argument("--anonymous", action="store_true",
+                    help="without IA keys, ask Save Page Now anonymously for pages nobody has captured")
+    ap.add_argument("--tag", help="only records carrying this tag (e.g. otomatik)")
+    ap.add_argument("--no-fail", action="store_true", help="exit 0 even when some sources stay unarchived")
     args = ap.parse_args()
 
     key, secret = os.environ.get("IA_ACCESS_KEY"), os.environ.get("IA_SECRET_KEY")
@@ -141,6 +169,8 @@ def main() -> int:
     for _rid, rec in sorted(records.items(), key=lambda item: item[1].path):
         path = rec.path.resolve()
         if only != path and only not in path.parents:
+            continue
+        if args.tag and args.tag not in (rec.data.get("tags") or []):
             continue
         missing = [c for c in rec.data.get("sources", []) if c.get("url") and not c.get("archives")]
         if not missing:
@@ -161,6 +191,9 @@ def main() -> int:
             if not hit and auth:
                 hit = save_now(url, auth)
                 how = "saved"
+            elif not hit and args.anonymous:
+                hit = save_anonymous(url)
+                how = "saved (anonymous)"
             if not hit:
                 failed += 1
                 print("    no archive")
@@ -182,7 +215,7 @@ def main() -> int:
         print(f"{found} sources without an archive")
         return 0
     print(f"{found} sources without an archive; {captured} archived, {failed} still without one")
-    return 1 if failed else 0
+    return 1 if failed and not args.no_fail else 0
 
 
 if __name__ == "__main__":
