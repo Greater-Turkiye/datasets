@@ -78,7 +78,8 @@ jobs:
             exit 0
           fi
           n=$(git diff --cached --name-only --diff-filter=A | wc -l)
-          git commit -q -m "Automatic records: $n unverified events from the collector (ADR 0023)"
+          m=$(git diff --cached --name-only --diff-filter=M | wc -l)
+          git commit -q -m "Automatic records: $n new, $m updated with a location or an archive (ADR 0023)"
           git push -q origin auto-data
           echo "changed=true" >> "$GITHUB_OUTPUT"
       - name: Rebuild the site data
