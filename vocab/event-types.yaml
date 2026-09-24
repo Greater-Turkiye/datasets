@@ -86,6 +86,9 @@ codes:
   - code: diplomatic.statement
     label: {tr: Resmi açıklama, en: Official statement}
     definition: {tr: "Savunma/güvenlik ile ilgili resmi açıklama.", en: "Official defence/security statement."}
+  - code: diplomatic.talks
+    label: {tr: Üst düzey temas, en: High-level contact}
+    definition: {tr: "Devlet ya da hükûmet başkanları, dışişleri veya savunma bakanları arasında görüşme, telefon görüşmesi, ziyaret veya zirve; savunma ve güvenlik bağlamında.", en: "A meeting, telephone call, visit or summit between heads of state or government, or foreign or defence ministers, in a defence and security context."}
   - code: diplomatic.agreement
     label: {tr: Savunma anlaşması, en: Defence agreement}
     definition: {tr: "İkili/çok taraflı savunma veya güvenlik anlaşması.", en: "Bilateral/multilateral defence or security agreement."}
