@@ -114,7 +114,7 @@ günlük partilerini okur ve ilgi süzgecinden geçen adayları **doğrulanmamı
 dalına yazar ([ADR 0023](https://github.com/Greater-Turkiye/handbook/blob/main/decisions/0023-automatic-unverified-records.md)).
 İngilizce başlık kaynağın kendi başlığıdır, Türkçesi MyMemory ile makine çevirisidir; tür başlıktaki eyleme bakan
 kurallarla bulunur, aynı gün aynı bölgede başlığı büyük ölçüde örtüşen haberler tek kayda birden çok kaynak olarak
-girer. Özet yazılmaz: elimizdeki tek metin kaynağın alıntısıdır ve onu kopyalamak ADR 0009'a aykırıdır. Her kayıt
+girer. Özet yazılmaz: elimizdeki tek metin kaynağın alıntısıdır ve onu kopyalamak ADR 0009'a aykırıdır. Başlık bir şehir ya da il adı taşıyorsa kayıt o yere, şehir için ±20 km, il için ±100 km belirsizlikle ve `method: inferred` ile konumlanır ([tools/data/README.md](tools/data/README.md)); daha önce yazılmış konumsuz otomatik kayıtlar her çalıştırmada aynı yolla tamamlanır. Her kayıt
 `assessment.status: unverified`, `credibility: 6`, `i18n.machine`, `tags: [otomatik]` ve bunu söyleyen bir not taşır;
 `gt.py validate` ile `fmt --check`'ten geçmeyen dosya yazılmaz ([ADR 0024](https://github.com/Greater-Turkiye/handbook/blob/main/decisions/0024-automatic-records-without-a-language-model.md)).
 

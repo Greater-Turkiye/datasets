@@ -45,3 +45,20 @@ Over ~25 km this is well under 1% off the great-circle distance, much smaller th
 - Islands missing from the 1:50m data (e.g. Kastellorizo/Meis, Bozcaada) are treated as sea, so points there are flagged if near the Turkish coast.
 - Neighbouring coastal points within about 1 km of their own simplified coastline (e.g. central Batumi) can fall "in the sea" and be flagged.
 - Border towns within about 1 km of the line (e.g. Tal Abyad, Kobani) are flagged. Record them without `geometry`, at `admin1` precision.
+
+## places.json: automatic records' gazetteer
+
+**TR** · `tools/auto_records.py` bir otomatik kaydın başlığındaki (yoksa alıntısındaki) şehir adından konum çıkarır:
+şehir adı `precision: locality`, ±20 km; "Odesa region" gibi il ifadesi `admin1`, ±100 km; `method: inferred`.
+Türkiye'deki yerler dosyada yoktur: orada bir konum bir insanın kararıdır (Türk kuvvetleri kapısı).
+**EN** · The automatic records take a location from the town their headline (else excerpt) names: a town is
+`locality` at ±20 km, a province phrase such as "Odesa region" is `admin1` at ±100 km, always `method: inferred`.
+Places in Türkiye are left out.
+
+- **Source:** [Natural Earth](https://www.naturalearthdata.com/) 1:10m populated places v5.1.2, public domain. Turkish
+  exonyms from platform's `tools/geo/place_names_tr.csv`.
+- **Cut:** lon 5 to 80, lat 5 to 62; population at least 30,000 or a national capital; names that are also common
+  words or people's names (Mary, Split, Serdar...) dropped.
+- **Regenerate:** `python tools/data/make_places.py path/to/ne_10m_populated_places_simple.geojson path/to/place_names_tr.csv`
+  (inputs cached outside the repository; the output rebuilds byte for byte).
+
