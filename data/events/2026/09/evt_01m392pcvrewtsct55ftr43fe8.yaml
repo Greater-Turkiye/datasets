@@ -18,6 +18,10 @@ sources:
     title: Joint statement on Russia’s sham elections in Ukraine’s temporarily occupied territories
     published_at: 2026-09-21T09:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260921100829/https://www.gov.uk/government/news/joint-statement-on-russias-sham-elections-in-ukraines-temporarily-occupied-territories
+        captured_at: 2026-09-21T10:08:29Z
 assessment:
   status: unverified
   credibility: 6

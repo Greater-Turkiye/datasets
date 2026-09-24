@@ -18,6 +18,10 @@ sources:
     title: Security Council Press Statement on Escalation in Yemen, Attacks against Kingdom of Saudi Arabia
     published_at: 2026-09-21T15:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924145017/https://press.un.org/en/2026/sc16458.doc.htm
+        captured_at: 2026-09-24T14:50:17Z
 assessment:
   status: unverified
   credibility: 6

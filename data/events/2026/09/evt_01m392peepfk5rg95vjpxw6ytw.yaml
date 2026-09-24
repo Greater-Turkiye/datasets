@@ -18,6 +18,10 @@ sources:
     title: Telephone conversation with President of Uzbekistan Shavkat Mirziyoyev
     published_at: 2026-09-21T11:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924163652/http://en.kremlin.ru/events/president/news/80810
+        captured_at: 2026-09-24T16:36:52Z
 assessment:
   status: unverified
   credibility: 6

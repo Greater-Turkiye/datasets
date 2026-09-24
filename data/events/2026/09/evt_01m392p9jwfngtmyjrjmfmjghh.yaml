@@ -18,6 +18,10 @@ sources:
     title: In Moldova’s Minority-Populated South, Redrawing Municipalities is a Tricky Task
     published_at: 2026-09-21T05:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260921124553/https://balkaninsight.com/2026/09/21/in-moldovas-minority-populated-south-redrawing-municipalities-is-a-tricky-task/bi/
+        captured_at: 2026-09-21T12:45:53Z
 assessment:
   status: unverified
   credibility: 6

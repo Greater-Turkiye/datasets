@@ -24,6 +24,10 @@ sources:
     title: 18 facilities damaged, three people injured in Russian attacks on Kyiv region
     published_at: 2026-09-23T07:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924164609/https://www.ukrinform.net/rubric-ato/4167016-18-facilities-damaged-three-people-injured-in-russian-attacks-on-kyiv-region.html
+        captured_at: 2026-09-24T16:46:09Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Mikhail Mishustin holds strategic session on interim progress and further plans for national technology policy
     published_at: 2026-09-08T12:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924163036/http://government.ru/en/news/59811/
+        captured_at: 2026-09-24T16:30:36Z
 assessment:
   status: unverified
   credibility: 6

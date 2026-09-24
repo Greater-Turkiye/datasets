@@ -18,6 +18,10 @@ sources:
     title: UK military support to the Kingdom of Saudi Arabia
     published_at: 2026-09-22T08:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924164057/https://www.gov.uk/government/news/uk-military-support-to-the-kingdom-of-saudi-arabia
+        captured_at: 2026-09-24T16:40:57Z
 assessment:
   status: unverified
   credibility: 6

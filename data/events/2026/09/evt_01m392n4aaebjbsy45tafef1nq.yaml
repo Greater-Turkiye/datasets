@@ -18,6 +18,10 @@ sources:
     title: Dmitry Chernyshenko’s comment on the results of Russian-Vietnamese talks
     published_at: 2026-09-08T12:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924163051/http://government.ru/en/news/59816/
+        captured_at: 2026-09-24T16:30:51Z
 assessment:
   status: unverified
   credibility: 6

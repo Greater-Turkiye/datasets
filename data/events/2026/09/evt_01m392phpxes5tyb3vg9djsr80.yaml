@@ -18,6 +18,10 @@ sources:
     title: Across Croatia, Protesters Demand Tougher Response to Violence Against Women
     published_at: 2026-09-21T15:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924163713/https://balkaninsight.com/2026/09/21/across-croatia-protesters-demand-tougher-response-to-violence-against-women/bi/
+        captured_at: 2026-09-24T16:37:13Z
 assessment:
   status: unverified
   credibility: 6

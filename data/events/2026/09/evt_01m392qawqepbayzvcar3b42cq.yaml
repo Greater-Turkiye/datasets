@@ -24,6 +24,10 @@ sources:
     title: Russian drone crashes into business center in Kyiv’s Holosiivskyi district
     published_at: 2026-09-23T07:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924164858/https://www.ukrinform.net/rubric-ato/4167024-russian-drone-crashes-into-business-center-in-kyivs-holosiivskyi-district.html
+        captured_at: 2026-09-24T16:48:58Z
 assessment:
   status: unverified
   credibility: 6
