@@ -71,9 +71,17 @@ TUR_FORCES = re.compile(
 ANALYSIS_FEEDS = frozenset({"rss-usa-atlanticcouncil"})
 NOT_AN_EVENT = re.compile(
     r"\?\s*$|\b(podcast|digest|live blog|newsletter|explainer|analysis|opinion|interview|weekly|"
-    r"quoted|cited|comments on|in the news|trial stories|questions|brace[sd]? for|"
+    r"quoted|cited|comments on|in the news|trial stories|questions|brace[sd]? for|reflects|stirs|lessons|"
     r"what .{0,40} means|how .{0,40} could|why .{0,40} (is|are))\b",
     re.IGNORECASE,
+)
+# A person named in a death or injury notice is personal data even when a ministry published it; the
+# record can wait for someone to decide whether the name belongs in it.
+NAMED_CASUALTY = re.compile(
+    r"(?i:\b(death|died|dies|killed|funeral|tribute)\b).{0,60}"
+    r"(?i:\b(major|captain|lieutenant|sergeant|corporal|private|lance|colonel|commander|gunner|trooper))\s+[A-Z][a-z]+"
+    r"|(?i:\b(major|captain|lieutenant|sergeant|corporal|private|lance|colonel|commander|gunner|trooper))\s+"
+    r"[A-Z][a-z]+\s+[A-Z][a-z]+.{0,60}(?i:\b(death|died|dies|killed|funeral|tribute)\b)"
 )
 STOP = set("""a an and the of in on at to for by with from as is are was were be been has have had after
 before over into about amid its it this that these those new says said say will would could
@@ -192,6 +200,8 @@ def refused(c: Candidate) -> str | None:
         return "mentions Turkish forces"
     if c.reliability and c.reliability > "D":
         return f"source graded {c.reliability}"
+    if NAMED_CASUALTY.search(c.title):
+        return "names a casualty"
     if c.feed in ANALYSIS_FEEDS or NOT_AN_EVENT.search(c.title):
         return "analysis, not an occurrence"
     return None
@@ -233,6 +243,47 @@ def cluster(cands: list[Candidate], threshold: float = 0.4) -> list[Cluster]:
         else:
             clusters.append(Cluster([c]))
     return clusters
+
+
+# --- place ---------------------------------------------------------------------------------------
+
+PLACES_FILE = ROOT / "tools" / "data" / "places.json"
+CITY_UNCERTAINTY_M = 20_000  # a town named in a headline: the event is somewhere in or around it
+REGION_UNCERTAINTY_M = 100_000  # "Odesa region", "Zaporizhzhia oblast": the province, not the town
+PROVINCE = re.compile(r"^(?:'s)?\s+(region|oblast|province|governorate|krai)\b", re.IGNORECASE)
+
+
+def gazetteer() -> list[tuple[re.Pattern, dict]]:
+    """Case-sensitive, whole-word patterns for every name of every place, longest names first so that
+    'Nizhny Novgorod' wins over 'Novgorod'."""
+    if not PLACES_FILE.exists():
+        return []
+    places = json.loads(PLACES_FILE.read_text(encoding="utf-8"))["places"]
+    pairs = [(name, p) for p in places for name in p["names"]]
+    pairs.sort(key=lambda np: (-len(np[0]), -np[1]["p"]))
+    return [(re.compile(r"(?<![\w-])" + re.escape(name) + r"(?![\w-])"), p) for name, p in pairs]
+
+
+_GAZ: list | None = None
+
+
+def locate(c: Candidate) -> dict | None:
+    """The first place the headline names, else the first one the excerpt names. Inferred, city scale."""
+    global _GAZ
+    if _GAZ is None:
+        _GAZ = gazetteer()
+    for text in (c.title, c.text):
+        hits = [(m.start(), m.end(), p) for rx, p in _GAZ if (m := rx.search(text or ""))]
+        if hits:
+            start, end, p = min(hits, key=lambda h: (h[0], -h[2]["p"]))
+            province = bool(PROVINCE.match(text[end:end + 20])) and not text[end:end + 3].startswith("'s ")
+            return {"geometry": {"type": "Point", "coordinates": p["at"]},
+                    "precision": "admin1" if province else "locality",
+                    "uncertainty_m": REGION_UNCERTAINTY_M if province else CITY_UNCERTAINTY_M,
+                    "method": "inferred",
+                    "place_name": {"tr": p["tr"] + (" bölgesi" if province else ""),
+                                   "en": p["n"] + (" region" if province else "")}}
+    return None
 
 
 def classify(c: Candidate, codes: set[str]) -> str:
@@ -312,7 +363,13 @@ def record(cl: Cluster, t: dict, codes: set[str]) -> dict:
         if x.reliability:
             src["reliability"] = x.reliability
         sources.append(src)
-    return {
+    loc = locate(lead)
+    where_tr = (f" Konum, {'başlıktaki' if loc and loc['place_name']['en'].split(' region')[0] in lead.title else 'alıntıdaki'} "
+                f"yer adından çıkarıldı (Natural Earth; ±{loc['uncertainty_m'] // 1000} km).") if loc else ""
+    where_en = (f" The location was inferred from the place named in the "
+                f"{'headline' if loc and loc['place_name']['en'].split(' region')[0] in lead.title else 'excerpt'} "
+                f"(Natural Earth; ±{loc['uncertainty_m'] // 1000} km).") if loc else ""
+    rec = {
         "id": gt.new_id("evt"),
         "schema": "event/1",
         "event_type": classify(lead, codes),
@@ -328,15 +385,19 @@ def record(cl: Cluster, t: dict, codes: set[str]) -> dict:
             "note": {
                 "tr": ("Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı "
                        f"(ADR 0023). Akış: {feeds}. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); "
-                       "tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."),
+                       "tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir." + where_tr
+                       + " Doğrulanmamıştır."),
                 "en": ("Automatic record: a candidate that passed the collector's relevance filter, published "
                        f"without anyone reading it (ADR 0023). Feed: {feeds}. The title is the source's headline, "
                        "machine-translated (MyMemory); type and region were found by keyword and the event date "
-                       "is the publication date. Not verified."),
+                       "is the publication date." + where_en + " Not verified."),
             },
         },
         "tags": [AUTO_TAG],
     }
+    if loc:
+        rec["location"] = loc
+    return rec
 
 
 def write(rec: dict, formatter: gt.Formatter) -> Path:
@@ -345,6 +406,30 @@ def write(rec: dict, formatter: gt.Formatter) -> Path:
     text = yaml.safe_dump(rec, allow_unicode=True, sort_keys=False)
     path.write_text(formatter.format(text, rec, "event"), encoding="utf-8", newline="\n")
     return path
+
+
+def backfill_locations(formatter: gt.Formatter) -> list[Path]:
+    """Give automatic records written before the gazetteer existed a location from their headline.
+    Only records tagged `otomatik` without a location are touched, so a person's edit is never
+    overwritten and running it twice changes nothing."""
+    changed = []
+    for path in sorted((ROOT / "data" / "events").rglob("*.yaml")):
+        data = gt.load_yaml(path)
+        if AUTO_TAG not in (data.get("tags") or []) or data.get("location") or not data.get("sources"):
+            continue
+        lead = Candidate(url=data["sources"][0]["url"], title=data["sources"][0].get("title") or "", text="",
+                         lang=data["sources"][0].get("lang", "en"), published_at="", region="", topics=[], feed="")
+        loc = locate(lead)
+        if not loc:
+            continue
+        data["location"] = loc
+        km = loc["uncertainty_m"] // 1000
+        note = data["assessment"]["note"]
+        note["tr"] = note["tr"].replace(" Doğrulanmamıştır.", f" Konum, başlıktaki yer adından çıkarıldı (Natural Earth; ±{km} km). Doğrulanmamıştır.")
+        note["en"] = note["en"].replace(" Not verified.", f" The location was inferred from the place named in the headline (Natural Earth; ±{km} km). Not verified.")
+        path.write_text(formatter.format(path.read_text(encoding="utf-8"), data, "event"), encoding="utf-8", newline="\n")
+        changed.append(path)
+    return changed
 
 
 def failing(paths: list[Path]) -> set[Path]:
@@ -381,12 +466,14 @@ def main() -> int:
             print(f"  {cl.lead.published_at[:10]} {cl.lead.region:14} {classify(cl.lead, codes):24} "
                   f"{len(cl.items)}x {cl.lead.title[:90]}")
         return 0
-    if not clusters:
-        return 0
-
     report = gt.Report()
     records = gt.load_records(report)
     formatter = gt.Formatter(gt.load_schemas(), {rid: gt.record_label(r) for rid, r in records.items()})
+    located = backfill_locations(formatter)
+    if located:
+        print(f"{len(located)} earlier automatic records given a location")
+    if not clusters:
+        return 0
     written, waiting = [], 0
     for n, cl in enumerate(clusters):
         try:
