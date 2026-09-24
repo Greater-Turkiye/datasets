@@ -2,6 +2,10 @@ name: pages
 
 # Publishes the build exports (dist/) to https://greater-turkiye.github.io/datasets/
 # so the web panel can read them from the same origin.
+#
+# The build is main plus the automatic, unverified records that `auto-records` keeps on the auto-data
+# branch (handbook ADR 0023): only files that exist on auto-data and not on main are laid over, so a
+# record a person has moved to main is always read from main.
 on:
   push:
     branches: [main]
@@ -27,6 +31,16 @@ jobs:
           python-version: "3.13"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Lay the automatic records over main
+        run: |
+          if git fetch -q --depth=1 origin auto-data; then
+            git diff --name-only --diff-filter=A HEAD FETCH_HEAD -- data/ > "$RUNNER_TEMP/auto.txt"
+            if [ -s "$RUNNER_TEMP/auto.txt" ]; then
+              xargs -a "$RUNNER_TEMP/auto.txt" git checkout FETCH_HEAD --
+            fi
+            echo "automatic records laid over main: $(wc -l < "$RUNNER_TEMP/auto.txt")"
+          fi
+      - run: python tools/gt.py validate
       - run: python tools/gt.py build
       - name: Index page
         run: |
