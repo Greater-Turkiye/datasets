@@ -109,7 +109,7 @@ Bunu tamamen otomatik hâle getirmek için / To make it fully automatic again, e
 
 ## Otomatik kayıtlar / Automatic records
 
-[`auto-records`](.github/workflows/auto-records.yml) günde iki kez (06:41 ve 18:41 UTC) toplayıcının son üç
+[`auto-records`](.github/workflows/auto-records.yml) altı saatte bir, toplayıcının her çalışmasından kırk dakika sonra (ADR 0025) toplayıcının son üç
 günlük partilerini okur ve ilgi süzgecinden geçen adayları **doğrulanmamış olay kaydı** olarak **`auto-data`**
 dalına yazar ([ADR 0023](https://github.com/Greater-Turkiye/handbook/blob/main/decisions/0023-automatic-unverified-records.md)).
 İngilizce başlık kaynağın kendi başlığıdır, Türkçesi MyMemory ile makine çevirisidir; tür başlıktaki eyleme bakan
@@ -126,6 +126,11 @@ adaylar (bir insanı bekler), E/F notlu kaynaklar, analiz ve yorum yazıları (s
 `auto-data`'da olup `main`'de olmayan kayıt dosyalarını koyar; bir kayıt doğrulanıp PR ile `main`'e taşındığında
 derleme onu `main`'den okur. Sayılar: `main`'deki kayıtlar ile sitedeki kayıtlar bu yüzden farklıdır.
 
+**Arşiv, doğrulamanın ilk adımı:** her çalıştırma otomatik kayıtların kaynaklarından en çok 15'ine Wayback kopyası
+bağlar: varsa mevcut kopya, yoksa anahtarsız Save Page Now (`archive.py --tag otomatik --anonymous`). Alınamayan
+kopya sonraki çalıştırmada yeniden denenir. / Each run gives up to 15 sources of automatic records a Wayback copy,
+the first step towards verification.
+
 **Acil durdurma:** depo değişkeni `AUTO_RECORDS` `on` değilse iş hiçbir şey yazmaz.
 
 ```bash
@@ -133,7 +138,7 @@ python tools/auto_records.py --dry-run --days 3   # ne yazılacağını göster
 gh variable set AUTO_RECORDS --body off -R Greater-Turkiye/datasets   # durdur
 ```
 
-Twice a day the workflow reads the collector's last three days of batches and commits the candidates that
+Every six hours, forty minutes after each collector run, the workflow reads the collector's last three days of batches and commits the candidates that
 passed its relevance filter as unverified event records to the `auto-data` branch; `main` stays the
 human-reviewed record, and the Pages build lays the automatic records over it. The English title is the source's
 headline and the Turkish one a MyMemory machine translation; rules on the headline pick the type and drop analysis
