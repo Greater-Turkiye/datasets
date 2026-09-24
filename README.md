@@ -107,6 +107,34 @@ Bunu tamamen otomatik hâle getirmek için / To make it fully automatic again, e
   machine account with contents / pull-requests / issues write), which also makes the generated PR start the
   `validate` check on its own.
 
+## Otomatik kayıtlar / Automatic records
+
+[`auto-records`](.github/workflows/auto-records.yml) günde iki kez (06:41 ve 18:41 UTC) toplayıcının son üç
+günlük partilerini okur ve ilgi süzgecinden geçen adayları **doğrulanmamış olay kaydı** olarak doğrudan `main`'e
+yazar ([ADR 0023](https://github.com/Greater-Turkiye/handbook/blob/main/decisions/0023-automatic-unverified-records.md)).
+GitHub Models her aday için olay mı yoksa analiz/yorum mu olduğuna karar verir, türü ve bölgeyi sözlükten
+seçer, aynı olayın tekrar haberlerini tek kayda toplar ve Türkçe/İngilizce başlık ile özeti kaynağa atfederek
+yazar. Her kayıt `assessment.status: unverified`, `credibility: 6`, `i18n.machine: [tr, en]`, `tags: [otomatik]`
+ve bunu söyleyen bir not taşır; `gt.py validate` ile `fmt --check`'ten geçmeyen dosya yazılmaz.
+
+Otomatik yoldan **geçmeyenler:** toplayıcının `redline_check` işaretlediği ve metninde Türk kuvvetlerini anan
+adaylar (bir insanı bekler), E/F notlu kaynaklar ve zaten bir kayıtta kaynak olan adresler. Herkese açık akış
+(`feed.xml`) otomatik kayıtları içermez; yalnızca `verified` ve `partially_verified` olanları yayar.
+
+**Acil durdurma:** depo değişkeni `AUTO_RECORDS` `on` değilse iş hiçbir şey yazmaz.
+
+```bash
+python tools/auto_records.py --dry-run --days 3   # ne yazılacağını göster
+gh variable set AUTO_RECORDS --body off -R Greater-Turkiye/datasets   # durdur
+```
+
+Twice a day the workflow reads the collector's last three days of batches and commits the candidates that
+passed its relevance filter as unverified event records. The model decides whether an item is an event at all,
+picks the type and region from the vocabularies, folds repeat reports together and writes an attributed title
+and summary in both languages; each record says it is automatic, machine-written and unverified. Items the
+collector flagged for the red line, items naming Turkish forces and sources graded E or F never take this path.
+The repository variable `AUTO_RECORDS` is the kill switch.
+
 ## Temel kurallar / Core rules
 
 - **ID'ler kalıcıdır** — değişmez, silinmez, taşınmaz; dosya yolu ID'den türetilir. / IDs are permanent; the path is derived from the ID.
