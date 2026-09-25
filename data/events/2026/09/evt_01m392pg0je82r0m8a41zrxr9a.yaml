@@ -24,6 +24,10 @@ sources:
     title: UN condemns attempted Houthi strike on Riyadh as Yemen displacement surges past 130,000
     published_at: 2026-09-21T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925111107/https://news.un.org/feed/view/en/story/2026/09/1168387
+        captured_at: 2026-09-25T11:11:07Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Operation Vivaldi: Ukrainian forces use ground robots to lay 400 m of minefields in two nights"
     published_at: 2026-09-23T14:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924170325/https://www.ukrinform.net/rubric-ato/4167207-operation-vivaldi-ukrainian-forces-use-ground-robots-to-lay-400-m-of-minefields-in-two-nights.html
+        captured_at: 2026-09-24T17:03:25Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,27 +1,23 @@
-id: evt_01m392r6c4et7vftsf2z08s0k5
+id: evt_01m3c3z9sdex299mbf4xw7hs6b
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Azov, Rusya'nın Druzhkivka yakınlarındaki lojistik rotalara ulaşma girişimini engelledi
-  en: Azov thwarts Russian attempt to reach logistics routes near Druzhkivka
+  tr: ADF, Rusya'nın Ukrayna'ya bir gecede saldırmak için kullandığı 295 insansız hava aracından 267 'sini düşürdü
+  en: ADF down 267 out of 295 drones used by Russia to attack Ukraine overnight
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T12:23Z
+reported_at: 2026-09-25T05:15Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167169-azov-thwarts-russian-attempt-to-reach-logistics-routes-near-druzhkivka.html
-    title: Azov thwarts Russian attempt to reach logistics routes near Druzhkivka
-    published_at: 2026-09-23T12:23Z
+  - url: https://www.ukrinform.net/rubric-ato/4167791-adf-down-267-out-of-295-drones-used-by-russia-to-attack-ukraine-overnight.html
+    title: ADF down 267 out of 295 drones used by Russia to attack Ukraine overnight
+    published_at: 2026-09-25T05:15Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924170022/https://www.ukrinform.net/rubric-ato/4167169-azov-thwarts-russian-attempt-to-reach-logistics-routes-near-druzhkivka.html
-        captured_at: 2026-09-24T17:00:22Z
 assessment:
   status: unverified
   credibility: 6

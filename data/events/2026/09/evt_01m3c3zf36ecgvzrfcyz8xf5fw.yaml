@@ -1,0 +1,33 @@
+id: evt_01m3c3zf36ecgvzrfcyz8xf5fw
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: Rus insansız hava araçları sabah saldırısında Zaporijya'ya saldırdı, bir kişi yaralandı, tıp merkezi yanıyor
+  en: Russian drones attack Zaporizhzhia in morning strike, one person injured, medical center on fire
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-25T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-25T06:30Z
+location:
+  geometry: {type: Point, coordinates: [35.175, 47.859]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Zaporijya, en: Zaporizhzhya}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4167812-russian-drones-attack-zaporizhzhia-in-morning-strike-one-person-injured-medical-center-on-fire.html
+    title: Russian drones attack Zaporizhzhia in morning strike, one person injured, medical center on fire
+    published_at: 2026-09-25T06:30Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

@@ -1,27 +1,23 @@
-id: evt_01m392r6c4et7vftsf2z08s0k5
+id: evt_01m3c3z2q6f3bb43zj8knqq2as
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.clash
 title:
-  tr: Azov, Rusya'nın Druzhkivka yakınlarındaki lojistik rotalara ulaşma girişimini engelledi
-  en: Azov thwarts Russian attempt to reach logistics routes near Druzhkivka
+  tr: "Savaş güncellemesi: Ön cephede 185 çatışma, Pokrovsk sektöründe 27 saldırı geri püskürtüldü"
+  en: "War update: 185 clashes on front line, 27 attacks repelled in Pokrovsk sector"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T12:23Z
+reported_at: 2026-09-24T20:20Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167169-azov-thwarts-russian-attempt-to-reach-logistics-routes-near-druzhkivka.html
-    title: Azov thwarts Russian attempt to reach logistics routes near Druzhkivka
-    published_at: 2026-09-23T12:23Z
+  - url: https://www.ukrinform.net/rubric-ato/4167760-war-update-185-clashes-on-front-line-27-attacks-repelled-in-pokrovsk-sector.html
+    title: "War update: 185 clashes on front line, 27 attacks repelled in Pokrovsk sector"
+    published_at: 2026-09-24T20:20Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924170022/https://www.ukrinform.net/rubric-ato/4167169-azov-thwarts-russian-attempt-to-reach-logistics-routes-near-druzhkivka.html
-        captured_at: 2026-09-24T17:00:22Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Ukrainian border guards evacuate 15 crew members from vessel attacked by Russia in Black Sea
     published_at: 2026-09-23T14:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924170313/https://www.ukrinform.net/rubric-ato/4167214-ukrainian-border-guards-evacuate-15-crew-members-from-vessel-attacked-by-russia-in-black-sea.html
+        captured_at: 2026-09-24T17:03:13Z
 assessment:
   status: unverified
   credibility: 6

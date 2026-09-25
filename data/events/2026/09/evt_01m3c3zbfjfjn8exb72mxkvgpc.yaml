@@ -1,17 +1,17 @@
-id: evt_01m392r4rsfsjtq9tkbrzkzfqy
+id: evt_01m3c3zbfjfjn8exb72mxkvgpc
 schema: event/1
-event_type: diplomatic.statement
+event_type: kinetic.drone-strike
 title:
-  tr: Kiev makamları ek mobil barınakların kurulumunu hızlandırmaya çağırıldı – Koretskyi
-  en: Kyiv authorities urged to speed up installation of additional mobile shelters – Koretskyi
+  tr: Kiev'e düzenlenen Rus insansız hava aracı saldırısında apartman binası hasar gördü
+  en: Apartment building damaged in Russian drone attack on Kyiv
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T12:10Z
+reported_at: 2026-09-25T05:50Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167157-kyiv-authorities-urged-to-speed-up-installation-of-additional-mobile-shelters-koretskyi.html
-    title: Kyiv authorities urged to speed up installation of additional mobile shelters – Koretskyi
-    published_at: 2026-09-23T12:10Z
+  - url: https://www.ukrinform.net/rubric-ato/4167799-apartment-building-damaged-in-russian-drone-attack-on-kyiv.html
+    title: Apartment building damaged in Russian drone attack on Kyiv
+    published_at: 2026-09-25T05:50Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924170007/https://www.ukrinform.net/rubric-ato/4167157-kyiv-authorities-urged-to-speed-up-installation-of-additional-mobile-shelters-koretskyi.html
-        captured_at: 2026-09-24T17:00:07Z
 assessment:
   status: unverified
   credibility: 6

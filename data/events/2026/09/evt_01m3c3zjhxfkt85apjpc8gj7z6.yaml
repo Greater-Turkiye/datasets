@@ -1,27 +1,23 @@
-id: evt_01m392rfp6e9k9trbfxcqfpwez
+id: evt_01m3c3zjhxfkt85apjpc8gj7z6
 schema: event/1
 event_type: diplomatic.statement
 title:
-  tr: Dışişleri Bakanı Ukrayna konusunda BMGK'ya hitap etti
-  en: Foreign Secretary address to the UNSC on Ukraine
+  tr: "İngiltere ve diğerleri, Rusya'nın AGİT taahhütlerini yerine getirmemesini kınadı: AGİT'e ortak açıklama"
+  en: "UK and others condemn Russia's failure to uphold OSCE commitments: joint statement to the OSCE"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T16:29Z
+reported_at: 2026-09-25T06:59Z
 regions: [black-sea]
 sources:
-  - url: https://www.gov.uk/government/speeches/foreign-secretary-address-to-the-unsc-on-ukraine
-    title: Foreign Secretary address to the UNSC on Ukraine
-    published_at: 2026-09-23T16:29Z
+  - url: https://www.gov.uk/government/speeches/uk-and-others-condemn-russias-failure-to-uphold-osce-commitments-joint-statement-to-the-osce
+    title: "UK and others condemn Russia's failure to uphold OSCE commitments: joint statement to the OSCE"
+    published_at: 2026-09-25T06:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924113759/https://www.gov.uk/government/speeches/foreign-secretary-address-to-the-unsc-on-ukraine
-        captured_at: 2026-09-24T11:37:59Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russia strikes Kramatorsk with Uragan MLRS, injuring nine
     published_at: 2026-09-23T15:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924170554/https://www.ukrinform.net/rubric-ato/4167255-russia-strikes-kramatorsk-with-uragan-mlrs-injuring-nine.html
+        captured_at: 2026-09-24T17:05:54Z
 assessment:
   status: unverified
   credibility: 6

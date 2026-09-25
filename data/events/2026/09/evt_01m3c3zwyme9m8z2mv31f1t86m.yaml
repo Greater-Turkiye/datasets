@@ -1,17 +1,17 @@
-id: evt_01m392r4rsfsjtq9tkbrzkzfqy
+id: evt_01m3c3zwyme9m8z2mv31f1t86m
 schema: event/1
-event_type: diplomatic.statement
+event_type: kinetic.drone-strike
 title:
-  tr: Kiev makamları ek mobil barınakların kurulumunu hızlandırmaya çağırıldı – Koretskyi
-  en: Kyiv authorities urged to speed up installation of additional mobile shelters – Koretskyi
+  tr: Kiev'e düzenlenen insansız hava aracı saldırısının ardından yaralanan çocuk sayısı 9 'a yükseldi, 14 yaşındaki çocuk öldürüldü
+  en: Injury toll after drone attack on Kyiv rises to nine, 14-year-old boy killed
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T12:10Z
+reported_at: 2026-09-25T08:38Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167157-kyiv-authorities-urged-to-speed-up-installation-of-additional-mobile-shelters-koretskyi.html
-    title: Kyiv authorities urged to speed up installation of additional mobile shelters – Koretskyi
-    published_at: 2026-09-23T12:10Z
+  - url: https://www.ukrinform.net/rubric-ato/4167880-injury-toll-after-drone-attack-on-kyiv-rises-to-nine-14yearold-boy-killed.html
+    title: Injury toll after drone attack on Kyiv rises to nine, 14-year-old boy killed
+    published_at: 2026-09-25T08:38Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924170007/https://www.ukrinform.net/rubric-ato/4167157-kyiv-authorities-urged-to-speed-up-installation-of-additional-mobile-shelters-koretskyi.html
-        captured_at: 2026-09-24T17:00:07Z
 assessment:
   status: unverified
   credibility: 6

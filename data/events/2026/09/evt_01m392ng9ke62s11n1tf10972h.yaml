@@ -18,6 +18,10 @@ sources:
     title: В результате обрушения здания в Газе погибли по меньшей мере 20 человек, поиски выживших продолжаются
     published_at: 2026-09-16T12:00Z
     lang: ru
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925110757/https://news.un.org/feed/view/ru/story/2026/09/1468696
+        captured_at: 2026-09-25T11:07:57Z
 assessment:
   status: unverified
   credibility: 6

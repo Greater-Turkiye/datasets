@@ -24,6 +24,10 @@ sources:
     title: Russians attack railway infrastructure in Kyiv – Ukrzaliznytsia
     published_at: 2026-09-23T08:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925032723/https://www.ukrinform.net/rubric-ato/4167061-russians-attack-railway-infrastructure-in-kyiv-ukrzaliznytsia.html
+        captured_at: 2026-09-25T03:27:23Z
 assessment:
   status: unverified
   credibility: 6

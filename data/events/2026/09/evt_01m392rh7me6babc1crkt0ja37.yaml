@@ -24,6 +24,10 @@ sources:
     title: Russian forces launch another attack on non-residential complex in Kyiv's Pecherskyi district
     published_at: 2026-09-23T18:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924170921/https://www.ukrinform.net/rubric-ato/4167345-russian-forces-launch-another-attack-on-nonresidential-complex-in-kyivs-pecherskyi-district.html
+        captured_at: 2026-09-24T17:09:21Z
 assessment:
   status: unverified
   credibility: 6

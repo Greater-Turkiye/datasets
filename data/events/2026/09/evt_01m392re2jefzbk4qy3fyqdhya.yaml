@@ -24,6 +24,10 @@ sources:
     title: Russians drop guided glide bombs on Sumy, injuring seven
     published_at: 2026-09-23T15:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924170551/https://www.ukrinform.net/rubric-ato/4167271-russians-drop-guided-glide-bombs-on-sumy-injuring-seven.html
+        captured_at: 2026-09-24T17:05:51Z
 assessment:
   status: unverified
   credibility: 6
