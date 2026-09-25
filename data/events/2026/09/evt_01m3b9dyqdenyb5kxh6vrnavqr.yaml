@@ -1,27 +1,23 @@
-id: evt_01m392qy26f7ha87x2w29313vk
+id: evt_01m3b9dyqdenyb5kxh6vrnavqr
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: policy.defense
 title:
-  tr: Netanyahu Avukatı, Sırbistan'da İsrail SİHA'ları İnşa Etme Operasyonu Kapsamında
-  en: Netanyahu Lawyer Part of Operation to Build Israeli Drones in Serbia
+  tr: Arnavutluk Casus Şefi NATO Üyesinin İtibarına Büyük Darbe Vurdu
+  en: Albanian Spy Chief’s Arrest a Major Blow to NATO Member’s Reputation
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T10:57Z
-regions: [levant]
+reported_at: 2026-09-24T06:00Z
+regions: [balkans]
 sources:
-  - url: https://balkaninsight.com/2026/09/23/netanyahu-lawyer-part-of-operation-to-build-israeli-drones-in-serbia/bi/
-    title: Netanyahu Lawyer Part of Operation to Build Israeli Drones in Serbia
-    published_at: 2026-09-23T10:57Z
+  - url: https://balkaninsight.com/2026/09/24/albanian-spy-chiefs-arrest-a-major-blow-to-nato-members-reputation/bi/
+    title: Albanian Spy Chief’s Arrest a Major Blow to NATO Member’s Reputation
+    published_at: 2026-09-24T06:00Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924165727/https://balkaninsight.com/2026/09/23/netanyahu-lawyer-part-of-operation-to-build-israeli-drones-in-serbia/bi/
-        captured_at: 2026-09-24T16:57:27Z
 assessment:
   status: unverified
   credibility: 6

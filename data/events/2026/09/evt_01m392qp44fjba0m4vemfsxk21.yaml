@@ -24,6 +24,10 @@ sources:
     title: Defense Forces strike Russian command posts and UAV depot in Donetsk region
     published_at: 2026-09-23T09:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924170013/https://www.ukrinform.net/rubric-ato/4167092-defense-forces-strike-russian-command-posts-and-uav-depot-in-donetsk-region.html
+        captured_at: 2026-09-24T17:00:13Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Kyiv leaves one dead, eight injured
     published_at: 2026-09-23T07:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924164842/https://www.ukrinform.net/rubric-ato/4167045-updated-russian-attack-on-kyiv-leaves-one-dead-eight-injured.html
+        captured_at: 2026-09-24T16:48:42Z
 assessment:
   status: unverified
   credibility: 6

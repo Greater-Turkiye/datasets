@@ -1,27 +1,23 @@
-id: evt_01m392qjsjff1t5rrmyhtd280m
+id: evt_01m3b9e23tfqcsgnmedc6agz1f
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: deployment.announced
 title:
-  tr: Dronlar Başkurdistan'a saldırdı, Ufa Petrol Rafinerisi yakınlarında duman görüldü – medya
-  en: Drones attack Bashkortostan, smoke seen near Ufa Oil Refinery – media
+  tr: Rus ordusu Ukrayna'ya karşı savaşta 1.540 askerini daha kaybetti
+  en: Russian army loses another 1,540 troops in war against Ukraine
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T08:25Z
+reported_at: 2026-09-24T06:19Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167075-drones-attack-bashkortostan-smoke-seen-near-ufa-oil-refinery-media.html
-    title: Drones attack Bashkortostan, smoke seen near Ufa Oil Refinery – media
-    published_at: 2026-09-23T08:25Z
+  - url: https://www.ukrinform.net/rubric-ato/4167423-russian-army-loses-another-1540-troops-in-war-against-ukraine.html
+    title: Russian army loses another 1,540 troops in war against Ukraine
+    published_at: 2026-09-24T06:19Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924165139/https://www.ukrinform.net/rubric-ato/4167075-drones-attack-bashkortostan-smoke-seen-near-ufa-oil-refinery-media.html
-        captured_at: 2026-09-24T16:51:39Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Mikhail Mishustin’s conversation with General Secretary of the Communist Party of Vietnam Central Committee, President of the Socialist Republic of Vietnam To Lam
     published_at: 2026-09-08T11:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924210858/http://government.ru/en/news/59810/
+        captured_at: 2026-09-24T21:08:58Z
 assessment:
   status: unverified
   credibility: 6

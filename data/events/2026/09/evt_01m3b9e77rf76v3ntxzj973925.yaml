@@ -1,27 +1,23 @@
-id: evt_01m392qjsjff1t5rrmyhtd280m
+id: evt_01m3b9e77rf76v3ntxzj973925
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.clash
 title:
-  tr: Dronlar Başkurdistan'a saldırdı, Ufa Petrol Rafinerisi yakınlarında duman görüldü – medya
-  en: Drones attack Bashkortostan, smoke seen near Ufa Oil Refinery – media
+  tr: "Savaş güncellemesi: Geçen gün ön tarafta 277 muharebe çatışması"
+  en: "War update: 277 combat engagements at front over past day"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T08:25Z
+reported_at: 2026-09-24T06:59Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167075-drones-attack-bashkortostan-smoke-seen-near-ufa-oil-refinery-media.html
-    title: Drones attack Bashkortostan, smoke seen near Ufa Oil Refinery – media
-    published_at: 2026-09-23T08:25Z
+  - url: https://www.ukrinform.net/rubric-ato/4167439-war-update-277-combat-engagements-at-front-over-past-day.html
+    title: "War update: 277 combat engagements at front over past day"
+    published_at: 2026-09-24T06:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924165139/https://www.ukrinform.net/rubric-ato/4167075-drones-attack-bashkortostan-smoke-seen-near-ufa-oil-refinery-media.html
-        captured_at: 2026-09-24T16:51:39Z
 assessment:
   status: unverified
   credibility: 6

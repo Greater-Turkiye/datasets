@@ -18,6 +18,10 @@ sources:
     title: Telephone conversation with Crown Prince and Prime Minister of Saudi Arabia Mohammed bin Salman Al Saud
     published_at: 2026-09-22T11:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924211606/http://en.kremlin.ru/events/president/news/80819
+        captured_at: 2026-09-24T21:16:06Z
 assessment:
   status: unverified
   credibility: 6

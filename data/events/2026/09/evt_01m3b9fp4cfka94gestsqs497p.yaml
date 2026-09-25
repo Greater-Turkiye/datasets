@@ -1,33 +1,29 @@
-id: evt_01m392qe36fxv8b5vjm4357m28
+id: evt_01m3b9fp4cfka94gestsqs497p
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rus saldırısı Odesa bölgesindeki alışveriş merkezini vurdu
-  en: Russian attack hits shopping center in Odesa region
+  tr: Rusya'nın Herson bölgesindeki saldırılarda dört kişi yaralandı
+  en: Russian attacks in Kherson region leave four injured
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T07:57Z
+reported_at: 2026-09-24T15:57Z
 location:
-  geometry: {type: Point, coordinates: [30.708, 46.492]}
+  geometry: {type: Point, coordinates: [32.601, 46.633]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Odesa bölgesi, en: Odessa region}
+  place_name: {tr: Herson bölgesi, en: Kherson region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167037-russian-attack-hits-shopping-center-in-odesa-region.html
-    title: Russian attack hits shopping center in Odesa region
-    published_at: 2026-09-23T07:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4167690-russian-attacks-in-kherson-region-leave-four-injured.html
+    title: Russian attacks in Kherson region leave four injured
+    published_at: 2026-09-24T15:57Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924164853/https://www.ukrinform.net/rubric-ato/4167037-russian-attack-hits-shopping-center-in-odesa-region.html
-        captured_at: 2026-09-24T16:48:53Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,27 +1,23 @@
-id: evt_01m392qjsjff1t5rrmyhtd280m
+id: evt_01m3b9e8ytfq2ag0xxj4jctjv9
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Dronlar Başkurdistan'a saldırdı, Ufa Petrol Rafinerisi yakınlarında duman görüldü – medya
-  en: Drones attack Bashkortostan, smoke seen near Ufa Oil Refinery – media
+  tr: Rus insansız hava aracı Khmelnytskyi'deki yüksek katlı konut binasını vurdu
+  en: Russian drone hits high-rise residential building in Khmelnytskyi
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T08:25Z
+reported_at: 2026-09-24T07:17Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167075-drones-attack-bashkortostan-smoke-seen-near-ufa-oil-refinery-media.html
-    title: Drones attack Bashkortostan, smoke seen near Ufa Oil Refinery – media
-    published_at: 2026-09-23T08:25Z
+  - url: https://www.ukrinform.net/rubric-ato/4167442-russian-drone-hits-highrise-residential-building-in-khmelnytskyi.html
+    title: Russian drone hits high-rise residential building in Khmelnytskyi
+    published_at: 2026-09-24T07:17Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924165139/https://www.ukrinform.net/rubric-ato/4167075-drones-attack-bashkortostan-smoke-seen-near-ufa-oil-refinery-media.html
-        captured_at: 2026-09-24T16:51:39Z
 assessment:
   status: unverified
   credibility: 6

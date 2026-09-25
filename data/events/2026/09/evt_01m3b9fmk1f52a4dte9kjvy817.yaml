@@ -1,17 +1,17 @@
-id: evt_01m392qmf3f6hahz6mvdkfan0b
+id: evt_01m3b9fmk1f52a4dte9kjvy817
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.missile-strike
 title:
-  tr: "Kiev'in iki bölgesinde Rus insansız hava araçları düştü: Ulaşım tesisi ve mağaza vuruldu, bina hasar gördü"
-  en: Russian drones crash in two Kyiv districts – transport facility and store hit, building damaged
+  tr: "Yaklaşık 230 kg'lık savaş başlığı: Kiev'de patlamamış balistik füze etkisiz hale getirildi"
+  en: "Nearly 230-kg warhead: Unexploded ballistic missile neutralized in Kyiv"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T08:48Z
+reported_at: 2026-09-24T15:19Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167081-russian-drones-crash-in-two-kyiv-districts-transport-facility-and-store-hit-building-damaged.html
-    title: Russian drones crash in two Kyiv districts – transport facility and store hit, building damaged
-    published_at: 2026-09-23T08:48Z
+  - url: https://www.ukrinform.net/rubric-ato/4167681-nearly-230kg-warhead-unexploded-ballistic-missile-neutralized-in-kyiv.html
+    title: "Nearly 230-kg warhead: Unexploded ballistic missile neutralized in Kyiv"
+    published_at: 2026-09-24T15:19Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924165154/https://www.ukrinform.net/rubric-ato/4167081-russian-drones-crash-in-two-kyiv-districts-transport-facility-and-store-hit-building-damaged.html
-        captured_at: 2026-09-24T16:51:54Z
 assessment:
   status: unverified
   credibility: 6

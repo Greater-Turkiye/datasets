@@ -24,6 +24,10 @@ sources:
     title: Death toll from Russian attack on Kyiv rises to two, with 22 people injured
     published_at: 2026-09-23T10:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924170012/https://www.ukrinform.net/rubric-ato/4167122-death-toll-from-russian-attack-on-kyiv-rises-to-two-with-22-people-injured.html
+        captured_at: 2026-09-24T17:00:12Z
 assessment:
   status: unverified
   credibility: 6

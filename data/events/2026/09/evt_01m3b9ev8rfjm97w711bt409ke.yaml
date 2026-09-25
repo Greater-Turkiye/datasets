@@ -1,27 +1,23 @@
-id: evt_01m392prdxem2asn5x8seje6yp
+id: evt_01m3b9ev8rfjm97w711bt409ke
 schema: event/1
 event_type: diplomatic.statement
 title:
-  tr: G7 Bab al - Mandab ve Seyrüsefer Hakları ve Özgürlükleri Beyanı
-  en: G7 Statement on Bab al-Mandab and Navigational Rights and Freedoms
+  tr: "Ukrayna'yı desteklemek ve AGİT ilkelerini savunmak: İngiltere'nin AGİT Parlamenter Asamblesi Başkanına yaptığı açıklama"
+  en: "Supporting Ukraine and defending OSCE principles: UK statement to the President of the OSCE Parliamentary Assembly"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-22T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-22T08:27Z
-regions: [gulf-red-sea]
+reported_at: 2026-09-24T11:02Z
+regions: [black-sea]
 sources:
-  - url: https://www.gov.uk/government/news/g7-statement-on-bab-al-mandab-and-navigational-rights-and-freedoms
-    title: G7 Statement on Bab al-Mandab and Navigational Rights and Freedoms
-    published_at: 2026-09-22T08:27Z
+  - url: https://www.gov.uk/government/speeches/supporting-ukraine-and-defending-osce-principles-uk-statement-to-the-president-of-the-osce-parliamentary-assembly
+    title: "Supporting Ukraine and defending OSCE principles: UK statement to the President of the OSCE Parliamentary Assembly"
+    published_at: 2026-09-24T11:02Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924211559/https://www.gov.uk/government/news/g7-statement-on-bab-al-mandab-and-navigational-rights-and-freedoms
-        captured_at: 2026-09-24T21:15:59Z
 assessment:
   status: unverified
   credibility: 6

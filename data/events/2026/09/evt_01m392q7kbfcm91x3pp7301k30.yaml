@@ -26,6 +26,10 @@ sources:
     title: Russians attack warehouses in Odesa region and cargo ship in Black Sea – captain killed
     published_at: 2026-09-23T07:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924212130/https://www.ukrinform.net/rubric-ato/4167031-updated-russians-attack-warehouses-in-odesa-region-and-cargo-ship-in-black-sea-captain-killed.html
+        captured_at: 2026-09-24T21:21:30Z
 assessment:
   status: unverified
   credibility: 6

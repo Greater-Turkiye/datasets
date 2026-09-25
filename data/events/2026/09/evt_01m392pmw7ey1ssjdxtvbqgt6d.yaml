@@ -18,6 +18,10 @@ sources:
     title: UN Chief Condemns Mladic Glorification in Meeting with Bosnian Leader
     published_at: 2026-09-21T15:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924163941/https://balkaninsight.com/2026/09/21/un-chief-condemns-mladic-glorification-in-meeting-with-bosnian-leader/btj/
+        captured_at: 2026-09-24T16:39:41Z
 assessment:
   status: unverified
   credibility: 6

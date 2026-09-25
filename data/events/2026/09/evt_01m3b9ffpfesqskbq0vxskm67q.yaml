@@ -1,27 +1,23 @@
-id: evt_01m392qy26f7ha87x2w29313vk
+id: evt_01m3b9ffpfesqskbq0vxskm67q
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Netanyahu Avukatı, Sırbistan'da İsrail SİHA'ları İnşa Etme Operasyonu Kapsamında
-  en: Netanyahu Lawyer Part of Operation to Build Israeli Drones in Serbia
+  tr: Başlıca Şüpheliler Serbest Kalırken Kosova, Banjska Saldırısının Yıldönümünü Kutladı
+  en: Kosovo Marks Banjska Attack Anniversary as Main Suspects Remain Free
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T10:57Z
-regions: [levant]
+reported_at: 2026-09-24T14:03Z
+regions: [balkans]
 sources:
-  - url: https://balkaninsight.com/2026/09/23/netanyahu-lawyer-part-of-operation-to-build-israeli-drones-in-serbia/bi/
-    title: Netanyahu Lawyer Part of Operation to Build Israeli Drones in Serbia
-    published_at: 2026-09-23T10:57Z
+  - url: https://balkaninsight.com/2026/09/24/kosovo-marks-banjska-attack-anniversary-as-main-suspects-remain-free/bi/
+    title: Kosovo Marks Banjska Attack Anniversary as Main Suspects Remain Free
+    published_at: 2026-09-24T14:03Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924165727/https://balkaninsight.com/2026/09/23/netanyahu-lawyer-part-of-operation-to-build-israeli-drones-in-serbia/bi/
-        captured_at: 2026-09-24T16:57:27Z
 assessment:
   status: unverified
   credibility: 6

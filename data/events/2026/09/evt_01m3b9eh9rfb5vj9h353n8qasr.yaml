@@ -1,27 +1,23 @@
-id: evt_01m392prdxem2asn5x8seje6yp
+id: evt_01m3b9eh9rfb5vj9h353n8qasr
 schema: event/1
 event_type: diplomatic.statement
 title:
-  tr: G7 Bab al - Mandab ve Seyrüsefer Hakları ve Özgürlükleri Beyanı
-  en: G7 Statement on Bab al-Mandab and Navigational Rights and Freedoms
+  tr: "İngiltere'nin Etiyopya'nın kuzeyinde tırmanışa ilişkin açıklaması: 24 Eylül"
+  en: "UK statement on escalation in northern Ethiopia: 24 September"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-22T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-22T08:27Z
+reported_at: 2026-09-24T08:46Z
 regions: [gulf-red-sea]
 sources:
-  - url: https://www.gov.uk/government/news/g7-statement-on-bab-al-mandab-and-navigational-rights-and-freedoms
-    title: G7 Statement on Bab al-Mandab and Navigational Rights and Freedoms
-    published_at: 2026-09-22T08:27Z
+  - url: https://www.gov.uk/government/news/uk-statement-on-escalation-in-northern-ethiopia-24-september
+    title: "UK statement on escalation in northern Ethiopia: 24 September"
+    published_at: 2026-09-24T08:46Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924211559/https://www.gov.uk/government/news/g7-statement-on-bab-al-mandab-and-navigational-rights-and-freedoms
-        captured_at: 2026-09-24T21:15:59Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,33 +1,29 @@
-id: evt_01m392qe36fxv8b5vjm4357m28
+id: evt_01m3b9ec64ed99mzag51nrfqv0
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rus saldırısı Odesa bölgesindeki alışveriş merkezini vurdu
-  en: Russian attack hits shopping center in Odesa region
+  tr: Rusya'nın Harkov bölgesindeki çiftliğe düzenlediği saldırıda 7 kişi öldü, 12 kişi yaralandı
+  en: Seven killed, 12 injured in Russian attack on farm in Kharkiv region
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T07:57Z
+reported_at: 2026-09-24T08:00Z
 location:
-  geometry: {type: Point, coordinates: [30.708, 46.492]}
+  geometry: {type: Point, coordinates: [36.248, 50.002]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Odesa bölgesi, en: Odessa region}
+  place_name: {tr: Kharkiv bölgesi, en: Kharkiv region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167037-russian-attack-hits-shopping-center-in-odesa-region.html
-    title: Russian attack hits shopping center in Odesa region
-    published_at: 2026-09-23T07:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4167463-seven-killed-12-injured-in-russian-attack-on-farm-in-kharkiv-region.html
+    title: Seven killed, 12 injured in Russian attack on farm in Kharkiv region
+    published_at: 2026-09-24T08:00Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924164853/https://www.ukrinform.net/rubric-ato/4167037-russian-attack-hits-shopping-center-in-odesa-region.html
-        captured_at: 2026-09-24T16:48:53Z
 assessment:
   status: unverified
   credibility: 6

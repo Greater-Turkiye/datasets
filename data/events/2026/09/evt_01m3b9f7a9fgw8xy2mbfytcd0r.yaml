@@ -1,0 +1,33 @@
+id: evt_01m3b9f7a9fgw8xy2mbfytcd0r
+schema: event/1
+event_type: kinetic.clash
+title:
+  tr: "BM'deki İsrail lideri: \"Kazanacağız. Başka çaremiz yok\""
+  en: "Israeli leader at UN: ‘We’re going to win. We have no other choice’"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-24T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-24T12:00Z
+location:
+  geometry: {type: Point, coordinates: [34.445, 31.53]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Gazze, en: Gaza City}
+regions: [levant]
+sources:
+  - url: https://news.un.org/feed/view/en/story/2026/09/1168431
+    title: "Israeli leader at UN: ‘We’re going to win. We have no other choice’"
+    published_at: 2026-09-24T12:00Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: un-news-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: un-news-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

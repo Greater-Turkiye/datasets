@@ -1,27 +1,23 @@
-id: evt_01m392prdxem2asn5x8seje6yp
+id: evt_01m3b9e5gseybssfx4bre9gr80
 schema: event/1
 event_type: diplomatic.statement
 title:
-  tr: G7 Bab al - Mandab ve Seyrüsefer Hakları ve Özgürlükleri Beyanı
-  en: G7 Statement on Bab al-Mandab and Navigational Rights and Freedoms
+  tr: "İngiltere'den AGİT'e açıklama: Rusya barışa giden yolu reddederken güvensizliği artırıyor"
+  en: "Russia is widening insecurity while refusing the path to peace: UK statement to the OSCE"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-22T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-22T08:27Z
-regions: [gulf-red-sea]
+reported_at: 2026-09-24T06:40Z
+regions: [black-sea]
 sources:
-  - url: https://www.gov.uk/government/news/g7-statement-on-bab-al-mandab-and-navigational-rights-and-freedoms
-    title: G7 Statement on Bab al-Mandab and Navigational Rights and Freedoms
-    published_at: 2026-09-22T08:27Z
+  - url: https://www.gov.uk/government/speeches/russia-is-widening-insecurity-while-refusing-the-path-to-peace-uk-statement-to-the-osce
+    title: "Russia is widening insecurity while refusing the path to peace: UK statement to the OSCE"
+    published_at: 2026-09-24T06:40Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924211559/https://www.gov.uk/government/news/g7-statement-on-bab-al-mandab-and-navigational-rights-and-freedoms
-        captured_at: 2026-09-24T21:15:59Z
 assessment:
   status: unverified
   credibility: 6

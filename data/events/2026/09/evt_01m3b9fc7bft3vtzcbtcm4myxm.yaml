@@ -1,27 +1,23 @@
-id: evt_01m392qjsjff1t5rrmyhtd280m
+id: evt_01m3b9fc7bft3vtzcbtcm4myxm
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.clash
 title:
-  tr: Dronlar Başkurdistan'a saldırdı, Ufa Petrol Rafinerisi yakınlarında duman görüldü – medya
-  en: Drones attack Bashkortostan, smoke seen near Ufa Oil Refinery – media
+  tr: "Polonya Başbakan Yardımcısı Starlink istasyonundaki yangında: Rusya, Ukrayna'yı önde internet erişiminden mahrum bırakmaya çalışıyor"
+  en: "Polish Deputy PM on Starlink station fire: Russia tries to deprive Ukraine of internet access at front"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-24T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T08:25Z
+reported_at: 2026-09-24T13:17Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167075-drones-attack-bashkortostan-smoke-seen-near-ufa-oil-refinery-media.html
-    title: Drones attack Bashkortostan, smoke seen near Ufa Oil Refinery – media
-    published_at: 2026-09-23T08:25Z
+  - url: https://www.ukrinform.net/rubric-ato/4167614-polish-deputy-pm-on-starlink-station-fire-russia-tries-to-deprive-ukraine-of-internet-access-at-front.html
+    title: "Polish Deputy PM on Starlink station fire: Russia tries to deprive Ukraine of internet access at front"
+    published_at: 2026-09-24T13:17Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924165139/https://www.ukrinform.net/rubric-ato/4167075-drones-attack-bashkortostan-smoke-seen-near-ufa-oil-refinery-media.html
-        captured_at: 2026-09-24T16:51:39Z
 assessment:
   status: unverified
   credibility: 6
