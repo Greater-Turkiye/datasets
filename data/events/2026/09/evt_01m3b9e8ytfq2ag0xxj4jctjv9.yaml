@@ -18,6 +18,10 @@ sources:
     title: Russian drone hits high-rise residential building in Khmelnytskyi
     published_at: 2026-09-24T07:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924173204/https://www.ukrinform.net/rubric-ato/4167442-russian-drone-hits-highrise-residential-building-in-khmelnytskyi.html
+        captured_at: 2026-09-24T17:32:04Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian attacks in Kyiv region damage eight sites, one person injured
     published_at: 2026-09-24T07:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924174611/https://www.ukrinform.net/rubric-ato/4167443-russian-attacks-in-kyiv-region-damage-eight-sites-one-person-injured.html
+        captured_at: 2026-09-24T17:46:11Z
 assessment:
   status: unverified
   credibility: 6

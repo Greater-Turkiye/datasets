@@ -18,6 +18,10 @@ sources:
     title: "War update: 277 combat engagements at front over past day"
     published_at: 2026-09-24T06:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924173205/https://www.ukrinform.net/rubric-ato/4167439-war-update-277-combat-engagements-at-front-over-past-day.html
+        captured_at: 2026-09-24T17:32:05Z
 assessment:
   status: unverified
   credibility: 6

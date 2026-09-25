@@ -18,6 +18,10 @@ sources:
     title: "Russia is widening insecurity while refusing the path to peace: UK statement to the OSCE"
     published_at: 2026-09-24T06:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924113309/https://www.gov.uk/government/speeches/russia-is-widening-insecurity-while-refusing-the-path-to-peace-uk-statement-to-the-osce
+        captured_at: 2026-09-24T11:33:09Z
 assessment:
   status: unverified
   credibility: 6

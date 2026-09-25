@@ -1,27 +1,23 @@
-id: evt_01m392nz9mf1bs7k3r063dqdb5
+id: evt_01m3cpft1fevz8xhm0hdbhjb07
 schema: event/1
 event_type: diplomatic.statement
 title:
-  tr: Güvenlik Konseyi Üyeleri Suudi Arabistan'a Yönelik Husi Saldırılarını Kınadı
-  en: Security Council Members Condemn Houthi Attacks on Saudi Arabia
+  tr: Güvenlik Konseyi üyeleri Husi'lerin Suudi Arabistan'a yönelik saldırılarını kınadı ve Yemen Hükümeti'ne desteklerini teyit etti
+  en: Members of the Security Council condemn Houthi attacks against Saudi Arabia, and affirm their support for the Government of Yemen
 i18n:
   source: en
   machine: [tr, en]
 time:
-  start: 2026-09-18T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-18T12:00Z
+reported_at: 2026-09-25T12:00Z
 regions: [gulf-red-sea]
 sources:
-  - url: https://news.un.org/feed/view/ar/story/2026/09/1145360
-    title: أعضاء مجلس الأمن يدينون هجمات الحوثيين على السعودية
-    published_at: 2026-09-18T12:00Z
+  - url: https://news.un.org/feed/view/ar/story/2026/09/1145412
+    title: أعضاء مجلس الأمن يدينون هجمات الحوثيين ضد السعودية، ويؤكدون دعمهم لحكومة اليمن
+    published_at: 2026-09-25T12:00Z
     lang: ar
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925110822/https://news.un.org/feed/view/ar/story/2026/09/1145360
-        captured_at: 2026-09-25T11:08:22Z
 assessment:
   status: unverified
   credibility: 6

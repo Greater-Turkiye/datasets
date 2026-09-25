@@ -18,6 +18,10 @@ sources:
     title: Secretary-General Urges Restraint as Fighting Intensifies in Northern Ethiopia
     published_at: 2026-09-23T23:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924170910/https://press.un.org/en/2026/sgsm23299.doc.htm
+        captured_at: 2026-09-24T17:09:10Z
 assessment:
   status: unverified
   credibility: 6

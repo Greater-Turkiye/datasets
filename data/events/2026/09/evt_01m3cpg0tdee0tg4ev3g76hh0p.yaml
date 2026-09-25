@@ -1,27 +1,23 @@
-id: evt_01m3b9e0dhe98rms7v8fx654k9
+id: evt_01m3cpg0tdee0tg4ev3g76hh0p
 schema: event/1
-event_type: kinetic.attack
+event_type: policy.defense
 title:
-  tr: Sırp Yetkililer Seçimlerden Önce Casus Yazılım Saldırısı İddialarına Dalga Geçti
-  en: Serbian Authorities Ridicule Spyware Attack Allegations Before Elections
+  tr: "İnceleme Haftası: Casus Yazılım, Yapay Zeka ve Tutuklamalar"
+  en: "Week in Review: Spyware, AI and Arrests"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T06:01Z
+reported_at: 2026-09-25T13:22Z
 regions: [balkans]
 sources:
-  - url: https://balkaninsight.com/2026/09/24/serbian-authorities-ridicule-spyware-attack-allegations-before-elections/bi/
-    title: Serbian Authorities Ridicule Spyware Attack Allegations Before Elections
-    published_at: 2026-09-24T06:01Z
+  - url: https://balkaninsight.com/2026/09/25/week-in-review-spyware-ai-and-arrests/bi/
+    title: "Week in Review: Spyware, AI and Arrests"
+    published_at: 2026-09-25T13:22Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925163711/https://balkaninsight.com/2026/09/24/serbian-authorities-ridicule-spyware-attack-allegations-before-elections/bi/
-        captured_at: 2026-09-25T16:37:11Z
 assessment:
   status: unverified
   credibility: 6

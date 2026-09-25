@@ -1,27 +1,23 @@
-id: evt_01m3b9eh9rfb5vj9h353n8qasr
+id: evt_01m3cpfxcweh2bvvnb4r6e9fb3
 schema: event/1
-event_type: diplomatic.statement
+event_type: kinetic.clash
 title:
-  tr: "İngiltere'nin Etiyopya'nın kuzeyinde tırmanışa ilişkin açıklaması: 24 Eylül"
-  en: "UK statement on escalation in northern Ethiopia: 24 September"
+  tr: Birleşik Krallık, Husi tırmanışının ardından Yemen'deki savunmasız sivillere insani desteği artırdı
+  en: UK steps up humanitarian support for vulnerable civilians in Yemen following Houthi escalation
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T08:46Z
+reported_at: 2026-09-25T12:52Z
 regions: [gulf-red-sea]
 sources:
-  - url: https://www.gov.uk/government/news/uk-statement-on-escalation-in-northern-ethiopia-24-september
-    title: "UK statement on escalation in northern Ethiopia: 24 September"
-    published_at: 2026-09-24T08:46Z
+  - url: https://www.gov.uk/government/news/uk-steps-up-humanitarian-support-for-vulnerable-civilians-in-yemen-following-houthi-escalation
+    title: UK steps up humanitarian support for vulnerable civilians in Yemen following Houthi escalation
+    published_at: 2026-09-25T12:52Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925105217/https://www.gov.uk/government/news/uk-statement-on-escalation-in-northern-ethiopia-24-september
-        captured_at: 2026-09-25T10:52:17Z
 assessment:
   status: unverified
   credibility: 6

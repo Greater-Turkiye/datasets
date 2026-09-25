@@ -1,17 +1,17 @@
-id: evt_01m3b9dsfrecpadmy381eqsqzm
+id: evt_01m3cpfvqhez4v0cec9j8p17tc
 schema: event/1
-event_type: kinetic.missile-strike
+event_type: kinetic.attack
 title:
-  tr: Kiev büyük Rus füze saldırısıyla vuruldu, ikisi öldü, en az altı kişi yaralandı
-  en: Kyiv hit by massive Russian missile strike, two killed, at least six injured
+  tr: Kiev'in Shevchenkivskyi bölgesindeki yangınlar Rus saldırılarının ardından söndürüldü
+  en: Fires extinguished in Kyiv's Shevchenkivskyi district following Russian attacks
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T04:16Z
+reported_at: 2026-09-25T12:15Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,18 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167404-kyiv-hit-by-massive-russian-missile-strike-two-killed-at-least-six-injured.html
-    title: Kyiv hit by massive Russian missile strike, two killed, at least six injured
-    published_at: 2026-09-24T04:16Z
+  - url: https://www.ukrinform.net/rubric-ato/4167982-fires-extinguished-in-kyivs-shevchenkivskyi-district-following-russian-attacks.html
+    title: Fires extinguished in Kyiv's Shevchenkivskyi district following Russian attacks
+    published_at: 2026-09-25T12:15Z
     lang: en
-  - url: https://www.ukrinform.net/rubric-ato/4167407-massive-missile-attack-on-kyiv-2-killed-at-least-8-injured-fires-and-damage-reported-in-three-districts.html
-    title: "Massive missile attack on Kyiv: 2 killed, at least 8 injured, fires and damage reported in three districts"
-    published_at: 2026-09-24T04:59Z
-    lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924171228/https://www.ukrinform.net/rubric-ato/4167407-massive-missile-attack-on-kyiv-2-killed-at-least-8-injured-fires-and-damage-reported-in-three-districts.html
-        captured_at: 2026-09-24T17:12:28Z
 assessment:
   status: unverified
   credibility: 6

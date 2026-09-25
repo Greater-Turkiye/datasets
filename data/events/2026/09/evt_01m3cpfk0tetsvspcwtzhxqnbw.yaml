@@ -1,33 +1,29 @@
-id: evt_01m3b9e3qyf72r0kyss30za0gb
+id: evt_01m3cpfk0tetsvspcwtzhxqnbw
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.clash
 title:
-  tr: Ruslar Odesa bölgesindeki sivil altyapıya büyük saldırı düzenledi, iki kişi yaralandı
-  en: Russians launch massive attack on civilian infrastructure in Odesa region, two injured
+  tr: Lyman yönünde taarruz harekâtı devam ediyor — Zelenskiy
+  en: Offensive operation in Lyman direction continues — Zelensky
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T06:36Z
+reported_at: 2026-09-25T11:37Z
 location:
-  geometry: {type: Point, coordinates: [30.708, 46.492]}
+  geometry: {type: Point, coordinates: [37.828, 48.002]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Odesa bölgesi, en: Odessa region}
+  place_name: {tr: Donetsk bölgesi, en: Donetsk region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167427-russians-launch-massive-attack-on-civilian-infrastructure-in-odesa-region-two-injured.html
-    title: Russians launch massive attack on civilian infrastructure in Odesa region, two injured
-    published_at: 2026-09-24T06:36Z
+  - url: https://www.ukrinform.net/rubric-ato/4167964-offensive-operation-in-lyman-direction-continues-zelensky.html
+    title: Offensive operation in Lyman direction continues — Zelensky
+    published_at: 2026-09-25T11:37Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924173206/https://www.ukrinform.net/rubric-ato/4167427-russians-launch-massive-attack-on-civilian-infrastructure-in-odesa-region-two-injured.html
-        captured_at: 2026-09-24T17:32:06Z
 assessment:
   status: unverified
   credibility: 6

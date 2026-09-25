@@ -1,33 +1,29 @@
-id: evt_01m3b9dv9hfy6t7xq6tt1etqjv
+id: evt_01m3cpfhc8fazate85jg2qv95w
 schema: event/1
-event_type: kinetic.missile-strike
+event_type: kinetic.attack
 title:
-  tr: Ruslar Kiev'i balistik füzelerle vurdu, ABD güçlü yanıt verme yeteneğine sahip — Zelenski
-  en: Russians strike Kyiv with ballistic missiles, US has ability to respond strongly — Zelensky
+  tr: Ukrayna Savunma Kuvvetleri Perm ve Novoşahtinsk'teki petrol rafinerilerini ve iki Rus radar istasyonunu vurdu
+  en: Ukrainian Defense Forces strike oil refineries in Perm and Novoshakhtinsk and two Russian radar stations
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T04:39Z
+reported_at: 2026-09-25T11:17Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [56.248, 58.002]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Perm, en: Perm}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167405-russians-strike-kyiv-with-ballistic-missiles-us-has-ability-to-respond-strongly-zelensky.html
-    title: Russians strike Kyiv with ballistic missiles, US has ability to respond strongly — Zelensky
-    published_at: 2026-09-24T04:39Z
+  - url: https://www.ukrinform.net/rubric-ato/4167962-ukrainian-defense-forces-strike-oil-refineries-in-perm-and-novoshakhtinsk-and-two-russian-radar-stations.html
+    title: Ukrainian Defense Forces strike oil refineries in Perm and Novoshakhtinsk and two Russian radar stations
+    published_at: 2026-09-25T11:17Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924171157/https://www.ukrinform.net/rubric-ato/4167405-russians-strike-kyiv-with-ballistic-missiles-us-has-ability-to-respond-strongly-zelensky.html
-        captured_at: 2026-09-24T17:11:57Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Ukrainian Defense Forces strike two Russian radars, drone launch site
     published_at: 2026-09-24T09:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924173201/https://www.ukrinform.net/rubric-ato/4167518-ukrainian-defense-forces-strike-two-russian-radars-drone-launch-site.html
+        captured_at: 2026-09-24T17:32:01Z
 assessment:
   status: unverified
   credibility: 6

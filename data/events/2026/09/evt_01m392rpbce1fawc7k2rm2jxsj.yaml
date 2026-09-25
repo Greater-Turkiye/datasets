@@ -18,6 +18,10 @@ sources:
     title: Ukraine War Entering ‘Dangerous New Phase’ as Attacks Intensify, Risk of Regional Spillover Grows, Political Affairs Chief Warns Security Council
     published_at: 2026-09-24T01:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925163440/https://press.un.org/en/2026/sc16460.doc.htm
+        captured_at: 2026-09-25T16:34:40Z
 assessment:
   status: unverified
   credibility: 6

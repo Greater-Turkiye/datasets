@@ -1,33 +1,29 @@
-id: evt_01m3b9e3qyf72r0kyss30za0gb
+id: evt_01m3cpg5msf7x8sbyqm32y3e5e
 schema: event/1
-event_type: kinetic.attack
+event_type: diplomatic.statement
 title:
-  tr: Ruslar Odesa bölgesindeki sivil altyapıya büyük saldırı düzenledi, iki kişi yaralandı
-  en: Russians launch massive attack on civilian infrastructure in Odesa region, two injured
+  tr: Avrupa Konseyi Komiseri yerel ateşkes, sivillerin Oleshky'den tahliyesi çağrısında bulundu
+  en: Council of Europe Commissioner calls for local ceasefire, evacuation of civilians from Oleshky
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T06:36Z
+reported_at: 2026-09-25T15:30Z
 location:
-  geometry: {type: Point, coordinates: [30.708, 46.492]}
+  geometry: {type: Point, coordinates: [32.601, 46.633]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Odesa bölgesi, en: Odessa region}
+  place_name: {tr: Herson bölgesi, en: Kherson region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167427-russians-launch-massive-attack-on-civilian-infrastructure-in-odesa-region-two-injured.html
-    title: Russians launch massive attack on civilian infrastructure in Odesa region, two injured
-    published_at: 2026-09-24T06:36Z
+  - url: https://www.ukrinform.net/rubric-ato/4168064-council-of-europe-commissioner-calls-for-local-ceasefire-evacuation-of-civilians-from-oleshky.html
+    title: Council of Europe Commissioner calls for local ceasefire, evacuation of civilians from Oleshky
+    published_at: 2026-09-25T15:30Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924173206/https://www.ukrinform.net/rubric-ato/4167427-russians-launch-massive-attack-on-civilian-infrastructure-in-odesa-region-two-injured.html
-        captured_at: 2026-09-24T17:32:06Z
 assessment:
   status: unverified
   credibility: 6

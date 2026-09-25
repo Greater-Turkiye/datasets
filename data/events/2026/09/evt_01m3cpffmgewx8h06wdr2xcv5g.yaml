@@ -1,17 +1,17 @@
-id: evt_01m3b9dsfrecpadmy381eqsqzm
+id: evt_01m3cpffmgewx8h06wdr2xcv5g
 schema: event/1
-event_type: kinetic.missile-strike
+event_type: kinetic.drone-strike
 title:
-  tr: Kiev büyük Rus füze saldırısıyla vuruldu, ikisi öldü, en az altı kişi yaralandı
-  en: Kyiv hit by massive Russian missile strike, two killed, at least six injured
+  tr: Kiev'deki Rus insansız hava aracı saldırılarının ardından yaralanan kişi sayısı 20 'ye yükseldi, bir genç öldürüldü
+  en: Injury toll after Russian drone attacks in Kyiv rises to 20, teenager killed
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T04:16Z
+reported_at: 2026-09-25T10:58Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,18 +20,14 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167404-kyiv-hit-by-massive-russian-missile-strike-two-killed-at-least-six-injured.html
-    title: Kyiv hit by massive Russian missile strike, two killed, at least six injured
-    published_at: 2026-09-24T04:16Z
+  - url: https://www.ukrinform.net/rubric-ato/4167942-injury-toll-after-russian-drone-attacks-in-kyiv-rises-to-20-teenager-killed.html
+    title: Injury toll after Russian drone attacks in Kyiv rises to 20, teenager killed
+    published_at: 2026-09-25T10:58Z
     lang: en
-  - url: https://www.ukrinform.net/rubric-ato/4167407-massive-missile-attack-on-kyiv-2-killed-at-least-8-injured-fires-and-damage-reported-in-three-districts.html
-    title: "Massive missile attack on Kyiv: 2 killed, at least 8 injured, fires and damage reported in three districts"
-    published_at: 2026-09-24T04:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4168047-injury-toll-in-russian-drone-attacks-on-kyiv-rises-to-39-five-killed.html
+    title: Injury toll in Russian drone attacks on Kyiv rises to 39, five killed
+    published_at: 2026-09-25T14:50Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924171228/https://www.ukrinform.net/rubric-ato/4167407-massive-missile-attack-on-kyiv-2-killed-at-least-8-injured-fires-and-damage-reported-in-three-districts.html
-        captured_at: 2026-09-24T17:12:28Z
 assessment:
   status: unverified
   credibility: 6

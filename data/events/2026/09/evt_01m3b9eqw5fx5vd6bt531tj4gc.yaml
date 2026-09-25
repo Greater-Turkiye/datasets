@@ -18,6 +18,10 @@ sources:
     title: Drone that crashed in Moldova identified as Russian Gerbera
     published_at: 2026-09-24T10:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925164227/https://www.ukrinform.net/rubric-ato/4167545-drone-that-crashed-in-moldova-identified-as-russian-gerbera.html
+        captured_at: 2026-09-25T16:42:27Z
 assessment:
   status: unverified
   credibility: 6

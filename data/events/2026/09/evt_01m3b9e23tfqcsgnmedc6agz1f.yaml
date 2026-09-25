@@ -18,6 +18,10 @@ sources:
     title: Russian army loses another 1,540 troops in war against Ukraine
     published_at: 2026-09-24T06:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924174613/https://www.ukrinform.net/rubric-ato/4167423-russian-army-loses-another-1540-troops-in-war-against-ukraine.html
+        captured_at: 2026-09-24T17:46:13Z
 assessment:
   status: unverified
   credibility: 6
