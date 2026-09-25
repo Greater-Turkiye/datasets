@@ -1,27 +1,23 @@
-id: evt_01m392pxaqe5hv7zg8bxmd0zpg
+id: evt_01m3d66086e24sf92ydap20b7j
 schema: event/1
-event_type: diplomatic.statement
+event_type: kinetic.clash
 title:
-  tr: Trump, İran ve Venezuela'ya karşı askeri harekatı savunuyor ve yapay zekanın yeniden markalanması çağrısında bulunuyor
-  en: Trump defends military action against Iran, Venezuela, and calls for rebrand of AI
+  tr: Çatışmalar Etiyopya'nın kuzeyine yayılırken BM ciddi endişelerini dile getirdi
+  en: UN voices grave concern as fighting spreads across northern Ethiopia
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-22T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-22T12:00Z
-regions: [iran]
+reported_at: 2026-09-25T12:00Z
+regions: [gulf-red-sea]
 sources:
-  - url: https://news.un.org/feed/view/en/story/2026/09/1168397
-    title: Trump defends military action against Iran, Venezuela, and calls for rebrand of AI
-    published_at: 2026-09-22T12:00Z
+  - url: https://news.un.org/feed/view/en/story/2026/09/1168450
+    title: UN voices grave concern as fighting spreads across northern Ethiopia
+    published_at: 2026-09-25T12:00Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925111136/https://news.un.org/feed/view/en/story/2026/09/1168397
-        captured_at: 2026-09-25T11:11:36Z
 assessment:
   status: unverified
   credibility: 6

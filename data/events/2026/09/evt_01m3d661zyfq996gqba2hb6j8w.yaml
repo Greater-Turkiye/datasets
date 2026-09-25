@@ -1,17 +1,17 @@
-id: evt_01m392rr07f5tbaeqhq7f9agwe
+id: evt_01m3d661zyfq996gqba2hb6j8w
 schema: event/1
-event_type: other
+event_type: kinetic.drone-strike
 title:
-  tr: Kiev'deki enerji tesislerine yönelik saldırıları ayarlayan Rus ve Belarus istihbarat servislerinin ajanı 15 yıl hapis cezasına çarptırıldı
-  en: Agent of Russian and Belarusian intelligence services who adjusted strikes on energy facilities in Kyiv sentenced to 15 years in prison
+  tr: Kiev'deki Rus insansız hava aracı saldırılarında ölenlerin sayısı 7 'ye yükseldi, 46 kişi yaralandı
+  en: Death toll in Russian drone attacks on Kyiv rises to seven, 46 injured
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T03:59Z
+reported_at: 2026-09-25T15:48Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,14 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167402-agent-of-russian-and-belarusian-intelligence-services-who-adjusted-strikes-on-energy-facilities-in-kyiv-sentenced-to-15-years-in-prison.html
-    title: Agent of Russian and Belarusian intelligence services who adjusted strikes on energy facilities in Kyiv sentenced to 15 years in prison
-    published_at: 2026-09-24T03:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4168070-death-toll-in-russian-drone-attacks-on-kyiv-rises-to-seven-46-injured.html
+    title: Death toll in Russian drone attacks on Kyiv rises to seven, 46 injured
+    published_at: 2026-09-25T15:48Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925163510/https://www.ukrinform.net/rubric-ato/4167402-agent-of-russian-and-belarusian-intelligence-services-who-adjusted-strikes-on-energy-facilities-in-kyiv-sentenced-to-15-years-in-prison.html
-        captured_at: 2026-09-25T16:35:10Z
+  - url: https://www.ukrinform.net/rubric-ato/4168137-injury-toll-after-russian-attacks-on-kyiv-rises-to-57-seven-killed.html
+    title: Injury toll after Russian attacks on Kyiv rises to 57, seven killed
+    published_at: 2026-09-25T18:54Z
+    lang: en
 assessment:
   status: unverified
   credibility: 6

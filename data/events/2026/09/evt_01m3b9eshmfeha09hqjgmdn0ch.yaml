@@ -24,6 +24,10 @@ sources:
     title: "Russia’s sham elections in occupied Ukrainian territories: UK statement to the OSCE"
     published_at: 2026-09-24T10:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925110158/https://www.gov.uk/government/speeches/russias-sham-elections-in-occupied-ukrainian-territories-uk-statement-to-the-osce
+        captured_at: 2026-09-25T11:01:58Z
 assessment:
   status: unverified
   credibility: 6

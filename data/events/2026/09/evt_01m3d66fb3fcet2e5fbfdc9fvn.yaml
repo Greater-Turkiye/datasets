@@ -1,27 +1,23 @@
-id: evt_01m392qh6zfjtanbq1s270wrw8
+id: evt_01m3d66fb3fcet2e5fbfdc9fvn
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Rusya, jetle çalışan drone kullanımını üç ayda sekiz kat artırdı – Ihnat
-  en: Russia increases its use of jet-powered drones eightfold in three months – Ihnat
+  tr: "27 noktada kaydedilen isabet sayısı: ADF sabahtan beri 127 Rus insansız hava aracını etkisiz hale getirdi"
+  en: "Hits recorded at 27 locations: ADF neutralizes 127 Russian drones since morning"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-23T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-23T08:25Z
+reported_at: 2026-09-25T19:59Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167071-russia-increases-its-use-of-jetpowered-drones-eightfold-in-three-months-ihnat.html
-    title: Russia increases its use of jet-powered drones eightfold in three months – Ihnat
-    published_at: 2026-09-23T08:25Z
+  - url: https://www.ukrinform.net/rubric-ato/4168142-hits-recorded-at-27-locations-adf-neutralizes-127-russian-drones-since-morning.html
+    title: "Hits recorded at 27 locations: ADF neutralizes 127 Russian drones since morning"
+    published_at: 2026-09-25T19:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925032734/https://www.ukrinform.net/rubric-ato/4167071-russia-increases-its-use-of-jetpowered-drones-eightfold-in-three-months-ihnat.html
-        captured_at: 2026-09-25T03:27:34Z
 assessment:
   status: unverified
   credibility: 6

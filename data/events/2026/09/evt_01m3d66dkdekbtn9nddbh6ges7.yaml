@@ -1,33 +1,29 @@
-id: evt_01m3b9eyh4e0sv8kwz7dz1nm0g
+id: evt_01m3d66dkdekbtn9nddbh6ges7
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rus saldırısı Çernivtsi bölgesindeki enerji ve sınır altyapısını hedef alıyor
-  en: Russian attack targets energy and border infrastructure in Chernivtsi region
+  tr: Zhytomyr bölgesindeki işletmedeki yangın, Rus saldırısından sonra söndürüldü
+  en: Fire at enterprise in Zhytomyr region extinguished after Russian attack
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T11:45Z
+reported_at: 2026-09-25T19:37Z
 location:
-  geometry: {type: Point, coordinates: [25.922, 48.305]}
+  geometry: {type: Point, coordinates: [28.662, 50.246]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Chernivtsi bölgesi, en: Chernivtsi region}
+  place_name: {tr: Zhytomyr bölgesi, en: Zhytomyr region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167574-russian-attack-targets-energy-and-border-infrastructure-in-chernivtsi-region.html
-    title: Russian attack targets energy and border infrastructure in Chernivtsi region
-    published_at: 2026-09-24T11:45Z
+  - url: https://www.ukrinform.net/rubric-ato/4168141-fire-at-enterprise-in-zhytomyr-region-extinguished-after-russian-attack.html
+    title: Fire at enterprise in Zhytomyr region extinguished after Russian attack
+    published_at: 2026-09-25T19:37Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925164225/https://www.ukrinform.net/rubric-ato/4167574-russian-attack-targets-energy-and-border-infrastructure-in-chernivtsi-region.html
-        captured_at: 2026-09-25T16:42:25Z
 assessment:
   status: unverified
   credibility: 6

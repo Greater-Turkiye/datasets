@@ -1,17 +1,17 @@
-id: evt_01m392rr07f5tbaeqhq7f9agwe
+id: evt_01m3d663kpfyk940ecns5mqra9
 schema: event/1
-event_type: other
+event_type: kinetic.drone-strike
 title:
-  tr: Kiev'deki enerji tesislerine yönelik saldırıları ayarlayan Rus ve Belarus istihbarat servislerinin ajanı 15 yıl hapis cezasına çarptırıldı
-  en: Agent of Russian and Belarusian intelligence services who adjusted strikes on energy facilities in Kyiv sentenced to 15 years in prison
+  tr: Kiev'e düzenlenen insansız hava aracı saldırısında bir ofis binası daha hasar gördü
+  en: Another office building damaged in drone attack on Kyiv
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T03:59Z
+reported_at: 2026-09-25T16:30Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167402-agent-of-russian-and-belarusian-intelligence-services-who-adjusted-strikes-on-energy-facilities-in-kyiv-sentenced-to-15-years-in-prison.html
-    title: Agent of Russian and Belarusian intelligence services who adjusted strikes on energy facilities in Kyiv sentenced to 15 years in prison
-    published_at: 2026-09-24T03:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4168088-another-office-building-damaged-in-drone-attack-on-kyiv.html
+    title: Another office building damaged in drone attack on Kyiv
+    published_at: 2026-09-25T16:30Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925163510/https://www.ukrinform.net/rubric-ato/4167402-agent-of-russian-and-belarusian-intelligence-services-who-adjusted-strikes-on-energy-facilities-in-kyiv-sentenced-to-15-years-in-prison.html
-        captured_at: 2026-09-25T16:35:10Z
 assessment:
   status: unverified
   credibility: 6

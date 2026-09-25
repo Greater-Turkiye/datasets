@@ -24,6 +24,10 @@ sources:
     title: At least 16 garage units destroyed in Kyiv's Obolonskyi district following Russian strike
     published_at: 2026-09-24T14:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925094621/https://www.ukrinform.net/rubric-ato/4167679-at-least-16-garage-units-destroyed-in-kyivs-obolonskyi-district-following-russian-strike.html
+        captured_at: 2026-09-25T09:46:21Z
 assessment:
   status: unverified
   credibility: 6

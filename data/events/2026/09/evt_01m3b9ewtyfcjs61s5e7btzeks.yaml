@@ -24,6 +24,10 @@ sources:
     title: Russian attack damages 120-year-old St. Pokrovsky Church in Kyiv
     published_at: 2026-09-24T11:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924170121/https://www.ukrinform.net/rubric-ato/4167553-russian-attack-damages-120yearold-st-pokrovsky-church-in-kyiv.html
+        captured_at: 2026-09-24T17:01:21Z
 assessment:
   status: unverified
   credibility: 6

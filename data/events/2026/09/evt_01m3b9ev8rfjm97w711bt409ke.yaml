@@ -18,6 +18,10 @@ sources:
     title: "Supporting Ukraine and defending OSCE principles: UK statement to the President of the OSCE Parliamentary Assembly"
     published_at: 2026-09-24T11:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925111320/https://www.gov.uk/government/speeches/supporting-ukraine-and-defending-osce-principles-uk-statement-to-the-president-of-the-osce-parliamentary-assembly
+        captured_at: 2026-09-25T11:13:20Z
 assessment:
   status: unverified
   credibility: 6

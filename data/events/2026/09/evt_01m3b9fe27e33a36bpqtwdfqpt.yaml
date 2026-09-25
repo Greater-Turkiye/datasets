@@ -24,6 +24,10 @@ sources:
     title: Russian attack damages hospital in Odesa
     published_at: 2026-09-24T13:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925094622/https://www.ukrinform.net/rubric-ato/4167646-russian-attack-damages-hospital-in-odesa.html
+        captured_at: 2026-09-25T09:46:22Z
 assessment:
   status: unverified
   credibility: 6

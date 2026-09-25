@@ -24,6 +24,10 @@ sources:
     title: One injured, homes and power line damaged in Russian attack on Zhytomyr region
     published_at: 2026-09-24T12:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924170120/https://www.ukrinform.net/rubric-ato/4167582-one-injured-homes-and-power-line-damaged-in-russian-attack-on-zhytomyr-region.html
+        captured_at: 2026-09-24T17:01:20Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Kyiv hit by massive Russian missile strike, two killed, at least six injured
     published_at: 2026-09-24T04:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924171236/https://www.ukrinform.net/rubric-ato/4167404-kyiv-hit-by-massive-russian-missile-strike-two-killed-at-least-six-injured.html
+        captured_at: 2026-09-24T17:12:36Z
   - url: https://www.ukrinform.net/rubric-ato/4167407-massive-missile-attack-on-kyiv-2-killed-at-least-8-injured-fires-and-damage-reported-in-three-districts.html
     title: "Massive missile attack on Kyiv: 2 killed, at least 8 injured, fires and damage reported in three districts"
     published_at: 2026-09-24T04:59Z

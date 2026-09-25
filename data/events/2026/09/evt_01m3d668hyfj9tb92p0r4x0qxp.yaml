@@ -1,33 +1,29 @@
-id: evt_01m3b9fmk1f52a4dte9kjvy817
+id: evt_01m3d668hyfj9tb92p0r4x0qxp
 schema: event/1
-event_type: kinetic.missile-strike
+event_type: kinetic.airstrike
 title:
-  tr: "Yaklaşık 230 kg'lık savaş başlığı: Kiev'de patlamamış balistik füze etkisiz hale getirildi"
-  en: "Nearly 230-kg warhead: Unexploded ballistic missile neutralized in Kyiv"
+  tr: Sumy'de düzinelerce ev, eğitim kurumu hasar gördü, sekiz kişi süzülerek atılan bombanın ardından yaralandı
+  en: Dozens of homes, educational institution damaged, eight injured in Sumy after glide bomb strikes
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T15:19Z
+reported_at: 2026-09-25T17:55Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [34.781, 50.924]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Sumy, en: Sumy}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167681-nearly-230kg-warhead-unexploded-ballistic-missile-neutralized-in-kyiv.html
-    title: "Nearly 230-kg warhead: Unexploded ballistic missile neutralized in Kyiv"
-    published_at: 2026-09-24T15:19Z
+  - url: https://www.ukrinform.net/rubric-ato/4168110-dozens-of-homes-educational-institution-damaged-eight-injured-in-sumy-after-glide-bomb-strikes.html
+    title: Dozens of homes, educational institution damaged, eight injured in Sumy after glide bomb strikes
+    published_at: 2026-09-25T17:55Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925094620/https://www.ukrinform.net/rubric-ato/4167681-nearly-230kg-warhead-unexploded-ballistic-missile-neutralized-in-kyiv.html
-        captured_at: 2026-09-25T09:46:20Z
 assessment:
   status: unverified
   credibility: 6
