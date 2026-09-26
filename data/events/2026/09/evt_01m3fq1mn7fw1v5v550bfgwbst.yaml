@@ -1,0 +1,33 @@
+id: evt_01m3fq1mn7fw1v5v550bfgwbst
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: Lavrov, yeni Avrasya "güvenlik mimarisi" çağrısında bulundu
+  en: Lavrov issues call for new Eurasian ‘security architecture’
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-26T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-26T12:00Z
+location:
+  geometry: {type: Point, coordinates: [37.614, 55.754]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Moscow, en: Moscow}
+regions: [black-sea]
+sources:
+  - url: https://news.un.org/feed/view/en/story/2026/09/1168457
+    title: Lavrov issues call for new Eurasian ‘security architecture’
+    published_at: 2026-09-26T12:00Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: un-news-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: un-news-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

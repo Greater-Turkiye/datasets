@@ -1,33 +1,29 @@
-id: evt_01m3d668hyfj9tb92p0r4x0qxp
+id: evt_01m3fq22ksetxb1bjyrp4qpaey
 schema: event/1
-event_type: kinetic.airstrike
+event_type: kinetic.attack
 title:
-  tr: Sumy'de düzinelerce ev, eğitim kurumu hasar gördü, sekiz kişi süzülerek atılan bombanın ardından yaralandı
-  en: Dozens of homes, educational institution damaged, eight injured in Sumy after glide bomb strikes
+  tr: Rus bombardımanı Nikopol bölgesinde üç kişiyi yaraladı
+  en: Russian shelling injures three people in Nikopol district
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-25T00:00Z
+  start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-25T17:55Z
+reported_at: 2026-09-26T17:59Z
 location:
-  geometry: {type: Point, coordinates: [34.781, 50.924]}
+  geometry: {type: Point, coordinates: [34.406, 47.567]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Sumy, en: Sumy}
+  place_name: {tr: Nikopol, en: Nikopol}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168110-dozens-of-homes-educational-institution-damaged-eight-injured-in-sumy-after-glide-bomb-strikes.html
-    title: Dozens of homes, educational institution damaged, eight injured in Sumy after glide bomb strikes
-    published_at: 2026-09-25T17:55Z
+  - url: https://www.ukrinform.net/rubric-ato/4168386-russian-shelling-injures-three-people-in-nikopol-district.html
+    title: Russian shelling injures three people in Nikopol district
+    published_at: 2026-09-26T17:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926085533/https://www.ukrinform.net/rubric-ato/4168110-dozens-of-homes-educational-institution-damaged-eight-injured-in-sumy-after-glide-bomb-strikes.html
-        captured_at: 2026-09-26T08:55:33Z
 assessment:
   status: unverified
   credibility: 6

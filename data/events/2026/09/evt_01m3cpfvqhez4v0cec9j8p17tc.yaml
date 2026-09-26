@@ -24,6 +24,10 @@ sources:
     title: Fires extinguished in Kyiv's Shevchenkivskyi district following Russian attacks
     published_at: 2026-09-25T12:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926155726/https://www.ukrinform.net/rubric-ato/4167982-fires-extinguished-in-kyivs-shevchenkivskyi-district-following-russian-attacks.html
+        captured_at: 2026-09-26T15:57:26Z
 assessment:
   status: unverified
   credibility: 6

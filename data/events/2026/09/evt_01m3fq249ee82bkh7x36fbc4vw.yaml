@@ -1,17 +1,17 @@
-id: evt_01m3d668hyfj9tb92p0r4x0qxp
+id: evt_01m3fq249ee82bkh7x36fbc4vw
 schema: event/1
-event_type: kinetic.airstrike
+event_type: kinetic.attack
 title:
-  tr: Sumy'de düzinelerce ev, eğitim kurumu hasar gördü, sekiz kişi süzülerek atılan bombanın ardından yaralandı
-  en: Dozens of homes, educational institution damaged, eight injured in Sumy after glide bomb strikes
+  tr: Rusya'nın Sumy'e düzenlediği hava saldırılarında iki kişi öldü, 23 kişi yaralandı
+  en: Russian airstrikes on Sumy kill two people and injure 23
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-25T00:00Z
+  start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-25T17:55Z
+reported_at: 2026-09-26T18:28Z
 location:
   geometry: {type: Point, coordinates: [34.781, 50.924]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Sumy, en: Sumy}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168110-dozens-of-homes-educational-institution-damaged-eight-injured-in-sumy-after-glide-bomb-strikes.html
-    title: Dozens of homes, educational institution damaged, eight injured in Sumy after glide bomb strikes
-    published_at: 2026-09-25T17:55Z
+  - url: https://www.ukrinform.net/rubric-ato/4168388-russian-airstrikes-on-sumy-kill-two-people-and-injure-23.html
+    title: Russian airstrikes on Sumy kill two people and injure 23
+    published_at: 2026-09-26T18:28Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926085533/https://www.ukrinform.net/rubric-ato/4168110-dozens-of-homes-educational-institution-damaged-eight-injured-in-sumy-after-glide-bomb-strikes.html
-        captured_at: 2026-09-26T08:55:33Z
 assessment:
   status: unverified
   credibility: 6

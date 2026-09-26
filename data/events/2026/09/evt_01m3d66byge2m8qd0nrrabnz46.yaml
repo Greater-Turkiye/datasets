@@ -24,6 +24,10 @@ sources:
     title: Russian attacks damage McDonald's warehouse in Kyiv region
     published_at: 2026-09-25T19:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926095923/https://www.ukrinform.net/rubric-ato/4168139-russian-attacks-damage-mcdonalds-warehouse-in-kyiv-region.html
+        captured_at: 2026-09-26T09:59:23Z
 assessment:
   status: unverified
   credibility: 6

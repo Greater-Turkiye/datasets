@@ -1,33 +1,29 @@
-id: evt_01m3d668hyfj9tb92p0r4x0qxp
+id: evt_01m3fq27ndfs2sfh6qd8gpjf0n
 schema: event/1
-event_type: kinetic.airstrike
+event_type: kinetic.drone-strike
 title:
-  tr: Sumy'de düzinelerce ev, eğitim kurumu hasar gördü, sekiz kişi süzülerek atılan bombanın ardından yaralandı
-  en: Dozens of homes, educational institution damaged, eight injured in Sumy after glide bomb strikes
+  tr: Rus insansız hava aracı Kiev'in Shevchenkivskyi bölgesindeki ofis binasını vurdu
+  en: Russian drone strikes office building in Kyiv's Shevchenkivskyi district
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-25T00:00Z
+  start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-25T17:55Z
+reported_at: 2026-09-26T19:28Z
 location:
-  geometry: {type: Point, coordinates: [34.781, 50.924]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Sumy, en: Sumy}
+  place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168110-dozens-of-homes-educational-institution-damaged-eight-injured-in-sumy-after-glide-bomb-strikes.html
-    title: Dozens of homes, educational institution damaged, eight injured in Sumy after glide bomb strikes
-    published_at: 2026-09-25T17:55Z
+  - url: https://www.ukrinform.net/rubric-ato/4168391-russian-drone-strikes-office-building-in-kyivs-shevchenkivskyi-district.html
+    title: Russian drone strikes office building in Kyiv's Shevchenkivskyi district
+    published_at: 2026-09-26T19:28Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926085533/https://www.ukrinform.net/rubric-ato/4168110-dozens-of-homes-educational-institution-damaged-eight-injured-in-sumy-after-glide-bomb-strikes.html
-        captured_at: 2026-09-26T08:55:33Z
 assessment:
   status: unverified
   credibility: 6

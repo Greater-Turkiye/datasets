@@ -18,6 +18,10 @@ sources:
     title: "Hits recorded at 27 locations: ADF neutralizes 127 Russian drones since morning"
     published_at: 2026-09-25T19:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926204509/https://www.ukrinform.net/rubric-ato/4168142-hits-recorded-at-27-locations-adf-neutralizes-127-russian-drones-since-morning.html
+        captured_at: 2026-09-26T20:45:09Z
 assessment:
   status: unverified
   credibility: 6

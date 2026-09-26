@@ -24,6 +24,10 @@ sources:
     title: Russian drone strike leaves 14-year-old girl injured in Sumy
     published_at: 2026-09-25T20:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925224609/https://www.ukrinform.net/rubric-ato/4168153-russian-drone-strike-leaves-14yearold-girl-injured-in-sumy.html
+        captured_at: 2026-09-25T22:46:09Z
 assessment:
   status: unverified
   credibility: 6

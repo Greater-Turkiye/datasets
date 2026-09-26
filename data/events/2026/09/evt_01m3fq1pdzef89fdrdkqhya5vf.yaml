@@ -1,27 +1,23 @@
-id: evt_01m3b9f40ae188kz1n6xendp20
+id: evt_01m3fq1pdzef89fdrdkqhya5vf
 schema: event/1
 event_type: diplomatic.statement
 title:
-  tr: "Çıkarım: BM Genel Kurulu tartışması 2. Gün"
-  en: "The Takeaway: UN General Assembly debate Day 2"
+  tr: Suudi Arabistan, bölgesel gerginliklerin ortasında Körfez güvenliğini küresel istikrardan ayrılmaz hale getirdiği uyarısında bulundu
+  en: Saudi Arabia warns Gulf security inseparable from global stability amid regional tensions
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T12:00Z
-regions: [black-sea]
+reported_at: 2026-09-26T12:00Z
+regions: [gulf-red-sea]
 sources:
-  - url: https://news.un.org/feed/view/en/story/2026/09/1168421
-    title: "The Takeaway: UN General Assembly debate Day 2"
-    published_at: 2026-09-24T12:00Z
+  - url: https://news.un.org/feed/view/en/story/2026/09/1168459
+    title: Saudi Arabia warns Gulf security inseparable from global stability amid regional tensions
+    published_at: 2026-09-26T12:00Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926154604/https://news.un.org/feed/view/en/story/2026/09/1168421
-        captured_at: 2026-09-26T15:46:04Z
 assessment:
   status: unverified
   credibility: 6

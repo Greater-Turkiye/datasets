@@ -18,6 +18,10 @@ sources:
     title: British companies to access prized Ukraine data to develop AI drone swarms
     published_at: 2026-09-25T09:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926123825/https://www.gov.uk/government/news/british-companies-to-access-prized-ukraine-data-to-develop-ai-drone-swarms
+        captured_at: 2026-09-26T12:38:25Z
 assessment:
   status: unverified
   credibility: 6

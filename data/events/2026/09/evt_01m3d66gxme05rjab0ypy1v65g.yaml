@@ -24,6 +24,10 @@ sources:
     title: Russian drone falls on kindergarten in Kyiv — Klitschko
     published_at: 2026-09-25T20:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926095922/https://www.ukrinform.net/rubric-ato/4168151-russian-drone-falls-on-kindergarten-in-kyiv-klitschko.html
+        captured_at: 2026-09-26T09:59:22Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Zelensky holds Staff meeting: Ukraine accelerates production of interceptors for jet-powered shaheds"
     published_at: 2026-09-25T18:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925201600/https://www.ukrinform.net/rubric-ato/4168117-zelensky-holds-staff-meeting-ukraine-accelerates-production-of-interceptors-for-jetpowered-shaheds.html
+        captured_at: 2026-09-25T20:16:00Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,33 +1,29 @@
-id: evt_01m3d666xbfdsaew6mztsftfb0
+id: evt_01m3fq1r3rfpdvrwvz0tq71c6z
 schema: event/1
-event_type: kinetic.attack
+event_type: policy.defense
 title:
-  tr: Rusya'nın Dnipropetrovsk bölgesine düzenlediği saldırılarda dört kişi yaralandı
-  en: Russian strikes on Dnipropetrovsk region leave four injured
+  tr: Sumi bölgesindeki deniz piyadeleri Ukrayna kontrolünde kalmaya devam ediyor — askeri
+  en: Marine in Sumy region remains under Ukrainian control — military
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-25T00:00Z
+  start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-25T17:17Z
+reported_at: 2026-09-26T14:59Z
 location:
-  geometry: {type: Point, coordinates: [34.998, 48.482]}
+  geometry: {type: Point, coordinates: [34.781, 50.924]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
+  place_name: {tr: Sumy bölgesi, en: Sumy region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168105-russian-strikes-on-dnipropetrovsk-region-leave-four-injured.html
-    title: Russian strikes on Dnipropetrovsk region leave four injured
-    published_at: 2026-09-25T17:17Z
+  - url: https://www.ukrinform.net/rubric-ato/4168339-mariine-in-sumy-region-remains-under-ukrainian-control-military.html
+    title: Marine in Sumy region remains under Ukrainian control — military
+    published_at: 2026-09-26T14:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926071026/https://www.ukrinform.net/rubric-ato/4168105-russian-strikes-on-dnipropetrovsk-region-leave-four-injured.html
-        captured_at: 2026-09-26T07:10:26Z
 assessment:
   status: unverified
   credibility: 6

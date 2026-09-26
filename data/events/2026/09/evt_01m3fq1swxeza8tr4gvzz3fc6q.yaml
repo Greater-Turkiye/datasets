@@ -1,33 +1,29 @@
-id: evt_01m3d666xbfdsaew6mztsftfb0
+id: evt_01m3fq1swxeza8tr4gvzz3fc6q
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rusya'nın Dnipropetrovsk bölgesine düzenlediği saldırılarda dört kişi yaralandı
-  en: Russian strikes on Dnipropetrovsk region leave four injured
+  tr: Kiev bölgesindeki depoda çıkan yangın, Rus saldırısının ardından söndürüldü
+  en: Fire at warehouse in Kyiv region extinguished after Russian attack
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-25T00:00Z
+  start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-25T17:17Z
+reported_at: 2026-09-26T15:18Z
 location:
-  geometry: {type: Point, coordinates: [34.998, 48.482]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
+  place_name: {tr: Kyiv bölgesi, en: Kyiv region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168105-russian-strikes-on-dnipropetrovsk-region-leave-four-injured.html
-    title: Russian strikes on Dnipropetrovsk region leave four injured
-    published_at: 2026-09-25T17:17Z
+  - url: https://www.ukrinform.net/rubric-ato/4168343-fire-at-warehouse-in-kyiv-region-extinguished-after-russian-attack.html
+    title: Fire at warehouse in Kyiv region extinguished after Russian attack
+    published_at: 2026-09-26T15:18Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926071026/https://www.ukrinform.net/rubric-ato/4168105-russian-strikes-on-dnipropetrovsk-region-leave-four-injured.html
-        captured_at: 2026-09-26T07:10:26Z
 assessment:
   status: unverified
   credibility: 6

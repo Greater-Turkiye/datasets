@@ -1,33 +1,29 @@
-id: evt_01m3d668hyfj9tb92p0r4x0qxp
+id: evt_01m3fq29aff1jakvmbjdc64cw5
 schema: event/1
-event_type: kinetic.airstrike
+event_type: kinetic.attack
 title:
-  tr: Sumy'de düzinelerce ev, eğitim kurumu hasar gördü, sekiz kişi süzülerek atılan bombanın ardından yaralandı
-  en: Dozens of homes, educational institution damaged, eight injured in Sumy after glide bomb strikes
+  tr: Kiev'deki Rus saldırıları gün boyunca 7 kişiyi yaraladı
+  en: Russian attacks in Kyiv injure seven people over course of day
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-25T00:00Z
+  start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-25T17:55Z
+reported_at: 2026-09-26T19:48Z
 location:
-  geometry: {type: Point, coordinates: [34.781, 50.924]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Sumy, en: Sumy}
+  place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168110-dozens-of-homes-educational-institution-damaged-eight-injured-in-sumy-after-glide-bomb-strikes.html
-    title: Dozens of homes, educational institution damaged, eight injured in Sumy after glide bomb strikes
-    published_at: 2026-09-25T17:55Z
+  - url: https://www.ukrinform.net/rubric-ato/4168414-russian-attacks-in-kyiv-injure-seven-people-over-course-of-day.html
+    title: Russian attacks in Kyiv injure seven people over course of day
+    published_at: 2026-09-26T19:48Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926085533/https://www.ukrinform.net/rubric-ato/4168110-dozens-of-homes-educational-institution-damaged-eight-injured-in-sumy-after-glide-bomb-strikes.html
-        captured_at: 2026-09-26T08:55:33Z
 assessment:
   status: unverified
   credibility: 6
