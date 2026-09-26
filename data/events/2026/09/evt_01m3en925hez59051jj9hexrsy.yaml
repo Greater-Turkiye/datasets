@@ -1,27 +1,23 @@
-id: evt_01m3b9emg2e3fbf02qhfjgp6a4
+id: evt_01m3en925hez59051jj9hexrsy
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Polonya, Rusya'nın Ukrayna'ya düzenlediği saldırılar nedeniyle askeri uçaklarını sabahları iki kez seferber ediyor
-  en: Poland scrambles military aircraft twice in morning over Russian strikes on Ukraine
+  tr: Yahodyn ve Ustyluh sınır kapıları saldırı tehdidi nedeniyle geçici olarak askıya alındı — Demchenko
+  en: Yahodyn and Ustyluh border crossings temporarily suspended due to threat of attacks — Demchenko
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-24T00:00Z
+  start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-24T09:35Z
+reported_at: 2026-09-26T02:32Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167505-poland-scrambles-military-aircraft-twice-in-morning-over-russian-strikes-on-ukraine.html
-    title: Poland scrambles military aircraft twice in morning over Russian strikes on Ukraine
-    published_at: 2026-09-24T09:35Z
+  - url: https://www.ukrinform.net/rubric-ato/4167968-yahodyn-and-ustyluh-border-crossings-temporarily-suspended-due-to-threat-of-attacks-demchenko.html
+    title: Yahodyn and Ustyluh border crossings temporarily suspended due to threat of attacks — Demchenko
+    published_at: 2026-09-26T02:32Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260924170134/https://www.ukrinform.net/rubric-ato/4167505-poland-scrambles-military-aircraft-twice-in-morning-over-russian-strikes-on-ukraine.html
-        captured_at: 2026-09-24T17:01:34Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian drone strike on Kyiv high-rise kills teenager, leaves seven injured
     published_at: 2026-09-25T07:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925084629/https://www.ukrinform.net/rubric-ato/4167825-russian-drone-strike-on-kyiv-highrise-kills-teenager-leaves-seven-injured.html
+        captured_at: 2026-09-25T08:46:29Z
 assessment:
   status: unverified
   credibility: 6

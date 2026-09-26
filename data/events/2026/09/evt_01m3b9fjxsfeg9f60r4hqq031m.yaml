@@ -18,6 +18,10 @@ sources:
     title: Bosnia Dismisses Two Soldiers for Glorifying Ratko Mladic
     published_at: 2026-09-24T14:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925211704/https://balkaninsight.com/2026/09/24/bosnia-dismisses-two-soldiers-for-glorifying-ratko-mladic/bi/
+        captured_at: 2026-09-25T21:17:04Z
 assessment:
   status: unverified
   credibility: 6

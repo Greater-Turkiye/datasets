@@ -1,33 +1,29 @@
-id: evt_01m3c3zgsrf86bwr2d5zycj45w
+id: evt_01m3en90e3f58rg6mtdd1zg2wx
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: SİHA'lar bir gecede Rusya'daki petrol rafinerilerine ve sanayi tesislerine saldırdı
-  en: Drones attack oil refineries, industrial facilities in Russia overnight – media
+  tr: Partizanlar Rusya'nın Sverdlovsk bölgesindeki İHA deposunu imha etti
+  en: Partisans destroy UAV warehouse in Russia's Sverdlovsk region
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-25T00:00Z
+  start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-25T06:48Z
+reported_at: 2026-09-26T01:36Z
 location:
-  geometry: {type: Point, coordinates: [39.711, 47.237]}
+  geometry: {type: Point, coordinates: [60.598, 56.852]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Rostov bölgesi, en: Rostov region}
+  place_name: {tr: Yekaterinburg bölgesi, en: Yekaterinburg region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167821-drones-attack-oil-refineries-industrial-facilities-in-russia-overnight-media.html
-    title: Drones attack oil refineries, industrial facilities in Russia overnight – media
-    published_at: 2026-09-25T06:48Z
+  - url: https://www.ukrinform.net/rubric-ato/4167866-partisans-destroy-uav-warehouse-in-russias-sverdlovsk-region.html
+    title: Partisans destroy UAV warehouse in Russia's Sverdlovsk region
+    published_at: 2026-09-26T01:36Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925081610/https://www.ukrinform.net/rubric-ato/4167821-drones-attack-oil-refineries-industrial-facilities-in-russia-overnight-media.html
-        captured_at: 2026-09-25T08:16:10Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,17 +1,17 @@
-id: evt_01m3c3zqqpfc8sa103xhhv3mgf
+id: evt_01m3en993ved6rxad5d5x0z7eh
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Yaralanmaların bildirildiği Rus insansız hava aracı Kiev'in Shevchenkivskyi Bölgesindeki konut dışı binaya çarptı
-  en: Russian drone hits non-residential building in Kyiv's Shevchenkivskyi District, injuries reported
+  tr: Yaralıların Kiev'in Solomianskyi semtindeki apartman ve mağaza arasında Rus insansız hava aracı isabet ettiği bildirildi
+  en: Russian drone hits between apartment building and store in Kyiv's Solomianskyi district, injuries reported
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-25T00:00Z
+  start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-25T07:38Z
+reported_at: 2026-09-26T05:18Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167849-russian-drone-hits-nonresidential-building-in-kyivs-shevchenkivskyi-district-injuries-reported.html
-    title: Russian drone hits non-residential building in Kyiv's Shevchenkivskyi District, injuries reported
-    published_at: 2026-09-25T07:38Z
+  - url: https://www.ukrinform.net/rubric-ato/4168195-russian-drone-hits-between-apartment-building-and-store-in-kyivs-solomianskyi-district-injuries-reported.html
+    title: Russian drone hits between apartment building and store in Kyiv's Solomianskyi district, injuries reported
+    published_at: 2026-09-26T05:18Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925090106/https://www.ukrinform.net/rubric-ato/4167849-russian-drone-hits-nonresidential-building-in-kyivs-shevchenkivskyi-district-injuries-reported.html
-        captured_at: 2026-09-25T09:01:06Z
 assessment:
   status: unverified
   credibility: 6

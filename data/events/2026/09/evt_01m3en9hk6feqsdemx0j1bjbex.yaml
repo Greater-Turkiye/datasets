@@ -1,0 +1,33 @@
+id: evt_01m3en9hk6feqsdemx0j1bjbex
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: Ilsky petrol rafinerisi saldırının ardından Rus Krasnodar Krayı'nda alev aldı
+  en: Ilsky oil refinery catches fire in Russia's Krasnodar Krai following attack – media
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-26T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-26T06:58Z
+location:
+  geometry: {type: Point, coordinates: [39.0, 45.02]}
+  precision: admin1
+  uncertainty_m: 100000
+  method: inferred
+  place_name: {tr: Krasnodar bölgesi, en: Krasnodar region}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4168222-ilsky-oil-refinery-catches-fire-in-russias-krasnodar-krai-following-attack-media.html
+    title: Ilsky oil refinery catches fire in Russia's Krasnodar Krai following attack – media
+    published_at: 2026-09-26T06:58Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, başlıktaki yer adından çıkarıldı (Natural Earth; ±100 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the headline (Natural Earth; ±100 km). Not verified."
+tags: [otomatik]

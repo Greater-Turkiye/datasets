@@ -18,6 +18,10 @@ sources:
     title: "رجب أردوغان: تركيا \"جزيرة استقرار\" في خضم صراعات محيطة و\"العالم أكبر من خمسة\""
     published_at: 2026-09-22T12:00Z
     lang: ar
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926032925/https://news.un.org/feed/view/ar/story/2026/09/1145376
+        captured_at: 2026-09-26T03:29:25Z
 assessment:
   status: unverified
   credibility: 6

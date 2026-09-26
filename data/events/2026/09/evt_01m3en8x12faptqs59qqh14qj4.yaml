@@ -1,9 +1,9 @@
-id: evt_01m3c3zqqpfc8sa103xhhv3mgf
+id: evt_01m3en8x12faptqs59qqh14qj4
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Yaralanmaların bildirildiği Rus insansız hava aracı Kiev'in Shevchenkivskyi Bölgesindeki konut dışı binaya çarptı
-  en: Russian drone hits non-residential building in Kyiv's Shevchenkivskyi District, injuries reported
+  tr: Rus insansız hava aracı saldırısı Sumy'de 14 yaşındaki kız çocuğunu yaraladı
+  en: Russian drone strike leaves 14-year-old girl injured in Sumy
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-25T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-25T07:38Z
+reported_at: 2026-09-25T20:39Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [34.781, 50.924]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Sumy, en: Sumy}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167849-russian-drone-hits-nonresidential-building-in-kyivs-shevchenkivskyi-district-injuries-reported.html
-    title: Russian drone hits non-residential building in Kyiv's Shevchenkivskyi District, injuries reported
-    published_at: 2026-09-25T07:38Z
+  - url: https://www.ukrinform.net/rubric-ato/4168153-russian-drone-strike-leaves-14yearold-girl-injured-in-sumy.html
+    title: Russian drone strike leaves 14-year-old girl injured in Sumy
+    published_at: 2026-09-25T20:39Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925090106/https://www.ukrinform.net/rubric-ato/4167849-russian-drone-hits-nonresidential-building-in-kyivs-shevchenkivskyi-district-injuries-reported.html
-        captured_at: 2026-09-25T09:01:06Z
 assessment:
   status: unverified
   credibility: 6

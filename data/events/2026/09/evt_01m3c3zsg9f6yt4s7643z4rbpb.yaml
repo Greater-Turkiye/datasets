@@ -24,6 +24,10 @@ sources:
     title: Buildings, railway infrastructure damaged in Poltava community following Russian attack
     published_at: 2026-09-25T07:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925093128/https://www.ukrinform.net/rubric-ato/4167854-buildings-railway-infrastructure-damaged-in-poltava-community-following-russian-attack.html
+        captured_at: 2026-09-25T09:31:28Z
 assessment:
   status: unverified
   credibility: 6

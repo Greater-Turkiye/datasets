@@ -24,6 +24,10 @@ sources:
     title: Russian drones attack Zaporizhzhia in morning strike, one person injured, medical center on fire
     published_at: 2026-09-25T06:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925080107/https://www.ukrinform.net/rubric-ato/4167812-russian-drones-attack-zaporizhzhia-in-morning-strike-one-person-injured-medical-center-on-fire.html
+        captured_at: 2026-09-25T08:01:07Z
 assessment:
   status: unverified
   credibility: 6

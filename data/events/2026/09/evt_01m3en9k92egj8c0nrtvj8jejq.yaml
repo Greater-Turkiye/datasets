@@ -1,33 +1,29 @@
-id: evt_01m3c3zqqpfc8sa103xhhv3mgf
+id: evt_01m3en9k92egj8c0nrtvj8jejq
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Yaralanmaların bildirildiği Rus insansız hava aracı Kiev'in Shevchenkivskyi Bölgesindeki konut dışı binaya çarptı
-  en: Russian drone hits non-residential building in Kyiv's Shevchenkivskyi District, injuries reported
+  tr: "Reuters: Perma petrol rafinerisi insansız hava aracı saldırısının ardından faaliyetlerini durdurdu"
+  en: Perm oil refinery halts operations after drone attack – Reuters
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-25T00:00Z
+  start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-25T07:38Z
+reported_at: 2026-09-26T07:17Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [56.248, 58.002]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Perm, en: Perm}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167849-russian-drone-hits-nonresidential-building-in-kyivs-shevchenkivskyi-district-injuries-reported.html
-    title: Russian drone hits non-residential building in Kyiv's Shevchenkivskyi District, injuries reported
-    published_at: 2026-09-25T07:38Z
+  - url: https://www.ukrinform.net/rubric-ato/4168226-perm-oil-refinery-halts-operations-after-drone-attack-reuters.html
+    title: Perm oil refinery halts operations after drone attack – Reuters
+    published_at: 2026-09-26T07:17Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260925090106/https://www.ukrinform.net/rubric-ato/4167849-russian-drone-hits-nonresidential-building-in-kyivs-shevchenkivskyi-district-injuries-reported.html
-        captured_at: 2026-09-25T09:01:06Z
 assessment:
   status: unverified
   credibility: 6

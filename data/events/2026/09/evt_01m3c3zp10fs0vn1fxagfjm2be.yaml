@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Odesa leaves one dead, one injured
     published_at: 2026-09-25T07:29Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925084602/https://www.ukrinform.net/rubric-ato/4167839-russian-attack-on-odesa-leaves-one-dead-one-injured.html
+        captured_at: 2026-09-25T08:46:02Z
 assessment:
   status: unverified
   credibility: 6

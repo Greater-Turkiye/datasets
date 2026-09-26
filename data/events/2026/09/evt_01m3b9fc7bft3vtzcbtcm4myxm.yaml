@@ -18,6 +18,10 @@ sources:
     title: "Polish Deputy PM on Starlink station fire: Russia tries to deprive Ukraine of internet access at front"
     published_at: 2026-09-24T13:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924164603/https://www.ukrinform.net/rubric-ato/4167614-polish-deputy-pm-on-starlink-station-fire-russia-tries-to-deprive-ukraine-of-internet-access-at-front.html
+        captured_at: 2026-09-24T16:46:03Z
 assessment:
   status: unverified
   credibility: 6
