@@ -1,33 +1,29 @@
-id: evt_01m3c3zwyme9m8z2mv31f1t86m
+id: evt_01m3f68pktfcp97mwfbdm1bhhp
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Kiev'e düzenlenen insansız hava aracı saldırısının ardından yaralanan çocuk sayısı 9 'a yükseldi, 14 yaşındaki çocuk öldürüldü
-  en: Injury toll after drone attack on Kyiv rises to nine, 14-year-old boy killed
+  tr: Rusya'nın Sumy'deki KAB grevleri can kaybına ve çocuğun yaralanmasına neden oldu
+  en: Russian KAB strikes on Sumy cause fatalities and injure child
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-25T00:00Z
+  start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-25T08:38Z
+reported_at: 2026-09-26T11:59Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [34.781, 50.924]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Sumy, en: Sumy}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167880-injury-toll-after-drone-attack-on-kyiv-rises-to-nine-14yearold-boy-killed.html
-    title: Injury toll after drone attack on Kyiv rises to nine, 14-year-old boy killed
-    published_at: 2026-09-25T08:38Z
+  - url: https://www.ukrinform.net/rubric-ato/4168291-russian-kab-strikes-on-sumy-cause-fatalities-and-injure-child.html
+    title: Russian KAB strikes on Sumy cause fatalities and injure child
+    published_at: 2026-09-26T11:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926155106/https://www.ukrinform.net/rubric-ato/4167880-injury-toll-after-drone-attack-on-kyiv-rises-to-nine-14yearold-boy-killed.html
-        captured_at: 2026-09-26T15:51:06Z
 assessment:
   status: unverified
   credibility: 6

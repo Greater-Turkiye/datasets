@@ -24,6 +24,10 @@ sources:
     title: Russian drone strike on energy workers’ vehicle in Odesa region kills one, injures another
     published_at: 2026-09-25T15:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926155732/https://www.ukrinform.net/rubric-ato/4168056-russian-drone-strike-on-energy-workers-vehicle-in-odesa-region-kills-one-injures-another.html
+        captured_at: 2026-09-26T15:57:32Z
 assessment:
   status: unverified
   credibility: 6

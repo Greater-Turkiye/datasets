@@ -24,6 +24,10 @@ sources:
     title: "Zelensky on Russian strike on Kyiv high-rise building: Savage and sickening strike, devoid of any military logic"
     published_at: 2026-09-25T08:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925100111/https://www.ukrinform.net/rubric-ato/4167885-zelensky-on-russian-strike-on-kyiv-highrise-savage-and-sickening-strike-devoid-of-any-military-logic.html
+        captured_at: 2026-09-25T10:01:11Z
 assessment:
   status: unverified
   credibility: 6

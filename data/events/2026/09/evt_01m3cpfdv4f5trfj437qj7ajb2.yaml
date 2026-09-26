@@ -24,6 +24,10 @@ sources:
     title: Death toll from Russian attack in Odesa rises to two
     published_at: 2026-09-25T10:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925114607/https://www.ukrinform.net/rubric-ato/4167936-death-toll-from-russian-attack-in-odesa-rises-to-two.html
+        captured_at: 2026-09-25T11:46:07Z
 assessment:
   status: unverified
   credibility: 6

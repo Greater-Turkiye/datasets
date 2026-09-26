@@ -24,10 +24,18 @@ sources:
     title: Injury toll after Russian drone attacks in Kyiv rises to 20, teenager killed
     published_at: 2026-09-25T10:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925111606/https://www.ukrinform.net/rubric-ato/4167942-injury-toll-after-russian-drone-attacks-in-kyiv-rises-to-20-teenager-killed.html
+        captured_at: 2026-09-25T11:16:06Z
   - url: https://www.ukrinform.net/rubric-ato/4168047-injury-toll-in-russian-drone-attacks-on-kyiv-rises-to-39-five-killed.html
     title: Injury toll in Russian drone attacks on Kyiv rises to 39, five killed
     published_at: 2026-09-25T14:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925164608/https://www.ukrinform.net/rubric-ato/4168047-injury-toll-in-russian-drone-attacks-on-kyiv-rises-to-39-five-killed.html
+        captured_at: 2026-09-25T16:46:08Z
 assessment:
   status: unverified
   credibility: 6

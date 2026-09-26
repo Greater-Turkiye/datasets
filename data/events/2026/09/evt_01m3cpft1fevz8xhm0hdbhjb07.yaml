@@ -18,6 +18,10 @@ sources:
     title: أعضاء مجلس الأمن يدينون هجمات الحوثيين ضد السعودية، ويؤكدون دعمهم لحكومة اليمن
     published_at: 2026-09-25T12:00Z
     lang: ar
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926155700/https://news.un.org/feed/view/ar/story/2026/09/1145412
+        captured_at: 2026-09-26T15:57:00Z
 assessment:
   status: unverified
   credibility: 6

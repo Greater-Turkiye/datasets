@@ -24,6 +24,10 @@ sources:
     title: General Staff reports hits at three Russian enterprises involved in missile production
     published_at: 2026-09-25T11:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925131308/https://www.ukrinform.net/rubric-ato/4167966-three-russian-enterprises-involved-in-missile-production-hit-general-staff.html
+        captured_at: 2026-09-25T13:13:08Z
 assessment:
   status: unverified
   credibility: 6

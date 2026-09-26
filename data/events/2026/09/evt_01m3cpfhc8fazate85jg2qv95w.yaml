@@ -24,6 +24,10 @@ sources:
     title: Ukrainian Defense Forces strike oil refineries in Perm and Novoshakhtinsk and two Russian radar stations
     published_at: 2026-09-25T11:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925130149/https://www.ukrinform.net/rubric-ato/4167962-ukrainian-defense-forces-strike-oil-refineries-in-perm-and-novoshakhtinsk-and-two-russian-radar-stations.html
+        captured_at: 2026-09-25T13:01:49Z
 assessment:
   status: unverified
   credibility: 6

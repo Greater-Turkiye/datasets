@@ -18,6 +18,10 @@ sources:
     title: "Week in Review: Spyware, AI and Arrests"
     published_at: 2026-09-25T13:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926160231/https://balkaninsight.com/2026/09/25/week-in-review-spyware-ai-and-arrests/bi/
+        captured_at: 2026-09-26T16:02:31Z
 assessment:
   status: unverified
   credibility: 6

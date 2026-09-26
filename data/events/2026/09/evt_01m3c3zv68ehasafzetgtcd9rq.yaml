@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes near kindergarten in Sumy
     published_at: 2026-09-25T08:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925100112/https://www.ukrinform.net/rubric-ato/4167878-russian-drone-strikes-near-kindergarten-in-sumy.html
+        captured_at: 2026-09-25T10:01:12Z
 assessment:
   status: unverified
   credibility: 6

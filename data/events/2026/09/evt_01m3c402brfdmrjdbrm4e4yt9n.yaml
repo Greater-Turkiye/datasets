@@ -24,6 +24,10 @@ sources:
     title: Russian attack damages building of Ukraine's High Council of Justice in Kyiv, six injured
     published_at: 2026-09-25T09:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925111611/https://www.ukrinform.net/rubric-ato/4167887-russian-attack-damages-building-of-ukraines-high-council-of-justice-in-kyiv-six-injured.html
+        captured_at: 2026-09-25T11:16:11Z
 assessment:
   status: unverified
   credibility: 6

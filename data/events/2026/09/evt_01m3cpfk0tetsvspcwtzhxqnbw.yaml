@@ -24,6 +24,10 @@ sources:
     title: Offensive operation in Lyman direction continues — Zelensky
     published_at: 2026-09-25T11:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925133103/https://www.ukrinform.net/rubric-ato/4167964-offensive-operation-in-lyman-direction-continues-zelensky.html
+        captured_at: 2026-09-25T13:31:03Z
 assessment:
   status: unverified
   credibility: 6
