@@ -24,6 +24,10 @@ sources:
     title: Drone crashes in Romania
     published_at: 2026-09-24T08:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925164223/https://www.ukrinform.net/rubric-ato/4167486-drone-crashes-in-romania.html
+        captured_at: 2026-09-25T16:42:23Z
 assessment:
   status: unverified
   credibility: 6

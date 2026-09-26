@@ -18,6 +18,10 @@ sources:
     title: "Мониторинговая миссия ООН: «Российские удары по Украине достигли нового уровня интенсивности»"
     published_at: 2026-09-24T12:00Z
     lang: ru
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925211410/https://news.un.org/feed/view/ru/story/2026/09/1468754
+        captured_at: 2026-09-25T21:14:10Z
 assessment:
   status: unverified
   credibility: 6

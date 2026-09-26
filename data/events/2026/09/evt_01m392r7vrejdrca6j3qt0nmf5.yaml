@@ -24,6 +24,10 @@ sources:
     title: Russian attacks on Kyiv kill two, injure at least 36
     published_at: 2026-09-23T13:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924170319/https://www.ukrinform.net/rubric-ato/4167199-russian-attacks-on-kyiv-kill-two-injure-at-least-36.html
+        captured_at: 2026-09-24T17:03:19Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Albanian Spy Chief’s Arrest a Major Blow to NATO Member’s Reputation
     published_at: 2026-09-24T06:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925211118/https://balkaninsight.com/2026/09/24/albanian-spy-chiefs-arrest-a-major-blow-to-nato-members-reputation/bi/
+        captured_at: 2026-09-25T21:11:18Z
 assessment:
   status: unverified
   credibility: 6

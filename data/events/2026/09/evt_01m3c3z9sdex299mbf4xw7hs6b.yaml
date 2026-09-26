@@ -18,6 +18,10 @@ sources:
     title: ADF down 267 out of 295 drones used by Russia to attack Ukraine overnight
     published_at: 2026-09-25T05:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925070106/https://www.ukrinform.net/rubric-ato/4167791-adf-down-267-out-of-295-drones-used-by-russia-to-attack-ukraine-overnight.html
+        captured_at: 2026-09-25T07:01:06Z
 assessment:
   status: unverified
   credibility: 6

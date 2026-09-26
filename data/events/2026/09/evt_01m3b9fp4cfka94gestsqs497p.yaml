@@ -24,6 +24,10 @@ sources:
     title: Russian attacks in Kherson region leave four injured
     published_at: 2026-09-24T15:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925081012/https://www.ukrinform.net/rubric-ato/4167690-russian-attacks-in-kherson-region-leave-four-injured.html
+        captured_at: 2026-09-25T08:10:12Z
 assessment:
   status: unverified
   credibility: 6

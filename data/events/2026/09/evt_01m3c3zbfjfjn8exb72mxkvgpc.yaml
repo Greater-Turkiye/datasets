@@ -24,6 +24,10 @@ sources:
     title: Apartment building damaged in Russian drone attack on Kyiv
     published_at: 2026-09-25T05:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926033705/https://www.ukrinform.net/rubric-ato/4167799-apartment-building-damaged-in-russian-drone-attack-on-kyiv.html
+        captured_at: 2026-09-26T03:37:05Z
 assessment:
   status: unverified
   credibility: 6

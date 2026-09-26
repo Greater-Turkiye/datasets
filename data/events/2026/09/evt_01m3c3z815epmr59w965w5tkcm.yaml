@@ -24,6 +24,10 @@ sources:
     title: "Russian drone attack on Kyiv: One person injured, damage reported in two districts"
     published_at: 2026-09-25T04:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925061614/https://www.ukrinform.net/rubric-ato/4167785-russian-drone-attack-on-kyiv-one-person-injured-damage-reported-in-two-districts.html
+        captured_at: 2026-09-25T06:16:14Z
 assessment:
   status: unverified
   credibility: 6

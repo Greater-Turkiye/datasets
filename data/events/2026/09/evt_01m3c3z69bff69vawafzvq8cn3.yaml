@@ -18,6 +18,10 @@ sources:
     title: No confirmation of possible Russian attacks on Italy, Spain and France — Defense Minister Crosetto
     published_at: 2026-09-25T02:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925050111/https://www.ukrinform.net/rubric-ato/4167625-no-confirmation-of-possible-russian-attacks-on-italy-spain-and-france-defense-minister-crosetto.html
+        captured_at: 2026-09-25T05:01:11Z
 assessment:
   status: unverified
   credibility: 6

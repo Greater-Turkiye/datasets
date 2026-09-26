@@ -18,6 +18,10 @@ sources:
     title: Zelensky announces new package of missiles for Patriot systems
     published_at: 2026-09-24T12:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260924193119/https://www.ukrinform.net/rubric-ato/4167599-zelensky-announces-new-package-of-missiles-for-patriot-systems.html
+        captured_at: 2026-09-24T19:31:19Z
 assessment:
   status: unverified
   credibility: 6

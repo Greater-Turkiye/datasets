@@ -24,6 +24,10 @@ sources:
     title: Injury toll in Russian attack on Kyiv rises to nine, two people killed
     published_at: 2026-09-24T16:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260925081011/https://www.ukrinform.net/rubric-ato/4167719-injury-toll-in-russian-attack-on-kyiv-rises-to-nine-two-people-killed.html
+        captured_at: 2026-09-25T08:10:11Z
 assessment:
   status: unverified
   credibility: 6
