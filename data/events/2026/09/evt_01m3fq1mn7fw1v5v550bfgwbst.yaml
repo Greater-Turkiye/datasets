@@ -24,6 +24,10 @@ sources:
     title: Lavrov issues call for new Eurasian ‘security architecture’
     published_at: 2026-09-26T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927113414/https://news.un.org/feed/view/en/story/2026/09/1168457
+        captured_at: 2026-09-27T11:34:14Z
 assessment:
   status: unverified
   credibility: 6

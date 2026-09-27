@@ -1,27 +1,23 @@
-id: evt_01m3en8yr3edf81d3nh0rs92pe
+id: evt_01m3h9p5gbf56tz1nxkfbrgvxb
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.clash
 title:
-  tr: Moldova, Geran -4 işaretli başka bir insansız hava aracının parçalarını buldu
-  en: Moldova finds fragments of another drone marked Geran-4
+  tr: "Savaş güncellemesi: Geçen gün cephe hattında 221 muharebe çatışması yaşandı, iki yön en sıcak yön olmaya devam ediyor"
+  en: "War update: 221 combat engagements at front line over past day, two directions remain hottest"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-26T00:00Z
+  start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-26T00:42Z
+reported_at: 2026-09-27T06:36Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167857-moldova-finds-fragments-of-another-drone-marked-geran4.html
-    title: Moldova finds fragments of another drone marked Geran-4
-    published_at: 2026-09-26T00:42Z
+  - url: https://www.ukrinform.net/rubric-ato/4168454-war-update-221-combat-engagements-at-front-line-over-past-day-two-directions-remain-hottest.html
+    title: "War update: 221 combat engagements at front line over past day, two directions remain hottest"
+    published_at: 2026-09-27T06:36Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926161220/https://www.ukrinform.net/rubric-ato/4167857-moldova-finds-fragments-of-another-drone-marked-geran4.html
-        captured_at: 2026-09-26T16:12:20Z
 assessment:
   status: unverified
   credibility: 6

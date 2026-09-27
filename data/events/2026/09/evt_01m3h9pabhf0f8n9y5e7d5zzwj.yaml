@@ -1,17 +1,17 @@
-id: evt_01m3f68t26ef5a44dcb61bpekn
+id: evt_01m3h9pabhf0f8n9y5e7d5zzwj
 schema: event/1
-event_type: kinetic.missile-strike
+event_type: kinetic.attack
 title:
-  tr: Rus güçlerinin Harkov bölgesindeki Lebiazhe'yi füzeyle vurduğu bildirildi
-  en: Russian forces strike Lebiazhe in Kharkiv region with missile, casualties reported
+  tr: Harkov bölgesinde Rus saldırılarında iki kişi öldü, sekiz kişi yaralandı
+  en: Russian attacks kill two people and injure eight in Kharkiv region
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-26T00:00Z
+  start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-26T14:19Z
+reported_at: 2026-09-27T08:03Z
 location:
   geometry: {type: Point, coordinates: [36.248, 50.002]}
   precision: admin1
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kharkiv bölgesi, en: Kharkiv region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168336-russian-forces-strike-lebiazhe-in-kharkiv-region-with-missile-casualties-reported.html
-    title: Russian forces strike Lebiazhe in Kharkiv region with missile, casualties reported
-    published_at: 2026-09-26T14:19Z
+  - url: https://www.ukrinform.net/rubric-ato/4168487-russian-attacks-kill-two-people-and-injure-eight-in-kharkiv-region.html
+    title: Russian attacks kill two people and injure eight in Kharkiv region
+    published_at: 2026-09-27T08:03Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926164605/https://www.ukrinform.net/rubric-ato/4168336-russian-forces-strike-lebiazhe-in-kharkiv-region-with-missile-casualties-reported.html
-        captured_at: 2026-09-26T16:46:05Z
 assessment:
   status: unverified
   credibility: 6

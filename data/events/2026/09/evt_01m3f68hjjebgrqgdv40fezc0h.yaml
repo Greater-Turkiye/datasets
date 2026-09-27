@@ -24,6 +24,10 @@ sources:
     title: Telephone conversation with President of Serbia Aleksandar Vucic
     published_at: 2026-09-26T09:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926124428/http://en.kremlin.ru/events/president/news/80843
+        captured_at: 2026-09-26T12:44:28Z
 assessment:
   status: unverified
   credibility: 6

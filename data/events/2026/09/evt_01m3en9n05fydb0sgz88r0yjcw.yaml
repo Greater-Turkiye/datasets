@@ -24,6 +24,10 @@ sources:
     title: Enemy drone crash sparks office building fire and damages warehouse in Kyiv, injuring one person
     published_at: 2026-09-26T08:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926123100/https://www.ukrinform.net/rubric-ato/4168242-enemy-drone-crash-sparks-office-building-fire-and-damages-warehouse-in-kyiv-injuring-one-person.html
+        captured_at: 2026-09-26T12:31:00Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,27 +1,23 @@
-id: evt_01m3en8yr3edf81d3nh0rs92pe
+id: evt_01m3h9p0gffmaafqf30yh2s3sw
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: deployment.announced
 title:
-  tr: Moldova, Geran -4 işaretli başka bir insansız hava aracının parçalarını buldu
-  en: Moldova finds fragments of another drone marked Geran-4
+  tr: Rusya, Ukrayna'ya karşı savaşta geçen gün 1.690 askerini kaybetti
+  en: Russia loses 1,690 troops in war against Ukraine over past day
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-26T00:00Z
+  start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-26T00:42Z
+reported_at: 2026-09-27T05:19Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4167857-moldova-finds-fragments-of-another-drone-marked-geran4.html
-    title: Moldova finds fragments of another drone marked Geran-4
-    published_at: 2026-09-26T00:42Z
+  - url: https://www.ukrinform.net/rubric-ato/4168443-russia-loses-1690-troops-in-war-against-ukraine-in-past-day.html
+    title: Russia loses 1,690 troops in war against Ukraine over past day
+    published_at: 2026-09-27T05:19Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926161220/https://www.ukrinform.net/rubric-ato/4167857-moldova-finds-fragments-of-another-drone-marked-geran4.html
-        captured_at: 2026-09-26T16:12:20Z
 assessment:
   status: unverified
   credibility: 6

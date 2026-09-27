@@ -1,33 +1,29 @@
-id: evt_01m3f68t26ef5a44dcb61bpekn
+id: evt_01m3h9p745f5kr92wa2rnfg23g
 schema: event/1
-event_type: kinetic.missile-strike
+event_type: kinetic.drone-strike
 title:
-  tr: Rus güçlerinin Harkov bölgesindeki Lebiazhe'yi füzeyle vurduğu bildirildi
-  en: Russian forces strike Lebiazhe in Kharkiv region with missile, casualties reported
+  tr: Rus İHA'ları Poltava bölgesindeki sanayi kuruluşlarını vurdu
+  en: Russian UAVs strike industrial enterprises in Poltava region
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-26T00:00Z
+  start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-26T14:19Z
+reported_at: 2026-09-27T06:55Z
 location:
-  geometry: {type: Point, coordinates: [36.248, 50.002]}
+  geometry: {type: Point, coordinates: [34.57, 49.574]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Kharkiv bölgesi, en: Kharkiv region}
+  place_name: {tr: Poltava bölgesi, en: Poltava region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168336-russian-forces-strike-lebiazhe-in-kharkiv-region-with-missile-casualties-reported.html
-    title: Russian forces strike Lebiazhe in Kharkiv region with missile, casualties reported
-    published_at: 2026-09-26T14:19Z
+  - url: https://www.ukrinform.net/rubric-ato/4168457-russian-uavs-strike-industrial-enterprises-in-poltava-region.html
+    title: Russian UAVs strike industrial enterprises in Poltava region
+    published_at: 2026-09-27T06:55Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926164605/https://www.ukrinform.net/rubric-ato/4168336-russian-forces-strike-lebiazhe-in-kharkiv-region-with-missile-casualties-reported.html
-        captured_at: 2026-09-26T16:46:05Z
 assessment:
   status: unverified
   credibility: 6

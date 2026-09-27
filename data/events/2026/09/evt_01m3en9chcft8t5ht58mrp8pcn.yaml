@@ -24,6 +24,10 @@ sources:
     title: "Drone attack on Kyiv region: Damage reported in three districts, two people injured"
     published_at: 2026-09-26T05:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926080059/https://www.ukrinform.net/rubric-ato/4168198-drone-attack-on-kyiv-region-damage-reported-in-three-districts-two-people-injured.html
+        captured_at: 2026-09-26T08:00:59Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Kyiv internet provider Kolo.TV hit by Russian strike for third time
     published_at: 2026-09-26T15:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927060056/https://www.ukrinform.net/rubric-ato/4168356-kyiv-internet-provider-kolotv-hit-by-russian-strike-for-third-time.html
+        captured_at: 2026-09-27T06:00:56Z
 assessment:
   status: unverified
   credibility: 6

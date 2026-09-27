@@ -24,6 +24,10 @@ sources:
     title: Ilsky oil refinery catches fire in Russia's Krasnodar Krai following attack – media
     published_at: 2026-09-26T06:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926123101/https://www.ukrinform.net/rubric-ato/4168222-ilsky-oil-refinery-catches-fire-in-russias-krasnodar-krai-following-attack-media.html
+        captured_at: 2026-09-26T12:31:01Z
 assessment:
   status: unverified
   credibility: 6

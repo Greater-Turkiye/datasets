@@ -1,0 +1,33 @@
+id: evt_01m3h9p8tjfax8yrm8qwqtmf50
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: "Rus saldırısından sonra Odesa bölgesinde büyük yangın çıktı: Bir ölü, iki yaralı"
+  en: "Large fire breaks out in Odesa region after Russian attack: One killed, two injured"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-27T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-27T07:21Z
+location:
+  geometry: {type: Point, coordinates: [30.708, 46.492]}
+  precision: admin1
+  uncertainty_m: 100000
+  method: inferred
+  place_name: {tr: Odesa bölgesi, en: Odessa region}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4168460-large-fire-breaks-out-in-odesa-region-after-russian-attack-one-killed-two-injured.html
+    title: "Large fire breaks out in Odesa region after Russian attack: One killed, two injured"
+    published_at: 2026-09-27T07:21Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±100 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±100 km). Not verified."
+tags: [otomatik]

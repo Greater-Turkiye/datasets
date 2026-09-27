@@ -18,6 +18,10 @@ sources:
     title: UN voices grave concern as fighting spreads across northern Ethiopia
     published_at: 2026-09-25T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927113022/https://news.un.org/feed/view/en/story/2026/09/1168450
+        captured_at: 2026-09-27T11:30:22Z
 assessment:
   status: unverified
   credibility: 6

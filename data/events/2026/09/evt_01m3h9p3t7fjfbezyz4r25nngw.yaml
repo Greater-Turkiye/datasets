@@ -1,33 +1,29 @@
-id: evt_01m3f68t26ef5a44dcb61bpekn
+id: evt_01m3h9p3t7fjfbezyz4r25nngw
 schema: event/1
-event_type: kinetic.missile-strike
+event_type: kinetic.attack
 title:
-  tr: Rus güçlerinin Harkov bölgesindeki Lebiazhe'yi füzeyle vurduğu bildirildi
-  en: Russian forces strike Lebiazhe in Kharkiv region with missile, casualties reported
+  tr: Rus kuvvetleri bir gecede Dnipropetrovsk bölgesinin iki bölgesine saldırdı, bir kişi yaralandı
+  en: Russian forces attack two districts of Dnipropetrovsk region overnight, one person injured
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-26T00:00Z
+  start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-26T14:19Z
+reported_at: 2026-09-27T06:18Z
 location:
-  geometry: {type: Point, coordinates: [36.248, 50.002]}
+  geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Kharkiv bölgesi, en: Kharkiv region}
+  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168336-russian-forces-strike-lebiazhe-in-kharkiv-region-with-missile-casualties-reported.html
-    title: Russian forces strike Lebiazhe in Kharkiv region with missile, casualties reported
-    published_at: 2026-09-26T14:19Z
+  - url: https://www.ukrinform.net/rubric-ato/4168451-russian-forces-attack-two-districts-of-dnipropetrovsk-region-overnight-one-person-injured.html
+    title: Russian forces attack two districts of Dnipropetrovsk region overnight, one person injured
+    published_at: 2026-09-27T06:18Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926164605/https://www.ukrinform.net/rubric-ato/4168336-russian-forces-strike-lebiazhe-in-kharkiv-region-with-missile-casualties-reported.html
-        captured_at: 2026-09-26T16:46:05Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,17 +1,17 @@
-id: evt_01m3cpfz4cfvprx77xx668qpq7
+id: evt_01m3h9nrc0eqpvnc3vy87ea9xx
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: "Kiev'deki ofis binasına insansız hava aracı saldırısı: 4 kişi öldü, 7 kişi yaralandı"
-  en: Drone strike on Kyiv office building kills four, injures seven
+  tr: Drone saldırısı Kiev'deki depoda yangına yol açtı
+  en: Drone strike sparks fire at warehouse in Kyiv
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-25T00:00Z
+  start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-25T13:05Z
+reported_at: 2026-09-27T03:22Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,14 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168007-drone-strike-on-kyiv-office-building-kills-three-injures-seven.html
-    title: Drone strike on Kyiv office building kills four, injures seven
-    published_at: 2026-09-25T13:05Z
+  - url: https://www.ukrinform.net/rubric-ato/4168431-drone-strike-sparks-fire-at-warehouse-in-kyiv.html
+    title: Drone strike sparks fire at warehouse in Kyiv
+    published_at: 2026-09-27T03:22Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260927112526/https://www.ukrinform.net/rubric-ato/4168007-drone-strike-on-kyiv-office-building-kills-three-injures-seven.html
-        captured_at: 2026-09-27T11:25:26Z
+  - url: https://www.ukrinform.net/rubric-ato/4168448-man-killed-in-kyiv-after-drone-strike.html
+    title: Man killed in Kyiv after drone strike
+    published_at: 2026-09-27T05:59Z
+    lang: en
 assessment:
   status: unverified
   credibility: 6
