@@ -18,6 +18,10 @@ sources:
     title: Russian forces launch another attack on Cosmonova data center
     published_at: 2026-09-26T11:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926123059/https://www.ukrinform.net/rubric-ato/4168279-russian-forces-launch-another-attack-on-cosmonova-data-center.html
+        captured_at: 2026-09-26T12:30:59Z
 assessment:
   status: unverified
   credibility: 6

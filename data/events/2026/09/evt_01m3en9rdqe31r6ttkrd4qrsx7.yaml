@@ -24,6 +24,10 @@ sources:
     title: Russian attack on highway in Odesa region injures three people and damages trucks
     published_at: 2026-09-26T09:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926123121/https://www.ukrinform.net/rubric-ato/4168268-russian-attack-on-highway-in-odesa-region-injures-three-people-and-damages-trucks.html
+        captured_at: 2026-09-26T12:31:21Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: "Israeli leader at UN: ‘We’re going to win. We have no other choice’"
     published_at: 2026-09-24T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927033739/https://news.un.org/feed/view/en/story/2026/09/1168431
+        captured_at: 2026-09-27T03:37:39Z
 assessment:
   status: unverified
   credibility: 6

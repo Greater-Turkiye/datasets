@@ -1,9 +1,9 @@
-id: evt_01m3en9pnve1z9ystha7av4k16
+id: evt_01m3gf0ry5fjk8gq4t8p13kn1w
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Rus güçleri Kiev'deki Darnytsia ilaç fabrikasına yine saldırdı
-  en: Russian forces strike Darnytsia pharmaceutical plant in Kyiv again
+  tr: Kiev'de okul öncesi araziye drone enkazı düştü
+  en: Drone debris falls onto preschool grounds in Kyiv
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-26T08:58Z
+reported_at: 2026-09-26T19:57Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168249-russian-forces-strike-darnytsia-pharmaceutical-plant-in-kyiv-again.html
-    title: Russian forces strike Darnytsia pharmaceutical plant in Kyiv again
-    published_at: 2026-09-26T08:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4168409-drone-debris-falls-onto-preschool-grounds-in-kyiv.html
+    title: Drone debris falls onto preschool grounds in Kyiv
+    published_at: 2026-09-26T19:57Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926123100/https://www.ukrinform.net/rubric-ato/4168249-russian-forces-strike-darnytsia-pharmaceutical-plant-in-kyiv-again.html
-        captured_at: 2026-09-26T12:31:00Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian drone hits between apartment building and store in Kyiv's Solomianskyi district, injuries reported
     published_at: 2026-09-26T05:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926070109/https://www.ukrinform.net/rubric-ato/4168195-russian-drone-hits-between-apartment-building-and-store-in-kyivs-solomianskyi-district-injuries-reported.html
+        captured_at: 2026-09-26T07:01:09Z
 assessment:
   status: unverified
   credibility: 6

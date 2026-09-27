@@ -24,6 +24,10 @@ sources:
     title: Perm oil refinery halts operations after drone attack – Reuters
     published_at: 2026-09-26T07:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926080054/https://www.ukrinform.net/rubric-ato/4168226-perm-oil-refinery-halts-operations-after-drone-attack-reuters.html
+        captured_at: 2026-09-26T08:00:54Z
 assessment:
   status: unverified
   credibility: 6

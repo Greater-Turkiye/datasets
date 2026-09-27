@@ -18,6 +18,10 @@ sources:
     title: Defense Forces strike Russian ammunition depot and Terek radar station
     published_at: 2026-09-26T09:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926123100/https://www.ukrinform.net/rubric-ato/4168275-defense-forces-strike-russian-ammunition-depot-and-terek-radar-station.html
+        captured_at: 2026-09-26T12:31:00Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,9 +1,9 @@
-id: evt_01m3en9e6sf31tsmtvwwvze955
+id: evt_01m3gf0v2zfhxb8fjpq717fcrq
 schema: event/1
-event_type: kinetic.clash
+event_type: policy.defense
 title:
-  tr: "Savaş güncellemesi: Ön cephede 205 muharebe çatışması"
-  en: "War update: 205 combat engagements on front line"
+  tr: “Rusya'nın Özgürlüğü” direniş hareketi, düşman hatlarının gerisinde büyük çaplı bir operasyon gerçekleştirerek 10 milyon doların üzerinde hasara neden oldu
+  en: “Freedom of Russia” resistance movement carries out large-scale operation behind enemy lines, causing over USD 10 M in damages
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-09-26T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-26T06:19Z
+reported_at: 2026-09-26T23:34Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168208-war-update-205-combat-engagements-on-front-line.html
-    title: "War update: 205 combat engagements on front line"
-    published_at: 2026-09-26T06:19Z
+  - url: https://www.ukrinform.net/rubric-ato/4168297-freedom-of-russia-resistance-movement-carries-out-largescale-operation-behind-enemy-lines-causing-over-usd-10-m-in-damages.html
+    title: “Freedom of Russia” resistance movement carries out large-scale operation behind enemy lines, causing over USD 10 M in damages
+    published_at: 2026-09-26T23:34Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926080111/https://www.ukrinform.net/rubric-ato/4168208-war-update-205-combat-engagements-on-front-line.html
-        captured_at: 2026-09-26T08:01:11Z
 assessment:
   status: unverified
   credibility: 6
