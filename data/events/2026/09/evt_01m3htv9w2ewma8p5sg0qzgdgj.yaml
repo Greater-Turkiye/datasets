@@ -1,33 +1,29 @@
-id: evt_01m3fq22ksetxb1bjyrp4qpaey
+id: evt_01m3htv9w2ewma8p5sg0qzgdgj
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rus bombardımanı Nikopol bölgesinde üç kişiyi yaraladı
-  en: Russian shelling injures three people in Nikopol district
+  tr: Sumy'deki Rus hava saldırılarında iki kişi öldü, beş kişi yaralandı
+  en: Russian airstrikes in Sumy leaves two killed, five injured
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-26T00:00Z
+  start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-26T17:59Z
+reported_at: 2026-09-27T14:29Z
 location:
-  geometry: {type: Point, coordinates: [34.406, 47.567]}
+  geometry: {type: Point, coordinates: [34.781, 50.924]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Nikopol, en: Nikopol}
+  place_name: {tr: Sumy, en: Sumy}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168386-russian-shelling-injures-three-people-in-nikopol-district.html
-    title: Russian shelling injures three people in Nikopol district
-    published_at: 2026-09-26T17:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4168563-russian-airstrikes-in-sumy-leaves-two-killed-five-injured-in.html
+    title: Russian airstrikes in Sumy leaves two killed, five injured
+    published_at: 2026-09-27T14:29Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926201601/https://www.ukrinform.net/rubric-ato/4168386-russian-shelling-injures-three-people-in-nikopol-district.html
-        captured_at: 2026-09-26T20:16:01Z
 assessment:
   status: unverified
   credibility: 6

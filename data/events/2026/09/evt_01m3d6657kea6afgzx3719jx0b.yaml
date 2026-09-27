@@ -24,6 +24,10 @@ sources:
     title: Air Force Reservist Leads Joint Team During NATO Pentathlon in Romania
     published_at: 2026-09-25T17:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926184257/https://www.war.gov/News/Feature-Stories/Story/Article/4611665/air-force-reservist-leads-joint-team-during-nato-pentathlon-in-romania/
+        captured_at: 2026-09-26T18:42:57Z
 assessment:
   status: unverified
   credibility: 6

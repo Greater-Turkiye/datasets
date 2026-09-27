@@ -24,6 +24,10 @@ sources:
     title: Drone debris falls onto preschool grounds in Kyiv
     published_at: 2026-09-26T19:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927163011/https://www.ukrinform.net/rubric-ato/4168409-drone-debris-falls-onto-preschool-grounds-in-kyiv.html
+        captured_at: 2026-09-27T16:30:11Z
 assessment:
   status: unverified
   credibility: 6

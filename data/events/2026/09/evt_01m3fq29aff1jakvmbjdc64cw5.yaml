@@ -24,6 +24,10 @@ sources:
     title: Russian attacks in Kyiv injure seven people over course of day
     published_at: 2026-09-26T19:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926231601/https://www.ukrinform.net/rubric-ato/4168414-russian-attacks-in-kyiv-injure-seven-people-over-course-of-day.html
+        captured_at: 2026-09-26T23:16:01Z
 assessment:
   status: unverified
   credibility: 6

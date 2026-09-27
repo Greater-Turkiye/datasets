@@ -18,6 +18,10 @@ sources:
     title: Saudi Arabia warns Gulf security inseparable from global stability amid regional tensions
     published_at: 2026-09-26T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927113442/https://news.un.org/feed/view/en/story/2026/09/1168459
+        captured_at: 2026-09-27T11:34:42Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,9 +1,9 @@
-id: evt_01m3h9nvnvenjrtekb6058j4gs
+id: evt_01m3htv4wkeb7ayxexyy3kmr8v
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Ruslar Odesa bölgesi Kiliia'daki liman altyapısına saldırdı
-  en: Russians attack port infrastructure in Kiliia, Odesa region
+  tr: Rusya'nın Fastiv bölgesine düzenlenen insansız hava aracı saldırısında kuruluş hasar gördü, bir kişi yaralandı
+  en: Enterprise damaged, one person injured in Russian drone attack on Fastiv district
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T03:59Z
+reported_at: 2026-09-27T12:57Z
 location:
-  geometry: {type: Point, coordinates: [30.708, 46.492]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Odesa bölgesi, en: Odessa region}
+  place_name: {tr: Kyiv bölgesi, en: Kyiv region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168433-russians-attack-port-infrastructure-in-kiliia-odesa-region.html
-    title: Russians attack port infrastructure in Kiliia, Odesa region
-    published_at: 2026-09-27T03:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4168546-enterprise-damaged-one-person-injured-in-russian-drone-attack-in-fastiv-district.html
+    title: Enterprise damaged, one person injured in Russian drone attack on Fastiv district
+    published_at: 2026-09-27T12:57Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260927064828/https://www.ukrinform.net/rubric-ato/4168433-russians-attack-port-infrastructure-in-kiliia-odesa-region.html
-        captured_at: 2026-09-27T06:48:28Z
 assessment:
   status: unverified
   credibility: 6

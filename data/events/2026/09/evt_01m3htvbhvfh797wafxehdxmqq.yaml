@@ -1,33 +1,29 @@
-id: evt_01m3fq22ksetxb1bjyrp4qpaey
+id: evt_01m3htvbhvfh797wafxehdxmqq
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Rus bombardımanı Nikopol bölgesinde üç kişiyi yaraladı
-  en: Russian shelling injures three people in Nikopol district
+  tr: Drone, Kiev'in Darnytskyi bölgesindeki apartman binasını vurdu
+  en: Drone hits apartment building in Kyiv's Darnytskyi district
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-26T00:00Z
+  start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-26T17:59Z
+reported_at: 2026-09-27T14:51Z
 location:
-  geometry: {type: Point, coordinates: [34.406, 47.567]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Nikopol, en: Nikopol}
+  place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168386-russian-shelling-injures-three-people-in-nikopol-district.html
-    title: Russian shelling injures three people in Nikopol district
-    published_at: 2026-09-26T17:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4168564-drone-hits-apartment-building-in-kyivs-darnytskyi-district.html
+    title: Drone hits apartment building in Kyiv's Darnytskyi district
+    published_at: 2026-09-27T14:51Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260926201601/https://www.ukrinform.net/rubric-ato/4168386-russian-shelling-injures-three-people-in-nikopol-district.html
-        captured_at: 2026-09-26T20:16:01Z
 assessment:
   status: unverified
   credibility: 6

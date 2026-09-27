@@ -1,33 +1,29 @@
-id: evt_01m3fq20w6fb9vneb4y7k9wtp1
+id: evt_01m3httzpqez1sb4f18cehkvxn
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rus saldırısı Harkov bölgesindeki Velykyi Burluk'ta yangına yol açtı
-  en: Russian strike sparks fire in Velykyi Burluk, Kharkiv region
+  tr: Rusya'nın Kiev bölgesindeki Vyshneve saldırısında bir kişi öldü, üç kişi yaralandı
+  en: Russian attack on Vyshneve in Kyiv region kills one and injures three others
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-26T00:00Z
+  start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-26T17:34Z
+reported_at: 2026-09-27T11:58Z
 location:
-  geometry: {type: Point, coordinates: [36.248, 50.002]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Kharkiv bölgesi, en: Kharkiv region}
+  place_name: {tr: Kyiv bölgesi, en: Kyiv region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168385-russian-strike-sparks-fire-in-velykyi-burluk-kharkiv-region.html
-    title: Russian strike sparks fire in Velykyi Burluk, Kharkiv region
-    published_at: 2026-09-26T17:34Z
+  - url: https://www.ukrinform.net/rubric-ato/4168530-russian-attack-on-vyshneve-in-kyiv-region-kills-one-and-injures-three-others.html
+    title: Russian attack on Vyshneve in Kyiv region kills one and injures three others
+    published_at: 2026-09-27T11:58Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260927073153/https://www.ukrinform.net/rubric-ato/4168385-russian-strike-sparks-fire-in-velykyi-burluk-kharkiv-region.html
-        captured_at: 2026-09-27T07:31:53Z
 assessment:
   status: unverified
   credibility: 6

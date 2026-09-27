@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes civilian car in Kharkiv region
     published_at: 2026-09-26T16:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927064828/https://www.ukrinform.net/rubric-ato/4168368-russian-drone-strikes-civilian-car-in-kharkiv-region.html
+        captured_at: 2026-09-27T06:48:28Z
 assessment:
   status: unverified
   credibility: 6

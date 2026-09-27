@@ -28,6 +28,10 @@ sources:
     title: Man killed in Kyiv after drone strike
     published_at: 2026-09-27T05:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927094609/https://www.ukrinform.net/rubric-ato/4168448-man-killed-in-kyiv-after-drone-strike.html
+        captured_at: 2026-09-27T09:46:09Z
 assessment:
   status: unverified
   credibility: 6

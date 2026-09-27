@@ -24,6 +24,10 @@ sources:
     title: Russian strikes in Odesa region leave two injured, houses and warehouses damaged
     published_at: 2026-09-27T03:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927040055/https://www.ukrinform.net/rubric-ato/4168432-russian-strikes-in-odesa-region-leave-two-injured-houses-and-warehouses-damaged.html
+        captured_at: 2026-09-27T04:00:55Z
 assessment:
   status: unverified
   credibility: 6

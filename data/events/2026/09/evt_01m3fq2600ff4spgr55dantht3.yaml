@@ -24,6 +24,10 @@ sources:
     title: Russian attack in Kyiv region damages private home and injures woman
     published_at: 2026-09-26T19:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926212315/https://www.ukrinform.net/rubric-ato/4168390-russian-attack-in-kyiv-region-damages-private-home-and-injures-woman.html
+        captured_at: 2026-09-26T21:23:15Z
 assessment:
   status: unverified
   credibility: 6
