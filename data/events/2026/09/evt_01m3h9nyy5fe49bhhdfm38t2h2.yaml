@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes office building in Kyiv
     published_at: 2026-09-27T04:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927064559/https://www.ukrinform.net/rubric-ato/4168436-russian-drone-strikes-office-building-in-kyiv.html
+        captured_at: 2026-09-27T06:45:59Z
 assessment:
   status: unverified
   credibility: 6

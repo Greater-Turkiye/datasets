@@ -18,6 +18,10 @@ sources:
     title: Russian forces destroy warehouse belonging to Japanese restaurant chain
     published_at: 2026-09-26T17:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927073154/https://www.ukrinform.net/rubric-ato/4168380-russian-forces-destroy-warehouse-belonging-to-japanese-restaurant-chain.html
+        captured_at: 2026-09-27T07:31:54Z
 assessment:
   status: unverified
   credibility: 6

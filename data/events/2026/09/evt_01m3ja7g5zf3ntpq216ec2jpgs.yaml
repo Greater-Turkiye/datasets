@@ -1,9 +1,9 @@
-id: evt_01m3h9p8tjfax8yrm8qwqtmf50
+id: evt_01m3ja7g5zf3ntpq216ec2jpgs
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: "Rus saldırısından sonra Odesa bölgesinde büyük yangın çıktı: Bir ölü, iki yaralı"
-  en: "Large fire breaks out in Odesa region after Russian attack: One killed, two injured"
+  tr: Novhorod - Siverskyi'ye Rus insansız hava aracı saldırısı 4 kişiyi yaraladı
+  en: Russian drone attack on Novhorod-Siverskyi injures four people
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T07:21Z
+reported_at: 2026-09-27T19:58Z
 location:
-  geometry: {type: Point, coordinates: [30.708, 46.492]}
+  geometry: {type: Point, coordinates: [31.302, 51.505]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Odesa bölgesi, en: Odessa region}
+  place_name: {tr: Chernihiv bölgesi, en: Chernihiv region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168460-large-fire-breaks-out-in-odesa-region-after-russian-attack-one-killed-two-injured.html
-    title: "Large fire breaks out in Odesa region after Russian attack: One killed, two injured"
-    published_at: 2026-09-27T07:21Z
+  - url: https://www.ukrinform.net/rubric-ato/4168605-russian-drone-attack-on-novhorodsiverskyi-injures-four-people.html
+    title: Russian drone attack on Novhorod-Siverskyi injures four people
+    published_at: 2026-09-27T19:58Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260927094608/https://www.ukrinform.net/rubric-ato/4168460-large-fire-breaks-out-in-odesa-region-after-russian-attack-one-killed-two-injured.html
-        captured_at: 2026-09-27T09:46:08Z
 assessment:
   status: unverified
   credibility: 6

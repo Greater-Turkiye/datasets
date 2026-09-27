@@ -18,6 +18,10 @@ sources:
     title: "War update: 221 combat engagements at front line over past day, two directions remain hottest"
     published_at: 2026-09-27T06:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927094608/https://www.ukrinform.net/rubric-ato/4168454-war-update-221-combat-engagements-at-front-line-over-past-day-two-directions-remain-hottest.html
+        captured_at: 2026-09-27T09:46:08Z
 assessment:
   status: unverified
   credibility: 6

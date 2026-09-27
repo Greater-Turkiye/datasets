@@ -1,9 +1,9 @@
-id: evt_01m3h9pgsnftsawn8ke9fwv45s
+id: evt_01m3ja7emxef1b1rp9dksdqydf
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Rusya'nın Kiev'e düzenlediği saldırıda yaralananların sayısı 4 'e yükseldi
-  en: Number of people injured in Russian attack on Kyiv rises to four
+  tr: Kiev'de İHA enkazı bulundu
+  en: UAV debris found in Kyiv
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T10:10Z
+reported_at: 2026-09-27T19:34Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168518-number-of-people-injured-in-russian-attack-on-kyiv-rises-to-four.html
-    title: Number of people injured in Russian attack on Kyiv rises to four
-    published_at: 2026-09-27T10:10Z
+  - url: https://www.ukrinform.net/rubric-ato/4168596-uav-debris-found-in-kyiv.html
+    title: UAV debris found in Kyiv
+    published_at: 2026-09-27T19:34Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260927124606/https://www.ukrinform.net/rubric-ato/4168518-number-of-people-injured-in-russian-attack-on-kyiv-rises-to-four.html
-        captured_at: 2026-09-27T12:46:06Z
 assessment:
   status: unverified
   credibility: 6

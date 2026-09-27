@@ -24,6 +24,10 @@ sources:
     title: Russian UAVs strike industrial enterprises in Poltava region
     published_at: 2026-09-27T06:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927205832/https://www.ukrinform.net/rubric-ato/4168457-russian-uavs-strike-industrial-enterprises-in-poltava-region.html
+        captured_at: 2026-09-27T20:58:32Z
 assessment:
   status: unverified
   credibility: 6

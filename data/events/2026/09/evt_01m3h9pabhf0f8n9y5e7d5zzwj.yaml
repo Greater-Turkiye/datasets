@@ -24,6 +24,10 @@ sources:
     title: Russian attacks kill two people and injure eight in Kharkiv region
     published_at: 2026-09-27T08:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927095934/https://www.ukrinform.net/rubric-ato/4168487-russian-attacks-kill-two-people-and-injure-eight-in-kharkiv-region.html
+        captured_at: 2026-09-27T09:59:34Z
 assessment:
   status: unverified
   credibility: 6

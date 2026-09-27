@@ -1,9 +1,9 @@
-id: evt_01m3h9pgsnftsawn8ke9fwv45s
+id: evt_01m3ja79vce47bsw4t4ybvzr84
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.shelling
 title:
-  tr: Rusya'nın Kiev'e düzenlediği saldırıda yaralananların sayısı 4 'e yükseldi
-  en: Number of people injured in Russian attack on Kyiv rises to four
+  tr: Rus bombardımanı Dnipro ve Kryvyi Rih'teki işletmelere zarar verdi
+  en: Russian shelling damages businesses in Dnipro and Kryvyi Rih
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T10:10Z
+reported_at: 2026-09-27T17:35Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Dnipro, en: Dnipro}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168518-number-of-people-injured-in-russian-attack-on-kyiv-rises-to-four.html
-    title: Number of people injured in Russian attack on Kyiv rises to four
-    published_at: 2026-09-27T10:10Z
+  - url: https://www.ukrinform.net/rubric-ato/4168586-russian-shelling-damages-businesses-in-dnipro-and-kryvyi-rih.html
+    title: Russian shelling damages businesses in Dnipro and Kryvyi Rih
+    published_at: 2026-09-27T17:35Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260927124606/https://www.ukrinform.net/rubric-ato/4168518-number-of-people-injured-in-russian-attack-on-kyiv-rises-to-four.html
-        captured_at: 2026-09-27T12:46:06Z
 assessment:
   status: unverified
   credibility: 6

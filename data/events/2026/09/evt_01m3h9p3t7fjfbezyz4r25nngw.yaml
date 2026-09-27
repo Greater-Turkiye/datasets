@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack two districts of Dnipropetrovsk region overnight, one person injured
     published_at: 2026-09-27T06:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927083100/https://www.ukrinform.net/rubric-ato/4168451-russian-forces-attack-two-districts-of-dnipropetrovsk-region-overnight-one-person-injured.html
+        captured_at: 2026-09-27T08:31:00Z
 assessment:
   status: unverified
   credibility: 6

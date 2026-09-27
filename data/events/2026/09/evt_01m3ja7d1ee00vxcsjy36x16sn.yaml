@@ -1,9 +1,9 @@
-id: evt_01m3h9pdnfejk8cb43q1qbps5y
+id: evt_01m3ja7d1ee00vxcsjy36x16sn
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: "Madyar: İnsansız hava araçlarının % 95 'i savaş alanında kullanılırken, dinlenme Rusya'ya saldırıyor"
-  en: "Madyar: 95% of drones are used on battlefield, while rest strike Russia"
+  tr: "Zelenskiy: Rusya dünden bu yana Ukrayna'ya 155 jet motorlu insansız hava aracı da dahil olmak üzere 277 saldırı insansız hava aracı fırlattı"
+  en: "Zelensky: Russia has launched 277 attack drones at Ukraine since yesterday, including 155 jet-powered drones"
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T08:58Z
+reported_at: 2026-09-27T18:58Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168496-madyar-95-of-drones-are-used-on-battlefield-while-rest-strike-russia.html
-    title: "Madyar: 95% of drones are used on battlefield, while rest strike Russia"
-    published_at: 2026-09-27T08:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4168595-zelensky-russia-has-launched-277-attack-drones-at-ukraine-since-yesterday-including-155-jetpowered-drones.html
+    title: "Zelensky: Russia has launched 277 attack drones at Ukraine since yesterday, including 155 jet-powered drones"
+    published_at: 2026-09-27T18:58Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260927095933/https://www.ukrinform.net/rubric-ato/4168496-madyar-95-of-drones-are-used-on-battlefield-while-rest-strike-russia.html
-        captured_at: 2026-09-27T09:59:33Z
 assessment:
   status: unverified
   credibility: 6

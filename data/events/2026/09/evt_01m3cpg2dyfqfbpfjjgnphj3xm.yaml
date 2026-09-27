@@ -24,6 +24,10 @@ sources:
     title: "Russian forces strike Sumy with guided bombs: Three injured, homes and school damaged"
     published_at: 2026-09-25T13:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260926205431/https://www.ukrinform.net/rubric-ato/4168029-russian-forces-strike-sumy-with-guided-bombs-three-injured-homes-and-school-damaged.html
+        captured_at: 2026-09-26T20:54:31Z
 assessment:
   status: unverified
   credibility: 6

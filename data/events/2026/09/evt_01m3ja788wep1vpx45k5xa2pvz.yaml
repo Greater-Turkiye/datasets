@@ -1,9 +1,9 @@
-id: evt_01m3h9pdnfejk8cb43q1qbps5y
+id: evt_01m3ja788wep1vpx45k5xa2pvz
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.missile-strike
 title:
-  tr: "Madyar: İnsansız hava araçlarının % 95 'i savaş alanında kullanılırken, dinlenme Rusya'ya saldırıyor"
-  en: "Madyar: 95% of drones are used on battlefield, while rest strike Russia"
+  tr: "Budanov: Ukrayna'nın Rusya'daki füze sistemlerini vurmak için genişletilmiş Starlink/Starshield yeteneklerine ihtiyacı var"
+  en: Ukraine needs expanded Starlink/Starshield capabilities to strike missile systems in Russia — Budanov
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T08:58Z
+reported_at: 2026-09-27T15:59Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168496-madyar-95-of-drones-are-used-on-battlefield-while-rest-strike-russia.html
-    title: "Madyar: 95% of drones are used on battlefield, while rest strike Russia"
-    published_at: 2026-09-27T08:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4168573-ukraine-needs-expanded-starlinkstarshield-capabilities-to-strike-missile-systems-in-russia-budanov.html
+    title: Ukraine needs expanded Starlink/Starshield capabilities to strike missile systems in Russia — Budanov
+    published_at: 2026-09-27T15:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260927095933/https://www.ukrinform.net/rubric-ato/4168496-madyar-95-of-drones-are-used-on-battlefield-while-rest-strike-russia.html
-        captured_at: 2026-09-27T09:59:33Z
 assessment:
   status: unverified
   credibility: 6
