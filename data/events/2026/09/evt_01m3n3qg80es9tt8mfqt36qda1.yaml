@@ -1,9 +1,9 @@
-id: evt_01m3m17mgrfx4tgx4mqdnpxefj
+id: evt_01m3n3qg80es9tt8mfqt36qda1
 schema: event/1
-event_type: kinetic.attack
+event_type: other
 title:
-  tr: Rusya'nın Kiev'e bir gecede düzenlediği saldırıda dört kişi yaralandı
-  en: Four injured in overnight Russian attack on Kyiv
+  tr: Düşman İHA'sından gelen enkaz, Kiev'in Desnianskyi bölgesindeki konut binasının avlusuna düştü
+  en: Debris from enemy UAV fell in courtyard of residential building in Kyiv's Desnianskyi district
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T04:23Z
+reported_at: 2026-09-28T18:57Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168628-four-injured-in-overnight-russian-attack-on-kyiv.html
-    title: Four injured in overnight Russian attack on Kyiv
-    published_at: 2026-09-28T04:23Z
+  - url: https://www.ukrinform.net/rubric-ato/4168964-debris-from-enemy-uav-fell-in-courtyard-of-residential-building-in-kyivs-desnianskyi-district.html
+    title: Debris from enemy UAV fell in courtyard of residential building in Kyiv's Desnianskyi district
+    published_at: 2026-09-28T18:57Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928063122/https://www.ukrinform.net/rubric-ato/4168628-four-injured-in-overnight-russian-attack-on-kyiv.html
-        captured_at: 2026-09-28T06:31:22Z
 assessment:
   status: unverified
   credibility: 6

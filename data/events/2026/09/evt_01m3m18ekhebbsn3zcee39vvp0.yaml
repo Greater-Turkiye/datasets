@@ -24,6 +24,10 @@ sources:
     title: Russians strike firefighters with drone while they extinguish fire in Sloviansk
     published_at: 2026-09-28T09:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928120112/https://www.ukrinform.net/rubric-ato/4168737-russians-strike-firefighters-with-drone-while-they-extinguish-fire-in-sloviansk.html
+        captured_at: 2026-09-28T12:01:12Z
 assessment:
   status: unverified
   credibility: 6

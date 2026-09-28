@@ -24,6 +24,10 @@ sources:
     title: Security Council, 10230th Meeting (AM) Middle East, Palestine
     published_at: 2026-09-26T21:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928225646/https://press.un.org/en/blog/sc16464
+        captured_at: 2026-09-28T22:56:46Z
 assessment:
   status: unverified
   credibility: 6

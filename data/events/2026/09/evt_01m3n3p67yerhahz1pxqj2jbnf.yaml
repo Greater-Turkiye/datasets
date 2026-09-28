@@ -1,9 +1,9 @@
-id: evt_01m3m182w6erd94ze39j4sevzx
+id: evt_01m3n3p67yerhahz1pxqj2jbnf
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Kiev bölgesindeki Rus saldırıları son 24 saat içinde üç kişiyi öldürdü ve sekiz kişiyi yaraladı
-  en: Russian strikes in Kyiv region kill three people and injure eight over past 24 hours
+  tr: Rus insansız hava aracı Dnipropetrovsk bölgesindeki enerji tesisini vurdu
+  en: Russian drone strikes energy facility in Dnipropetrovsk region
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T06:58Z
+reported_at: 2026-09-28T11:59Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Kyiv bölgesi, en: Kyiv region}
+  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168661-russian-strikes-in-kyiv-region-kill-three-people-and-injure-eight-over-past-24-hours.html
-    title: Russian strikes in Kyiv region kill three people and injure eight over past 24 hours
-    published_at: 2026-09-28T06:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4168800-russian-drone-strikes-energy-facility-in-dnipropetrovsk-region.html
+    title: Russian drone strikes energy facility in Dnipropetrovsk region
+    published_at: 2026-09-28T11:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928093124/https://www.ukrinform.net/rubric-ato/4168661-russian-strikes-in-kyiv-region-kill-three-people-and-injure-eight-over-past-24-hours.html
-        captured_at: 2026-09-28T09:31:24Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,9 +1,9 @@
-id: evt_01m3m1867pf9er3p798w25g5qs
+id: evt_01m3n3qnd9fcbr0fqtkzrt6wgr
 schema: event/1
-event_type: kinetic.clash
+event_type: deployment.announced
 title:
-  tr: "Biletsky: 3. Ordu Kolordusu \"Vivaldi\" Operasyonunda Nove, Ridkodub ve Katerynivka'yı kurtardı"
-  en: "Biletsky: 3rd Army Corps liberates Nove, Ridkodub and Katerynivka in Operation “Vivaldi”"
+  tr: "Zelenskiy: Rusya şimdiden ek seferberliğe başladı"
+  en: "Zelensky: Russia has already begun additional mobilization"
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T07:45Z
+reported_at: 2026-09-28T20:18Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168685-biletsky-3rd-army-corps-liberates-nove-ridkodub-and-katerynivka-in-operation-vivaldi.html
-    title: "Biletsky: 3rd Army Corps liberates Nove, Ridkodub and Katerynivka in Operation “Vivaldi”"
-    published_at: 2026-09-28T07:45Z
+  - url: https://www.ukrinform.net/rubric-ato/4168983-zelensky-russia-has-already-begun-additional-mobilization.html
+    title: "Zelensky: Russia has already begun additional mobilization"
+    published_at: 2026-09-28T20:18Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928092204/https://www.ukrinform.net/rubric-ato/4168685-biletsky-3rd-army-corps-liberates-nove-ridkodub-and-katerynivka-in-operation-vivaldi.html
-        captured_at: 2026-09-28T09:22:04Z
 assessment:
   status: unverified
   credibility: 6

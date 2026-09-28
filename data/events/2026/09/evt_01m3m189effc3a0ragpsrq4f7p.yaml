@@ -24,6 +24,10 @@ sources:
     title: "Media reports: Drones attack Edelweiss-95 oil depot in Krasnodar region"
     published_at: 2026-09-28T08:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928114604/https://www.ukrinform.net/rubric-ato/4168670-media-reports-drones-attack-edelweiss95-oil-depot-in-krasnodar-region.html
+        captured_at: 2026-09-28T11:46:04Z
 assessment:
   status: unverified
   credibility: 6

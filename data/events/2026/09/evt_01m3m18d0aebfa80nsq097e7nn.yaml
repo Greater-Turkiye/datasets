@@ -18,6 +18,10 @@ sources:
     title: Ukrainian Defense Forces strike Pantsir-S2 and Russian UAV command and launch sites
     published_at: 2026-09-28T09:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928101705/https://www.ukrinform.net/rubric-ato/4168735-ukrainian-defense-forces-strike-pantsirs2-and-russian-uav-command-and-launch-sites.html
+        captured_at: 2026-09-28T10:17:05Z
 assessment:
   status: unverified
   credibility: 6

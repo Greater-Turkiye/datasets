@@ -18,6 +18,10 @@ sources:
     title: "War update: 229 combat clashes on front lines in past 24 hours"
     published_at: 2026-09-28T05:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928080100/https://www.ukrinform.net/rubric-ato/4168642-war-update-229-combat-clashes-on-front-lines-in-past-24-hours.html
+        captured_at: 2026-09-28T08:01:00Z
 assessment:
   status: unverified
   credibility: 6

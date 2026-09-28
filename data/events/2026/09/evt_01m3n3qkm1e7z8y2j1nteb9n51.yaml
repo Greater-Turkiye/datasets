@@ -1,9 +1,9 @@
-id: evt_01m3m1867pf9er3p798w25g5qs
+id: evt_01m3n3qkm1e7z8y2j1nteb9n51
 schema: event/1
-event_type: kinetic.clash
+event_type: kinetic.drone-strike
 title:
-  tr: "Biletsky: 3. Ordu Kolordusu \"Vivaldi\" Operasyonunda Nove, Ridkodub ve Katerynivka'yı kurtardı"
-  en: "Biletsky: 3rd Army Corps liberates Nove, Ridkodub and Katerynivka in Operation “Vivaldi”"
+  tr: "Zelenskiy: Genel insansız hava aracı müdahale oranı % 70, jetle çalışan insansız hava araçları için şu anda sadece % 57"
+  en: "Zelensky: Overall drone interception rate amounts to 70%, for jet-powered drones currently only 57%"
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T07:45Z
+reported_at: 2026-09-28T19:51Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168685-biletsky-3rd-army-corps-liberates-nove-ridkodub-and-katerynivka-in-operation-vivaldi.html
-    title: "Biletsky: 3rd Army Corps liberates Nove, Ridkodub and Katerynivka in Operation “Vivaldi”"
-    published_at: 2026-09-28T07:45Z
+  - url: https://www.ukrinform.net/rubric-ato/4168978-zelensky-overall-drone-interception-rate-amounts-to-70-for-jetpowered-drones-currently-only-57.html
+    title: "Zelensky: Overall drone interception rate amounts to 70%, for jet-powered drones currently only 57%"
+    published_at: 2026-09-28T19:51Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928092204/https://www.ukrinform.net/rubric-ato/4168685-biletsky-3rd-army-corps-liberates-nove-ridkodub-and-katerynivka-in-operation-vivaldi.html
-        captured_at: 2026-09-28T09:22:04Z
 assessment:
   status: unverified
   credibility: 6

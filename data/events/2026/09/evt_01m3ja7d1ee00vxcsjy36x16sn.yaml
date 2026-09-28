@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Russia has launched 277 attack drones at Ukraine since yesterday, including 155 jet-powered drones"
     published_at: 2026-09-27T18:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928063119/https://www.ukrinform.net/rubric-ato/4168595-zelensky-russia-has-launched-277-attack-drones-at-ukraine-since-yesterday-including-155-jetpowered-drones.html
+        captured_at: 2026-09-28T06:31:19Z
 assessment:
   status: unverified
   credibility: 6

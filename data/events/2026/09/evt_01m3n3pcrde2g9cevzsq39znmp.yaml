@@ -1,9 +1,9 @@
-id: evt_01m3m17mgrfx4tgx4mqdnpxefj
+id: evt_01m3n3pcrde2g9cevzsq39znmp
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rusya'nın Kiev'e bir gecede düzenlediği saldırıda dört kişi yaralandı
-  en: Four injured in overnight Russian attack on Kyiv
+  tr: Rusya'nın Kiev'in merkezindeki Ulusal Bilimler Akademisi binasına düzenlediği saldırıda bir kişi öldü, üç kişi yaralandı
+  en: Russian strike on National Academy of Sciences building in central Kyiv kills one, injures three
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T04:23Z
+reported_at: 2026-09-28T12:15Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,14 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168628-four-injured-in-overnight-russian-attack-on-kyiv.html
-    title: Four injured in overnight Russian attack on Kyiv
-    published_at: 2026-09-28T04:23Z
+  - url: https://www.ukrinform.net/rubric-ato/4168811-russian-strike-on-national-academy-of-sciences-building-in-central-kyiv-kills-one-injures-three.html
+    title: Russian strike on National Academy of Sciences building in central Kyiv kills one, injures three
+    published_at: 2026-09-28T12:15Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928063122/https://www.ukrinform.net/rubric-ato/4168628-four-injured-in-overnight-russian-attack-on-kyiv.html
-        captured_at: 2026-09-28T06:31:22Z
+  - url: https://www.ukrinform.net/rubric-ato/4168860-russian-strike-on-national-academy-of-sciences-building-in-central-kyiv-kills-one-injures-five.html
+    title: Russian strike on National Academy of Sciences building in central Kyiv kills one, injures five
+    published_at: 2026-09-28T13:50Z
+    lang: en
 assessment:
   status: unverified
   credibility: 6

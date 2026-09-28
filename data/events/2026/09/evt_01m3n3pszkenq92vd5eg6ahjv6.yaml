@@ -1,9 +1,9 @@
-id: evt_01m3m17mgrfx4tgx4mqdnpxefj
+id: evt_01m3n3pszkenq92vd5eg6ahjv6
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rusya'nın Kiev'e bir gecede düzenlediği saldırıda dört kişi yaralandı
-  en: Four injured in overnight Russian attack on Kyiv
+  tr: "Kiev'e Rus saldırıları: Günün başlangıcından bu yana 19 kişi yaralandı, bir kadın öldürüldü"
+  en: "Russian attacks on Kyiv: 19 people injured since start of day, woman killed"
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T04:23Z
+reported_at: 2026-09-28T14:12Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168628-four-injured-in-overnight-russian-attack-on-kyiv.html
-    title: Four injured in overnight Russian attack on Kyiv
-    published_at: 2026-09-28T04:23Z
+  - url: https://www.ukrinform.net/rubric-ato/4168882-russian-attacks-on-kyiv-19-people-injured-since-start-of-day-woman-killed.html
+    title: "Russian attacks on Kyiv: 19 people injured since start of day, woman killed"
+    published_at: 2026-09-28T14:12Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928063122/https://www.ukrinform.net/rubric-ato/4168628-four-injured-in-overnight-russian-attack-on-kyiv.html
-        captured_at: 2026-09-28T06:31:22Z
 assessment:
   status: unverified
   credibility: 6

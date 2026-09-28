@@ -1,9 +1,9 @@
-id: evt_01m3m17mgrfx4tgx4mqdnpxefj
+id: evt_01m3n3q0fzfadtrdg7edgspjwf
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rusya'nın Kiev'e bir gecede düzenlediği saldırıda dört kişi yaralandı
-  en: Four injured in overnight Russian attack on Kyiv
+  tr: Rusya'nın Harkov'a düzenlediği saldırıda 43 kişi yaralandı, 46 bina hasar gördü
+  en: Russian strike on Kharkiv injures 43 people and damages 46 buildings
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T04:23Z
+reported_at: 2026-09-28T15:58Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [36.248, 50.002]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Kharkiv, en: Kharkiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168628-four-injured-in-overnight-russian-attack-on-kyiv.html
-    title: Four injured in overnight Russian attack on Kyiv
-    published_at: 2026-09-28T04:23Z
+  - url: https://www.ukrinform.net/rubric-ato/4168914-russian-strike-on-kharkiv-injures-43-people-and-damages-46-buildings.html
+    title: Russian strike on Kharkiv injures 43 people and damages 46 buildings
+    published_at: 2026-09-28T15:58Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928063122/https://www.ukrinform.net/rubric-ato/4168628-four-injured-in-overnight-russian-attack-on-kyiv.html
-        captured_at: 2026-09-28T06:31:22Z
 assessment:
   status: unverified
   credibility: 6

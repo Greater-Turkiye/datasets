@@ -1,9 +1,9 @@
-id: evt_01m3m182w6erd94ze39j4sevzx
+id: evt_01m3n3qb33f1a9bytcfy15k3tj
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Kiev bölgesindeki Rus saldırıları son 24 saat içinde üç kişiyi öldürdü ve sekiz kişiyi yaraladı
-  en: Russian strikes in Kyiv region kill three people and injure eight over past 24 hours
+  tr: Rusya'nın Dnipropetrovsk bölgesindeki saldırılarda bir günde 6 kişi öldü, 28 kişi yaralandı
+  en: Russian attacks in Dnipropetrovsk region kill six people and injure 28 in one day
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T06:58Z
+reported_at: 2026-09-28T17:59Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Kyiv bölgesi, en: Kyiv region}
+  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168661-russian-strikes-in-kyiv-region-kill-three-people-and-injure-eight-over-past-24-hours.html
-    title: Russian strikes in Kyiv region kill three people and injure eight over past 24 hours
-    published_at: 2026-09-28T06:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4168946-russian-attacks-in-dnipropetrovsk-region-kill-six-people-and-injure-28-in-one-day.html
+    title: Russian attacks in Dnipropetrovsk region kill six people and injure 28 in one day
+    published_at: 2026-09-28T17:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928093124/https://www.ukrinform.net/rubric-ato/4168661-russian-strikes-in-kyiv-region-kill-three-people-and-injure-eight-over-past-24-hours.html
-        captured_at: 2026-09-28T09:31:24Z
 assessment:
   status: unverified
   credibility: 6

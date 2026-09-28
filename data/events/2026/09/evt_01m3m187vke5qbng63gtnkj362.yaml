@@ -18,6 +18,10 @@ sources:
     title: "WSJ: Russia offers USD 20 M reward for information on Magyar's whereabouts"
     published_at: 2026-09-28T07:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928093110/https://www.ukrinform.net/rubric-ato/4168666-wsj-russia-offers-usd-20-m-reward-for-information-on-magyars-whereabouts.html
+        captured_at: 2026-09-28T09:31:10Z
 assessment:
   status: unverified
   credibility: 6

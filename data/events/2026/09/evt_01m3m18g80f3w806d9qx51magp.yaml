@@ -24,6 +24,10 @@ sources:
     title: Russian attack causes fire at warehouse site in Kyiv region's Brovary district
     published_at: 2026-09-28T09:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928114602/https://www.ukrinform.net/rubric-ato/4168739-russian-attack-causes-fire-at-warehouse-site-in-kyiv-regions-brovary-district.html
+        captured_at: 2026-09-28T11:46:02Z
 assessment:
   status: unverified
   credibility: 6

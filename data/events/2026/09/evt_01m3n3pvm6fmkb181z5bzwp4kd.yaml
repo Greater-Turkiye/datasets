@@ -1,9 +1,9 @@
-id: evt_01m3m18175fkn836cgtg0s1xtk
+id: evt_01m3n3pvm6fmkb181z5bzwp4kd
 schema: event/1
-event_type: kinetic.attack
+event_type: policy.defense
 title:
-  tr: Rusya'nın Odesa'nın güneyindeki yerleşim bölgesine düzenlenen saldırı iki kişiyi yaraladı
-  en: Russian strike on residential area in southern Odesa region injures two people
+  tr: Ukrayna kuvvetleri Lyman ekseninde Karpivka'nın kurtuluşunu gösteriyor
+  en: Ukrainian forces show liberation of Karpivka on Lyman axis
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T06:32Z
+reported_at: 2026-09-28T14:39Z
 location:
-  geometry: {type: Point, coordinates: [30.708, 46.492]}
+  geometry: {type: Point, coordinates: [37.828, 48.002]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Odesa bölgesi, en: Odessa region}
+  place_name: {tr: Donetsk bölgesi, en: Donetsk region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168659-russian-strike-on-residential-area-in-southern-odesa-region-injures-two-people.html
-    title: Russian strike on residential area in southern Odesa region injures two people
-    published_at: 2026-09-28T06:32Z
+  - url: https://www.ukrinform.net/rubric-ato/4168890-ukrainian-forces-show-liberation-of-karpivka-on-lyman-axis.html
+    title: Ukrainian forces show liberation of Karpivka on Lyman axis
+    published_at: 2026-09-28T14:39Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928083108/https://www.ukrinform.net/rubric-ato/4168659-russian-strike-on-residential-area-in-southern-odesa-region-injures-two-people.html
-        captured_at: 2026-09-28T08:31:08Z
 assessment:
   status: unverified
   credibility: 6

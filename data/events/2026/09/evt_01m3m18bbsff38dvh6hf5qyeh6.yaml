@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike critical infrastructure in Chernihiv region
     published_at: 2026-09-28T08:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928104602/https://www.ukrinform.net/rubric-ato/4168689-russian-forces-strike-critical-infrastructure-in-chernihiv-region.html
+        captured_at: 2026-09-28T10:46:02Z
 assessment:
   status: unverified
   credibility: 6

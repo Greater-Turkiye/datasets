@@ -18,6 +18,10 @@ sources:
     title: Air defenses neutralize 112 drones used by Russia to attack Ukraine overnight
     published_at: 2026-09-28T05:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928063122/https://www.ukrinform.net/rubric-ato/4168633-air-defenses-neutralize-112-drones-used-by-russia-to-attack-ukraine-overnight.html
+        captured_at: 2026-09-28T06:31:22Z
 assessment:
   status: unverified
   credibility: 6
