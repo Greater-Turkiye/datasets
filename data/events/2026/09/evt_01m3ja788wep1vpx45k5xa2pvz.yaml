@@ -18,6 +18,10 @@ sources:
     title: Ukraine needs expanded Starlink/Starshield capabilities to strike missile systems in Russia — Budanov
     published_at: 2026-09-27T15:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927183100/https://www.ukrinform.net/rubric-ato/4168573-ukraine-needs-expanded-starlinkstarshield-capabilities-to-strike-missile-systems-in-russia-budanov.html
+        captured_at: 2026-09-27T18:31:00Z
 assessment:
   status: unverified
   credibility: 6

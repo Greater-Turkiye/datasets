@@ -24,6 +24,10 @@ sources:
     title: "Zelensky: Russians strike Kyiv data center twice this morning"
     published_at: 2026-09-27T10:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928010352/https://www.ukrinform.net/rubric-ato/4168523-zelensky-russians-strike-kyiv-data-center-twice-this-morning.html
+        captured_at: 2026-09-28T01:03:52Z
 assessment:
   status: unverified
   credibility: 6

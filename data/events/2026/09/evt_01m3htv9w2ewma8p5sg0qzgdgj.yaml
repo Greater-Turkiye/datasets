@@ -24,6 +24,10 @@ sources:
     title: Russian airstrikes in Sumy leaves two killed, five injured
     published_at: 2026-09-27T14:29Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927160115/https://www.ukrinform.net/rubric-ato/4168563-russian-airstrikes-in-sumy-leaves-two-killed-five-injured-in.html
+        captured_at: 2026-09-27T16:01:15Z
 assessment:
   status: unverified
   credibility: 6

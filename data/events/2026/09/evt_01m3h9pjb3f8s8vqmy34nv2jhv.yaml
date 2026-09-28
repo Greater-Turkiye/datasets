@@ -24,6 +24,10 @@ sources:
     title: Russian attack damages 21 buildings, including kindergarten, in Bucha community
     published_at: 2026-09-27T10:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927131601/https://www.ukrinform.net/rubric-ato/4168521-russian-attack-damages-21-buildings-including-kindergarten-in-bucha-community.html
+        captured_at: 2026-09-27T13:16:01Z
 assessment:
   status: unverified
   credibility: 6

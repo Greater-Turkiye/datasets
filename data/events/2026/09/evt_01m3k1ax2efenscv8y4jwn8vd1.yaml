@@ -1,9 +1,9 @@
-id: evt_01m3ja76j9evvs1z48r79r360b
+id: evt_01m3k1ax2efenscv8y4jwn8vd1
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: İnsansız hava aracı enkazı düştükten sonra Kiev'in Solomianskyi bölgesinde arabalar alev aldı
-  en: Cars catch fire in Kyiv’s Solomianskyi district after drone debris falls
+  tr: Kiev'deki Rus saldırıları gün boyunca 9 kişiyi yaraladı
+  en: Russian attacks in Kyiv injure nine people over course of day
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-09-27T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T15:44Z
+reported_at: 2026-09-27T20:30Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168572-cars-catch-fire-in-kyivs-solomianskyi-district-after-drone-debris-falls.html
-    title: Cars catch fire in Kyiv’s Solomianskyi district after drone debris falls
-    published_at: 2026-09-27T15:44Z
+  - url: https://www.ukrinform.net/rubric-ato/4168606-russian-attacks-in-kyiv-injure-nine-people-over-course-of-day.html
+    title: Russian attacks in Kyiv injure nine people over course of day
+    published_at: 2026-09-27T20:30Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260927171559/https://www.ukrinform.net/rubric-ato/4168572-cars-catch-fire-in-kyivs-solomianskyi-district-after-drone-debris-falls.html
-        captured_at: 2026-09-27T17:15:59Z
 assessment:
   status: unverified
   credibility: 6

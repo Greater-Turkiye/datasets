@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike near an industrial facility in Zaporizhzhia
     published_at: 2026-09-27T12:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928020028/https://www.ukrinform.net/rubric-ato/4168543-russian-forces-strike-near-an-industrial-facility-in-zaporizhzhia.html
+        captured_at: 2026-09-28T02:00:28Z
 assessment:
   status: unverified
   credibility: 6

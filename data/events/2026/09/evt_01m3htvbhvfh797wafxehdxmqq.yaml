@@ -24,6 +24,10 @@ sources:
     title: Drone hits apartment building in Kyiv's Darnytskyi district
     published_at: 2026-09-27T14:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927171600/https://www.ukrinform.net/rubric-ato/4168564-drone-hits-apartment-building-in-kyivs-darnytskyi-district.html
+        captured_at: 2026-09-27T17:16:00Z
 assessment:
   status: unverified
   credibility: 6

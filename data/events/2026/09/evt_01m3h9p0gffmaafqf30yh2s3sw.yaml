@@ -18,6 +18,10 @@ sources:
     title: Russia loses 1,690 troops in war against Ukraine over past day
     published_at: 2026-09-27T05:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927070123/https://www.ukrinform.net/rubric-ato/4168443-russia-loses-1690-troops-in-war-against-ukraine-in-past-day.html
+        captured_at: 2026-09-27T07:01:23Z
 assessment:
   status: unverified
   credibility: 6

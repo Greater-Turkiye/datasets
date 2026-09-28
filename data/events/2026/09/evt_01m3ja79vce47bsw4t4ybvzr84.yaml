@@ -24,6 +24,10 @@ sources:
     title: Russian shelling damages businesses in Dnipro and Kryvyi Rih
     published_at: 2026-09-27T17:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927190102/https://www.ukrinform.net/rubric-ato/4168586-russian-shelling-damages-businesses-in-dnipro-and-kryvyi-rih.html
+        captured_at: 2026-09-27T19:01:02Z
 assessment:
   status: unverified
   credibility: 6

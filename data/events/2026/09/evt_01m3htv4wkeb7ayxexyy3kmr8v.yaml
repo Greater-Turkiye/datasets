@@ -24,6 +24,10 @@ sources:
     title: Enterprise damaged, one person injured in Russian drone attack on Fastiv district
     published_at: 2026-09-27T12:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928030016/https://www.ukrinform.net/rubric-ato/4168546-enterprise-damaged-one-person-injured-in-russian-drone-attack-in-fastiv-district.html
+        captured_at: 2026-09-28T03:00:16Z
 assessment:
   status: unverified
   credibility: 6

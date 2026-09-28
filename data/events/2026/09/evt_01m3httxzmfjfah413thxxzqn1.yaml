@@ -18,6 +18,10 @@ sources:
     title: Defense Forces strike drone launch site and four Russian warehouses in TOT
     published_at: 2026-09-27T11:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260927114622/https://www.ukrinform.net/rubric-ato/4168528-defense-forces-strike-drone-launch-site-and-four-russian-warehouses-in-tot.html
+        captured_at: 2026-09-27T11:46:22Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Drone strike sparks fire at warehouse in Kyiv
     published_at: 2026-09-27T03:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928033624/https://www.ukrinform.net/rubric-ato/4168431-drone-strike-sparks-fire-at-warehouse-in-kyiv.html
+        captured_at: 2026-09-28T03:36:24Z
   - url: https://www.ukrinform.net/rubric-ato/4168448-man-killed-in-kyiv-after-drone-strike.html
     title: Man killed in Kyiv after drone strike
     published_at: 2026-09-27T05:59Z
