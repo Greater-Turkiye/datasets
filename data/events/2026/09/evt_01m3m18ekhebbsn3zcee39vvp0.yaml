@@ -1,33 +1,29 @@
-id: evt_01m3ja7g5zf3ntpq216ec2jpgs
+id: evt_01m3m18ekhebbsn3zcee39vvp0
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Novhorod - Siverskyi'ye Rus insansız hava aracı saldırısı 4 kişiyi yaraladı
-  en: Russian drone attack on Novhorod-Siverskyi injures four people
+  tr: Ruslar Sloviansk'taki yangını söndürürken itfaiyecilere insansız hava aracıyla saldırdı
+  en: Russians strike firefighters with drone while they extinguish fire in Sloviansk
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-27T00:00Z
+  start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T19:58Z
+reported_at: 2026-09-28T09:37Z
 location:
-  geometry: {type: Point, coordinates: [31.302, 51.505]}
+  geometry: {type: Point, coordinates: [37.828, 48.002]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Chernihiv bölgesi, en: Chernihiv region}
+  place_name: {tr: Donetsk bölgesi, en: Donetsk region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168605-russian-drone-attack-on-novhorodsiverskyi-injures-four-people.html
-    title: Russian drone attack on Novhorod-Siverskyi injures four people
-    published_at: 2026-09-27T19:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4168737-russians-strike-firefighters-with-drone-while-they-extinguish-fire-in-sloviansk.html
+    title: Russians strike firefighters with drone while they extinguish fire in Sloviansk
+    published_at: 2026-09-28T09:37Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928112116/https://www.ukrinform.net/rubric-ato/4168605-russian-drone-attack-on-novhorodsiverskyi-injures-four-people.html
-        captured_at: 2026-09-28T11:21:16Z
 assessment:
   status: unverified
   credibility: 6

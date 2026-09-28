@@ -1,33 +1,29 @@
-id: evt_01m3k1aytxe949c3r4z5z8qsyw
+id: evt_01m3m189effc3a0ragpsrq4f7p
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Rusya'nın Kiev bölgesindeki insansız hava aracı saldırısı iki kişiyi öldürdü ve üç kişiyi yaraladı
-  en: Russian drone strike in Kyiv region kills two people and injures three others
+  tr: "Basında çıkan haberler: Drone'lar Krasnodar bölgesindeki Edelweiss -95 petrol deposuna saldırdı"
+  en: "Media reports: Drones attack Edelweiss-95 oil depot in Krasnodar region"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-27T00:00Z
+  start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T20:57Z
+reported_at: 2026-09-28T08:27Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [39.0, 45.02]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Kyiv bölgesi, en: Kyiv region}
+  place_name: {tr: Krasnodar bölgesi, en: Krasnodar region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168609-russian-drone-strike-in-kyiv-region-kills-two-people-and-injures-three-others.html
-    title: Russian drone strike in Kyiv region kills two people and injures three others
-    published_at: 2026-09-27T20:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4168670-media-reports-drones-attack-edelweiss95-oil-depot-in-krasnodar-region.html
+    title: "Media reports: Drones attack Edelweiss-95 oil depot in Krasnodar region"
+    published_at: 2026-09-28T08:27Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928003115/https://www.ukrinform.net/rubric-ato/4168609-russian-drone-strike-in-kyiv-region-kills-two-people-and-injures-three-others.html
-        captured_at: 2026-09-28T00:31:15Z
 assessment:
   status: unverified
   credibility: 6

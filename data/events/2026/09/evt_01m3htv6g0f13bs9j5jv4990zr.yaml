@@ -24,6 +24,10 @@ sources:
     title: Russian forces shell Dnipro, fire breaks out
     published_at: 2026-09-27T13:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928125434/https://www.ukrinform.net/rubric-ato/4168550-russian-forces-shell-dnipro-fire-breaks-out.html
+        captured_at: 2026-09-28T12:54:34Z
 assessment:
   status: unverified
   credibility: 6

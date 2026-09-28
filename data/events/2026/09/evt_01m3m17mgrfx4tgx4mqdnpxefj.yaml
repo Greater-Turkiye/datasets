@@ -1,33 +1,29 @@
-id: evt_01m3ja7bcefa8s4t6tpt0mbdm6
+id: evt_01m3m17mgrfx4tgx4mqdnpxefj
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rus saldırısı Dnipro'daki spor okuluna zarar verdi
-  en: Russian attack damages sports school in Dnipro
+  tr: Rusya'nın Kiev'e bir gecede düzenlediği saldırıda dört kişi yaralandı
+  en: Four injured in overnight Russian attack on Kyiv
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-27T00:00Z
+  start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T18:30Z
+reported_at: 2026-09-28T04:23Z
 location:
-  geometry: {type: Point, coordinates: [34.998, 48.482]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Dnipro, en: Dnipro}
+  place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168591-russian-attack-damages-sports-school-in-dnipro.html
-    title: Russian attack damages sports school in Dnipro
-    published_at: 2026-09-27T18:30Z
+  - url: https://www.ukrinform.net/rubric-ato/4168628-four-injured-in-overnight-russian-attack-on-kyiv.html
+    title: Four injured in overnight Russian attack on Kyiv
+    published_at: 2026-09-28T04:23Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928092150/https://www.ukrinform.net/rubric-ato/4168591-russian-attack-damages-sports-school-in-dnipro.html
-        captured_at: 2026-09-28T09:21:50Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Vyshneve in Kyiv region kills one and injures three others
     published_at: 2026-09-27T11:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928020029/https://www.ukrinform.net/rubric-ato/4168530-russian-attack-on-vyshneve-in-kyiv-region-kills-one-and-injures-three-others.html
+        captured_at: 2026-09-28T02:00:29Z
 assessment:
   status: unverified
   credibility: 6

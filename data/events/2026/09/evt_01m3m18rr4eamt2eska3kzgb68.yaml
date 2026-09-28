@@ -1,33 +1,33 @@
-id: evt_01m3ja7bcefa8s4t6tpt0mbdm6
+id: evt_01m3m18rr4eamt2eska3kzgb68
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Rus saldırısı Dnipro'daki spor okuluna zarar verdi
-  en: Russian attack damages sports school in Dnipro
+  tr: Rus insansız hava aracı Kiev'in merkezindeki Ulusal Bilimler Akademisi binasını vurarak yangına neden oldu
+  en: Russian drone hits National Academy of Sciences building in central Kyiv, causing fire
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-27T00:00Z
+  start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T18:30Z
+reported_at: 2026-09-28T11:31Z
 location:
-  geometry: {type: Point, coordinates: [34.998, 48.482]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Dnipro, en: Dnipro}
+  place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168591-russian-attack-damages-sports-school-in-dnipro.html
-    title: Russian attack damages sports school in Dnipro
-    published_at: 2026-09-27T18:30Z
+  - url: https://www.ukrinform.net/rubric-ato/4168795-russian-drone-hits-national-academy-of-sciences-building-in-central-kyiv-causing-fire.html
+    title: Russian drone hits National Academy of Sciences building in central Kyiv, causing fire
+    published_at: 2026-09-28T11:31Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928092150/https://www.ukrinform.net/rubric-ato/4168591-russian-attack-damages-sports-school-in-dnipro.html
-        captured_at: 2026-09-28T09:21:50Z
+  - url: https://www.ukrinform.net/rubric-ato/4168791-russian-drone-crashes-into-nonresidential-building-in-central-kyiv-causing-fire.html
+    title: Russian drone crashes into non-residential building in central Kyiv, causing fire
+    published_at: 2026-09-28T11:43Z
+    lang: en
 assessment:
   status: unverified
   credibility: 6

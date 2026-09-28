@@ -1,33 +1,33 @@
-id: evt_01m3ja7g5zf3ntpq216ec2jpgs
+id: evt_01m3m17p5ren6bewd3f9k59gs5
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Novhorod - Siverskyi'ye Rus insansız hava aracı saldırısı 4 kişiyi yaraladı
-  en: Russian drone attack on Novhorod-Siverskyi injures four people
+  tr: Rus kuvvetleri geçtiğimiz gün Zaporijya bölgesine 712 saldırı düzenledi, biri öldü, dördü yaralandı
+  en: Russian forces launch 712 attacks on Zaporizhzhia region over past day, one killed, four injured
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-27T00:00Z
+  start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T19:58Z
+reported_at: 2026-09-28T04:42Z
 location:
-  geometry: {type: Point, coordinates: [31.302, 51.505]}
+  geometry: {type: Point, coordinates: [35.175, 47.859]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Chernihiv bölgesi, en: Chernihiv region}
+  place_name: {tr: Zaporijya bölgesi, en: Zaporizhzhya region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168605-russian-drone-attack-on-novhorodsiverskyi-injures-four-people.html
-    title: Russian drone attack on Novhorod-Siverskyi injures four people
-    published_at: 2026-09-27T19:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4168632-russian-forces-launch-712-attacks-on-zaporizhzhia-region-over-past-day-one-killed-four-injured.html
+    title: Russian forces launch 712 attacks on Zaporizhzhia region over past day, one killed, four injured
+    published_at: 2026-09-28T04:42Z
     lang: en
     archives:
       - service: wayback
-        url: https://web.archive.org/web/20260928112116/https://www.ukrinform.net/rubric-ato/4168605-russian-drone-attack-on-novhorodsiverskyi-injures-four-people.html
-        captured_at: 2026-09-28T11:21:16Z
+        url: https://web.archive.org/web/20260928063104/https://www.ukrinform.net/rubric-ato/4168632-russian-forces-launch-712-attacks-on-zaporizhzhia-region-over-past-day-one-killed-four-injured.html
+        captured_at: 2026-09-28T06:31:04Z
 assessment:
   status: unverified
   credibility: 6

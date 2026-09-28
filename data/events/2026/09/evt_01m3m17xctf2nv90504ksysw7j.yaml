@@ -1,0 +1,31 @@
+id: evt_01m3m17xctf2nv90504ksysw7j
+schema: event/1
+event_type: other
+title:
+  tr: "Kosova Savaş Zamanı Liderlerinin Kararına Düşmanca Tepkiler Kilit Noktayı Kaçırdı: Mağdurların Çilesi"
+  en: "Hostile Reactions to Kosovo Wartime Leaders’ Verdict Miss Key Point: the Victims’ Ordeal"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-28T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-28T05:53Z
+regions: [balkans]
+sources:
+  - url: https://balkaninsight.com/2026/09/28/hostile-reactions-to-kosovo-wartime-leaders-verdict-miss-key-point-the-victims-ordeal/btj/
+    title: "Hostile Reactions to Kosovo Wartime Leaders’ Verdict Miss Key Point: the Victims’ Ordeal"
+    published_at: 2026-09-28T05:53Z
+    lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928125922/https://balkaninsight.com/2026/09/28/hostile-reactions-to-kosovo-wartime-leaders-verdict-miss-key-point-the-victims-ordeal/btj/
+        captured_at: 2026-09-28T12:59:22Z
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-bih-balkaninsight. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-bih-balkaninsight. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

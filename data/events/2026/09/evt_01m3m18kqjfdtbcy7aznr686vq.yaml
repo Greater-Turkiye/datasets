@@ -1,17 +1,17 @@
-id: evt_01m3ja7bcefa8s4t6tpt0mbdm6
+id: evt_01m3m18kqjfdtbcy7aznr686vq
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rus saldırısı Dnipro'daki spor okuluna zarar verdi
-  en: Russian attack damages sports school in Dnipro
+  tr: Ruslar Dinyeper'deki iş merkezine saldırdı, dört kişi yaralandı
+  en: Russians strike business center in Dnipro, four people injured
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-27T00:00Z
+  start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T18:30Z
+reported_at: 2026-09-28T10:39Z
 location:
   geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Dnipro, en: Dnipro}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168591-russian-attack-damages-sports-school-in-dnipro.html
-    title: Russian attack damages sports school in Dnipro
-    published_at: 2026-09-27T18:30Z
+  - url: https://www.ukrinform.net/rubric-ato/4168762-russians-strike-business-center-in-dnipro-four-people-injured.html
+    title: Russians strike business center in Dnipro, four people injured
+    published_at: 2026-09-28T10:39Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928092150/https://www.ukrinform.net/rubric-ato/4168591-russian-attack-damages-sports-school-in-dnipro.html
-        captured_at: 2026-09-28T09:21:50Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,33 +1,29 @@
-id: evt_01m3k1aytxe949c3r4z5z8qsyw
+id: evt_01m3m18ne3ea1s7envc65zp0cb
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Rusya'nın Kiev bölgesindeki insansız hava aracı saldırısı iki kişiyi öldürdü ve üç kişiyi yaraladı
-  en: Russian drone strike in Kyiv region kills two people and injures three others
+  tr: Ruslar Dnipropetrovsk bölgesindeki lojistik şirketi şubesine saldırdı, üç kişi yaralandı
+  en: Russians attack logistics company branch in Dnipropetrovsk region, three people injured
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-27T00:00Z
+  start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-27T20:57Z
+reported_at: 2026-09-28T10:54Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Kyiv bölgesi, en: Kyiv region}
+  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168609-russian-drone-strike-in-kyiv-region-kills-two-people-and-injures-three-others.html
-    title: Russian drone strike in Kyiv region kills two people and injures three others
-    published_at: 2026-09-27T20:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4168765-russians-attack-logistics-company-branch-in-dnipropetrovsk-region-three-people-injured.html
+    title: Russians attack logistics company branch in Dnipropetrovsk region, three people injured
+    published_at: 2026-09-28T10:54Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928003115/https://www.ukrinform.net/rubric-ato/4168609-russian-drone-strike-in-kyiv-region-kills-two-people-and-injures-three-others.html
-        captured_at: 2026-09-28T00:31:15Z
 assessment:
   status: unverified
   credibility: 6
