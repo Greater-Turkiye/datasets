@@ -24,6 +24,10 @@ sources:
     title: Russian attacks in Dnipropetrovsk region kill six people and injure 28 in one day
     published_at: 2026-09-28T17:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929102433/https://www.ukrinform.net/rubric-ato/4168946-russian-attacks-in-dnipropetrovsk-region-kill-six-people-and-injure-28-in-one-day.html
+        captured_at: 2026-09-29T10:24:33Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,27 +1,23 @@
-id: evt_01m3n3q7hbfnes6kv2w6nyrxtf
+id: evt_01m3pgzd03f5hbmxrms02wbb8c
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: deployment.announced
 title:
-  tr: Rus insansız hava aracı Ukrayna - Polonya sınırından birkaç yüz metre uzağa saldırdı
-  en: Russian drone strikes few hundred meters from Ukrainian-Polish border
+  tr: Rus kuvvetleri, Ukrayna'ya karşı geçen günkü savaşta 1.440 askerini ve iki hava savunma sistemini kaybetti
+  en: Russian forces lose 1,440 soldiers and two air defense systems in past day of war against Ukraine
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T17:32Z
+reported_at: 2026-09-29T05:39Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168945-russian-drone-strikes-few-hundred-meters-from-ukrainianpolish-border.html
-    title: Russian drone strikes few hundred meters from Ukrainian-Polish border
-    published_at: 2026-09-28T17:32Z
+  - url: https://www.ukrinform.net/rubric-ato/4169040-russian-forces-lose-1440-soldiers-and-two-air-defense-systems-in-past-day-of-war-against-ukraine.html
+    title: Russian forces lose 1,440 soldiers and two air defense systems in past day of war against Ukraine
+    published_at: 2026-09-29T05:39Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929071623/https://www.ukrinform.net/rubric-ato/4168945-russian-drone-strikes-few-hundred-meters-from-ukrainianpolish-border.html
-        captured_at: 2026-09-29T07:16:23Z
 assessment:
   status: unverified
   credibility: 6

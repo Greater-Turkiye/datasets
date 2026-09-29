@@ -1,33 +1,29 @@
-id: evt_01m3n3qcw7fbw8vhhp2qqyr7mj
+id: evt_01m3pgzzkwett9w6jt08mcyp08
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Rusya'nın Zaporijya'ya saldırması sonucu yaralananların sayısı 33 'e yükseldi
-  en: Injury toll after Russian strikes Zaporizhzhia rises to 33
+  tr: Romanya'da olası drone enkazı bulundu
+  en: Possible drone debris found in Romania
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T18:21Z
+reported_at: 2026-09-29T08:37Z
 location:
-  geometry: {type: Point, coordinates: [35.175, 47.859]}
+  geometry: {type: Point, coordinates: [27.969, 45.292]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Zaporijya, en: Zaporizhzhya}
-regions: [black-sea]
+  place_name: {tr: Brăila, en: Brăila}
+regions: [balkans]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168960-injury-toll-after-russian-strikes-zaporizhzhia-rises-to-33.html
-    title: Injury toll after Russian strikes Zaporizhzhia rises to 33
-    published_at: 2026-09-28T18:21Z
+  - url: https://www.ukrinform.net/rubric-ato/4169112-possible-drone-debris-found-in-romania.html
+    title: Possible drone debris found in Romania
+    published_at: 2026-09-29T08:37Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929102737/https://www.ukrinform.net/rubric-ato/4168960-injury-toll-after-russian-strikes-zaporizhzhia-rises-to-33.html
-        captured_at: 2026-09-29T10:27:37Z
 assessment:
   status: unverified
   credibility: 6

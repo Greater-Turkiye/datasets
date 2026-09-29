@@ -18,6 +18,10 @@ sources:
     title: "Live Coverage: Security Council Meets on Middle East, Palestine"
     published_at: 2026-09-26T21:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929052841/https://press.un.org/en/2026/sc16464.doc.htm
+        captured_at: 2026-09-29T05:28:41Z
 assessment:
   status: unverified
   credibility: 6

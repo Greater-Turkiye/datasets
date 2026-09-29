@@ -24,6 +24,10 @@ sources:
     title: Russian attack sparks fires at farm and five-story building in Kyiv region's Bucha district, injuring one person
     published_at: 2026-09-28T17:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929071043/https://www.ukrinform.net/rubric-ato/4168948-russian-attack-sparks-fires-at-farm-and-fivestory-building-in-kyiv-regions-bucha-district-injuring-one-person.html
+        captured_at: 2026-09-29T07:10:43Z
 assessment:
   status: unverified
   credibility: 6

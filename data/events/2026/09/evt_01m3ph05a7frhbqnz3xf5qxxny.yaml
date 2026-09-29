@@ -1,17 +1,17 @@
-id: evt_01m3n3pxb1ebdv2r8g5szey7s8
+id: evt_01m3ph05a7frhbqnz3xf5qxxny
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: "Kiev'deki bilim akademisine saldırı: Eski NSDC Sekreteri Horbulin yaralandı, yardımcısı öldürüldü"
-  en: "Strike on science academy in Kyiv: Ex-NSDC Secretary Horbulin injured, his aide killed"
+  tr: Geçen hafta Kiev'de Rus saldırılarında 12 kişi öldü, 200 kişi yaralandı
+  en: Russian attacks kill 12, injure 200 in Kyiv over past week
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T14:59Z
+reported_at: 2026-09-29T10:20Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168895-strike-on-science-academy-in-kyiv-exnsdc-secretary-horbulin-injured-his-aide-killed.html
-    title: "Strike on science academy in Kyiv: Ex-NSDC Secretary Horbulin injured, his aide killed"
-    published_at: 2026-09-28T14:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4169157-russian-attacks-kill-12-injure-200-in-kyiv-over-past-week.html
+    title: Russian attacks kill 12, injure 200 in Kyiv over past week
+    published_at: 2026-09-29T10:20Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928171641/https://www.ukrinform.net/rubric-ato/4168895-strike-on-science-academy-in-kyiv-exnsdc-secretary-horbulin-injured-his-aide-killed.html
-        captured_at: 2026-09-28T17:16:41Z
 assessment:
   status: unverified
   credibility: 6

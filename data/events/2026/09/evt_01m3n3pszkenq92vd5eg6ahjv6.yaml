@@ -24,6 +24,10 @@ sources:
     title: "Russian attacks on Kyiv: 19 people injured since start of day, woman killed"
     published_at: 2026-09-28T14:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929035122/https://www.ukrinform.net/rubric-ato/4168882-russian-attacks-on-kyiv-19-people-injured-since-start-of-day-woman-killed.html
+        captured_at: 2026-09-29T03:51:22Z
 assessment:
   status: unverified
   credibility: 6

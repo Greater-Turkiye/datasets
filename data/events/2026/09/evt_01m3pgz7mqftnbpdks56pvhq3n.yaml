@@ -1,17 +1,17 @@
-id: evt_01m3n3pxb1ebdv2r8g5szey7s8
+id: evt_01m3pgz7mqftnbpdks56pvhq3n
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: "Kiev'deki bilim akademisine saldırı: Eski NSDC Sekreteri Horbulin yaralandı, yardımcısı öldürüldü"
-  en: "Strike on science academy in Kyiv: Ex-NSDC Secretary Horbulin injured, his aide killed"
+  tr: Rusya'nın Kiev'e düzenlediği füze ve insansız hava aracı saldırısı yangınlara yol açtı ve başkentteki binalara zarar verdi
+  en: Russian missile and drone attack on Kyiv sparks fires and damages buildings in capital
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T14:59Z
+reported_at: 2026-09-29T04:02Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168895-strike-on-science-academy-in-kyiv-exnsdc-secretary-horbulin-injured-his-aide-killed.html
-    title: "Strike on science academy in Kyiv: Ex-NSDC Secretary Horbulin injured, his aide killed"
-    published_at: 2026-09-28T14:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4169013-russian-missile-and-drone-attack-on-kyiv-sparks-fires-and-damages-buildings-in-capital.html
+    title: Russian missile and drone attack on Kyiv sparks fires and damages buildings in capital
+    published_at: 2026-09-29T04:02Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928171641/https://www.ukrinform.net/rubric-ato/4168895-strike-on-science-academy-in-kyiv-exnsdc-secretary-horbulin-injured-his-aide-killed.html
-        captured_at: 2026-09-28T17:16:41Z
 assessment:
   status: unverified
   credibility: 6

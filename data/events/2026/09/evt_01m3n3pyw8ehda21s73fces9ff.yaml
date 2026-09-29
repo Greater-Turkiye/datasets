@@ -24,6 +24,10 @@ sources:
     title: Russian strike on Dobrobut medical center in Kyiv injures seven people
     published_at: 2026-09-28T15:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929054023/https://www.ukrinform.net/rubric-ato/4168911-russian-strike-on-dobrobut-medical-center-in-kyiv-injures-seven-people.html
+        captured_at: 2026-09-29T05:40:23Z
 assessment:
   status: unverified
   credibility: 6

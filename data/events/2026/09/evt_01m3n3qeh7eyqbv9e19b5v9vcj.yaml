@@ -24,6 +24,10 @@ sources:
     title: "Attacks on Kyiv: One person killed, number of injured rises to 24, including three children"
     published_at: 2026-09-28T18:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929102432/https://www.ukrinform.net/rubric-ato/4168961-attacks-on-kyiv-one-person-killed-number-of-injured-rises-to-24-including-three-children.html
+        captured_at: 2026-09-29T10:24:32Z
 assessment:
   status: unverified
   credibility: 6

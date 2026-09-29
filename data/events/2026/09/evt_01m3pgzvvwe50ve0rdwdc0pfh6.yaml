@@ -1,33 +1,29 @@
-id: evt_01m3n3p67yerhahz1pxqj2jbnf
+id: evt_01m3pgzvvwe50ve0rdwdc0pfh6
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Rus insansız hava aracı Dnipropetrovsk bölgesindeki enerji tesisini vurdu
-  en: Russian drone strikes energy facility in Dnipropetrovsk region
+  tr: Ruslar bir günde Kiev bölgesinin 5 bölgesinde 22 bölgeye hasar verdi
+  en: Russians damage 22 sites in five districts of Kyiv region in one day
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T11:59Z
+reported_at: 2026-09-29T07:55Z
 location:
-  geometry: {type: Point, coordinates: [34.998, 48.482]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
+  place_name: {tr: Kyiv bölgesi, en: Kyiv region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168800-russian-drone-strikes-energy-facility-in-dnipropetrovsk-region.html
-    title: Russian drone strikes energy facility in Dnipropetrovsk region
-    published_at: 2026-09-28T11:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4169092-russians-damage-22-sites-in-five-districts-of-kyiv-region-in-one-day.html
+    title: Russians damage 22 sites in five districts of Kyiv region in one day
+    published_at: 2026-09-29T07:55Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929041531/https://www.ukrinform.net/rubric-ato/4168800-russian-drone-strikes-energy-facility-in-dnipropetrovsk-region.html
-        captured_at: 2026-09-29T04:15:31Z
 assessment:
   status: unverified
   credibility: 6

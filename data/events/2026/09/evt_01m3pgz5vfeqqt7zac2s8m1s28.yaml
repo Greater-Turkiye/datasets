@@ -1,33 +1,29 @@
-id: evt_01m3n3p67yerhahz1pxqj2jbnf
+id: evt_01m3pgz5vfeqqt7zac2s8m1s28
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.clash
 title:
-  tr: Rus insansız hava aracı Dnipropetrovsk bölgesindeki enerji tesisini vurdu
-  en: Russian drone strikes energy facility in Dnipropetrovsk region
+  tr: Ordu, Herson bölgesindeki cephe kasabası Beryslav'dan iki sivili tahliye etti
+  en: Military evacuate two civilians from frontline town of Beryslav in Kherson region
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T11:59Z
+reported_at: 2026-09-29T03:34Z
 location:
-  geometry: {type: Point, coordinates: [34.998, 48.482]}
+  geometry: {type: Point, coordinates: [32.601, 46.633]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
+  place_name: {tr: Herson bölgesi, en: Kherson region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168800-russian-drone-strikes-energy-facility-in-dnipropetrovsk-region.html
-    title: Russian drone strikes energy facility in Dnipropetrovsk region
-    published_at: 2026-09-28T11:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4169011-military-evacuate-two-civilians-from-frontline-town-of-beryslav-in-kherson-region.html
+    title: Military evacuate two civilians from frontline town of Beryslav in Kherson region
+    published_at: 2026-09-29T03:34Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929041531/https://www.ukrinform.net/rubric-ato/4168800-russian-drone-strikes-energy-facility-in-dnipropetrovsk-region.html
-        captured_at: 2026-09-29T04:15:31Z
 assessment:
   status: unverified
   credibility: 6

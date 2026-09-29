@@ -1,27 +1,23 @@
-id: evt_01m3n3q7hbfnes6kv2w6nyrxtf
+id: evt_01m3ph03f1f469srbyq30t7c9c
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: diplomatic.talks
 title:
-  tr: Rus insansız hava aracı Ukrayna - Polonya sınırından birkaç yüz metre uzağa saldırdı
-  en: Russian drone strikes few hundred meters from Ukrainian-Polish border
+  tr: DM Khmara, Ukrayna'daki güvenlik durumu nedeniyle Almanya ve Norveç ziyaretlerini erteledi – kaynak
+  en: DM Khmara postpones visits to Germany, Norway due to security situation in Ukraine – source
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T17:32Z
+reported_at: 2026-09-29T10:11Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168945-russian-drone-strikes-few-hundred-meters-from-ukrainianpolish-border.html
-    title: Russian drone strikes few hundred meters from Ukrainian-Polish border
-    published_at: 2026-09-28T17:32Z
+  - url: https://www.ukrinform.net/rubric-ato/4169162-dm-khmara-postpones-vsits-to-germany-norway-due-to-security-situation-in-ukraine-source.html
+    title: DM Khmara postpones visits to Germany, Norway due to security situation in Ukraine – source
+    published_at: 2026-09-29T10:11Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929071623/https://www.ukrinform.net/rubric-ato/4168945-russian-drone-strikes-few-hundred-meters-from-ukrainianpolish-border.html
-        captured_at: 2026-09-29T07:16:23Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Sudan tells UN: No imposed solutions to country’s conflict"
     published_at: 2026-09-28T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929051340/https://news.un.org/feed/view/en/story/2026/09/1168474
+        captured_at: 2026-09-29T05:13:40Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Man injured, homes and cars damaged in Russian attack in Kyiv region's Boryspil district
     published_at: 2026-09-28T19:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929102432/https://www.ukrinform.net/rubric-ato/4168971-man-injured-homes-and-cars-damaged-in-russian-attack-in-kyiv-regions-boryspil-district.html
+        captured_at: 2026-09-29T10:24:32Z
 assessment:
   status: unverified
   credibility: 6

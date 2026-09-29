@@ -1,17 +1,17 @@
-id: evt_01m3n3pxb1ebdv2r8g5szey7s8
+id: evt_01m3pgzntfe65rz9pzd6wrr1qn
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: "Kiev'deki bilim akademisine saldırı: Eski NSDC Sekreteri Horbulin yaralandı, yardımcısı öldürüldü"
-  en: "Strike on science academy in Kyiv: Ex-NSDC Secretary Horbulin injured, his aide killed"
+  tr: "Rusya'nın Kiev'e saldırısı: İki bölgede binalar hasar gördü, biri yaralandı"
+  en: "Russian attack on Kyiv: Buildings damaged in two districts, one injured"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T14:59Z
+reported_at: 2026-09-29T06:59Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,14 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168895-strike-on-science-academy-in-kyiv-exnsdc-secretary-horbulin-injured-his-aide-killed.html
-    title: "Strike on science academy in Kyiv: Ex-NSDC Secretary Horbulin injured, his aide killed"
-    published_at: 2026-09-28T14:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4169066-russian-attack-on-kyiv-buildings-damaged-in-two-districts-one-injured.html
+    title: "Russian attack on Kyiv: Buildings damaged in two districts, one injured"
+    published_at: 2026-09-29T06:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928171641/https://www.ukrinform.net/rubric-ato/4168895-strike-on-science-academy-in-kyiv-exnsdc-secretary-horbulin-injured-his-aide-killed.html
-        captured_at: 2026-09-28T17:16:41Z
+  - url: https://www.ukrinform.net/rubric-ato/4169142-taras-shevchenko-museum-dmaged-in-russian-attack-on-kyiv.html
+    title: Taras Shevchenko Museum damaged in Russian attack on Kyiv
+    published_at: 2026-09-29T09:55Z
+    lang: en
 assessment:
   status: unverified
   credibility: 6

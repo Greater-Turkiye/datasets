@@ -32,6 +32,10 @@ sources:
     title: Russian strike on National Academy of Sciences building in central Kyiv kills one, injures five
     published_at: 2026-09-28T13:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928171626/https://www.ukrinform.net/rubric-ato/4168860-russian-strike-on-national-academy-of-sciences-building-in-central-kyiv-kills-one-injures-five.html
+        captured_at: 2026-09-28T17:16:26Z
 assessment:
   status: unverified
   credibility: 6

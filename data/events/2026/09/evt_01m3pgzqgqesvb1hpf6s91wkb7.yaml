@@ -1,33 +1,29 @@
-id: evt_01m3n3qcw7fbw8vhhp2qqyr7mj
+id: evt_01m3pgzqgqesvb1hpf6s91wkb7
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rusya'nın Zaporijya'ya saldırması sonucu yaralananların sayısı 33 'e yükseldi
-  en: Injury toll after Russian strikes Zaporizhzhia rises to 33
+  tr: Rusya'nın Odesa'ya düzenlediği saldırılarda sekiz kişi yaralandı, altyapı hasar gördü
+  en: Russian attacks on Odesa leave eight injured, infrastructure damaged
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T18:21Z
+reported_at: 2026-09-29T07:20Z
 location:
-  geometry: {type: Point, coordinates: [35.175, 47.859]}
+  geometry: {type: Point, coordinates: [30.708, 46.492]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Zaporijya, en: Zaporizhzhya}
+  place_name: {tr: Odesa, en: Odessa}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168960-injury-toll-after-russian-strikes-zaporizhzhia-rises-to-33.html
-    title: Injury toll after Russian strikes Zaporizhzhia rises to 33
-    published_at: 2026-09-28T18:21Z
+  - url: https://www.ukrinform.net/rubric-ato/4169074-russian-attacks-on-odessa-leave-eight-injured-infrastructure-damaged.html
+    title: Russian attacks on Odesa leave eight injured, infrastructure damaged
+    published_at: 2026-09-29T07:20Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929102737/https://www.ukrinform.net/rubric-ato/4168960-injury-toll-after-russian-strikes-zaporizhzhia-rises-to-33.html
-        captured_at: 2026-09-29T10:27:37Z
 assessment:
   status: unverified
   credibility: 6
