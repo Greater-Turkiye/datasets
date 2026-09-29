@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike apartment building in Odesa, three injured
     published_at: 2026-09-28T13:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928151602/https://www.ukrinform.net/rubric-ato/4168846-russian-forces-strike-apartment-building-in-odesa-three-injured.html
+        captured_at: 2026-09-28T15:16:02Z
 assessment:
   status: unverified
   credibility: 6

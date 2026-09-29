@@ -1,9 +1,9 @@
-id: evt_01m3n3pfn3epfveye1ytk37jdb
+id: evt_01m3nnrjzbem3vckgw0342ys6x
 schema: event/1
-event_type: deployment.announced
+event_type: kinetic.drone-strike
 title:
-  tr: AB, Ukrayna ordusu için EUMAM eğitim misyonunu iki yıl uzatacak
-  en: EU to extend EUMAM training mission for Ukrainian military for two years
+  tr: "\"Magyar \": Ukraynalı mühendisler Shahed dronlarına karşı jetle çalışan karşı önlemleri başarıyla test etti"
+  en: "'Magyar': Ukrainian engineers successfully test jet-powered countermeasures against Shahed drones"
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T12:37Z
+reported_at: 2026-09-28T22:36Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168817-eu-to-extend-eumam-training-mission-for-ukrainian-military-for-two-years.html
-    title: EU to extend EUMAM training mission for Ukrainian military for two years
-    published_at: 2026-09-28T12:37Z
+  - url: https://www.ukrinform.net/rubric-ato/4168792-magyar-ukrainian-engineers-successfully-test-jetpowered-countermeasures-against-shahed-drones.html
+    title: "'Magyar': Ukrainian engineers successfully test jet-powered countermeasures against Shahed drones"
+    published_at: 2026-09-28T22:36Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929041536/https://www.ukrinform.net/rubric-ato/4168817-eu-to-extend-eumam-training-mission-for-ukrainian-military-for-two-years.html
-        captured_at: 2026-09-29T04:15:36Z
 assessment:
   status: unverified
   credibility: 6

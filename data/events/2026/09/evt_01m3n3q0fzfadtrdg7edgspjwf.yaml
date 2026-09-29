@@ -24,6 +24,10 @@ sources:
     title: Russian strike on Kharkiv injures 43 people and damages 46 buildings
     published_at: 2026-09-28T15:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928171612/https://www.ukrinform.net/rubric-ato/4168914-russian-strike-on-kharkiv-injures-43-people-and-damages-46-buildings.html
+        captured_at: 2026-09-28T17:16:12Z
 assessment:
   status: unverified
   credibility: 6

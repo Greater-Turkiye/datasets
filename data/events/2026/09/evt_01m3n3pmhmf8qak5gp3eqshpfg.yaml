@@ -24,6 +24,10 @@ sources:
     title: Russian UAV strikes seven-story administrative building in Kyiv's Shevchenkivskyi district
     published_at: 2026-09-28T13:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928150101/https://www.ukrinform.net/rubric-ato/4168842-russian-uav-strikes-sevenstory-administrative-building-in-kyivs-shevchenkivskyi-district.html
+        captured_at: 2026-09-28T15:01:01Z
 assessment:
   status: unverified
   credibility: 6

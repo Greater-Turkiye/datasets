@@ -1,27 +1,23 @@
-id: evt_01m3n3pfn3epfveye1ytk37jdb
+id: evt_01m3nnrpmvepfa9thfzxr846ch
 schema: event/1
-event_type: deployment.announced
+event_type: kinetic.clash
 title:
-  tr: AB, Ukrayna ordusu için EUMAM eğitim misyonunu iki yıl uzatacak
-  en: EU to extend EUMAM training mission for Ukrainian military for two years
+  tr: "Ukrayna İnsansız Sistem Kuvvetleri her gün ön cephede bir Rus taburunu imha ediyor: \"Magyar\""
+  en: Ukraine's Unmanned Systems Forces destroy one Russian battalion on front line every day – 'Magyar'
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T12:37Z
+reported_at: 2026-09-29T01:34Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168817-eu-to-extend-eumam-training-mission-for-ukrainian-military-for-two-years.html
-    title: EU to extend EUMAM training mission for Ukrainian military for two years
-    published_at: 2026-09-28T12:37Z
+  - url: https://www.ukrinform.net/rubric-ato/4168874-ukraines-unmanned-systems-forces-destroy-one-russian-battalion-on-front-line-every-day-magyar.html
+    title: Ukraine's Unmanned Systems Forces destroy one Russian battalion on front line every day – 'Magyar'
+    published_at: 2026-09-29T01:34Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929041536/https://www.ukrinform.net/rubric-ato/4168817-eu-to-extend-eumam-training-mission-for-ukrainian-military-for-two-years.html
-        captured_at: 2026-09-29T04:15:36Z
 assessment:
   status: unverified
   credibility: 6

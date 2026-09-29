@@ -24,6 +24,10 @@ sources:
     title: "Defense plants, oil facilities and target in Black Sea: Zelensky shows new strikes in Russia"
     published_at: 2026-09-28T10:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928120112/https://www.ukrinform.net/rubric-ato/4168761-defense-plants-oil-facilities-and-target-in-black-sea-zelensky-shows-new-strikes-in-russia.html
+        captured_at: 2026-09-28T12:01:12Z
 assessment:
   status: unverified
   credibility: 6

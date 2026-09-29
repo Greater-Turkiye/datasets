@@ -18,6 +18,10 @@ sources:
     title: Russian strike on logistics facility in Synelnykove leaves one killed, several injured
     published_at: 2026-09-28T11:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928071600/https://www.ukrinform.net/rubric-ato/4168788-russian-strike-on-logistics-facility-in-synelnykove-leaves-one-killed-several-injured.html
+        captured_at: 2026-09-28T07:16:00Z
 assessment:
   status: unverified
   credibility: 6

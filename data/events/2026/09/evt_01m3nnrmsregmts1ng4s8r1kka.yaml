@@ -1,9 +1,9 @@
-id: evt_01m3m18ne3ea1s7envc65zp0cb
+id: evt_01m3nnrmsregmts1ng4s8r1kka
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Ruslar Dnipropetrovsk bölgesindeki lojistik şirketi şubesine saldırdı, üç kişi yaralandı
-  en: Russians attack logistics company branch in Dnipropetrovsk region, three people injured
+  tr: Drone saldırılarının ardından geçen gün Rusya'nın Bryansk bölgesinde üç demiryolu olayı bildirildi
+  en: Three railway incidents reported in Russia's Bryansk region over past day following drone attacks
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-28T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T10:54Z
+reported_at: 2026-09-28T23:23Z
 location:
-  geometry: {type: Point, coordinates: [34.998, 48.482]}
+  geometry: {type: Point, coordinates: [34.43, 53.26]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
+  place_name: {tr: Bryansk bölgesi, en: Bryansk region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168765-russians-attack-logistics-company-branch-in-dnipropetrovsk-region-three-people-injured.html
-    title: Russians attack logistics company branch in Dnipropetrovsk region, three people injured
-    published_at: 2026-09-28T10:54Z
+  - url: https://www.ukrinform.net/rubric-ato/4168797-three-railway-incidents-reported-in-russias-bryansk-region-over-past-day-following-drone-attacks.html
+    title: Three railway incidents reported in Russia's Bryansk region over past day following drone attacks
+    published_at: 2026-09-28T23:23Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260928120112/https://www.ukrinform.net/rubric-ato/4168765-russians-attack-logistics-company-branch-in-dnipropetrovsk-region-three-people-injured.html
-        captured_at: 2026-09-28T12:01:12Z
 assessment:
   status: unverified
   credibility: 6

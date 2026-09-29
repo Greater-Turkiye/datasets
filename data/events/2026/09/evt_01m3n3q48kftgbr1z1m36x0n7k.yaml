@@ -24,6 +24,10 @@ sources:
     title: Rescue workers contain fire at National Academy of Sciences of Ukraine in Kyiv following Russian attack
     published_at: 2026-09-28T16:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928184614/https://www.ukrinform.net/rubric-ato/4168917-rescue-workers-contain-fire-at-national-academy-of-sciences-of-ukraine-in-kyiv-following-russian-attack.html
+        captured_at: 2026-09-28T18:46:14Z
 assessment:
   status: unverified
   credibility: 6

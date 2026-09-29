@@ -24,6 +24,10 @@ sources:
     title: "Russian strike on business center in Dnipro: Injury toll rises to 15, three dead"
     published_at: 2026-09-28T12:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928151602/https://www.ukrinform.net/rubric-ato/4168822-russian-strike-on-business-center-in-dnipro-injury-toll-rises-to-15-three-dead.html
+        captured_at: 2026-09-28T15:16:02Z
 assessment:
   status: unverified
   credibility: 6

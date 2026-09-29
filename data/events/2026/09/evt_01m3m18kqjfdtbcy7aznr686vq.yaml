@@ -24,6 +24,10 @@ sources:
     title: Russians strike business center in Dnipro, four people injured
     published_at: 2026-09-28T10:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928114602/https://www.ukrinform.net/rubric-ato/4168762-russians-strike-business-center-in-dnipro-four-people-injured.html
+        captured_at: 2026-09-28T11:46:02Z
 assessment:
   status: unverified
   credibility: 6

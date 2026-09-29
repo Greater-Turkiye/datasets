@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces show liberation of Karpivka on Lyman axis
     published_at: 2026-09-28T14:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928161611/https://www.ukrinform.net/rubric-ato/4168890-ukrainian-forces-show-liberation-of-karpivka-on-lyman-axis.html
+        captured_at: 2026-09-28T16:16:11Z
 assessment:
   status: unverified
   credibility: 6

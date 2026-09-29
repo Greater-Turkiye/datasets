@@ -24,6 +24,10 @@ sources:
     title: Air defense forces shoot down 86 of 124 Russian drones over Ukraine during day
     published_at: 2026-09-28T16:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260928184602/https://www.ukrinform.net/rubric-ato/4168918-air-defense-forces-shoot-down-86-of-124-russian-drones-over-ukraine-during-day.html
+        captured_at: 2026-09-28T18:46:02Z
 assessment:
   status: unverified
   credibility: 6
