@@ -24,6 +24,10 @@ sources:
     title: Russian drone strike on private home in Kyiv region injures two people
     published_at: 2026-09-29T04:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929102433/https://www.ukrinform.net/rubric-ato/4169036-russian-drone-strike-on-private-home-in-kyiv-region-injures-two-people.html
+        captured_at: 2026-09-29T10:24:33Z
 assessment:
   status: unverified
   credibility: 6

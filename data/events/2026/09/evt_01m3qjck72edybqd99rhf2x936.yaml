@@ -1,9 +1,9 @@
-id: evt_01m3pgzghjfrfvqvgfr0hrg7m0
+id: evt_01m3qjck72edybqd99rhf2x936
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Enkaz konut çatısında yangına yol açarken Rus drone saldırıları Kiev'de devam ediyor
-  en: Russian drone attacks continue in Kyiv as debris sparks fire on residential building roof
+  tr: Rusya'nın yüksek binalara düzenlediği saldırıda 48 kişinin yaralanmasının ardından Harkov'da kurtarma operasyonları sona erdi
+  en: Rescue operations conclude in Kharkiv after Russian strike on high-rise injures 48 people
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T05:58Z
+reported_at: 2026-09-29T13:31Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [36.248, 50.002]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Kharkiv, en: Kharkiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169043-russian-drone-attacks-continue-in-kyiv-as-debris-sparks-fire-on-residential-building-roof.html
-    title: Russian drone attacks continue in Kyiv as debris sparks fire on residential building roof
-    published_at: 2026-09-29T05:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4169218-rescue-operations-conclude-in-kharkiv-after-russian-strike-on-highrise-injures-48-people.html
+    title: Rescue operations conclude in Kharkiv after Russian strike on high-rise injures 48 people
+    published_at: 2026-09-29T13:31Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929074601/https://www.ukrinform.net/rubric-ato/4169043-russian-drone-attacks-continue-in-kyiv-as-debris-sparks-fire-on-residential-building-roof.html
-        captured_at: 2026-09-29T07:46:01Z
 assessment:
   status: unverified
   credibility: 6

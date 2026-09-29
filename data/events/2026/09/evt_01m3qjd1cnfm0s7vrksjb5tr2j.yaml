@@ -1,27 +1,23 @@
-id: evt_01m3n3qq1dfg1a3kycn691en54
+id: evt_01m3qjd1cnfm0s7vrksjb5tr2j
 schema: event/1
-event_type: kinetic.clash
+event_type: diplomatic.talks
 title:
-  tr: "Savaş güncellemesi: Ön cephede 127 muharebe çatışması, Pokrovsk sektörü bugün en acvite"
-  en: "War update: 127 combat clashes at front line, Pokrovsk sector most acvite today"
+  tr: Zelenskiy Ekim ayı için uzun menzilli operasyon planını onayladı
+  en: Zelensky endorses long-range operations plan for October
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T20:57Z
+reported_at: 2026-09-29T18:34Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168988-war-update-127-combat-clashes-at-front-line-pokrovsk-sector-most-acvite-today.html
-    title: "War update: 127 combat clashes at front line, Pokrovsk sector most acvite today"
-    published_at: 2026-09-28T20:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4169358-zelensky-endorses-longrange-operations-plan-for-october.html
+    title: Zelensky endorses long-range operations plan for October
+    published_at: 2026-09-29T18:34Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929121058/https://www.ukrinform.net/rubric-ato/4168988-war-update-127-combat-clashes-at-front-line-pokrovsk-sector-most-acvite-today.html
-        captured_at: 2026-09-29T12:10:58Z
 assessment:
   status: unverified
   credibility: 6

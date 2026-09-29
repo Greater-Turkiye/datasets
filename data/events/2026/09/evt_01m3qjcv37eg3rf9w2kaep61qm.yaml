@@ -1,9 +1,9 @@
-id: evt_01m3pgzghjfrfvqvgfr0hrg7m0
+id: evt_01m3qjcv37eg3rf9w2kaep61qm
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.airstrike
 title:
-  tr: Enkaz konut çatısında yangına yol açarken Rus drone saldırıları Kiev'de devam ediyor
-  en: Russian drone attacks continue in Kyiv as debris sparks fire on residential building roof
+  tr: Sumy'nin merkezindeki Rus süzülme bombası saldırısında iki kişi öldü, çocuklar da yaralandı
+  en: Russian glide-bomb strikes on central Sumy leaves two killed, children among wounded
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T05:58Z
+reported_at: 2026-09-29T15:55Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [34.781, 50.924]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Sumy, en: Sumy}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169043-russian-drone-attacks-continue-in-kyiv-as-debris-sparks-fire-on-residential-building-roof.html
-    title: Russian drone attacks continue in Kyiv as debris sparks fire on residential building roof
-    published_at: 2026-09-29T05:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4169279-russian-glidebomb-strikes-on-central-sumy-leaves-two-killed-children-among-wounded.html
+    title: Russian glide-bomb strikes on central Sumy leaves two killed, children among wounded
+    published_at: 2026-09-29T15:55Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929074601/https://www.ukrinform.net/rubric-ato/4169043-russian-drone-attacks-continue-in-kyiv-as-debris-sparks-fire-on-residential-building-roof.html
-        captured_at: 2026-09-29T07:46:01Z
 assessment:
   status: unverified
   credibility: 6

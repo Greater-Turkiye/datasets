@@ -24,6 +24,10 @@ sources:
     title: "Russian attack on Kyiv: Buildings damaged in two districts, one injured"
     published_at: 2026-09-29T06:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929084600/https://www.ukrinform.net/rubric-ato/4169066-russian-attack-on-kyiv-buildings-damaged-in-two-districts-one-injured.html
+        captured_at: 2026-09-29T08:46:00Z
   - url: https://www.ukrinform.net/rubric-ato/4169142-taras-shevchenko-museum-dmaged-in-russian-attack-on-kyiv.html
     title: Taras Shevchenko Museum damaged in Russian attack on Kyiv
     published_at: 2026-09-29T09:55Z

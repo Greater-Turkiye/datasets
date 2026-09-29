@@ -1,9 +1,9 @@
-id: evt_01m3pgzghjfrfvqvgfr0hrg7m0
+id: evt_01m3qjcsjjeads9e9w8ehye4pz
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: policy.defense
 title:
-  tr: Enkaz konut çatısında yangına yol açarken Rus drone saldırıları Kiev'de devam ediyor
-  en: Russian drone attacks continue in Kyiv as debris sparks fire on residential building roof
+  tr: Litvanya, Kaliningrad'ın psikolojik baskısıyla ilgili yeni Rus tehditleri çağrısında bulundu
+  en: Lithuania calls new Russian threats concerning Kaliningrad psychological pressure
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T05:58Z
+reported_at: 2026-09-29T15:39Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [20.497, 54.7]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Kaliningrad, en: Kaliningrad}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169043-russian-drone-attacks-continue-in-kyiv-as-debris-sparks-fire-on-residential-building-roof.html
-    title: Russian drone attacks continue in Kyiv as debris sparks fire on residential building roof
-    published_at: 2026-09-29T05:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4169277-lithuania-calls-new-russian-threats-concerning-kaliningrad-psychological-pressure.html
+    title: Lithuania calls new Russian threats concerning Kaliningrad psychological pressure
+    published_at: 2026-09-29T15:39Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929074601/https://www.ukrinform.net/rubric-ato/4169043-russian-drone-attacks-continue-in-kyiv-as-debris-sparks-fire-on-residential-building-roof.html
-        captured_at: 2026-09-29T07:46:01Z
 assessment:
   status: unverified
   credibility: 6

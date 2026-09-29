@@ -1,27 +1,23 @@
-id: evt_01m3n3qq1dfg1a3kycn691en54
+id: evt_01m3qjd5x3eygac0wmm4bkm6a7
 schema: event/1
-event_type: kinetic.clash
+event_type: kinetic.drone-strike
 title:
-  tr: "Savaş güncellemesi: Ön cephede 127 muharebe çatışması, Pokrovsk sektörü bugün en acvite"
-  en: "War update: 127 combat clashes at front line, Pokrovsk sector most acvite today"
+  tr: Rusya, eylülde Ukrayna'ya karşı insansız hava aracı kullanımını artırdı
+  en: Russia has increased its use of drones against Ukraine in September – Air Force
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T20:57Z
+reported_at: 2026-09-29T20:48Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168988-war-update-127-combat-clashes-at-front-line-pokrovsk-sector-most-acvite-today.html
-    title: "War update: 127 combat clashes at front line, Pokrovsk sector most acvite today"
-    published_at: 2026-09-28T20:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4169380-russia-has-increased-its-use-of-drones-against-ukraine-in-september-air-force.html
+    title: Russia has increased its use of drones against Ukraine in September – Air Force
+    published_at: 2026-09-29T20:48Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929121058/https://www.ukrinform.net/rubric-ato/4168988-war-update-127-combat-clashes-at-front-line-pokrovsk-sector-most-acvite-today.html
-        captured_at: 2026-09-29T12:10:58Z
 assessment:
   status: unverified
   credibility: 6

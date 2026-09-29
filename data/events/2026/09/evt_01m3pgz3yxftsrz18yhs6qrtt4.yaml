@@ -24,6 +24,10 @@ sources:
     title: Russians evacuate civilians from Kupiansk area via gas pipeline
     published_at: 2026-09-28T21:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929070139/https://www.ukrinform.net/rubric-ato/4168678-russians-evacuate-civilians-from-kupiansk-area-via-gas-pipeline.html
+        captured_at: 2026-09-29T07:01:39Z
 assessment:
   status: unverified
   credibility: 6

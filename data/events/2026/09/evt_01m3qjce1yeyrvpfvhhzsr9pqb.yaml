@@ -1,33 +1,29 @@
-id: evt_01m3nnrmsregmts1ng4s8r1kka
+id: evt_01m3qjce1yeyrvpfvhhzsr9pqb
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Drone saldırılarının ardından geçen gün Rusya'nın Bryansk bölgesinde üç demiryolu olayı bildirildi
-  en: Three railway incidents reported in Russia's Bryansk region over past day following drone attacks
+  tr: Rus saldırısı Rivne bölgesindeki özel sivil ekipmanlara zarar verdi
+  en: Russian attack damages specialized civilian equipment in Rivne region
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T23:23Z
+reported_at: 2026-09-29T12:27Z
 location:
-  geometry: {type: Point, coordinates: [34.43, 53.26]}
+  geometry: {type: Point, coordinates: [26.253, 50.617]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Bryansk bölgesi, en: Bryansk region}
+  place_name: {tr: Rivne bölgesi, en: Rivne region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168797-three-railway-incidents-reported-in-russias-bryansk-region-over-past-day-following-drone-attacks.html
-    title: Three railway incidents reported in Russia's Bryansk region over past day following drone attacks
-    published_at: 2026-09-28T23:23Z
+  - url: https://www.ukrinform.net/rubric-ato/4169210-russian-attack-damages-specialized-civilian-equipment-in-rivne-region.html
+    title: Russian attack damages specialized civilian equipment in Rivne region
+    published_at: 2026-09-29T12:27Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929020102/https://www.ukrinform.net/rubric-ato/4168797-three-railway-incidents-reported-in-russias-bryansk-region-over-past-day-following-drone-attacks.html
-        captured_at: 2026-09-29T02:01:02Z
 assessment:
   status: unverified
   credibility: 6

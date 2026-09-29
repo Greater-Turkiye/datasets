@@ -1,9 +1,9 @@
-id: evt_01m3pgzghjfrfvqvgfr0hrg7m0
+id: evt_01m3qjcmwsfn28kpzydt8vxk8j
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.missile-strike
 title:
-  tr: Enkaz konut çatısında yangına yol açarken Rus drone saldırıları Kiev'de devam ediyor
-  en: Russian drone attacks continue in Kyiv as debris sparks fire on residential building roof
+  tr: Kiev'deki konut binalarının yakınında iki balistik füzenin savaş başlıkları etkisiz hale getirildi
+  en: Warheads of two ballistic missiles neutralized near residential buildings in Kyiv
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T05:58Z
+reported_at: 2026-09-29T13:58Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169043-russian-drone-attacks-continue-in-kyiv-as-debris-sparks-fire-on-residential-building-roof.html
-    title: Russian drone attacks continue in Kyiv as debris sparks fire on residential building roof
-    published_at: 2026-09-29T05:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4169235-warheads-of-two-ballistic-missiles-neutralized-near-residential-buildings-in-kyiv.html
+    title: Warheads of two ballistic missiles neutralized near residential buildings in Kyiv
+    published_at: 2026-09-29T13:58Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929074601/https://www.ukrinform.net/rubric-ato/4169043-russian-drone-attacks-continue-in-kyiv-as-debris-sparks-fire-on-residential-building-roof.html
-        captured_at: 2026-09-29T07:46:01Z
 assessment:
   status: unverified
   credibility: 6

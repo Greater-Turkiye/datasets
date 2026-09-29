@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Overall drone interception rate amounts to 70%, for jet-powered drones currently only 57%"
     published_at: 2026-09-28T19:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929102432/https://www.ukrinform.net/rubric-ato/4168978-zelensky-overall-drone-interception-rate-amounts-to-70-for-jetpowered-drones-currently-only-57.html
+        captured_at: 2026-09-29T10:24:32Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "The UK is acting with international partners to protect the two-state solution: UK statement at the UN Security Council"
     published_at: 2026-09-28T16:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929121003/https://www.gov.uk/government/speeches/the-uk-is-acting-with-international-partners-to-protect-the-two-state-solution-uk-statement-at-the-un-security-council
+        captured_at: 2026-09-29T12:10:03Z
 assessment:
   status: unverified
   credibility: 6

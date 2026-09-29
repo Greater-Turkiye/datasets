@@ -1,27 +1,23 @@
-id: evt_01m3n3qq1dfg1a3kycn691en54
+id: evt_01m3qjcwk8frpa1awg1c568k6q
 schema: event/1
-event_type: kinetic.clash
+event_type: kinetic.drone-strike
 title:
-  tr: "Savaş güncellemesi: Ön cephede 127 muharebe çatışması, Pokrovsk sektörü bugün en acvite"
-  en: "War update: 127 combat clashes at front line, Pokrovsk sector most acvite today"
+  tr: ADF, sabahtan beri 112 Rus İHA'sının 95 'ini etkisiz hale getirdi
+  en: ADF neutralizes 95 of 112 Russian drones since morning
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T20:57Z
+reported_at: 2026-09-29T16:37Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168988-war-update-127-combat-clashes-at-front-line-pokrovsk-sector-most-acvite-today.html
-    title: "War update: 127 combat clashes at front line, Pokrovsk sector most acvite today"
-    published_at: 2026-09-28T20:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4169307-adf-neutralizes-95-of-112-russian-drones-since-morning.html
+    title: ADF neutralizes 95 of 112 Russian drones since morning
+    published_at: 2026-09-29T16:37Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929121058/https://www.ukrinform.net/rubric-ato/4168988-war-update-127-combat-clashes-at-front-line-pokrovsk-sector-most-acvite-today.html
-        captured_at: 2026-09-29T12:10:58Z
 assessment:
   status: unverified
   credibility: 6

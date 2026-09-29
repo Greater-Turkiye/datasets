@@ -18,6 +18,10 @@ sources:
     title: "'Magyar': Ukrainian engineers successfully test jet-powered countermeasures against Shahed drones"
     published_at: 2026-09-28T22:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929000107/https://www.ukrinform.net/rubric-ato/4168792-magyar-ukrainian-engineers-successfully-test-jetpowered-countermeasures-against-shahed-drones.html
+        captured_at: 2026-09-29T00:01:07Z
 assessment:
   status: unverified
   credibility: 6

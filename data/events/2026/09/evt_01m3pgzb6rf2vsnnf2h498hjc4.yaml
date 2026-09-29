@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack infrastructure in Odesa
     published_at: 2026-09-29T05:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929073102/https://www.ukrinform.net/rubric-ato/4169039-russian-forces-attack-infrastructure-in-odesa.html
+        captured_at: 2026-09-29T07:31:02Z
 assessment:
   status: unverified
   credibility: 6

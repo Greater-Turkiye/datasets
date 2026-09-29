@@ -24,6 +24,10 @@ sources:
     title: Military evacuate two civilians from frontline town of Beryslav in Kherson region
     published_at: 2026-09-29T03:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929071036/https://www.ukrinform.net/rubric-ato/4169011-military-evacuate-two-civilians-from-frontline-town-of-beryslav-in-kherson-region.html
+        captured_at: 2026-09-29T07:10:36Z
 assessment:
   status: unverified
   credibility: 6

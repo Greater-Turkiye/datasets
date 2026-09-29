@@ -18,6 +18,10 @@ sources:
     title: "Russian attacks continue: ADF neutralizes one anti-ship missile, two ballistic missiles, and 106 drones"
     published_at: 2026-09-29T06:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929073101/https://www.ukrinform.net/rubric-ato/4169057-russian-attacks-continue-adf-neutralizes-one-antiship-missile-two-ballistic-missiles-and-106-drones.html
+        captured_at: 2026-09-29T07:31:01Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,33 +1,29 @@
-id: evt_01m3nnrmsregmts1ng4s8r1kka
+id: evt_01m3qjczsjf9nbkw04vdr9ayzc
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Drone saldırılarının ardından geçen gün Rusya'nın Bryansk bölgesinde üç demiryolu olayı bildirildi
-  en: Three railway incidents reported in Russia's Bryansk region over past day following drone attacks
+  tr: Ruslar Dnipropetrovsk bölgesine bir günde 20 'den fazla kez saldırdı, bir kişi yaralandı
+  en: Russians attack Dnipropetrovsk region more than 20 times in one day, one person injured
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-28T00:00Z
+  start: 2026-09-29T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-28T23:23Z
+reported_at: 2026-09-29T17:20Z
 location:
-  geometry: {type: Point, coordinates: [34.43, 53.26]}
+  geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Bryansk bölgesi, en: Bryansk region}
+  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168797-three-railway-incidents-reported-in-russias-bryansk-region-over-past-day-following-drone-attacks.html
-    title: Three railway incidents reported in Russia's Bryansk region over past day following drone attacks
-    published_at: 2026-09-28T23:23Z
+  - url: https://www.ukrinform.net/rubric-ato/4169316-russians-attack-dnipropetrovsk-region-more-than-20-times-in-one-day-one-person-injured.html
+    title: Russians attack Dnipropetrovsk region more than 20 times in one day, one person injured
+    published_at: 2026-09-29T17:20Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929020102/https://www.ukrinform.net/rubric-ato/4168797-three-railway-incidents-reported-in-russias-bryansk-region-over-past-day-following-drone-attacks.html
-        captured_at: 2026-09-29T02:01:02Z
 assessment:
   status: unverified
   credibility: 6

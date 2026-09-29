@@ -24,6 +24,10 @@ sources:
     title: Russian missile and drone attack on Kyiv sparks fires and damages buildings in capital
     published_at: 2026-09-29T04:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929061601/https://www.ukrinform.net/rubric-ato/4169013-russian-missile-and-drone-attack-on-kyiv-sparks-fires-and-damages-buildings-in-capital.html
+        captured_at: 2026-09-29T06:16:01Z
 assessment:
   status: unverified
   credibility: 6
