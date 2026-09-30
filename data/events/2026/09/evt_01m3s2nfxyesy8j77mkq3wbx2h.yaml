@@ -18,6 +18,10 @@ sources:
     title: Russian forces lose another 1,470 troops in war against Ukraine
     published_at: 2026-09-30T05:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930070121/https://www.ukrinform.net/rubric-ato/4169422-russian-forces-lose-another-1470-troops-in-war-against-ukraine.html
+        captured_at: 2026-09-30T07:01:21Z
 assessment:
   status: unverified
   credibility: 6

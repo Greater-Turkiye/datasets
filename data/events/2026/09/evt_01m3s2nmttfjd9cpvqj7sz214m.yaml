@@ -18,6 +18,10 @@ sources:
     title: "War update: 221 clashes on frontline over the past day, Kostiantynivka axis sees fiercest fighting"
     published_at: 2026-09-30T06:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930083105/https://www.ukrinform.net/rubric-ato/4169444-war-update-221-clashes-on-frontline-over-the-past-day-kostiantynivka-axis-sees-fiercest-fighting.html
+        captured_at: 2026-09-30T08:31:05Z
 assessment:
   status: unverified
   credibility: 6

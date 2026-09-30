@@ -24,6 +24,10 @@ sources:
     title: Kyiv shrouded in heavy smog following Russian attack
     published_at: 2026-09-30T07:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930110116/https://www.ukrinform.net/rubric-ato/4169465-kyiv-shrouded-in-heavy-smog-following-russian-attack.html
+        captured_at: 2026-09-30T11:01:16Z
 assessment:
   status: unverified
   credibility: 6

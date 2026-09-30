@@ -24,6 +24,10 @@ sources:
     title: Kyiv region hit by combined attack, fires and damage reported, child killed
     published_at: 2026-09-30T04:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930064609/https://www.ukrinform.net/rubric-ato/4169420-kyiv-region-hit-by-combined-attack-fires-and-damage-reported-child-killed.html
+        captured_at: 2026-09-30T06:46:09Z
 assessment:
   status: unverified
   credibility: 6

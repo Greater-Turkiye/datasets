@@ -1,9 +1,9 @@
-id: evt_01m3s2nph0fyrv4pv75gx2z3e5
+id: evt_01m3sp7dh1en4bw7t9nfh0y1a4
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Rus insansız hava aracı Moldova'ya uçtu ve patladı
-  en: Russian drone flies into and explodes in Moldova
+  tr: ADF, gün içinde Ukrayna'ya fırlatılan 285 Rus insansız hava aracından 254 'ünü etkisiz hale getirdi
+  en: ADF neutralize 254 of 285 Russian drones launched at Ukraine during the day
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T06:37Z
+reported_at: 2026-09-30T16:39Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169449-russian-drone-flies-into-and-explodes-in-moldova.html
-    title: Russian drone flies into and explodes in Moldova
-    published_at: 2026-09-30T06:37Z
+  - url: https://www.ukrinform.net/rubric-ato/4169745-adf-neutralize-254-of-285-russian-drones-launched-at-ukraine-during-the-day.html
+    title: ADF neutralize 254 of 285 Russian drones launched at Ukraine during the day
+    published_at: 2026-09-30T16:39Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930110117/https://www.ukrinform.net/rubric-ato/4169449-russian-drone-flies-into-and-explodes-in-moldova.html
-        captured_at: 2026-09-30T11:01:17Z
 assessment:
   status: unverified
   credibility: 6

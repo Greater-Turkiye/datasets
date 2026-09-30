@@ -18,6 +18,10 @@ sources:
     title: Russian military seize food dropped by Ukrainian forces for residents of Oleshky
     published_at: 2026-09-30T03:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930101052/https://www.ukrinform.net/rubric-ato/4169414-russian-military-seize-food-dropped-by-ukrainian-forces-for-residents-of-oleshky.html
+        captured_at: 2026-09-30T10:10:52Z
 assessment:
   status: unverified
   credibility: 6

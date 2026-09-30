@@ -24,6 +24,10 @@ sources:
     title: Russian UAV hits warehouse in Kyiv’s Solomianskyi District, killing one
     published_at: 2026-09-30T07:44Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930110115/https://www.ukrinform.net/rubric-ato/4169496-russian-uav-hits-warehouse-in-kyivs-solomianskyi-district-killing-one.html
+        captured_at: 2026-09-30T11:01:15Z
 assessment:
   status: unverified
   credibility: 6

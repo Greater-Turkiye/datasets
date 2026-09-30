@@ -1,9 +1,9 @@
-id: evt_01m3s2ncfxepe8qfv1n6xwzwqh
+id: evt_01m3sp6raeeaz92th1w9rdbcke
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: "Ruslar Kiev'e bir füze ve insansız hava aracı saldırısı daha düzenledi: Biri öldü, birkaçı yaralandı"
-  en: "Russians launch another missile and drone attack on Kyiv: One killed, several injured"
+  tr: Rusya'nın Kiev'e düzenlediği saldırılarda üç kişi öldü, yaralananların sayısı yediye yükseldi
+  en: Russian attacks on Kyiv leaves three killed, injury toll rises to seven
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T04:38Z
+reported_at: 2026-09-30T12:59Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169419-russians-launch-another-missile-and-drone-attack-on-kyiv-one-killed-several-injured.html
-    title: "Russians launch another missile and drone attack on Kyiv: One killed, several injured"
-    published_at: 2026-09-30T04:38Z
+  - url: https://www.ukrinform.net/rubric-ato/4169644-russian-attacks-on-kyiv-leaves-three-killed-injury-toll-rises-to-seven.html
+    title: Russian attacks on Kyiv leaves three killed, injury toll rises to seven
+    published_at: 2026-09-30T12:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930054601/https://www.ukrinform.net/rubric-ato/4169419-russians-launch-another-missile-and-drone-attack-on-kyiv-one-killed-several-injured.html
-        captured_at: 2026-09-30T05:46:01Z
 assessment:
   status: unverified
   credibility: 6

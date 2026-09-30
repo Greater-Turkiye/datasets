@@ -1,9 +1,9 @@
-id: evt_01m3s2ncfxepe8qfv1n6xwzwqh
+id: evt_01m3sp72zyfw1b9gzk8h66t7dz
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: other
 title:
-  tr: "Ruslar Kiev'e bir füze ve insansız hava aracı saldırısı daha düzenledi: Biri öldü, birkaçı yaralandı"
-  en: "Russians launch another missile and drone attack on Kyiv: One killed, several injured"
+  tr: Rus insansız hava aracı Kiev'in Obolonskyi bölgesindeki konut binasının avlusuna düştü
+  en: Russian drone falls in courtyard of residential building in Kyiv's Obolonskyi district
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T04:38Z
+reported_at: 2026-09-30T14:38Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169419-russians-launch-another-missile-and-drone-attack-on-kyiv-one-killed-several-injured.html
-    title: "Russians launch another missile and drone attack on Kyiv: One killed, several injured"
-    published_at: 2026-09-30T04:38Z
+  - url: https://www.ukrinform.net/rubric-ato/4169691-russian-drone-falls-in-courtyard-of-residential-building-in-kyivs-obolonskyi-district.html
+    title: Russian drone falls in courtyard of residential building in Kyiv's Obolonskyi district
+    published_at: 2026-09-30T14:38Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930054601/https://www.ukrinform.net/rubric-ato/4169419-russians-launch-another-missile-and-drone-attack-on-kyiv-one-killed-several-injured.html
-        captured_at: 2026-09-30T05:46:01Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Massive attack on Kyiv leaves two killed, five injured
     published_at: 2026-09-30T07:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930083103/https://www.ukrinform.net/rubric-ato/4169457-massive-attack-on-kyiv-leaves-two-killed-five-injured.html
+        captured_at: 2026-09-30T08:31:03Z
 assessment:
   status: unverified
   credibility: 6

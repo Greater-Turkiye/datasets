@@ -18,6 +18,10 @@ sources:
     title: Встреча с Милорадом Додиком и Саво Миничем
     published_at: 2026-09-29T13:15Z
     lang: ru
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929180353/http://kremlin.ru/events/president/news/80885
+        captured_at: 2026-09-29T18:03:53Z
 assessment:
   status: unverified
   credibility: 6

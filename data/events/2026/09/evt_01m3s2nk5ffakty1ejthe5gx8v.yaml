@@ -18,6 +18,10 @@ sources:
     title: ADF neutralizes five ballistic missiles, 155 Russian drones used to attack Ukraine overnight
     published_at: 2026-09-30T05:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930110117/https://www.ukrinform.net/rubric-ato/4169428-adf-neutralizes-five-ballistic-missiles-155-russian-drones-used-to-attack-ukraine-overnight.html
+        captured_at: 2026-09-30T11:01:17Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,9 +1,9 @@
-id: evt_01m3s2nhj1f4y9fejf42h8pxt0
+id: evt_01m3sp6pjyfbv9vpb8rtf2dadv
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Ruslar Dnipropetrovsk bölgesinin üç bölgesine insansız hava araçlarıyla saldırdı, altyapı hasar gördü
-  en: Russians attack three districts of Dnipropetrovsk region with drones, infrastructure damaged
+  tr: Ruslar Sumy bölgesindeki Romny'deki alışveriş merkezine saldırdı — medya
+  en: Russians attack shopping center in Romny, Sumy region — media
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T05:33Z
+reported_at: 2026-09-30T12:34Z
 location:
-  geometry: {type: Point, coordinates: [34.998, 48.482]}
+  geometry: {type: Point, coordinates: [34.781, 50.924]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
+  place_name: {tr: Sumy bölgesi, en: Sumy region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169426-russians-attack-three-districts-of-dnipropetrovsk-region-with-drones-infrastructure-damaged.html
-    title: Russians attack three districts of Dnipropetrovsk region with drones, infrastructure damaged
-    published_at: 2026-09-30T05:33Z
+  - url: https://www.ukrinform.net/rubric-ato/4169641-russians-attack-shopping-center-in-romny-sumy-region-media.html
+    title: Russians attack shopping center in Romny, Sumy region — media
+    published_at: 2026-09-30T12:34Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930073101/https://www.ukrinform.net/rubric-ato/4169426-russians-attack-three-districts-of-dnipropetrovsk-region-with-drones-infrastructure-damaged.html
-        captured_at: 2026-09-30T07:31:01Z
 assessment:
   status: unverified
   credibility: 6

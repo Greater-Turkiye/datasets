@@ -18,6 +18,10 @@ sources:
     title: Ukraine receives new NASAMS missile package – Zelensky
     published_at: 2026-09-29T19:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930084916/https://www.ukrinform.net/rubric-ato/4169369-ukraine-receives-new-nasams-missile-package-zelensky.html
+        captured_at: 2026-09-30T08:49:16Z
 assessment:
   status: unverified
   credibility: 6

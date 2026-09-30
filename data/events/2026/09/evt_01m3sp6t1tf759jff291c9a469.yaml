@@ -1,9 +1,9 @@
-id: evt_01m3s2nph0fyrv4pv75gx2z3e5
+id: evt_01m3sp6t1tf759jff291c9a469
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: diplomatic.talks
 title:
-  tr: Rus insansız hava aracı Moldova'ya uçtu ve patladı
-  en: Russian drone flies into and explodes in Moldova
+  tr: Zelenskiy Lyman cephesinde komutanlarla toplantı yapıyor
+  en: Zelensky holds meeting with commanders on Lyman front
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T06:37Z
+reported_at: 2026-09-30T13:16Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169449-russian-drone-flies-into-and-explodes-in-moldova.html
-    title: Russian drone flies into and explodes in Moldova
-    published_at: 2026-09-30T06:37Z
+  - url: https://www.ukrinform.net/rubric-ato/4169652-zelensky-holds-meeting-with-commanders-on-lyman-front.html
+    title: Zelensky holds meeting with commanders on Lyman front
+    published_at: 2026-09-30T13:16Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930110117/https://www.ukrinform.net/rubric-ato/4169449-russian-drone-flies-into-and-explodes-in-moldova.html
-        captured_at: 2026-09-30T11:01:17Z
 assessment:
   status: unverified
   credibility: 6

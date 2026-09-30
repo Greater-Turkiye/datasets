@@ -24,6 +24,10 @@ sources:
     title: Civilian infrastructure, energy facilities damaged in Russian attacks on Zhytomyr region
     published_at: 2026-09-30T07:33Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930083103/https://www.ukrinform.net/rubric-ato/4169475-civilian-infrastructure-energy-facilities-damaged-in-russian-attacks-on-zhytomyr-region.html
+        captured_at: 2026-09-30T08:31:03Z
 assessment:
   status: unverified
   credibility: 6

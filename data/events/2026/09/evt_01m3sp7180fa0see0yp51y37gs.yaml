@@ -1,9 +1,9 @@
-id: evt_01m3s2nhj1f4y9fejf42h8pxt0
+id: evt_01m3sp7180fa0see0yp51y37gs
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Ruslar Dnipropetrovsk bölgesinin üç bölgesine insansız hava araçlarıyla saldırdı, altyapı hasar gördü
-  en: Russians attack three districts of Dnipropetrovsk region with drones, infrastructure damaged
+  tr: Ruslar Herson bölgesindeki yerleşim yerine saldırdı, biri öldü, üçü yaralandı
+  en: Russians strike settlement in Kherson region, one killed, three injured
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T05:33Z
+reported_at: 2026-09-30T14:19Z
 location:
-  geometry: {type: Point, coordinates: [34.998, 48.482]}
+  geometry: {type: Point, coordinates: [32.601, 46.633]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
+  place_name: {tr: Herson bölgesi, en: Kherson region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169426-russians-attack-three-districts-of-dnipropetrovsk-region-with-drones-infrastructure-damaged.html
-    title: Russians attack three districts of Dnipropetrovsk region with drones, infrastructure damaged
-    published_at: 2026-09-30T05:33Z
+  - url: https://www.ukrinform.net/rubric-ato/4169690-russians-strike-settlement-in-kherson-region-one-killed-three-injured.html
+    title: Russians strike settlement in Kherson region, one killed, three injured
+    published_at: 2026-09-30T14:19Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930073101/https://www.ukrinform.net/rubric-ato/4169426-russians-attack-three-districts-of-dnipropetrovsk-region-with-drones-infrastructure-damaged.html
-        captured_at: 2026-09-30T07:31:01Z
 assessment:
   status: unverified
   credibility: 6
