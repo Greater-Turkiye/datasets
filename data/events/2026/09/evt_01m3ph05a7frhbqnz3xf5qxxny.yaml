@@ -24,6 +24,10 @@ sources:
     title: Russian attacks kill 12, injure 200 in Kyiv over past week
     published_at: 2026-09-29T10:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929111623/https://www.ukrinform.net/rubric-ato/4169157-russian-attacks-kill-12-injure-200-in-kyiv-over-past-week.html
+        captured_at: 2026-09-29T11:16:23Z
 assessment:
   status: unverified
   credibility: 6

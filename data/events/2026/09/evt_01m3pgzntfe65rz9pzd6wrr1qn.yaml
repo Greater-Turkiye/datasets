@@ -32,6 +32,10 @@ sources:
     title: Taras Shevchenko Museum damaged in Russian attack on Kyiv
     published_at: 2026-09-29T09:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929111602/https://www.ukrinform.net/rubric-ato/4169142-taras-shevchenko-museum-dmaged-in-russian-attack-on-kyiv.html
+        captured_at: 2026-09-29T11:16:02Z
 assessment:
   status: unverified
   credibility: 6

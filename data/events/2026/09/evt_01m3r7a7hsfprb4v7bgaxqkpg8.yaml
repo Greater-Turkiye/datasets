@@ -1,17 +1,17 @@
-id: evt_01m3ph01h8egwb8fx09evawpqr
+id: evt_01m3r7a7hsfprb4v7bgaxqkpg8
 schema: event/1
-event_type: kinetic.attack
+event_type: diplomatic.talks
 title:
-  tr: Kiev'de hasar gören Kiev - Pasazhyrskyi istasyon deposu, veri merkezleri, iş merkezleri -- Zelenski
-  en: Kyiv-Pasazhyrskyi station depot, data centers, business centers damaged in Kyiv -- Zelensky
+  tr: Khmara, ADF komuta noktalarını ziyaret etti, Kiev'in katmanlı savunmasının nasıl güçlendirileceğini tartıştı
+  en: Khmara visits ADF command posts, discusses how to strengthen Kyiv's layered defense
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-29T00:00Z
+  start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T10:02Z
+reported_at: 2026-09-30T00:24Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169152-kyivpasazhyrskyi-station-depot-data-centers-business-centers-damaged-in-kyiv-zelensky.html
-    title: Kyiv-Pasazhyrskyi station depot, data centers, business centers damaged in Kyiv -- Zelensky
-    published_at: 2026-09-29T10:02Z
+  - url: https://www.ukrinform.net/rubric-ato/4169281-khmara-visits-adf-command-posts-discusses-how-to-strengthen-kyivs-layered-defense.html
+    title: Khmara visits ADF command posts, discusses how to strengthen Kyiv's layered defense
+    published_at: 2026-09-30T00:24Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929133132/https://www.ukrinform.net/rubric-ato/4169152-kyivpasazhyrskyi-station-depot-data-centers-business-centers-damaged-in-kyiv-zelensky.html
-        captured_at: 2026-09-29T13:31:32Z
 assessment:
   status: unverified
   credibility: 6

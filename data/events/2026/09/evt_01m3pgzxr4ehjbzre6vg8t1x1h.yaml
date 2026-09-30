@@ -18,6 +18,10 @@ sources:
     title: Ukrainian Defense Forces strike Kasta radar, Russian UAV command posts and warehouses
     published_at: 2026-09-29T08:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929094628/https://www.ukrinform.net/rubric-ato/4169110-ukrainian-defense-forces-strike-kasta-radar-russian-uav-command-posts-and-warehouses.html
+        captured_at: 2026-09-29T09:46:28Z
 assessment:
   status: unverified
   credibility: 6

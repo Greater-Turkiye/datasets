@@ -18,6 +18,10 @@ sources:
     title: Russian forces strike railway infrastructure facility in Vinnytsia region
     published_at: 2026-09-29T07:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929094628/https://www.ukrinform.net/rubric-ato/4169076-russian-forces-strike-railway-infrastructure-facility-in-vinnytsia-region.html
+        captured_at: 2026-09-29T09:46:28Z
 assessment:
   status: unverified
   credibility: 6

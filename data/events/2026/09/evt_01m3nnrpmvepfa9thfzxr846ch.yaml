@@ -18,6 +18,10 @@ sources:
     title: Ukraine's Unmanned Systems Forces destroy one Russian battalion on front line every day – 'Magyar'
     published_at: 2026-09-29T01:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929050110/https://www.ukrinform.net/rubric-ato/4168874-ukraines-unmanned-systems-forces-destroy-one-russian-battalion-on-front-line-every-day-magyar.html
+        captured_at: 2026-09-29T05:01:10Z
 assessment:
   status: unverified
   credibility: 6

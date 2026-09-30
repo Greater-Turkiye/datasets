@@ -24,6 +24,10 @@ sources:
     title: Russians damage 22 sites in five districts of Kyiv region in one day
     published_at: 2026-09-29T07:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929084625/https://www.ukrinform.net/rubric-ato/4169092-russians-damage-22-sites-in-five-districts-of-kyiv-region-in-one-day.html
+        captured_at: 2026-09-29T08:46:25Z
 assessment:
   status: unverified
   credibility: 6

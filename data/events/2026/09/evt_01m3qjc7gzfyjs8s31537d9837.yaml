@@ -18,6 +18,10 @@ sources:
     title: "Совбез ООН: насилие со стороны поселенцев на Западном берегу «достигло беспрецедентного уровня»"
     published_at: 2026-09-28T12:00Z
     lang: ru
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930035944/https://news.un.org/feed/view/ru/story/2026/09/1468790
+        captured_at: 2026-09-30T03:59:44Z
 assessment:
   status: unverified
   credibility: 6

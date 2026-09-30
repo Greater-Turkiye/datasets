@@ -18,6 +18,10 @@ sources:
     title: DM Khmara postpones visits to Germany, Norway due to security situation in Ukraine – source
     published_at: 2026-09-29T10:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929113102/https://www.ukrinform.net/rubric-ato/4169162-dm-khmara-postpones-vsits-to-germany-norway-due-to-security-situation-in-ukraine-source.html
+        captured_at: 2026-09-29T11:31:02Z
 assessment:
   status: unverified
   credibility: 6

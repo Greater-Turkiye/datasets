@@ -18,6 +18,10 @@ sources:
     title: Russian forces lose 1,440 soldiers and two air defense systems in past day of war against Ukraine
     published_at: 2026-09-29T05:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929061600/https://www.ukrinform.net/rubric-ato/4169040-russian-forces-lose-1440-soldiers-and-two-air-defense-systems-in-past-day-of-war-against-ukraine.html
+        captured_at: 2026-09-29T06:16:00Z
 assessment:
   status: unverified
   credibility: 6
