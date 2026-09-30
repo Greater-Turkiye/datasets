@@ -18,6 +18,10 @@ sources:
     title: "War update: 198 clashes on frontline, most on Kostiantynivka axis"
     published_at: 2026-09-29T20:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929211601/https://www.ukrinform.net/rubric-ato/4169372-war-update-198-clashes-on-frontline-most-on-kostiantynivka-axis.html
+        captured_at: 2026-09-29T21:16:01Z
 assessment:
   status: unverified
   credibility: 6

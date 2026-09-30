@@ -1,27 +1,23 @@
-id: evt_01m3qjcwk8frpa1awg1c568k6q
+id: evt_01m3s2napte67bqhg069phwdp3
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: policy.defense
 title:
-  tr: ADF, sabahtan beri 112 Rus İHA'sının 95 'ini etkisiz hale getirdi
-  en: ADF neutralizes 95 of 112 Russian drones since morning
+  tr: Rus ordusu, Ukrayna güçlerinin Oleshky sakinleri için bıraktığı yiyecekleri ele geçirdi
+  en: Russian military seize food dropped by Ukrainian forces for residents of Oleshky
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-29T00:00Z
+  start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T16:37Z
+reported_at: 2026-09-30T03:37Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169307-adf-neutralizes-95-of-112-russian-drones-since-morning.html
-    title: ADF neutralizes 95 of 112 Russian drones since morning
-    published_at: 2026-09-29T16:37Z
+  - url: https://www.ukrinform.net/rubric-ato/4169414-russian-military-seize-food-dropped-by-ukrainian-forces-for-residents-of-oleshky.html
+    title: Russian military seize food dropped by Ukrainian forces for residents of Oleshky
+    published_at: 2026-09-30T03:37Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930073716/https://www.ukrinform.net/rubric-ato/4169307-adf-neutralizes-95-of-112-russian-drones-since-morning.html
-        captured_at: 2026-09-30T07:37:16Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: "World News in Brief: Deadly Myanmar strikes as Malaysia begins deportations, new emergency funding released, Gaza and West Bank update"
     published_at: 2026-09-29T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930115550/https://news.un.org/feed/view/en/story/2026/09/1168488
+        captured_at: 2026-09-30T11:55:50Z
 assessment:
   status: unverified
   credibility: 6

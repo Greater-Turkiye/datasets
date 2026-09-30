@@ -24,6 +24,10 @@ sources:
     title: Lithuania calls new Russian threats concerning Kaliningrad psychological pressure
     published_at: 2026-09-29T15:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929180133/https://www.ukrinform.net/rubric-ato/4169277-lithuania-calls-new-russian-threats-concerning-kaliningrad-psychological-pressure.html
+        captured_at: 2026-09-29T18:01:33Z
 assessment:
   status: unverified
   credibility: 6

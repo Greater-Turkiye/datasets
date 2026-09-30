@@ -24,6 +24,10 @@ sources:
     title: "Police show aftermath of KAB strikes on Sumy: Two killed, six wounded"
     published_at: 2026-09-29T16:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930070013/https://www.ukrinform.net/rubric-ato/4169312-police-show-aftermath-of-kab-strikes-on-sumy-two-killed-six-wounded.html
+        captured_at: 2026-09-30T07:00:13Z
 assessment:
   status: unverified
   credibility: 6

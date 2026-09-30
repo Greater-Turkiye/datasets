@@ -24,6 +24,10 @@ sources:
     title: Khmara visits ADF command posts, discusses how to strengthen Kyiv's layered defense
     published_at: 2026-09-30T00:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930031610/https://www.ukrinform.net/rubric-ato/4169281-khmara-visits-adf-command-posts-discusses-how-to-strengthen-kyivs-layered-defense.html
+        captured_at: 2026-09-30T03:16:10Z
 assessment:
   status: unverified
   credibility: 6

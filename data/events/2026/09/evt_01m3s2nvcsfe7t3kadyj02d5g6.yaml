@@ -1,33 +1,29 @@
-id: evt_01m3qjczsjf9nbkw04vdr9ayzc
+id: evt_01m3s2nvcsfe7t3kadyj02d5g6
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Ruslar Dnipropetrovsk bölgesine bir günde 20 'den fazla kez saldırdı, bir kişi yaralandı
-  en: Russians attack Dnipropetrovsk region more than 20 times in one day, one person injured
+  tr: Rusya'nın Zhytomyr bölgesine yönelik saldırılarında sivil altyapı, enerji tesisleri hasar gördü
+  en: Civilian infrastructure, energy facilities damaged in Russian attacks on Zhytomyr region
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-29T00:00Z
+  start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T17:20Z
+reported_at: 2026-09-30T07:33Z
 location:
-  geometry: {type: Point, coordinates: [34.998, 48.482]}
+  geometry: {type: Point, coordinates: [28.662, 50.246]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
+  place_name: {tr: Zhytomyr bölgesi, en: Zhytomyr region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169316-russians-attack-dnipropetrovsk-region-more-than-20-times-in-one-day-one-person-injured.html
-    title: Russians attack Dnipropetrovsk region more than 20 times in one day, one person injured
-    published_at: 2026-09-29T17:20Z
+  - url: https://www.ukrinform.net/rubric-ato/4169475-civilian-infrastructure-energy-facilities-damaged-in-russian-attacks-on-zhytomyr-region.html
+    title: Civilian infrastructure, energy facilities damaged in Russian attacks on Zhytomyr region
+    published_at: 2026-09-30T07:33Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930073716/https://www.ukrinform.net/rubric-ato/4169316-russians-attack-dnipropetrovsk-region-more-than-20-times-in-one-day-one-person-injured.html
-        captured_at: 2026-09-30T07:37:16Z
 assessment:
   status: unverified
   credibility: 6

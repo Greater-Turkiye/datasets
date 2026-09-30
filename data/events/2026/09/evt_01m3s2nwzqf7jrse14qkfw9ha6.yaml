@@ -1,33 +1,29 @@
-id: evt_01m3qjck72edybqd99rhf2x936
+id: evt_01m3s2nwzqf7jrse14qkfw9ha6
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Rusya'nın yüksek binalara düzenlediği saldırıda 48 kişinin yaralanmasının ardından Harkov'da kurtarma operasyonları sona erdi
-  en: Rescue operations conclude in Kharkiv after Russian strike on high-rise injures 48 people
+  tr: Rus İHA'sı Kiev'in Solomianskyi Bölgesindeki bir depoyu vurarak birini öldürdü
+  en: Russian UAV hits warehouse in Kyiv’s Solomianskyi District, killing one
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-29T00:00Z
+  start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T13:31Z
+reported_at: 2026-09-30T07:44Z
 location:
-  geometry: {type: Point, coordinates: [36.248, 50.002]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kharkiv, en: Kharkiv}
+  place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169218-rescue-operations-conclude-in-kharkiv-after-russian-strike-on-highrise-injures-48-people.html
-    title: Rescue operations conclude in Kharkiv after Russian strike on high-rise injures 48 people
-    published_at: 2026-09-29T13:31Z
+  - url: https://www.ukrinform.net/rubric-ato/4169496-russian-uav-hits-warehouse-in-kyivs-solomianskyi-district-killing-one.html
+    title: Russian UAV hits warehouse in Kyiv’s Solomianskyi District, killing one
+    published_at: 2026-09-30T07:44Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929150140/https://www.ukrinform.net/rubric-ato/4169218-rescue-operations-conclude-in-kharkiv-after-russian-strike-on-highrise-injures-48-people.html
-        captured_at: 2026-09-29T15:01:40Z
 assessment:
   status: unverified
   credibility: 6

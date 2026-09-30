@@ -1,27 +1,23 @@
-id: evt_01m3qjcwk8frpa1awg1c568k6q
+id: evt_01m3s2nk5ffakty1ejthe5gx8v
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: ADF, sabahtan beri 112 Rus İHA'sının 95 'ini etkisiz hale getirdi
-  en: ADF neutralizes 95 of 112 Russian drones since morning
+  tr: ADF, Ukrayna'ya bir gecede saldırmak için kullanılan 155 Rus insansız hava aracı olan 5 balistik füzeyi etkisiz hale getirdi
+  en: ADF neutralizes five ballistic missiles, 155 Russian drones used to attack Ukraine overnight
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-29T00:00Z
+  start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T16:37Z
+reported_at: 2026-09-30T05:52Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169307-adf-neutralizes-95-of-112-russian-drones-since-morning.html
-    title: ADF neutralizes 95 of 112 Russian drones since morning
-    published_at: 2026-09-29T16:37Z
+  - url: https://www.ukrinform.net/rubric-ato/4169428-adf-neutralizes-five-ballistic-missiles-155-russian-drones-used-to-attack-ukraine-overnight.html
+    title: ADF neutralizes five ballistic missiles, 155 Russian drones used to attack Ukraine overnight
+    published_at: 2026-09-30T05:52Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930073716/https://www.ukrinform.net/rubric-ato/4169307-adf-neutralizes-95-of-112-russian-drones-since-morning.html
-        captured_at: 2026-09-30T07:37:16Z
 assessment:
   status: unverified
   credibility: 6

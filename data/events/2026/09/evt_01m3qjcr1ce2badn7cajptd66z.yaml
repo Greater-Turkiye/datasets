@@ -24,6 +24,10 @@ sources:
     title: Russians strike school in Sumy with children sheltering inside — media
     published_at: 2026-09-29T15:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929174604/https://www.ukrinform.net/rubric-ato/4169274-russians-strike-school-in-sumy-while-children-were-sheltering-inside-media.html
+        captured_at: 2026-09-29T17:46:04Z
 assessment:
   status: unverified
   credibility: 6

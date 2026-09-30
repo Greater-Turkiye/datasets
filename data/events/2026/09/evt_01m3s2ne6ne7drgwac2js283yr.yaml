@@ -1,33 +1,29 @@
-id: evt_01m3qjczsjf9nbkw04vdr9ayzc
+id: evt_01m3s2ne6ne7drgwac2js283yr
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Ruslar Dnipropetrovsk bölgesine bir günde 20 'den fazla kez saldırdı, bir kişi yaralandı
-  en: Russians attack Dnipropetrovsk region more than 20 times in one day, one person injured
+  tr: Kiev bölgesi birleşik saldırılarla vuruldu, yangınlar ve hasar bildirildi, çocuk öldürüldü
+  en: Kyiv region hit by combined attack, fires and damage reported, child killed
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-29T00:00Z
+  start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T17:20Z
+reported_at: 2026-09-30T04:57Z
 location:
-  geometry: {type: Point, coordinates: [34.998, 48.482]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
+  place_name: {tr: Kyiv bölgesi, en: Kyiv region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169316-russians-attack-dnipropetrovsk-region-more-than-20-times-in-one-day-one-person-injured.html
-    title: Russians attack Dnipropetrovsk region more than 20 times in one day, one person injured
-    published_at: 2026-09-29T17:20Z
+  - url: https://www.ukrinform.net/rubric-ato/4169420-kyiv-region-hit-by-combined-attack-fires-and-damage-reported-child-killed.html
+    title: Kyiv region hit by combined attack, fires and damage reported, child killed
+    published_at: 2026-09-30T04:57Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930073716/https://www.ukrinform.net/rubric-ato/4169316-russians-attack-dnipropetrovsk-region-more-than-20-times-in-one-day-one-person-injured.html
-        captured_at: 2026-09-30T07:37:16Z
 assessment:
   status: unverified
   credibility: 6

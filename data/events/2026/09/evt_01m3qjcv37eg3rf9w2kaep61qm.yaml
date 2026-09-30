@@ -24,6 +24,10 @@ sources:
     title: Russian glide-bomb strikes on central Sumy leaves two killed, children among wounded
     published_at: 2026-09-29T15:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260929174604/https://www.ukrinform.net/rubric-ato/4169279-russian-glidebomb-strikes-on-central-sumy-leaves-two-killed-children-among-wounded.html
+        captured_at: 2026-09-29T17:46:04Z
 assessment:
   status: unverified
   credibility: 6

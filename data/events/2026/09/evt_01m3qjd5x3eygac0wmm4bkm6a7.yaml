@@ -18,6 +18,10 @@ sources:
     title: Russia has increased its use of drones against Ukraine in September – Air Force
     published_at: 2026-09-29T20:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930011607/https://www.ukrinform.net/rubric-ato/4169380-russia-has-increased-its-use-of-drones-against-ukraine-in-september-air-force.html
+        captured_at: 2026-09-30T01:16:07Z
 assessment:
   status: unverified
   credibility: 6

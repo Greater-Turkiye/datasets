@@ -1,33 +1,29 @@
-id: evt_01m3qjck72edybqd99rhf2x936
+id: evt_01m3s2nsr0fcxb4aw8fpw6d7ke
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rusya'nın yüksek binalara düzenlediği saldırıda 48 kişinin yaralanmasının ardından Harkov'da kurtarma operasyonları sona erdi
-  en: Rescue operations conclude in Kharkiv after Russian strike on high-rise injures 48 people
+  tr: Kiev, Rus saldırısının ardından yoğun dumanla kaplandı
+  en: Kyiv shrouded in heavy smog following Russian attack
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-29T00:00Z
+  start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T13:31Z
+reported_at: 2026-09-30T07:18Z
 location:
-  geometry: {type: Point, coordinates: [36.248, 50.002]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kharkiv, en: Kharkiv}
+  place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169218-rescue-operations-conclude-in-kharkiv-after-russian-strike-on-highrise-injures-48-people.html
-    title: Rescue operations conclude in Kharkiv after Russian strike on high-rise injures 48 people
-    published_at: 2026-09-29T13:31Z
+  - url: https://www.ukrinform.net/rubric-ato/4169465-kyiv-shrouded-in-heavy-smog-following-russian-attack.html
+    title: Kyiv shrouded in heavy smog following Russian attack
+    published_at: 2026-09-30T07:18Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260929150140/https://www.ukrinform.net/rubric-ato/4169218-rescue-operations-conclude-in-kharkiv-after-russian-strike-on-highrise-injures-48-people.html
-        captured_at: 2026-09-29T15:01:40Z
 assessment:
   status: unverified
   credibility: 6

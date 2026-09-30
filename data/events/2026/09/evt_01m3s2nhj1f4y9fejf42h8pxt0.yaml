@@ -1,17 +1,17 @@
-id: evt_01m3qjczsjf9nbkw04vdr9ayzc
+id: evt_01m3s2nhj1f4y9fejf42h8pxt0
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Ruslar Dnipropetrovsk bölgesine bir günde 20 'den fazla kez saldırdı, bir kişi yaralandı
-  en: Russians attack Dnipropetrovsk region more than 20 times in one day, one person injured
+  tr: Ruslar Dnipropetrovsk bölgesinin üç bölgesine insansız hava araçlarıyla saldırdı, altyapı hasar gördü
+  en: Russians attack three districts of Dnipropetrovsk region with drones, infrastructure damaged
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-29T00:00Z
+  start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T17:20Z
+reported_at: 2026-09-30T05:33Z
 location:
   geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: admin1
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Dnipro bölgesi, en: Dnipro region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169316-russians-attack-dnipropetrovsk-region-more-than-20-times-in-one-day-one-person-injured.html
-    title: Russians attack Dnipropetrovsk region more than 20 times in one day, one person injured
-    published_at: 2026-09-29T17:20Z
+  - url: https://www.ukrinform.net/rubric-ato/4169426-russians-attack-three-districts-of-dnipropetrovsk-region-with-drones-infrastructure-damaged.html
+    title: Russians attack three districts of Dnipropetrovsk region with drones, infrastructure damaged
+    published_at: 2026-09-30T05:33Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930073716/https://www.ukrinform.net/rubric-ato/4169316-russians-attack-dnipropetrovsk-region-more-than-20-times-in-one-day-one-person-injured.html
-        captured_at: 2026-09-30T07:37:16Z
 assessment:
   status: unverified
   credibility: 6

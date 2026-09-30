@@ -18,6 +18,10 @@ sources:
     title: Zelensky endorses long-range operations plan for October
     published_at: 2026-09-29T18:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930084917/https://www.ukrinform.net/rubric-ato/4169358-zelensky-endorses-longrange-operations-plan-for-october.html
+        captured_at: 2026-09-30T08:49:17Z
 assessment:
   status: unverified
   credibility: 6
