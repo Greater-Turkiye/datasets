@@ -1,9 +1,9 @@
-id: evt_01m3sp6pjyfbv9vpb8rtf2dadv
+id: evt_01m3t4v4jke5m9vpw3wg39rme8
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Ruslar Sumy bölgesindeki Romny'deki alışveriş merkezine saldırdı — medya
-  en: Russians attack shopping center in Romny, Sumy region — media
+  tr: Kiev bölgesinin Boryspil bölgesindeki Rus saldırısı bir kadını yaraladı
+  en: Russian attack in Kyiv region's Boryspil district injures woman
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T12:34Z
+reported_at: 2026-09-30T20:27Z
 location:
-  geometry: {type: Point, coordinates: [34.781, 50.924]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Sumy bölgesi, en: Sumy region}
+  place_name: {tr: Kyiv bölgesi, en: Kyiv region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169641-russians-attack-shopping-center-in-romny-sumy-region-media.html
-    title: Russians attack shopping center in Romny, Sumy region — media
-    published_at: 2026-09-30T12:34Z
+  - url: https://www.ukrinform.net/rubric-ato/4169795-russian-attack-in-kyiv-regions-boryspil-district-injures-woman.html
+    title: Russian attack in Kyiv region's Boryspil district injures woman
+    published_at: 2026-09-30T20:27Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930144606/https://www.ukrinform.net/rubric-ato/4169641-russians-attack-shopping-center-in-romny-sumy-region-media.html
-        captured_at: 2026-09-30T14:46:06Z
 assessment:
   status: unverified
   credibility: 6

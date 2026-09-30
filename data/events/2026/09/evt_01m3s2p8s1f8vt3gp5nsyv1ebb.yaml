@@ -24,6 +24,10 @@ sources:
     title: Russian forces destroy 200 tonnes of rapeseed at agricultural enterprise in Chernihiv region
     published_at: 2026-09-30T10:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930121610/https://www.ukrinform.net/rubric-ato/4169571-russian-forces-destroy-200-tonnes-of-rapeseed-at-agricultural-enterprise-in-chernihiv-region.html
+        captured_at: 2026-09-30T12:16:10Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,9 +1,9 @@
-id: evt_01m3sp6t1tf759jff291c9a469
+id: evt_01m3t4txcxe0rrbgrnrt46f4nj
 schema: event/1
-event_type: diplomatic.talks
+event_type: policy.defense
 title:
-  tr: Zelenskiy Lyman cephesinde komutanlarla toplantı yapıyor
-  en: Zelensky holds meeting with commanders on Lyman front
+  tr: Zelenskiy, Vivaldi operasyonunun dördüncü sezonunun planlarını orduyla görüştü
+  en: Zelensky discusses plans for fourth season of operation Vivaldi with military
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T13:16Z
+reported_at: 2026-09-30T17:07Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169652-zelensky-holds-meeting-with-commanders-on-lyman-front.html
-    title: Zelensky holds meeting with commanders on Lyman front
-    published_at: 2026-09-30T13:16Z
+  - url: https://www.ukrinform.net/rubric-ato/4169753-zelensky-discusses-plans-for-fourth-season-of-operation-vivaldi-with-military.html
+    title: Zelensky discusses plans for fourth season of operation Vivaldi with military
+    published_at: 2026-09-30T17:07Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930144605/https://www.ukrinform.net/rubric-ato/4169652-zelensky-holds-meeting-with-commanders-on-lyman-front.html
-        captured_at: 2026-09-30T14:46:05Z
 assessment:
   status: unverified
   credibility: 6

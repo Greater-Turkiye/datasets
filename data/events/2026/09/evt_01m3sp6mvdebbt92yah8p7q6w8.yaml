@@ -24,6 +24,10 @@ sources:
     title: Russians strike enterprise in Novhorod-Siverskyi, two injured
     published_at: 2026-09-30T12:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930140112/https://www.ukrinform.net/rubric-ato/4169639-russians-strike-enterprise-in-novhorodsiverskyi-two-injured.html
+        captured_at: 2026-09-30T14:01:12Z
 assessment:
   status: unverified
   credibility: 6

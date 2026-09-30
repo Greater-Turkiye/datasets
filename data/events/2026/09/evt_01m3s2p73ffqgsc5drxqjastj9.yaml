@@ -24,6 +24,10 @@ sources:
     title: "Koretskyi: Russian mass strikes cause damage and destruction across energy sector"
     published_at: 2026-09-30T09:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930121601/https://www.ukrinform.net/rubric-ato/4169563-koretskyi-russian-mass-strikes-cause-damage-and-destruction-across-energy-sector.html
+        captured_at: 2026-09-30T12:16:01Z
 assessment:
   status: unverified
   credibility: 6

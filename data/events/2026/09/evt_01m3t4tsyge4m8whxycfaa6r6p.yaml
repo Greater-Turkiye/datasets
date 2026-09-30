@@ -1,27 +1,23 @@
-id: evt_01m3qjccgwe5gbfn2jdqj7ky3q
+id: evt_01m3t4tsyge4m8whxycfaa6r6p
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.clash
 title:
-  tr: "CANLI: Artan gerilim ve savaşın ortasında nükleer riskleri tartmak"
-  en: "LIVE: Weighing nuclear risks amid rising tensions and war"
+  tr: Somalili aileler, kötüleşen açlık krizinin ortasında yeni bir şiddetle karşı karşıya
+  en: Somali families face renewed violence amid worsening hunger crisis
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-29T00:00Z
+  start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-29T12:00Z
-regions: [iran]
+reported_at: 2026-09-30T12:00Z
+regions: [gulf-red-sea]
 sources:
-  - url: https://news.un.org/feed/view/en/story/2026/09/1168483
-    title: "LIVE: Weighing nuclear risks amid rising tensions and war"
-    published_at: 2026-09-29T12:00Z
+  - url: https://news.un.org/feed/view/en/story/2026/09/1168495
+    title: Somali families face renewed violence amid worsening hunger crisis
+    published_at: 2026-09-30T12:00Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930215208/https://news.un.org/feed/view/en/story/2026/09/1168483
-        captured_at: 2026-09-30T21:52:08Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Drone debris falls into yard of private residence in Kyiv's Pechersk district
     published_at: 2026-09-30T11:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930131613/https://www.ukrinform.net/rubric-ato/4169598-drone-debris-falls-into-yard-of-private-residence-in-kyivs-pechersk-district.html
+        captured_at: 2026-09-30T13:16:13Z
 assessment:
   status: unverified
   credibility: 6

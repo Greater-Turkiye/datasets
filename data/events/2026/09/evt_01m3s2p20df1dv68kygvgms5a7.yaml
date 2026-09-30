@@ -18,6 +18,10 @@ sources:
     title: "Co-chairs' statement: Ministerial Meeting on Coordinating Efforts for De-Escalation and Supporting Inter-Sudanese Dialogue"
     published_at: 2026-09-30T09:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930094544/https://www.gov.uk/government/news/co-chairs-statement-ministerial-meeting-on-coordinating-efforts-for-de-escalation-and-supporting-inter-sudanese-dialogue
+        captured_at: 2026-09-30T09:45:44Z
 assessment:
   status: unverified
   credibility: 6

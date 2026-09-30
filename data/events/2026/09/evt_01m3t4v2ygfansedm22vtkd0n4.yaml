@@ -1,9 +1,9 @@
-id: evt_01m3sp6t1tf759jff291c9a469
+id: evt_01m3t4v2ygfansedm22vtkd0n4
 schema: event/1
-event_type: diplomatic.talks
+event_type: policy.defense
 title:
-  tr: Zelenskiy Lyman cephesinde komutanlarla toplantı yapıyor
-  en: Zelensky holds meeting with commanders on Lyman front
+  tr: "Çek general: Saldırgan, savaşın devam etmesinin bedelinden korkmalı"
+  en: "Czech general: Aggressor must fear price of continuing war"
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T13:16Z
+reported_at: 2026-09-30T18:36Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169652-zelensky-holds-meeting-with-commanders-on-lyman-front.html
-    title: Zelensky holds meeting with commanders on Lyman front
-    published_at: 2026-09-30T13:16Z
+  - url: https://www.ukrinform.net/rubric-ato/4169783-czech-general-aggressor-must-fear-price-of-continuing-war.html
+    title: "Czech general: Aggressor must fear price of continuing war"
+    published_at: 2026-09-30T18:36Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930144605/https://www.ukrinform.net/rubric-ato/4169652-zelensky-holds-meeting-with-commanders-on-lyman-front.html
-        captured_at: 2026-09-30T14:46:05Z
 assessment:
   status: unverified
   credibility: 6

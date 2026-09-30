@@ -18,6 +18,10 @@ sources:
     title: Russian attack damages equipment at Trypillia TPP
     published_at: 2026-09-30T11:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930134619/https://www.ukrinform.net/rubric-ato/4169600-russian-attack-damages-equipment-at-trypillia-tpp.html
+        captured_at: 2026-09-30T13:46:19Z
 assessment:
   status: unverified
   credibility: 6

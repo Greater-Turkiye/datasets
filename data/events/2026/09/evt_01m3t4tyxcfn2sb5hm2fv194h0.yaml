@@ -1,9 +1,9 @@
-id: evt_01m3sp6t1tf759jff291c9a469
+id: evt_01m3t4tyxcfn2sb5hm2fv194h0
 schema: event/1
-event_type: diplomatic.talks
+event_type: kinetic.missile-strike
 title:
-  tr: Zelenskiy Lyman cephesinde komutanlarla toplantı yapıyor
-  en: Zelensky holds meeting with commanders on Lyman front
+  tr: Flamingo Rusya'yı güvenli bir arka alan olmadan terk ediyor -- FirePoint CEO'su
+  en: Flamingo leaves Russia with no safe rear area -- FirePoint CEO
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T13:16Z
+reported_at: 2026-09-30T17:40Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169652-zelensky-holds-meeting-with-commanders-on-lyman-front.html
-    title: Zelensky holds meeting with commanders on Lyman front
-    published_at: 2026-09-30T13:16Z
+  - url: https://www.ukrinform.net/rubric-ato/4169762-flamingo-leaves-russia-with-no-safe-rear-area-firepoint-ceo.html
+    title: Flamingo leaves Russia with no safe rear area -- FirePoint CEO
+    published_at: 2026-09-30T17:40Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930144605/https://www.ukrinform.net/rubric-ato/4169652-zelensky-holds-meeting-with-commanders-on-lyman-front.html
-        captured_at: 2026-09-30T14:46:05Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Five killed, 14 injured in Russian attacks primarily targeting energy infrastructure in Kyiv and Region -- Zelensky
     published_at: 2026-09-30T08:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930103120/https://www.ukrinform.net/rubric-ato/4169521-five-killed-14-injured-in-russian-attacks-primarily-targeting-energy-infrastructure-in-kyiv-and-region-zelensky.html
+        captured_at: 2026-09-30T10:31:20Z
 assessment:
   status: unverified
   credibility: 6

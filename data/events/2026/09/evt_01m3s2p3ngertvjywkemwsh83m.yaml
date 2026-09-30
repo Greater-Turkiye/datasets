@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s military strikes Russian UAV depot, command-and-observation post
     published_at: 2026-09-30T09:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930110113/https://www.ukrinform.net/rubric-ato/4169534-ukraines-military-strikes-russian-uav-depot-commandandobservation-post.html
+        captured_at: 2026-09-30T11:01:13Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,9 +1,9 @@
-id: evt_01m3sp6xr2exgs8hfnpws7ctg1
+id: evt_01m3t4v1dxf8b88d42eenc560m
 schema: event/1
 event_type: kinetic.airstrike
 title:
-  tr: Kramatorsk'taki Rus süzülme bombası saldırısı ağacı yaraladı, sosyal hizmetler ofisini yok etti
-  en: Russian glide bomb strike in Kramatorsk leaves tree injured, destroys social aervices office
+  tr: Rusya'nın Sumy'e attığı süzülme bombası altı kişiyi yaraladı
+  en: Russian glide-bomb strike on Sumy leaves six injured
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-09-30T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T13:37Z
+reported_at: 2026-09-30T17:51Z
 location:
-  geometry: {type: Point, coordinates: [37.534, 48.719]}
+  geometry: {type: Point, coordinates: [34.781, 50.924]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kramatorsk, en: Kramatorsk}
+  place_name: {tr: Sumy, en: Sumy}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169658-russian-glide-bomb-strike-in-kramatorsk-leaves-tree-injured-destroys-social-aervices-office.html
-    title: Russian glide bomb strike in Kramatorsk leaves tree injured, destroys social aervices office
-    published_at: 2026-09-30T13:37Z
+  - url: https://www.ukrinform.net/rubric-ato/4169770-russian-glidebomb-strike-on-sumy-leaves-six-injured.html
+    title: Russian glide-bomb strike on Sumy leaves six injured
+    published_at: 2026-09-30T17:51Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930144604/https://www.ukrinform.net/rubric-ato/4169658-russian-glide-bomb-strike-in-kramatorsk-leaves-tree-injured-destroys-social-aervices-office.html
-        captured_at: 2026-09-30T14:46:04Z
 assessment:
   status: unverified
   credibility: 6
