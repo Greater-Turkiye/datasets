@@ -1,9 +1,9 @@
-id: evt_01m3vptwe1eaebj3w04e327bvv
+id: evt_01m3wrw8y5f248ve8svh5df6r5
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.missile-strike
 title:
-  tr: Ukrayna hava savunması, bir gecede fırlatılan 107 Rus insansız hava aracından 87 'sini etkisiz
-  en: Ukrainian air defense neutralizes 87 of 107 Russian drones launched overnight
+  tr: Ukrayna yapımı MiG -29 'a düşman füzesi isabet etti, pilot öldü
+  en: Ukrainian MiG-29 hit by enemy missile, pilot killed
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,17 @@ time:
   start: 2026-10-01T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-01T06:05Z
+reported_at: 2026-10-01T15:10Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169850-ukrainian-air-defense-neutralizes-87-of-107-russian-drones-launched-overnight.html
-    title: Ukrainian air defense neutralizes 87 of 107 Russian drones launched overnight
-    published_at: 2026-10-01T06:05Z
+  - url: https://www.ukrinform.net/rubric-ato/4170105-ukrainian-mig29-hit-by-enemy-missile-pilot-killed.html
+    title: Ukrainian MiG-29 hit by enemy missile, pilot killed
+    published_at: 2026-10-01T15:10Z
     lang: en
     archives:
       - service: wayback
-        url: https://web.archive.org/web/20261001222126/https://www.ukrinform.net/rubric-ato/4169850-ukrainian-air-defense-neutralizes-87-of-107-russian-drones-launched-overnight.html
-        captured_at: 2026-10-01T22:21:26Z
+        url: https://web.archive.org/web/20261001170138/https://www.ukrinform.net/rubric-ato/4170105-ukrainian-mig29-hit-by-enemy-missile-pilot-killed.html
+        captured_at: 2026-10-01T17:01:38Z
 assessment:
   status: unverified
   credibility: 6

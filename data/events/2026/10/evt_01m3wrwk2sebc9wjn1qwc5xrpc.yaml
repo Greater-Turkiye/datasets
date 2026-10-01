@@ -1,9 +1,9 @@
-id: evt_01m3vpveyrf4st2zpm4ht075e3
+id: evt_01m3wrwk2sebc9wjn1qwc5xrpc
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rus kuvvetleri Pavlohrad'a saldırdı, üç kişi yaralandı
-  en: Russian forces strike Pavlohrad, three people injured
+  tr: Ruslar Pavlohrad'a sabahtan beri ikinci kez saldırdı, idari bina ateşe verildi
+  en: Russians attack Pavlohrad second time since morning, administrative building on fire
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-10-01T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-01T10:52Z
+reported_at: 2026-10-01T17:20Z
 location:
   geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: admin1
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Dnipro bölgesi, en: Dnipro region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169983-russian-forces-strike-pavlohrad-three-people-injured.html
-    title: Russian forces strike Pavlohrad, three people injured
-    published_at: 2026-10-01T10:52Z
+  - url: https://www.ukrinform.net/rubric-ato/4170150-russians-attack-pavlohrad-second-time-since-morning-administrative-building-on-fire.html
+    title: Russians attack Pavlohrad second time since morning, administrative building on fire
+    published_at: 2026-10-01T17:20Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261001124655/https://www.ukrinform.net/rubric-ato/4169983-russian-forces-strike-pavlohrad-three-people-injured.html
-        captured_at: 2026-10-01T12:46:55Z
 assessment:
   status: unverified
   credibility: 6

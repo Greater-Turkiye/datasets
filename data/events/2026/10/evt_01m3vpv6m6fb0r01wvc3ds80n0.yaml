@@ -18,6 +18,10 @@ sources:
     title: New UK sanctions target Kremlin war chest, propagandists and torturers
     published_at: 2026-10-01T09:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001094804/https://www.gov.uk/government/news/new-uk-sanctions-target-kremlin-war-chest-propagandists-and-torturers
+        captured_at: 2026-10-01T09:48:04Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,9 +1,9 @@
-id: evt_01m3vpvgmxefm970de3hc6a5bj
+id: evt_01m3wrw1ykfc5rk1bsrk3372h6
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Rus insansız hava aracı Kiev'deki Nükleer Araştırma Enstitüsü'ne saldırdı
-  en: Russian drone attacks Institute for Nuclear Research in Kyiv
+  tr: Ukrayna kuvvetleri, Luhansk bölgesindeki mühimmat deposu Donetsk yakınlarındaki Rus İHA depolama ve fırlatma sahasını vurdu
+  en: Ukrainian forces strike Russian UAV storage and launch site near Donetsk, ammunition depot in Luhansk region
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,23 @@ time:
   start: 2026-10-01T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-01T11:20Z
+reported_at: 2026-10-01T12:40Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [37.828, 48.002]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Donetsk, en: Donetsk}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169998-russian-drone-attacks-institute-for-nuclear-research-in-kyiv.html
-    title: Russian drone attacks Institute for Nuclear Research in Kyiv
-    published_at: 2026-10-01T11:20Z
+  - url: https://www.ukrinform.net/rubric-ato/4170034-ukrainian-forces-strike-russian-uav-storage-and-launch-site-near-donetsk-ammunition-depot-in-luhansk-region.html
+    title: Ukrainian forces strike Russian UAV storage and launch site near Donetsk, ammunition depot in Luhansk region
+    published_at: 2026-10-01T12:40Z
     lang: en
     archives:
       - service: wayback
-        url: https://web.archive.org/web/20261001131655/https://www.ukrinform.net/rubric-ato/4169998-russian-drone-attacks-institute-for-nuclear-research-in-kyiv.html
-        captured_at: 2026-10-01T13:16:55Z
+        url: https://web.archive.org/web/20261001151700/https://www.ukrinform.net/rubric-ato/4170034-ukrainian-forces-strike-russian-uav-storage-and-launch-site-near-donetsk-ammunition-depot-in-luhansk-region.html
+        captured_at: 2026-10-01T15:17:00Z
 assessment:
   status: unverified
   credibility: 6

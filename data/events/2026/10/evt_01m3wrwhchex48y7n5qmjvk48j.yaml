@@ -1,9 +1,9 @@
-id: evt_01m3vptwe1eaebj3w04e327bvv
+id: evt_01m3wrwhchex48y7n5qmjvk48j
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Ukrayna hava savunması, bir gecede fırlatılan 107 Rus insansız hava aracından 87 'sini etkisiz
-  en: Ukrainian air defense neutralizes 87 of 107 Russian drones launched overnight
+  tr: Ukrayna hava savunması 1 Ekim'de 97 Rus insansız hava aracından 78 'ini etkisiz hale getirdi
+  en: Ukrainian air defenses neutralize 78 out of 97 Russian drones on Oct 1
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-10-01T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-01T06:05Z
+reported_at: 2026-10-01T16:30Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169850-ukrainian-air-defense-neutralizes-87-of-107-russian-drones-launched-overnight.html
-    title: Ukrainian air defense neutralizes 87 of 107 Russian drones launched overnight
-    published_at: 2026-10-01T06:05Z
+  - url: https://www.ukrinform.net/rubric-ato/4170133-ukrainian-air-defenses-neutralize-78-out-of-97-russian-drones-on-oct-1.html
+    title: Ukrainian air defenses neutralize 78 out of 97 Russian drones on Oct 1
+    published_at: 2026-10-01T16:30Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261001222126/https://www.ukrinform.net/rubric-ato/4169850-ukrainian-air-defense-neutralizes-87-of-107-russian-drones-launched-overnight.html
-        captured_at: 2026-10-01T22:21:26Z
 assessment:
   status: unverified
   credibility: 6

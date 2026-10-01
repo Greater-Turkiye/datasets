@@ -1,9 +1,9 @@
-id: evt_01m3vpv4yqeyntct0zgmqgqwb5
+id: evt_01m3wrwfqxf13byn64z3gk2etk
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.missile-strike
 title:
-  tr: Rusya'nın Harkov bölgesine düzenlediği saldırılarda geçen gün 8 kişi yaralandı
-  en: Russian strikes on Kharkiv region leave eight injured over past day
+  tr: Ukrayna kuvvetleri Luhansk bölgesinde Rus Buk - M3 SAM sistemini ve Akatsiya kundağı motorlu silahını vurdu
+  en: Ukrainian forces hit Russian Buk-M3 SAM system, Akatsiya self-propelled gun in Luhansk region
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-10-01T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-01T07:51Z
+reported_at: 2026-10-01T16:15Z
 location:
-  geometry: {type: Point, coordinates: [36.248, 50.002]}
+  geometry: {type: Point, coordinates: [39.334, 48.57]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Kharkiv bölgesi, en: Kharkiv region}
+  place_name: {tr: Luhansk bölgesi, en: Luhansk region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169897-russian-strikes-on-kharkiv-region-leave-eight-injured-over-past-day.html
-    title: Russian strikes on Kharkiv region leave eight injured over past day
-    published_at: 2026-10-01T07:51Z
+  - url: https://www.ukrinform.net/rubric-ato/4170126-ukrainian-forces-hit-russian-bukm3-sam-system-akatsiya-selfpropelled-gun-in-luhansk-region.html
+    title: Ukrainian forces hit Russian Buk-M3 SAM system, Akatsiya self-propelled gun in Luhansk region
+    published_at: 2026-10-01T16:15Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261001091620/https://www.ukrinform.net/rubric-ato/4169897-russian-strikes-on-kharkiv-region-leave-eight-injured-over-past-day.html
-        captured_at: 2026-10-01T09:16:20Z
 assessment:
   status: unverified
   credibility: 6

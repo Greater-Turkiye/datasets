@@ -18,6 +18,10 @@ sources:
     title: Russia suffers record 46,230 military personnel losses in September this year — General Staff
     published_at: 2026-10-01T09:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001114601/https://www.ukrinform.net/rubric-ato/4169945-russia-suffers-record-46230-military-personnel-losses-in-september-this-year-general-staff.html
+        captured_at: 2026-10-01T11:46:01Z
 assessment:
   status: unverified
   credibility: 6
