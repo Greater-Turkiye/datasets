@@ -323,6 +323,32 @@ def translate(text: str, src: str, dst: str) -> str:
     return out
 
 
+# The machine translation reads "strike" as a labour strike (grev): "Russia's massive strikes" came out
+# "Rusya'nın kitlesel grevleri". In this feed a strike is an attack unless the headline is about workers,
+# so grev and its case forms become saldırı and the same case, with Turkish's buffer letters.
+GREV = {
+    "grev": "saldırı", "grevi": "saldırıyı", "greve": "saldırıya", "grevde": "saldırıda", "grevden": "saldırıdan",
+    "grevin": "saldırının", "grevle": "saldırıyla", "grevler": "saldırılar", "grevleri": "saldırıları",
+    "grevlere": "saldırılara", "grevlerde": "saldırılarda", "grevlerden": "saldırılardan", "grevlerin": "saldırıların",
+    "grevlerle": "saldırılarla", "grevleriyle": "saldırılarıyla", "grevinde": "saldırısında", "grevine": "saldırısına",
+}
+STRIKE_EN = re.compile(r"\bstrik(e|es|ing)\b|\bstruck\b", re.I)
+LABOUR_EN = re.compile(r"\b(labou?r|union|unions|workers?|walkout|employees|wages?|pay)\b", re.I)
+
+
+def military_sense(tr: str, en: str) -> str:
+    """grev -> saldırı when the English says strike and nothing about labour (see GREV)."""
+    if not tr or not en or not STRIKE_EN.search(en) or LABOUR_EN.search(en):
+        return tr
+    def swap(m):
+        w = m.group(0)
+        new = GREV.get(w.lower())
+        if not new:
+            return w
+        return new[0].upper() + new[1:] if w[0].isupper() else new
+    return re.sub(r"\b[Gg]rev\w*", swap, tr)
+
+
 def clean(s, limit: int) -> str | None:
     if not isinstance(s, str):
         return None
@@ -336,12 +362,12 @@ def titles(cl: Cluster) -> dict:
     src = (lead.lang or "en").split("-")[0]
     head = clean(lead.title, 300)
     if src == "en":
-        return {"tr": translate(head, "en", "tr"), "en": head, "i18n": {"source": "en", "machine": ["tr"]}}
+        return {"tr": military_sense(translate(head, "en", "tr"), head), "en": head, "i18n": {"source": "en", "machine": ["tr"]}}
     if src == "tr":
         return {"tr": head, "en": translate(head, "tr", "en"), "i18n": {"source": "tr", "machine": ["en"]}}
     en = translate(head, src, "en")
     time.sleep(PAUSE)
-    return {"tr": translate(head, src, "tr"), "en": en, "i18n": {"source": "en", "machine": ["tr", "en"]}}
+    return {"tr": military_sense(translate(head, src, "tr"), en), "en": en, "i18n": {"source": "en", "machine": ["tr", "en"]}}
 
 
 # --- records ---------------------------------------------------------------------------------------
