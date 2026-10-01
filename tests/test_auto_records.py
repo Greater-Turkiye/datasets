@@ -162,3 +162,19 @@ def test_no_place_in_turkiye_is_in_the_gazetteer():
     import json
     places = json.loads(AR.PLACES_FILE.read_text(encoding="utf-8"))["places"]
     assert places and not any(p["a"] == "TUR" for p in places)
+
+
+def test_strike_in_the_military_sense_is_not_a_labour_strike():
+    en = "Koretskyi: Russia's massive strikes cause damage and destruction in energy sector"
+    tr = "Koretskyi: Rusya'nın kitlesel grevleri enerji sektöründe hasara ve yıkıma neden oluyor"
+    assert AR.military_sense(tr, en) == "Koretskyi: Rusya'nın kitlesel saldırıları enerji sektöründe hasara ve yıkıma neden oluyor"
+    assert AR.military_sense("KAB grevleri iki kişiyi yaraladı", "KAB strikes wound two") == "KAB saldırıları iki kişiyi yaraladı"
+    assert AR.military_sense("Grev, limanı vurdu", "Strike hits the port") == "Saldırı, limanı vurdu"
+    assert AR.military_sense("Sağlayıcı grevden etkilendi", "Provider hit by a strike") == "Sağlayıcı saldırıdan etkilendi"
+
+
+def test_a_real_labour_strike_stays_a_strike():
+    en = "Dock workers strike over wages in Odesa port"
+    tr = "Odesa limanında liman işçileri ücretler nedeniyle greve gitti"
+    assert AR.military_sense(tr, en) == tr
+    assert AR.military_sense("Grev sürüyor", "The walkout goes on") == "Grev sürüyor"
