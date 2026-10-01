@@ -112,7 +112,7 @@ Bunu tamamen otomatik hâle getirmek için / To make it fully automatic again, e
 [`auto-records`](.github/workflows/auto-records.yml) altı saatte bir, toplayıcının her çalışmasından kırk dakika sonra (ADR 0025) toplayıcının son üç
 günlük partilerini okur ve ilgi süzgecinden geçen adayları **doğrulanmamış olay kaydı** olarak **`auto-data`**
 dalına yazar ([ADR 0023](https://github.com/Greater-Turkiye/handbook/blob/main/decisions/0023-automatic-unverified-records.md)).
-İngilizce başlık kaynağın kendi başlığıdır, Türkçesi MyMemory ile makine çevirisidir; tür başlıktaki eyleme bakan
+İngilizce başlık kaynağın kendi başlığıdır, Türkçesi MyMemory ile makine çevirisidir (İngilizcede "strike" geçip işçi grevi söz konusu değilse çevirinin "grev" dediği yer "saldırı" olarak düzeltilir); tür başlıktaki eyleme bakan
 kurallarla bulunur, aynı gün aynı bölgede başlığı büyük ölçüde örtüşen haberler tek kayda birden çok kaynak olarak
 girer. Özet yazılmaz: elimizdeki tek metin kaynağın alıntısıdır ve onu kopyalamak ADR 0009'a aykırıdır. Başlık bir şehir ya da il adı taşıyorsa kayıt o yere, şehir için ±20 km, il için ±100 km belirsizlikle ve `method: inferred` ile konumlanır ([tools/data/README.md](tools/data/README.md)); daha önce yazılmış konumsuz otomatik kayıtlar her çalıştırmada aynı yolla tamamlanır. Her kayıt
 `assessment.status: unverified`, `credibility: 6`, `i18n.machine`, `tags: [otomatik]` ve bunu söyleyen bir not taşır;
@@ -141,7 +141,7 @@ gh variable set AUTO_RECORDS --body off -R Greater-Turkiye/datasets   # durdur
 Every six hours, forty minutes after each collector run, the workflow reads the collector's last three days of batches and commits the candidates that
 passed its relevance filter as unverified event records to the `auto-data` branch; `main` stays the
 human-reviewed record, and the Pages build lays the automatic records over it. The English title is the source's
-headline and the Turkish one a MyMemory machine translation; rules on the headline pick the type and drop analysis
+headline and the Turkish one a MyMemory machine translation (where the English says "strike" and not about workers, the translation's "grev" becomes "saldırı"); rules on the headline pick the type and drop analysis
 pieces; repeat reports fold into one record; there is no summary, because the only text is the source's own.
 Each record says it is automatic, machine-translated and unverified. Items the
 collector flagged for the red line, items naming Turkish forces and sources graded E or F never take this path.
