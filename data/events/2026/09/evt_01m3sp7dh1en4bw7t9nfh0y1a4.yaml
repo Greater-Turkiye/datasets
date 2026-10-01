@@ -18,6 +18,10 @@ sources:
     title: ADF neutralize 254 of 285 Russian drones launched at Ukraine during the day
     published_at: 2026-09-30T16:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930204616/https://www.ukrinform.net/rubric-ato/4169745-adf-neutralize-254-of-285-russian-drones-launched-at-ukraine-during-the-day.html
+        captured_at: 2026-09-30T20:46:16Z
 assessment:
   status: unverified
   credibility: 6

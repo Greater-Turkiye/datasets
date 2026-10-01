@@ -18,6 +18,10 @@ sources:
     title: Russians use jet-powered drone for first time with payload designed to destroy power lines – “Flash”
     published_at: 2026-09-30T15:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930173102/https://www.ukrinform.net/rubric-ato/4169724-russians-use-jetpowered-drone-for-first-time-with-payload-designed-to-destroy-power-lines-flash.html
+        captured_at: 2026-09-30T17:31:02Z
 assessment:
   status: unverified
   credibility: 6

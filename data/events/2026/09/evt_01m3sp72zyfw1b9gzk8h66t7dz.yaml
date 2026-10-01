@@ -24,6 +24,10 @@ sources:
     title: Russian drone falls in courtyard of residential building in Kyiv's Obolonskyi district
     published_at: 2026-09-30T14:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930161621/https://www.ukrinform.net/rubric-ato/4169691-russian-drone-falls-in-courtyard-of-residential-building-in-kyivs-obolonskyi-district.html
+        captured_at: 2026-09-30T16:16:21Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Zelensky discusses plans for fourth season of operation Vivaldi with military
     published_at: 2026-09-30T17:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930204615/https://www.ukrinform.net/rubric-ato/4169753-zelensky-discusses-plans-for-fourth-season-of-operation-vivaldi-with-military.html
+        captured_at: 2026-09-30T20:46:15Z
 assessment:
   status: unverified
   credibility: 6

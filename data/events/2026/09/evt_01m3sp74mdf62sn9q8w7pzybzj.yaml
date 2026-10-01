@@ -18,6 +18,10 @@ sources:
     title: Ukrainian P1-SUN interceptor destroys Russian Geran-5 jet drone
     published_at: 2026-09-30T14:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930161602/https://www.ukrinform.net/rubric-ato/4169694-ukrainian-p1sun-interceptor-destroys-russian-geran5-jet-drone.html
+        captured_at: 2026-09-30T16:16:02Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian attack in Kyiv region's Boryspil district injures woman
     published_at: 2026-09-30T20:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001001600/https://www.ukrinform.net/rubric-ato/4169795-russian-attack-in-kyiv-regions-boryspil-district-injures-woman.html
+        captured_at: 2026-10-01T00:16:00Z
 assessment:
   status: unverified
   credibility: 6

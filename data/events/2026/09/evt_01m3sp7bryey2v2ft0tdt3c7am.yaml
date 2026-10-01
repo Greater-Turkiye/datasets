@@ -18,6 +18,10 @@ sources:
     title: First combat test of Freyja anti-ballistic system expected in 2027 – FirePoint CEO
     published_at: 2026-09-30T16:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930171613/https://www.ukrinform.net/rubric-ato/4169740-first-combat-test-of-freyja-antiballistic-system-expected-in-2027-firepoint-ceo.html
+        captured_at: 2026-09-30T17:16:13Z
 assessment:
   status: unverified
   credibility: 6
