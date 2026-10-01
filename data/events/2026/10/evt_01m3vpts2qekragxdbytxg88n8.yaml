@@ -1,17 +1,17 @@
-id: evt_01m3sp79vwfep883bzdy5x41n1
+id: evt_01m3vpts2qekragxdbytxg88n8
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Kiev'de ve üç bölgede acil elektrik kesintileri başladı
-  en: Emergency power outages introduced in Kyiv and three regions
+  tr: Kiev'e bir gecede düzenlenen saldırıda bir adam yaralandı
+  en: Man injured in overnight attack on Kyiv
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-30T00:00Z
+  start: 2026-10-01T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T15:57Z
+reported_at: 2026-10-01T05:23Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,14 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169729-emergency-power-outages-introduced-in-kyiv-and-three-regions.html
-    title: Emergency power outages introduced in Kyiv and three regions
-    published_at: 2026-09-30T15:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4169842-man-injured-in-overnight-attack-on-kyiv.html
+    title: Man injured in overnight attack on Kyiv
+    published_at: 2026-10-01T05:23Z
     lang: en
     archives:
       - service: wayback
-        url: https://web.archive.org/web/20261001062244/https://www.ukrinform.net/rubric-ato/4169729-emergency-power-outages-introduced-in-kyiv-and-three-regions.html
-        captured_at: 2026-10-01T06:22:44Z
+        url: https://web.archive.org/web/20261001074603/https://www.ukrinform.net/rubric-ato/4169842-man-injured-in-overnight-attack-on-kyiv.html
+        captured_at: 2026-10-01T07:46:03Z
 assessment:
   status: unverified
   credibility: 6

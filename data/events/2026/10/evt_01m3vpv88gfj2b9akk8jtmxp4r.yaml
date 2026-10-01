@@ -1,17 +1,17 @@
-id: evt_01m3sp79vwfep883bzdy5x41n1
+id: evt_01m3vpv88gfj2b9akk8jtmxp4r
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Kiev'de ve üç bölgede acil elektrik kesintileri başladı
-  en: Emergency power outages introduced in Kyiv and three regions
+  tr: Kiev'in Pecherskyi bölgesinde Rus insansız hava aracına ait enkaz bulundu
+  en: Debris from Russian drone found in Kyiv's Pecherskyi district
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-30T00:00Z
+  start: 2026-10-01T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T15:57Z
+reported_at: 2026-10-01T09:36Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169729-emergency-power-outages-introduced-in-kyiv-and-three-regions.html
-    title: Emergency power outages introduced in Kyiv and three regions
-    published_at: 2026-09-30T15:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4169938-debris-from-russian-drone-found-in-kyivs-pecherskyi-district.html
+    title: Debris from Russian drone found in Kyiv's Pecherskyi district
+    published_at: 2026-10-01T09:36Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261001062244/https://www.ukrinform.net/rubric-ato/4169729-emergency-power-outages-introduced-in-kyiv-and-three-regions.html
-        captured_at: 2026-10-01T06:22:44Z
 assessment:
   status: unverified
   credibility: 6

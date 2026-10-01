@@ -1,27 +1,23 @@
-id: evt_01m3t4v2ygfansedm22vtkd0n4
+id: evt_01m3vpv9y1ernabsyn5qshz645
 schema: event/1
 event_type: policy.defense
 title:
-  tr: "Çek general: Saldırgan, savaşın devam etmesinin bedelinden korkmalı"
-  en: "Czech general: Aggressor must fear price of continuing war"
+  tr: Rusya bu yıl eylülde 46.230 askeri personel kaybıyla rekor kırdı — Genelkurmay
+  en: Russia suffers record 46,230 military personnel losses in September this year — General Staff
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-30T00:00Z
+  start: 2026-10-01T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T18:36Z
+reported_at: 2026-10-01T09:55Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169783-czech-general-aggressor-must-fear-price-of-continuing-war.html
-    title: "Czech general: Aggressor must fear price of continuing war"
-    published_at: 2026-09-30T18:36Z
+  - url: https://www.ukrinform.net/rubric-ato/4169945-russia-suffers-record-46230-military-personnel-losses-in-september-this-year-general-staff.html
+    title: Russia suffers record 46,230 military personnel losses in September this year — General Staff
+    published_at: 2026-10-01T09:55Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261001102557/https://www.ukrinform.net/rubric-ato/4169783-czech-general-aggressor-must-fear-price-of-continuing-war.html
-        captured_at: 2026-10-01T10:25:57Z
 assessment:
   status: unverified
   credibility: 6

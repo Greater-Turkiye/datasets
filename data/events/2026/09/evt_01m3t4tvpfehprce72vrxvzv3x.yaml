@@ -24,6 +24,10 @@ sources:
     title: Statement by President von der Leyen at the joint press conference with Albanian Prime Minister Rama
     published_at: 2026-09-30T15:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001040931/https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2031
+        captured_at: 2026-10-01T04:09:31Z
 assessment:
   status: unverified
   credibility: 6
