@@ -1,33 +1,33 @@
-id: evt_01m3vpv88gfj2b9akk8jtmxp4r
+id: evt_01m3y7apwsf6686rrhe7j37wtw
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Kiev'in Pecherskyi bölgesinde Rus insansız hava aracına ait enkaz bulundu
-  en: Debris from Russian drone found in Kyiv's Pecherskyi district
+  tr: Rus insansız hava araçları bir gecede Sumy'de üç apartmana hasar verdi
+  en: Russian drones damage three apartment buildings in Sumy overnight
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-01T00:00Z
+  start: 2026-10-02T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-01T09:36Z
+reported_at: 2026-10-02T06:19Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [34.781, 50.924]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Sumy, en: Sumy}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169938-debris-from-russian-drone-found-in-kyivs-pecherskyi-district.html
-    title: Debris from Russian drone found in Kyiv's Pecherskyi district
-    published_at: 2026-10-01T09:36Z
+  - url: https://www.ukrinform.net/rubric-ato/4170261-russian-drones-damage-three-apartment-buildings-in-sumy-overnight.html
+    title: Russian drones damage three apartment buildings in Sumy overnight
+    published_at: 2026-10-02T06:19Z
     lang: en
     archives:
       - service: wayback
-        url: https://web.archive.org/web/20261001120202/https://www.ukrinform.net/rubric-ato/4169938-debris-from-russian-drone-found-in-kyivs-pecherskyi-district.html
-        captured_at: 2026-10-01T12:02:02Z
+        url: https://web.archive.org/web/20261002080116/https://www.ukrinform.net/rubric-ato/4170261-russian-drones-damage-three-apartment-buildings-in-sumy-overnight.html
+        captured_at: 2026-10-02T08:01:16Z
 assessment:
   status: unverified
   credibility: 6

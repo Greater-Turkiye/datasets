@@ -18,6 +18,10 @@ sources:
     title: Генассамблея ООН обсудила применение Россией и Китаем права вето в Совбезе
     published_at: 2026-10-01T12:00Z
     lang: ru
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002040625/https://news.un.org/feed/view/ru/story/2026/10/1468823
+        captured_at: 2026-10-02T04:06:25Z
 assessment:
   status: unverified
   credibility: 6

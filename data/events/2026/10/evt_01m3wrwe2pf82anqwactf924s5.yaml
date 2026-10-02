@@ -24,6 +24,10 @@ sources:
     title: Thousands in Kosovo Protest Again for ‘Fair Justice’ After Hague Convictions
     published_at: 2026-10-01T16:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002115815/https://balkaninsight.com/2026/10/01/thousands-in-kosovo-protest-again-for-fair-justice-after-hague-convictions/btj/
+        captured_at: 2026-10-02T11:58:15Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Press Conference by Security Council President on Work Programme for October
     published_at: 2026-10-01T20:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002120338/https://press.un.org/en/2026/261001_sc.-doc.htm
+        captured_at: 2026-10-02T12:03:38Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,0 +1,37 @@
+id: evt_01m3y7ab91f9h8ekjgyc7qth8x
+schema: event/1
+event_type: policy.defense
+title:
+  tr: Rusya'da askeri helikopter düştü — sosyal medya
+  en: Military helicopter crashes in Russia — social media
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-02T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-02T04:19Z
+location:
+  geometry: {type: Point, coordinates: [39.268, 51.732]}
+  precision: admin1
+  uncertainty_m: 100000
+  method: inferred
+  place_name: {tr: Voronezh bölgesi, en: Voronezh region}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4170236-military-helicopter-crashes-in-russia-social-media.html
+    title: Military helicopter crashes in Russia — social media
+    published_at: 2026-10-02T04:19Z
+    lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002060116/https://www.ukrinform.net/rubric-ato/4170236-military-helicopter-crashes-in-russia-social-media.html
+        captured_at: 2026-10-02T06:01:16Z
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±100 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±100 km). Not verified."
+tags: [otomatik]

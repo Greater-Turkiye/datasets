@@ -18,6 +18,10 @@ sources:
     title: UN Member States weigh latest Security Council veto, this time on Iran
     published_at: 2026-10-01T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002115255/https://news.un.org/feed/view/en/story/2026/10/1168505
+        captured_at: 2026-10-02T11:52:55Z
 assessment:
   status: unverified
   credibility: 6
