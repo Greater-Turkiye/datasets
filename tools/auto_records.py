@@ -349,6 +349,51 @@ def military_sense(tr: str, en: str) -> str:
     return re.sub(r"\b[Gg]rev\w*", swap, tr)
 
 
+# EU office holders whose English title is "President" but who are no head of state: the machine
+# translation makes every "President" a "Cumhurbaşkanı" ("Cumhurbaşkanı von der Leyen'in Arnavutluk
+# Başbakanı Rama ile …"). Matched on the name, so a real head of state is never touched.
+OFFICES = {
+    "von der Leyen": "AB Komisyonu Başkanı",
+    "Costa": "Avrupa Konseyi Başkanı",
+    "Metsola": "Avrupa Parlamentosu Başkanı",
+    "Kallas": "AB Yüksek Temsilcisi",
+}
+
+
+def office_sense(tr: str, en: str) -> str:
+    """'Cumhurbaşkanı von der Leyen' -> 'AB Komisyonu Başkanı von der Leyen' (see OFFICES)."""
+    if not tr or not en:
+        return tr
+    for name, office in OFFICES.items():
+        if name in en:
+            tr = re.sub(rf"\b(Cumhurbaşkanı|Başkan|Yüksek Temsilci)\s+(?=(?:António\s+|Antonio\s+|Ursula\s+|Roberta\s+|Kaja\s+)?{re.escape(name)})", office + " ", tr)
+    return tr
+
+
+def sense(tr: str, en: str) -> str:
+    """Every correction the machine translation needs, in order."""
+    return office_sense(military_sense(tr, en), en)
+
+
+def backfill_titles(formatter: gt.Formatter) -> list[Path]:
+    """Apply the corrections above to automatic records written before them: only records tagged
+    `otomatik` whose Turkish title is machine-made, so a person's edit is never overwritten, and
+    running it twice changes nothing."""
+    changed = []
+    for path in sorted((ROOT / "data" / "events").rglob("*.yaml")):
+        data = gt.load_yaml(path)
+        title = data.get("title") or {}
+        if AUTO_TAG not in (data.get("tags") or []) or "tr" not in (data.get("i18n") or {}).get("machine", []):
+            continue
+        fixed = sense(title.get("tr") or "", title.get("en") or "")
+        if fixed == title.get("tr"):
+            continue
+        title["tr"] = fixed
+        path.write_text(formatter.format(path.read_text(encoding="utf-8"), data, "event"), encoding="utf-8", newline="\n")
+        changed.append(path)
+    return changed
+
+
 def clean(s, limit: int) -> str | None:
     if not isinstance(s, str):
         return None
@@ -362,12 +407,12 @@ def titles(cl: Cluster) -> dict:
     src = (lead.lang or "en").split("-")[0]
     head = clean(lead.title, 300)
     if src == "en":
-        return {"tr": military_sense(translate(head, "en", "tr"), head), "en": head, "i18n": {"source": "en", "machine": ["tr"]}}
+        return {"tr": sense(translate(head, "en", "tr"), head), "en": head, "i18n": {"source": "en", "machine": ["tr"]}}
     if src == "tr":
         return {"tr": head, "en": translate(head, "tr", "en"), "i18n": {"source": "tr", "machine": ["en"]}}
     en = translate(head, src, "en")
     time.sleep(PAUSE)
-    return {"tr": military_sense(translate(head, src, "tr"), en), "en": en, "i18n": {"source": "en", "machine": ["tr", "en"]}}
+    return {"tr": sense(translate(head, src, "tr"), en), "en": en, "i18n": {"source": "en", "machine": ["tr", "en"]}}
 
 
 # --- records ---------------------------------------------------------------------------------------
@@ -498,6 +543,9 @@ def main() -> int:
     located = backfill_locations(formatter)
     if located:
         print(f"{len(located)} earlier automatic records given a location")
+    retitled = backfill_titles(formatter)
+    if retitled:
+        print(f"{len(retitled)} earlier automatic records' Turkish titles corrected")
     if not clusters:
         return 0
     written, waiting = [], 0
