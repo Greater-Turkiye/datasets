@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Russia launched over 100 attack drones at Ukraine overnight, nearly 50 of them jet-powered"
     published_at: 2026-10-02T08:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002101650/https://www.ukrinform.net/rubric-ato/4170304-zelensky-russia-launched-over-100-attack-drones-at-ukraine-overnight-nearly-50-of-them-jetpowered.html
+        captured_at: 2026-10-02T10:16:50Z
 assessment:
   status: unverified
   credibility: 6

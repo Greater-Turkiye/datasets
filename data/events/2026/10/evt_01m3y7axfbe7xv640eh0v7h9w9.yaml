@@ -24,6 +24,10 @@ sources:
     title: Russians shell 29 settlements in Kherson region in one day, seven people injured
     published_at: 2026-10-02T07:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002093103/https://www.ukrinform.net/rubric-ato/4170268-russians-shell-29-settlements-in-kherson-region-in-one-day-seven-people-injured.html
+        captured_at: 2026-10-02T09:31:03Z
 assessment:
   status: unverified
   credibility: 6

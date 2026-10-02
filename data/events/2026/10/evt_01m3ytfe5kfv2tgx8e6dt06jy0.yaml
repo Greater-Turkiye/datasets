@@ -1,9 +1,9 @@
-id: evt_01m3y7b2jqfq9sekxck9abhk6j
+id: evt_01m3ytfe5kfv2tgx8e6dt06jy0
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Kırım enerji tesislerine yeni saldırı bildirdi, elektrik kesintileri kaydedildi
-  en: Crimea reports new attack on energy facilities, power outages recorded
+  tr: "Zelenskiy: ABD seçimleri yaklaşırken Putin Ukrayna'ya yönelik saldırılarını artıracak"
+  en: Putin to step up attacks on Ukraine as US elections approach — Zelensky
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-10-02T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-02T08:38Z
+reported_at: 2026-10-02T14:35Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170306-crimea-reports-new-attack-on-energy-facilities-power-outages-recorded.html
-    title: Crimea reports new attack on energy facilities, power outages recorded
-    published_at: 2026-10-02T08:38Z
+  - url: https://www.ukrinform.net/rubric-ato/4170464-putin-to-step-up-attacks-on-ukraine-as-us-elections-approach-zelensky.html
+    title: Putin to step up attacks on Ukraine as US elections approach — Zelensky
+    published_at: 2026-10-02T14:35Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261002104619/https://www.ukrinform.net/rubric-ato/4170306-crimea-reports-new-attack-on-energy-facilities-power-outages-recorded.html
-        captured_at: 2026-10-02T10:46:19Z
 assessment:
   status: unverified
   credibility: 6

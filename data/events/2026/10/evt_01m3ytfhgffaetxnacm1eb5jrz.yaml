@@ -1,33 +1,29 @@
-id: evt_01m3fq1vmpewbrradjp0fwmqsp
+id: evt_01m3ytfhgffaetxnacm1eb5jrz
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.airstrike
 title:
-  tr: Kievli internet sağlayıcısı Kolo.TV, Rusya'da üçüncü kez saldırıdan etkilendi
-  en: Kyiv internet provider Kolo.TV hit by Russian strike for third time
+  tr: "Rus kuvvetleri Harkov'a güdümlü hava bombalarıyla saldırdı: İki kişi öldü, yaralı sayısı 33 'e yükseldi"
+  en: "Russian forces strike Kharkiv with guided aerial bombs: Two killed, injury toll rises to 33"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-26T00:00Z
+  start: 2026-10-02T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-26T15:57Z
+reported_at: 2026-10-02T15:37Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [36.248, 50.002]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Kharkiv, en: Kharkiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168356-kyiv-internet-provider-kolotv-hit-by-russian-strike-for-third-time.html
-    title: Kyiv internet provider Kolo.TV hit by Russian strike for third time
-    published_at: 2026-09-26T15:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4170507-russian-forces-strike-kharkiv-with-guided-aerial-bombs-two-killed-injury-toll-rises-to-33.html
+    title: "Russian forces strike Kharkiv with guided aerial bombs: Two killed, injury toll rises to 33"
+    published_at: 2026-10-02T15:37Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260927060056/https://www.ukrinform.net/rubric-ato/4168356-kyiv-internet-provider-kolotv-hit-by-russian-strike-for-third-time.html
-        captured_at: 2026-09-27T06:00:56Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,9 +1,9 @@
-id: evt_01m3y7b2jqfq9sekxck9abhk6j
+id: evt_01m3ytf7rve1gb4r5e9n6jjthv
 schema: event/1
-event_type: kinetic.attack
+event_type: diplomatic.statement
 title:
-  tr: Kırım enerji tesislerine yeni saldırı bildirdi, elektrik kesintileri kaydedildi
-  en: Crimea reports new attack on energy facilities, power outages recorded
+  tr: "Rusya, AB ve NATO ülkelerinde sabotaj operasyonları hazırlıyor: Ukrayna istihbaratı potansiyel hedefleri belirledi ve ortakları uyardı"
+  en: "Russia prepares sabotage operations in EU and NATO Countries: Ukrainian intelligence identifies potential targets and warns partners"
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-10-02T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-02T08:38Z
+reported_at: 2026-10-02T13:18Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170306-crimea-reports-new-attack-on-energy-facilities-power-outages-recorded.html
-    title: Crimea reports new attack on energy facilities, power outages recorded
-    published_at: 2026-10-02T08:38Z
+  - url: https://www.ukrinform.net/rubric-ato/4170452-russia-prepares-sabotage-operations-in-eu-and-nato-countries-ukrainian-intelligence-identifies-potential-targets-and-warns-partners.html
+    title: "Russia prepares sabotage operations in EU and NATO Countries: Ukrainian intelligence identifies potential targets and warns partners"
+    published_at: 2026-10-02T13:18Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261002104619/https://www.ukrinform.net/rubric-ato/4170306-crimea-reports-new-attack-on-energy-facilities-power-outages-recorded.html
-        captured_at: 2026-10-02T10:46:19Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russians carry out more than 40 attacks on Sumy region in one day, two people injured
     published_at: 2026-10-02T07:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002090103/https://www.ukrinform.net/rubric-ato/4170267-russians-carry-out-more-than-40-attacks-on-sumy-region-in-one-day-two-people-injured.html
+        captured_at: 2026-10-02T09:01:03Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Wars, Racism, Shrinking Civic Space Threaten Human Rights, Delegates Warn as Third Committee Opens General Debate
     published_at: 2026-10-01T23:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002120728/https://press.un.org/en/2026/gashc4436.doc.htm
+        captured_at: 2026-10-02T12:07:28Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Марат Хуснуллин посетил с рабочим визитом Республику Таджикистан
     published_at: 2026-10-01T18:20Z
     lang: ru
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002040400/http://government.ru/news/60057/
+        captured_at: 2026-10-02T04:04:00Z
 assessment:
   status: unverified
   credibility: 6

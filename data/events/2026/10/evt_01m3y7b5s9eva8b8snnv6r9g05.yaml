@@ -18,6 +18,10 @@ sources:
     title: Ukraine testing five models of jet drone interceptors – Zelensky
     published_at: 2026-10-02T10:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002121602/https://www.ukrinform.net/rubric-ato/4170392-ukraine-testing-five-models-of-jet-drone-interceptors-zelensky.html
+        captured_at: 2026-10-02T12:16:02Z
 assessment:
   status: unverified
   credibility: 6

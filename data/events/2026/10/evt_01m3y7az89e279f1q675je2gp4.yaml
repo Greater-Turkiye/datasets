@@ -24,6 +24,10 @@ sources:
     title: Transneft hub ablaze after explosions in Samara, fire breaks out near oil refinery, chemical plant in Volgograd
     published_at: 2026-10-02T07:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002094602/https://www.ukrinform.net/rubric-ato/4170294-transneft-hub-ablaze-after-explosions-in-samara-fire-breaks-out-near-oil-refinery-chemical-plant-in-volgograd.html
+        captured_at: 2026-10-02T09:46:02Z
 assessment:
   status: unverified
   credibility: 6

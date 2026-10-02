@@ -1,9 +1,9 @@
-id: evt_01m3y7at3efn4avm4kajnv32py
+id: evt_01m3ytezp1f8y95s8vhrxq3068
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Rusya'nın Harkov bölgesindeki saldırılarda geçen gün 6 kişi yaralandı
-  en: Russian attacks in Kharkiv region leave six people injured over past day
+  tr: Harkov bölgesindeki Rus insansız hava aracı saldırılarında iki kişi öldü
+  en: Two people killed in Russian drone strikes in Kharkiv region
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-10-02T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-02T06:52Z
+reported_at: 2026-10-02T11:38Z
 location:
   geometry: {type: Point, coordinates: [36.248, 50.002]}
   precision: admin1
@@ -20,14 +20,14 @@ location:
   place_name: {tr: Kharkiv bölgesi, en: Kharkiv region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170266-russian-attacks-in-kharkiv-region-leave-six-people-injured-over-past-day.html
-    title: Russian attacks in Kharkiv region leave six people injured over past day
-    published_at: 2026-10-02T06:52Z
+  - url: https://www.ukrinform.net/rubric-ato/4170403-two-people-killed-in-russian-drone-strikes-in-kharkiv-region.html
+    title: Two people killed in Russian drone strikes in Kharkiv region
+    published_at: 2026-10-02T11:38Z
     lang: en
     archives:
       - service: wayback
-        url: https://web.archive.org/web/20261002084611/https://www.ukrinform.net/rubric-ato/4170266-russian-attacks-in-kharkiv-region-leave-six-people-injured-over-past-day.html
-        captured_at: 2026-10-02T08:46:11Z
+        url: https://web.archive.org/web/20261002133102/https://www.ukrinform.net/rubric-ato/4170403-two-people-killed-in-russian-drone-strikes-in-kharkiv-region.html
+        captured_at: 2026-10-02T13:31:02Z
 assessment:
   status: unverified
   credibility: 6

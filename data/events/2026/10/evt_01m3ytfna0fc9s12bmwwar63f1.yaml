@@ -1,0 +1,27 @@
+id: evt_01m3ytfna0fc9s12bmwwar63f1
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: Komiser Lahbib'in Ukrayna'nın Oleshky kuşatmasına ilişkin açıklaması
+  en: Statement by Commissioner Lahbib on the siege of Oleshky, Ukraine
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-02T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-02T15:38Z
+regions: [black-sea]
+sources:
+  - url: https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2063
+    title: Statement by Commissioner Lahbib on the siege of Oleshky, Ukraine
+    published_at: 2026-10-02T15:38Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-eu-commission-press. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-eu-commission-press. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

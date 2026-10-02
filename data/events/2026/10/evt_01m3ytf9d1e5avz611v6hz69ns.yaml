@@ -1,33 +1,29 @@
-id: evt_01m3fq1vmpewbrradjp0fwmqsp
+id: evt_01m3ytf9d1e5avz611v6hz69ns
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Kievli internet sağlayıcısı Kolo.TV, Rusya'da üçüncü kez saldırıdan etkilendi
-  en: Kyiv internet provider Kolo.TV hit by Russian strike for third time
+  tr: Donbas Arena üzerinde uçan Ukraynalı insansız hava aracı Donetsk'teki Rus hedefini vurdu
+  en: Ukrainian drone flies over Donbas Arena, hits Russian target in Donetsk
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-26T00:00Z
+  start: 2026-10-02T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-26T15:57Z
+reported_at: 2026-10-02T13:37Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [37.828, 48.002]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Donetsk, en: Donetsk}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4168356-kyiv-internet-provider-kolotv-hit-by-russian-strike-for-third-time.html
-    title: Kyiv internet provider Kolo.TV hit by Russian strike for third time
-    published_at: 2026-09-26T15:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4170453-ukrainian-drone-flies-over-donbas-arena-hits-russian-target-in-donetsk.html
+    title: Ukrainian drone flies over Donbas Arena, hits Russian target in Donetsk
+    published_at: 2026-10-02T13:37Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260927060056/https://www.ukrinform.net/rubric-ato/4168356-kyiv-internet-provider-kolotv-hit-by-russian-strike-for-third-time.html
-        captured_at: 2026-09-27T06:00:56Z
 assessment:
   status: unverified
   credibility: 6

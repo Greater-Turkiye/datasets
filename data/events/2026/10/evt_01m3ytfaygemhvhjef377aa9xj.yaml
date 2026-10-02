@@ -1,0 +1,27 @@
+id: evt_01m3ytfaygemhvhjef377aa9xj
+schema: event/1
+event_type: exercise.military
+title:
+  tr: Üç Kıtadan Polis Romanya'da İsyan Karşıtı Taktikleri Test Etti
+  en: Police From Three Continents Test Anti-Riot Tactics in Romania
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-02T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-02T13:53Z
+regions: [balkans]
+sources:
+  - url: https://balkaninsight.com/2026/10/02/police-from-three-continents-test-anti-riot-tactics-in-romania/bi/
+    title: Police From Three Continents Test Anti-Riot Tactics in Romania
+    published_at: 2026-10-02T13:53Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-bih-balkaninsight. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-bih-balkaninsight. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

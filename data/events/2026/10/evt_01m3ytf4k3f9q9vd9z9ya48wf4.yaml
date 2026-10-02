@@ -1,33 +1,29 @@
-id: evt_01m3s2p73ffqgsc5drxqjastj9
+id: evt_01m3ytf4k3f9q9vd9z9ya48wf4
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: "Koretskyi: Rusya'nın kitlesel saldırıları enerji sektöründe hasara ve yıkıma neden oluyor"
-  en: "Koretskyi: Russian mass strikes cause damage and destruction across energy sector"
+  tr: Rus insansız hava aracı Zaporijya yakınlarında elektrik şirketi çalışanına saldırdı
+  en: Russians drone attacks power company worker near Zaporizhzhia
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-09-30T00:00Z
+  start: 2026-10-02T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-09-30T09:48Z
+reported_at: 2026-10-02T12:15Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [35.175, 47.859]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Zaporijya, en: Zaporizhzhya}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4169563-koretskyi-russian-mass-strikes-cause-damage-and-destruction-across-energy-sector.html
-    title: "Koretskyi: Russian mass strikes cause damage and destruction across energy sector"
-    published_at: 2026-09-30T09:48Z
+  - url: https://www.ukrinform.net/rubric-ato/4170427-russians-drone-attacks-power-company-worker-near-zaporizhzhia.html
+    title: Russians drone attacks power company worker near Zaporizhzhia
+    published_at: 2026-10-02T12:15Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20260930121601/https://www.ukrinform.net/rubric-ato/4169563-koretskyi-russian-mass-strikes-cause-damage-and-destruction-across-energy-sector.html
-        captured_at: 2026-09-30T12:16:01Z
 assessment:
   status: unverified
   credibility: 6
