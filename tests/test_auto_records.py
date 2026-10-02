@@ -178,3 +178,13 @@ def test_a_real_labour_strike_stays_a_strike():
     tr = "Odesa limanında liman işçileri ücretler nedeniyle greve gitti"
     assert AR.military_sense(tr, en) == tr
     assert AR.military_sense("Grev sürüyor", "The walkout goes on") == "Grev sürüyor"
+
+
+def test_an_eu_president_is_no_head_of_state():
+    en = "Statement by President von der Leyen at the joint press conference with Albanian Prime Minister Rama"
+    tr = "Cumhurbaşkanı von der Leyen'in Arnavutluk Başbakanı Rama ile ortak basın toplantısında yaptığı açıklama"
+    assert AR.office_sense(tr, en) == "AB Komisyonu Başkanı von der Leyen'in Arnavutluk Başbakanı Rama ile ortak basın toplantısında yaptığı açıklama"
+    assert AR.office_sense("Cumhurbaşkanı António Costa Kiev'de", "President António Costa in Kyiv") == "Avrupa Konseyi Başkanı António Costa Kiev'de"
+    # a head of state is left alone
+    assert AR.office_sense("Cumhurbaşkanı Zelenskiy konuştu", "President Zelensky spoke") == "Cumhurbaşkanı Zelenskiy konuştu"
+    assert AR.sense("KAB grevleri, Cumhurbaşkanı von der Leyen", "KAB strikes, President von der Leyen") == "KAB saldırıları, AB Komisyonu Başkanı von der Leyen"
