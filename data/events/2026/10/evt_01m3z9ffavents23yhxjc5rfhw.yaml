@@ -1,9 +1,9 @@
-id: evt_01m3ytf9d1e5avz611v6hz69ns
+id: evt_01m3z9ffavents23yhxjc5rfhw
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Donbas Arena üzerinde uçan Ukraynalı insansız hava aracı Donetsk'teki Rus hedefini vurdu
-  en: Ukrainian drone flies over Donbas Arena, hits Russian target in Donetsk
+  tr: Rus kuvvetleri Molniya insansız hava aracıyla Harkov'a saldırdı, bir kişi yaralandı
+  en: Russian forces strike Kharkiv with Molniya drone, one person injured
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,23 @@ time:
   start: 2026-10-02T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-02T13:37Z
+reported_at: 2026-10-02T20:50Z
 location:
-  geometry: {type: Point, coordinates: [37.828, 48.002]}
+  geometry: {type: Point, coordinates: [36.248, 50.002]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Donetsk, en: Donetsk}
+  place_name: {tr: Kharkiv, en: Kharkiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170453-ukrainian-drone-flies-over-donbas-arena-hits-russian-target-in-donetsk.html
-    title: Ukrainian drone flies over Donbas Arena, hits Russian target in Donetsk
-    published_at: 2026-10-02T13:37Z
+  - url: https://www.ukrinform.net/rubric-ato/4170571-russian-forces-strike-kharkiv-with-molniya-drone-one-person-injured.html
+    title: Russian forces strike Kharkiv with Molniya drone, one person injured
+    published_at: 2026-10-02T20:50Z
     lang: en
     archives:
       - service: wayback
-        url: https://web.archive.org/web/20261002151602/https://www.ukrinform.net/rubric-ato/4170453-ukrainian-drone-flies-over-donbas-arena-hits-russian-target-in-donetsk.html
-        captured_at: 2026-10-02T15:16:02Z
+        url: https://web.archive.org/web/20261002154604/https://www.ukrinform.net/rubric-ato/4170571-russian-forces-strike-kharkiv-with-molniya-drone-one-person-injured.html
+        captured_at: 2026-10-02T15:46:04Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Putin to step up attacks on Ukraine as US elections approach — Zelensky
     published_at: 2026-10-02T14:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002154603/https://www.ukrinform.net/rubric-ato/4170464-putin-to-step-up-attacks-on-ukraine-as-us-elections-approach-zelensky.html
+        captured_at: 2026-10-02T15:46:03Z
 assessment:
   status: unverified
   credibility: 6

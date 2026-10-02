@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Mykolaiv damages port, civilian infrastructure, injures three
     published_at: 2026-10-02T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002123058/https://www.ukrinform.net/rubric-ato/4170414-russian-attack-on-mykolaiv-damages-port-civilian-infrastructure-injures-three.html
+        captured_at: 2026-10-02T12:30:58Z
 assessment:
   status: unverified
   credibility: 6

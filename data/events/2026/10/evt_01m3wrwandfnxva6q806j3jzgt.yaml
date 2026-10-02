@@ -18,6 +18,10 @@ sources:
     title: "Despite these vetoes of the Panel of Experts’ mandate, UN sanctions on Iranian proliferation remain fully in force: UK statement at the UN General Assembly"
     published_at: 2026-10-01T15:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002214922/https://www.gov.uk/government/speeches/despite-these-vetoes-of-the-panel-of-experts-mandate-un-sanctions-on-iranian-proliferation-remain-fully-in-force-uk-statement-at-the-un-general-assemb
+        captured_at: 2026-10-02T21:49:22Z
 assessment:
   status: unverified
   credibility: 6

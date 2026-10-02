@@ -18,6 +18,10 @@ sources:
     title: Police From Three Continents Test Anti-Riot Tactics in Romania
     published_at: 2026-10-02T13:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002215136/https://balkaninsight.com/2026/10/02/police-from-three-continents-test-anti-riot-tactics-in-romania/bi/
+        captured_at: 2026-10-02T21:51:36Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Speakers in General Assembly Diverge over Veto Use in Security Council to Block Renewal of Iran Sanctions Panel amid Dispute over ‘Snapback’
     published_at: 2026-10-01T18:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002172731/https://press.un.org/en/2026/ga12792.doc.htm
+        captured_at: 2026-10-02T17:27:31Z
 assessment:
   status: unverified
   credibility: 6

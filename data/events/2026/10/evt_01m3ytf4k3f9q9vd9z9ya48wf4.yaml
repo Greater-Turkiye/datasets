@@ -24,6 +24,10 @@ sources:
     title: Russians drone attacks power company worker near Zaporizhzhia
     published_at: 2026-10-02T12:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002140119/https://www.ukrinform.net/rubric-ato/4170427-russians-drone-attacks-power-company-worker-near-zaporizhzhia.html
+        captured_at: 2026-10-02T14:01:19Z
 assessment:
   status: unverified
   credibility: 6

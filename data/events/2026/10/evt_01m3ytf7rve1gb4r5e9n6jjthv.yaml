@@ -18,6 +18,10 @@ sources:
     title: "Russia prepares sabotage operations in EU and NATO Countries: Ukrainian intelligence identifies potential targets and warns partners"
     published_at: 2026-10-02T13:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002154605/https://www.ukrinform.net/rubric-ato/4170452-russia-prepares-sabotage-operations-in-eu-and-nato-countries-ukrainian-intelligence-identifies-potential-targets-and-warns-partners.html
+        captured_at: 2026-10-02T15:46:05Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,9 +1,9 @@
-id: evt_01m3ytf9d1e5avz611v6hz69ns
+id: evt_01m3z9fdn4ffs9t02sgjxm42jz
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Donbas Arena üzerinde uçan Ukraynalı insansız hava aracı Donetsk'teki Rus hedefini vurdu
-  en: Ukrainian drone flies over Donbas Arena, hits Russian target in Donetsk
+  tr: Rusya'nın Dnipro'daki apartman binasına düzenlediği saldırıda üç kişi yaralandı
+  en: Three injured in Russian strike on apartment building in Dnipro
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-10-02T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-02T13:37Z
+reported_at: 2026-10-02T20:24Z
 location:
-  geometry: {type: Point, coordinates: [37.828, 48.002]}
+  geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Donetsk, en: Donetsk}
+  place_name: {tr: Dnipro, en: Dnipro}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170453-ukrainian-drone-flies-over-donbas-arena-hits-russian-target-in-donetsk.html
-    title: Ukrainian drone flies over Donbas Arena, hits Russian target in Donetsk
-    published_at: 2026-10-02T13:37Z
+  - url: https://www.ukrinform.net/rubric-ato/4170567-three-injured-in-russian-strike-on-apartment-building-in-dnipro.html
+    title: Three injured in Russian strike on apartment building in Dnipro
+    published_at: 2026-10-02T20:24Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261002151602/https://www.ukrinform.net/rubric-ato/4170453-ukrainian-drone-flies-over-donbas-arena-hits-russian-target-in-donetsk.html
-        captured_at: 2026-10-02T15:16:02Z
 assessment:
   status: unverified
   credibility: 6
