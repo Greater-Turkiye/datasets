@@ -24,6 +24,10 @@ sources:
     title: Russian drones strike near support structure of Kyiv's South Bridge
     published_at: 2026-10-01T10:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001131656/https://www.ukrinform.net/rubric-ato/4169979-russian-drones-strike-near-support-structure-of-kyivs-south-bridge.html
+        captured_at: 2026-10-01T13:16:56Z
 assessment:
   status: unverified
   credibility: 6

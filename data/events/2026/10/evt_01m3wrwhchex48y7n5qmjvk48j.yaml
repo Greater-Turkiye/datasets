@@ -18,6 +18,10 @@ sources:
     title: Ukrainian air defenses neutralize 78 out of 97 Russian drones on Oct 1
     published_at: 2026-10-01T16:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001184633/https://www.ukrinform.net/rubric-ato/4170133-ukrainian-air-defenses-neutralize-78-out-of-97-russian-drones-on-oct-1.html
+        captured_at: 2026-10-01T18:46:33Z
 assessment:
   status: unverified
   credibility: 6

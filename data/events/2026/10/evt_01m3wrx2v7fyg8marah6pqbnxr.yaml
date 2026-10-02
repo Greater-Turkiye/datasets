@@ -24,6 +24,10 @@ sources:
     title: Russians attack South Bridge for second time — Klitschko
     published_at: 2026-10-01T20:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001214604/https://www.ukrinform.net/rubric-ato/4170203-russians-attack-south-bridge-for-second-time-klitschko.html
+        captured_at: 2026-10-01T21:46:04Z
 assessment:
   status: unverified
   credibility: 6

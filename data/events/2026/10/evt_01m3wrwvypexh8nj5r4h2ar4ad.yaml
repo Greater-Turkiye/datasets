@@ -24,6 +24,10 @@ sources:
     title: Russians attack Dnipropetrovsk region more than 30 times since morning, four injured
     published_at: 2026-10-01T18:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001204605/https://www.ukrinform.net/rubric-ato/4170159-russians-attack-dnipropetrovsk-region-more-than-30-times-since-morning-four-injured.html
+        captured_at: 2026-10-01T20:46:05Z
 assessment:
   status: unverified
   credibility: 6

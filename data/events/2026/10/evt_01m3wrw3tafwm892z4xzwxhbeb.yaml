@@ -18,6 +18,10 @@ sources:
     title: Mysterious 'whiskers' on Russian drones turned out to be mechanical detonators – 'Flash'
     published_at: 2026-10-01T12:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001150111/https://www.ukrinform.net/rubric-ato/4170038-mysterious-whiskers-on-russian-drones-turn-out-to-be-mechanical-detonators-flash.html
+        captured_at: 2026-10-01T15:01:11Z
 assessment:
   status: unverified
   credibility: 6

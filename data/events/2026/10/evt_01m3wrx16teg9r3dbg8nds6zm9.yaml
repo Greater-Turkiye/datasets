@@ -18,6 +18,10 @@ sources:
     title: Russian forces attack DTEK coal company administrative building in Pavlohrad, three injured
     published_at: 2026-10-01T19:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001214612/https://www.ukrinform.net/rubric-ato/4170200-russian-forces-attack-dtek-coal-company-administrative-building-in-pavlohrad-three-injured.html
+        captured_at: 2026-10-01T21:46:12Z
 assessment:
   status: unverified
   credibility: 6

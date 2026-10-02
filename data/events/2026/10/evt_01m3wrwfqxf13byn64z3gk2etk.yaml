@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces hit Russian Buk-M3 SAM system, Akatsiya self-propelled gun in Luhansk region
     published_at: 2026-10-01T16:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001180112/https://www.ukrinform.net/rubric-ato/4170126-ukrainian-forces-hit-russian-bukm3-sam-system-akatsiya-selfpropelled-gun-in-luhansk-region.html
+        captured_at: 2026-10-01T18:01:12Z
 assessment:
   status: unverified
   credibility: 6
