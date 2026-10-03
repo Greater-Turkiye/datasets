@@ -18,6 +18,10 @@ sources:
     title: Minister Anušić Meets with NATO Supreme Allied Commander Europe General Grynkewich
     published_at: 2026-07-15T14:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003075004/https://www.morh.hr/en/minister-anusic-meets-with-nato-supreme-allied-commander-europe-general-grynkewich/
+        captured_at: 2026-10-03T07:50:04Z
 assessment:
   status: unverified
   credibility: 6

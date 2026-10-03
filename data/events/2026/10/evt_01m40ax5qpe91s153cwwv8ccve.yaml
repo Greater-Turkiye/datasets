@@ -18,6 +18,10 @@ sources:
     title: Second Croatian Canadair Deployed to France to Continue Wildfire Suppression Support
     published_at: 2026-07-29T12:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003075312/https://www.morh.hr/en/second-croatian-canadair-deployed-to-france-to-continue-wildfire-suppression-support/
+        captured_at: 2026-10-03T07:53:12Z
 assessment:
   status: unverified
   credibility: 6

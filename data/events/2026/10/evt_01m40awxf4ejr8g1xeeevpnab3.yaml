@@ -18,6 +18,10 @@ sources:
     title: Combat Power 26 at Žirje – Croatian Armed Forces Demonstrate Joint Maritime Combat Operations
     published_at: 2026-06-25T12:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003074422/https://www.morh.hr/en/combat-power-26-at-zirje-croatian-armed-forces-demonstrate-joint-maritime-combat-operations/
+        captured_at: 2026-10-03T07:44:22Z
 assessment:
   status: unverified
   credibility: 6

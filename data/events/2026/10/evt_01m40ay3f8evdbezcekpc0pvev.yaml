@@ -24,6 +24,10 @@ sources:
     title: Italy ends twelve-year military presence in Iraq
     published_at: 2026-09-29T15:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003084902/https://shafaq.com/en/Security/Italy-ends-twelve-year-military-presence-in-Iraq
+        captured_at: 2026-10-03T08:49:02Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: ISIS mortar attack kills woman in Kirkuk
     published_at: 2026-09-27T06:29Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930032617/https://shafaq.com/en/Security/ISIS-mortar-attack-kills-woman-in-Kirkuk
+        captured_at: 2026-09-30T03:26:17Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Croatian Defence Industry Exports to EU and NATO Member States
     published_at: 2026-06-16T18:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003074058/https://www.morh.hr/en/croatian-defence-industry-exports-to-eu-and-nato-member-states/
+        captured_at: 2026-10-03T07:40:58Z
 assessment:
   status: unverified
   credibility: 6

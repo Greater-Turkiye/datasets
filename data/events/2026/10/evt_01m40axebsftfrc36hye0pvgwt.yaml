@@ -18,6 +18,10 @@ sources:
     title: "Minister Anušić: Croatian Companies Are Active Partners in the Modernisation of the Croatian Armed Forces"
     published_at: 2026-09-09T07:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003080241/https://www.morh.hr/en/minister-anusic-croatian-companies-are-active-partners-in-the-modernisation-of-the-croatian-armed-forces/
+        captured_at: 2026-10-03T08:02:41Z
 assessment:
   status: unverified
   credibility: 6

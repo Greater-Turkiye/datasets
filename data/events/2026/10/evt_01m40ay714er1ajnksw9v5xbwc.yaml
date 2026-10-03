@@ -24,6 +24,10 @@ sources:
     title: Former US Diplomat Fried Warns Mixed Signals Could Undercut Russia Sanctions
     published_at: 2026-09-30T09:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001094637/https://www.rferl.org/a/former-us-diplomat-fried-warns-mixed-signals-could-undercut-russia-sanctions/33867133.html
+        captured_at: 2026-10-01T09:46:37Z
 assessment:
   status: unverified
   credibility: 6

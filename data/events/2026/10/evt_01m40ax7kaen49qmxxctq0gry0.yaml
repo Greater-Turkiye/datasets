@@ -18,6 +18,10 @@ sources:
     title: "Minister Anušić: More and more young people are entering military barracks; we have increased the third TVO intake to 1,000 conscripts"
     published_at: 2026-08-17T12:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003075554/https://www.morh.hr/en/minister-anusic-more-and-more-young-people-are-entering-military-barracks-we-have-increased-the-third-tvo-intake-to-1000-conscripts/
+        captured_at: 2026-10-03T07:55:54Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Conference of Chiefs of Defence of U.S.-Adriatic Charter Member States Held in Zadar
     published_at: 2026-09-16T13:49Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003080843/https://www.morh.hr/en/conference-of-chiefs-of-defence-of-u-s-adriatic-charter-member-states-held-in-zadar/
+        captured_at: 2026-10-03T08:08:43Z
 assessment:
   status: unverified
   credibility: 6
