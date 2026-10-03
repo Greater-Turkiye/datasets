@@ -216,10 +216,14 @@ def test_a_verdict_on_a_trend_is_analysis():
 def test_a_title_case_headline_is_put_in_sentence_case_for_the_translator():
     text = "State secretary Ivan Galić met with major general Manke of the German army in Zagreb on Monday."
     assert AR.sentence_case("State Secretary Galić Meets With Major General Manke", text) == \
-        "State secretary Galić Meets with major general Manke"
+        "State secretary Galić meets with major general Manke"
     # a headline already in sentence case is left alone
     assert AR.sentence_case("Two 'terrorists' killed in Kirkuk clashes", "") == "Two 'terrorists' killed in Kirkuk clashes"
-    # with no excerpt, nothing is lowered
+    # with no excerpt, the common headline words are lowered and the names keep their capitals
     assert AR.sentence_case("US Targets Russia's A7 Network In New Iran Sanctions Push", "") == \
-        "US Targets Russia's A7 Network In New Iran Sanctions Push"
+        "US targets Russia's A7 network in new Iran sanctions push"
+    assert AR.sentence_case("Belgrade Showcases Lethal Chinese Tech", "") == "Belgrade showcases lethal Chinese tech"
+    # a common word the excerpt capitalises is part of a name: "Joint Expeditionary Force" stays
+    assert AR.sentence_case("UK Joint Expeditionary Force Holds Drills In Baltic", "The Joint Expeditionary Force began.") == \
+        "UK Joint Expeditionary Force holds drills in Baltic"
 
