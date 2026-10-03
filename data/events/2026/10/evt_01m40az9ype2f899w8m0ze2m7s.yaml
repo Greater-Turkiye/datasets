@@ -1,17 +1,17 @@
-id: evt_01m3z9f366fcys70w9szwfjgfh
+id: evt_01m40az9ype2f899w8m0ze2m7s
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Rus insansız hava aracı Kiev'in Güney Köprüsü'ne yine saldırdı
-  en: Russian drone attacks Kyiv's South Bridge again
+  tr: Rus saldırısı Kiev'in Kuzey Köprüsü'ndeki yol yüzeyine zarar vererek sağ kıyıya giden trafiği engelledi
+  en: Russian attack damages road surface on Kyiv's Northern Bridge, blocking traffic to right bank
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-02T00:00Z
+  start: 2026-10-03T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-02T16:17Z
+reported_at: 2026-10-03T06:28Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170513-russian-drone-attacks-kyivs-south-bridge-again.html
-    title: Russian drone attacks Kyiv's South Bridge again
-    published_at: 2026-10-02T16:17Z
+  - url: https://www.ukrinform.net/rubric-ato/4170602-russian-attack-damages-road-surface-on-kyivs-northern-bridge-blocking-traffic-to-right-bank.html
+    title: Russian attack damages road surface on Kyiv's Northern Bridge, blocking traffic to right bank
+    published_at: 2026-10-03T06:28Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261002173203/https://www.ukrinform.net/rubric-ato/4170513-russian-drone-attacks-kyivs-south-bridge-again.html
-        captured_at: 2026-10-02T17:32:03Z
 assessment:
   status: unverified
   credibility: 6

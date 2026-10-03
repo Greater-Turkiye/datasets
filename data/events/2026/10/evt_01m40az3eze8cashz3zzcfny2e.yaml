@@ -1,33 +1,29 @@
-id: evt_01m3z9f366fcys70w9szwfjgfh
+id: evt_01m40az3eze8cashz3zzcfny2e
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Rus insansız hava aracı Kiev'in Güney Köprüsü'ne yine saldırdı
-  en: Russian drone attacks Kyiv's South Bridge again
+  tr: Rus saldırısı, Dinyeper şehir merkezindeki iş merkezinde yangına yol açtı
+  en: Russian attack sparks fire at business center in downtown Dnipro
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-02T00:00Z
+  start: 2026-10-03T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-02T16:17Z
+reported_at: 2026-10-03T03:59Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Dnipro, en: Dnipro}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170513-russian-drone-attacks-kyivs-south-bridge-again.html
-    title: Russian drone attacks Kyiv's South Bridge again
-    published_at: 2026-10-02T16:17Z
+  - url: https://www.ukrinform.net/rubric-ato/4170584-russian-attack-sparks-fire-at-business-center-in-downtown-dnipro.html
+    title: Russian attack sparks fire at business center in downtown Dnipro
+    published_at: 2026-10-03T03:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261002173203/https://www.ukrinform.net/rubric-ato/4170513-russian-drone-attacks-kyivs-south-bridge-again.html
-        captured_at: 2026-10-02T17:32:03Z
 assessment:
   status: unverified
   credibility: 6

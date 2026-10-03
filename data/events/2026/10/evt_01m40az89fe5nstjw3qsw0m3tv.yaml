@@ -1,0 +1,27 @@
+id: evt_01m40az89fe5nstjw3qsw0m3tv
+schema: event/1
+event_type: deployment.announced
+title:
+  tr: Rus kuvvetleri geçen gün Ukrayna'ya karşı savaşta 1.560 asker daha kaybetti
+  en: Russian forces lose another 1,560 soldiers in war against Ukraine over past day
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-03T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-03T05:59Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4170601-russian-forces-lose-another-1560-soldiers-in-war-against-ukraine-over-past-day.html
+    title: Russian forces lose another 1,560 soldiers in war against Ukraine over past day
+    published_at: 2026-10-03T05:59Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -1,0 +1,27 @@
+id: evt_01m40ax7kaen49qmxxctq0gry0
+schema: event/1
+event_type: policy.defense
+title:
+  tr: "Bakan Anušić: Gittikçe daha fazla genç askeri kışlaya giriyor; üçüncü TVO alımını 1.000 askere yükselttik"
+  en: "Minister Anušić: More and more young people are entering military barracks; we have increased the third TVO intake to 1,000 conscripts"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-08-17T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-08-17T12:54Z
+regions: [balkans]
+sources:
+  - url: https://www.morh.hr/en/minister-anusic-more-and-more-young-people-are-entering-military-barracks-we-have-increased-the-third-tvo-intake-to-1000-conscripts/
+    title: "Minister Anušić: More and more young people are entering military barracks; we have increased the third TVO intake to 1,000 conscripts"
+    published_at: 2026-08-17T12:54Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-hrv-mod. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-hrv-mod. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

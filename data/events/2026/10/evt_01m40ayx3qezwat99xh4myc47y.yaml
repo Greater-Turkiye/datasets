@@ -1,0 +1,27 @@
+id: evt_01m40ayx3qezwat99xh4myc47y
+schema: event/1
+event_type: policy.sanctions
+title:
+  tr: Tacikistan İran Petrolünü Almaya, Yeni Tedarik Rotasını Test Etmeye ve ABD Yaptırımlarının Kapsamını Test Etmeye Başladı
+  en: Tajikistan Begins Receiving Iranian Oil, Testing New Supply Route And Extent Of US Sanctions
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-02T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-02T09:12Z
+regions: [iran]
+sources:
+  - url: https://www.rferl.org/a/iran-oil-petroleum-products-tajikistan-sanctions-treasury/33868914.html
+    title: Tajikistan Begins Receiving Iranian Oil, Testing New Supply Route And Extent Of US Sanctions
+    published_at: 2026-10-02T09:12Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rferl-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rferl-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -24,6 +24,10 @@ sources:
     title: "Russian forces strike Kharkiv with guided aerial bombs: Two killed, injury toll rises to 33"
     published_at: 2026-10-02T15:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003062506/https://www.ukrinform.net/rubric-ato/4170507-russian-forces-strike-kharkiv-with-guided-aerial-bombs-two-killed-injury-toll-rises-to-33.html
+        captured_at: 2026-10-03T06:25:06Z
 assessment:
   status: unverified
   credibility: 6

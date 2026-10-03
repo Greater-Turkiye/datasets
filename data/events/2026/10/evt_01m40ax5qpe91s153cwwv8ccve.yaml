@@ -1,0 +1,27 @@
+id: evt_01m40ax5qpe91s153cwwv8ccve
+schema: event/1
+event_type: deployment.announced
+title:
+  tr: İkinci Hırvat Canadair, Orman Yangını Bastırma Desteğini Sürdürmek İçin Fransa'ya Konuşlandırıldı
+  en: Second Croatian Canadair Deployed to France to Continue Wildfire Suppression Support
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-07-29T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-07-29T12:57Z
+regions: [balkans]
+sources:
+  - url: https://www.morh.hr/en/second-croatian-canadair-deployed-to-france-to-continue-wildfire-suppression-support/
+    title: Second Croatian Canadair Deployed to France to Continue Wildfire Suppression Support
+    published_at: 2026-07-29T12:57Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-hrv-mod. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-hrv-mod. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -1,0 +1,27 @@
+id: evt_01m40ayk6dedavzj62sbk821z8
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: Belaruslu Mahkumun Serbest Bırakılmasının Ardından ABD'li Senatörler Azerbaycan'da Benzer Adımlar İçin Çağrıda Bulundu
+  en: After Belarus Prisoner Release, US Senators Call For Similar Steps In Azerbaijan
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-01T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-01T17:12Z
+regions: [caucasus]
+sources:
+  - url: https://www.rferl.org/a/azerbaijan-political-prisoners-journalists-us-senators/33868554.html
+    title: After Belarus Prisoner Release, US Senators Call For Similar Steps In Azerbaijan
+    published_at: 2026-10-01T17:12Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rferl-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rferl-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

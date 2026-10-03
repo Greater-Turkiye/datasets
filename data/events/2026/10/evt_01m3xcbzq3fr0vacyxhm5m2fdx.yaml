@@ -18,6 +18,10 @@ sources:
     title: "Глава ЮНИСЕФ: при восстановлении Сирии во главу угла должны ставиться интересы детей"
     published_at: 2026-10-01T12:00Z
     lang: ru
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002120411/https://news.un.org/feed/view/ru/story/2026/10/1468819
+        captured_at: 2026-10-02T12:04:11Z
 assessment:
   status: unverified
   credibility: 6

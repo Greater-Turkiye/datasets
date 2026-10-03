@@ -1,0 +1,27 @@
+id: evt_01m40ayvavezhav06aqr8hpx40
+schema: event/1
+event_type: policy.defense
+title:
+  tr: İran'da Gerginlik Yükselirken ABD Ortadoğu'daki Askeri Varlığını Güçlendiriyor
+  en: US Reinforcing Military Presence In Middle East As Iran Tensions Rise
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-02T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-02T01:26Z
+regions: [iran]
+sources:
+  - url: https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html
+    title: US Reinforcing Military Presence In Middle East As Iran Tensions Rise
+    published_at: 2026-10-02T01:26Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rferl-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rferl-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

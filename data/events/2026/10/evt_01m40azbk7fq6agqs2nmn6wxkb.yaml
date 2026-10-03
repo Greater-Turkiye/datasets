@@ -1,33 +1,29 @@
-id: evt_01m3ytffvme00t3ppcqmt9rj2c
+id: evt_01m40azbk7fq6agqs2nmn6wxkb
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: kinetic.attack
 title:
-  tr: Ruslar Novhorod - Siverskyi merkezine Lancet insansız hava aracıyla saldırdı
-  en: Russians strike center of Novhorod-Siverskyi with Lancet drone
+  tr: Hostomel'e Rus saldırısından kaynaklanan kayıplar dörde yükseldi
+  en: Casualties from Russian strike on Hostomel rise to four
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-02T00:00Z
+  start: 2026-10-03T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-02T14:53Z
+reported_at: 2026-10-03T06:57Z
 location:
-  geometry: {type: Point, coordinates: [31.302, 51.505]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Chernihiv bölgesi, en: Chernihiv region}
+  place_name: {tr: Kyiv bölgesi, en: Kyiv region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170480-russians-strike-center-of-novhorodsiverskyi-with-lancet-drone.html
-    title: Russians strike center of Novhorod-Siverskyi with Lancet drone
-    published_at: 2026-10-02T14:53Z
+  - url: https://www.ukrinform.net/rubric-ato/4170606-casualties-from-russian-strike-on-hostomel-rise-to-four.html
+    title: Casualties from Russian strike on Hostomel rise to four
+    published_at: 2026-10-03T06:57Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261002173204/https://www.ukrinform.net/rubric-ato/4170480-russians-strike-center-of-novhorodsiverskyi-with-lancet-drone.html
-        captured_at: 2026-10-02T17:32:04Z
 assessment:
   status: unverified
   credibility: 6
