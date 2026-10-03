@@ -114,6 +114,10 @@ TYPE_RULES = [
     (r"\b(missile test|test[- ]fire)", "test.missile"),
     (r"\b(ship|vessel|tanker|cargo)\b.{0,60}\b(attack|strike|struck|hit|seiz|board)|"
      r"\b(attack|strike|struck|hit|seiz|board)\w*\b.{0,60}\b(ship|vessel|tanker|cargo)\b", "maritime.incident"),
+    # a port call is naval activity: "USS Jason Dunham Arrives in Cyprus" was filed as a missile strike,
+    # the collector having matched "guided-missile destroyer" in the text
+    (r"\b(arrives?|arrived|departs?|departed|port (visit|call)|pulls? into|moors?|docks? (in|at)|"
+     r"makes? port|returns? (home|to port))\b", "maritime.activity"),
     (r"\b(drone|uav|shahed)", "kinetic.drone-strike"),
     (r"\b(missile|ballistic|cruise)", "kinetic.missile-strike"),
     (r"\b(airstrike|air strike|glide bomb|bombing|bombs?)\b", "kinetic.airstrike"),
@@ -297,10 +301,18 @@ def locate(c: Candidate) -> dict | None:
     return None
 
 
+# A ship named in a headline that has no act of violence in it: the collector's kinetic topic came from
+# the ship's class ("guided-missile destroyer"), not from an attack
+SHIP = re.compile(r"\b(USS|USNS|HMS|HS|ITS|FS|ESPS|HNLMS|destroyer|frigate|corvette|cruiser|warship|carrier|"
+                  r"submarine|ship|vessel)\b", re.IGNORECASE)
+
+
 def classify(c: Candidate, codes: set[str]) -> str:
     for pattern, code in TYPE_RULES:
         if code in codes and re.search(pattern, c.title, re.IGNORECASE):
             return code
+    if c.topics[0].startswith("kinetic.") and SHIP.search(c.title) and "maritime.activity" in codes:
+        return "maritime.activity"
     return c.topics[0]
 
 
@@ -405,6 +417,27 @@ def backfill_titles(formatter: gt.Formatter) -> list[Path]:
     return changed
 
 
+def reclassify(formatter: gt.Formatter, codes: set[str]) -> list[Path]:
+    """Correct the event type of automatic records written before a rule above: a record filed as an
+    attack whose English headline the rules now read as naval activity (a port call) is changed. Only
+    records tagged `otomatik`, only kinetic types, and running it twice changes nothing."""
+    changed = []
+    for path in sorted((ROOT / "data" / "events").rglob("*.yaml")):
+        data = gt.load_yaml(path)
+        if AUTO_TAG not in (data.get("tags") or []) or not str(data.get("event_type", "")).startswith("kinetic."):
+            continue
+        head = (data.get("title") or {}).get("en") or ""
+        probe = Candidate(url="", title=head, text="", lang="en", published_at="", region="",
+                          topics=[data["event_type"]], feed="")
+        code = classify(probe, codes)
+        if code == data["event_type"] or code != "maritime.activity":
+            continue
+        data["event_type"] = code
+        path.write_text(formatter.format(path.read_text(encoding="utf-8"), data, "event"), encoding="utf-8", newline="\n")
+        changed.append(path)
+    return changed
+
+
 def purge_redline() -> list[Path]:
     """Delete automatic records that name Turkish forces. They were written before a pattern caught them
     and were never reviewed; ADR 0010 forbids the content itself, so a retracted record (which keeps
@@ -436,6 +469,8 @@ HEADLINE_WORDS = set("""
 a an the and or but as at by for from in into of on onto over to with without amid after before against
 near across about under up out off new its his her their more most first last
 says said say tells told warns warn calls call holds hold signs sign visits visit meets meet targets target
+arrives arrive arrived departs depart departed begins begin began concludes conclude ends end starts start
+returns return joins join leaves leave hosts host completes complete
 launches launch tests test shows showcases showcase unveils unveil plans plan seeks seek opens open hits hit
 kills killed kill wounds wounded injured strikes strike attacks attack downs downed shoots shot sends send
 deploys deploy moves move boosts boost buys buy sells sell orders order receives receive delivers deliver
@@ -620,6 +655,9 @@ def main() -> int:
     retitled = backfill_titles(formatter)
     if retitled:
         print(f"{len(retitled)} earlier automatic records' Turkish titles corrected")
+    retyped = reclassify(formatter, set(vocab_codes()))
+    if retyped:
+        print(f"{len(retyped)} earlier automatic records' event type corrected (port calls, not attacks)")
     if not clusters:
         return 0
     written, waiting = [], 0

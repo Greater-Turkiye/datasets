@@ -227,3 +227,17 @@ def test_a_title_case_headline_is_put_in_sentence_case_for_the_translator():
     assert AR.sentence_case("UK Joint Expeditionary Force Holds Drills In Baltic", "The Joint Expeditionary Force began.") == \
         "UK Joint Expeditionary Force holds drills in Baltic"
 
+
+def test_a_port_call_is_naval_activity_not_a_strike():
+    codes = {"maritime.activity", "kinetic.missile-strike", "kinetic.drone-strike", "maritime.incident", "exercise.military"}
+    def c(title, topic="kinetic.missile-strike"):
+        return AR.Candidate(url="", title=title, text="guided-missile destroyer", lang="en", published_at="",
+                            region="cyprus", topics=[topic], feed="rss-usa-c6f")
+    assert AR.classify(c("USS Jason Dunham Arrives in Cyprus"), codes) == "maritime.activity"
+    assert AR.classify(c("USS Roosevelt departs Cyprus"), codes) == "maritime.activity"
+    # a ship with no act in the headline is not an attack, whatever the collector's topic
+    assert AR.classify(c("USS Oscar Austin Holds Change of Command Ceremony"), codes) == "maritime.activity"
+    # an attack on a ship stays an incident, a missile strike stays a strike
+    assert AR.classify(c("Houthis attack a tanker in the Red Sea"), codes) == "maritime.incident"
+    assert AR.classify(c("Russian missile strike on Odesa port"), codes) == "kinetic.missile-strike"
+    assert AR.sentence_case("USS Jason Dunham Arrives In Cyprus", "") == "USS Jason Dunham arrives in Cyprus"
