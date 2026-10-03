@@ -1,6 +1,6 @@
 id: evt_01m41jynprfh6vpggs0cv7cxdr
 schema: event/1
-event_type: kinetic.missile-strike
+event_type: maritime.activity
 title:
   tr: USS Roosevelt Kıbrıs'tan ayrılıyor
   en: USS Roosevelt departs Cyprus

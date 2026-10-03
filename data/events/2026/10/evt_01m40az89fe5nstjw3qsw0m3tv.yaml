@@ -18,6 +18,10 @@ sources:
     title: Russian forces lose another 1,560 soldiers in war against Ukraine over past day
     published_at: 2026-10-03T05:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003074602/https://www.ukrinform.net/rubric-ato/4170601-russian-forces-lose-another-1560-soldiers-in-war-against-ukraine-over-past-day.html
+        captured_at: 2026-10-03T07:46:02Z
 assessment:
   status: unverified
   credibility: 6

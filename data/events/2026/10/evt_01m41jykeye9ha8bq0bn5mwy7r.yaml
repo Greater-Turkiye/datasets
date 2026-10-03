@@ -1,6 +1,6 @@
 id: evt_01m41jykeye9ha8bq0bn5mwy7r
 schema: event/1
-event_type: kinetic.missile-strike
+event_type: maritime.activity
 title:
   tr: USS Gonzalez Kıbrıs'tan ayrılıyor
   en: USS Gonzalez departs Cyprus

@@ -24,6 +24,10 @@ sources:
     title: Three injured as Russian forces shell Dnipropetrovsk region more than 40 times
     published_at: 2026-10-03T17:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003180059/https://www.ukrinform.net/rubric-ato/4170755-three-injured-as-russian-forces-shell-dnipropetrovsk-region-more-than-40-times.html
+        captured_at: 2026-10-03T18:00:59Z
 assessment:
   status: unverified
   credibility: 6

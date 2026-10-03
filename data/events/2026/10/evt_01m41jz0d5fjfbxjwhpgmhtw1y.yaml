@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Odesa, infrastructure damaged
     published_at: 2026-10-03T18:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003190100/https://www.ukrinform.net/rubric-ato/4170761-russian-forces-attack-odesa-infrastructure-damaged.html
+        captured_at: 2026-10-03T19:01:00Z
 assessment:
   status: unverified
   credibility: 6

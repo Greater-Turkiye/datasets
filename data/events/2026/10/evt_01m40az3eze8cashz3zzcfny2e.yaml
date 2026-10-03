@@ -24,6 +24,10 @@ sources:
     title: Russian attack sparks fire at business center in downtown Dnipro
     published_at: 2026-10-03T03:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003191418/https://www.ukrinform.net/rubric-ato/4170584-russian-attack-sparks-fire-at-business-center-in-downtown-dnipro.html
+        captured_at: 2026-10-03T19:14:18Z
 assessment:
   status: unverified
   credibility: 6

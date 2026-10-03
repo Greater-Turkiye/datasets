@@ -18,6 +18,10 @@ sources:
     title: "'Russia Is Behaving Like A Rogue State': Historian Margaret MacMillan On The Risk Of A Wider Global Conflict"
     published_at: 2026-10-03T07:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003193109/https://www.rferl.org/a/margaret-macmillan-russia-ukraine-global-conflict/33869360.html
+        captured_at: 2026-10-03T19:31:09Z
 assessment:
   status: unverified
   credibility: 6

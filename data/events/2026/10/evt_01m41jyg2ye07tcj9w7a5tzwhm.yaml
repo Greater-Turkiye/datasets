@@ -1,6 +1,6 @@
 id: evt_01m41jyg2ye07tcj9w7a5tzwhm
 schema: event/1
-event_type: kinetic.missile-strike
+event_type: maritime.activity
 title:
   tr: USS Jason Dunham Kıbrıs'a Ulaştı
   en: USS Jason Dunham Arrives in Cyprus
