@@ -24,6 +24,10 @@ sources:
     title: Latvian Defense Minister Says Russia's Hybrid Attacks, Not Nuclear Rhetoric, Are The Main Concern
     published_at: 2026-10-01T09:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002074432/https://www.rferl.org/a/latvia-russia-nuclear-warning-kaliningrad/33867766.html
+        captured_at: 2026-10-02T07:44:32Z
 assessment:
   status: unverified
   credibility: 6

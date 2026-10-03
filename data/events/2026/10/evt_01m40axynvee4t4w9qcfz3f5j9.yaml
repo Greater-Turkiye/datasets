@@ -24,6 +24,10 @@ sources:
     title: Two ‘terrorists’ killed in Kirkuk clashes
     published_at: 2026-09-27T14:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003110931/https://shafaq.com/en/Security/Two-ISIS-militants-killed-in-Kirkuk-clashes
+        captured_at: 2026-10-03T11:09:31Z
 assessment:
   status: unverified
   credibility: 6

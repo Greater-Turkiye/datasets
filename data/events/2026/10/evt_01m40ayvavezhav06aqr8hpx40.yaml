@@ -18,6 +18,10 @@ sources:
     title: US Reinforcing Military Presence In Middle East As Iran Tensions Rise
     published_at: 2026-10-02T01:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260930173814/https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html
+        captured_at: 2026-09-30T17:38:14Z
 assessment:
   status: unverified
   credibility: 6

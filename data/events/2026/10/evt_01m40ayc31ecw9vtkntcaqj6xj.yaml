@@ -24,6 +24,10 @@ sources:
     title: Ukraine Delivers Food By Drone As Russian-Occupied Oleshky Faces Starvation
     published_at: 2026-09-30T18:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261001021810/https://www.rferl.org/a/ukraine-delivers-food-by-drone-as-russian-occupied-oleshky-faces-starvation/33867231.html
+        captured_at: 2026-10-01T02:18:10Z
 assessment:
   status: unverified
   credibility: 6

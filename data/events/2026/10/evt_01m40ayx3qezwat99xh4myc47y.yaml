@@ -18,6 +18,10 @@ sources:
     title: Tajikistan Begins Receiving Iranian Oil, Testing New Supply Route And Extent Of US Sanctions
     published_at: 2026-10-02T09:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002153557/https://www.rferl.org/a/iran-oil-petroleum-products-tajikistan-sanctions-treasury/33868914.html
+        captured_at: 2026-10-02T15:35:57Z
 assessment:
   status: unverified
   credibility: 6

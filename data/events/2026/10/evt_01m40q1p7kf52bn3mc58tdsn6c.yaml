@@ -1,0 +1,27 @@
+id: evt_01m40q1p7kf52bn3mc58tdsn6c
+schema: event/1
+event_type: kinetic.clash
+title:
+  tr: "Savaş güncellemesi: Geçen gün ön saflarda 194 muharebe çatışması, Kostiantynivka, Pokrovsk en sıcak baltaları vurdu"
+  en: "War update: 194 combat clashes on front lines over past day, Kostiantynivka, Pokrovsk axes hottest"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-03T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-03T07:51Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4170629-war-update-194-combat-clashes-on-front-lines-over-past-day-kostiantynivka-pokrovsk-axes-hottest.html
+    title: "War update: 194 combat clashes on front lines over past day, Kostiantynivka, Pokrovsk axes hottest"
+    published_at: 2026-10-03T07:51Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

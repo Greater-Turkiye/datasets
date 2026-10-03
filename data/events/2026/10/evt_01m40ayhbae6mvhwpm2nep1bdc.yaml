@@ -18,6 +18,10 @@ sources:
     title: Oil Exports Find A Way Past Iranian Attacks, But Refinery Bottleneck Persists
     published_at: 2026-10-01T15:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002080958/https://www.rferl.org/a/iran-oil-exports-hormuz-refinery-market/33867914.html
+        captured_at: 2026-10-02T08:09:58Z
 assessment:
   status: unverified
   credibility: 6

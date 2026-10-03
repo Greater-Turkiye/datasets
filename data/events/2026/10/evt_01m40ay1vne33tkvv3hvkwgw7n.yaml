@@ -24,6 +24,10 @@ sources:
     title: Three ISIS suspects arrested in Iraq's Al-Sulaymaniyah
     published_at: 2026-09-27T22:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003084707/https://shafaq.com/en/Security/Three-ISIS-suspects-arrested-in-Iraq-s-Al-Sulaymaniyah
+        captured_at: 2026-10-03T08:47:07Z
 assessment:
   status: unverified
   credibility: 6

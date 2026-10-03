@@ -18,6 +18,10 @@ sources:
     title: "Minister Anušić: Strengthening Cooperation with Slovakia and Supporting Our Defence Industries"
     published_at: 2026-06-08T11:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003084327/https://www.morh.hr/en/minister-anusic-strengthening-cooperation-with-slovakia-and-supporting-our-defence-industries/
+        captured_at: 2026-10-03T08:43:27Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: US Targets Russia's A7 Network In New Iran Sanctions Push
     published_at: 2026-10-02T09:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002215406/https://www.rferl.org/a/us-targets-russia-a7-network-iran-sanctions/33868974.html
+        captured_at: 2026-10-02T21:54:06Z
 assessment:
   status: unverified
   credibility: 6

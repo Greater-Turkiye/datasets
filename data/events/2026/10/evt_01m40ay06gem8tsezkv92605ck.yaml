@@ -24,6 +24,10 @@ sources:
     title: "Iraq-Iran flights: US sanctions put Baghdad under pressure"
     published_at: 2026-09-27T22:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003111109/https://shafaq.com/en/Security/Iraq-Iran-flights-US-sanctions-put-Baghdad-under-pressure
+        captured_at: 2026-10-03T11:11:09Z
 assessment:
   status: unverified
   credibility: 6
