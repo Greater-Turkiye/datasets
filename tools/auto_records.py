@@ -79,7 +79,11 @@ ANALYSIS_FEEDS = frozenset({"rss-usa-atlanticcouncil"})
 NOT_AN_EVENT = re.compile(
     r"\?\s*$|\b(podcast|digest|live blog|newsletter|explainer|analysis|opinion|interview|weekly|"
     r"quoted|cited|comments on|in the news|trial stories|questions|brace[sd]? for|reflects|stirs|lessons|"
-    r"what .{0,40} means|how .{0,40} could|why .{0,40} (is|are))\b",
+    r"what .{0,40} means|how .{0,40} could|why .{0,40} (is|are)"
+    # a verdict on a trend rather than an event (RFE/RL, 2026-10-03: "Iran's Hormuz Leverage Is Fading,
+    # But It Isn't Gone", "Iranian Hard-Liners Up In Arms After ...")
+    r"|is (fading|growing|shrinking|waning|slipping|eroding)|isn'?t gone|up in arms|the (case|road|race) (for|to)"
+    r"|(lessons|takeaways) from|what'?s next|in (focus|context))\b",
     re.IGNORECASE,
 )
 # A person named in a death or injury notice is personal data even when a ministry published it; the

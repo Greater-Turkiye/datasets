@@ -203,3 +203,12 @@ def test_turkish_forces_named_as_the_country_with_a_base_or_a_move():
                   "Russian drone attack on Kharkiv injures two"]:
         assert not AR.TUR_FORCES.search(title), title
 
+
+def test_a_verdict_on_a_trend_is_analysis():
+    for title in ["Iran's Hormuz Leverage Is Fading, But It Isn't Gone",
+                  "Iranian Hard-Liners Up In Arms After Araqchi-Witkoff Meeting In New York"]:
+        assert AR.NOT_AN_EVENT.search(title), title
+    for title in ["US Reinforcing Military Presence In Middle East As Iran Tensions Rise",
+                  "Two 'terrorists' killed in Kirkuk clashes"]:
+        assert not AR.NOT_AN_EVENT.search(title), title
+
