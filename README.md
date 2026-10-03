@@ -120,7 +120,7 @@ girer. Özet yazılmaz: elimizdeki tek metin kaynağın alıntısıdır ve onu k
 
 Otomatik yoldan **geçmeyenler:** toplayıcının `redline_check` işaretlediği ve metninde Türk kuvvetlerini anan
 adaylar (bir insanı bekler), E/F notlu kaynaklar, analiz ve yorum yazıları (soru başlıkları, podcast, bülten; Atlantic Council akışının tamamı) ve zaten bir kayıtta kaynak olan adresler. Herkese açık akış
-(`feed.xml`) otomatik kayıtları içermez; yalnızca `verified` ve `partially_verified` olanları yayar.
+(`feed.xml`) otomatik kayıtları içermez; yalnızca `verified` ve `partially_verified` olanları yayar. Türk kuvvetlerini anmak, ülke adının üs, asker ya da kuvvet hareketiyle birlikte geçmesini ("Turkiye to hand over Bashiqa-Zilkan base") ve yurt dışındaki Türk üslerinin adlarını da kapsar; bir kalıp yakalamadan önce yazılmış otomatik kayıtlar sonraki çalışmada silinir (ADR 0010).
 
 `main` insan incelemesinden geçmiş kayıtların dalı olarak kalır. Pages derlemesi `main`'in üstüne yalnızca
 `auto-data`'da olup `main`'de olmayan kayıt dosyalarını koyar; bir kayıt doğrulanıp PR ile `main`'e taşındığında
@@ -144,7 +144,7 @@ human-reviewed record, and the Pages build lays the automatic records over it. T
 headline and the Turkish one a MyMemory machine translation (where the English says "strike" and not about workers, the translation's "grev" becomes "saldırı"; an EU office holder's "President" is written as the office, e.g. "AB Komisyonu Başkanı von der Leyen", not "Cumhurbaşkanı"; the corrections are also applied to automatic records written earlier); rules on the headline pick the type and drop analysis
 pieces; repeat reports fold into one record; there is no summary, because the only text is the source's own.
 Each record says it is automatic, machine-translated and unverified. Items the
-collector flagged for the red line, items naming Turkish forces and sources graded E or F never take this path.
+collector flagged for the red line, items naming Turkish forces and sources graded E or F never take this path. "Naming Turkish forces" includes the country named with a base, troops or a move of forces ("Turkiye to hand over Bashiqa-Zilkan base") and Turkish bases abroad by name; automatic records written before a pattern caught them are deleted on the next run (ADR 0010).
 The repository variable `AUTO_RECORDS` is the kill switch.
 
 ## Temel kurallar / Core rules
