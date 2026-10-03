@@ -61,7 +61,14 @@ TUR_FORCES = re.compile(
     r"\b(turkish|türk|turkiye'?s?|türkiye'?nin|turkey'?s?)\s+(armed forces|army|navy|air force|"
     r"troops|forces|soldiers|military|warships?|frigates?|jets?|drones?|silahlı kuvvetler\w*|"
     r"kara kuvvetler\w*|deniz kuvvetler\w*|hava kuvvetler\w*|asker\w*|ordu\w*)"
-    r"|\bTSK\b|\bMehmetçik\w*|\bMSB\b|\bTAF\b",
+    r"|\bTSK\b|\bMehmetçik\w*|\bMSB\b|\bTAF\b"
+    # the country named with a base, troops or a move of forces, not "Turkish forces" side by side:
+    # "Turkiye to hand over Bashiqa-Zilkan base to Iraq" (Shafaq, 2026-10-03) passed the patterns above
+    r"|\b(turkiye|türkiye|turkey|ankara)('s)?\b[^.]{0,60}\b(bases?|outposts?|garrisons?|troops|soldiers|forces|"
+    r"military presence|deploy\w*|withdraw\w*|redeploy\w*|üs(sü|sünü|leri|lerini)?|askerler\w*|kuvvetler\w*|"
+    r"birlikler\w*|konuşlan\w*|çekil\w*|devred\w*)\b"
+    # Turkish bases abroad, by name
+    r"|\b(bashiqa|bashika|başika|zilkan|zlikan|bamerni|bamarni|turksom|tariq bin ziyad|camp turkiye)\b",
     re.IGNORECASE,
 )
 
@@ -394,6 +401,23 @@ def backfill_titles(formatter: gt.Formatter) -> list[Path]:
     return changed
 
 
+def purge_redline() -> list[Path]:
+    """Delete automatic records that name Turkish forces. They were written before a pattern caught them
+    and were never reviewed; ADR 0010 forbids the content itself, so a retracted record (which keeps
+    its title) is no remedy. Only records tagged `otomatik` are touched."""
+    removed = []
+    for path in sorted((ROOT / "data" / "events").rglob("*.yaml")):
+        data = gt.load_yaml(path)
+        if AUTO_TAG not in (data.get("tags") or []):
+            continue
+        title = data.get("title") or {}
+        text = " ".join([title.get("tr") or "", title.get("en") or ""] + [s.get("title") or "" for s in data.get("sources") or []])
+        if TUR_FORCES.search(text):
+            path.unlink()
+            removed.append(path)
+    return removed
+
+
 def clean(s, limit: int) -> str | None:
     if not isinstance(s, str):
         return None
@@ -543,6 +567,9 @@ def main() -> int:
     located = backfill_locations(formatter)
     if located:
         print(f"{len(located)} earlier automatic records given a location")
+    purged = purge_redline()
+    if purged:
+        print(f"{len(purged)} earlier automatic records removed: they name Turkish forces (red line)")
     retitled = backfill_titles(formatter)
     if retitled:
         print(f"{len(retitled)} earlier automatic records' Turkish titles corrected")

@@ -188,3 +188,18 @@ def test_an_eu_president_is_no_head_of_state():
     # a head of state is left alone
     assert AR.office_sense("Cumhurbaşkanı Zelenskiy konuştu", "President Zelensky spoke") == "Cumhurbaşkanı Zelenskiy konuştu"
     assert AR.sense("KAB grevleri, Cumhurbaşkanı von der Leyen", "KAB strikes, President von der Leyen") == "KAB saldırıları, AB Komisyonu Başkanı von der Leyen"
+
+
+def test_turkish_forces_named_as_the_country_with_a_base_or_a_move():
+    for title in ["Turkiye to hand over Bashiqa-Zilkan base to Iraq",
+                  "Türkiye, Başika-Zilkan üssünü Irak'a devredecek",
+                  "Turkey deploys troops to northern Syria",
+                  "Ankara withdraws forces from Idlib outpost",
+                  "Turkish drones strike targets in Iraq"]:
+        assert AR.TUR_FORCES.search(title), title
+    for title in ["Turkey hosts talks between Armenia and Azerbaijan",
+                  "Greece and Turkey hold confidence-building talks in Athens",
+                  "Italy ends twelve-year military presence in Iraq",
+                  "Russian drone attack on Kharkiv injures two"]:
+        assert not AR.TUR_FORCES.search(title), title
+
