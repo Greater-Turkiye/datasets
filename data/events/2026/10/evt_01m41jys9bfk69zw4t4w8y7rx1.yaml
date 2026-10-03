@@ -1,9 +1,9 @@
-id: evt_01m416wp5ffmb8dy1vdr509p5a
+id: evt_01m41jys9bfk69zw4t4w8y7rx1
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Kiev'deki Kuzey Köprüsü'ne düzenlenen Rus saldırısında iki kişi yaralandı
-  en: Two injured in Russian strike on Northern Bridge in Kyiv
+  tr: Kiev'in Obolon bölgesindeki yüksek binanın çatısına drone enkazı düştü
+  en: Drone debris falls onto roof of high-rise building in Kyiv's Obolon district
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-10-03T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-03T10:52Z
+reported_at: 2026-10-03T15:59Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,14 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170678-two-injured-in-russian-strike-on-northern-bridge-in-kyiv.html
-    title: Two injured in Russian strike on Northern Bridge in Kyiv
-    published_at: 2026-10-03T10:52Z
+  - url: https://www.ukrinform.net/rubric-ato/4170738-drone-debris-falls-onto-roof-of-highrise-building-in-kyivs-obolon-district.html
+    title: Drone debris falls onto roof of high-rise building in Kyiv's Obolon district
+    published_at: 2026-10-03T15:59Z
     lang: en
     archives:
       - service: wayback
-        url: https://web.archive.org/web/20261003134601/https://www.ukrinform.net/rubric-ato/4170678-two-injured-in-russian-strike-on-northern-bridge-in-kyiv.html
-        captured_at: 2026-10-03T13:46:01Z
+        url: https://web.archive.org/web/20261003173101/https://www.ukrinform.net/rubric-ato/4170738-drone-debris-falls-onto-roof-of-highrise-building-in-kyivs-obolon-district.html
+        captured_at: 2026-10-03T17:31:01Z
 assessment:
   status: unverified
   credibility: 6

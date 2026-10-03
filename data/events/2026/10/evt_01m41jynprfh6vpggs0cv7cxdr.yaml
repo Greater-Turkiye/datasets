@@ -1,0 +1,27 @@
+id: evt_01m41jynprfh6vpggs0cv7cxdr
+schema: event/1
+event_type: kinetic.missile-strike
+title:
+  tr: USS Roosevelt Kıbrıs'tan ayrılıyor
+  en: USS Roosevelt departs Cyprus
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-03T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-03T14:43Z
+regions: [cyprus]
+sources:
+  - url: https://www.c6f.navy.mil/Press-Room/News/Article/4618576/uss-roosevelt-departs-cyprus/
+    title: USS Roosevelt departs Cyprus
+    published_at: 2026-10-03T14:43Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-usa-c6f. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-usa-c6f. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

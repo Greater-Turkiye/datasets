@@ -24,6 +24,10 @@ sources:
     title: Grenade targets Sheikhi leader's relatives' home in Basra
     published_at: 2026-09-30T10:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003154513/https://shafaq.com/en/Security/Grenade-targets-Sheikhi-leader-s-relatives-home-in-Basra
+        captured_at: 2026-10-03T15:45:13Z
 assessment:
   status: unverified
   credibility: 6

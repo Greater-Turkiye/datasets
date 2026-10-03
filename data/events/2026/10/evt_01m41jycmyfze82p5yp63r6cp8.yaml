@@ -1,0 +1,37 @@
+id: evt_01m41jycmyfze82p5yp63r6cp8
+schema: event/1
+event_type: maritime.activity
+title:
+  tr: Gemiler Phoenix Express 2026 sırasında denize açıldı
+  en: Ships set sail during Phoenix Express 2026
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-15T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-15T14:21Z
+location:
+  geometry: {type: Point, coordinates: [9.855, 37.29]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Bizerte, en: Bizerte}
+regions: [libya-north-africa]
+sources:
+  - url: https://www.c6f.navy.mil/Press-Room/News/Article/4601211/ships-set-sail-during-phoenix-express-2026/
+    title: Ships set sail during Phoenix Express 2026
+    published_at: 2026-09-15T14:21Z
+    lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260920070037/https://www.c6f.navy.mil/Press-Room/News/Article/4601211/ships-set-sail-during-phoenix-express-2026/
+        captured_at: 2026-09-20T07:00:37Z
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-usa-c6f. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-usa-c6f. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]
