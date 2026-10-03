@@ -18,6 +18,10 @@ sources:
     title: State Secretary Galić Meets with Major General Manke
     published_at: 2026-06-29T11:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003154251/https://www.morh.hr/en/state-secretary-galic-meets-with-major-general-manke/
+        captured_at: 2026-10-03T15:42:51Z
 assessment:
   status: unverified
   credibility: 6

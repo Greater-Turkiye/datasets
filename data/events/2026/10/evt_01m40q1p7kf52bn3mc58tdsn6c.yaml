@@ -18,6 +18,10 @@ sources:
     title: "War update: 194 combat clashes on front lines over past day, Kostiantynivka, Pokrovsk axes hottest"
     published_at: 2026-10-03T07:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003100102/https://www.ukrinform.net/rubric-ato/4170629-war-update-194-combat-clashes-on-front-lines-over-past-day-kostiantynivka-pokrovsk-axes-hottest.html
+        captured_at: 2026-10-03T10:01:02Z
 assessment:
   status: unverified
   credibility: 6

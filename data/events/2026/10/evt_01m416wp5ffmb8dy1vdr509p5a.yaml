@@ -1,9 +1,9 @@
-id: evt_01m40az9ype2f899w8m0ze2m7s
+id: evt_01m416wp5ffmb8dy1vdr509p5a
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rus saldırısı Kiev'in Kuzey Köprüsü'ndeki yol yüzeyine zarar vererek sağ kıyıya giden trafiği engelledi
-  en: Russian attack damages road surface on Kyiv's Northern Bridge, blocking traffic to right bank
+  tr: Kiev'deki Kuzey Köprüsü'ne düzenlenen Rus saldırısında iki kişi yaralandı
+  en: Two injured in Russian strike on Northern Bridge in Kyiv
 i18n:
   source: en
   machine: [tr]
@@ -11,7 +11,7 @@ time:
   start: 2026-10-03T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-03T06:28Z
+reported_at: 2026-10-03T10:52Z
 location:
   geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
@@ -20,14 +20,10 @@ location:
   place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170602-russian-attack-damages-road-surface-on-kyivs-northern-bridge-blocking-traffic-to-right-bank.html
-    title: Russian attack damages road surface on Kyiv's Northern Bridge, blocking traffic to right bank
-    published_at: 2026-10-03T06:28Z
+  - url: https://www.ukrinform.net/rubric-ato/4170678-two-injured-in-russian-strike-on-northern-bridge-in-kyiv.html
+    title: Two injured in Russian strike on Northern Bridge in Kyiv
+    published_at: 2026-10-03T10:52Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261003093102/https://www.ukrinform.net/rubric-ato/4170602-russian-attack-damages-road-surface-on-kyivs-northern-bridge-blocking-traffic-to-right-bank.html
-        captured_at: 2026-10-03T09:31:02Z
 assessment:
   status: unverified
   credibility: 6

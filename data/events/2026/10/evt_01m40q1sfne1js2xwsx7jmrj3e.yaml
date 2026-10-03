@@ -24,6 +24,10 @@ sources:
     title: Five injured as Russian forces attack Izium with drones
     published_at: 2026-10-03T08:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003121612/https://www.ukrinform.net/rubric-ato/4170636-five-injured-as-russian-forces-attack-izium-with-drones.html
+        captured_at: 2026-10-03T12:16:12Z
 assessment:
   status: unverified
   credibility: 6

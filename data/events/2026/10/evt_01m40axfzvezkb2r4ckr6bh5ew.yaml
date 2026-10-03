@@ -18,6 +18,10 @@ sources:
     title: "Minister Anušić: Alongside our Rafales, the Chunmoo will be the Croatian Armed Forces’ strike force"
     published_at: 2026-09-10T07:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003110607/https://www.morh.hr/en/minister-anusic-alongside-our-rafales-the-chunmoo-will-be-the-croatian-armed-forces-strike-force/
+        captured_at: 2026-10-03T11:06:07Z
 assessment:
   status: unverified
   credibility: 6

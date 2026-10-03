@@ -18,6 +18,10 @@ sources:
     title: Iran's Hormuz Leverage Is Fading, But It Isn't Gone
     published_at: 2026-10-02T11:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002153621/https://www.rferl.org/a/iran-strait-hormuz/33868933.html
+        captured_at: 2026-10-02T15:36:21Z
 assessment:
   status: unverified
   credibility: 6

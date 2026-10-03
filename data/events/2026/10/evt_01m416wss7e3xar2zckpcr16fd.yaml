@@ -1,9 +1,9 @@
-id: evt_01m40az52ff8wt3j9vs3w6keg6
+id: evt_01m416wss7e3xar2zckpcr16fd
 schema: event/1
-event_type: kinetic.attack
+event_type: deployment.announced
 title:
-  tr: Rus saldırısı Zaporijya'da itfaiye istasyonunu vurdu, itfaiyeci yaralandı
-  en: Russian attack strikes fire station in Zaporizhzhia, injuring firefighter
+  tr: Putin, Rusya'nın Eylül ayında 301 kilometrekarelik Ukrayna topraklarını ele geçirdiğini ve bunun ISW verilerinden keskin bir şekilde farklı olduğunu iddia etti
+  en: Putin claims Russia seized 1,301 square kilometers of Ukrainian territory in September, sharply diverging from ISW data
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-10-03T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-03T04:30Z
+reported_at: 2026-10-03T13:03Z
 location:
-  geometry: {type: Point, coordinates: [35.175, 47.859]}
+  geometry: {type: Point, coordinates: [40.41, 56.13]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Zaporijya, en: Zaporizhzhya}
+  place_name: {tr: Vladimir, en: Vladimir}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170585-russian-attack-strikes-fire-station-in-zaporizhzhia-injuring-firefighter.html
-    title: Russian attack strikes fire station in Zaporizhzhia, injuring firefighter
-    published_at: 2026-10-03T04:30Z
+  - url: https://www.ukrinform.net/rubric-ato/4170705-putin-claims-russia-seized-1301-square-kilometers-of-ukrainian-territory-in-september-sharply-diverging-from-isw-data.html
+    title: Putin claims Russia seized 1,301 square kilometers of Ukrainian territory in September, sharply diverging from ISW data
+    published_at: 2026-10-03T13:03Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261003074612/https://www.ukrinform.net/rubric-ato/4170585-russian-attack-strikes-fire-station-in-zaporizhzhia-injuring-firefighter.html
-        captured_at: 2026-10-03T07:46:12Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Air defense intercepts 131 of 157 drones used by Russia to attack Ukraine overnight
     published_at: 2026-10-03T08:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003093101/https://www.ukrinform.net/rubric-ato/4170631-air-defense-intercepts-131-of-157-drones-used-by-russia-to-attack-ukraine-overnight.html
+        captured_at: 2026-10-03T09:31:01Z
 assessment:
   status: unverified
   credibility: 6

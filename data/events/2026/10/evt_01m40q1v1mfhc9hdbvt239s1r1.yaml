@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces strike drone launch site in Donetsk region, military targets in Russia's Belgorod region
     published_at: 2026-10-03T09:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003103113/https://www.ukrinform.net/rubric-ato/4170648-ukrainian-forces-strike-drone-launch-site-in-donetsk-region-military-targets-in-russias-belgorod-region.html
+        captured_at: 2026-10-03T10:31:13Z
 assessment:
   status: unverified
   credibility: 6

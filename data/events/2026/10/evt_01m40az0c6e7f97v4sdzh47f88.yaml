@@ -24,6 +24,10 @@ sources:
     title: Iraqi Air Force denies reports of F-16 crash
     published_at: 2026-10-02T11:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261002115342/https://www.shafaq.com/en/Security/Iraqi-Air-Force-denies-reports-of-F-16-crash-in-Nineveh
+        captured_at: 2026-10-02T11:53:42Z
 assessment:
   status: unverified
   credibility: 6

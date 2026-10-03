@@ -24,6 +24,10 @@ sources:
     title: Five killed, dozens injured in Russian attacks in Kharkiv region over past day
     published_at: 2026-10-03T09:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003121612/https://www.ukrinform.net/rubric-ato/4170657-five-killed-dozens-injured-in-russian-attacks-in-kharkiv-region-over-past-day.html
+        captured_at: 2026-10-03T12:16:12Z
 assessment:
   status: unverified
   credibility: 6

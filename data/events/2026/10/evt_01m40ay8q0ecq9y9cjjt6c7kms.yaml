@@ -24,6 +24,10 @@ sources:
     title: Al-Sadr dissolves Promised Day Brigade
     published_at: 2026-09-30T09:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003154325/https://shafaq.com/en/Security/Al-Sadr-dissolves-Promised-Day-Brigade
+        captured_at: 2026-10-03T15:43:25Z
 assessment:
   status: unverified
   credibility: 6
