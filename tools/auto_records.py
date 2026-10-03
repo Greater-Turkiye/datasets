@@ -429,6 +429,25 @@ def clean(s, limit: int) -> str | None:
     return s[:limit].rstrip() if s else None
 
 
+# Headline words that are never names. A feed without an excerpt (RFE/RL: "Belgrade Showcases Lethal
+# Chinese Tech") leaves nothing to read the names off, and the translator kept every capital
+# ("Belgrad, Ölümcül Çin Teknolojisini Sergiliyor"); these are lowered unless the excerpt capitalises them.
+HEADLINE_WORDS = set("""
+a an the and or but as at by for from in into of on onto over to with without amid after before against
+near across about under up out off new its his her their more most first last
+says said say tells told warns warn calls call holds hold signs sign visits visit meets meet targets target
+launches launch tests test shows showcases showcase unveils unveil plans plan seeks seek opens open hits hit
+kills killed kill wounds wounded injured strikes strike attacks attack downs downed shoots shot sends send
+deploys deploy moves move boosts boost buys buy sells sell orders order receives receive delivers deliver
+talks deal deals agreement pact war conflict ceasefire truce peace border borders base bases
+drone drones missile missiles rocket rockets jet jets aircraft fighter fighters ship ships warship warships
+submarine submarines vessel vessels tank tanks weapon weapons arms tech technology system systems
+army navy forces force troops soldiers military defense defence security exercise exercises drills drill
+joint naval air sea land minister ministry president chief commander general officials official deputy
+secretary prime foreign head region report reports network sanctions push lethal deadly major
+""".split())
+
+
 def sentence_case(title: str, text: str) -> str:
     """An English headline in Title Case ("State Secretary Galić Meets With Major General Manke"), put in
     sentence case for the translator, which otherwise keeps every capital ("Eyalet Sekreteri Galić
@@ -440,10 +459,12 @@ def sentence_case(title: str, text: str) -> str:
     if len(long) < 3 or sum(w[:1].isupper() for w in long) < 0.7 * len(long):
         return title
     lower = set(re.findall(r"(?<![.!?]\s)(?<!^)\b([a-z][\w'’-]*)", text or ""))
+    capital = set(re.findall(r"\b([A-Z][a-z][\w'’-]*)", text or ""))
     out = [words[0]]
     for w in words[1:]:
         core = w.strip("\"'‘’“”,:;.!?()")
-        if core[:1].isupper() and not core.isupper() and core.lower() in lower:
+        common = core.lower() in HEADLINE_WORDS and core not in capital
+        if core[:1].isupper() and not core.isupper() and (core.lower() in lower or common):
             w = w.replace(core, core.lower(), 1)
         out.append(w)
     return " ".join(out)
