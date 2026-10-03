@@ -429,13 +429,35 @@ def clean(s, limit: int) -> str | None:
     return s[:limit].rstrip() if s else None
 
 
+def sentence_case(title: str, text: str) -> str:
+    """An English headline in Title Case ("State Secretary Galić Meets With Major General Manke"), put in
+    sentence case for the translator, which otherwise keeps every capital ("Eyalet Sekreteri Galić
+    Tümgeneral Manke ile Görüştü"). Which words are names is read off the item's own excerpt, written
+    in sentence case: a word that appears there in lower case is lowered, one that appears only
+    capitalised, or not at all, keeps its capital. A headline not in Title Case is returned as it is."""
+    words = title.split()
+    long = [w for w in words[1:] if len(w.strip("\"'‘’“”,:;.!?()")) >= 4]
+    if len(long) < 3 or sum(w[:1].isupper() for w in long) < 0.7 * len(long):
+        return title
+    lower = set(re.findall(r"(?<![.!?]\s)(?<!^)\b([a-z][\w'’-]*)", text or ""))
+    out = [words[0]]
+    for w in words[1:]:
+        core = w.strip("\"'‘’“”,:;.!?()")
+        if core[:1].isupper() and not core.isupper() and core.lower() in lower:
+            w = w.replace(core, core.lower(), 1)
+        out.append(w)
+    return " ".join(out)
+
+
 def titles(cl: Cluster) -> dict:
     """tr and en titles, and the i18n block saying which is the source and which are machine-made."""
     lead = cl.lead
     src = (lead.lang or "en").split("-")[0]
     head = clean(lead.title, 300)
     if src == "en":
-        return {"tr": sense(translate(head, "en", "tr"), head), "en": head, "i18n": {"source": "en", "machine": ["tr"]}}
+        # the translator reads the headline in sentence case; the record keeps the source's own headline
+        return {"tr": sense(translate(sentence_case(head, lead.text), "en", "tr"), head), "en": head,
+                "i18n": {"source": "en", "machine": ["tr"]}}
     if src == "tr":
         return {"tr": head, "en": translate(head, "tr", "en"), "i18n": {"source": "tr", "machine": ["en"]}}
     en = translate(head, src, "en")

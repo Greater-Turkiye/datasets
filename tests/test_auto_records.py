@@ -212,3 +212,14 @@ def test_a_verdict_on_a_trend_is_analysis():
                   "Two 'terrorists' killed in Kirkuk clashes"]:
         assert not AR.NOT_AN_EVENT.search(title), title
 
+
+def test_a_title_case_headline_is_put_in_sentence_case_for_the_translator():
+    text = "State secretary Ivan Galić met with major general Manke of the German army in Zagreb on Monday."
+    assert AR.sentence_case("State Secretary Galić Meets With Major General Manke", text) == \
+        "State secretary Galić Meets with major general Manke"
+    # a headline already in sentence case is left alone
+    assert AR.sentence_case("Two 'terrorists' killed in Kirkuk clashes", "") == "Two 'terrorists' killed in Kirkuk clashes"
+    # with no excerpt, nothing is lowered
+    assert AR.sentence_case("US Targets Russia's A7 Network In New Iran Sanctions Push", "") == \
+        "US Targets Russia's A7 Network In New Iran Sanctions Push"
+
