@@ -18,6 +18,10 @@ sources:
     title: Enlisted leaders map future of African security
     published_at: 2026-09-22T13:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003192210/https://www.dvidshub.net/news/575310/enlisted-leaders-map-future-african-security
+        captured_at: 2026-10-03T19:22:10Z
 assessment:
   status: unverified
   credibility: 6

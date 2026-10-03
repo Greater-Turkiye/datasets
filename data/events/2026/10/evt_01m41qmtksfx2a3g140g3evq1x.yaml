@@ -1,9 +1,9 @@
-id: evt_01m416wxa3ev1ryjbz6cq83bq1
+id: evt_01m41qmtksfx2a3g140g3evq1x
 schema: event/1
-event_type: kinetic.airstrike
+event_type: kinetic.drone-strike
 title:
-  tr: Rusya'nın güdümlü bombalı saldırıları Sumy bölgesindeki işletmeleri vurdu
-  en: Russian guided bomb strikes hit businesses in Sumy region
+  tr: Rus insansız hava aracı Harkov bölgesinde arabaya saldırırken öldürülen kadın
+  en: Woman killed as Russian drone strikes car in Kharkiv region
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-10-03T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-03T13:58Z
+reported_at: 2026-10-03T18:53Z
 location:
-  geometry: {type: Point, coordinates: [34.781, 50.924]}
+  geometry: {type: Point, coordinates: [36.248, 50.002]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Sumy bölgesi, en: Sumy region}
+  place_name: {tr: Kharkiv bölgesi, en: Kharkiv region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170717-russian-guided-bomb-strikes-hit-businesses-in-sumy-region.html
-    title: Russian guided bomb strikes hit businesses in Sumy region
-    published_at: 2026-10-03T13:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4170767-woman-killed-as-russian-drone-strikes-car-in-kharkiv-region.html
+    title: Woman killed as Russian drone strikes car in Kharkiv region
+    published_at: 2026-10-03T18:53Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261003160101/https://www.ukrinform.net/rubric-ato/4170717-russian-guided-bomb-strikes-hit-businesses-in-sumy-region.html
-        captured_at: 2026-10-03T16:01:01Z
 assessment:
   status: unverified
   credibility: 6

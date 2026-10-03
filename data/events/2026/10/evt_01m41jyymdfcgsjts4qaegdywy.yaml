@@ -18,6 +18,10 @@ sources:
     title: Ukraine to step up strikes on Russian oil refineries in response to Putin's 'new doctrine' – Zelensky
     published_at: 2026-10-03T17:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003193101/https://www.ukrinform.net/rubric-ato/4170759-ukraine-to-step-up-strikes-on-russian-oil-refineries-in-response-to-putins-new-doctrine-zelensky.html
+        captured_at: 2026-10-03T19:31:01Z
 assessment:
   status: unverified
   credibility: 6
