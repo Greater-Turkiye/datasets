@@ -24,6 +24,10 @@ sources:
     title: Three injured in Russian strike on apartment building in Dnipro
     published_at: 2026-10-02T20:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003003138/https://www.ukrinform.net/rubric-ato/4170567-three-injured-in-russian-strike-on-apartment-building-in-dnipro.html
+        captured_at: 2026-10-03T00:31:38Z
 assessment:
   status: unverified
   credibility: 6

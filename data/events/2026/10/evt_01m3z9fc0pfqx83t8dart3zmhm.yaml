@@ -24,6 +24,10 @@ sources:
     title: Daily Press Briefing by the Office of the Spokesperson for the Secretary-General
     published_at: 2026-10-02T19:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003034934/https://press.un.org/en/2026/db261002.doc.htm
+        captured_at: 2026-10-03T03:49:34Z
 assessment:
   status: unverified
   credibility: 6

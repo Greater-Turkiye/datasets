@@ -1,9 +1,9 @@
-id: evt_01m3ytf66de7ermphvzqg4ep53
+id: evt_01m3zxx1rdft08yhnrdh5ceex1
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: policy.defense
 title:
-  tr: Belarus, drone fırlatmaları sırasında sinyal tekrarlayıcıları etkinleştirme konusunda Rusya ile koordineli çalışıyor — Demchenko
-  en: Belarus coordinates with Russia on activating signal repeaters during drone launches — Demchenko
+  tr: HUR, Ukrayna'ya karşı savaşan Sierra Leone'den elenen paralı askeri tespit etti
+  en: HUR identifies eliminated mercenary from Sierra Leone who fought against Ukraine
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,17 @@ time:
   start: 2026-10-02T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-02T12:38Z
+reported_at: 2026-10-02T21:37Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4170429-belarus-coordinates-with-russia-on-activating-signal-repeaters-during-drone-launches-demchenko.html
-    title: Belarus coordinates with Russia on activating signal repeaters during drone launches — Demchenko
-    published_at: 2026-10-02T12:38Z
+  - url: https://www.ukrinform.net/rubric-ato/4170318-hur-identifies-eliminated-mercenary-from-sierra-leone-who-fought-against-ukraine.html
+    title: HUR identifies eliminated mercenary from Sierra Leone who fought against Ukraine
+    published_at: 2026-10-02T21:37Z
     lang: en
     archives:
       - service: wayback
-        url: https://web.archive.org/web/20261002141623/https://www.ukrinform.net/rubric-ato/4170429-belarus-coordinates-with-russia-on-activating-signal-repeaters-during-drone-launches-demchenko.html
-        captured_at: 2026-10-02T14:16:23Z
+        url: https://web.archive.org/web/20261003003137/https://www.ukrinform.net/rubric-ato/4170318-hur-identifies-eliminated-mercenary-from-sierra-leone-who-fought-against-ukraine.html
+        captured_at: 2026-10-03T00:31:37Z
 assessment:
   status: unverified
   credibility: 6
