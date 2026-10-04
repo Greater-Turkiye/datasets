@@ -241,3 +241,16 @@ def test_a_port_call_is_naval_activity_not_a_strike():
     assert AR.classify(c("Houthis attack a tanker in the Red Sea"), codes) == "maritime.incident"
     assert AR.classify(c("Russian missile strike on Odesa port"), codes) == "kinetic.missile-strike"
     assert AR.sentence_case("USS Jason Dunham Arrives In Cyprus", "") == "USS Jason Dunham arrives in Cyprus"
+
+
+def test_defence_against_drones_is_not_a_drone_strike():
+    codes = {"policy.defense", "kinetic.drone-strike", "kinetic.missile-strike"}
+    def c(title):
+        return AR.Candidate(url="", title=title, text="", lang="en", published_at="", region="black-sea",
+                            topics=["kinetic.drone-strike"], feed="rss-ukr-ukrinform-war-en")
+    assert AR.classify(c("Zelensky: More than 12 turrets to counter jet-powered drones installed in Kyiv"), codes) == "policy.defense"
+    assert AR.classify(c("Ukraine expands production of interceptor drones"), codes) == "policy.defense"
+    assert AR.classify(c("Anti-drone mobile fire groups shot down 40 Shaheds overnight"), codes) == "policy.defense"
+    # an attack by drones stays a strike
+    assert AR.classify(c("Russian drone attack on Kharkiv injures five"), codes) == "kinetic.drone-strike"
+    assert AR.classify(c("Drone debris falls on roof of high-rise in Kyiv"), codes) == "kinetic.drone-strike"

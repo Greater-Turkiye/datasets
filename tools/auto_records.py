@@ -118,6 +118,11 @@ TYPE_RULES = [
     # the collector having matched "guided-missile destroyer" in the text
     (r"\b(arrives?|arrived|departs?|departed|port (visit|call)|pulls? into|moors?|docks? (in|at)|"
      r"makes? port|returns? (home|to port))\b", "maritime.activity"),
+    # defence against drones is not a drone strike: "More than 12 turrets to counter jet-powered drones
+    # installed in Kyiv" was filed as kinetic.drone-strike, and its video opened "KİEV / GELİŞME"
+    (r"\b(counter|against|anti)[- ](\w+[- ]){0,3}(drones?|uavs?|shaheds?)\b|\binterceptor drones?\b|"
+     r"\b(drone|air) defen[cs]e\b|\b(turrets?|towers?|mobile fire groups?)\b.{0,60}\b(drones?|uavs?|shaheds?)\b",
+     "policy.defense"),
     (r"\b(drone|uav|shahed)", "kinetic.drone-strike"),
     (r"\b(missile|ballistic|cruise)", "kinetic.missile-strike"),
     (r"\b(airstrike|air strike|glide bomb|bombing|bombs?)\b", "kinetic.airstrike"),
@@ -419,7 +424,8 @@ def backfill_titles(formatter: gt.Formatter) -> list[Path]:
 
 def reclassify(formatter: gt.Formatter, codes: set[str]) -> list[Path]:
     """Correct the event type of automatic records written before a rule above: a record filed as an
-    attack whose English headline the rules now read as naval activity (a port call) is changed. Only
+    attack whose English headline the rules now read as naval activity (a port call) or as defence
+    against drones is changed. Only
     records tagged `otomatik`, only kinetic types, and running it twice changes nothing."""
     changed = []
     for path in sorted((ROOT / "data" / "events").rglob("*.yaml")):
@@ -430,7 +436,8 @@ def reclassify(formatter: gt.Formatter, codes: set[str]) -> list[Path]:
         probe = Candidate(url="", title=head, text="", lang="en", published_at="", region="",
                           topics=[data["event_type"]], feed="")
         code = classify(probe, codes)
-        if code == data["event_type"] or code != "maritime.activity":
+        # only the corrections the rules above were written for: a port call, defence against drones
+        if code == data["event_type"] or code not in ("maritime.activity", "policy.defense"):
             continue
         data["event_type"] = code
         path.write_text(formatter.format(path.read_text(encoding="utf-8"), data, "event"), encoding="utf-8", newline="\n")
@@ -657,7 +664,7 @@ def main() -> int:
         print(f"{len(retitled)} earlier automatic records' Turkish titles corrected")
     retyped = reclassify(formatter, set(vocab_codes()))
     if retyped:
-        print(f"{len(retyped)} earlier automatic records' event type corrected (port calls, not attacks)")
+        print(f"{len(retyped)} earlier automatic records' event type corrected (port calls and drone defence, not attacks)")
     if not clusters:
         return 0
     written, waiting = [], 0
