@@ -1,6 +1,6 @@
 id: evt_01m43vqzyze7jaxnhynete1c7p
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: policy.defense
 title:
   tr: Savunma Kuvvetleri, Zaporijya bölgesindeki Rus Buk - M3 hava savunma sistemini ve Donetsk yakınlarındaki İHA fırlatma sahasını vurdu
   en: Defense Forces strike Russian Buk-M3 air defense system in Zaporizhzhia region and UAV launch site near Donetsk

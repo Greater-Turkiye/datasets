@@ -1,6 +1,6 @@
 id: evt_01m3n3q5xrej9tzhde26swn6qx
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: policy.defense
 title:
   tr: Hava savunma kuvvetleri, gün boyunca Ukrayna üzerinde 124 Rus insansız hava aracından 86 'sını vurdu
   en: Air defense forces shoot down 86 of 124 Russian drones over Ukraine during day

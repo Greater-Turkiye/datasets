@@ -1,6 +1,6 @@
 id: evt_01m3y7a9mjfy39g647zd0hcyx2
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: policy.defense
 title:
   tr: Sumy bölgesindeki özel kuvvetler, İğneli önleyici dronların ilk partisini aldı
   en: Special forces in Sumy region receive first batch of Sting interceptor drones

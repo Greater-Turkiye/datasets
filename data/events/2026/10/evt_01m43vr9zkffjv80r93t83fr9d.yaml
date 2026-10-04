@@ -1,6 +1,6 @@
 id: evt_01m43vr9zkffjv80r93t83fr9d
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: policy.defense
 title:
   tr: "Zelenskiy: Kiev'de jetle çalışan insansız hava araçlarına karşı 12 'den fazla kule kuruldu"
   en: "Zelensky: More than 12 turrets to counter jet-powered drones installed in Kyiv"

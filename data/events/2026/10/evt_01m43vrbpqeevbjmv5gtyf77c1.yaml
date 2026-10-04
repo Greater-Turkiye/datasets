@@ -18,6 +18,10 @@ sources:
     title: Ukrainian drones hit two Russian fighter jets at air base in Adygea
     published_at: 2026-10-04T14:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261004163111/https://www.ukrinform.net/rubric-ato/4170953-ukrainian-drones-hit-two-russian-fighter-jets-at-air-base-in-adygea.html
+        captured_at: 2026-10-04T16:31:11Z
 assessment:
   status: unverified
   credibility: 6

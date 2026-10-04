@@ -24,6 +24,10 @@ sources:
     title: Drone with unexploded warhead crashes in Kyiv's Obolonskyi district
     published_at: 2026-10-04T15:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261004171601/https://www.ukrinform.net/rubric-ato/4170986-drone-with-unexploded-warhead-crashes-in-kyivs-obolonskyi-district.html
+        captured_at: 2026-10-04T17:16:01Z
 assessment:
   status: unverified
   credibility: 6

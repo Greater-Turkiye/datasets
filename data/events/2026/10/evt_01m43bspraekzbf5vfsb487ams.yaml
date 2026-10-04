@@ -1,6 +1,6 @@
 id: evt_01m43bspraekzbf5vfsb487ams
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: policy.defense
 title:
   tr: Hava savunması, Rusya'nın Ukrayna'ya bir gecede saldırmak için kullandığı iki Bandrol olan 123 İHA'yı durdurdu
   en: Air defense intercepts 123 drones, two Banderols used by Russia to attack Ukraine overnight

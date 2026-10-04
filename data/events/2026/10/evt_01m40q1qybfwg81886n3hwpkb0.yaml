@@ -1,6 +1,6 @@
 id: evt_01m40q1qybfwg81886n3hwpkb0
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: policy.defense
 title:
   tr: Hava savunması, Rusya'nın Ukrayna'ya bir gecede saldırmak için kullandığı 157 İHA'dan 131 'ini ele geçirdi
   en: Air defense intercepts 131 of 157 drones used by Russia to attack Ukraine overnight

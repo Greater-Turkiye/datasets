@@ -1,6 +1,6 @@
 id: evt_01m3vptwe1eaebj3w04e327bvv
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: policy.defense
 title:
   tr: Ukrayna hava savunması, bir gecede fırlatılan 107 Rus insansız hava aracından 87 'sini etkisiz
   en: Ukrainian air defense neutralizes 87 of 107 Russian drones launched overnight

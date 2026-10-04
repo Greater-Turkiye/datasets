@@ -18,6 +18,10 @@ sources:
     title: "Dodging Drones: An 'Apocalyptic' Journey On The Ukrainian Front Lines"
     published_at: 2026-10-04T12:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261004163732/https://www.rferl.org/a/druzhkivka-under-fire-the-dangerous-road-into-a-ukrainian-city/33868521.html
+        captured_at: 2026-10-04T16:37:32Z
 assessment:
   status: unverified
   credibility: 6

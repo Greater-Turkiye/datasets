@@ -1,6 +1,6 @@
 id: evt_01m3nnrjzbem3vckgw0342ys6x
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: policy.defense
 title:
   tr: "\"Magyar \": Ukraynalı mühendisler Shahed dronlarına karşı jetle çalışan karşı önlemleri başarıyla test etti"
   en: "'Magyar': Ukrainian engineers successfully test jet-powered countermeasures against Shahed drones"
