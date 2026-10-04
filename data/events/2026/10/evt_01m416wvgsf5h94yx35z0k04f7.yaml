@@ -24,6 +24,10 @@ sources:
     title: Belgrade Showcases Lethal Chinese Tech
     published_at: 2026-10-03T13:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003175030/https://www.rferl.org/a/armed--robot-dogs-serbia/33869656.html
+        captured_at: 2026-10-03T17:50:30Z
 assessment:
   status: unverified
   credibility: 6

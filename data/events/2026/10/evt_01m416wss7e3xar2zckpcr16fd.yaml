@@ -24,6 +24,10 @@ sources:
     title: Putin claims Russia seized 1,301 square kilometers of Ukrainian territory in September, sharply diverging from ISW data
     published_at: 2026-10-03T13:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003160101/https://www.ukrinform.net/rubric-ato/4170705-putin-claims-russia-seized-1301-square-kilometers-of-ukrainian-territory-in-september-sharply-diverging-from-isw-data.html
+        captured_at: 2026-10-03T16:01:01Z
 assessment:
   status: unverified
   credibility: 6
