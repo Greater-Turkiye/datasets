@@ -18,6 +18,10 @@ sources:
     title: USS Roosevelt departs Cyprus
     published_at: 2026-10-03T14:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261004041301/https://www.c6f.navy.mil/Press-Room/News/Article/4618576/uss-roosevelt-departs-cyprus/
+        captured_at: 2026-10-04T04:13:01Z
 assessment:
   status: unverified
   credibility: 6

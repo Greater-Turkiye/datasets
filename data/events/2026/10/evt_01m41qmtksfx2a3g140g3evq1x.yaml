@@ -24,6 +24,10 @@ sources:
     title: Woman killed as Russian drone strikes car in Kharkiv region
     published_at: 2026-10-03T18:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261004002549/https://www.ukrinform.net/rubric-ato/4170767-woman-killed-as-russian-drone-strikes-car-in-kharkiv-region.html
+        captured_at: 2026-10-04T00:25:49Z
 assessment:
   status: unverified
   credibility: 6
