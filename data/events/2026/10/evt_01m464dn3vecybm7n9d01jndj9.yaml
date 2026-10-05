@@ -24,6 +24,10 @@ sources:
     title: "Warsaw Human Dimension Conference 2026: UK statement to opening session"
     published_at: 2026-10-05T12:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261005234618/https://www.gov.uk/government/speeches/warsaw-human-dimension-conference-2026-uk-statement-to-opening-session
+        captured_at: 2026-10-05T23:46:18Z
 assessment:
   status: unverified
   credibility: 6

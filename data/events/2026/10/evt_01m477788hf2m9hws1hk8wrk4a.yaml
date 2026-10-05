@@ -1,9 +1,9 @@
-id: evt_01m464dhcjec183fevd0t64gf8
+id: evt_01m477788hf2m9hws1hk8wrk4a
 schema: event/1
-event_type: maritime.activity
+event_type: other
 title:
-  tr: Ukraynalı şarkıcı, cephe hattının yakınındaki Ukraynalı askerlere performans sergilemek için ABD'den eve döndü
-  en: Ukrainian Singer Returns Home From US To Perform For Ukrainian Soldiers Near Front Line
+  tr: Protestocular, cumhurbaşkanı ve Kosova savaş suçları mahkemesi oylamasında polis çatışması
+  en: Protesters, Police Clash As Vote On President And Kosovo War Crimes Court Stalls
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-10-05T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-05T11:57Z
-regions: [black-sea]
+reported_at: 2026-10-05T12:06Z
+regions: [balkans]
 sources:
-  - url: https://www.rferl.org/a/ukrainian-singer-returns-home-from-us-to-perform-for-ukrainian-soldiers/33870626.html
-    title: Ukrainian Singer Returns Home From US To Perform For Ukrainian Soldiers Near Front Line
-    published_at: 2026-10-05T11:57Z
+  - url: https://www.rferl.org/a/kosovo-parliament-war-crimes-court-changes-kurti-albania/33870618.html
+    title: Protesters, Police Clash As Vote On President And Kosovo War Crimes Court Stalls
+    published_at: 2026-10-05T12:06Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261005203948/https://www.rferl.org/a/ukrainian-singer-returns-home-from-us-to-perform-for-ukrainian-soldiers/33870626.html
-        captured_at: 2026-10-05T20:39:48Z
 assessment:
   status: unverified
   credibility: 6

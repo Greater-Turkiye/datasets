@@ -1,9 +1,9 @@
-id: evt_01m464ddw6efg8gnwawe8qp551
+id: evt_01m4777zd5fg1tx3h5a54k2thw
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rusya'nın Çernihiv bölgesindeki saldırılar geçen gün 5 kişiyi öldürdü
-  en: Russian attacks in Chernihiv region kill five people over past day
+  tr: Rus kuvvetleri Dnipropetrovsk bölgesine yaklaşık 50 kez saldırdı, bir kişiyi öldürdü ve bir kişiyi yaraladı
+  en: Russian forces attack Dnipropetrovsk region nearly 50 times, killing one and injuring one person
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-10-05T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-05T09:57Z
+reported_at: 2026-10-05T16:59Z
 location:
-  geometry: {type: Point, coordinates: [31.302, 51.505]}
+  geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Chernihiv bölgesi, en: Chernihiv region}
+  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4171139-russian-attacks-in-chernihiv-region-kill-five-people-over-past-day.html
-    title: Russian attacks in Chernihiv region kill five people over past day
-    published_at: 2026-10-05T09:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4171343-russian-forces-attack-dnipropetrovsk-region-nearly-50-times-killing-one-and-injuring-one-person.html
+    title: Russian forces attack Dnipropetrovsk region nearly 50 times, killing one and injuring one person
+    published_at: 2026-10-05T16:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261005123136/https://www.ukrinform.net/rubric-ato/4171139-russian-attacks-in-chernihiv-region-kill-five-people-over-past-day.html
-        captured_at: 2026-10-05T12:31:36Z
 assessment:
   status: unverified
   credibility: 6

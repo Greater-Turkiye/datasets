@@ -18,6 +18,10 @@ sources:
     title: Rubio Heads To NATO Allies As Russian Threat, Middle East War Shape Agenda
     published_at: 2026-10-05T02:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261005102023/https://www.rferl.org/a/rubio-russia-nato-iceland/33870383.html
+        captured_at: 2026-10-05T10:20:23Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,33 +1,29 @@
-id: evt_01m453hhaaecwvyjxstx4445yc
+id: evt_01m47784yffe0bdsxwyke9ntfy
 schema: event/1
-event_type: policy.defense
+event_type: kinetic.attack
 title:
-  tr: "Bağdat: F -16 tamamen yerli bakım"
-  en: "Baghdad: F-16 upkeep fully domestic"
+  tr: "Kerkük: IŞİD saldırısı bir polis memurunu öldürdü"
+  en: "Kirkuk: ISIS attack kills a police officer"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-04T00:00Z
+  start: 2026-10-05T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-04T22:00Z
+reported_at: 2026-10-05T18:49Z
 location:
-  geometry: {type: Point, coordinates: [44.392, 33.341]}
+  geometry: {type: Point, coordinates: [44.392, 35.472]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Bağdat, en: Baghdad}
+  place_name: {tr: Kerkük, en: Kirkuk}
 regions: [iraq]
 sources:
-  - url: https://shafaq.com/en/Security/Baghdad-F-16-upkeep-now-fully-domestic
-    title: "Baghdad: F-16 upkeep fully domestic"
-    published_at: 2026-10-04T22:00Z
+  - url: https://shafaq.com/en/Security/Kirkuk-ISIS-kills-Federal-Police-officer
+    title: "Kirkuk: ISIS attack kills a police officer"
+    published_at: 2026-10-05T18:49Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261004224843/https://www.shafaq.com/en/Security/Baghdad-F-16-upkeep-now-fully-domestic
-        captured_at: 2026-10-04T22:48:43Z
 assessment:
   status: unverified
   credibility: 6
