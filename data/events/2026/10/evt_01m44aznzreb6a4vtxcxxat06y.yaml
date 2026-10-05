@@ -24,6 +24,10 @@ sources:
     title: Drone strike on power facility in Poltava region leaves 22,000 customers without power
     published_at: 2026-10-04T19:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261004220102/https://www.ukrinform.net/rubric-ato/4171022-drone-strike-on-power-facility-in-poltava-region-leaves-22000-customers-without-power.html
+        captured_at: 2026-10-04T22:01:02Z
 assessment:
   status: unverified
   credibility: 6

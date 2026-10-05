@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Ukraine tests Nika missile and SPYS interceptor against jet-powered drones"
     published_at: 2026-10-04T18:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261004220103/https://www.ukrinform.net/rubric-ato/4171021-zelensky-ukraine-tests-nika-missile-and-spys-interceptor-against-jetpowered-drones.html
+        captured_at: 2026-10-04T22:01:03Z
 assessment:
   status: unverified
   credibility: 6

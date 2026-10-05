@@ -24,6 +24,10 @@ sources:
     title: Guided bombs strike on Sumy injures seven, damages gas networks and business facility
     published_at: 2026-10-04T09:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261004120126/https://www.ukrinform.net/rubric-ato/4170867-guided-bombs-strike-on-sumy-injures-seven-damages-gas-networks-and-business-facility.html
+        captured_at: 2026-10-04T12:01:26Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "President: Defense Forces carry out two successful offensive operations"
     published_at: 2026-10-04T18:33Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261004210101/https://www.ukrinform.net/rubric-ato/4171020-president-defense-forces-carry-out-two-successful-offensive-operations.html
+        captured_at: 2026-10-04T21:01:01Z
 assessment:
   status: unverified
   credibility: 6
