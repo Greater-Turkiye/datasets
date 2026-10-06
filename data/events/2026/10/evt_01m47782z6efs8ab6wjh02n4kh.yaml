@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Ukraine expects partners to meet arms delivery deadlines"
     published_at: 2026-10-05T18:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261005201605/https://www.ukrinform.net/rubric-ato/4171366-zelensky-ukraine-expects-partners-to-meet-arms-delivery-deadlines.html
+        captured_at: 2026-10-05T20:16:05Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Dnipropetrovsk region nearly 50 times, killing one and injuring one person
     published_at: 2026-10-05T16:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261005201614/https://www.ukrinform.net/rubric-ato/4171343-russian-forces-attack-dnipropetrovsk-region-nearly-50-times-killing-one-and-injuring-one-person.html
+        captured_at: 2026-10-05T20:16:14Z
 assessment:
   status: unverified
   credibility: 6

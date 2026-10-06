@@ -18,6 +18,10 @@ sources:
     title: Telephone conversation with President of Tajikistan Emomali Rahmon
     published_at: 2026-10-05T07:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261005234652/http://en.kremlin.ru/events/president/news/80925
+        captured_at: 2026-10-05T23:46:52Z
 assessment:
   status: unverified
   credibility: 6

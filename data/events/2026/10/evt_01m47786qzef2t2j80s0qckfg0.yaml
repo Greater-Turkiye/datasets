@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes high-rise building in Zaporizhzhia, causing casualties and apartment fires
     published_at: 2026-10-05T18:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261005211614/https://www.ukrinform.net/rubric-ato/4171367-russian-drone-strikes-highrise-building-in-zaporizhzhia-causing-casualties-and-apartment-fires.html
+        captured_at: 2026-10-05T21:16:14Z
 assessment:
   status: unverified
   credibility: 6
