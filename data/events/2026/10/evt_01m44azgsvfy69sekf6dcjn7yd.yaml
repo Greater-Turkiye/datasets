@@ -1,6 +1,6 @@
 id: evt_01m44azgsvfy69sekf6dcjn7yd
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.shelling
 title:
   tr: Rus bombardımanı Dnipropetrovsk bölgesindeki altyapıya zarar verdi, birini öldürdü ve dördünü yaraladı
   en: Russian shelling damages infrastructure in Dnipropetrovsk region, killing one and injuring four others

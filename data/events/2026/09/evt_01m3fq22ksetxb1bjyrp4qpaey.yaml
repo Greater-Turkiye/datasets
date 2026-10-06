@@ -1,6 +1,6 @@
 id: evt_01m3fq22ksetxb1bjyrp4qpaey
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.shelling
 title:
   tr: Rus bombardımanı Nikopol bölgesinde üç kişiyi yaraladı
   en: Russian shelling injures three people in Nikopol district
