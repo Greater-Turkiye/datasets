@@ -254,3 +254,13 @@ def test_defence_against_drones_is_not_a_drone_strike():
     # an attack by drones stays a strike
     assert AR.classify(c("Russian drone attack on Kharkiv injures five"), codes) == "kinetic.drone-strike"
     assert AR.classify(c("Drone debris falls on roof of high-rise in Kyiv"), codes) == "kinetic.drone-strike"
+
+
+def test_shelling_is_shelling():
+    codes = {"kinetic.shelling", "kinetic.attack"}
+    def c(title):
+        return AR.Candidate(url="", title=title, text="", lang="en", published_at="", region="black-sea",
+                            topics=["kinetic.attack"], feed="rss-ukr-ukrinform-war-en")
+    assert AR.classify(c("Russian shelling damages infrastructure in Dnipropetrovsk region, killing one"), codes) == "kinetic.shelling"
+    assert AR.classify(c("Kherson shelled 40 times overnight"), codes) == "kinetic.shelling"
+    assert AR.classify(c("Russian attack kills two in Kharkiv"), codes) == "kinetic.attack"
