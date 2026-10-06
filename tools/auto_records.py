@@ -102,7 +102,11 @@ bir ve ile için olarak da de bu şu""".split())
 # matched keywords anywhere in the item; these read the headline and put the act first, so a
 # statement condemning an attack is a statement and a purchase of rocket launchers is a purchase.
 TYPE_RULES = [
-    (r"\b(sentenc|convict|verdict|court|trial|indict)", "other"),
+    # a lawsuit is a court matter too: "Serbian Student Targeted by Spyware Attack Sues Authorities"
+    (r"\b(sentenc|convict|verdict|court|trial|indict)|\b(sues?|lawsuit)\b", "other"),
+    # an attack by software is no attack by arms: the same headline was filed as kinetic.attack and
+    # topped the video selector on 6 October
+    (r"\b(cyber\w*|spyware|malware|ransomware|hack(s|ed|ers?|ing)?|phishing|ddos)\b", "cyber.incident"),
     (r"\b(statement|condemn|address(es)? (to )?the|explanation of vote|urges?|warns?|calls? (on|for)|"
      r"denounce|slams?|resolution|veto)", "diplomatic.statement"),
     (r"\b(telephone conversation|phone call|talks|meets?|meeting|visit|summit|negotiat)", "diplomatic.talks"),
@@ -438,8 +442,10 @@ def reclassify(formatter: gt.Formatter, codes: set[str]) -> list[Path]:
         probe = Candidate(url="", title=head, text="", lang="en", published_at="", region="",
                           topics=[data["event_type"]], feed="")
         code = classify(probe, codes)
-        # only the corrections the rules above were written for: a port call, defence against drones
-        if code == data["event_type"] or code not in ("maritime.activity", "policy.defense", "kinetic.shelling"):
+        # only the corrections the rules above were written for: a port call, defence against drones,
+        # shelling, an attack by software, a court matter
+        if code == data["event_type"] or code not in ("maritime.activity", "policy.defense", "kinetic.shelling",
+                                                      "cyber.incident", "other"):
             continue
         data["event_type"] = code
         path.write_text(formatter.format(path.read_text(encoding="utf-8"), data, "event"), encoding="utf-8", newline="\n")

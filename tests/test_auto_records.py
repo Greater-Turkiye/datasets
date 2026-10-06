@@ -264,3 +264,20 @@ def test_shelling_is_shelling():
     assert AR.classify(c("Russian shelling damages infrastructure in Dnipropetrovsk region, killing one"), codes) == "kinetic.shelling"
     assert AR.classify(c("Kherson shelled 40 times overnight"), codes) == "kinetic.shelling"
     assert AR.classify(c("Russian attack kills two in Kharkiv"), codes) == "kinetic.attack"
+
+
+def test_an_attack_by_software_is_not_an_armed_attack():
+    codes = {"cyber.incident", "kinetic.attack", "other"}
+    def c(title):
+        return AR.Candidate(url="", title=title, text="", lang="en", published_at="", region="balkans",
+                            topics=["kinetic.attack"], feed="rss-bih-balkaninsight")
+    # a lawsuit about spyware is a court matter
+    assert AR.classify(c("Serbian Student Targeted by Spyware Attack Sues Authorities"), codes) == "other"
+    assert AR.classify(c("Cyber attack disrupts ministry websites"), codes) == "cyber.incident"
+    assert AR.classify(c("Hackers target power grid operator"), codes) == "cyber.incident"
+    # the court words are still stems: "sentenced", "convicted" and "indicted" stay court matters
+    assert AR.classify(c("Hacker sentenced to five years"), codes) == "other"
+    # an armed attack stays one
+    assert AR.classify(c("Attack on police station kills two"), codes) == "kinetic.attack"
+    # "shackle" and "Hackney" are no hackers
+    assert AR.classify(c("Attack near Hackney injures one"), codes) == "kinetic.attack"
