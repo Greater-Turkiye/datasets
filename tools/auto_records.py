@@ -126,7 +126,9 @@ TYPE_RULES = [
     (r"\b(drone|uav|shahed)", "kinetic.drone-strike"),
     (r"\b(missile|ballistic|cruise)", "kinetic.missile-strike"),
     (r"\b(airstrike|air strike|glide bomb|bombing|bombs?)\b", "kinetic.airstrike"),
-    (r"\b(shell|artillery|mlrs|rocket launcher|uragan|grad)\b", "kinetic.shelling"),
+    # "shelling" and "shelled" too: "Russian shelling damages infrastructure …, killing one" was filed as
+    # kinetic.attack, the word boundary after "shell" failing on "shelling"
+    (r"\b(shell(s|ed|ing)?|artillery|mlrs|rocket launcher|uragan|grad)\b", "kinetic.shelling"),
     (r"\b(clash|fighting|offensive|assault|battle)", "kinetic.clash"),
     (r"\b(attack|strike|kill|injur|wound)", "kinetic.attack"),
     (r"\b(deploy|withdraw)", "deployment.announced"),
@@ -437,7 +439,7 @@ def reclassify(formatter: gt.Formatter, codes: set[str]) -> list[Path]:
                           topics=[data["event_type"]], feed="")
         code = classify(probe, codes)
         # only the corrections the rules above were written for: a port call, defence against drones
-        if code == data["event_type"] or code not in ("maritime.activity", "policy.defense"):
+        if code == data["event_type"] or code not in ("maritime.activity", "policy.defense", "kinetic.shelling"):
             continue
         data["event_type"] = code
         path.write_text(formatter.format(path.read_text(encoding="utf-8"), data, "event"), encoding="utf-8", newline="\n")
