@@ -1,0 +1,31 @@
+id: evt_01m48kxh7cfsdtxhz01jxdfg57
+schema: event/1
+event_type: maritime.activity
+title:
+  tr: USS Boxer şefin iğneleme törenini düzenledi
+  en: USS Boxer Holds Chief Pinning Ceremony
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-18T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-18T10:27Z
+regions: [gulf-red-sea]
+sources:
+  - url: https://www.dvidshub.net/news/575042/uss-boxer-holds-chief-pinning-ceremony
+    title: USS Boxer Holds Chief Pinning Ceremony
+    published_at: 2026-09-18T10:27Z
+    lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260919160732/https://www.dvidshub.net/news/575042/uss-boxer-holds-chief-pinning-ceremony
+        captured_at: 2026-09-19T16:07:32Z
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-usa-navcent-dvids. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-usa-navcent-dvids. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -1,0 +1,31 @@
+id: evt_01m48kys4he0wbwffzbxvnfrb2
+schema: event/1
+event_type: maritime.incident
+title:
+  tr: CENTCOM, ABD'nin İran'a yönelik ablukasının katı bir şekilde uygulanmasını sürdürüyor
+  en: CENTCOM Maintains Strict Enforcement of U.S. Blockade Against Iran
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-05T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-05T21:00Z
+regions: [iran]
+sources:
+  - url: https://www.dvidshub.net/news/576379/centcom-maintains-strict-enforcement-us-blockade-against-iran
+    title: CENTCOM Maintains Strict Enforcement of U.S. Blockade Against Iran
+    published_at: 2026-10-05T21:00Z
+    lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261006130848/https://www.dvidshub.net/news/576379/centcom-maintains-strict-enforcement-us-blockade-against-iran
+        captured_at: 2026-10-06T13:08:48Z
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-usa-centcom-dvids. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-usa-centcom-dvids. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

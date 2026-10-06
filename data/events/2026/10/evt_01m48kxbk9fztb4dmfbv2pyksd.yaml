@@ -1,0 +1,27 @@
+id: evt_01m48kxbk9fztb4dmfbv2pyksd
+schema: event/1
+event_type: maritime.activity
+title:
+  tr: USS Boxer 11 Eylül'ü anma töreni düzenledi
+  en: USS Boxer Holds 9/11 Remembrance Ceremony
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-11T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-11T18:59Z
+regions: [gulf-red-sea]
+sources:
+  - url: https://www.dvidshub.net/news/574394/uss-boxer-holds-9-11-remembrance-ceremony
+    title: USS Boxer Holds 9/11 Remembrance Ceremony
+    published_at: 2026-09-11T18:59Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-usa-navcent-dvids. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-usa-navcent-dvids. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

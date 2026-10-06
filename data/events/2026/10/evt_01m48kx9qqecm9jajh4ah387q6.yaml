@@ -1,0 +1,31 @@
+id: evt_01m48kx9qqecm9jajh4ah387q6
+schema: event/1
+event_type: maritime.activity
+title:
+  tr: ABD, İran'ın başka bir Amerikan savaş gemisini hedef almasının ardından 5 IRGC Tankerini imha etti
+  en: U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-09-08T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-09-08T22:12Z
+regions: [iran]
+sources:
+  - url: https://www.dvidshub.net/news/574128/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship
+    title: U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship
+    published_at: 2026-09-08T22:12Z
+    lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260915000944/https://www.dvidshub.net/news/574128/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship
+        captured_at: 2026-09-15T00:09:44Z
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-usa-centcom-dvids. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-usa-centcom-dvids. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]
