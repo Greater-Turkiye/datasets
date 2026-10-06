@@ -1,9 +1,9 @@
-id: evt_01m48kzgxfeysby5xz67wxrhhd
+id: evt_01m49mtjhgfn1s1xrb91fegk0c
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.shelling
 title:
-  tr: Rusya'nın Harkov bölgesindeki saldırılarda geçen gün 7 kişi öldü, 80 kişi yaralandı
-  en: Russian attacks in Kharkiv region leave seven killed, 80 injured over past day
+  tr: Herson bölgesindeki Rus bombardımanı geçen gün bir kişiyi öldürdü ve 7 kişiyi yaraladı
+  en: Russian shelling in Kherson region kills one person and injures seven others over past day
 i18n:
   source: en
   machine: [tr]
@@ -11,23 +11,19 @@ time:
   start: 2026-10-06T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-06T08:35Z
+reported_at: 2026-10-06T15:58Z
 location:
-  geometry: {type: Point, coordinates: [36.248, 50.002]}
+  geometry: {type: Point, coordinates: [32.601, 46.633]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Kharkiv bölgesi, en: Kharkiv region}
+  place_name: {tr: Herson bölgesi, en: Kherson region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4171478-russian-attacks-in-kharkiv-region-leave-seven-killed-80-injured-over-past-day.html
-    title: Russian attacks in Kharkiv region leave seven killed, 80 injured over past day
-    published_at: 2026-10-06T08:35Z
+  - url: https://www.ukrinform.net/rubric-ato/4171670-russian-shelling-in-kherson-region-kills-one-person-and-injures-seven-others-over-past-day.html
+    title: Russian shelling in Kherson region kills one person and injures seven others over past day
+    published_at: 2026-10-06T15:58Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261006103101/https://www.ukrinform.net/rubric-ato/4171478-russian-attacks-in-kharkiv-region-leave-seven-killed-80-injured-over-past-day.html
-        captured_at: 2026-10-06T10:31:01Z
 assessment:
   status: unverified
   credibility: 6

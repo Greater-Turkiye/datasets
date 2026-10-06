@@ -1,9 +1,9 @@
-id: evt_01m48kzjrjf6grfj3g6mty3srr
+id: evt_01m49mtezhehm9azgynezqrrez
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.drone-strike
 title:
-  tr: Ruslar Kryvyi Rih'teki hastaneye saldırdı, iki kişi yaralandı
-  en: Russians strike hospital in Kryvyi Rih, two people injured
+  tr: "Hava Kuvvetleri: İnsansız hava aracı en az Kasım ayı sonuna kadar gerekli miktarlarda mevcut olmayacak"
+  en: "Air Force: Drone interceptors will not be available in necessary quantities until at least end of November"
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-10-06T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-06T08:57Z
+reported_at: 2026-10-06T15:30Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4171485-russians-strike-hospital-in-kryvyi-rih-two-people-injured.html
-    title: Russians strike hospital in Kryvyi Rih, two people injured
-    published_at: 2026-10-06T08:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4171637-air-force-drone-interceptors-will-not-be-available-in-necessary-quantities-until-at-least-end-of-november.html
+    title: "Air Force: Drone interceptors will not be available in necessary quantities until at least end of November"
+    published_at: 2026-10-06T15:30Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261006154630/https://www.ukrinform.net/rubric-ato/4171485-russians-strike-hospital-in-kryvyi-rih-two-people-injured.html
-        captured_at: 2026-10-06T15:46:30Z
 assessment:
   status: unverified
   credibility: 6

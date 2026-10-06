@@ -24,6 +24,10 @@ sources:
     title: Russian strike hits high-rise building and ambulance in Kramatorsk, killing one woman and injuring four people
     published_at: 2026-10-06T07:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261006113134/https://www.ukrinform.net/rubric-ato/4171431-russian-strike-hits-highrise-building-and-ambulance-in-kramatorsk-killing-one-woman-and-injuring-four-people.html
+        captured_at: 2026-10-06T11:31:34Z
 assessment:
   status: unverified
   credibility: 6

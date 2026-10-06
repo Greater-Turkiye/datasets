@@ -1,6 +1,6 @@
 id: evt_01m3b9e0dhe98rms7v8fx654k9
 schema: event/1
-event_type: kinetic.attack
+event_type: cyber.incident
 title:
   tr: Sırp Yetkililer Seçimlerden Önce Casus Yazılım Saldırısı İddialarına Dalga Geçti
   en: Serbian Authorities Ridicule Spyware Attack Allegations Before Elections

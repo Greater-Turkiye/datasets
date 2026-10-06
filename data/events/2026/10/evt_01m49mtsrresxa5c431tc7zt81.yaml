@@ -1,9 +1,9 @@
-id: evt_01m48kzjrjf6grfj3g6mty3srr
+id: evt_01m49mtsrresxa5c431tc7zt81
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.missile-strike
 title:
-  tr: Ruslar Kryvyi Rih'teki hastaneye saldırdı, iki kişi yaralandı
-  en: Russians strike hospital in Kryvyi Rih, two people injured
+  tr: "Nadir hedef: Ukrayna kuvvetleri Buk - M3 sistemi için Rus yükleme aracını imha etti"
+  en: "Rare target: Ukrainian forces destroy Russian loading vehicle for Buk-M3 system"
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-10-06T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-06T08:57Z
+reported_at: 2026-10-06T16:59Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4171485-russians-strike-hospital-in-kryvyi-rih-two-people-injured.html
-    title: Russians strike hospital in Kryvyi Rih, two people injured
-    published_at: 2026-10-06T08:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4171696-rare-target-ukrainian-forces-destroy-russian-loading-vehicle-for-bukm3-system.html
+    title: "Rare target: Ukrainian forces destroy Russian loading vehicle for Buk-M3 system"
+    published_at: 2026-10-06T16:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261006154630/https://www.ukrinform.net/rubric-ato/4171485-russians-strike-hospital-in-kryvyi-rih-two-people-injured.html
-        captured_at: 2026-10-06T15:46:30Z
 assessment:
   status: unverified
   credibility: 6
