@@ -18,6 +18,10 @@ sources:
     title: "Financial Times: Estonia shifts troops closer to Russia border in “active defense” push"
     published_at: 2026-10-05T08:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261006222859/https://news.am/en/news/1065795
+        captured_at: 2026-10-06T22:28:59Z
 assessment:
   status: unverified
   credibility: 6

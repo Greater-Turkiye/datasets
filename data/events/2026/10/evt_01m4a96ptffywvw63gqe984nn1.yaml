@@ -1,9 +1,9 @@
-id: evt_01m48kzbh3fb9aqpwxze4fvw4n
+id: evt_01m4a96ptffywvw63gqe984nn1
 schema: event/1
-event_type: kinetic.clash
+event_type: kinetic.missile-strike
 title:
-  tr: "Savaş güncellemesi: Geçen gün cephe hattında 184 muharebe çatışması"
-  en: "War update: 184 combat clashes on front line over past day"
+  tr: Rusya, potansiyel Ukrayna balistik saldırıları için kilit köprüler hazırlıyor — ATESH
+  en: Russia prepares key bridges for potential Ukrainian ballistic strikes — ATESH
 i18n:
   source: en
   machine: [tr]
@@ -11,17 +11,13 @@ time:
   start: 2026-10-06T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-06T07:55Z
+reported_at: 2026-10-06T22:32Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4171465-war-update-184-combat-clashes-on-front-line-over-past-day.html
-    title: "War update: 184 combat clashes on front line over past day"
-    published_at: 2026-10-06T07:55Z
+  - url: https://www.ukrinform.net/rubric-ato/4171500-russia-prepares-key-bridges-for-potential-ukrainian-ballistic-strikes-atesh.html
+    title: Russia prepares key bridges for potential Ukrainian ballistic strikes — ATESH
+    published_at: 2026-10-06T22:32Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261006141727/https://www.ukrinform.net/rubric-ato/4171465-war-update-184-combat-clashes-on-front-line-over-past-day.html
-        captured_at: 2026-10-06T14:17:27Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Ukraine's Defense Forces strike Russian telecommunications hub, command post and drone warehouse
     published_at: 2026-10-06T11:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261006124614/https://www.ukrinform.net/rubric-ato/4171556-ukraines-defense-forces-strike-russian-telecommunications-hub-command-post-and-drone-warehouse.html
+        captured_at: 2026-10-06T12:46:14Z
 assessment:
   status: unverified
   credibility: 6

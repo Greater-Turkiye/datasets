@@ -18,6 +18,10 @@ sources:
     title: "Wall Street Journal: Hormuz strait situation could cause global food crisis"
     published_at: 2026-10-05T09:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007041924/https://news.am/en/news/1065805
+        captured_at: 2026-10-07T04:19:24Z
 assessment:
   status: unverified
   credibility: 6
