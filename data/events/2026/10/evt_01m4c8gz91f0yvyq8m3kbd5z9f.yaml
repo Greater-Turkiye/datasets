@@ -1,27 +1,23 @@
-id: evt_01m47776dge3h8h0gzrrhaev09
+id: evt_01m4c8gz91f0yvyq8m3kbd5z9f
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.clash
 title:
-  tr: "Sudan: Güney Kordofan'da yardım kamyonlarına düzenlenen hava saldırısında sürücü öldürüldü"
-  en: "Sudan: Driver killed in aerial attack on aid trucks in South Kordofan"
+  tr: Kritik finansman açığı Yemen'de sağlık müdahalesini tehdit ediyor
+  en: Critical funding gap threatens health response in Yemen
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-05T00:00Z
+  start: 2026-10-07T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-05T12:00Z
+reported_at: 2026-10-07T12:00Z
 regions: [gulf-red-sea]
 sources:
-  - url: https://news.un.org/feed/view/en/story/2026/10/1168519
-    title: "Sudan: Driver killed in aerial attack on aid trucks in South Kordofan"
-    published_at: 2026-10-05T12:00Z
+  - url: https://news.un.org/feed/view/en/story/2026/10/1168541
+    title: Critical funding gap threatens health response in Yemen
+    published_at: 2026-10-07T12:00Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261007224733/https://news.un.org/feed/view/en/story/2026/10/1168519
-        captured_at: 2026-10-07T22:47:33Z
 assessment:
   status: unverified
   credibility: 6

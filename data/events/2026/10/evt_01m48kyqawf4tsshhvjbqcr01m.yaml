@@ -18,6 +18,10 @@ sources:
     title: "Mohavedian: Closing Armenia’s Airspace to Iranian Aircraft Would Harm Armenia More Than Iran"
     published_at: 2026-10-05T17:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007225827/https://news.am/en/news/1065930
+        captured_at: 2026-10-07T22:58:27Z
 assessment:
   status: unverified
   credibility: 6

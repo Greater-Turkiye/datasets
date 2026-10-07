@@ -18,6 +18,10 @@ sources:
     title: Armenia, Iran FMs discuss benefits of lifting blockade (PHOTOS)
     published_at: 2026-10-05T11:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007125244/https://news.am/en/news/1065861
+        captured_at: 2026-10-07T12:52:44Z
 assessment:
   status: unverified
   credibility: 6

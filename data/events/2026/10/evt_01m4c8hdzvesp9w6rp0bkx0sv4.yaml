@@ -1,27 +1,23 @@
-id: evt_01m48kynj1envs35rjw2g8bxwh
+id: evt_01m4c8hdzvesp9w6rp0bkx0sv4
 schema: event/1
-event_type: policy.defense
+event_type: diplomatic.statement
 title:
-  tr: Ermenistan Ulusal Güvenlik Servisi, askeri operasyonlar sonucunda kayıp kişilerin tek bir kaydının oluşturulmasını önerdi
-  en: Armenia National Security Service proposes creating single registry of persons missing as result of military operations
+  tr: Ermenistan, uzayda silahlanma yarışını önleme konusunda BDT'nin açıklamasına katıldı
+  en: Armenia joins CIS statement on preventing arms race in outer space
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-05T00:00Z
+  start: 2026-10-07T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-05T13:47Z
+reported_at: 2026-10-07T14:11Z
 regions: [caucasus]
 sources:
-  - url: https://news.am/en/news/1065892
-    title: Armenia National Security Service proposes creating single registry of persons missing as result of military operations
-    published_at: 2026-10-05T13:47Z
+  - url: https://news.am/en/news/1066408
+    title: Armenia joins CIS statement on preventing arms race in outer space
+    published_at: 2026-10-07T14:11Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261007125530/https://news.am/en/news/1065892
-        captured_at: 2026-10-07T12:55:30Z
 assessment:
   status: unverified
   credibility: 6

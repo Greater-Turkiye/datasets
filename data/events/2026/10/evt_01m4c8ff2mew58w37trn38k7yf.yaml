@@ -1,27 +1,23 @@
-id: evt_01m48kzvsze8h90j8p99n1hzht
+id: evt_01m4c8ff2mew58w37trn38k7yf
 schema: event/1
 event_type: kinetic.clash
 title:
-  tr: Vovchansk sektöründe taktik inisiyatif genellikle Ukrayna tarafında - Trehubov
-  en: Tactical initiative in Vovchansk sector generally on Ukraine's side — Trehubov
+  tr: "Savaş güncellemesi: Geçen gün ön cephede 202 çatışma"
+  en: "War update: 202 clashes on front line over past day"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-06T00:00Z
+  start: 2026-10-07T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-06T09:57Z
+reported_at: 2026-10-07T05:39Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4171527-tactical-initiative-in-vovchansk-sector-generally-on-ukraines-side-trehubov.html
-    title: Tactical initiative in Vovchansk sector generally on Ukraine's side — Trehubov
-    published_at: 2026-10-06T09:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4171771-war-update-202-clashes-on-front-line-over-past-day.html
+    title: "War update: 202 clashes on front line over past day"
+    published_at: 2026-10-07T05:39Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261007042522/https://www.ukrinform.net/rubric-ato/4171527-tactical-initiative-in-vovchansk-sector-generally-on-ukraines-side-trehubov.html
-        captured_at: 2026-10-07T04:25:22Z
 assessment:
   status: unverified
   credibility: 6

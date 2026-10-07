@@ -1,33 +1,29 @@
-id: evt_01m49msx2jfrsrt0cr96tnxr91
+id: evt_01m4c8hkf0fvrv3ffmjjc76hnk
 schema: event/1
-event_type: kinetic.drone-strike
+event_type: diplomatic.statement
 title:
-  tr: Rus insansız hava aracı saldırısı Zaporijya'da yüksek binaları vurdu ve yangına neden oldu
-  en: Russian drone strike hits high-rise building in Zaporizhzhia, causing fire
+  tr: Zelenskiy dünyayı Rusya üzerindeki baskıyı artırmaya çağırdı
+  en: Zelensky calls on world to increase pressure on Russia
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-06T00:00Z
+  start: 2026-10-07T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-06T12:58Z
+reported_at: 2026-10-07T15:59Z
 location:
-  geometry: {type: Point, coordinates: [35.175, 47.859]}
+  geometry: {type: Point, coordinates: [37.614, 55.754]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Zaporijya, en: Zaporizhzhya}
+  place_name: {tr: Moscow, en: Moscow}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4171597-russian-drone-strike-hits-highrise-building-in-zaporizhzhia-causing-fire.html
-    title: Russian drone strike hits high-rise building in Zaporizhzhia, causing fire
-    published_at: 2026-10-06T12:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4172054-zelensky-calls-on-world-to-increase-pressure-on-russia.html
+    title: Zelensky calls on world to increase pressure on Russia
+    published_at: 2026-10-07T15:59Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261006171655/https://www.ukrinform.net/rubric-ato/4171597-russian-drone-strike-hits-highrise-building-in-zaporizhzhia-causing-fire.html
-        captured_at: 2026-10-06T17:16:55Z
 assessment:
   status: unverified
   credibility: 6

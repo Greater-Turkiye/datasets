@@ -18,6 +18,10 @@ sources:
     title: Russia Security Council deputy chair warns Armenia about risk of becoming "new Ukraine"
     published_at: 2026-10-03T20:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007225255/https://news.am/en/news/1065648
+        captured_at: 2026-10-07T22:52:55Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,27 +1,23 @@
-id: evt_01m48kynj1envs35rjw2g8bxwh
+id: evt_01m4c8h6hbf0rr3c3j39d3jd73
 schema: event/1
-event_type: policy.defense
+event_type: diplomatic.talks
 title:
-  tr: Ermenistan Ulusal Güvenlik Servisi, askeri operasyonlar sonucunda kayıp kişilerin tek bir kaydının oluşturulmasını önerdi
-  en: Armenia National Security Service proposes creating single registry of persons missing as result of military operations
+  tr: "Ermenistan savunma bakanı Azerbaycan askerinin sızmasıyla ilgili: Eksiklikler vardı, sonuçları olacak"
+  en: "Armenia defense minister on Azerbaijan serviceman’s infiltration: There were shortcomings, there will be consequences"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-05T00:00Z
+  start: 2026-10-07T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-05T13:47Z
+reported_at: 2026-10-07T13:01Z
 regions: [caucasus]
 sources:
-  - url: https://news.am/en/news/1065892
-    title: Armenia National Security Service proposes creating single registry of persons missing as result of military operations
-    published_at: 2026-10-05T13:47Z
+  - url: https://news.am/en/news/1066380
+    title: "Armenia defense minister on Azerbaijan serviceman’s infiltration: There were shortcomings, there will be consequences"
+    published_at: 2026-10-07T13:01Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261007125530/https://news.am/en/news/1065892
-        captured_at: 2026-10-07T12:55:30Z
 assessment:
   status: unverified
   credibility: 6

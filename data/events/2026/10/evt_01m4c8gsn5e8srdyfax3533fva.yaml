@@ -1,27 +1,23 @@
-id: evt_01m48kzvsze8h90j8p99n1hzht
+id: evt_01m4c8gsn5e8srdyfax3533fva
 schema: event/1
-event_type: kinetic.clash
+event_type: kinetic.drone-strike
 title:
-  tr: Vovchansk sektöründe taktik inisiyatif genellikle Ukrayna tarafında - Trehubov
-  en: Tactical initiative in Vovchansk sector generally on Ukraine's side — Trehubov
+  tr: Zhmerynka'da drone enkazı 5 eve zarar verdi
+  en: Drone debris damages five houses in Zhmerynka
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-06T00:00Z
+  start: 2026-10-07T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-06T09:57Z
+reported_at: 2026-10-07T11:27Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4171527-tactical-initiative-in-vovchansk-sector-generally-on-ukraines-side-trehubov.html
-    title: Tactical initiative in Vovchansk sector generally on Ukraine's side — Trehubov
-    published_at: 2026-10-06T09:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4171905-drone-debris-damages-five-houses-in-zhmerynka.html
+    title: Drone debris damages five houses in Zhmerynka
+    published_at: 2026-10-07T11:27Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261007042522/https://www.ukrinform.net/rubric-ato/4171527-tactical-initiative-in-vovchansk-sector-generally-on-ukraines-side-trehubov.html
-        captured_at: 2026-10-07T04:25:22Z
 assessment:
   status: unverified
   credibility: 6
