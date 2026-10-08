@@ -24,6 +24,10 @@ sources:
     title: "FM Lavrov: NATO assured Moscow of no plans to attack after threats to Russia's Kaliningrad"
     published_at: 2026-10-06T14:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007131942/https://news.am/en/news/1066113
+        captured_at: 2026-10-07T13:19:42Z
 assessment:
   status: unverified
   credibility: 6

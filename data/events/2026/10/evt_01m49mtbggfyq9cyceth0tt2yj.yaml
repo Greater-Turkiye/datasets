@@ -24,6 +24,10 @@ sources:
     title: On October 8–9, Vladimir Putin will make a working visit to Turkmenistan
     published_at: 2026-10-06T15:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007132329/http://en.kremlin.ru/events/president/news/80941
+        captured_at: 2026-10-07T13:23:29Z
 assessment:
   status: unverified
   credibility: 6

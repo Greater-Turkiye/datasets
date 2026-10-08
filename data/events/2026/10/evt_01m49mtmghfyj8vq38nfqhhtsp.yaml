@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Ukraine must be able to respond in kind to Russian attacks"
     published_at: 2026-10-06T16:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008043510/https://www.ukrinform.net/rubric-ato/4171667-zelensky-ukraine-must-be-able-to-respond-in-kind-to-russian-attacks.html
+        captured_at: 2026-10-08T04:35:10Z
 assessment:
   status: unverified
   credibility: 6

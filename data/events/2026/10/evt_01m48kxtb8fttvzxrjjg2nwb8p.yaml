@@ -18,6 +18,10 @@ sources:
     title: US pre-selects location of its permanent military base in Poland
     published_at: 2026-10-02T10:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007124654/https://news.am/en/news/1065384
+        captured_at: 2026-10-07T12:46:54Z
 assessment:
   status: unverified
   credibility: 6

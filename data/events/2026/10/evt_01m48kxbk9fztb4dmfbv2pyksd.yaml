@@ -18,6 +18,10 @@ sources:
     title: USS Boxer Holds 9/11 Remembrance Ceremony
     published_at: 2026-09-11T18:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007224804/https://www.dvidshub.net/news/574394/uss-boxer-holds-9-11-remembrance-ceremony
+        captured_at: 2026-10-07T22:48:04Z
 assessment:
   status: unverified
   credibility: 6

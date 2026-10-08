@@ -18,6 +18,10 @@ sources:
     title: Iran warns US not to attack it
     published_at: 2026-10-05T11:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007125215/https://news.am/en/news/1065840
+        captured_at: 2026-10-07T12:52:15Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Air Force: Drone interceptors will not be available in necessary quantities until at least end of November"
     published_at: 2026-10-06T15:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261006180201/https://www.ukrinform.net/rubric-ato/4171637-air-force-drone-interceptors-will-not-be-available-in-necessary-quantities-until-at-least-end-of-november.html
+        captured_at: 2026-10-06T18:02:01Z
 assessment:
   status: unverified
   credibility: 6
