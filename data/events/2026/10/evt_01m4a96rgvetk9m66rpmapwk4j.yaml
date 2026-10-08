@@ -18,6 +18,10 @@ sources:
     title: "Air Force: Intensive use is rapidly shortening F-16 service life"
     published_at: 2026-10-07T00:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007034601/https://www.ukrinform.net/rubric-ato/4171608-air-force-intensive-use-is-rapidly-shortening-f16-service-life.html
+        captured_at: 2026-10-07T03:46:01Z
 assessment:
   status: unverified
   credibility: 6
