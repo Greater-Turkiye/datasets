@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack critical infrastructure in Oleksandriia, killing one and injuring three
     published_at: 2026-10-07T05:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007080128/https://www.ukrinform.net/rubric-ato/4171773-russian-forces-attack-critical-infrastructure-in-oleksandriia-killing-one-and-injuring-three.html
+        captured_at: 2026-10-07T08:01:28Z
 assessment:
   status: unverified
   credibility: 6

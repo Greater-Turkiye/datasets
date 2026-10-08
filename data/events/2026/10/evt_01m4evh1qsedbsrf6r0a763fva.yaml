@@ -1,0 +1,27 @@
+id: evt_01m4evh1qsedbsrf6r0a763fva
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: Birinci Komite Nükleer Olmayan Uzlaşmaya Varılması Gerekliliğini Vurguladı, Öfkeyle İlgili Söylem, Ukrayna'daki Şiddetli Sivil Saldırıları Kınadı
+  en: First Committee Emphasizes Need to Reach Non-nuclear Consensus, Temper Related Rhetoric, Condemns Violent Civilian Attacks in Ukraine
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-08T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-08T19:18Z
+regions: [black-sea]
+sources:
+  - url: https://press.un.org/en/2026/gadis3765.doc.htm
+    title: First Committee Emphasizes Need to Reach Non-nuclear Consensus, Temper Related Rhetoric, Condemns Violent Civilian Attacks in Ukraine
+    published_at: 2026-10-08T19:18Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: un-press-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: un-press-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

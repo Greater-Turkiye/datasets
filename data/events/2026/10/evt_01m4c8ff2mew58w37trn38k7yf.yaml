@@ -18,6 +18,10 @@ sources:
     title: "War update: 202 clashes on front line over past day"
     published_at: 2026-10-07T05:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007080125/https://www.ukrinform.net/rubric-ato/4171771-war-update-202-clashes-on-front-line-over-past-day.html
+        captured_at: 2026-10-07T08:01:25Z
 assessment:
   status: unverified
   credibility: 6

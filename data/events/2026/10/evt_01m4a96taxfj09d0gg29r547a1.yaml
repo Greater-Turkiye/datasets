@@ -18,6 +18,10 @@ sources:
     title: "Air Force: Russia may eventually accelerate jet-powered drones to 900 km/h"
     published_at: 2026-10-07T01:29Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007040101/https://www.ukrinform.net/rubric-ato/4171632-air-force-russia-may-eventually-accelerate-jetpowered-drones-to-900-kmh.html
+        captured_at: 2026-10-07T04:01:01Z
 assessment:
   status: unverified
   credibility: 6

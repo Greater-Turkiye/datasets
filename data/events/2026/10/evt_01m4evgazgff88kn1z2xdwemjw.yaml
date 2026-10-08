@@ -1,33 +1,33 @@
-id: evt_01m4c8ft2cex2at1hs9w6zg3vx
+id: evt_01m4evgazgff88kn1z2xdwemjw
 schema: event/1
-event_type: kinetic.missile-strike
+event_type: kinetic.attack
 title:
-  tr: Kiev'in Darnytskyi bölgesinde patlamamış balistik füze etkisiz hale getiriliyor
-  en: Unexploded ballistic missile being neutralized in Kyiv's Darnytskyi district
+  tr: "Kramatorsk'ta Rus saldırısı iki otobüsü ve yayayı vurdu: 30 ölü, 20 yaralı"
+  en: "Russian strike hits two buses and pedestrians in Kramatorsk: 30 killed, 20 injured"
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-07T00:00Z
+  start: 2026-10-08T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-07T07:05Z
+reported_at: 2026-10-08T14:38Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [37.534, 48.719]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Kramatorsk, en: Kramatorsk}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4171802-unexploded-ballistic-missile-being-neutralized-in-kyivs-darnytskyi-district.html
-    title: Unexploded ballistic missile being neutralized in Kyiv's Darnytskyi district
-    published_at: 2026-10-07T07:05Z
+  - url: https://www.ukrinform.net/rubric-ato/4172392-russian-strike-hits-two-buses-and-pedestrians-in-kramatorsk-30-killed-20-injured.html
+    title: "Russian strike hits two buses and pedestrians in Kramatorsk: 30 killed, 20 injured"
+    published_at: 2026-10-08T14:38Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261007084616/https://www.ukrinform.net/rubric-ato/4171802-unexploded-ballistic-missile-being-neutralized-in-kyivs-darnytskyi-district.html
-        captured_at: 2026-10-07T08:46:16Z
+  - url: https://www.ukrinform.net/rubric-ato/4172503-two-killed-in-russian-drone-strike-on-car-in-kramatorsk.html
+    title: Two killed in Russian drone strike on car in Kramatorsk
+    published_at: 2026-10-08T19:00Z
+    lang: en
 assessment:
   status: unverified
   credibility: 6

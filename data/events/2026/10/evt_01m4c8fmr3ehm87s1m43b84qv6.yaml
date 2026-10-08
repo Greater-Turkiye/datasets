@@ -24,6 +24,10 @@ sources:
     title: Russian missile hits apartment block in Pryluky, casualties reported
     published_at: 2026-10-07T06:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007080125/https://www.ukrinform.net/rubric-ato/4171788-russian-missile-hits-apartment-block-in-pryluky-casualties-reported.html
+        captured_at: 2026-10-07T08:01:25Z
 assessment:
   status: unverified
   credibility: 6

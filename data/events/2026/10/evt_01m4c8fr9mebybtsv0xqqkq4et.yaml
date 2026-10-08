@@ -24,6 +24,10 @@ sources:
     title: Yerevan, New Delhi discussing production of India’s Pinaka Mk-II rockets in Armenia
     published_at: 2026-10-07T06:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008230208/https://news.am/en/news/1066253
+        captured_at: 2026-10-08T23:02:08Z
 assessment:
   status: unverified
   credibility: 6

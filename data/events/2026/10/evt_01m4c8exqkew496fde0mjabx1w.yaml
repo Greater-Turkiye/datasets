@@ -24,6 +24,10 @@ sources:
     title: "Russian ballistic attack: Explosions heard in Kyiv and Dnipro"
     published_at: 2026-10-07T03:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007051658/https://www.ukrinform.net/rubric-ato/4171754-russian-ballistic-attack-explosions-heard-in-kyiv-and-dnipro.html
+        captured_at: 2026-10-07T05:16:58Z
 assessment:
   status: unverified
   credibility: 6

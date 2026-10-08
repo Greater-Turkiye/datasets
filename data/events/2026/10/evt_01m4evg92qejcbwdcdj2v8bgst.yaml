@@ -1,0 +1,33 @@
+id: evt_01m4evg92qejcbwdcdj2v8bgst
+schema: event/1
+event_type: maritime.activity
+title:
+  tr: Vladimir Putin Türkmenistan'a geldi
+  en: Vladimir Putin arrived in Turkmenistan
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-08T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-08T14:00Z
+location:
+  geometry: {type: Point, coordinates: [40.41, 56.13]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Vladimir, en: Vladimir}
+regions: [central-asia]
+sources:
+  - url: http://en.kremlin.ru/events/president/news/80949
+    title: Vladimir Putin arrived in Turkmenistan
+    published_at: 2026-10-08T14:00Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rus-kremlin-news-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, başlıktaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rus-kremlin-news-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the headline (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]
