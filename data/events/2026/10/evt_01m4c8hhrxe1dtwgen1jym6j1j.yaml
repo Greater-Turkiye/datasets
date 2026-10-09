@@ -24,10 +24,18 @@ sources:
     title: "Missile attack on Kremenchuk: Two killed, injury toll rises to 41"
     published_at: 2026-10-07T15:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008071628/https://www.ukrinform.net/rubric-ato/4172045-missile-attack-on-kremenchuk-two-killed-injury-toll-rises-to-41.html
+        captured_at: 2026-10-08T07:16:28Z
   - url: https://www.ukrinform.net/rubric-ato/4172074-injury-toll-after-russian-attack-on-kremenchuk-rises-to-47-two-killed.html
     title: Injury toll after Russian attack on Kremenchuk rises to 47, two killed
     published_at: 2026-10-07T17:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008024639/https://www.ukrinform.net/rubric-ato/4172074-injury-toll-after-russian-attack-on-kremenchuk-rises-to-47-two-killed.html
+        captured_at: 2026-10-08T02:46:39Z
 assessment:
   status: unverified
   credibility: 6

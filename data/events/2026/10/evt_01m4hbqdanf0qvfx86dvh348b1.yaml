@@ -1,33 +1,29 @@
-id: evt_01m4c8hrs9emq87408h1e7qzyg
+id: evt_01m4hbqdanf0qvfx86dvh348b1
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rusya'nın Herson bölgesindeki saldırılarda sabahtan beri 4 kişi yaralandı
-  en: Russian attacks in Kherson region leave four injured since morning
+  tr: Rus kuvvetleri Dnipropetrovsk bölgesindeki lojistik şirketi depolarına saldırarak yangına yol açtı
+  en: Russian forces attack logistics company warehouses in Dnipropetrovsk region, sparking fire
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-07T00:00Z
+  start: 2026-10-09T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-07T16:59Z
+reported_at: 2026-10-09T18:15Z
 location:
-  geometry: {type: Point, coordinates: [32.601, 46.633]}
+  geometry: {type: Point, coordinates: [34.998, 48.482]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Herson bölgesi, en: Kherson region}
+  place_name: {tr: Dnipro bölgesi, en: Dnipro region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4172071-russian-attacks-in-kherson-region-leave-four-injured-since-morning.html
-    title: Russian attacks in Kherson region leave four injured since morning
-    published_at: 2026-10-07T16:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4172829-russian-forces-attack-logistics-company-warehouses-in-dnipropetrovsk-region-sparking-fire.html
+    title: Russian forces attack logistics company warehouses in Dnipropetrovsk region, sparking fire
+    published_at: 2026-10-09T18:15Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261008024640/https://www.ukrinform.net/rubric-ato/4172071-russian-attacks-in-kherson-region-leave-four-injured-since-morning.html
-        captured_at: 2026-10-08T02:46:40Z
 assessment:
   status: unverified
   credibility: 6

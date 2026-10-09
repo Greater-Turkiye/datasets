@@ -24,6 +24,10 @@ sources:
     title: Oil Tanker Hit By Naval Drones Near Sochi, Sparking Massive Fire On Black Sea
     published_at: 2026-10-07T10:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009222039/https://www.rferl.org/a/oil-tanker-hit-by-naval-drone-near-sochi-sparking-massive-fire-on-black-sea/33872002.html
+        captured_at: 2026-10-09T22:20:39Z
 assessment:
   status: unverified
   credibility: 6

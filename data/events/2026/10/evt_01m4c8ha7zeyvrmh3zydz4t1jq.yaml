@@ -18,6 +18,10 @@ sources:
     title: Testing Times For Mecca Alliance Partners As Iran-Aligned Houthis Mount Attacks
     published_at: 2026-10-07T13:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009223026/https://www.rferl.org/a/mecca-alliance-iran-houthis-attacks-saudi-pakistan/33871365.html
+        captured_at: 2026-10-09T22:30:26Z
 assessment:
   status: unverified
   credibility: 6

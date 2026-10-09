@@ -18,6 +18,10 @@ sources:
     title: Russian army used nearly 3,500 jet-powered drones against Ukraine in September – Air Force
     published_at: 2026-10-07T22:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009223825/https://www.ukrinform.net/rubric-ato/4171830-russian-army-used-nearly-3500-jetpowered-drones-against-ukraine-in-september-air-force.html
+        captured_at: 2026-10-09T22:38:25Z
 assessment:
   status: unverified
   credibility: 6

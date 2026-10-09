@@ -1,33 +1,29 @@
-id: evt_01m4c8hz06esz9pysy2nsn8sdd
+id: evt_01m4hbq4jter7a25y19x58hcca
 schema: event/1
 event_type: kinetic.drone-strike
 title:
-  tr: Drone saldırısı Kiev'in Desnianskyi bölgesindeki yüksek binada yangına yol açtı
-  en: Drone attack sparks fire at high-rise building in Kyiv's Desnianskyi district
+  tr: Dört havalimanı kapatılırken dronlar ve balonlar Moskova ve Moskova bölgesine saldırdı
+  en: Drones and balloons attacking Moscow and Moscow region as four airports shut down
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-07T00:00Z
+  start: 2026-10-09T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-07T20:57Z
+reported_at: 2026-10-09T15:40Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [37.614, 55.754]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Moscow, en: Moscow}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4172114-drone-attack-sparks-fire-at-highrise-building-in-kyivs-desnianskyi-district.html
-    title: Drone attack sparks fire at high-rise building in Kyiv's Desnianskyi district
-    published_at: 2026-10-07T20:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4172795-drones-and-balloons-attacking-moscow-and-moscow-region-as-four-airports-shut-down.html
+    title: Drones and balloons attacking Moscow and Moscow region as four airports shut down
+    published_at: 2026-10-09T15:40Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261007234602/https://www.ukrinform.net/rubric-ato/4172114-drone-attack-sparks-fire-at-highrise-building-in-kyivs-desnianskyi-district.html
-        captured_at: 2026-10-07T23:46:02Z
 assessment:
   status: unverified
   credibility: 6

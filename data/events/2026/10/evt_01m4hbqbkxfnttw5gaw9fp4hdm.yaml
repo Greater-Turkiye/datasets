@@ -1,0 +1,27 @@
+id: evt_01m4hbqbkxfnttw5gaw9fp4hdm
+schema: event/1
+event_type: maritime.activity
+title:
+  tr: Tuğamiral Edwin T. Layton Liderlik Ödülü, ABD Deniz Kuvvetleri Merkez Komutanlığı/ABD 5. Filo Denizcisine takdim edildi
+  en: Rear Admiral Edwin T. Layton Leadership Award Presented to U.S. Naval Forces Central Command/U.S. 5th Fleet Sailor
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-09T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-09T17:24Z
+regions: [gulf-red-sea]
+sources:
+  - url: https://www.dvidshub.net/news/576742/rear-admiral-edwin-t-layton-leadership-award-presented-us-naval-forces-central-command-us-5th-fleet-sailor
+    title: Rear Admiral Edwin T. Layton Leadership Award Presented to U.S. Naval Forces Central Command/U.S. 5th Fleet Sailor
+    published_at: 2026-10-09T17:24Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-usa-navcent-dvids. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-usa-navcent-dvids. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

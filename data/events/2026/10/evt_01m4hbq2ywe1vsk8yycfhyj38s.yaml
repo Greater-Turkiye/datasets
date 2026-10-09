@@ -1,27 +1,23 @@
-id: evt_01m4c8g845eha8g6nn3zkqrwhy
+id: evt_01m4hbq2ywe1vsk8yycfhyj38s
 schema: event/1
-event_type: kinetic.attack
+event_type: policy.defense
 title:
-  tr: "Ukrayna kuvvetleri Rusya'daki iki petrol tesisini vurdu: Zelenski"
-  en: Ukrainian forces hit two oil facilities, training range in Russia – Zelensky
+  tr: Alman Tytan Technologies, jetle çalışan İHA'lara karşı önleyici drone geliştirdi
+  en: Germany's Tytan Technologies develops interceptor drone to counter jet-powered UAVs
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-07T00:00Z
+  start: 2026-10-09T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-07T09:00Z
+reported_at: 2026-10-09T15:00Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4171854-ukrainian-forces-hit-two-oil-facilities-training-range-in-russia-zelensky.html
-    title: Ukrainian forces hit two oil facilities, training range in Russia – Zelensky
-    published_at: 2026-10-07T09:00Z
+  - url: https://www.ukrinform.net/rubric-ato/4172753-germanys-tytan-technologies-develops-interceptor-drone-to-counter-jetpowered-uavs.html
+    title: Germany's Tytan Technologies develops interceptor drone to counter jet-powered UAVs
+    published_at: 2026-10-09T15:00Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261007120729/https://www.ukrinform.net/rubric-ato/4171854-ukrainian-forces-hit-two-oil-facilities-training-range-in-russia-zelensky.html
-        captured_at: 2026-10-07T12:07:29Z
 assessment:
   status: unverified
   credibility: 6

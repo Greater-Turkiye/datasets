@@ -18,6 +18,10 @@ sources:
     title: "Armenia defense minister on Azerbaijan serviceman’s infiltration: There were shortcomings, there will be consequences"
     published_at: 2026-10-07T13:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009222711/https://news.am/en/news/1066380
+        captured_at: 2026-10-09T22:27:11Z
 assessment:
   status: unverified
   credibility: 6

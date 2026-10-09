@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces push Russian troops back in Dobropillia area
     published_at: 2026-10-07T16:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009223106/https://www.ukrinform.net/rubric-ato/4172061-ukrainian-forces-push-russian-troops-back-in-dobropillia-area.html
+        captured_at: 2026-10-09T22:31:06Z
 assessment:
   status: unverified
   credibility: 6

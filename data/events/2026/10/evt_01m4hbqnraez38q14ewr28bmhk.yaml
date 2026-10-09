@@ -1,0 +1,27 @@
+id: evt_01m4hbqnraez38q14ewr28bmhk
+schema: event/1
+event_type: deployment.announced
+title:
+  tr: USS Abraham Lincoln, 10 Aylık Muharebe Konuşlanmasının Ardından San Diego'ya Geri Döndü
+  en: USS Abraham Lincoln Returns to San Diego After 10-Month Combat Deployment
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-09T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-09T19:55Z
+regions: [iran]
+sources:
+  - url: https://www.war.gov/News/News-Stories/Article/Article/4623577/uss-abraham-lincoln-returns-to-san-diego-after-10-month-combat-deployment/
+    title: USS Abraham Lincoln Returns to San Diego After 10-Month Combat Deployment
+    published_at: 2026-10-09T19:55Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-usa-dod-releases. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-usa-dod-releases. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

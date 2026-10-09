@@ -1,33 +1,29 @@
-id: evt_01m4c8hkf0fvrv3ffmjjc76hnk
+id: evt_01m4hbpzmhfvt9xmgr64w3m8g1
 schema: event/1
-event_type: diplomatic.statement
+event_type: kinetic.airstrike
 title:
-  tr: Zelenskiy dünyayı Rusya üzerindeki baskıyı artırmaya çağırdı
-  en: Zelensky calls on world to increase pressure on Russia
+  tr: Rusya'nın Zaporijya'ya düzenlediği bombalı saldırı 14 kişiyi yaraladı, bir kişiyi öldürdü
+  en: Russian guided bomb strike on Zaporizhzhia injures 14, kills one
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-07T00:00Z
+  start: 2026-10-09T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-07T15:59Z
+reported_at: 2026-10-09T13:07Z
 location:
-  geometry: {type: Point, coordinates: [37.614, 55.754]}
+  geometry: {type: Point, coordinates: [35.175, 47.859]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Moscow, en: Moscow}
+  place_name: {tr: Zaporijya, en: Zaporizhzhya}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4172054-zelensky-calls-on-world-to-increase-pressure-on-russia.html
-    title: Zelensky calls on world to increase pressure on Russia
-    published_at: 2026-10-07T15:59Z
+  - url: https://www.ukrinform.net/rubric-ato/4172726-russian-guided-bomb-strike-on-zaporizhzhia-injures-14-kills-one.html
+    title: Russian guided bomb strike on Zaporizhzhia injures 14, kills one
+    published_at: 2026-10-09T13:07Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261007234606/https://www.ukrinform.net/rubric-ato/4172054-zelensky-calls-on-world-to-increase-pressure-on-russia.html
-        captured_at: 2026-10-07T23:46:06Z
 assessment:
   status: unverified
   credibility: 6

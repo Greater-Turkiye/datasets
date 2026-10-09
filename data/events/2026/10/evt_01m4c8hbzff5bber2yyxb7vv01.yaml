@@ -24,6 +24,10 @@ sources:
     title: Russians attack paper mill in Obukhiv, fires break out
     published_at: 2026-10-07T13:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009223108/https://www.ukrinform.net/rubric-ato/4171980-russians-attack-paper-mill-in-obukhiv-fires-break-out.html
+        captured_at: 2026-10-09T22:31:08Z
 assessment:
   status: unverified
   credibility: 6

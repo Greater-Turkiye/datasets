@@ -24,6 +24,10 @@ sources:
     title: Cars catch fire in Kyiv's Obolonskyi district after falling drone debris
     published_at: 2026-10-07T17:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008105930/https://www.ukrinform.net/rubric-ato/4172078-cars-catch-fire-in-kyivs-obolonskyi-district-after-falling-drone-debris.html
+        captured_at: 2026-10-08T10:59:30Z
 assessment:
   status: unverified
   credibility: 6

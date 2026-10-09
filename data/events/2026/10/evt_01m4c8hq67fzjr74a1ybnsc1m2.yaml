@@ -24,6 +24,10 @@ sources:
     title: Injury toll after Russian daytime attack on Kyiv rises to eight
     published_at: 2026-10-07T16:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007234605/https://www.ukrinform.net/rubric-ato/4172063-injury-toll-after-russian-daytime-attack-on-kyiv-rises-to-eight.html
+        captured_at: 2026-10-07T23:46:05Z
 assessment:
   status: unverified
   credibility: 6
