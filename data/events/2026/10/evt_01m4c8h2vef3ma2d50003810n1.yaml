@@ -24,6 +24,10 @@ sources:
     title: Ukrainian strikes damage 14 oil storage tanks in Russia's Samara region – General Staff
     published_at: 2026-10-07T12:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007144358/https://www.ukrinform.net/rubric-ato/4171953-ukrainian-strikes-damage-14-oil-storage-tanks-in-russias-samara-region-general-staff.html
+        captured_at: 2026-10-07T14:43:58Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: US military lost 25 aircraft, 49 drones, 7 helicopters since Iran conflict began, congressional report says
     published_at: 2026-10-07T08:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007144452/https://news.am/en/news/1066276
+        captured_at: 2026-10-07T14:44:52Z
 assessment:
   status: unverified
   credibility: 6

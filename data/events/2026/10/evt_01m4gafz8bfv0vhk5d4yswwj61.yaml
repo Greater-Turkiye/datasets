@@ -1,33 +1,29 @@
-id: evt_01m4c8g317fw5t9rh5zgn8nk4y
+id: evt_01m4gafz8bfv0vhk5d4yswwj61
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: "Zelenskiy Rus saldırısı hakkında konuştu: Kiev ve 12 bölgedeki altyapı vuruldu, enerji sektörünün kilit hedefi"
-  en: "Zelensky on Russian attack: Infrastructure in Kyiv and 12 regions hit, energy sector key target"
+  tr: Rusya'nın Harkov'un eteklerine düzenlediği saldırı can kaybına neden oldu
+  en: Russian strike on outskirts of Kharkiv causes casualties
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-07T00:00Z
+  start: 2026-10-09T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-07T08:43Z
+reported_at: 2026-10-09T08:58Z
 location:
-  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  geometry: {type: Point, coordinates: [36.248, 50.002]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Kyiv, en: Kyiv}
+  place_name: {tr: Kharkiv, en: Kharkiv}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4171840-zelensky-on-russian-attack-infrastructure-in-kyiv-and-12-regions-hit-energy-sector-key-target.html
-    title: "Zelensky on Russian attack: Infrastructure in Kyiv and 12 regions hit, energy sector key target"
-    published_at: 2026-10-07T08:43Z
+  - url: https://www.ukrinform.net/rubric-ato/4172579-russian-strike-on-outskirts-of-kharkiv-causes-casualties.html
+    title: Russian strike on outskirts of Kharkiv causes casualties
+    published_at: 2026-10-09T08:58Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261007131320/https://www.ukrinform.net/rubric-ato/4171840-zelensky-on-russian-attack-infrastructure-in-kyiv-and-12-regions-hit-energy-sector-key-target.html
-        captured_at: 2026-10-07T13:13:20Z
 assessment:
   status: unverified
   credibility: 6

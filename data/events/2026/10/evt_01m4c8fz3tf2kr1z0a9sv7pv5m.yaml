@@ -40,6 +40,10 @@ sources:
     title: "Russian strike on apartment building in Pryluky: Death toll rises to 16, 55 injured"
     published_at: 2026-10-07T14:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007161612/https://www.ukrinform.net/rubric-ato/4172002-russian-strike-on-apartment-building-in-pryluky-death-toll-rises-to-16-55-injured.html
+        captured_at: 2026-10-07T16:16:12Z
   - url: https://www.ukrinform.net/rubric-ato/4172073-death-toll-from-russian-attack-in-pryluky-rises-to-19-another-55-people-injured.html
     title: Death toll from Russian attack in Pryluky rises to 19, another 55 people injured
     published_at: 2026-10-07T17:16Z

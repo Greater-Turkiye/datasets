@@ -18,6 +18,10 @@ sources:
     title: Iran intends to close "illegal" shipping "routes" through Hormuz strait
     published_at: 2026-10-07T12:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009124725/https://news.am/en/news/1066345
+        captured_at: 2026-10-09T12:47:25Z
 assessment:
   status: unverified
   credibility: 6

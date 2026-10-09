@@ -18,6 +18,10 @@ sources:
     title: Rubio In Iceland Signals Deeper NATO Push As Russia, China Challenge Arctic Security
     published_at: 2026-10-07T08:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007103418/https://www.rferl.org/a/rubio-nato-russia-china-arctic-security/33871932.html
+        captured_at: 2026-10-07T10:34:18Z
 assessment:
   status: unverified
   credibility: 6

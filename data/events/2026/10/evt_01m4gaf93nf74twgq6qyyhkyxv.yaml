@@ -1,0 +1,33 @@
+id: evt_01m4gaf93nf74twgq6qyyhkyxv
+schema: event/1
+event_type: diplomatic.talks
+title:
+  tr: İran Cumhurbaşkanı Masoud Pezeshkian ile Görüşme
+  en: Meeting with President of Iran Masoud Pezeshkian
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-08T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-08T17:00Z
+location:
+  geometry: {type: Point, coordinates: [52.97, 40.023]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Türkmenbaşı, en: Türkmenbaşy}
+regions: [iran]
+sources:
+  - url: http://en.kremlin.ru/events/president/news/80951
+    title: Meeting with President of Iran Masoud Pezeshkian
+    published_at: 2026-10-08T17:00Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rus-kremlin-news-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rus-kremlin-news-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

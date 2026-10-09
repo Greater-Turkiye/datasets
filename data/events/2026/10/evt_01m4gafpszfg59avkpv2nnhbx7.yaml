@@ -1,33 +1,29 @@
-id: evt_01m4c8geyvfsqtzn6hwxxnwtex
+id: evt_01m4gafpszfg59avkpv2nnhbx7
 schema: event/1
-event_type: kinetic.attack
+event_type: diplomatic.talks
 title:
-  tr: Zelenskiy, Rusya'nın ölümcül saldırılarının Putin'in doğum gününde Ukrayna'nın dört bir yanındaki evlere zarar verdiğini söyledi
-  en: Russia's Deadly Attacks Damage Homes Across Ukraine On Putin's Birthday, Zelenskyy Says
+  tr: ABD ve Ukrayna, Rus hava saldırılarının ardından Miami'de görüşmelere başladı
+  en: US, Ukraine Set For Talks In Miami Amid Onslaught Of Russian Air Strikes
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-07T00:00Z
+  start: 2026-10-09T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-07T10:09Z
+reported_at: 2026-10-09T07:14Z
 location:
-  geometry: {type: Point, coordinates: [40.41, 56.13]}
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
   precision: locality
   uncertainty_m: 20000
   method: inferred
-  place_name: {tr: Vladimir, en: Vladimir}
+  place_name: {tr: Kyiv, en: Kyiv}
 regions: [black-sea]
 sources:
-  - url: https://www.rferl.org/a/ukraine-russia-zelenskyy-putin-war/33871985.html
-    title: Russia's Deadly Attacks Damage Homes Across Ukraine On Putin's Birthday, Zelenskyy Says
-    published_at: 2026-10-07T10:09Z
+  - url: https://www.rferl.org/a/us-ukraine-talks-miami-russian-air-strikes/33873365.html
+    title: US, Ukraine Set For Talks In Miami Amid Onslaught Of Russian Air Strikes
+    published_at: 2026-10-09T07:14Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261007123358/https://www.rferl.org/a/ukraine-russia-zelenskyy-putin-war/33871985.html
-        captured_at: 2026-10-07T12:33:58Z
 assessment:
   status: unverified
   credibility: 6

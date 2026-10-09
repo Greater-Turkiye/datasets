@@ -1,0 +1,27 @@
+id: evt_01m4gafk9kf6va4rbszsqnvdwk
+schema: event/1
+event_type: kinetic.clash
+title:
+  tr: Ukrayna son 24 saat içinde 211 cephe hattı çatışması bildirirken, Pokrovsk ve Huliaipole sektörlerinde en ağır çatışmalar yaşandı
+  en: Ukraine reports 211 frontline clashes in past 24 hours, with Pokrovsk and Huliaipole sectors seeing heaviest fighting
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-09T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-09T06:47Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4172565-ukraine-reports-211-frontline-clashes-in-past-24-hours-with-pokrovsk-and-huliaipole-sectors-seeing-heaviest-fighting.html
+    title: Ukraine reports 211 frontline clashes in past 24 hours, with Pokrovsk and Huliaipole sectors seeing heaviest fighting
+    published_at: 2026-10-09T06:47Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -24,6 +24,10 @@ sources:
     title: Apartment buildings damaged in Kremenchuk as result of missile attack
     published_at: 2026-10-07T05:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007141427/https://www.ukrinform.net/rubric-ato/4171765-apartment-buildings-damaged-in-kremenchuk-as-result-of-missile-attack.html
+        captured_at: 2026-10-07T14:14:27Z
 assessment:
   status: unverified
   credibility: 6

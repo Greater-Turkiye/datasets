@@ -18,6 +18,10 @@ sources:
     title: EU ambassadors agree on 22nd package of anti-Russian sanctions
     published_at: 2026-10-07T10:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009124128/https://news.am/en/news/1066316
+        captured_at: 2026-10-09T12:41:28Z
 assessment:
   status: unverified
   credibility: 6

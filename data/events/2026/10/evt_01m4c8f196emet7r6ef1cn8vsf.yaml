@@ -18,6 +18,10 @@ sources:
     title: "Newspaper: Armenia PM demands answers regarding Azerbaijan soldier’s emergence in Shaki village"
     published_at: 2026-10-07T04:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007094011/https://news.am/en/news/1066226
+        captured_at: 2026-10-07T09:40:11Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,27 +1,23 @@
-id: evt_01m4c8fh3qe5g8k6kx1xcvwcwx
+id: evt_01m4gag97gfq7t6p7rvbm0axqc
 schema: event/1
-event_type: kinetic.clash
+event_type: policy.defense
 title:
-  tr: Sırbistan'da Cinsel İstismardan Kurtulan Erkekler Her Zaman Sessizlik İçinde Acı Çekiyor
-  en: In Serbia, Male Survivors of Sexual Abuse Invariably Suffer in Silence
+  tr: Karadağ, Rusya Yanlısı Telegram Kanalının Kurucu Ortaklarını Gözaltına Aldı
+  en: Montenegro Detains Co-Founders of Pro-Russian Telegram Channel
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-07T00:00Z
+  start: 2026-10-09T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-07T05:50Z
-regions: [balkans]
+reported_at: 2026-10-09T11:05Z
+regions: [black-sea]
 sources:
-  - url: https://balkaninsight.com/2026/10/07/in-serbia-male-survivors-of-sexual-abuse-invariably-suffer-in-silence/bi/
-    title: In Serbia, Male Survivors of Sexual Abuse Invariably Suffer in Silence
-    published_at: 2026-10-07T05:50Z
+  - url: https://balkaninsight.com/2026/10/09/montenegro-detains-co-founders-of-pro-russian-telegram-channel/bi/
+    title: Montenegro Detains Co-Founders of Pro-Russian Telegram Channel
+    published_at: 2026-10-09T11:05Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261007121016/https://balkaninsight.com/2026/10/07/in-serbia-male-survivors-of-sexual-abuse-invariably-suffer-in-silence/bi/
-        captured_at: 2026-10-07T12:10:16Z
 assessment:
   status: unverified
   credibility: 6
