@@ -24,6 +24,10 @@ sources:
     title: Three children's bodies recovered from Pryluky rubble as death toll rises to nine, with 38 injured
     published_at: 2026-10-07T09:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007131627/https://www.ukrinform.net/rubric-ato/4171880-three-childrens-bodies-recovered-from-pryluky-rubble-as-death-toll-rises-to-nine-with-38-injured.html
+        captured_at: 2026-10-07T13:16:27Z
 assessment:
   status: unverified
   credibility: 6

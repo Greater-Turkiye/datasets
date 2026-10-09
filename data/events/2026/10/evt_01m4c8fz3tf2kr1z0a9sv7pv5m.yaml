@@ -24,10 +24,18 @@ sources:
     title: Death toll from Russian missile strike on Pryluky rises to five, 25 injured
     published_at: 2026-10-07T08:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007143226/https://www.ukrinform.net/rubric-ato/4171836-death-toll-from-russian-missile-strike-on-pryluky-rises-to-five-25-injured.html
+        captured_at: 2026-10-07T14:32:26Z
   - url: https://www.ukrinform.net/rubric-ato/4171948-russian-missile-attack-on-pryluky-death-toll-rises-to-14-50-injured.html
     title: "Russian missile attack on Pryluky: Death toll rises to 14, 50 injured"
     published_at: 2026-10-07T12:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007131625/https://www.ukrinform.net/rubric-ato/4171948-russian-missile-attack-on-pryluky-death-toll-rises-to-14-50-injured.html
+        captured_at: 2026-10-07T13:16:25Z
   - url: https://www.ukrinform.net/rubric-ato/4172002-russian-strike-on-apartment-building-in-pryluky-death-toll-rises-to-16-55-injured.html
     title: "Russian strike on apartment building in Pryluky: Death toll rises to 16, 55 injured"
     published_at: 2026-10-07T14:23Z
@@ -36,6 +44,10 @@ sources:
     title: Death toll from Russian attack in Pryluky rises to 19, another 55 people injured
     published_at: 2026-10-07T17:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007191639/https://www.ukrinform.net/rubric-ato/4172073-death-toll-from-russian-attack-in-pryluky-rises-to-19-another-55-people-injured.html
+        captured_at: 2026-10-07T19:16:39Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: "Media reports: Volgograd oil refinery halts operations following drone attack"
     published_at: 2026-10-07T10:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261007131622/https://www.ukrinform.net/rubric-ato/4171897-media-reports-volgograd-oil-refinery-halts-operations-following-drone-attack.html
+        captured_at: 2026-10-07T13:16:22Z
 assessment:
   status: unverified
   credibility: 6

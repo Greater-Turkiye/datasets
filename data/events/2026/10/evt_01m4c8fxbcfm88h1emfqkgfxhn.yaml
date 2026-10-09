@@ -24,6 +24,10 @@ sources:
     title: Dovzhenko Film Studio in Kyiv damaged again in Russian attack
     published_at: 2026-10-07T08:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009043542/https://www.ukrinform.net/rubric-ato/4171824-dovzhenko-film-studio-in-kyiv-damaged-again-in-russian-attack.html
+        captured_at: 2026-10-09T04:35:42Z
 assessment:
   status: unverified
   credibility: 6

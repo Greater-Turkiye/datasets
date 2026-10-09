@@ -18,6 +18,10 @@ sources:
     title: USS Jason Dunham Departs Cyprus
     published_at: 2026-09-18T22:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261006220434/https://www.c6f.navy.mil/Press-Room/News/Article/4606581/uss-jason-dunham-departs-cyprus/
+        captured_at: 2026-10-06T22:04:34Z
 assessment:
   status: unverified
   credibility: 6
