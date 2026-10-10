@@ -32,6 +32,10 @@ sources:
     title: Death toll from Russian strike on two buses in Kramatorsk rises to 33, 18 injured
     published_at: 2026-10-08T11:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008124613/https://www.ukrinform.net/rubric-ato/4172298-death-toll-from-russian-strike-on-two-buses-in-kramatorsk-rises-to-33-18-injured.html
+        captured_at: 2026-10-08T12:46:13Z
   - url: https://www.ukrinform.net/rubric-ato/4172321-russian-forces-strike-sumy-one-killed-four-injured-including-two-children.html
     title: Russian forces strike Sumy, one killed, four injured, including two children
     published_at: 2026-10-08T11:47Z

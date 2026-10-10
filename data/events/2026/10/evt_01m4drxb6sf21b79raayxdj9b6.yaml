@@ -18,6 +18,10 @@ sources:
     title: Defense Forces and Russian troops engage in 224 clashes on front line over past 24 hours
     published_at: 2026-10-08T06:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008083150/https://www.ukrinform.net/rubric-ato/4172170-defense-forces-and-russian-troops-engage-in-224-clashes-on-front-line-over-past-24-hours.html
+        captured_at: 2026-10-08T08:31:50Z
 assessment:
   status: unverified
   credibility: 6

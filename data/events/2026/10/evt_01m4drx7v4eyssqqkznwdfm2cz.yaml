@@ -24,6 +24,10 @@ sources:
     title: Foreign Secretary statement on the UK's diplomatic presence in Jerusalem
     published_at: 2026-10-08T06:13Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008085130/https://www.gov.uk/government/news/foreign-secretary-statement-on-the-uks-diplomatic-presence-in-jerusalem
+        captured_at: 2026-10-08T08:51:30Z
 assessment:
   status: unverified
   credibility: 6

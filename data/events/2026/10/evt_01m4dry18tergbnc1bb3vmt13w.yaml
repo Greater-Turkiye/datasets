@@ -18,6 +18,10 @@ sources:
     title: "Russia’s attacks on Ukraine’s civilian infrastructure: UK statement to the OSCE"
     published_at: 2026-10-08T09:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008104622/https://www.gov.uk/government/speeches/russias-attacks-on-ukraines-civilian-infrastructure-uk-statement-to-the-osce
+        captured_at: 2026-10-08T10:46:22Z
 assessment:
   status: unverified
   credibility: 6

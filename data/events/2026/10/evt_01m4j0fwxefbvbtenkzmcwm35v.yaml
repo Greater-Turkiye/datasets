@@ -1,0 +1,27 @@
+id: evt_01m4j0fwxefbvbtenkzmcwm35v
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: "Üst düzey Birleşmiş Milletler Barış İnşası yetkilisi, acil ateşkes çağrıları üzerine Güvenlik Konseyi'ni uyardı: Rusya'nın Ukrayna'ya yönelik saldırıları \"yeni ve korkunç bir seviyeye\" ulaştı"
+  en: Russian Strikes against Ukraine Have Reached ‘New Horrifying Level’, Top United Nations Peacebuilding Official Warns Security Council, amid Calls for Immediate Ceasefire
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-09T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-09T23:03Z
+regions: [black-sea]
+sources:
+  - url: https://press.un.org/en/2026/sc16472.doc.htm
+    title: Russian Strikes against Ukraine Have Reached ‘New Horrifying Level’, Top United Nations Peacebuilding Official Warns Security Council, amid Calls for Immediate Ceasefire
+    published_at: 2026-10-09T23:03Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: un-press-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: un-press-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

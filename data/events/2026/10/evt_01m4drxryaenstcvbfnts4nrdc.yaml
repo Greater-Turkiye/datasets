@@ -24,6 +24,10 @@ sources:
     title: Russian drone debris falls in Kyiv's Holosiivskyi district, killing one and injuring others
     published_at: 2026-10-08T08:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008104706/https://www.ukrinform.net/rubric-ato/4172225-russian-drone-debris-falls-in-kyivs-holosiivskyi-district-killing-one-and-injuring-others.html
+        captured_at: 2026-10-08T10:47:06Z
 assessment:
   status: unverified
   credibility: 6

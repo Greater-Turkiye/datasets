@@ -18,6 +18,10 @@ sources:
     title: Armenia joins CIS statement on preventing arms race in outer space
     published_at: 2026-10-07T14:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010042133/https://news.am/en/news/1066408
+        captured_at: 2026-10-10T04:21:33Z
 assessment:
   status: unverified
   credibility: 6

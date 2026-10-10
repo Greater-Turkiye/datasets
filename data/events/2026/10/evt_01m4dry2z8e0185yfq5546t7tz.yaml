@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes store in Kyiv's Solomianskyi district, two killed, two injured
     published_at: 2026-10-08T09:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008114642/https://www.ukrinform.net/rubric-ato/4172268-russian-drone-strikes-store-in-kyivs-solomianskyi-district-two-killed-two-injured.html
+        captured_at: 2026-10-08T11:46:42Z
 assessment:
   status: unverified
   credibility: 6

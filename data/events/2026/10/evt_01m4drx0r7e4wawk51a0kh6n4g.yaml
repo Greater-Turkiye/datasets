@@ -24,6 +24,10 @@ sources:
     title: Russian KAB strikes again target high school in Kushuhum, Zaporizhzhia region
     published_at: 2026-10-08T03:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008064701/https://www.ukrinform.net/rubric-ato/4172119-russian-kab-strikes-again-target-high-school-in-kushuhum-zaporizhzhia-region.html
+        captured_at: 2026-10-08T06:47:01Z
 assessment:
   status: unverified
   credibility: 6

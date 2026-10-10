@@ -24,6 +24,10 @@ sources:
     title: Drone strike hits high-rise building in Kyiv, injuring four people, including two children
     published_at: 2026-10-08T03:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008071616/https://www.ukrinform.net/rubric-ato/4172129-drone-strike-hits-highrise-building-in-kyiv-injuring-four-people-including-two-children.html
+        captured_at: 2026-10-08T07:16:16Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian forces kill four civilians and injure six others in Donetsk region over past day
     published_at: 2026-10-08T08:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008124615/https://www.ukrinform.net/rubric-ato/4172177-russian-forces-kill-four-civilians-and-injure-six-others-in-donetsk-region-over-past-day.html
+        captured_at: 2026-10-08T12:46:15Z
 assessment:
   status: unverified
   credibility: 6

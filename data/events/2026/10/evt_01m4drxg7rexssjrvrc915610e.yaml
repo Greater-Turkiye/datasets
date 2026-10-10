@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Dnipropetrovsk region nearly 10 times since evening, sparking fire
     published_at: 2026-10-08T07:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008114644/https://www.ukrinform.net/rubric-ato/4172153-russian-forces-strike-dnipropetrovsk-region-nearly-10-times-since-evening-sparking-fire.html
+        captured_at: 2026-10-08T11:46:44Z
 assessment:
   status: unverified
   credibility: 6
