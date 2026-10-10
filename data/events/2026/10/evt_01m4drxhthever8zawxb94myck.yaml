@@ -18,6 +18,10 @@ sources:
     title: Armenia government allocates $105,000 for cultural event at CIS summit in Turkmenistan
     published_at: 2026-10-08T07:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010042815/https://news.am/en/news/1066563
+        captured_at: 2026-10-10T04:28:15Z
 assessment:
   status: unverified
   credibility: 6

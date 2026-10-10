@@ -1,27 +1,23 @@
-id: evt_01m4gafe77ewe9786qbpvkqzva
+id: evt_01m4ktbtqje2erktp85sp5dzne
 schema: event/1
-event_type: policy.defense
+event_type: kinetic.attack
 title:
-  tr: Rus kuvvetleri son 24 saat içinde Ukrayna'ya karşı savaşta 1.710 askerini daha kaybetti
-  en: Russian forces lose another 1,710 soldiers in war against Ukraine over past 24 hours
+  tr: Ukrayna Savunma Kuvvetleri, Rus komuta noktalarını ve elektronik harp istasyonunu vurdu
+  en: Ukrainian Defense Forces strike Russian command posts, electronic warfare station
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-09T00:00Z
+  start: 2026-10-10T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-09T05:37Z
+reported_at: 2026-10-10T14:18Z
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4172543-russian-forces-lose-another-1710-soldiers-in-war-against-ukraine-over-past-24-hours.html
-    title: Russian forces lose another 1,710 soldiers in war against Ukraine over past 24 hours
-    published_at: 2026-10-09T05:37Z
+  - url: https://www.ukrinform.net/rubric-ato/4173053-ukrainian-defense-forces-strike-russian-command-posts-electronic-warfare-station.html
+    title: Ukrainian Defense Forces strike Russian command posts, electronic warfare station
+    published_at: 2026-10-10T14:18Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261009093227/https://www.ukrinform.net/rubric-ato/4172543-russian-forces-lose-another-1710-soldiers-in-war-against-ukraine-over-past-24-hours.html
-        captured_at: 2026-10-09T09:32:27Z
 assessment:
   status: unverified
   credibility: 6

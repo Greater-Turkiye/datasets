@@ -1,33 +1,29 @@
-id: evt_01m4gaft0vewqsewa3c27qvz90
+id: evt_01m4ktbehyer78srgdgbmkx5hz
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Donetsk bölgesindeki Rus saldırıları son 24 saat içinde 35 kişiyi öldürdü ve 25 kişiyi yaraladı
-  en: Russian attacks in Donetsk region kill 35 residents and injure 25 over past 24 hours
+  tr: Ukrayna kuvvetleri Rusya'nın Samara bölgesindeki petrol tesisini tekrar vurdu
+  en: Ukrainian forces strike oil facility in Russia's Samara region again
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-09T00:00Z
+  start: 2026-10-10T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-09T07:58Z
+reported_at: 2026-10-10T11:30Z
 location:
-  geometry: {type: Point, coordinates: [37.828, 48.002]}
+  geometry: {type: Point, coordinates: [50.149, 53.197]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Donetsk bölgesi, en: Donetsk region}
+  place_name: {tr: Samara bölgesi, en: Samara region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4172569-russian-attacks-in-donetsk-region-kill-35-residents-and-injure-25-over-past-24-hours.html
-    title: Russian attacks in Donetsk region kill 35 residents and injure 25 over past 24 hours
-    published_at: 2026-10-09T07:58Z
+  - url: https://www.ukrinform.net/rubric-ato/4172991-ukrainian-forces-strike-oil-facility-in-russias-samara-region-again.html
+    title: Ukrainian forces strike oil facility in Russia's Samara region again
+    published_at: 2026-10-10T11:30Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261009105408/https://www.ukrinform.net/rubric-ato/4172569-russian-attacks-in-donetsk-region-kill-35-residents-and-injure-25-over-past-24-hours.html
-        captured_at: 2026-10-09T10:54:08Z
 assessment:
   status: unverified
   credibility: 6

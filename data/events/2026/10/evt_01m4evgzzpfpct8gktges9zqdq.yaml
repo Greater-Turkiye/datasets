@@ -24,6 +24,10 @@ sources:
     title: Some victims killed in Kramatorsk still unidentified - General Staff
     published_at: 2026-10-08T18:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008200127/https://www.ukrinform.net/rubric-ato/4172498-some-victims-killed-in-kramatorsk-still-unidentified-general-staff.html
+        captured_at: 2026-10-08T20:01:27Z
 assessment:
   status: unverified
   credibility: 6

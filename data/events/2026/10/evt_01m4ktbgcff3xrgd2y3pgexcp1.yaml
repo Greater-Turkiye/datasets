@@ -1,17 +1,17 @@
-id: evt_01m4gaffwpfehagq9sv3x8mk2w
+id: evt_01m4ktbgcff3xrgd2y3pgexcp1
 schema: event/1
-event_type: kinetic.attack
+event_type: kinetic.airstrike
 title:
-  tr: Zaporijya'daki Rus saldırısı bir kişiyi öldürdü ve çocuk da dahil olmak üzere çok sayıda kişiyi yaraladı
-  en: Russian attack in Zaporizhzhia kills one man and injures several people, including child
+  tr: Rusya'nın Zaporijya'ya düzenlediği bombalı saldırıda ölenlerin sayısı 15 'e yükseldi
+  en: Death toll from Russian guided bomb attack on Zaporizhzhia rises to 15
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-09T00:00Z
+  start: 2026-10-10T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-09T05:57Z
+reported_at: 2026-10-10T11:45Z
 location:
   geometry: {type: Point, coordinates: [35.175, 47.859]}
   precision: locality
@@ -20,14 +20,18 @@ location:
   place_name: {tr: Zaporijya, en: Zaporizhzhya}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4172542-russian-attack-in-zaporizhzhia-kills-one-man-and-injures-several-people-including-child.html
-    title: Russian attack in Zaporizhzhia kills one man and injures several people, including child
-    published_at: 2026-10-09T05:57Z
+  - url: https://www.ukrinform.net/rubric-ato/4173004-death-toll-from-russian-guided-bomb-attack-on-zaporizhzhia-rises-to-15.html
+    title: Death toll from Russian guided bomb attack on Zaporizhzhia rises to 15
+    published_at: 2026-10-10T11:45Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261009093146/https://www.ukrinform.net/rubric-ato/4172542-russian-attack-in-zaporizhzhia-kills-one-man-and-injures-several-people-including-child.html
-        captured_at: 2026-10-09T09:31:46Z
+  - url: https://www.ukrinform.net/rubric-ato/4173043-death-toll-from-russian-airstrike-on-zaporizhzhia-rises-to-17-18-people-injured.html
+    title: Death toll from Russian airstrike on Zaporizhzhia rises to 17, 18 people injured
+    published_at: 2026-10-10T13:57Z
+    lang: en
+  - url: https://www.ukrinform.net/rubric-ato/4173122-russian-guided-bomb-attack-on-zaporizhzhia-kills-20-injures-32.html
+    title: Russian guided bomb attack on Zaporizhzhia kills 20, injures 32
+    published_at: 2026-10-10T19:30Z
+    lang: en
 assessment:
   status: unverified
   credibility: 6

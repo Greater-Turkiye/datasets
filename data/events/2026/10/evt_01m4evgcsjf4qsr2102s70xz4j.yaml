@@ -18,6 +18,10 @@ sources:
     title: "UN Human Rights Council 63: UK General Comment on the draft resolution on Cooperation with Georgia"
     published_at: 2026-10-08T14:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010211848/https://www.gov.uk/government/speeches/un-human-rights-council-63-uk-general-comment-on-the-draft-resolution-on-cooperation-with-georgia
+        captured_at: 2026-10-10T21:18:48Z
 assessment:
   status: unverified
   credibility: 6

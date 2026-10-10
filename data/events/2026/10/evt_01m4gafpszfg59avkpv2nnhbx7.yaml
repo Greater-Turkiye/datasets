@@ -24,6 +24,10 @@ sources:
     title: US, Ukraine Set For Talks In Miami Amid Onslaught Of Russian Air Strikes
     published_at: 2026-10-09T07:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009190516/https://www.rferl.org/a/us-ukraine-talks-miami-russian-air-strikes/33873365.html
+        captured_at: 2026-10-09T19:05:16Z
 assessment:
   status: unverified
   credibility: 6

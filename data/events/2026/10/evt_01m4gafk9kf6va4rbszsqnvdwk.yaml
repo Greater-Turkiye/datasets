@@ -18,6 +18,10 @@ sources:
     title: Ukraine reports 211 frontline clashes in past 24 hours, with Pokrovsk and Huliaipole sectors seeing heaviest fighting
     published_at: 2026-10-09T06:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010212857/https://www.ukrinform.net/rubric-ato/4172565-ukraine-reports-211-frontline-clashes-in-past-24-hours-with-pokrovsk-and-huliaipole-sectors-seeing-heaviest-fighting.html
+        captured_at: 2026-10-10T21:28:57Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Ukraine preparing response to new wave of Russian escalation – Zelensky
     published_at: 2026-10-08T17:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009022926/https://www.ukrinform.net/rubric-ato/4172466-ukraine-preparing-response-to-new-wave-of-russian-escalation-zelensky.html
+        captured_at: 2026-10-09T02:29:26Z
 assessment:
   status: unverified
   credibility: 6

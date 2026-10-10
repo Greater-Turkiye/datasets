@@ -24,6 +24,10 @@ sources:
     title: Russia will pay the price for strikes on Pryluky and Kramatorsk – Zelensky
     published_at: 2026-10-08T20:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010212357/https://www.ukrinform.net/rubric-ato/4172519-russia-will-pay-the-price-for-strikes-on-pryluky-and-kramatorsk-zelensky.html
+        captured_at: 2026-10-10T21:23:57Z
 assessment:
   status: unverified
   credibility: 6

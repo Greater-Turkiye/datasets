@@ -18,6 +18,10 @@ sources:
     title: Detained Azerbaijan soldier not a saboteur, Armenia defense minister says
     published_at: 2026-10-07T13:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010211231/https://news.am/en/news/1066382
+        captured_at: 2026-10-10T21:12:31Z
 assessment:
   status: unverified
   credibility: 6
