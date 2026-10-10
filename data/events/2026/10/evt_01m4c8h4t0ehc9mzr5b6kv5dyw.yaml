@@ -18,6 +18,10 @@ sources:
     title: "Armenia PM on Azerbaijan soldier’s arrest: I asked that we avoid publicizing such footage"
     published_at: 2026-10-07T12:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010120539/https://news.am/en/news/1066371
+        captured_at: 2026-10-10T12:05:39Z
 assessment:
   status: unverified
   credibility: 6

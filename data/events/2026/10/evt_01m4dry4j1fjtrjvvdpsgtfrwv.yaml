@@ -18,6 +18,10 @@ sources:
     title: "Russia Security Council: US may gain access to Armenia residents’ data"
     published_at: 2026-10-08T10:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008115658/https://news.am/en/news/1066627
+        captured_at: 2026-10-08T11:56:58Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,0 +1,27 @@
+id: evt_01m4jtmscmey681za0neh9pt95
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: Gece Rus saldırılarının ardından 13 bölgede hasar bildirildi – Koretskyi
+  en: Damage reported in 13 regions following overnight Russian attacks – Koretskyi
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-10T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-10T10:32Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4172979-damage-reported-in-13-regions-following-overnight-russian-attacks-koretskyi.html
+    title: Damage reported in 13 regions following overnight Russian attacks – Koretskyi
+    published_at: 2026-10-10T10:32Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

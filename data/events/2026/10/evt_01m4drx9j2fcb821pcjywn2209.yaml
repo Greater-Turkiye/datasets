@@ -18,6 +18,10 @@ sources:
     title: Authorities plan to raise age limit for military conscription in Armenia for certain category of citizens
     published_at: 2026-10-08T06:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008080326/https://news.am/en/news/1066522
+        captured_at: 2026-10-08T08:03:26Z
 assessment:
   status: unverified
   credibility: 6

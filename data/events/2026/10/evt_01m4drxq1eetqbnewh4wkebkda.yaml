@@ -18,6 +18,10 @@ sources:
     title: "Armenia health ministry: Woman, shot by Azerbaijan soldier, in stable condition"
     published_at: 2026-10-08T08:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008103451/https://news.am/en/news/1066589
+        captured_at: 2026-10-08T10:34:51Z
 assessment:
   status: unverified
   credibility: 6

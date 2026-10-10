@@ -18,6 +18,10 @@ sources:
     title: "More Drones, More Missiles, No Air Defenses: Moldova In The Cross Fire Of Russia's War On Ukraine"
     published_at: 2026-10-08T11:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010122959/https://www.rferl.org/a/moldova-russia-ukraine-war-drones-missiles-cross-fire-/33872784.html
+        captured_at: 2026-10-10T12:29:59Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,33 +1,29 @@
-id: evt_01m4drxkbjes3bkt68mgdartvj
+id: evt_01m4jtm558ean8gr5sf9ef538r
 schema: event/1
 event_type: kinetic.attack
 title:
-  tr: Rus saldırıyı Rivne bölgesindeki işletmeye zarar verdi
-  en: Russian strike damages business in Rivne region
+  tr: Rus güçleri Zhytomyr bölgesindeki demiryolu altyapısına saldırdı, bir kişi yaralandı.
+  en: Russian forces attack railway infrastructure in Zhytomyr region, one person injured
 i18n:
   source: en
   machine: [tr]
 time:
-  start: 2026-10-08T00:00Z
+  start: 2026-10-10T00:00Z
   precision: day
   basis: reported
-reported_at: 2026-10-08T08:22Z
+reported_at: 2026-10-10T06:20Z
 location:
-  geometry: {type: Point, coordinates: [26.253, 50.617]}
+  geometry: {type: Point, coordinates: [28.662, 50.246]}
   precision: admin1
   uncertainty_m: 100000
   method: inferred
-  place_name: {tr: Rivne bölgesi, en: Rivne region}
+  place_name: {tr: Zhytomyr bölgesi, en: Zhytomyr region}
 regions: [black-sea]
 sources:
-  - url: https://www.ukrinform.net/rubric-ato/4172175-russian-strike-damages-business-in-rivne-region.html
-    title: Russian strike damages business in Rivne region
-    published_at: 2026-10-08T08:22Z
+  - url: https://www.ukrinform.net/rubric-ato/4172902-russian-forces-attack-railway-infrastructure-in-zhytomyr-region-one-person-injured.html
+    title: Russian forces attack railway infrastructure in Zhytomyr region, one person injured
+    published_at: 2026-10-10T06:20Z
     lang: en
-    archives:
-      - service: wayback
-        url: https://web.archive.org/web/20261010042642/https://www.ukrinform.net/rubric-ato/4172175-russian-strike-damages-business-in-rivne-region.html
-        captured_at: 2026-10-10T04:26:42Z
 assessment:
   status: unverified
   credibility: 6

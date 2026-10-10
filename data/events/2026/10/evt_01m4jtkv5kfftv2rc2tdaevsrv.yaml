@@ -1,0 +1,41 @@
+id: evt_01m4jtkv5kfftv2rc2tdaevsrv
+schema: event/1
+event_type: kinetic.airstrike
+title:
+  tr: "Zaporijya'da süzülerek gerçekleşen bomba saldırısı: Ölü sayısı 4 'e yükseldi, 11 kişi yaralandı"
+  en: "Glide bomb strike on Zaporizhzhia: Death toll rises to four, 11 injured"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-10T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-10T05:59Z
+location:
+  geometry: {type: Point, coordinates: [35.175, 47.859]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Zaporijya, en: Zaporizhzhya}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4172894-glide-bomb-strike-on-zaporizhzhia-death-toll-rises-to-four-11-injured.html
+    title: "Glide bomb strike on Zaporizhzhia: Death toll rises to four, 11 injured"
+    published_at: 2026-10-10T05:59Z
+    lang: en
+  - url: https://www.ukrinform.net/rubric-ato/4172910-death-toll-from-glide-bomb-strike-on-zaporizhzhia-rises-to-seven-including-three-children.html
+    title: Death toll from glide bomb strike on Zaporizhzhia rises to seven, including three children
+    published_at: 2026-10-10T07:17Z
+    lang: en
+  - url: https://www.ukrinform.net/rubric-ato/4172929-glide-bomb-strike-on-zaporizhzhia-death-toll-rises-to-eight-16-injured.html
+    title: "Glide bomb strike on Zaporizhzhia: Death toll rises to eight, 16 injured"
+    published_at: 2026-10-10T08:20Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

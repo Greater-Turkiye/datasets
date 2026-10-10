@@ -18,6 +18,10 @@ sources:
     title: Western data center will cause electricity shortage in Armenia, Russia Security Council says
     published_at: 2026-10-08T09:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010121917/https://news.am/en/news/1066607
+        captured_at: 2026-10-10T12:19:17Z
 assessment:
   status: unverified
   credibility: 6

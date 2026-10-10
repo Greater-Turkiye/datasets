@@ -24,6 +24,10 @@ sources:
     title: "Ukraine: UN condemns latest attacks and calls for civilian protection"
     published_at: 2026-10-07T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008053015/https://news.un.org/feed/view/en/story/2026/10/1168548
+        captured_at: 2026-10-08T05:30:15Z
 assessment:
   status: unverified
   credibility: 6

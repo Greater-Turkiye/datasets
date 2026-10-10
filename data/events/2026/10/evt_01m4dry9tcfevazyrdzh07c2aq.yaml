@@ -18,6 +18,10 @@ sources:
     title: Over 100 members of Congress urge Secretary Rubio to withhold US military aid to Azerbaijan
     published_at: 2026-10-08T10:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008215133/https://news.am/en/news/1066632
+        captured_at: 2026-10-08T21:51:33Z
 assessment:
   status: unverified
   credibility: 6
