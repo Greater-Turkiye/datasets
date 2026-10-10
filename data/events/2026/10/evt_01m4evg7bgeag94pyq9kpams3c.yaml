@@ -18,6 +18,10 @@ sources:
     title: Владимир Путин прибыл в Туркменистан
     published_at: 2026-10-08T14:00Z
     lang: ru
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008185212/http://www.kremlin.ru/events/president/news/80949
+        captured_at: 2026-10-08T18:52:12Z
 assessment:
   status: unverified
   credibility: 6

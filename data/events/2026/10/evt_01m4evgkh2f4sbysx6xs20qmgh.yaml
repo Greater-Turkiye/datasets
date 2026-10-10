@@ -18,6 +18,10 @@ sources:
     title: Unanimously Adopting Resolution 2830 (2026), Security Council Renews Sudan Sanctions Regime for Two Months, Panel of Experts’ Mandate for Three
     published_at: 2026-10-08T15:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008181405/https://press.un.org/en/2026/sc16470.doc.htm
+        captured_at: 2026-10-08T18:14:05Z
 assessment:
   status: unverified
   credibility: 6

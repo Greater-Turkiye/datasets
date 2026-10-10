@@ -18,6 +18,10 @@ sources:
     title: Admiral Guiseppe Cavo Dragone, Chair of the NATO Military Committee
     published_at: 2026-10-08T09:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008115007/https://www.ukrinform.net/rubric-ato/4172247-admiral-guiseppe-cavo-dragone-chair-of-the-nato-military-committee.html
+        captured_at: 2026-10-08T11:50:07Z
 assessment:
   status: unverified
   credibility: 6

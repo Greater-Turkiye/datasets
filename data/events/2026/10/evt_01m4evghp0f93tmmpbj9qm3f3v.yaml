@@ -24,6 +24,10 @@ sources:
     title: "Exclusive: 'Key Targets': A Russian Blueprint For A Cold, Dark Winter In Ukraine"
     published_at: 2026-10-08T15:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008164554/https://www.rferl.org/a/ukraine-russia-energy-attacks-blueprint-exclusive/33872942.html
+        captured_at: 2026-10-08T16:45:54Z
 assessment:
   status: unverified
   credibility: 6

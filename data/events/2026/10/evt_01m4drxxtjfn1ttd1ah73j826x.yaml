@@ -48,6 +48,10 @@ sources:
     title: Russian forces strike Sumy, one killed, four injured, including two children
     published_at: 2026-10-08T11:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008124724/https://www.ukrinform.net/rubric-ato/4172321-russian-forces-strike-sumy-one-killed-four-injured-including-two-children.html
+        captured_at: 2026-10-08T12:47:24Z
 assessment:
   status: unverified
   credibility: 6

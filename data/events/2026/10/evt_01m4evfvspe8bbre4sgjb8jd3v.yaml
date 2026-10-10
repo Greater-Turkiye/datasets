@@ -18,6 +18,10 @@ sources:
     title: "Armenia ex-President Robert Kocharyan's office chief responds to PM Pashinyan: Azerbaijani soldiers were not roaming about in Armenia during President Kocharyan's reign"
     published_at: 2026-10-08T11:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008133559/https://news.am/en/news/1066647
+        captured_at: 2026-10-08T13:35:59Z
 assessment:
   status: unverified
   credibility: 6

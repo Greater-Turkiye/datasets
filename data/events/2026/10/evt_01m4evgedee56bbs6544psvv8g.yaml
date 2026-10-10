@@ -18,6 +18,10 @@ sources:
     title: Ukrainian Defense Forces strike Russian Mesh network relay in Black Sea
     published_at: 2026-10-08T14:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008164602/https://www.ukrinform.net/rubric-ato/4172400-ukrainian-defense-forces-strike-russian-mesh-network-relay-in-black-sea.html
+        captured_at: 2026-10-08T16:46:02Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Major internet outage hits Russia after strike on Yandex data center
     published_at: 2026-10-08T16:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008201513/https://www.ukrinform.net/rubric-ato/4172440-major-internet-outage-hits-russia-after-strike-on-yandex-data-center.html
+        captured_at: 2026-10-08T20:15:13Z
 assessment:
   status: unverified
   credibility: 6

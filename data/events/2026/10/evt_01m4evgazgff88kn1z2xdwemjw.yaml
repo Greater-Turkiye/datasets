@@ -28,6 +28,10 @@ sources:
     title: Two killed in Russian drone strike on car in Kramatorsk
     published_at: 2026-10-08T19:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009061631/https://www.ukrinform.net/rubric-ato/4172503-two-killed-in-russian-drone-strike-on-car-in-kramatorsk.html
+        captured_at: 2026-10-09T06:16:31Z
 assessment:
   status: unverified
   credibility: 6

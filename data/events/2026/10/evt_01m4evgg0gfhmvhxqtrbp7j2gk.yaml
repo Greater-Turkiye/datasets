@@ -24,6 +24,10 @@ sources:
     title: Russian strike on Kyiv store kills three, injures two
     published_at: 2026-10-08T15:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008171604/https://www.ukrinform.net/rubric-ato/4172407-russian-strike-on-kyiv-store-kills-three-injures-two.html
+        captured_at: 2026-10-08T17:16:04Z
 assessment:
   status: unverified
   credibility: 6

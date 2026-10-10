@@ -18,6 +18,10 @@ sources:
     title: PM Pashinyan compares political opponents to Azerbaijani soldier who shot Armenian woman
     published_at: 2026-10-08T09:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008134435/https://news.am/en/news/1066622
+        captured_at: 2026-10-08T13:44:35Z
 assessment:
   status: unverified
   credibility: 6

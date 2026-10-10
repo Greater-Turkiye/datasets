@@ -24,6 +24,10 @@ sources:
     title: Vladimir Putin arrived in Turkmenistan
     published_at: 2026-10-08T14:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010170519/http://en.kremlin.ru/events/president/news/80949
+        captured_at: 2026-10-10T17:05:19Z
 assessment:
   status: unverified
   credibility: 6

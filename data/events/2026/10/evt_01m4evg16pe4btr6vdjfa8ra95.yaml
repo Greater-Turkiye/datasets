@@ -24,6 +24,10 @@ sources:
     title: Russian Strike On Ukrainian Buses Kills More Than 30 Passengers In Kramatorsk
     published_at: 2026-10-08T13:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008132833/https://www.rferl.org/a/russian-strike-ukrainian-buses-kills-passengers-kramatorsk/33872867.html
+        captured_at: 2026-10-08T13:28:33Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Dragone: Ukraine has received $10B worth of U.S. weapons through PURL"
     published_at: 2026-10-08T11:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010122405/https://www.ukrinform.net/rubric-ato/4172293-dragone-ukraine-has-received-10b-worth-of-us-weapons-through-purl.html
+        captured_at: 2026-10-10T12:24:05Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Russia’s war threatening civilian shipping in the Black Sea: UK statement to the OSCE"
     published_at: 2026-10-08T15:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009074103/https://www.gov.uk/government/speeches/russias-war-threatening-civilian-shipping-in-the-black-sea-uk-statement-to-the-osce
+        captured_at: 2026-10-09T07:41:03Z
 assessment:
   status: unverified
   credibility: 6
