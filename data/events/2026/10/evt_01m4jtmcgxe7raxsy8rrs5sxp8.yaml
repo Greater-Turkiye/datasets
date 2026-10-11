@@ -24,6 +24,10 @@ sources:
     title: Russian Strike Kills At Least 11, Including 3 Children, In Ukraine's Zaporizhzhya, Kyiv Says
     published_at: 2026-10-10T08:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011084626/https://www.rferl.org/a/ukraine-russia-drone-attack-zaporizhzhya-kyiv/33874079.html
+        captured_at: 2026-10-11T08:46:26Z
 assessment:
   status: unverified
   credibility: 6

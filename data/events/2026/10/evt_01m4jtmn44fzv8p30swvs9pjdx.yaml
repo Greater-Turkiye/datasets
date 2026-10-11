@@ -24,6 +24,10 @@ sources:
     title: "Russian airstrike on Zaporizhzhia: Death toll rises to 12, including three children"
     published_at: 2026-10-10T09:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010120229/https://www.ukrinform.net/rubric-ato/4172964-russian-airstrike-on-zaporizhzhia-death-toll-rises-to-12-including-three-children.html
+        captured_at: 2026-10-10T12:02:29Z
 assessment:
   status: unverified
   credibility: 6

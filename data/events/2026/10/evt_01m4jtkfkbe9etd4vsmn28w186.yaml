@@ -24,6 +24,10 @@ sources:
     title: Border guards destroy Murom surveillance system, Russian drone launch site in Sumy region
     published_at: 2026-10-10T03:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010075733/https://www.ukrinform.net/rubric-ato/4172878-border-guards-destroy-murom-surveillance-system-russian-drone-launch-site-in-sumy-region.html
+        captured_at: 2026-10-10T07:57:33Z
 assessment:
   status: unverified
   credibility: 6

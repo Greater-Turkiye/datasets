@@ -24,6 +24,10 @@ sources:
     title: Russian attack damages tax service administrative buildings in Mykolaiv
     published_at: 2026-10-10T09:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010134623/https://www.ukrinform.net/rubric-ato/4172955-russian-attack-damages-tax-service-administrative-buildings-in-mykolaiv.html
+        captured_at: 2026-10-10T13:46:23Z
 assessment:
   status: unverified
   credibility: 6

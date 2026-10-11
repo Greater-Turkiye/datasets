@@ -24,6 +24,10 @@ sources:
     title: Statement by President of Russia Vladimir Putin
     published_at: 2026-10-09T18:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010120056/http://en.kremlin.ru/events/president/news/80960
+        captured_at: 2026-10-10T12:00:56Z
 assessment:
   status: unverified
   credibility: 6

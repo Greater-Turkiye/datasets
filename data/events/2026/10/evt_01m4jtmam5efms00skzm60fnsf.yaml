@@ -24,6 +24,10 @@ sources:
     title: "Kyiv region hit by Russian attacks: Six injured, 28 sites damaged"
     published_at: 2026-10-10T07:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010093122/https://www.ukrinform.net/rubric-ato/4172917-kyiv-region-hit-by-russian-attacks-six-injured-28-sites-damaged.html
+        captured_at: 2026-10-10T09:31:22Z
 assessment:
   status: unverified
   credibility: 6

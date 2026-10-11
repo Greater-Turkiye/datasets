@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike industrial and civilian infrastructure in Mykolaiv with drones
     published_at: 2026-10-10T05:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010074654/https://www.ukrinform.net/rubric-ato/4172888-russian-forces-strike-industrial-and-civilian-infrastructure-in-mykolaiv-with-drones.html
+        captured_at: 2026-10-10T07:46:54Z
 assessment:
   status: unverified
   credibility: 6

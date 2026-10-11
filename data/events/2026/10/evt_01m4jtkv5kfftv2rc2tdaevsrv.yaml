@@ -28,6 +28,10 @@ sources:
     title: Death toll from glide bomb strike on Zaporizhzhia rises to seven, including three children
     published_at: 2026-10-10T07:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010123854/https://www.ukrinform.net/rubric-ato/4172910-death-toll-from-glide-bomb-strike-on-zaporizhzhia-rises-to-seven-including-three-children.html
+        captured_at: 2026-10-10T12:38:54Z
   - url: https://www.ukrinform.net/rubric-ato/4172929-glide-bomb-strike-on-zaporizhzhia-death-toll-rises-to-eight-16-injured.html
     title: "Glide bomb strike on Zaporizhzhia: Death toll rises to eight, 16 injured"
     published_at: 2026-10-10T08:20Z
