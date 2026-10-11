@@ -24,6 +24,10 @@ sources:
     title: Four killed, 19 injured in Kyiv in Russian attacks throughout day
     published_at: 2026-10-08T17:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261008191611/https://www.ukrinform.net/rubric-ato/4172475-four-killed-19-injured-in-kyiv-in-russian-attacks-throughout-day.html
+        captured_at: 2026-10-08T19:16:11Z
 assessment:
   status: unverified
   credibility: 6

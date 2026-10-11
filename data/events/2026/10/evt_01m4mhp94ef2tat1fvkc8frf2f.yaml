@@ -1,0 +1,27 @@
+id: evt_01m4mhp94ef2tat1fvkc8frf2f
+schema: event/1
+event_type: maritime.incident
+title:
+  tr: ABD kuvvetleri ablukayı ihlal etmeye çalışan kargo gemisini devre dışı bıraktı
+  en: U.S. Forces Disable Cargo Vessel Attempting to Violate Blockade
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-11T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-11T00:12Z
+regions: [iran]
+sources:
+  - url: https://www.dvidshub.net/news/576778/us-forces-disable-cargo-vessel-attempting-violate-blockade
+    title: U.S. Forces Disable Cargo Vessel Attempting to Violate Blockade
+    published_at: 2026-10-11T00:12Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-usa-centcom-dvids. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-usa-centcom-dvids. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

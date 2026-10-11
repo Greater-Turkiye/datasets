@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack industrial and energy infrastructure in Mykolaiv, killing man
     published_at: 2026-10-09T11:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009163124/https://www.ukrinform.net/rubric-ato/4172679-russian-forces-attack-industrial-and-energy-infrastructure-in-mykolaiv-killing-man.html
+        captured_at: 2026-10-09T16:31:24Z
 assessment:
   status: unverified
   credibility: 6

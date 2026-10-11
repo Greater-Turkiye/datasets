@@ -24,6 +24,10 @@ sources:
     title: Russian drone attack damages buildings in Kyiv region, woman injured
     published_at: 2026-10-09T10:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009121830/https://www.ukrinform.net/rubric-ato/4172640-russian-drone-attack-damages-buildings-in-kyiv-region-woman-injured.html
+        captured_at: 2026-10-09T12:18:30Z
 assessment:
   status: unverified
   credibility: 6

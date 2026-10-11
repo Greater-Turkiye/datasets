@@ -24,6 +24,10 @@ sources:
     title: Russian KAB strikes on Zaporizhzhia at dawn kill one person and injure nine others
     published_at: 2026-10-09T08:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009103212/https://www.ukrinform.net/rubric-ato/4172576-russian-kab-strikes-on-zaporizhzhia-at-dawn-kill-one-person-and-injure-nine-others.html
+        captured_at: 2026-10-09T10:32:12Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Defense Forces strike Russian Osa air defense system with drones in eastern sector
     published_at: 2026-10-09T04:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010212853/https://www.ukrinform.net/rubric-ato/4172539-defense-forces-strike-russian-osa-air-defense-system-with-drones-in-eastern-sector.html
+        captured_at: 2026-10-10T21:28:53Z
 assessment:
   status: unverified
   credibility: 6

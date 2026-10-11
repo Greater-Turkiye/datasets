@@ -24,6 +24,10 @@ sources:
     title: Drone attack in Ivano-Frankivsk kills one man
     published_at: 2026-10-09T03:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010212853/https://www.ukrinform.net/rubric-ato/4172528-drone-attack-in-ivanofrankivsk-kills-one-man.html
+        captured_at: 2026-10-10T21:28:53Z
 assessment:
   status: unverified
   credibility: 6

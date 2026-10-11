@@ -18,6 +18,10 @@ sources:
     title: Montenegro Detains Co-Founders of Pro-Russian Telegram Channel
     published_at: 2026-10-09T11:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009120646/https://balkaninsight.com/2026/10/09/montenegro-detains-co-founders-of-pro-russian-telegram-channel/bi/
+        captured_at: 2026-10-09T12:06:46Z
 assessment:
   status: unverified
   credibility: 6

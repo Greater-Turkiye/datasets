@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Strike on Yandex data center was a mirror response to Russia's actions"
     published_at: 2026-10-08T19:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010212355/https://www.ukrinform.net/rubric-ato/4172513-zelensky-strike-on-yandex-data-center-was-a-mirror-response-to-russias-actions.html
+        captured_at: 2026-10-10T21:23:55Z
 assessment:
   status: unverified
   credibility: 6

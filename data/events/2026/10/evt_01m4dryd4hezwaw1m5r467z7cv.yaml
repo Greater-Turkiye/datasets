@@ -18,6 +18,10 @@ sources:
     title: New UK sanctions hit the money, oil and supply chains fuelling Russia's war
     published_at: 2026-10-08T11:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009115112/https://www.gov.uk/government/news/new-uk-sanctions-hit-the-money-oil-and-supply-chains-fuelling-russias-war
+        captured_at: 2026-10-09T11:51:12Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Fourth Committee Listens to Last Petitioners, Opens Debate on Decolonization
     published_at: 2026-10-08T23:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009020801/https://press.un.org/en/2026/gaspd837.doc.htm
+        captured_at: 2026-10-09T02:08:01Z
 assessment:
   status: unverified
   credibility: 6

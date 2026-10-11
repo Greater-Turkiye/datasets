@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike farm in Kharkiv region, killing more than 30 cows
     published_at: 2026-10-09T09:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009163125/https://www.ukrinform.net/rubric-ato/4172636-russian-forces-strike-farm-in-kharkiv-region-killing-more-than-30-cows.html
+        captured_at: 2026-10-09T16:31:25Z
 assessment:
   status: unverified
   credibility: 6

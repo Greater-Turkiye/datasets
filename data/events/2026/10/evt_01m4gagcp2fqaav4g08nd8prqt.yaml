@@ -24,6 +24,10 @@ sources:
     title: "Zelensky: Results achieved in eliminating Russian infiltrations in Dobropillia"
     published_at: 2026-10-09T11:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009151624/https://www.ukrinform.net/rubric-ato/4172683-zelensky-results-achieved-in-eliminating-russian-infiltrations-in-dobropillia.html
+        captured_at: 2026-10-09T15:16:24Z
 assessment:
   status: unverified
   credibility: 6

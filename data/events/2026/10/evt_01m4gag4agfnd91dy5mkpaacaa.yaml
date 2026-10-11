@@ -18,6 +18,10 @@ sources:
     title: Ukrainian forces strike Russian facilities involved in missile launches, rocket fuel production
     published_at: 2026-10-09T10:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009171618/https://www.ukrinform.net/rubric-ato/4172652-ukrainian-forces-strike-russian-facilities-involved-in-missile-launches-rocket-fuel-production.html
+        captured_at: 2026-10-09T17:16:18Z
 assessment:
   status: unverified
   credibility: 6
