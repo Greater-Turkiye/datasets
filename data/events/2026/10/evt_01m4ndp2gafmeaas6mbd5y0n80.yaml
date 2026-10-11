@@ -1,0 +1,27 @@
+id: evt_01m4ndp2gafmeaas6mbd5y0n80
+schema: event/1
+event_type: other
+title:
+  tr: DIU, petrol ve gaz taşıyan 20 Rus gölge filo gemisi hakkında veri yayınladı
+  en: DIU publishes data on 20 Russian shadow fleet vessels carrying oil and gas
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-11T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-11T04:44Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4173155-diu-publishes-data-on-20-russian-shadow-fleet-vessels-carrying-oil-and-gas.html
+    title: DIU publishes data on 20 Russian shadow fleet vessels carrying oil and gas
+    published_at: 2026-10-11T04:44Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

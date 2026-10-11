@@ -18,6 +18,10 @@ sources:
     title: Montenegro To Expel Head Of Russian Pro-War Blog Rybar
     published_at: 2026-10-09T12:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011122751/https://www.rferl.org/a/russian-pro-war-blog-detained-montenegro-eu/33873531.html
+        captured_at: 2026-10-11T12:27:51Z
 assessment:
   status: unverified
   credibility: 6

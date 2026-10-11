@@ -24,6 +24,10 @@ sources:
     title: Drones and balloons attacking Moscow and Moscow region as four airports shut down
     published_at: 2026-10-09T15:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010023553/https://www.ukrinform.net/rubric-ato/4172795-drones-and-balloons-attacking-moscow-and-moscow-region-as-four-airports-shut-down.html
+        captured_at: 2026-10-10T02:35:53Z
 assessment:
   status: unverified
   credibility: 6

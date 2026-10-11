@@ -18,6 +18,10 @@ sources:
     title: Security Council, 10237th Meeting (PM) Ukraine
     published_at: 2026-10-09T15:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010050921/https://press.un.org/en/blog/sc16472
+        captured_at: 2026-10-10T05:09:21Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Security Council, 10236th Meeting (AM) Yemen
     published_at: 2026-10-09T10:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011122055/https://press.un.org/en/blog/sc16471
+        captured_at: 2026-10-11T12:20:55Z
 assessment:
   status: unverified
   credibility: 6

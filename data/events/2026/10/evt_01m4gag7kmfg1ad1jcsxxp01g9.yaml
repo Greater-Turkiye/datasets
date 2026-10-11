@@ -24,6 +24,10 @@ sources:
     title: Woman's body found during cleanup after Russian attack in Kyiv region's Bucha district
     published_at: 2026-10-09T10:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009121609/https://www.ukrinform.net/rubric-ato/4172660-womans-body-found-during-cleanup-after-russian-attack-in-kyiv-regions-bucha-district.html
+        captured_at: 2026-10-09T12:16:09Z
 assessment:
   status: unverified
   credibility: 6

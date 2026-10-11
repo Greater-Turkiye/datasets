@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack logistics company warehouses in Dnipropetrovsk region, sparking fire
     published_at: 2026-10-09T18:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009230210/https://www.ukrinform.net/rubric-ato/4172829-russian-forces-attack-logistics-company-warehouses-in-dnipropetrovsk-region-sparking-fire.html
+        captured_at: 2026-10-09T23:02:10Z
 assessment:
   status: unverified
   credibility: 6

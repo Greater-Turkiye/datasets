@@ -24,6 +24,10 @@ sources:
     title: Zelensky confirms strikes on oil refineries in Omsk and Ukhta, one more data center
     published_at: 2026-10-09T12:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011122832/https://www.ukrinform.net/rubric-ato/4172719-zelensky-confirms-strikes-on-oil-refineries-in-omsk-and-ukhta-one-more-data-center.html
+        captured_at: 2026-10-11T12:28:32Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "The United Kingdom unequivocally condemns the dangerous escalation by the Houthis in Yemen: UK statement at the UN Security Council"
     published_at: 2026-10-09T15:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009174816/https://www.gov.uk/government/speeches/the-united-kingdom-unequivocally-condemns-the-dangerous-escalation-by-the-houthis-in-yemen-uk-statement-at-the-un-security-council
+        captured_at: 2026-10-09T17:48:16Z
 assessment:
   status: unverified
   credibility: 6

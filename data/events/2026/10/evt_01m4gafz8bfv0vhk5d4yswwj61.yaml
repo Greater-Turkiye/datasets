@@ -24,6 +24,10 @@ sources:
     title: Russian strike on outskirts of Kharkiv causes casualties
     published_at: 2026-10-09T08:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011122022/https://www.ukrinform.net/rubric-ato/4172579-russian-strike-on-outskirts-of-kharkiv-causes-casualties.html
+        captured_at: 2026-10-11T12:20:22Z
 assessment:
   status: unverified
   credibility: 6

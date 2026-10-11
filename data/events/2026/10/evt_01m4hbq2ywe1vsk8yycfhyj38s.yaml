@@ -18,6 +18,10 @@ sources:
     title: Germany's Tytan Technologies develops interceptor drone to counter jet-powered UAVs
     published_at: 2026-10-09T15:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009170109/https://www.ukrinform.net/rubric-ato/4172753-germanys-tytan-technologies-develops-interceptor-drone-to-counter-jetpowered-uavs.html
+        captured_at: 2026-10-09T17:01:09Z
 assessment:
   status: unverified
   credibility: 6

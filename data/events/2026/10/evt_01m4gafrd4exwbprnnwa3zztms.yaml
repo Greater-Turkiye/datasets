@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike infrastructure in Odesa overnight, causing damage
     published_at: 2026-10-09T07:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009183218/https://www.ukrinform.net/rubric-ato/4172563-russian-forces-strike-infrastructure-in-odesa-overnight-causing-damage.html
+        captured_at: 2026-10-09T18:32:18Z
 assessment:
   status: unverified
   credibility: 6

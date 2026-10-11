@@ -24,6 +24,10 @@ sources:
     title: Russians attack Rivne region, injuring family with many children
     published_at: 2026-10-09T16:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261009184606/https://www.ukrinform.net/rubric-ato/4172815-russians-attack-rivne-region-injuring-family-with-many-children.html
+        captured_at: 2026-10-09T18:46:06Z
 assessment:
   status: unverified
   credibility: 6

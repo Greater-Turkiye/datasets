@@ -18,6 +18,10 @@ sources:
     title: "PM Pashinyan responds to Russian Security Council deputy chair Medvedev: And I could have said Armenia should not turn into a new Russia"
     published_at: 2026-10-08T07:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011121124/https://news.am/en/news/1066542
+        captured_at: 2026-10-11T12:11:24Z
 assessment:
   status: unverified
   credibility: 6
