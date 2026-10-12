@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s ADF down 117 out of 160 drones used by Russia to attack Ukraine overnight
     published_at: 2026-10-10T06:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011213901/https://www.ukrinform.net/rubric-ato/4172907-ukraines-adf-down-117-out-of-160-drones-used-by-russia-to-attack-ukraine-overnight.html
+        captured_at: 2026-10-11T21:39:01Z
 assessment:
   status: unverified
   credibility: 6

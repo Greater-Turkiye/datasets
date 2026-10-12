@@ -18,6 +18,10 @@ sources:
     title: Rear Admiral Edwin T. Layton Leadership Award Presented to U.S. Naval Forces Central Command/U.S. 5th Fleet Sailor
     published_at: 2026-10-09T17:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011213624/https://www.dvidshub.net/news/576742/rear-admiral-edwin-t-layton-leadership-award-presented-us-naval-forces-central-command-us-5th-fleet-sailor
+        captured_at: 2026-10-11T21:36:24Z
 assessment:
   status: unverified
   credibility: 6

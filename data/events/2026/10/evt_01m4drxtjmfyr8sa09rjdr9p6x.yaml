@@ -18,6 +18,10 @@ sources:
     title: Russia Security Council considers Armenia's diversification of foreign relations in peaceful nuclear energy to be risky
     published_at: 2026-10-08T09:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011213103/https://news.am/en/news/1066605
+        captured_at: 2026-10-11T21:31:03Z
 assessment:
   status: unverified
   credibility: 6

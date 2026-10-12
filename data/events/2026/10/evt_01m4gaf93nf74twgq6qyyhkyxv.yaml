@@ -24,6 +24,10 @@ sources:
     title: Meeting with President of Iran Masoud Pezeshkian
     published_at: 2026-10-08T17:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011121729/http://en.kremlin.ru/events/president/news/80951
+        captured_at: 2026-10-11T12:17:29Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Drone debris falls near business center in Kyiv, car catches fire
     published_at: 2026-10-10T04:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011214141/https://www.ukrinform.net/rubric-ato/4172879-drone-debris-falls-near-business-center-in-kyiv-car-catches-fire.html
+        captured_at: 2026-10-11T21:41:41Z
 assessment:
   status: unverified
   credibility: 6

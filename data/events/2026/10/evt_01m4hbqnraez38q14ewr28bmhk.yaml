@@ -18,6 +18,10 @@ sources:
     title: USS Abraham Lincoln Returns to San Diego After 10-Month Combat Deployment
     published_at: 2026-10-09T19:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010192001/https://www.war.gov/News/News-Stories/Article/Article/4623577/uss-abraham-lincoln-returns-to-san-diego-after-10-month-combat-deployment/
+        captured_at: 2026-10-10T19:20:01Z
 assessment:
   status: unverified
   credibility: 6

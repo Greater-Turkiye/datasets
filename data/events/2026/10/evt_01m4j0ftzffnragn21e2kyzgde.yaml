@@ -24,6 +24,10 @@ sources:
     title: Trump Makes Deal With Putin On Diesel Exports. Ukraine Calls It A 'Gift'
     published_at: 2026-10-09T23:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012042917/https://www.rferl.org/a/trump-deal-putin-diesel-exports-ukraine/33873828.html
+        captured_at: 2026-10-12T04:29:17Z
 assessment:
   status: unverified
   credibility: 6
