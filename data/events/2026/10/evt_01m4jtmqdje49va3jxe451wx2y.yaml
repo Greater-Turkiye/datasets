@@ -18,6 +18,10 @@ sources:
     title: Ukrainian forces destroy over 4,700 Russian aerial targets in September, including eight Zircon missiles
     published_at: 2026-10-10T10:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010134622/https://www.ukrinform.net/rubric-ato/4172972-ukrainian-forces-destroy-over-4700-russian-aerial-targets-in-september-including-eight-zircon-missiles.html
+        captured_at: 2026-10-10T13:46:22Z
 assessment:
   status: unverified
   credibility: 6

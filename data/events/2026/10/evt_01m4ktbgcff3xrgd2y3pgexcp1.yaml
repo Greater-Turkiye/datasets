@@ -24,14 +24,26 @@ sources:
     title: Death toll from Russian guided bomb attack on Zaporizhzhia rises to 15
     published_at: 2026-10-10T11:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011022054/https://www.ukrinform.net/rubric-ato/4173004-death-toll-from-russian-guided-bomb-attack-on-zaporizhzhia-rises-to-15.html
+        captured_at: 2026-10-11T02:20:54Z
   - url: https://www.ukrinform.net/rubric-ato/4173043-death-toll-from-russian-airstrike-on-zaporizhzhia-rises-to-17-18-people-injured.html
     title: Death toll from Russian airstrike on Zaporizhzhia rises to 17, 18 people injured
     published_at: 2026-10-10T13:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010154614/https://www.ukrinform.net/rubric-ato/4173043-death-toll-from-russian-airstrike-on-zaporizhzhia-rises-to-17-18-people-injured.html
+        captured_at: 2026-10-10T15:46:14Z
   - url: https://www.ukrinform.net/rubric-ato/4173122-russian-guided-bomb-attack-on-zaporizhzhia-kills-20-injures-32.html
     title: Russian guided bomb attack on Zaporizhzhia kills 20, injures 32
     published_at: 2026-10-10T19:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011020610/https://www.ukrinform.net/rubric-ato/4173122-russian-guided-bomb-attack-on-zaporizhzhia-kills-20-injures-32.html
+        captured_at: 2026-10-11T02:06:10Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Ukraine faces particular threat of further Russian missile strikes in coming days"
     published_at: 2026-10-10T13:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011020620/https://www.ukrinform.net/rubric-ato/4173040-zelensky-ukraine-faces-particular-threat-of-further-russian-missile-strikes-in-coming-days.html
+        captured_at: 2026-10-11T02:06:20Z
 assessment:
   status: unverified
   credibility: 6
