@@ -18,6 +18,10 @@ sources:
     title: Ukraine ready to halt strikes on Russian oil refineries if Russia stops attacking energy infrastructure — Zelensky
     published_at: 2026-10-11T10:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012024645/https://www.ukrinform.net/rubric-ato/4173241-ukraine-ready-to-halt-strikes-on-russian-oil-refineries-if-russia-stops-attacking-energy-infrastructure-zelensky.html
+        captured_at: 2026-10-12T02:46:45Z
 assessment:
   status: unverified
   credibility: 6

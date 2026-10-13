@@ -18,6 +18,10 @@ sources:
     title: Russia spending huge sums on production of jet-powered drones – military spox
     published_at: 2026-10-11T04:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012064101/https://www.ukrinform.net/rubric-ato/4173151-russia-spending-huge-sums-on-production-of-jetpowered-drones-military-spox.html
+        captured_at: 2026-10-12T06:41:01Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack energy facility in Kyiv, emergency power cuts hit four districts
     published_at: 2026-10-11T14:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011180128/https://www.ukrinform.net/rubric-ato/4173291-russian-forces-attack-energy-facility-in-kyiv-emergency-power-cuts-hit-four-districts.html
+        captured_at: 2026-10-11T18:01:28Z
 assessment:
   status: unverified
   credibility: 6

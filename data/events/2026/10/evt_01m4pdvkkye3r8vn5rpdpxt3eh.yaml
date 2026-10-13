@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Dnipropetrovsk region over 50 times on Sunday
     published_at: 2026-10-11T17:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011201611/https://www.ukrinform.net/rubric-ato/4173317-russian-forces-attack-dnipropetrovsk-region-over-50-times-on-sunday.html
+        captured_at: 2026-10-11T20:16:11Z
 assessment:
   status: unverified
   credibility: 6

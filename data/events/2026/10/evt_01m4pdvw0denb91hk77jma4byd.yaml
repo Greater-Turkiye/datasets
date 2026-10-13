@@ -24,6 +24,10 @@ sources:
     title: Three killed in Russian drone attack on Ivano-Frankivsk
     published_at: 2026-10-11T19:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012114238/https://www.ukrinform.net/rubric-ato/4173354-three-killed-in-russian-drone-attack-on-ivanofrankivsk.html
+        captured_at: 2026-10-12T11:42:38Z
 assessment:
   status: unverified
   credibility: 6

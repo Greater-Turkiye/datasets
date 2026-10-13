@@ -24,6 +24,10 @@ sources:
     title: Russian invaders strike Kharkiv suburb with missiles, killing three, injuring nine
     published_at: 2026-10-11T18:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012032745/https://www.ukrinform.net/rubric-ato/4173348-russian-invaders-strike-kharkiv-suburb-with-missiles-killing-three-injuring-nine.html
+        captured_at: 2026-10-12T03:27:45Z
 assessment:
   status: unverified
   credibility: 6

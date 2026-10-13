@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack energy facility in Kharkiv suburbs
     published_at: 2026-10-11T20:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012061920/https://www.ukrinform.net/rubric-ato/4173366-russian-forces-attack-energy-facility-in-kharkiv-suburbs.html
+        captured_at: 2026-10-12T06:19:20Z
 assessment:
   status: unverified
   credibility: 6

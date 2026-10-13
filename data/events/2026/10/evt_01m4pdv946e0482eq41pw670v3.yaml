@@ -24,6 +24,10 @@ sources:
     title: Russian attacks on Sloviansk and Kramatorsk community injure nine
     published_at: 2026-10-11T12:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011140151/https://www.ukrinform.net/rubric-ato/4173268-russian-attacks-on-sloviansk-and-kramatorsk-community-injure-nine.html
+        captured_at: 2026-10-11T14:01:51Z
 assessment:
   status: unverified
   credibility: 6

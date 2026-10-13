@@ -24,6 +24,10 @@ sources:
     title: Partisans destroy locomotive in Russia's Voronezh region
     published_at: 2026-10-11T07:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013133924/https://www.ukrinform.net/rubric-ato/4173180-partisans-destroy-locomotive-in-russias-voronezh-region.html
+        captured_at: 2026-10-13T13:39:24Z
 assessment:
   status: unverified
   credibility: 6

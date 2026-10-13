@@ -24,6 +24,10 @@ sources:
     title: DIU ambushes two Russian special forces groups on Zaporizhzhia front
     published_at: 2026-10-11T13:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011210244/https://www.ukrinform.net/rubric-ato/4173277-diu-ambushes-two-russian-special-forces-groups-on-zaporizhzhia-front.html
+        captured_at: 2026-10-11T21:02:44Z
 assessment:
   status: unverified
   credibility: 6

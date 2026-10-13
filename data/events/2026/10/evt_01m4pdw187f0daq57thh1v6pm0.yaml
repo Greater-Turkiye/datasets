@@ -24,6 +24,10 @@ sources:
     title: Iraqi F-16s destroy ISIS hideout in Diyala
     published_at: 2026-10-11T20:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011211610/https://shafaq.com/en/Security/Iraqi-F-16s-destroy-ISIS-hideout-in-Diyala
+        captured_at: 2026-10-11T21:16:10Z
 assessment:
   status: unverified
   credibility: 6

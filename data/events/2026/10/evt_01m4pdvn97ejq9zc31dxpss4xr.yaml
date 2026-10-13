@@ -18,6 +18,10 @@ sources:
     title: Ukraine already has interceptor drones for jet-powered Shaheds, scaling up production – Khmara
     published_at: 2026-10-11T17:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012011504/https://www.ukrinform.net/rubric-ato/4173323-ukraine-already-has-interceptor-drones-for-jetpowered-shaheds-scaling-up-production-khmara.html
+        captured_at: 2026-10-12T01:15:04Z
 assessment:
   status: unverified
   credibility: 6

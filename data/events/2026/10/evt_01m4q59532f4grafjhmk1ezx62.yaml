@@ -24,6 +24,10 @@ sources:
     title: "Russian missile strike on Kharkiv suburbs: Three dead, injury toll rises 22"
     published_at: 2026-10-11T20:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012114236/https://www.ukrinform.net/rubric-ato/4173367-russian-missile-strike-on-kharkiv-suburbs-three-dead-injury-toll-rises-22.html
+        captured_at: 2026-10-12T11:42:36Z
 assessment:
   status: unverified
   credibility: 6
