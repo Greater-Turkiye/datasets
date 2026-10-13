@@ -18,6 +18,10 @@ sources:
     title: Zelensky discusses Russian attacks, further support for Ukraine with Norwegian PM
     published_at: 2026-10-10T16:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011020844/https://www.ukrinform.net/rubric-ato/4173077-zelensky-discusses-russian-attacks-further-support-for-ukraine-with-norwegian-pm.html
+        captured_at: 2026-10-11T02:08:44Z
 assessment:
   status: unverified
   credibility: 6

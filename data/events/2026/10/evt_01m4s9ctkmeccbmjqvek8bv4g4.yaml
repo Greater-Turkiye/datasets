@@ -1,0 +1,33 @@
+id: evt_01m4s9ctkmeccbmjqvek8bv4g4
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: Ukrayna, Yandex veri merkezlerine yönelik üçüncü saldırıda "Rusya'nın Google'ını" hedef aldı
+  en: Ukraine Targets 'Russia's Google' In Third Strike On Yandex Data Centers
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-12T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-12T14:25Z
+location:
+  geometry: {type: Point, coordinates: [40.41, 56.13]}
+  precision: admin1
+  uncertainty_m: 100000
+  method: inferred
+  place_name: {tr: Vladimir bölgesi, en: Vladimir region}
+regions: [black-sea]
+sources:
+  - url: https://www.rferl.org/a/ukraine-targets-russia-s-google-in-third-strike-on-yandex-data-centers/33875156.html
+    title: Ukraine Targets 'Russia's Google' In Third Strike On Yandex Data Centers
+    published_at: 2026-10-12T14:25Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rferl-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±100 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rferl-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±100 km). Not verified."
+tags: [otomatik]

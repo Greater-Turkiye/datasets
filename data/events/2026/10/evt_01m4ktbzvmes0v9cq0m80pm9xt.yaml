@@ -24,10 +24,18 @@ sources:
     title: Russian forces strike administrative building in Odesa
     published_at: 2026-10-10T17:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011074517/https://www.ukrinform.net/rubric-ato/4173099-russian-forces-strike-administrative-building-in-odesa.html
+        captured_at: 2026-10-11T07:45:17Z
   - url: https://www.ukrinform.net/rubric-ato/4173117-russian-forces-strike-tenet-telecommunications-company-in-odesa.html
     title: Russian forces strike TENET telecommunications company in Odesa
     published_at: 2026-10-10T18:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261010194706/https://www.ukrinform.net/rubric-ato/4173117-russian-forces-strike-tenet-telecommunications-company-in-odesa.html
+        captured_at: 2026-10-10T19:47:06Z
 assessment:
   status: unverified
   credibility: 6

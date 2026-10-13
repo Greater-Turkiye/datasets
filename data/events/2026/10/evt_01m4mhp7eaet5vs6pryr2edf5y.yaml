@@ -24,6 +24,10 @@ sources:
     title: Ukrainian paratroopers destroy Russian convoy in Svatove
     published_at: 2026-10-10T20:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011013146/https://www.ukrinform.net/rubric-ato/4173131-ukrainian-paratroopers-destroy-russian-convoy-in-svatove.html
+        captured_at: 2026-10-11T01:31:46Z
 assessment:
   status: unverified
   credibility: 6

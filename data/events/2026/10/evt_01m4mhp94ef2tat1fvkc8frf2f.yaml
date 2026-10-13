@@ -18,6 +18,10 @@ sources:
     title: U.S. Forces Disable Cargo Vessel Attempting to Violate Blockade
     published_at: 2026-10-11T00:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011004656/https://www.dvidshub.net/news/576778/us-forces-disable-cargo-vessel-attempting-violate-blockade
+        captured_at: 2026-10-11T00:46:56Z
 assessment:
   status: unverified
   credibility: 6

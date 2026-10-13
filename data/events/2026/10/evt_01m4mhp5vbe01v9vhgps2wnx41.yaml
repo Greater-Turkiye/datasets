@@ -18,6 +18,10 @@ sources:
     title: Trehubov describes intensity of Russian airstrikes along front line
     published_at: 2026-10-10T20:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011120836/https://www.ukrinform.net/rubric-ato/4173128-trehubov-describes-intensity-of-russian-airstrikes-along-front-line.html
+        captured_at: 2026-10-11T12:08:36Z
 assessment:
   status: unverified
   credibility: 6

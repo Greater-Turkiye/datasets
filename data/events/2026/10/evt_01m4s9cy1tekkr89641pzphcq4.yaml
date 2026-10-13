@@ -1,0 +1,31 @@
+id: evt_01m4s9cy1tekkr89641pzphcq4
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: İran ile ilgili Dışişleri Bakanı'nın açıklaması, 12 Ekim
+  en: Foreign Secretary statement on Iran, 12 October
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-12T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-12T14:54Z
+regions: [iran]
+sources:
+  - url: https://www.gov.uk/government/news/foreign-secretary-statement-on-iran-12-october
+    title: Foreign Secretary statement on Iran, 12 October
+    published_at: 2026-10-12T14:54Z
+    lang: en
+  - url: https://www.gov.uk/government/news/joint-statement-on-iran-12-october
+    title: Joint Statement on Iran, 12 October
+    published_at: 2026-10-12T15:06Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-fcdo. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-fcdo. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]
