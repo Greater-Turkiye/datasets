@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes agricultural company's truck in Kharkiv region, driver killed
     published_at: 2026-10-11T11:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011144605/https://www.ukrinform.net/rubric-ato/4173254-russian-drone-strikes-agricultural-companys-truck-in-kharkiv-region-driver-killed.html
+        captured_at: 2026-10-11T14:46:05Z
 assessment:
   status: unverified
   credibility: 6

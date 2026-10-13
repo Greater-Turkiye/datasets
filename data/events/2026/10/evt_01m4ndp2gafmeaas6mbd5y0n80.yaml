@@ -18,6 +18,10 @@ sources:
     title: DIU publishes data on 20 Russian shadow fleet vessels carrying oil and gas
     published_at: 2026-10-11T04:44Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011214037/https://www.ukrinform.net/rubric-ato/4173155-diu-publishes-data-on-20-russian-shadow-fleet-vessels-carrying-oil-and-gas.html
+        captured_at: 2026-10-11T21:40:37Z
 assessment:
   status: unverified
   credibility: 6

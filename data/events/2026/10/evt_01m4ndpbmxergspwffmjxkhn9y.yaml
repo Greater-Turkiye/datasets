@@ -18,6 +18,10 @@ sources:
     title: As Russian Arms Exports Slide, Central Asia Shops Elsewhere
     published_at: 2026-10-11T07:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012060758/https://www.rferl.org/a/russian-arms-exports-central-asia-china/33873550.html
+        captured_at: 2026-10-12T06:07:58Z
 assessment:
   status: unverified
   credibility: 6

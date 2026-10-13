@@ -24,6 +24,10 @@ sources:
     title: Russian evening attack on Kirovohrad region leaves nine private homes damaged
     published_at: 2026-10-11T07:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011094639/https://www.ukrinform.net/rubric-ato/4173196-russian-evening-attack-on-kirovohrad-region-leaves-nine-private-homes-damaged.html
+        captured_at: 2026-10-11T09:46:39Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Drones attack Yandex data center in Russia for third time in a week – media
     published_at: 2026-10-11T05:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011080114/https://www.ukrinform.net/rubric-ato/4173162-drones-attack-yandex-data-center-in-russia-for-third-time-in-a-week-media.html
+        captured_at: 2026-10-11T08:01:14Z
 assessment:
   status: unverified
   credibility: 6

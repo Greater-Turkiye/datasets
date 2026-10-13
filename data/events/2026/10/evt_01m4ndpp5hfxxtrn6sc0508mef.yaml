@@ -18,6 +18,10 @@ sources:
     title: Another drone explodes Moldova
     published_at: 2026-10-11T09:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011150354/https://www.ukrinform.net/rubric-ato/4173226-another-drone-explodes-moldova.html
+        captured_at: 2026-10-11T15:03:54Z
 assessment:
   status: unverified
   credibility: 6

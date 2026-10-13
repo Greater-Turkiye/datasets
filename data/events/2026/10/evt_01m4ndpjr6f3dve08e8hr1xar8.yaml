@@ -18,6 +18,10 @@ sources:
     title: Ukrainian Defense Forces strike Russian repair unit, supply depots, and troop concentration areas
     published_at: 2026-10-11T08:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013133928/https://www.ukrinform.net/rubric-ato/4173219-ukrainian-defense-forces-strike-russian-repair-unit-supply-depots-and-troop-concentration-areas.html
+        captured_at: 2026-10-13T13:39:28Z
 assessment:
   status: unverified
   credibility: 6

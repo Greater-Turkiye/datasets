@@ -24,6 +24,10 @@ sources:
     title: 13-year-old boy injured in Russian attack dies in Rivne region
     published_at: 2026-10-11T08:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011110158/https://www.ukrinform.net/rubric-ato/4173202-13yearold-boy-injured-in-russian-attack-dies-in-rivne-region.html
+        captured_at: 2026-10-11T11:01:58Z
 assessment:
   status: unverified
   credibility: 6

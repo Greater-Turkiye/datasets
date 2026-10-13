@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s Alpha unit hits 26 Russian air defense systems, neutralizes over 7,600 troops in September
     published_at: 2026-10-11T04:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012073625/https://www.ukrinform.net/rubric-ato/4173154-ukraines-alpha-unit-hits-26-russian-air-defense-systems-neutralizes-over-7600-troops-in-september.html
+        captured_at: 2026-10-12T07:36:25Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "War update: 221 clashes on front line over past day, fiercest fighting in Pokrovsk and Huliaipole sectors"
     published_at: 2026-10-11T06:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261011175137/https://www.ukrinform.net/rubric-ato/4173168-war-update-221-clashes-on-front-line-over-past-day-fiercest-fighting-in-pokrovsk-and-huliaipole-sectors.html
+        captured_at: 2026-10-11T17:51:37Z
 assessment:
   status: unverified
   credibility: 6

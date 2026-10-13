@@ -24,6 +24,10 @@ sources:
     title: Debris from Russian drone falls near gas station in Kyiv's Darnytskyi district, damaging car
     published_at: 2026-10-11T10:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012044651/https://www.ukrinform.net/rubric-ato/4173242-debris-from-russian-drone-falls-near-gas-station-in-kyivs-darnytskyi-district-damaging-car.html
+        captured_at: 2026-10-12T04:46:51Z
 assessment:
   status: unverified
   credibility: 6
