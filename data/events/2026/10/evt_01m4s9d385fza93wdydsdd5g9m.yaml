@@ -24,6 +24,10 @@ sources:
     title: "Russian forces attack Lozova in Kharkiv region with drones: Woman killed, seven others injured"
     published_at: 2026-10-12T15:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012213231/https://www.ukrinform.net/rubric-ato/4173656-russian-forces-attack-lozova-in-kharkiv-region-with-drones-woman-killed-seven-others-injured.html
+        captured_at: 2026-10-12T21:32:31Z
 assessment:
   status: unverified
   credibility: 6

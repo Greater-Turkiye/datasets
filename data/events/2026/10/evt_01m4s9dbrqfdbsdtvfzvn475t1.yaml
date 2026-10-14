@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Dnipropetrovsk region more than 40 times in one day, killing one and injuring six
     published_at: 2026-10-12T17:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012213114/https://www.ukrinform.net/rubric-ato/4173703-russian-forces-attack-dnipropetrovsk-region-more-than-40-times-in-one-day-killing-one-and-injuring-six.html
+        captured_at: 2026-10-12T21:31:14Z
 assessment:
   status: unverified
   credibility: 6

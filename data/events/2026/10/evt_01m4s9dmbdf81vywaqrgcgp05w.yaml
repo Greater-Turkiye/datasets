@@ -18,6 +18,10 @@ sources:
     title: "Zelensky holds supreme Commander-in-Chief's Staff meeting: Ukraine's front-line positions strongest in long time"
     published_at: 2026-10-12T19:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013113713/https://www.ukrinform.net/rubric-ato/4173739-zelensky-holds-supreme-commanderinchiefs-staff-meeting-ukraines-frontline-positions-strongest-in-long-time.html
+        captured_at: 2026-10-13T11:37:13Z
 assessment:
   status: unverified
   credibility: 6

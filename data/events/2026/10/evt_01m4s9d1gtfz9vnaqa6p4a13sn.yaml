@@ -18,6 +18,10 @@ sources:
     title: Russia attacks six Ukrainian energy facilities today, Zelensky says
     published_at: 2026-10-12T15:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014164350/https://www.ukrinform.net/rubric-ato/4173652-russia-attacks-six-ukrainian-energy-facilities-today-zelensky-says.html
+        captured_at: 2026-10-14T16:43:50Z
 assessment:
   status: unverified
   credibility: 6

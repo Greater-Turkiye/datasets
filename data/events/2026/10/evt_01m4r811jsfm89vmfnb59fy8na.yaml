@@ -18,6 +18,10 @@ sources:
     title: "Financial Times: Trump administration threatens to cut off arms supplies to Ukraine over attacks on Russia oil refineries"
     published_at: 2026-10-12T07:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012075927/https://news.am/en/news/1067252
+        captured_at: 2026-10-12T07:59:27Z
 assessment:
   status: unverified
   credibility: 6

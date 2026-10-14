@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Russia not complying with energy ceasefire as of now"
     published_at: 2026-10-12T18:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014164859/https://www.ukrinform.net/rubric-ato/4173713-zelensky-russia-not-complying-with-energy-ceasefire-as-of-now.html
+        captured_at: 2026-10-14T16:48:59Z
 assessment:
   status: unverified
   credibility: 6
