@@ -24,6 +24,10 @@ sources:
     title: Basra activist jailed over anti-Kuwait protests
     published_at: 2026-10-12T09:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014113302/https://shafaq.com/en/Security/Basra-activist-jailed-over-anti-Kuwait-protests
+        captured_at: 2026-10-14T11:33:02Z
 assessment:
   status: unverified
   credibility: 6

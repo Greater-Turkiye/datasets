@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: US has power and means to compel Russia to agree to real energy truce"
     published_at: 2026-10-12T19:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013113712/https://www.ukrinform.net/rubric-ato/4173745-zelensky-us-has-power-and-means-to-compel-russia-to-agree-to-real-energy-truce.html
+        captured_at: 2026-10-13T11:37:12Z
 assessment:
   status: unverified
   credibility: 6

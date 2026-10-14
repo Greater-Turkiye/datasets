@@ -24,6 +24,10 @@ sources:
     title: Defense Forces destroy workshop and warehouse storing UAVs and EW equipment in Donetsk region
     published_at: 2026-10-12T08:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014163529/https://www.ukrinform.net/rubric-ato/4173455-defense-forces-destroy-workshop-and-warehouse-storing-uavs-and-ew-equipment-in-donetsk-region.html
+        captured_at: 2026-10-14T16:35:29Z
 assessment:
   status: unverified
   credibility: 6

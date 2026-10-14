@@ -24,6 +24,10 @@ sources:
     title: Drone attack damages houses and cars in Lviv region
     published_at: 2026-10-13T04:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013060124/https://www.ukrinform.net/rubric-ato/4173783-drone-attack-damages-houses-and-cars-in-lviv-region.html
+        captured_at: 2026-10-13T06:01:24Z
 assessment:
   status: unverified
   credibility: 6

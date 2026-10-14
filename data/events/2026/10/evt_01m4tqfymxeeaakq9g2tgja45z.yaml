@@ -24,6 +24,10 @@ sources:
     title: Russian attacks damage cargo terminal and warehouses in Mykolaiv region
     published_at: 2026-10-13T06:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013080106/https://www.ukrinform.net/rubric-ato/4173811-russian-attacks-damage-cargo-terminal-and-warehouses-in-mykolaiv-region.html
+        captured_at: 2026-10-13T08:01:06Z
 assessment:
   status: unverified
   credibility: 6

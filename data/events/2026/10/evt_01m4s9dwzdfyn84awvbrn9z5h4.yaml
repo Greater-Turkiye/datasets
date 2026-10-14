@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Kharkiv with Banderol missiles, injuries reported
     published_at: 2026-10-12T20:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014213400/https://www.ukrinform.net/rubric-ato/4173751-russian-forces-strike-kharkiv-with-banderol-missiles-injuries-reported.html
+        captured_at: 2026-10-14T21:34:00Z
 assessment:
   status: unverified
   credibility: 6

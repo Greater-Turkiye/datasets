@@ -1,0 +1,27 @@
+id: evt_01m4y4e3qpe38rdt43ccxksn1k
+schema: event/1
+event_type: policy.defense
+title:
+  tr: "Ihnat: Ukrayna hava savunması bir günde 100 'den fazla Rus insansız hava aracını düşürdü"
+  en: "Ihnat: Ukrainian air defense shoots down more than 100 Russian drones in one day"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-14T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-14T19:22Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4174519-ihnat-ukrainian-air-defense-shoots-down-more-than-100-russian-drones-in-one-day.html
+    title: "Ihnat: Ukrainian air defense shoots down more than 100 Russian drones in one day"
+    published_at: 2026-10-14T19:22Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

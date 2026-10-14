@@ -24,6 +24,10 @@ sources:
     title: "Massive Russian attack on Kharkiv: Eight injured, entrance section of residential building destroyed"
     published_at: 2026-10-13T03:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013070106/https://www.ukrinform.net/rubric-ato/4173781-massive-russian-attack-on-kharkiv-eight-injured-entrance-section-of-residential-building-destroyed.html
+        captured_at: 2026-10-13T07:01:06Z
 assessment:
   status: unverified
   credibility: 6

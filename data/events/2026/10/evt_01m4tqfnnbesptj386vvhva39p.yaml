@@ -18,6 +18,10 @@ sources:
     title: Russia loses another 1,390 troops in one day in war against Ukraine
     published_at: 2026-10-13T05:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014213730/https://www.ukrinform.net/rubric-ato/4173788-russia-loses-another-1390-troops-in-one-day-in-war-against-ukraine.html
+        captured_at: 2026-10-14T21:37:30Z
 assessment:
   status: unverified
   credibility: 6

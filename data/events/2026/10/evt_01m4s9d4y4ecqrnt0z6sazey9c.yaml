@@ -24,6 +24,10 @@ sources:
     title: Russian drone attacks destroy lubricant manufacturing plant in Kyiv region
     published_at: 2026-10-12T15:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012213115/https://www.ukrinform.net/rubric-ato/4173688-russian-drone-attacks-destroy-lubricant-manufacturing-plant-in-kyiv-region.html
+        captured_at: 2026-10-12T21:31:15Z
 assessment:
   status: unverified
   credibility: 6
