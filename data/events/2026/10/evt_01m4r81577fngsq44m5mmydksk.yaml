@@ -18,6 +18,10 @@ sources:
     title: Armenia woman shot, injured by Azerbaijan soldier, her 2 kids recognized as victims
     published_at: 2026-10-12T08:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014112750/https://news.am/en/news/1067278
+        captured_at: 2026-10-14T11:27:50Z
 assessment:
   status: unverified
   credibility: 6

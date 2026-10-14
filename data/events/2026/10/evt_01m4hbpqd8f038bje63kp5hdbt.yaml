@@ -18,6 +18,10 @@ sources:
     title: "Security Council LIVE: Yemen has fallen back into full-scale war, warns UN envoy"
     published_at: 2026-10-09T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014033350/https://news.un.org/feed/view/en/story/2026/10/1168559
+        captured_at: 2026-10-14T03:33:50Z
 assessment:
   status: unverified
   credibility: 6

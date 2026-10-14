@@ -18,6 +18,10 @@ sources:
     title: Turkey Urged to End Escalating Internet Censorship
     published_at: 2026-10-12T09:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012091248/https://balkaninsight.com/2026/10/12/turkey-urged-to-end-escalating-internet-censorship/bi/
+        captured_at: 2026-10-12T09:12:48Z
 assessment:
   status: unverified
   credibility: 6

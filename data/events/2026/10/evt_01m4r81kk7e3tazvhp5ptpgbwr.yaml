@@ -18,6 +18,10 @@ sources:
     title: Zelenskyy Says Yandex Strikes Crippled Pro-Kremlin Bots But Tech Experts Question Evidence
     published_at: 2026-10-12T12:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014113559/https://www.rferl.org/a/zelenskyy-says-yandex-strikes-crippled-pro-kremlin-bots-but-tech-experts-call-evidence-weak/33875054.html
+        captured_at: 2026-10-14T11:35:59Z
 assessment:
   status: unverified
   credibility: 6

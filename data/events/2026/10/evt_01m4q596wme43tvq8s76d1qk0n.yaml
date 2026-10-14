@@ -24,6 +24,10 @@ sources:
     title: Zelenskyy Says Russian Strikes Continue Amid Trump Cease-Fire Call; Moscow Mum
     published_at: 2026-10-11T22:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012085027/https://www.rferl.org/a/zelenskyy-energy-ceasefire-trump-ukraine-russia/33874639.html
+        captured_at: 2026-10-12T08:50:27Z
 assessment:
   status: unverified
   credibility: 6

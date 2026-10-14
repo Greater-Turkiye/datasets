@@ -24,6 +24,10 @@ sources:
     title: Russian strikes damage homes, warehouses and port terminal in Mykolaiv region
     published_at: 2026-10-12T05:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014035958/https://www.ukrinform.net/rubric-ato/4173397-russian-strikes-damage-homes-warehouses-and-port-terminal-in-mykolaiv-region.html
+        captured_at: 2026-10-14T03:59:58Z
 assessment:
   status: unverified
   credibility: 6

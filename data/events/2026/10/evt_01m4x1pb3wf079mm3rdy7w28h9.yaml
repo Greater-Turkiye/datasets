@@ -1,0 +1,37 @@
+id: evt_01m4x1pb3wf079mm3rdy7w28h9
+schema: event/1
+event_type: kinetic.missile-strike
+title:
+  tr: Rusya'nın Kiev'e düzenlediği balistik füze saldırısında iki kişi öldü, 21 kişi yaralandı
+  en: Russian ballistic missile strike on Kyiv kills two, injures 21
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-14T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-14T03:18Z
+location:
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Kyiv, en: Kyiv}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4174152-russian-ballistic-missile-strike-on-kyiv-kills-two-injures-21.html
+    title: Russian ballistic missile strike on Kyiv kills two, injures 21
+    published_at: 2026-10-14T03:18Z
+    lang: en
+  - url: https://www.ukrinform.net/rubric-ato/4174182-russian-combined-attack-on-kyiv-kills-three-injures-27.html
+    title: Russian combined attack on Kyiv kills four, injures 27
+    published_at: 2026-10-14T06:19Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, başlıktaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the headline (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

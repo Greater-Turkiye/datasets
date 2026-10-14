@@ -1,0 +1,27 @@
+id: evt_01m4x1pyacegftkmahxc2p4p65
+schema: event/1
+event_type: diplomatic.talks
+title:
+  tr: Kızıl Haç, tutuklu Azerbaycan askeri hakkında Ermenistan makamlarıyla temas halinde, kabul edilirse onu ziyaret edecek
+  en: Red Cross in contact with Armenia authorities over detained Azerbaijan soldier, to visit him if agreed
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-14T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-14T07:49Z
+regions: [caucasus]
+sources:
+  - url: https://news.am/en/news/1067750
+    title: Red Cross in contact with Armenia authorities over detained Azerbaijan soldier, to visit him if agreed
+    published_at: 2026-10-14T07:49Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-arm-newsam-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-arm-newsam-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]
