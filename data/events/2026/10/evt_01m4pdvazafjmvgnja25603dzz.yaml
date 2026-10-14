@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Kharkiv with guided bombs, killing woman and injuring eight
     published_at: 2026-10-11T13:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013222123/https://www.ukrinform.net/rubric-ato/4173274-russian-forces-strike-kharkiv-with-guided-bombs-killing-woman-and-injuring-eight.html
+        captured_at: 2026-10-13T22:21:23Z
 assessment:
   status: unverified
   credibility: 6

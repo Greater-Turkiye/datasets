@@ -24,6 +24,10 @@ sources:
     title: "‘These attacks must cease immediately’: Guterres condemns deadly Houthi strike on Riyadh airport"
     published_at: 2026-10-11T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014035153/https://news.un.org/feed/view/en/story/2026/10/1168572
+        captured_at: 2026-10-14T03:51:53Z
 assessment:
   status: unverified
   credibility: 6

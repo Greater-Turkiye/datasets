@@ -24,6 +24,10 @@ sources:
     title: "World News in Brief: ‘Horrific’ attack Sudan, Israeli incursions in Syria intensify, most women and girls homeless in Gaza"
     published_at: 2026-10-09T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014033725/https://news.un.org/feed/view/en/story/2026/10/1168567
+        captured_at: 2026-10-14T03:37:25Z
 assessment:
   status: unverified
   credibility: 6

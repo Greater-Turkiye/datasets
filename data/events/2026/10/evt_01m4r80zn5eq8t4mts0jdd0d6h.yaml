@@ -18,6 +18,10 @@ sources:
     title: Ukraine reports 264 frontline clashes in past 24 hours, with heaviest fighting in Pokrovsk and Kostiantynivka sectors
     published_at: 2026-10-12T06:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014035959/https://www.ukrinform.net/rubric-ato/4173405-ukraine-reports-264-frontline-clashes-in-past-24-hours-with-heaviest-fighting-in-pokrovsk-and-kostiantynivka-sectors.html
+        captured_at: 2026-10-14T03:59:59Z
 assessment:
   status: unverified
   credibility: 6

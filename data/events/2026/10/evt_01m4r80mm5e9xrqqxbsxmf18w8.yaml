@@ -18,6 +18,10 @@ sources:
     title: USF units have killed more than 100,000 Russian troops since start of year
     published_at: 2026-10-12T04:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012085016/https://www.ukrinform.net/rubric-ato/4173385-usf-units-have-killed-more-than-100000-russian-troops-since-start-of-year.html
+        captured_at: 2026-10-12T08:50:16Z
 assessment:
   status: unverified
   credibility: 6

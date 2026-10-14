@@ -18,6 +18,10 @@ sources:
     title: "Khmara: Ukraine hit eight Russian ballistic missile launchers in September and early October"
     published_at: 2026-10-11T19:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012040753/https://www.ukrinform.net/rubric-ato/4173356-khmara-ukraine-hit-eight-russian-ballistic-missile-launchers-in-september-and-early-october.html
+        captured_at: 2026-10-12T04:07:53Z
 assessment:
   status: unverified
   credibility: 6

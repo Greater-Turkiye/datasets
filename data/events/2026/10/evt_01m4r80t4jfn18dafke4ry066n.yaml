@@ -24,6 +24,10 @@ sources:
     title: Iran security council chief calls Washington response to Tehran proposal “inadequate”
     published_at: 2026-10-12T05:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012091439/https://news.am/en/news/1067234
+        captured_at: 2026-10-12T09:14:39Z
 assessment:
   status: unverified
   credibility: 6

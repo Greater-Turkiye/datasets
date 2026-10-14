@@ -24,6 +24,10 @@ sources:
     title: Warhead of Russian ballistic missile recovered among residential buildings in Kyiv's Obolonskyi district
     published_at: 2026-10-11T23:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014034541/https://www.ukrinform.net/rubric-ato/4173204-warhead-of-russian-ballistic-missile-recovered-among-residential-buildings-in-kyivs-obolonskyi-district.html
+        captured_at: 2026-10-14T03:45:41Z
 assessment:
   status: unverified
   credibility: 6

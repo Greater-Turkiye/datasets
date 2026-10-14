@@ -24,6 +24,10 @@ sources:
     title: Russian Banderol strike on Izium overnight injures one person and damages infrastructure
     published_at: 2026-10-12T05:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014035535/https://www.ukrinform.net/rubric-ato/4173396-russian-banderol-strike-on-izium-overnight-injures-one-person-and-damages-infrastructure.html
+        captured_at: 2026-10-14T03:55:35Z
 assessment:
   status: unverified
   credibility: 6

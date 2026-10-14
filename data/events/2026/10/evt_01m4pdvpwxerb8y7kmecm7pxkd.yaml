@@ -24,6 +24,10 @@ sources:
     title: Fire extinguished in Kharkiv after Russian attack, one killed, nine injured
     published_at: 2026-10-11T17:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013222135/https://www.ukrinform.net/rubric-ato/4173325-fire-extinguished-in-kharkiv-after-russian-attack-one-killed-nine-injured.html
+        captured_at: 2026-10-13T22:21:35Z
 assessment:
   status: unverified
   credibility: 6

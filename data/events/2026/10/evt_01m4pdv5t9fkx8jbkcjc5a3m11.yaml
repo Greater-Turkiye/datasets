@@ -24,6 +24,10 @@ sources:
     title: Trump Announces Energy Cease-Fire Between Ukraine And Russia As Countries Trade Strikes
     published_at: 2026-10-11T11:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261012121730/https://www.rferl.org/a/europe-backs-zelenskyy-trump-russia-diesel-deal-drone-strikes/33874495.html
+        captured_at: 2026-10-12T12:17:30Z
 assessment:
   status: unverified
   credibility: 6
