@@ -24,6 +24,10 @@ sources:
     title: Unexploded aerial bomb neutralized in Kharkiv region after hitting agricultural enterprise
     published_at: 2026-10-13T03:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013052558/https://www.ukrinform.net/rubric-ato/4173778-unexploded-aerial-bomb-neutralized-in-kharkiv-region-after-hitting-agricultural-enterprise.html
+        captured_at: 2026-10-13T05:25:58Z
 assessment:
   status: unverified
   credibility: 6

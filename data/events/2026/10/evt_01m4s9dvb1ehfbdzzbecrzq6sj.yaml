@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Rivne, damage reported
     published_at: 2026-10-12T20:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014213046/https://www.ukrinform.net/rubric-ato/4173750-russian-forces-attack-rivne-damage-reported.html
+        captured_at: 2026-10-14T21:30:46Z
 assessment:
   status: unverified
   credibility: 6

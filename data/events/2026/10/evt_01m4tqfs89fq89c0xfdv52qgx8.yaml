@@ -18,6 +18,10 @@ sources:
     title: Russian drone attack at medical facility in Khmelnytskyi region leaves four patients injured
     published_at: 2026-10-13T05:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013081614/https://www.ukrinform.net/rubric-ato/4173800-russian-drone-attack-at-medical-facility-in-khmelnytskyi-region-leaves-four-patients-injured.html
+        captured_at: 2026-10-13T08:16:14Z
 assessment:
   status: unverified
   credibility: 6

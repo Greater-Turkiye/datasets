@@ -24,6 +24,10 @@ sources:
     title: Zelenskyy Accuses Russia Of Breaking Trump's Cease-Fire On Energy Strikes
     published_at: 2026-10-13T00:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014213425/https://www.rferl.org/a/trump-russia-diesel-deal-ukraine-cease-fire/33875531.html
+        captured_at: 2026-10-14T21:34:25Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,10 +24,18 @@ sources:
     title: Drone debris falls on private property in Kyiv's Darnytskyi district
     published_at: 2026-10-13T05:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013070102/https://www.ukrinform.net/rubric-ato/4173790-drone-debris-falls-on-private-property-in-kyivs-darnytskyi-district.html
+        captured_at: 2026-10-13T07:01:02Z
   - url: https://www.ukrinform.net/rubric-ato/4173812-drone-debris-falls-on-private-house-in-kyivs-darnytskyi-district-woman-injured.html
     title: Drone debris falls on private house in Kyiv’s Darnytskyi district, woman injured
     published_at: 2026-10-13T06:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013081613/https://www.ukrinform.net/rubric-ato/4173812-drone-debris-falls-on-private-house-in-kyivs-darnytskyi-district-woman-injured.html
+        captured_at: 2026-10-13T08:16:13Z
 assessment:
   status: unverified
   credibility: 6

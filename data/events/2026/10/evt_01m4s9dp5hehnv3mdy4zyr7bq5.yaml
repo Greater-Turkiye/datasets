@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike rescuers again in Sloviansk while they fight fire
     published_at: 2026-10-12T19:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014213355/https://www.ukrinform.net/rubric-ato/4173742-russian-forces-strike-rescuers-again-in-sloviansk-while-they-fight-fire.html
+        captured_at: 2026-10-14T21:33:55Z
 assessment:
   status: unverified
   credibility: 6

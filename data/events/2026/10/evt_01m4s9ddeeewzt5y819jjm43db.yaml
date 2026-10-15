@@ -24,6 +24,10 @@ sources:
     title: Injury toll after Russian strike on Kharkiv apartment building rises to 23
     published_at: 2026-10-12T17:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014164859/https://www.ukrinform.net/rubric-ato/4173707-injury-toll-after-russian-strike-on-kharkiv-apartment-building-rises-to-23.html
+        captured_at: 2026-10-14T16:48:59Z
 assessment:
   status: unverified
   credibility: 6

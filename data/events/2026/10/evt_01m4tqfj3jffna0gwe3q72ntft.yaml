@@ -24,6 +24,10 @@ sources:
     title: Injury toll from Russian missile strike on Kharkiv rises to 11
     published_at: 2026-10-13T04:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014213729/https://www.ukrinform.net/rubric-ato/4173782-injury-toll-from-russian-missile-strike-on-kharkiv-rises-to-11.html
+        captured_at: 2026-10-14T21:37:29Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Drone attack targets industrial facilities in Russia's Stavropol Krai
     published_at: 2026-10-13T08:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013101617/https://www.ukrinform.net/rubric-ato/4173857-drone-attack-targets-industrial-facilities-in-russias-stavropol-krai.html
+        captured_at: 2026-10-13T10:16:17Z
 assessment:
   status: unverified
   credibility: 6
