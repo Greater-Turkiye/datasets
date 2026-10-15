@@ -24,6 +24,10 @@ sources:
     title: University staff injured in Russian drone attack on Rivne, students took shelter
     published_at: 2026-10-13T12:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013150236/https://www.ukrinform.net/rubric-ato/4173984-university-staff-injured-in-russian-drone-attack-on-rivne-students-took-shelter.html
+        captured_at: 2026-10-13T15:02:36Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Russians attack truck and warehouse in Khmelnytskyi region
     published_at: 2026-10-13T13:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013150118/https://www.ukrinform.net/rubric-ato/4173994-russians-attack-truck-and-warehouse-in-khmelnytskyi-region.html
+        captured_at: 2026-10-13T15:01:18Z
 assessment:
   status: unverified
   credibility: 6

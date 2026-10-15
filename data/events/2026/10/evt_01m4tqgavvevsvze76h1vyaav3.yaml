@@ -18,6 +18,10 @@ sources:
     title: "Spox Ihnat: Russia deploys about 200 jet-powered drones per day"
     published_at: 2026-10-13T09:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013114621/https://www.ukrinform.net/rubric-ato/4173871-spox-ihnat-russia-deploys-about-200-jetpowered-drones-per-day.html
+        captured_at: 2026-10-13T11:46:21Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian forces shell points of invincibility in Sloviansk, injuring civilians
     published_at: 2026-10-13T14:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014052618/https://www.ukrinform.net/rubric-ato/4174023-russian-forces-shell-points-of-invincibility-in-sloviansk-injuring-civilians.html
+        captured_at: 2026-10-14T05:26:18Z
 assessment:
   status: unverified
   credibility: 6

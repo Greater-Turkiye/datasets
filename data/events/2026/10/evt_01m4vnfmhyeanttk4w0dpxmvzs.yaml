@@ -18,6 +18,10 @@ sources:
     title: "Respect for Syria’s sovereignty and territorial integrity remains essential for long-term stability, political progress and economic recovery: UK statement at the UN Security Council"
     published_at: 2026-10-13T15:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015164723/https://www.gov.uk/government/speeches/respect-for-syrias-sovereignty-and-territorial-integrity-remains-essential-for-long-term-stability-political-progress-and-economic-recovery-uk-stateme
+        captured_at: 2026-10-15T16:47:23Z
 assessment:
   status: unverified
   credibility: 6

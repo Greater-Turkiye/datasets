@@ -18,6 +18,10 @@ sources:
     title: Turkey’s Erdogan pledges support to Saudi Arabia amid Houthi attacks
     published_at: 2026-10-13T14:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015163534/https://news.am/en/news/1067625
+        captured_at: 2026-10-15T16:35:34Z
 assessment:
   status: unverified
   credibility: 6

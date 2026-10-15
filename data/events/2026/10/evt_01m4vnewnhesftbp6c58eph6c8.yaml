@@ -18,6 +18,10 @@ sources:
     title: Syria’s Political Transition Hinges on Economic Recovery, Security Council Hears amid Lingering Tensions
     published_at: 2026-10-12T23:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015163017/https://press.un.org/en/2026/sc16474.doc.htm
+        captured_at: 2026-10-15T16:30:17Z
 assessment:
   status: unverified
   credibility: 6

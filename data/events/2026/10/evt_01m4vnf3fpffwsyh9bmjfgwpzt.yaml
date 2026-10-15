@@ -18,6 +18,10 @@ sources:
     title: EU imposes largest package of sanctions against Russia military industry
     published_at: 2026-10-13T13:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015163416/https://news.am/en/news/1067600
+        captured_at: 2026-10-15T16:34:16Z
 assessment:
   status: unverified
   credibility: 6

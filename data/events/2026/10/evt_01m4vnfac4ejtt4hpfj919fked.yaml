@@ -18,6 +18,10 @@ sources:
     title: Joint statement on the postponement of Palestinian elections
     published_at: 2026-10-13T14:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014075624/https://www.gov.uk/government/news/joint-statement-on-the-postponement-of-palestinian-elections
+        captured_at: 2026-10-14T07:56:24Z
 assessment:
   status: unverified
   credibility: 6

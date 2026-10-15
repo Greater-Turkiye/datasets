@@ -24,6 +24,10 @@ sources:
     title: "Strike on university in Rivne: Injury toll rises to 25, two in serious condition"
     published_at: 2026-10-13T14:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015163733/https://www.ukrinform.net/rubric-ato/4174019-strike-on-university-in-rivne-injury-toll-rises-to-25-two-in-serious-condition.html
+        captured_at: 2026-10-15T16:37:33Z
 assessment:
   status: unverified
   credibility: 6

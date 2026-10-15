@@ -18,6 +18,10 @@ sources:
     title: How Ukraine's Strikes On Data Centers Disrupted Taxis, Shopping, And Business In Russia And Beyond
     published_at: 2026-10-13T15:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015164346/https://www.rferl.org/a/ukraine-strikes-data-centers-disruption-shopping-business-russia/33875869.html
+        captured_at: 2026-10-15T16:43:46Z
 assessment:
   status: unverified
   credibility: 6

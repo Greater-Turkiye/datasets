@@ -18,6 +18,10 @@ sources:
     title: "PM on Azerbaijan soldier crossing into Armenia, shooting and injuring villager: Nothing to do with peace process, it’s ordinary criminal situation"
     published_at: 2026-10-12T12:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015162434/https://news.am/en/news/1067368
+        captured_at: 2026-10-15T16:24:34Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: "Armenia MoD: Soldier with firearm wound transported to Yerevan"
     published_at: 2026-10-13T11:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015111313/https://news.am/en/news/1067575
+        captured_at: 2026-10-15T11:13:13Z
 assessment:
   status: unverified
   credibility: 6

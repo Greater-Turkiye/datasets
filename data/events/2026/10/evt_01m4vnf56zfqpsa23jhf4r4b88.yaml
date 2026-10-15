@@ -24,6 +24,10 @@ sources:
     title: Russian drone hits supermarket roof in Kharkiv, injuries reported
     published_at: 2026-10-13T13:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014052619/https://www.ukrinform.net/rubric-ato/4173999-russian-drone-hits-supermarket-roof-in-kharkiv-injuries-reported.html
+        captured_at: 2026-10-14T05:26:19Z
 assessment:
   status: unverified
   credibility: 6
