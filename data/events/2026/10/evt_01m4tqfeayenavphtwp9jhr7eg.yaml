@@ -18,6 +18,10 @@ sources:
     title: "Newspaper: What Azerbaijan soldier says about breaking into Armenia family’s home"
     published_at: 2026-10-13T03:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015110142/https://news.am/en/news/1067447
+        captured_at: 2026-10-15T11:01:42Z
 assessment:
   status: unverified
   credibility: 6

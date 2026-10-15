@@ -24,6 +24,10 @@ sources:
     title: "Zelensky: Partners did not warn of ballistic missile strike on Kyiv"
     published_at: 2026-10-13T11:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013181756/https://www.ukrinform.net/rubric-ato/4173926-zelensky-partners-did-not-warn-of-ballistic-missile-strike-on-kyiv.html
+        captured_at: 2026-10-13T18:17:56Z
 assessment:
   status: unverified
   credibility: 6

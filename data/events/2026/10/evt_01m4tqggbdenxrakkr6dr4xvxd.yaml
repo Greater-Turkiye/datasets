@@ -18,6 +18,10 @@ sources:
     title: EU preparing new package of sanctions against Russia oil
     published_at: 2026-10-13T09:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015110958/https://news.am/en/news/1067529
+        captured_at: 2026-10-15T11:09:58Z
 assessment:
   status: unverified
   credibility: 6

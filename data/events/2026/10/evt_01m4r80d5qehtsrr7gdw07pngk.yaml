@@ -18,6 +18,10 @@ sources:
     title: UN chief ‘gravely concerned’ by renewed fighting in northern Ethiopia, warns against escalation
     published_at: 2026-10-10T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015105526/https://news.un.org/feed/view/en/story/2026/10/1168570
+        captured_at: 2026-10-15T10:55:26Z
 assessment:
   status: unverified
   credibility: 6

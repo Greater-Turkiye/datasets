@@ -24,6 +24,10 @@ sources:
     title: SOF cut off Russian infiltration route in Donetsk sector
     published_at: 2026-10-13T09:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013130201/https://www.ukrinform.net/rubric-ato/4173875-sof-cut-off-russian-infiltration-route-in-donetsk-sector.html
+        captured_at: 2026-10-13T13:02:01Z
 assessment:
   status: unverified
   credibility: 6

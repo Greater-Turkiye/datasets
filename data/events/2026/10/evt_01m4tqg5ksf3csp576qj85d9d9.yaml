@@ -24,6 +24,10 @@ sources:
     title: Bulgaria Summons Russian Envoy Over New Black Sea Drone Attacks
     published_at: 2026-10-13T08:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015110441/https://balkaninsight.com/2026/10/13/bulgaria-summons-russian-envoy-over-new-black-sea-drone-attacks/bi/
+        captured_at: 2026-10-15T11:04:41Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes high-rise apartment building in Kyiv's Darnytskyi district
     published_at: 2026-10-12T17:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014213054/https://www.ukrinform.net/rubric-ato/4173708-russian-drone-strikes-highrise-apartment-building-in-kyivs-darnytskyi-district.html
+        captured_at: 2026-10-14T21:30:54Z
 assessment:
   status: unverified
   credibility: 6

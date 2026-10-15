@@ -24,6 +24,10 @@ sources:
     title: Back Zelenskyy and Ukraine with an energy ceasefire, Foreign Secretary tells European partners
     published_at: 2026-10-13T09:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014080829/https://www.gov.uk/government/news/back-zelenskyy-and-ukraine-with-an-energy-ceasefire-foreign-secretary-tells-european-partners
+        captured_at: 2026-10-14T08:08:29Z
 assessment:
   status: unverified
   credibility: 6

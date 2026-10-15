@@ -18,6 +18,10 @@ sources:
     title: Spox Ihnat explains why explosions sometimes occur before air raid sirens sound
     published_at: 2026-10-13T08:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013154628/https://www.ukrinform.net/rubric-ato/4173868-spox-ihnat-explains-why-explosions-sometimes-occur-before-air-raid-sirens-sound.html
+        captured_at: 2026-10-13T15:46:28Z
 assessment:
   status: unverified
   credibility: 6

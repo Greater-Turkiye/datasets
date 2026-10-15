@@ -24,6 +24,10 @@ sources:
     title: Russian attack on warehouse in Zaporizhzhia injures one person
     published_at: 2026-10-13T08:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013114622/https://www.ukrinform.net/rubric-ato/4173861-russian-attack-on-warehouse-in-zaporizhzhia-injures-one-person.html
+        captured_at: 2026-10-13T11:46:22Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russia Pounds Ukraine In Overnight Missile And Drone Attacks
     published_at: 2026-10-13T11:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015111657/https://www.rferl.org/a/russia-pounds-ukraine-in-overnight-missile-and-drone-attacks/33875763.html
+        captured_at: 2026-10-15T11:16:57Z
 assessment:
   status: unverified
   credibility: 6

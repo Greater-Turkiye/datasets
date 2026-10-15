@@ -1,0 +1,27 @@
+id: evt_01m4zk0zv5fkvajv1qsmt8vadx
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: "Zelenskiy: Ukrayna savunmasında kısıtlamalarla karşı karşıya kalırken Rusya 850 Shahed insansız hava aracını serbest bıraktı"
+  en: "Zelensky: Russia unleashes 850 Shahed drones as Ukraine faces restrictions on its defenses"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-15T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-15T09:50Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4174671-zelensky-russia-unleashes-850-shahed-drones-as-ukraine-faces-restrictions-on-its-defenses.html
+    title: "Zelensky: Russia unleashes 850 Shahed drones as Ukraine faces restrictions on its defenses"
+    published_at: 2026-10-15T09:50Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

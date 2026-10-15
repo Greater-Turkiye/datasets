@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Rivne injures 20 as fire at academic building is extinguished
     published_at: 2026-10-13T11:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013134618/https://www.ukrinform.net/rubric-ato/4173928-russian-attack-on-rivne-injures-20-as-fire-at-academic-building-is-extinguished.html
+        captured_at: 2026-10-13T13:46:18Z
 assessment:
   status: unverified
   credibility: 6
