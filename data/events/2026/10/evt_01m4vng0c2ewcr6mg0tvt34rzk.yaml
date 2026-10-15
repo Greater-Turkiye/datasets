@@ -24,6 +24,10 @@ sources:
     title: Russian drone attack on Pavlohrad kills one person and injures two others
     published_at: 2026-10-13T17:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014091445/https://www.ukrinform.net/rubric-ato/4174091-russian-drone-attack-on-pavlohrad-kills-one-person-and-injures-two-others.html
+        captured_at: 2026-10-14T09:14:45Z
 assessment:
   status: unverified
   credibility: 6

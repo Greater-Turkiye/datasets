@@ -18,6 +18,10 @@ sources:
     title: Russian forces strike Epicentr’s logistics hub in Khmelnytskyi 10 times in one day
     published_at: 2026-10-14T04:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014060104/https://www.ukrinform.net/rubric-ato/4174158-russian-forces-strike-epicentrs-logistics-hub-in-khmelnytskyi-10-times-in-one-day.html
+        captured_at: 2026-10-14T06:01:04Z
 assessment:
   status: unverified
   credibility: 6

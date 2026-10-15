@@ -18,6 +18,10 @@ sources:
     title: "Pletenchuk: Russian naval drones pose threat to Black Sea countries"
     published_at: 2026-10-14T00:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014060115/https://www.ukrinform.net/rubric-ato/4174045-pletenchuk-russian-naval-drones-pose-threat-to-black-sea-countries.html
+        captured_at: 2026-10-14T06:01:15Z
 assessment:
   status: unverified
   credibility: 6

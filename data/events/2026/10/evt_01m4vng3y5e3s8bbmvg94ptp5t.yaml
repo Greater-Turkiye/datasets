@@ -24,6 +24,10 @@ sources:
     title: Evidence of Western components in Russian Shahed drones presented at Warsaw Security Forum
     published_at: 2026-10-13T18:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014060108/https://www.ukrinform.net/rubric-ato/4174106-evidence-of-western-components-in-russian-shahed-drones-presented-at-warsaw-security-forum.html
+        captured_at: 2026-10-14T06:01:08Z
 assessment:
   status: unverified
   credibility: 6

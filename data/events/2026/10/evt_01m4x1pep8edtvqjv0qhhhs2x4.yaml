@@ -24,6 +24,10 @@ sources:
     title: Russian Missile Strikes Kill 3 In Kyiv, Knock Out Power As Zelenskyy Says West Gave No Warning
     published_at: 2026-10-14T05:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015035020/https://www.rferl.org/a/russia-ballistic-missile-attack-ukraine/33876280.html
+        captured_at: 2026-10-15T03:50:20Z
 assessment:
   status: unverified
   credibility: 6

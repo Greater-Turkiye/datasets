@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike water collection point in Kramatorsk three times in one day, causing casualties
     published_at: 2026-10-13T16:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015210105/https://www.ukrinform.net/rubric-ato/4174085-russian-forces-strike-water-collection-point-in-kramatorsk-three-times-in-one-day-causing-casualties.html
+        captured_at: 2026-10-15T21:01:05Z
 assessment:
   status: unverified
   credibility: 6

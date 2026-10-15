@@ -18,6 +18,10 @@ sources:
     title: "War update: 229 clashes along front line over past day, Pokrovsk sector sees fiercest fighting"
     published_at: 2026-10-14T05:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014114645/https://www.ukrinform.net/rubric-ato/4174174-war-update-229-clashes-along-front-line-over-past-day-pokrovsk-sector-sees-fiercest-fighting.html
+        captured_at: 2026-10-14T11:46:45Z
 assessment:
   status: unverified
   credibility: 6

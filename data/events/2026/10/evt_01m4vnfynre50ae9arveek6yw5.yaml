@@ -24,6 +24,10 @@ sources:
     title: Iraqi warplanes strike ISIS hideout in Kirkuk
     published_at: 2026-10-13T17:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013174516/https://shafaq.com/en/Security/Iraqi-warplanes-strike-ISIS-hideout-in-Kirkuk
+        captured_at: 2026-10-13T17:45:16Z
 assessment:
   status: unverified
   credibility: 6

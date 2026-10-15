@@ -24,10 +24,18 @@ sources:
     title: Russian ballistic missile strike on Kyiv kills two, injures 21
     published_at: 2026-10-14T03:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014051615/https://www.ukrinform.net/rubric-ato/4174152-russian-ballistic-missile-strike-on-kyiv-kills-two-injures-21.html
+        captured_at: 2026-10-14T05:16:15Z
   - url: https://www.ukrinform.net/rubric-ato/4174182-russian-combined-attack-on-kyiv-kills-three-injures-27.html
     title: Russian combined attack on Kyiv kills four, injures 27
     published_at: 2026-10-14T06:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014101649/https://www.ukrinform.net/rubric-ato/4174182-russian-combined-attack-on-kyiv-kills-three-injures-27.html
+        captured_at: 2026-10-14T10:16:49Z
 assessment:
   status: unverified
   credibility: 6

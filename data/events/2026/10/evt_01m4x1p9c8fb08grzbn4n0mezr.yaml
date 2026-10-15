@@ -18,6 +18,10 @@ sources:
     title: Russia prepares for possible direct military confrontation with Europe by 2045, Ukrainian Intelligence says
     published_at: 2026-10-14T01:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014040113/https://www.ukrinform.net/rubric-ato/4174048-russia-prepares-for-possible-direct-military-confrontation-with-europe-by-2045-ukrainian-intelligence-says.html
+        captured_at: 2026-10-14T04:01:13Z
 assessment:
   status: unverified
   credibility: 6

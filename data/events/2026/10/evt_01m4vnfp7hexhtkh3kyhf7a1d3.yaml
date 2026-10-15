@@ -24,6 +24,10 @@ sources:
     title: "Zelensky criticises Kyiv authorities: Frontline regions do better at implementing resilience plans"
     published_at: 2026-10-13T15:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014014657/https://www.ukrinform.net/rubric-ato/4174051-zelensky-criticises-kyiv-authorities-frontline-regions-do-better-at-implementing-resilience-plans.html
+        captured_at: 2026-10-14T01:46:57Z
 assessment:
   status: unverified
   credibility: 6
