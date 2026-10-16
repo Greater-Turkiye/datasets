@@ -18,6 +18,10 @@ sources:
     title: Britain to accelerate delivery of anti-drone missiles to Ukraine
     published_at: 2026-10-14T07:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014101637/https://www.ukrinform.net/rubric-ato/4174238-britain-to-accelerate-delivery-of-antidrone-missiles-to-ukraine.html
+        captured_at: 2026-10-14T10:16:37Z
 assessment:
   status: unverified
   credibility: 6

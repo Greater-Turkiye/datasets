@@ -18,6 +18,10 @@ sources:
     title: Russian drone debris sparks fire at gas station in Khmelnytskyi region, two injured
     published_at: 2026-10-14T06:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014101638/https://www.ukrinform.net/rubric-ato/4174196-russian-drone-debris-sparks-fire-at-gas-station-in-khmelnytskyi-region-two-injured.html
+        captured_at: 2026-10-14T10:16:38Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Moscow reports overnight attack involving nearly 500 drones, four airports suspended operations, media report
     published_at: 2026-10-14T09:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014113212/https://www.ukrinform.net/rubric-ato/4174277-moscow-reports-overnight-attack-involving-nearly-500-drones-four-airports-suspended-operations-media-report.html
+        captured_at: 2026-10-14T11:32:12Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Residential buildings and agricultural enterprises hit in Rivne region, eight people injured
     published_at: 2026-10-14T09:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014113211/https://www.ukrinform.net/rubric-ato/4174279-residential-buildings-and-agricultural-enterprises-hit-in-rivne-region-eight-people-injured.html
+        captured_at: 2026-10-14T11:32:11Z
 assessment:
   status: unverified
   credibility: 6

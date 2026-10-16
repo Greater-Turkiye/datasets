@@ -18,6 +18,10 @@ sources:
     title: Interception rate for Russian jet-powered drones rises to 76% — Ihnat
     published_at: 2026-10-14T08:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014101636/https://www.ukrinform.net/rubric-ato/4174244-interception-rate-for-russian-jetpowered-drones-rises-to-76-ihnat.html
+        captured_at: 2026-10-14T10:16:36Z
 assessment:
   status: unverified
   credibility: 6

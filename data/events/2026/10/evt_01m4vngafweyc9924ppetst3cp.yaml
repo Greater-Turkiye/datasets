@@ -24,6 +24,10 @@ sources:
     title: Airstrike kills ISIS members in Iraq’s Kirkuk
     published_at: 2026-10-13T20:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016031129/https://shafaq.com/en/Security/Airstrike-kills-ISIS-members-in-Iraq-s-Kirkuk
+        captured_at: 2026-10-16T03:11:29Z
 assessment:
   status: unverified
   credibility: 6

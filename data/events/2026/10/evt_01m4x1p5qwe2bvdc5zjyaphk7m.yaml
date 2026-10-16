@@ -18,6 +18,10 @@ sources:
     title: UN Secretary General Guterres to visit Armenia for biodiversity summit
     published_at: 2026-10-13T17:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015210752/https://news.am/en/news/1067664
+        captured_at: 2026-10-15T21:07:52Z
 assessment:
   status: unverified
   credibility: 6

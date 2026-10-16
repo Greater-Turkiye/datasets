@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes transport company in Derhachi, leaving four people in critical condition
     published_at: 2026-10-14T08:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016031745/https://www.ukrinform.net/rubric-ato/4174239-russian-drone-strikes-transport-company-in-derhachi-leaving-four-people-in-critical-condition.html
+        captured_at: 2026-10-16T03:17:45Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Ukrainian Defence Forces strike Russian drone storage and launch site near Donetsk
     published_at: 2026-10-14T09:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014133129/https://www.ukrinform.net/rubric-ato/4174273-ukrainian-defence-forces-strike-russian-drone-storage-and-launch-site-near-donetsk.html
+        captured_at: 2026-10-14T13:31:29Z
 assessment:
   status: unverified
   credibility: 6

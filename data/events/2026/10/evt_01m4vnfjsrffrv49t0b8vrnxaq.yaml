@@ -24,6 +24,10 @@ sources:
     title: Russian forces launch second attack on Dnipro
     published_at: 2026-10-13T15:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015164433/https://www.ukrinform.net/rubric-ato/4174040-russian-forces-launch-second-attack-on-dnipro.html
+        captured_at: 2026-10-15T16:44:33Z
 assessment:
   status: unverified
   credibility: 6
