@@ -24,6 +24,10 @@ sources:
     title: Drone attack damages business in Ternopil region, five people injured
     published_at: 2026-10-15T04:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015064614/https://www.ukrinform.net/rubric-ato/4174550-drone-attack-damages-business-in-ternopil-region-five-people-injured.html
+        captured_at: 2026-10-15T06:46:14Z
 assessment:
   status: unverified
   credibility: 6

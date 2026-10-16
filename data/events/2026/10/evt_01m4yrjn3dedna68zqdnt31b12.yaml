@@ -18,6 +18,10 @@ sources:
     title: Russian forces attack Kryvyi Rih, falling drone debris sparks fire
     published_at: 2026-10-14T20:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014221652/https://www.ukrinform.net/rubric-ato/4174523-russian-forces-attack-kryvyi-rih-falling-drone-debris-sparks-fire.html
+        captured_at: 2026-10-14T22:16:52Z
 assessment:
   status: unverified
   credibility: 6

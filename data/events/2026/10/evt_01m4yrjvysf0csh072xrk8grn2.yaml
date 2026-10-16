@@ -18,6 +18,10 @@ sources:
     title: Russia uses missiles containing European and US-made components manufactured weeks before strikes — Ihnat
     published_at: 2026-10-14T23:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015034604/https://www.ukrinform.net/rubric-ato/4174260-russia-uses-missiles-containing-european-and-usmade-components-manufactured-weeks-before-strikes-ihnat.html
+        captured_at: 2026-10-15T03:46:04Z
 assessment:
   status: unverified
   credibility: 6

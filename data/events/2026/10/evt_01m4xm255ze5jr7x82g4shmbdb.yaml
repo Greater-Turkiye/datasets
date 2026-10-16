@@ -24,6 +24,10 @@ sources:
     title: Tear Gas, Petrol Bombs on Tirana’s Streets as Police and Students Tussle
     published_at: 2026-10-14T10:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016111523/https://balkaninsight.com/2026/10/14/tear-gas-petrol-bombs-on-tiranas-streets-as-police-and-students-tussle/bi/
+        captured_at: 2026-10-16T11:15:23Z
 assessment:
   status: unverified
   credibility: 6

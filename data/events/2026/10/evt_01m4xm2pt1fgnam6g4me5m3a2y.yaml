@@ -18,6 +18,10 @@ sources:
     title: Romania scrambles F-16s after airspace violation
     published_at: 2026-10-14T14:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014193233/https://www.ukrinform.net/rubric-ato/4174431-romania-scrambles-f16s-after-airspace-violation.html
+        captured_at: 2026-10-14T19:32:33Z
 assessment:
   status: unverified
   credibility: 6

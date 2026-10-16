@@ -18,6 +18,10 @@ sources:
     title: Rising Violence is a Sign that Serbia’s Ruling Party is Panicking
     published_at: 2026-10-15T05:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015211253/https://balkaninsight.com/2026/10/15/rising-violence-is-a-sign-that-serbias-ruling-party-is-panicking/bi/
+        captured_at: 2026-10-15T21:12:53Z
 assessment:
   status: unverified
   credibility: 6

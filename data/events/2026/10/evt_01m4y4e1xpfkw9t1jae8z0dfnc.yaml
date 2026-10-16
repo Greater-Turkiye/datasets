@@ -24,6 +24,10 @@ sources:
     title: Suspect in killing of five Ukrainian soldiers arrested in Kharkiv, identified as Russian military personnel
     published_at: 2026-10-14T18:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014223236/https://www.ukrinform.net/rubric-ato/4174499-suspect-in-killing-of-five-ukrainian-soldiers-arrested-in-kharkiv-identified-as-russian-military-personnel.html
+        captured_at: 2026-10-14T22:32:36Z
 assessment:
   status: unverified
   credibility: 6

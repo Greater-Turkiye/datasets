@@ -18,6 +18,10 @@ sources:
     title: SpaceX maintains 161 km/h speed limit for Starshield terminals, Ukraine's defense ministry says
     published_at: 2026-10-14T20:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015064617/https://www.ukrinform.net/rubric-ato/4174524-spacex-maintains-161-kmh-speed-limit-for-starshield-terminals-ukraines-defense-ministry-says.html
+        captured_at: 2026-10-15T06:46:17Z
 assessment:
   status: unverified
   credibility: 6

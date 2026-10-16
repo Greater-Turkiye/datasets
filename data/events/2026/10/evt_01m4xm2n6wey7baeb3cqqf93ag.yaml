@@ -24,6 +24,10 @@ sources:
     title: Four killed, 41 injured as rescue operations conclude at site of Russian missile strike in Kharkiv
     published_at: 2026-10-14T13:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015071616/https://www.ukrinform.net/rubric-ato/4174409-four-killed-41-injured-as-rescue-operations-conclude-at-site-of-russian-missile-strike-in-kharkiv.html
+        captured_at: 2026-10-15T07:16:16Z
 assessment:
   status: unverified
   credibility: 6
