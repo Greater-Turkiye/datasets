@@ -24,6 +24,10 @@ sources:
     title: Albanian Student Protesters Clash with Police Outside Ministry of Education
     published_at: 2026-10-13T16:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016105151/https://balkaninsight.com/2026/10/13/albanian-student-protesters-clash-with-police-outside-ministry-of-education/bi/
+        captured_at: 2026-10-16T10:51:51Z
 assessment:
   status: unverified
   credibility: 6

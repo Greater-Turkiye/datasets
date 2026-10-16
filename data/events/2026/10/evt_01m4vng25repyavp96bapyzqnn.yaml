@@ -24,6 +24,10 @@ sources:
     title: SMC confirms ISIS hideouts destroyed in Kirkuk
     published_at: 2026-10-13T18:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016105220/https://shafaq.com/en/Security/SMC-confirms-ISIS-hideouts-destroyed-in-Kirkuk
+        captured_at: 2026-10-16T10:52:20Z
 assessment:
   status: unverified
   credibility: 6

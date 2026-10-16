@@ -24,6 +24,10 @@ sources:
     title: Russian drone debris falls on Lutsk shopping mall, setting roof on fire
     published_at: 2026-10-13T19:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016105524/https://www.ukrinform.net/rubric-ato/4174114-russian-drone-debris-falls-on-lutsk-shopping-mall-setting-roof-on-fire.html
+        captured_at: 2026-10-16T10:55:24Z
 assessment:
   status: unverified
   credibility: 6

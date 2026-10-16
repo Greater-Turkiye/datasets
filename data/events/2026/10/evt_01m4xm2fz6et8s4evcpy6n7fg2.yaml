@@ -18,6 +18,10 @@ sources:
     title: "Yemen: WFP warns of potential ‘humanitarian catastrophe’ as fighting blocks aid delivery"
     published_at: 2026-10-14T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016112404/https://news.un.org/feed/view/en/story/2026/10/1168591
+        captured_at: 2026-10-16T11:24:04Z
 assessment:
   status: unverified
   credibility: 6

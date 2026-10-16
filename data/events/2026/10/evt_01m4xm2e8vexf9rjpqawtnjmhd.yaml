@@ -24,6 +24,10 @@ sources:
     title: Injury toll after Russian attack on Rivne rises to eight
     published_at: 2026-10-14T11:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014140212/https://www.ukrinform.net/rubric-ato/4174339-injury-toll-after-russian-attack-on-rivne-rises-to-eight.html
+        captured_at: 2026-10-14T14:02:12Z
 assessment:
   status: unverified
   credibility: 6

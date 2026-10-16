@@ -24,6 +24,10 @@ sources:
     title: Efforts underway to save man at site of Banderol strike on residential building in Zaporizhzhia
     published_at: 2026-10-14T11:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014133126/https://www.ukrinform.net/rubric-ato/4174333-efforts-underway-to-save-man-at-site-of-banderol-strike-on-residential-building-in-zaporizhzhia.html
+        captured_at: 2026-10-14T13:31:26Z
 assessment:
   status: unverified
   credibility: 6

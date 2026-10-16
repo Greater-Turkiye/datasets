@@ -24,6 +24,10 @@ sources:
     title: Survivors Rescued From Kyiv Building After Deadly Russian Strike
     published_at: 2026-10-14T10:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016111452/https://www.rferl.org/a/survivors-rescued-from-kyiv-building-after-deadly-russian-strike/33876460.html
+        captured_at: 2026-10-16T11:14:52Z
 assessment:
   status: unverified
   credibility: 6

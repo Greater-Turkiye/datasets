@@ -24,6 +24,10 @@ sources:
     title: Kirkuk blast kills two Iraqi soldiers, injures two
     published_at: 2026-10-14T06:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016105921/https://shafaq.com/en/Security/Kirkuk-blast-claims-two-Iraqi-soldiers-injures-two
+        captured_at: 2026-10-16T10:59:21Z
 assessment:
   status: unverified
   credibility: 6

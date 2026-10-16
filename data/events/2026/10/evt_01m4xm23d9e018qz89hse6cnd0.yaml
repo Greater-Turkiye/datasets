@@ -24,6 +24,10 @@ sources:
     title: Russian jet-powered Shahed drone strikes civilian infrastructure in Lutsk, injuring six
     published_at: 2026-10-14T10:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261014130130/https://www.ukrinform.net/rubric-ato/4174314-russian-jetpowered-shahed-drone-strikes-civilian-infrastructure-in-lutsk-injuring-six.html
+        captured_at: 2026-10-14T13:01:30Z
 assessment:
   status: unverified
   credibility: 6

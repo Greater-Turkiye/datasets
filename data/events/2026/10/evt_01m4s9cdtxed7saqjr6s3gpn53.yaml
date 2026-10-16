@@ -24,6 +24,10 @@ sources:
     title: "Security Council LIVE: Syria’s fragile transition – economic strain, Israeli incursions and progress towards elections"
     published_at: 2026-10-12T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016104615/https://news.un.org/feed/view/en/story/2026/10/1168578
+        captured_at: 2026-10-16T10:46:15Z
 assessment:
   status: unverified
   credibility: 6

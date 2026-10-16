@@ -18,6 +18,10 @@ sources:
     title: Security Council, 10242nd Meeting (AM) Libya
     published_at: 2026-10-14T10:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016111800/https://press.un.org/en/blog/sc16477
+        captured_at: 2026-10-16T11:18:00Z
 assessment:
   status: unverified
   credibility: 6

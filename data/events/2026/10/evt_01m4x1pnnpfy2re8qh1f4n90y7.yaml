@@ -18,6 +18,10 @@ sources:
     title: Ukraine downs four ballistic missiles, 115 drones in massive Russian overnight attack
     published_at: 2026-10-14T06:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016031746/https://www.ukrinform.net/rubric-ato/4174200-ukraine-downs-four-ballistic-missiles-115-drones-in-massive-russian-overnight-attack.html
+        captured_at: 2026-10-16T03:17:46Z
 assessment:
   status: unverified
   credibility: 6
