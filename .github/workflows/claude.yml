@@ -1,0 +1,23 @@
+# Issues in this repository are worked by Claude Code in GitHub Actions, through the org-wide
+# workflow in Greater-Turkiye/.github (see its README): a new issue is assigned to the owner and
+# resolved end to end; the `claude` label or an "@claude" comment starts it again.
+name: claude
+
+on:
+  issues:
+    types: [opened, labeled]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+  checks: read
+  id-token: write
+
+jobs:
+  claude:
+    uses: Greater-Turkiye/.github/.github/workflows/claude-issues.yml@main
+    secrets: inherit
