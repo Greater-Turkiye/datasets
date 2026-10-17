@@ -18,6 +18,10 @@ sources:
     title: "War update: 260 combat engagements on front line over past day, most in Pokrovsk sector"
     published_at: 2026-10-15T06:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017103945/https://www.ukrinform.net/rubric-ato/4174584-war-update-260-combat-engagements-on-front-line-over-past-day-most-in-pokrovsk-sector.html
+        captured_at: 2026-10-17T10:39:45Z
 assessment:
   status: unverified
   credibility: 6

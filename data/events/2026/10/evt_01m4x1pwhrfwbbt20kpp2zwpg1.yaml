@@ -18,6 +18,10 @@ sources:
     title: Azerbaijan condemns “systematic information attacks from Iran and Turkey”
     published_at: 2026-10-14T07:44Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016110648/https://news.am/en/news/1067730
+        captured_at: 2026-10-16T11:06:48Z
 assessment:
   status: unverified
   credibility: 6

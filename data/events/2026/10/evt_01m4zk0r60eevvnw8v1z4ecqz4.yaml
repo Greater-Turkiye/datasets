@@ -24,6 +24,10 @@ sources:
     title: Ukraine destroys six Su-34M bombers at airfield in Russia’s Voronezh region using Neptune missiles
     published_at: 2026-10-15T08:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017104930/https://www.ukrinform.net/rubric-ato/4174629-ukraine-destroys-six-su34m-bombers-at-airfield-in-russias-voronezh-region-using-neptune-missiles.html
+        captured_at: 2026-10-17T10:49:30Z
 assessment:
   status: unverified
   credibility: 6

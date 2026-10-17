@@ -18,6 +18,10 @@ sources:
     title: Black Sea Drone Attacks Expose Holes in Bulgarian Security Strategy
     published_at: 2026-10-15T05:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017103353/https://balkaninsight.com/2026/10/15/black-sea-drone-attacks-expose-holes-in-bulgarian-security-strategy/bi/
+        captured_at: 2026-10-17T10:33:53Z
 assessment:
   status: unverified
   credibility: 6

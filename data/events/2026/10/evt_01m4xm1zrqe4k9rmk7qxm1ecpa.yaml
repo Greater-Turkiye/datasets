@@ -24,6 +24,10 @@ sources:
     title: "Combined Russian attack: Five killed, 36 injured in Kyiv since last evening"
     published_at: 2026-10-14T10:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017101612/https://www.ukrinform.net/rubric-ato/4174310-combined-russian-attack-five-killed-36-injured-in-kyiv-since-last-evening.html
+        captured_at: 2026-10-17T10:16:12Z
 assessment:
   status: unverified
   credibility: 6

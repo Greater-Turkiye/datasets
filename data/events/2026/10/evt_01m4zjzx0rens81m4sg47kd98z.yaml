@@ -18,6 +18,10 @@ sources:
     title: Death toll from Russian attack rises to three, six people injured in Kropyvnytskyi
     published_at: 2026-10-15T03:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016163823/https://www.ukrinform.net/rubric-ato/4174547-death-toll-from-russian-attack-rises-to-three-six-people-injured-in-kropyvnytskyi.html
+        captured_at: 2026-10-16T16:38:23Z
 assessment:
   status: unverified
   credibility: 6

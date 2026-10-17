@@ -1,0 +1,27 @@
+id: evt_01m54nb2wzemx9r7x9r3m5c3s5
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: Ukrayna'nın ADF'si Rus saldırısında 4 Kalibr füzesi ve 289 insansız hava aracı düşürdü
+  en: Ukraine’s ADF down four Kalibr missiles, 289 drones in overnight Russian attack
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-17T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-17T06:37Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4175336-ukraines-adf-down-four-kalibr-missiles-289-drones-in-overnight-russian-attack.html
+    title: Ukraine’s ADF down four Kalibr missiles, 289 drones in overnight Russian attack
+    published_at: 2026-10-17T06:37Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

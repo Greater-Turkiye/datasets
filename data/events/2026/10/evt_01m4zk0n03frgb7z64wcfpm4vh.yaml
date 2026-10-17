@@ -18,6 +18,10 @@ sources:
     title: "UK statement on escalating tensions between Ethiopia and Eritrea: 15 October"
     published_at: 2026-10-15T07:46Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016134217/https://www.gov.uk/government/news/uk-statement-on-escalating-tensions-between-ethiopia-and-eritrea-15-october
+        captured_at: 2026-10-16T13:42:17Z
 assessment:
   status: unverified
   credibility: 6

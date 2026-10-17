@@ -18,6 +18,10 @@ sources:
     title: Maysan clash wounds two, armed group holds officer
     published_at: 2026-10-14T11:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017101651/https://shafaq.com/en/Security/Maysan-clash-wounds-two-armed-group-holds-officer
+        captured_at: 2026-10-17T10:16:51Z
 assessment:
   status: unverified
   credibility: 6

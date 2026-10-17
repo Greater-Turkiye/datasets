@@ -24,6 +24,10 @@ sources:
     title: ‘Hold Spoilers Accountable’, Special Representative Urges Security Council as Libya Moves towards Elections
     published_at: 2026-10-14T21:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017102820/https://press.un.org/en/2026/sc16477.doc.htm
+        captured_at: 2026-10-17T10:28:20Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Zelensky briefs Burnham on Russian attacks against Ukraine
     published_at: 2026-10-14T19:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017031054/https://www.ukrinform.net/rubric-ato/4174521-zelensky-briefs-burnham-on-russian-attacks-against-ukraine.html
+        captured_at: 2026-10-17T03:10:54Z
 assessment:
   status: unverified
   credibility: 6
