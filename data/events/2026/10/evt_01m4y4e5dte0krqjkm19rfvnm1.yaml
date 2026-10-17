@@ -24,6 +24,10 @@ sources:
     title: Kirkuk roadside bomb kills three Iraqi soldiers
     published_at: 2026-10-14T19:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017030909/https://shafaq.com/en/Security/Kirkuk-roadside-bomb-kills-three-Iraqi-soldiers
+        captured_at: 2026-10-17T03:09:09Z
 assessment:
   status: unverified
   credibility: 6

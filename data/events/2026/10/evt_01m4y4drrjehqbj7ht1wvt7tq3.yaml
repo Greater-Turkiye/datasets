@@ -18,6 +18,10 @@ sources:
     title: Nineveh police chief sentenced to prison for bribery
     published_at: 2026-10-14T16:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016162403/https://shafaq.com/en/Security/Nineveh-police-chief-sentenced-to-prison-for-bribery
+        captured_at: 2026-10-16T16:24:03Z
 assessment:
   status: unverified
   credibility: 6

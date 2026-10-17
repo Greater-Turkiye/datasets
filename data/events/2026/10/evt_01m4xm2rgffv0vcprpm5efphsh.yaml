@@ -18,6 +18,10 @@ sources:
     title: Ukraine Tests AI-Powered Drones As Debate Grows Over Autonomous Weapons
     published_at: 2026-10-14T15:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017030328/https://www.rferl.org/a/ukraine-tests-ai-powered-drones-as-debate-grows-over-autonomous-weapons/33876615.html
+        captured_at: 2026-10-17T03:03:28Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Six killed, 13 injured as rescue operations conclude after Russian strike on Lutsk
     published_at: 2026-10-14T15:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016210054/https://www.ukrinform.net/rubric-ato/4174446-six-killed-13-injured-as-rescue-operations-conclude-after-russian-strike-on-lutsk.html
+        captured_at: 2026-10-16T21:00:54Z
 assessment:
   status: unverified
   credibility: 6

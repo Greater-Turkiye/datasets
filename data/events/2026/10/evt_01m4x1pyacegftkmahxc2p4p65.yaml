@@ -18,6 +18,10 @@ sources:
     title: Red Cross in contact with Armenia authorities over detained Azerbaijan soldier, to visit him if agreed
     published_at: 2026-10-14T07:49Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016204638/https://news.am/en/news/1067750
+        captured_at: 2026-10-16T20:46:38Z
 assessment:
   status: unverified
   credibility: 6

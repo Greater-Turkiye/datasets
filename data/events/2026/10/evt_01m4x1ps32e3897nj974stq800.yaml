@@ -18,6 +18,10 @@ sources:
     title: More than 100 Azerbaijan state domains come under cyberattack
     published_at: 2026-10-14T07:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016204154/https://news.am/en/news/1067728
+        captured_at: 2026-10-16T20:41:54Z
 assessment:
   status: unverified
   credibility: 6

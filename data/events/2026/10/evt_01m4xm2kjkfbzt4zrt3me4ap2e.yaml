@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Lutsk kills five, injures 10
     published_at: 2026-10-14T13:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016205936/https://www.ukrinform.net/rubric-ato/4174382-russian-attack-on-lutsk-kills-five-injures-10.html
+        captured_at: 2026-10-16T20:59:36Z
 assessment:
   status: unverified
   credibility: 6

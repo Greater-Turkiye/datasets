@@ -24,6 +24,10 @@ sources:
     title: Russian airstrikes on Kramatorsk leave dead and injured
     published_at: 2026-10-14T16:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016205927/https://www.ukrinform.net/rubric-ato/4174471-russian-airstrike-on-kramatorsk-injures-four.html
+        captured_at: 2026-10-16T20:59:27Z
 assessment:
   status: unverified
   credibility: 6

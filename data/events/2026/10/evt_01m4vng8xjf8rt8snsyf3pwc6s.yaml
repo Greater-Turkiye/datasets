@@ -24,6 +24,10 @@ sources:
     title: Russian strike on university in Rivne injures 30 as cleanup operations conclude
     published_at: 2026-10-13T20:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016204021/https://www.ukrinform.net/rubric-ato/4174120-russian-strike-on-university-in-rivne-injures-30-as-cleanup-operations-conclude.html
+        captured_at: 2026-10-16T20:40:21Z
 assessment:
   status: unverified
   credibility: 6

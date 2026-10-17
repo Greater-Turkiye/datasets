@@ -24,6 +24,10 @@ sources:
     title: "We are witnessing an industrial-scale assault by hostile actors like Russia on the information environment in the UK: UK Statement at the UN First Committee"
     published_at: 2026-10-15T00:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017031218/https://www.gov.uk/government/speeches/we-are-witnessing-an-industrial-scale-assault-by-hostile-actors-like-russia-on-the-information-environment-in-the-uk-uk-statement-at-the-un-first-comm
+        captured_at: 2026-10-17T03:12:18Z
 assessment:
   status: unverified
   credibility: 6

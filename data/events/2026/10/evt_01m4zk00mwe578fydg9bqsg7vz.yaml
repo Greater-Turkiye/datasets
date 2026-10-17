@@ -24,6 +24,10 @@ sources:
     title: Russian attacks in Dnipropetrovsk region leave two killed, private houses on fire
     published_at: 2026-10-15T04:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017031717/https://www.ukrinform.net/rubric-ato/4174552-russian-attacks-in-dnipropetrovsk-region-leave-two-killed-private-houses-on-fire.html
+        captured_at: 2026-10-17T03:17:17Z
   - url: https://www.ukrinform.net/rubric-ato/4174581-russian-attacks-on-dnipropetrovsk-region-leave-two-killed-and-three-injured.html
     title: Russian attacks on Dnipropetrovsk region leave two killed and three injured
     published_at: 2026-10-15T06:38Z

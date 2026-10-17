@@ -24,6 +24,10 @@ sources:
     title: Major internet outage hits Russia after drone attack on Sberbank data center, media report
     published_at: 2026-10-14T17:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016163228/https://www.ukrinform.net/rubric-ato/4174485-major-internet-outage-hits-russia-after-drone-attack-on-sberbank-data-center-media-report.html
+        captured_at: 2026-10-16T16:32:28Z
 assessment:
   status: unverified
   credibility: 6
