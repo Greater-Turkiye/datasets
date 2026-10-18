@@ -18,6 +18,10 @@ sources:
     title: Zelensky announces resumption of strikes on Russian oil refineries
     published_at: 2026-10-15T10:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017210552/https://www.ukrinform.net/rubric-ato/4174676-zelensky-announces-resumption-of-strikes-on-russian-oil-refineries.html
+        captured_at: 2026-10-17T21:05:52Z
 assessment:
   status: unverified
   credibility: 6

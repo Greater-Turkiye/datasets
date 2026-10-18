@@ -1,0 +1,33 @@
+id: evt_01m56f7zdtew8se05vvx8c7mv9
+schema: event/1
+event_type: kinetic.missile-strike
+title:
+  tr: Zelenskiy, Putin'in Ukrayna'nın batısına saldırmak için Belarus'a balistik füzeler konuşlandırmak istediğini söyledi
+  en: Putin wants to deploy ballistic missiles in Belarus to attack western Ukraine, Zelensky says
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-17T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-17T14:20Z
+location:
+  geometry: {type: Point, coordinates: [40.41, 56.13]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Vladimir, en: Vladimir}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4175464-putin-wants-to-deploy-ballistic-missiles-in-belarus-to-attack-western-ukraine-zelensky-says.html
+    title: Putin wants to deploy ballistic missiles in Belarus to attack western Ukraine, Zelensky says
+    published_at: 2026-10-17T14:20Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

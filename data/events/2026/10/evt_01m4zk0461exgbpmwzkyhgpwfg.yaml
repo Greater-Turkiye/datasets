@@ -18,6 +18,10 @@ sources:
     title: "Russia launches massive drone attack on Ukraine: Air Defence neutralizes 536 of 580 targets"
     published_at: 2026-10-15T05:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017104626/https://www.ukrinform.net/rubric-ato/4174564-russia-launches-massive-drone-attack-on-ukraine-air-defence-neutralizes-536-of-580-targets.html
+        captured_at: 2026-10-17T10:46:26Z
 assessment:
   status: unverified
   credibility: 6

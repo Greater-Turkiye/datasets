@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Russia unleashes 850 Shahed drones as Ukraine faces restrictions on its defenses"
     published_at: 2026-10-15T09:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017202816/https://www.ukrinform.net/rubric-ato/4174671-zelensky-russia-unleashes-850-shahed-drones-as-ukraine-faces-restrictions-on-its-defenses.html
+        captured_at: 2026-10-17T20:28:16Z
 assessment:
   status: unverified
   credibility: 6

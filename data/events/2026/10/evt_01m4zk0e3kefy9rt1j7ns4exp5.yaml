@@ -18,6 +18,10 @@ sources:
     title: Pentagon plans to request $50bln from US Congress for mass production of drones
     published_at: 2026-10-15T07:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017104011/https://news.am/en/news/1067935
+        captured_at: 2026-10-17T10:40:11Z
 assessment:
   status: unverified
   credibility: 6

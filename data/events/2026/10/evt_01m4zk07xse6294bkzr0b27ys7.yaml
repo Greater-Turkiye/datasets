@@ -24,6 +24,10 @@ sources:
     title: Russian drones attack two industrial facilities in Poltava region
     published_at: 2026-10-15T05:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017202956/https://www.ukrinform.net/rubric-ato/4174565-russian-drones-attack-two-industrial-facilities-in-poltava-region.html
+        captured_at: 2026-10-17T20:29:56Z
 assessment:
   status: unverified
   credibility: 6

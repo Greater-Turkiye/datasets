@@ -18,6 +18,10 @@ sources:
     title: Albanian PM Blames Opposition After Another Night of Violent Clashes
     published_at: 2026-10-15T08:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017202444/https://balkaninsight.com/2026/10/15/albanian-pm-blames-opposition-after-another-night-of-violent-clashes/bi/
+        captured_at: 2026-10-17T20:24:44Z
 assessment:
   status: unverified
   credibility: 6

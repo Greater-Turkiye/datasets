@@ -18,6 +18,10 @@ sources:
     title: "A just and lasting peace requires continued pressure on Russia: UK statement to the OSCE"
     published_at: 2026-10-15T09:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017202617/https://www.gov.uk/government/speeches/a-just-and-lasting-peace-requires-continued-pressure-on-russia-uk-statement-to-the-osce
+        captured_at: 2026-10-17T20:26:17Z
 assessment:
   status: unverified
   credibility: 6

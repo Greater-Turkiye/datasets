@@ -18,6 +18,10 @@ sources:
     title: "Ihnat: Ukrainian air defense shoots down more than 100 Russian drones in one day"
     published_at: 2026-10-14T19:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017201637/https://www.ukrinform.net/rubric-ato/4174519-ihnat-ukrainian-air-defense-shoots-down-more-than-100-russian-drones-in-one-day.html
+        captured_at: 2026-10-17T20:16:37Z
 assessment:
   status: unverified
   credibility: 6

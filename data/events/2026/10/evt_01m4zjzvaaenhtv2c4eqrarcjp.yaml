@@ -18,6 +18,10 @@ sources:
     title: Zelensky awards state honors to another 319 military personnel, 205 posthumously
     published_at: 2026-10-14T21:33Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017201827/https://www.ukrinform.net/rubric-ato/4174254-zelensky-awards-state-honors-to-another-319-military-personnel-205-posthumously.html
+        captured_at: 2026-10-17T20:18:27Z
 assessment:
   status: unverified
   credibility: 6

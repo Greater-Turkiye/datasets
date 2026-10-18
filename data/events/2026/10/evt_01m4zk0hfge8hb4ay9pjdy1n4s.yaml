@@ -24,6 +24,10 @@ sources:
     title: Russian drone attacks in Kyiv region leave four injured, homes damaged
     published_at: 2026-10-15T07:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017202954/https://www.ukrinform.net/rubric-ato/4174589-russian-drone-attacks-in-kyiv-region-leave-four-injured-homes-damaged.html
+        captured_at: 2026-10-17T20:29:54Z
 assessment:
   status: unverified
   credibility: 6

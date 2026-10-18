@@ -18,6 +18,10 @@ sources:
     title: Albanian President Urges Calm as Street Protest Clashes Continue
     published_at: 2026-10-14T15:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017150048/https://balkaninsight.com/2026/10/14/albanian-president-urges-calm-as-street-protest-clashes-continue/bi/
+        captured_at: 2026-10-17T15:00:48Z
 assessment:
   status: unverified
   credibility: 6
