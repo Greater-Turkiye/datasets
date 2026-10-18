@@ -24,6 +24,10 @@ sources:
     title: "Zelensky: Four Su-34 aircraft destroyed at Russian airfield, two more hit"
     published_at: 2026-10-15T12:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017204110/https://www.ukrinform.net/rubric-ato/4174748-zelensky-four-su34-aircraft-destroyed-at-russian-airfield-two-more-hit.html
+        captured_at: 2026-10-17T20:41:10Z
 assessment:
   status: unverified
   credibility: 6

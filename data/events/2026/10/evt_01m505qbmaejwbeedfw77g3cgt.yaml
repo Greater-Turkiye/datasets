@@ -24,6 +24,10 @@ sources:
     title: Russian Attack on Kyiv leaves seven injured
     published_at: 2026-10-15T14:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017204443/https://www.ukrinform.net/rubric-ato/4174785-russian-attack-on-kyiv-leaves-seven-injured.html
+        captured_at: 2026-10-17T20:44:43Z
 assessment:
   status: unverified
   credibility: 6

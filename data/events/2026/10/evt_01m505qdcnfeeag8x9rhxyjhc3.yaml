@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes cultural center in Kramatorsk
     published_at: 2026-10-15T14:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017152407/https://www.ukrinform.net/rubric-ato/4174786-russian-drone-strikes-cultural-center-in-kramatorsk.html
+        captured_at: 2026-10-17T15:24:07Z
 assessment:
   status: unverified
   credibility: 6

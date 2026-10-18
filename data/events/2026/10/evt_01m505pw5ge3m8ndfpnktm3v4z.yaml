@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Poltava injures three, damages school, homes and cars
     published_at: 2026-10-15T11:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017204446/https://www.ukrinform.net/rubric-ato/4174702-russian-attack-on-poltava-injures-three-damages-school-homes-and-cars.html
+        captured_at: 2026-10-17T20:44:46Z
 assessment:
   status: unverified
   credibility: 6

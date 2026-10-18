@@ -1,0 +1,27 @@
+id: evt_01m57sphv7ew2begggheyvy5xy
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: Düşmana görüntü göndererek, insanlar istilacıların elinde bir araç haline gelir – CCD
+  en: By sending footage to enemy, people become tool in hands of invaders – CCD
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-18T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-18T04:52Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4175544-by-sending-footage-to-enemy-people-become-tool-in-hands-of-invaders-ccd.html
+    title: By sending footage to enemy, people become tool in hands of invaders – CCD
+    published_at: 2026-10-18T04:52Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

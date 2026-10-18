@@ -1,0 +1,27 @@
+id: evt_01m57sppxdfa0aa236ezjnh76g
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: ADF, Rusya'nın Ukrayna'ya saldırmak için kullandığı 180 drone'dan 152 'sini düşürdü
+  en: ADF down 152 out of 180 drones used by Russia to attack Ukraine
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-18T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-18T05:32Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4175551-adf-down-152-out-of-180-drones-used-by-russia-to-attack-ukraine.html
+    title: ADF down 152 out of 180 drones used by Russia to attack Ukraine
+    published_at: 2026-10-18T05:32Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

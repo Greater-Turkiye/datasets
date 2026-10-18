@@ -18,6 +18,10 @@ sources:
     title: Russian strike destroys supermarket chain's logistics center in Kropyvnytskyi
     published_at: 2026-10-15T13:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017204444/https://www.ukrinform.net/rubric-ato/4174781-russian-strike-destroys-supermarket-chains-logistics-center-in-kropyvnytskyi.html
+        captured_at: 2026-10-17T20:44:44Z
 assessment:
   status: unverified
   credibility: 6

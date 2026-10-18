@@ -24,6 +24,10 @@ sources:
     title: Russians strike logistics company warehouses in Dnipropetrovsk region
     published_at: 2026-10-15T12:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017204445/https://www.ukrinform.net/rubric-ato/4174742-russians-strike-logistics-company-warehouses-in-dnipropetrovsk-region.html
+        captured_at: 2026-10-17T20:44:45Z
 assessment:
   status: unverified
   credibility: 6

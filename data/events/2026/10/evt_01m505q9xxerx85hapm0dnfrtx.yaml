@@ -24,6 +24,10 @@ sources:
     title: Injury toll after Russian strike on store in Odesa region rises to four
     published_at: 2026-10-15T13:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017152412/https://www.ukrinform.net/rubric-ato/4174783-injury-toll-after-russian-strike-on-store-in-odesa-region-rises-to-four.html
+        captured_at: 2026-10-17T15:24:12Z
 assessment:
   status: unverified
   credibility: 6

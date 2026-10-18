@@ -24,6 +24,10 @@ sources:
     title: Injury toll in Russian drone attack on Kyiv rises to six
     published_at: 2026-10-15T10:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017204112/https://www.ukrinform.net/rubric-ato/4174687-injury-toll-in-russian-drone-attack-on-kyiv-rises-to-six.html
+        captured_at: 2026-10-17T20:41:12Z
 assessment:
   status: unverified
   credibility: 6

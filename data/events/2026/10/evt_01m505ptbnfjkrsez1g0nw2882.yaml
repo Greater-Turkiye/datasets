@@ -18,6 +18,10 @@ sources:
     title: Security Council, 10243rd Meeting (AM & PM) Middle East, Palestine
     published_at: 2026-10-15T10:49Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018153000/https://press.un.org/en/blog/sc16478
+        captured_at: 2026-10-18T15:30:00Z
 assessment:
   status: unverified
   credibility: 6

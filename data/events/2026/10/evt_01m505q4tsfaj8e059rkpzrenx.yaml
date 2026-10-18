@@ -18,6 +18,10 @@ sources:
     title: Iran's Security Challenges Compounded By Rising Domestic Insurgency
     published_at: 2026-10-15T12:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017151945/https://www.rferl.org/a/iran-sistan-baluchistan-insurgency-jaish/33877179.html
+        captured_at: 2026-10-17T15:19:45Z
 assessment:
   status: unverified
   credibility: 6

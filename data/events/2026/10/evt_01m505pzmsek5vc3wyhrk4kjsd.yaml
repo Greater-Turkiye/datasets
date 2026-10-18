@@ -24,6 +24,10 @@ sources:
     title: Zelenskyy Vows Refinery Strikes, Expresses Anger At US Intel Disruption
     published_at: 2026-10-15T11:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016121616/https://www.rferl.org/a/zelenskyy-vows-refinery-strikes-us-intel-disruption-russia/33877090.html
+        captured_at: 2026-10-16T12:16:16Z
 assessment:
   status: unverified
   credibility: 6

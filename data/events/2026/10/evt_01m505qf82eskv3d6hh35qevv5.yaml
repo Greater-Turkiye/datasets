@@ -18,6 +18,10 @@ sources:
     title: "Trophylab: Hundreds Of Foreign Companies Access Research On Russian Weapons Captured In Ukraine"
     published_at: 2026-10-15T14:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018153428/https://www.rferl.org/a/russia-ukraine-weapons-war-military-research-trophylab/33877285.html
+        captured_at: 2026-10-18T15:34:28Z
 assessment:
   status: unverified
   credibility: 6

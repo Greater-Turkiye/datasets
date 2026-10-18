@@ -24,6 +24,10 @@ sources:
     title: Ukrainian Defense Forces strike drone launch site in Donetsk and Russian Rubicon unit base in Zaporizhzhia region
     published_at: 2026-10-15T14:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017204438/https://www.ukrinform.net/rubric-ato/4174789-ukrainian-defense-forces-strike-drone-launch-site-in-donetsk-and-russian-rubicon-unit-base-in-zaporizhzhia-region.html
+        captured_at: 2026-10-17T20:44:38Z
 assessment:
   status: unverified
   credibility: 6
