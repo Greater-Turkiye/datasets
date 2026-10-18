@@ -233,3 +233,9 @@ yüzden sessizce düşürülmez, issue'da bildirilir.
 
 Runs monthly. Without the two Internet Archive secrets it still reports and simply cannot capture,
 and says so. It writes nothing to the repository: deciding that a source has died is a judgement.
+
+## Issues
+
+Issues here are worked by Claude Code in GitHub Actions through the org-wide workflow ([Greater-Turkiye/.github](https://github.com/Greater-Turkiye/.github#issues-are-worked-by-claude), called from `.github/workflows/claude.yml`): a new issue is assigned to the owner and resolved end to end; the `claude` label or an `@claude` comment starts it again. Only people with write access can start it.
+
+Buradaki issue'lar GitHub Actions içinde Claude Code tarafından çözülür: yeni issue sahibine atanır ve baştan sona çözülür; `claude` etiketi ya da `@claude` yorumu yeniden başlatır.
