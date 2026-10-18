@@ -24,6 +24,10 @@ sources:
     title: Speakers in Security Council Raise Alarm over Perilous State of Life in Gaza, Unprecedented Israeli Settler Violence, Expansion across West Bank
     published_at: 2026-10-15T22:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018202026/https://press.un.org/en/2026/sc16478.doc.htm
+        captured_at: 2026-10-18T20:20:26Z
 assessment:
   status: unverified
   credibility: 6

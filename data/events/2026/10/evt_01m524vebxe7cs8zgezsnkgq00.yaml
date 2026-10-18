@@ -18,6 +18,10 @@ sources:
     title: "FM Sybiha: Ukraine plans to buy weapons from Poland by year-end using EUR 125M loan"
     published_at: 2026-10-16T05:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016084614/https://www.ukrinform.net/rubric-ato/4174917-fm-sybiha-ukraine-plans-to-buy-weapons-from-poland-by-yearend-using-eur-125m-loan.html
+        captured_at: 2026-10-16T08:46:14Z
 assessment:
   status: unverified
   credibility: 6

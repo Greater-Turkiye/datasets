@@ -24,6 +24,10 @@ sources:
     title: Ukraine destroys Russian drone operator training center in occupied Kherson region
     published_at: 2026-10-16T00:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017153438/https://www.ukrinform.net/rubric-ato/4174709-ukraine-destroys-russian-drone-operator-training-center-in-occupied-kherson-region.html
+        captured_at: 2026-10-17T15:34:38Z
 assessment:
   status: unverified
   credibility: 6

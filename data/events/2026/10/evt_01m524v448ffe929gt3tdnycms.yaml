@@ -18,6 +18,10 @@ sources:
     title: Drone enters Moldova again during Russian attack on Ukraine
     published_at: 2026-10-16T01:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017153924/https://www.ukrinform.net/rubric-ato/4174796-drone-enters-moldova-again-during-russian-attack-on-ukraine.html
+        captured_at: 2026-10-17T15:39:24Z
 assessment:
   status: unverified
   credibility: 6

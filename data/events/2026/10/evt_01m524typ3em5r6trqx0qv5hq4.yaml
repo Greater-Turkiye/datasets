@@ -18,6 +18,10 @@ sources:
     title: NATO Food and Agriculture Planning Group Seminar at the Croatian Defence Academy
     published_at: 2026-10-15T06:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017153524/https://www.morh.hr/en/nato-food-and-agriculture-planning-group-seminar-at-the-croatian-defence-academy/
+        captured_at: 2026-10-17T15:35:24Z
 assessment:
   status: unverified
   credibility: 6

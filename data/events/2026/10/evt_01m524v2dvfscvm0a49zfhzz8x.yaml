@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: 52 people wounded in Russian attacks across Ukraine in single day"
     published_at: 2026-10-15T20:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016105459/https://www.ukrinform.net/rubric-ato/4174890-zelensky-52-people-wounded-in-russian-attacks-across-ukraine-in-single-day.html
+        captured_at: 2026-10-16T10:54:59Z
 assessment:
   status: unverified
   credibility: 6

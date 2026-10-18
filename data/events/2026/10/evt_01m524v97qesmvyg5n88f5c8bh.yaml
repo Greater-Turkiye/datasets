@@ -18,6 +18,10 @@ sources:
     title: Defense Forces strike Russian Irbis mobile radar station
     published_at: 2026-10-16T04:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016064605/https://www.ukrinform.net/rubric-ato/4174912-defense-forces-strike-russian-irbis-mobile-radar-station.html
+        captured_at: 2026-10-16T06:46:05Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Ukraine: Critical health supplies destroyed in ongoing Russian attacks"
     published_at: 2026-10-15T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018201423/https://news.un.org/feed/view/en/story/2026/10/1168603
+        captured_at: 2026-10-18T20:14:23Z
 assessment:
   status: unverified
   credibility: 6

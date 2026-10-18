@@ -24,6 +24,10 @@ sources:
     title: Warehouse on fire in Kyiv's Sviatoshynskyi district following second strike
     published_at: 2026-10-15T15:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016053737/https://www.ukrinform.net/rubric-ato/4174820-warehouse-on-fire-in-kyivs-sviatoshynskyi-district-following-second-strike.html
+        captured_at: 2026-10-16T05:37:37Z
 assessment:
   status: unverified
   credibility: 6

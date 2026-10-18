@@ -24,6 +24,10 @@ sources:
     title: Man injured in Russian attack on enterprise in Derhachi dies in hospital
     published_at: 2026-10-16T02:33Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017153810/https://www.ukrinform.net/rubric-ato/4174839-man-injured-in-russian-attack-on-enterprise-in-derhachi-dies-in-hospital.html
+        captured_at: 2026-10-17T15:38:10Z
 assessment:
   status: unverified
   credibility: 6
