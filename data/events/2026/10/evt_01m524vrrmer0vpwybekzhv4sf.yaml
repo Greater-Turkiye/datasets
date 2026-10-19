@@ -18,6 +18,10 @@ sources:
     title: Ukrainian air defenses down 114 out of 149 Russian drones launched at Ukraine overnight
     published_at: 2026-10-16T07:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019034439/https://www.ukrinform.net/rubric-ato/4174996-ukrainian-air-defenses-down-114-out-of-149-russian-drones-launched-at-ukraine-overnight.html
+        captured_at: 2026-10-19T03:44:39Z
 assessment:
   status: unverified
   credibility: 6

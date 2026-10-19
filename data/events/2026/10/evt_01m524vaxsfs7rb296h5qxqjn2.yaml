@@ -24,6 +24,10 @@ sources:
     title: Armenia PM, Iran president, UN Secretary General attending Leaders' Summit on Biodiversity, in Yerevan
     published_at: 2026-10-16T05:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019121619/https://news.am/en/news/1068192
+        captured_at: 2026-10-19T12:16:19Z
 assessment:
   status: unverified
   credibility: 6

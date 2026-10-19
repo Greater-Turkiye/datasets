@@ -18,6 +18,10 @@ sources:
     title: Rubio Heads To Central Asia As US Seeks Bigger Role In Region Dominated By Russia, China
     published_at: 2026-10-16T09:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017100121/https://www.rferl.org/a/rubio-central-asia-russia-china/33876578.html
+        captured_at: 2026-10-17T10:01:21Z
 assessment:
   status: unverified
   credibility: 6

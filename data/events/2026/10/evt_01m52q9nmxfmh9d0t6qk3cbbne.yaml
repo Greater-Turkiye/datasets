@@ -24,6 +24,10 @@ sources:
     title: Russian strike on Kharkiv market leaves two killed, 17 injured
     published_at: 2026-10-16T10:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017004403/https://www.ukrinform.net/rubric-ato/4175069-russian-strike-on-kharkiv-market-leaves-two-killed-17-injured.html
+        captured_at: 2026-10-17T00:44:03Z
 assessment:
   status: unverified
   credibility: 6

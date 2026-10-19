@@ -18,6 +18,10 @@ sources:
     title: Security Council, 10245th Meeting (AM) Sudan
     published_at: 2026-10-16T10:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019122510/https://press.un.org/en/blog/sc16481
+        captured_at: 2026-10-19T12:25:10Z
 assessment:
   status: unverified
   credibility: 6

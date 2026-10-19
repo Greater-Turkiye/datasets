@@ -18,6 +18,10 @@ sources:
     title: Armenian Foreign Minister and UNESCO Director-General discuss cooperation
     published_at: 2026-10-16T13:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019123715/https://news.am/en/news/1068412
+        captured_at: 2026-10-19T12:37:15Z
 assessment:
   status: unverified
   credibility: 6

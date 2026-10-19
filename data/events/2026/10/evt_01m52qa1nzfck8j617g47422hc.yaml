@@ -18,6 +18,10 @@ sources:
     title: Zelensky explains how Ukraine uses Starlink to intercept Shahed drones
     published_at: 2026-10-16T13:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016144623/https://www.ukrinform.net/rubric-ato/4175167-zelensky-explains-how-ukraine-uses-starlink-to-intercept-shahed-drones.html
+        captured_at: 2026-10-16T14:46:23Z
 assessment:
   status: unverified
   credibility: 6

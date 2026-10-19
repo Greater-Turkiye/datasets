@@ -18,6 +18,10 @@ sources:
     title: Armenia participates in Interpol international operation, 248 firearms and more than 11,000 cartridges withdrawn from circulation (VIDEO)
     published_at: 2026-10-16T13:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019123534/https://news.am/en/news/1068410
+        captured_at: 2026-10-19T12:35:34Z
 assessment:
   status: unverified
   credibility: 6

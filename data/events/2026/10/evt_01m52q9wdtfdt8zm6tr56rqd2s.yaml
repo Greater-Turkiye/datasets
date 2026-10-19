@@ -24,6 +24,10 @@ sources:
     title: "Gaza: 340 children killed despite ceasefire agreement - UNICEF"
     published_at: 2026-10-16T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019122928/https://news.un.org/feed/view/en/story/2026/10/1168611
+        captured_at: 2026-10-19T12:29:28Z
 assessment:
   status: unverified
   credibility: 6

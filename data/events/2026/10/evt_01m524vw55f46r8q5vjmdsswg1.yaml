@@ -24,6 +24,10 @@ sources:
     title: Iraq explores military technology at Washington expo
     published_at: 2026-10-16T08:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019034617/https://shafaq.com/en/Security/Iraq-explores-military-technology-at-Washington-expo
+        captured_at: 2026-10-19T03:46:17Z
 assessment:
   status: unverified
   credibility: 6
