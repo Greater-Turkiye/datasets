@@ -24,6 +24,10 @@ sources:
     title: Russian attack damages homes in Kharkiv, over 100 windows shattered
     published_at: 2026-10-16T20:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016224603/https://www.ukrinform.net/rubric-ato/4175294-russian-attack-damages-homes-in-kharkiv-over-100-windows-shattered.html
+        captured_at: 2026-10-16T22:46:03Z
 assessment:
   status: unverified
   credibility: 6

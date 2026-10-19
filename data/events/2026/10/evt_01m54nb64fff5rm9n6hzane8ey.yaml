@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Dnipropetrovsk region, killing one person
     published_at: 2026-10-17T07:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017083220/https://www.ukrinform.net/rubric-ato/4175347-russian-forces-attack-dnipropetrovsk-region-killing-one-person.html
+        captured_at: 2026-10-17T08:32:20Z
 assessment:
   status: unverified
   credibility: 6

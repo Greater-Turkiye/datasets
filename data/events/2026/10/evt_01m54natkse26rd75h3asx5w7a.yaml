@@ -24,6 +24,10 @@ sources:
     title: Family with infant injured in morning airstrike in Kherson, another person killed
     published_at: 2026-10-17T04:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017200639/https://www.ukrinform.net/rubric-ato/4175320-family-with-infant-injured-in-morning-airstrike-in-kherson-another-person-killed.html
+        captured_at: 2026-10-17T20:06:39Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Europe has enough PAC-2 and PAC-3 missiles to defend Ukraine this winter"
     published_at: 2026-10-16T12:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019123035/https://www.ukrinform.net/rubric-ato/4175163-zelensky-europe-has-enough-pac2-and-pac3-missiles-to-defend-ukraine-this-winter.html
+        captured_at: 2026-10-19T12:30:35Z
 assessment:
   status: unverified
   credibility: 6

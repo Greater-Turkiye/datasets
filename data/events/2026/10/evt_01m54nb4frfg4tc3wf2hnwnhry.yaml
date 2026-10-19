@@ -24,6 +24,10 @@ sources:
     title: Two people injured in Russian strike on enterprise in Rivne region
     published_at: 2026-10-17T07:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017111742/https://www.ukrinform.net/rubric-ato/4175346-two-people-injured-in-russian-strike-on-enterprise-in-rivne-region.html
+        captured_at: 2026-10-17T11:17:42Z
 assessment:
   status: unverified
   credibility: 6

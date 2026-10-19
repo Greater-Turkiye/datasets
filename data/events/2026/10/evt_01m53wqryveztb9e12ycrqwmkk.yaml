@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s air defenses down 253 Russian drones, nine Banderols during day
     published_at: 2026-10-16T18:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019220730/https://www.ukrinform.net/rubric-ato/4175263-ukraines-air-defense-down-253-russian-drones-nine-banderols-during-day.html
+        captured_at: 2026-10-19T22:07:30Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Trump Waives Graham Act Sanctions On Russia Before They Take Effect
     published_at: 2026-10-17T07:33Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019194749/https://www.rferl.org/a/trump-waives-graham-act-sanctions-on-russia/33878335.html
+        captured_at: 2026-10-19T19:47:49Z
 assessment:
   status: unverified
   credibility: 6

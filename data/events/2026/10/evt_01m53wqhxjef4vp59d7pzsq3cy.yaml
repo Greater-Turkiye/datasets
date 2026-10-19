@@ -18,6 +18,10 @@ sources:
     title: Bridge used by Russian forces for military logistics destroyed near Huliaipole
     published_at: 2026-10-16T15:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019220512/https://www.ukrinform.net/rubric-ato/4175222-bridge-used-by-russian-forces-for-military-logistics-destroyed-near-huliaipole.html
+        captured_at: 2026-10-19T22:05:12Z
 assessment:
   status: unverified
   credibility: 6

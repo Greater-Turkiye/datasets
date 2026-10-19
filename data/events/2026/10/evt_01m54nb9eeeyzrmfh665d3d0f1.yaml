@@ -24,6 +24,10 @@ sources:
     title: Russian forces drop eight bombs on Kherson, killing one person and injuring 20 others
     published_at: 2026-10-17T08:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019221741/https://www.ukrinform.net/rubric-ato/4175363-russian-forces-drop-eight-bombs-on-kherson-killing-one-person-and-injuring-20-others.html
+        captured_at: 2026-10-19T22:17:41Z
 assessment:
   status: unverified
   credibility: 6

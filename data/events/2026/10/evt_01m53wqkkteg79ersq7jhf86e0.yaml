@@ -24,6 +24,10 @@ sources:
     title: Russian strike hits customs terminal in Kovel, setting trucks on fire and causing one casualty
     published_at: 2026-10-16T16:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016183206/https://www.ukrinform.net/rubric-ato/4175224-russian-strike-hits-customs-terminal-in-kovel-setting-trucks-on-fire-and-causing-one-casualty.html
+        captured_at: 2026-10-16T18:32:06Z
 assessment:
   status: unverified
   credibility: 6

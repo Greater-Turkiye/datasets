@@ -24,6 +24,10 @@ sources:
     title: "As we remember the victims of El Fasher, the parties need to protect civilians, allow humanitarian assistance to reach those who need it, and choose diplomacy over continued war: UK statement at the UN Security Council"
     published_at: 2026-10-16T15:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017082934/https://www.gov.uk/government/speeches/as-we-remember-the-victims-of-el-fasher-the-parties-need-to-protect-civilians-allow-humanitarian-assistance-to-reach-those-who-need-it-and-choose-dipl
+        captured_at: 2026-10-17T08:29:34Z
 assessment:
   status: unverified
   credibility: 6
