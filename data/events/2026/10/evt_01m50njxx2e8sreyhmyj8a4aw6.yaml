@@ -24,6 +24,10 @@ sources:
     title: "A viable Palestinian state requires not only recovery in Gaza and political progress, but an end to the violence, displacement and settlement expansion in the West Bank: UK statement at the UN Security Council"
     published_at: 2026-10-15T20:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019033034/https://www.gov.uk/government/speeches/a-viable-palestinian-state-requires-not-only-recovery-in-gaza-and-political-progress-but-an-end-to-the-violence-displacement-and-settlement-expansion-
+        captured_at: 2026-10-19T03:30:34Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian strikes on Kharkiv kill three, injure seven
     published_at: 2026-10-16T08:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019034444/https://www.ukrinform.net/rubric-ato/4175012-russian-strikes-on-kharkiv-kill-three-injure-seven.html
+        captured_at: 2026-10-19T03:44:44Z
 assessment:
   status: unverified
   credibility: 6

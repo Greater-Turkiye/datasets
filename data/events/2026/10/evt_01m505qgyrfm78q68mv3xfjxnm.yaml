@@ -24,6 +24,10 @@ sources:
     title: "LIVE: COP17 Leaders’ Summit kicking off in Yerevan"
     published_at: 2026-10-15T14:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018153452/https://news.am/en/news/1068112
+        captured_at: 2026-10-18T15:34:52Z
 assessment:
   status: unverified
   credibility: 6

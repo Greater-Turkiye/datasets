@@ -24,6 +24,10 @@ sources:
     title: Russian drone hits shopping mall in Sumy, injuring three
     published_at: 2026-10-16T09:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017200632/https://www.ukrinform.net/rubric-ato/4175043-russian-drone-hits-shopping-mall-in-sumy-injuring-three.html
+        captured_at: 2026-10-17T20:06:32Z
 assessment:
   status: unverified
   credibility: 6

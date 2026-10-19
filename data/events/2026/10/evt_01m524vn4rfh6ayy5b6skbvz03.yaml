@@ -18,6 +18,10 @@ sources:
     title: Ukraine reports over 300 frontline clashes in past 24 hours, with most Russian attacks in Pokrovsk sector
     published_at: 2026-10-16T06:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016073142/https://www.ukrinform.net/rubric-ato/4174960-ukraine-reports-over-300-frontline-clashes-in-past-24-hours-with-most-russian-attacks-in-pokrovsk-sector.html
+        captured_at: 2026-10-16T07:31:42Z
 assessment:
   status: unverified
   credibility: 6

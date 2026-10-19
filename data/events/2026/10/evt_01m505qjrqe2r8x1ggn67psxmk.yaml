@@ -18,6 +18,10 @@ sources:
     title: ‘Family Values’ Row Returns as Kosovo Govt Revives Changes to Civil Code
     published_at: 2026-10-15T14:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019032650/https://balkaninsight.com/2026/10/15/family-values-row-returns-as-kosovo-govt-revives-changes-to-civil-code/bi/
+        captured_at: 2026-10-19T03:26:50Z
 assessment:
   status: unverified
   credibility: 6

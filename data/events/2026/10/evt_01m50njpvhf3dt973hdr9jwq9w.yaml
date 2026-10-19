@@ -24,6 +24,10 @@ sources:
     title: Russia builds new attack drone launch base in Rostov region in six weeks, Reuters reports
     published_at: 2026-10-15T15:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018201557/https://www.ukrinform.net/rubric-ato/4174821-russia-builds-new-attack-drone-launch-base-in-rostov-region-in-six-weeks-reuters-reports.html
+        captured_at: 2026-10-18T20:15:57Z
 assessment:
   status: unverified
   credibility: 6

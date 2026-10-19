@@ -24,6 +24,10 @@ sources:
     title: The Russians struck Rivne overnight, damaging civilian infrastructure
     published_at: 2026-10-16T07:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017200634/https://www.ukrinform.net/rubric-ato/4174961-the-russians-struck-rivne-overnight-damaging-civilian-infrastructure.html
+        captured_at: 2026-10-17T20:06:34Z
 assessment:
   status: unverified
   credibility: 6

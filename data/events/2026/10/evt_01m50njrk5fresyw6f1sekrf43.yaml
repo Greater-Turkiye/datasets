@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes enterprise in Poltava community, one injured
     published_at: 2026-10-15T15:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019032851/https://www.ukrinform.net/rubric-ato/4174823-russian-drone-strikes-enterprise-in-poltava-community-one-injured.html
+        captured_at: 2026-10-19T03:28:51Z
 assessment:
   status: unverified
   credibility: 6
