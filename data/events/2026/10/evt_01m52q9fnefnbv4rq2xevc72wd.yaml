@@ -18,6 +18,10 @@ sources:
     title: Croatian Rafale intercepts Maltese passenger aircraft flagged as a potential threat
     published_at: 2026-10-13T11:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020105930/https://www.morh.hr/en/croatian-rafale-intercepts-maltese-passenger-aircraft-flagged-as-a-potential-threat/
+        captured_at: 2026-10-20T10:59:30Z
 assessment:
   status: unverified
   credibility: 6

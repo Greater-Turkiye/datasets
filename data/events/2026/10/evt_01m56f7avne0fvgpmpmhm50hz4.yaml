@@ -18,6 +18,10 @@ sources:
     title: Trump raises tariffs on Russian goods by 500%, but suspends some sanctions
     published_at: 2026-10-17T04:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020033836/https://news.am/en/news/1068484
+        captured_at: 2026-10-20T03:38:36Z
 assessment:
   status: unverified
   credibility: 6

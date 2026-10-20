@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike energy facility in Ternopil region
     published_at: 2026-10-16T20:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016230037/https://www.ukrinform.net/rubric-ato/4175290-russian-forces-strike-energy-facility-in-ternopil-region.html
+        captured_at: 2026-10-16T23:00:37Z
 assessment:
   status: unverified
   credibility: 6

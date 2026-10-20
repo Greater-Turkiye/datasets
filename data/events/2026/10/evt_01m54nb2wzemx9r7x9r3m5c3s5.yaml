@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s ADF down four Kalibr missiles, 289 drones in overnight Russian attack
     published_at: 2026-10-17T06:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020110646/https://www.ukrinform.net/rubric-ato/4175336-ukraines-adf-down-four-kalibr-missiles-289-drones-in-overnight-russian-attack.html
+        captured_at: 2026-10-20T11:06:46Z
 assessment:
   status: unverified
   credibility: 6

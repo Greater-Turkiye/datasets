@@ -18,6 +18,10 @@ sources:
     title: Centcom Forces Disable Cargo Vessel Attempting to Violate Blockade
     published_at: 2026-10-13T16:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261015130219/https://www.war.gov/News/News-Stories/Article/Article/4624371/centcom-forces-disable-cargo-vessel-attempting-to-violate-blockade/
+        captured_at: 2026-10-15T13:02:19Z
 assessment:
   status: unverified
   credibility: 6

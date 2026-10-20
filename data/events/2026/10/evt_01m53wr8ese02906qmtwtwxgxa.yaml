@@ -18,6 +18,10 @@ sources:
     title: Army Task Force Partners With Acquisition Directorate to Accelerate Counter-Drone Tech in Africa
     published_at: 2026-10-16T20:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016213905/https://www.war.gov/News/News-Stories/Article/Article/4627652/army-task-force-partners-with-acquisition-directorate-to-accelerate-counter-dro/
+        captured_at: 2026-10-16T21:39:05Z
 assessment:
   status: unverified
   credibility: 6

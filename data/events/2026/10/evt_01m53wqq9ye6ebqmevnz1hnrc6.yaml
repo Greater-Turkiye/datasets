@@ -24,6 +24,10 @@ sources:
     title: ‘There Is No Time to Waste’, Secretary-General Tells Biodiversity Summit, Urging Action to Protect Nature
     published_at: 2026-10-16T17:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261016172314/https://press.un.org/en/2026/sgsm23334.doc.htm
+        captured_at: 2026-10-16T17:23:14Z
 assessment:
   status: unverified
   credibility: 6

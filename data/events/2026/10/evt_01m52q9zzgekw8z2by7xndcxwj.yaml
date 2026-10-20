@@ -18,6 +18,10 @@ sources:
     title: Readout of U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Vice Adm, Curt Renshaw's Meeting with United Arab Emirates Defense Leaders
     published_at: 2026-10-16T12:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020032733/https://www.dvidshub.net/news/576854/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-united
+        captured_at: 2026-10-20T03:27:33Z
 assessment:
   status: unverified
   credibility: 6

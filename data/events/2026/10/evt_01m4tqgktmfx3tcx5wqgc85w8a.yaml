@@ -18,6 +18,10 @@ sources:
     title: USS Stout departs Morocco
     published_at: 2026-10-13T11:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261013233359/https://www.c6f.navy.mil/Press-Room/News/Article/4624090/uss-stout-departs-morocco/
+        captured_at: 2026-10-13T23:33:59Z
 assessment:
   status: unverified
   credibility: 6
