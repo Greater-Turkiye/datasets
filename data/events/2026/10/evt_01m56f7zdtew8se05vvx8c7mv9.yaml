@@ -24,6 +24,10 @@ sources:
     title: Putin wants to deploy ballistic missiles in Belarus to attack western Ukraine, Zelensky says
     published_at: 2026-10-17T14:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017144558/https://www.ukrinform.net/rubric-ato/4175464-putin-wants-to-deploy-ballistic-missiles-in-belarus-to-attack-western-ukraine-zelensky-says.html
+        captured_at: 2026-10-17T14:45:58Z
 assessment:
   status: unverified
   credibility: 6

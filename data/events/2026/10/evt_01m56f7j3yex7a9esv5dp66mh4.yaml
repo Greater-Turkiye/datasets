@@ -24,6 +24,10 @@ sources:
     title: Russian forces launch massive guided bomb attack on Sumy, killing one person and injuring several others
     published_at: 2026-10-17T09:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017133113/https://www.ukrinform.net/rubric-ato/4175395-russian-forces-launch-massive-guided-bomb-attack-on-sumy-killing-one-person-and-injuring-several-others.html
+        captured_at: 2026-10-17T13:31:13Z
 assessment:
   status: unverified
   credibility: 6

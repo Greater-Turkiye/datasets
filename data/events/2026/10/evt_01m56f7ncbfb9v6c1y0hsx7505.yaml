@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Kherson kills one person, injures 22 others
     published_at: 2026-10-17T10:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020034158/https://www.ukrinform.net/rubric-ato/4175398-russian-attack-on-kherson-kills-one-person-injures-22-others.html
+        captured_at: 2026-10-20T03:41:58Z
 assessment:
   status: unverified
   credibility: 6

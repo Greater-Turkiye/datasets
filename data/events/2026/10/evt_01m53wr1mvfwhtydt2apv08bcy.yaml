@@ -18,6 +18,10 @@ sources:
     title: "251 Years of Excellence: Happy Birthday, Navy!"
     published_at: 2026-10-16T19:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019221305/https://www.dvidshub.net/news/577094/251-years-excellence-happy-birthday-navy
+        captured_at: 2026-10-19T22:13:05Z
 assessment:
   status: unverified
   credibility: 6

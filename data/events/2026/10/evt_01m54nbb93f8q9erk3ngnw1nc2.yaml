@@ -24,6 +24,10 @@ sources:
     title: Drone attacks on Moscow continue since last night
     published_at: 2026-10-17T08:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017215619/https://www.ukrinform.net/rubric-ato/4175368-drone-attacks-on-moscow-continue-since-last-night.html
+        captured_at: 2026-10-17T21:56:19Z
 assessment:
   status: unverified
   credibility: 6

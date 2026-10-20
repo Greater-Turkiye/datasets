@@ -18,6 +18,10 @@ sources:
     title: Fuelled by Relentless Fighting, Drone Attacks, Sudan’s Conflict, Plight of Its People Remains Bleak, Political and Peacebuilding Affairs Chief Warns Security Council
     published_at: 2026-10-16T21:13Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020033318/https://press.un.org/en/2026/sc16481.doc.htm
+        captured_at: 2026-10-20T03:33:18Z
 assessment:
   status: unverified
   credibility: 6

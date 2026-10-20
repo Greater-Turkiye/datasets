@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Russian forces attack more than 15 energy facilities"
     published_at: 2026-10-17T11:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017133112/https://www.ukrinform.net/rubric-ato/4175424-zelensky-russian-forces-attack-more-than-15-energy-facilities.html
+        captured_at: 2026-10-17T13:31:12Z
 assessment:
   status: unverified
   credibility: 6

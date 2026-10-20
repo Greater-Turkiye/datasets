@@ -24,6 +24,10 @@ sources:
     title: Ukraine opens first asbestos testing lab to analyze debris from Russian shelling
     published_at: 2026-10-17T01:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019221735/https://www.ukrinform.net/rubric-ato/4175227-ukraine-opens-first-asbestos-testing-lab-to-analyze-debris-from-russian-shelling.html
+        captured_at: 2026-10-19T22:17:35Z
 assessment:
   status: unverified
   credibility: 6

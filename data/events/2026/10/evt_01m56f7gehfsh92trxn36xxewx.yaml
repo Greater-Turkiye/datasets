@@ -18,6 +18,10 @@ sources:
     title: Russian FAB bombs hit high-rise buildings in Sloviansk, killing one person and injuring ten others
     published_at: 2026-10-17T09:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017154657/https://www.ukrinform.net/rubric-ato/4175379-russian-fab-bombs-hit-highrise-buildings-in-sloviansk-killing-one-person-and-injuring-ten-others.html
+        captured_at: 2026-10-17T15:46:57Z
 assessment:
   status: unverified
   credibility: 6
