@@ -24,6 +24,10 @@ sources:
     title: Russian strikes on Kherson region leave one killed, 40 injured, including children
     published_at: 2026-10-17T16:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017204330/https://www.ukrinform.net/rubric-ato/4175491-russian-strikes-on-kherson-region-leave-one-killed-40-injured-including-children.html
+        captured_at: 2026-10-17T20:43:30Z
 assessment:
   status: unverified
   credibility: 6

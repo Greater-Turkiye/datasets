@@ -24,6 +24,10 @@ sources:
     title: Russian forces launch another attack on energy facility in Ternopil region
     published_at: 2026-10-17T17:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017180403/https://www.ukrinform.net/rubric-ato/4175507-russian-forces-launch-another-attack-on-energy-facility-in-ternopil-region.html
+        captured_at: 2026-10-17T18:04:03Z
 assessment:
   status: unverified
   credibility: 6

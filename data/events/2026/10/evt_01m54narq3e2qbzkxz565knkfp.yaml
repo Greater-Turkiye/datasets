@@ -24,6 +24,10 @@ sources:
     title: Zaporizhzhia hit by several missile strikes, homes damaged, casualties reported
     published_at: 2026-10-17T03:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017061430/https://www.ukrinform.net/rubric-ato/4175316-zaporizhzhia-hit-by-several-missile-strikes-homes-damaged-casualties-reported.html
+        captured_at: 2026-10-17T06:14:30Z
 assessment:
   status: unverified
   credibility: 6

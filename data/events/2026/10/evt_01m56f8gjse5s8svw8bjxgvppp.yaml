@@ -18,6 +18,10 @@ sources:
     title: Romanian fighter jets shoot down two drones over Black Sea
     published_at: 2026-10-17T19:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017200615/https://www.ukrinform.net/rubric-ato/4175519-romanian-fighter-jets-shoot-down-two-drones-over-black-sea.html
+        captured_at: 2026-10-17T20:06:15Z
 assessment:
   status: unverified
   credibility: 6

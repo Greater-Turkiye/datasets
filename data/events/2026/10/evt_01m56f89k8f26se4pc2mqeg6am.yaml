@@ -24,6 +24,10 @@ sources:
     title: Five PMF members injured in Baghdad ammunition blast
     published_at: 2026-10-17T16:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020162718/https://shafaq.com/en/Security/Five-PMF-members-injured-in-Baghdad-ammunition-blast
+        captured_at: 2026-10-20T16:27:18Z
 assessment:
   status: unverified
   credibility: 6

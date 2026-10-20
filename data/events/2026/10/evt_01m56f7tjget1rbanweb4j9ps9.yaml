@@ -24,6 +24,10 @@ sources:
     title: Ukraine’s Defense Forces strike Russian drone facility, missile brigade supply depot
     published_at: 2026-10-17T12:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020034755/https://www.ukrinform.net/rubric-ato/4175442-ukraines-defense-forces-strike-russian-drone-facility-missile-brigade-supply-depot.html
+        captured_at: 2026-10-20T03:47:55Z
 assessment:
   status: unverified
   credibility: 6

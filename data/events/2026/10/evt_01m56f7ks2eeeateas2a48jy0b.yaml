@@ -18,6 +18,10 @@ sources:
     title: Russian Overnight Attack Kills Civilians, Targets Energy Facilities Across Ukraine
     published_at: 2026-10-17T10:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017111751/https://www.rferl.org/a/russia-ukraine-civilians-killed-attack/33878396.html
+        captured_at: 2026-10-17T11:17:51Z
 assessment:
   status: unverified
   credibility: 6
