@@ -24,6 +24,10 @@ sources:
     title: Drones strike oil facilities, Ozon warehouse and VKontakte data center in St. Petersburg
     published_at: 2026-10-18T06:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019005521/https://www.ukrinform.net/rubric-ato/4175563-drones-strike-oil-facilities-ozon-warehouse-and-vkontakte-data-center-in-st-petersburg.html
+        captured_at: 2026-10-19T00:55:21Z
 assessment:
   status: unverified
   credibility: 6

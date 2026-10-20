@@ -24,6 +24,10 @@ sources:
     title: Scrap collector shot dead near PMF site in Baghdad
     published_at: 2026-10-17T20:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020212525/https://shafaq.com/en/Security/Scrap-collector-shot-dead-near-PMF-site-in-Baghdad
+        captured_at: 2026-10-20T21:25:25Z
 assessment:
   status: unverified
   credibility: 6

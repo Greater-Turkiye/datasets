@@ -18,6 +18,10 @@ sources:
     title: By sending footage to enemy, people become tool in hands of invaders – CCD
     published_at: 2026-10-18T04:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019005527/https://www.ukrinform.net/rubric-ato/4175544-by-sending-footage-to-enemy-people-become-tool-in-hands-of-invaders-ccd.html
+        captured_at: 2026-10-19T00:55:27Z
 assessment:
   status: unverified
   credibility: 6

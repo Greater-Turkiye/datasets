@@ -24,10 +24,18 @@ sources:
     title: Russian shelling in Chernihiv region injures one person
     published_at: 2026-10-18T07:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018083201/https://www.ukrinform.net/rubric-ato/4175566-russian-shelling-in-chernihiv-region-injures-one-person.html
+        captured_at: 2026-10-18T08:32:01Z
   - url: https://www.ukrinform.net/rubric-ato/4175584-russian-shelling-in-kharkiv-region-injures-12-people.html
     title: Russian shelling in Kharkiv region injures 12 people
     published_at: 2026-10-18T08:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020213828/https://www.ukrinform.net/rubric-ato/4175584-russian-shelling-in-kharkiv-region-injures-12-people.html
+        captured_at: 2026-10-20T21:38:28Z
 assessment:
   status: unverified
   credibility: 6

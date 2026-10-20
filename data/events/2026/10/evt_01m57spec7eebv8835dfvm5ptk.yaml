@@ -26,6 +26,10 @@ sources:
     title: Russian forces attack critical infrastructure facility in Dnipro
     published_at: 2026-10-18T10:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018134604/https://www.ukrinform.net/rubric-ato/4175623-russian-forces-attack-critical-infrastructure-facility-in-dnipro.html
+        captured_at: 2026-10-18T13:46:04Z
 assessment:
   status: unverified
   credibility: 6

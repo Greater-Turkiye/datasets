@@ -18,6 +18,10 @@ sources:
     title: "Ukraine: Civilian casualty rates among ‘deadliest’ in years, as energy attacks intensify"
     published_at: 2026-10-16T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020110005/https://news.un.org/feed/view/en/story/2026/10/1168614
+        captured_at: 2026-10-20T11:00:05Z
 assessment:
   status: unverified
   credibility: 6
