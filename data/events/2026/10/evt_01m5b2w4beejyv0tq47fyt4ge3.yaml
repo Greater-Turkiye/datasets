@@ -24,6 +24,10 @@ sources:
     title: Russian drone strike on park in Kharkiv region kills two women and infant, injures 15 people
     published_at: 2026-10-19T15:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019184725/https://www.ukrinform.net/rubric-ato/4176024-russian-drone-strike-on-park-in-kharkiv-region-kills-two-women-and-infant-injures-15-people.html
+        captured_at: 2026-10-19T18:47:25Z
 assessment:
   status: unverified
   credibility: 6

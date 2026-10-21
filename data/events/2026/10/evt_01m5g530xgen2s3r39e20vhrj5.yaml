@@ -1,0 +1,27 @@
+id: evt_01m5g530xgen2s3r39e20vhrj5
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: Rusya, üç gün içinde enerji, petrol ve gaz altyapısına 60 saldırı başlattı
+  en: Russia launches round 60 strikes on energy and oil and gas infrastructure in three days
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-21T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-21T18:48Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4176855-russia-launches-round-60-strikes-on-energy-and-oil-and-gas-infrastructure-in-three-days.html
+    title: Russia launches round 60 strikes on energy and oil and gas infrastructure in three days
+    published_at: 2026-10-21T18:48Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

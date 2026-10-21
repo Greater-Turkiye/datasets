@@ -24,6 +24,10 @@ sources:
     title: "‘Pure atrocity’: Zelensky urges partners not to lift Russia sanctions after children killed in Kharkiv region"
     published_at: 2026-10-19T17:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019200205/https://www.ukrinform.net/rubric-ato/4176051-pure-atrocity-zelensky-urges-partners-not-to-lift-russia-sanctions-after-children-killed-in-kharkiv-region.html
+        captured_at: 2026-10-19T20:02:05Z
 assessment:
   status: unverified
   credibility: 6

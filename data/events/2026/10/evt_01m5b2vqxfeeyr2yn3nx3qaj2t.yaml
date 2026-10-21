@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Irpin kills one person and injures 19, including nine children
     published_at: 2026-10-19T13:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021212052/https://www.ukrinform.net/rubric-ato/4175969-russian-attack-on-irpin-kills-one-person-and-injures-19-including-nine-children.html
+        captured_at: 2026-10-21T21:20:52Z
 assessment:
   status: unverified
   credibility: 6

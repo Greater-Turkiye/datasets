@@ -18,6 +18,10 @@ sources:
     title: "War update: 177 clashes on front line, Southern Slobozhanshchyna sector the hottest"
     published_at: 2026-10-19T20:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020004608/https://www.ukrinform.net/rubric-ato/4176075-war-update-177-clashes-on-front-line-southern-slobozhanshchyna-sector-the-hottest.html
+        captured_at: 2026-10-20T00:46:08Z
 assessment:
   status: unverified
   credibility: 6

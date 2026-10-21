@@ -24,6 +24,10 @@ sources:
     title: Defense Forces strike radar station in Russia's Bryansk region and Russian ammunition depots in Donetsk region
     published_at: 2026-10-19T14:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020084628/https://www.ukrinform.net/rubric-ato/4175980-defense-forces-strike-radar-station-in-russias-bryansk-region-and-russian-ammunition-depots-in-donetsk-region.html
+        captured_at: 2026-10-20T08:46:28Z
 assessment:
   status: unverified
   credibility: 6

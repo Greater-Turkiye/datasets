@@ -24,6 +24,10 @@ sources:
     title: Three children among six killed in Russian strike on Kharkiv region park
     published_at: 2026-10-19T16:49Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020092305/https://www.ukrinform.net/rubric-ato/4176041-three-children-among-six-killed-in-russian-strike-on-kharkiv-region-park.html
+        captured_at: 2026-10-20T09:23:05Z
 assessment:
   status: unverified
   credibility: 6

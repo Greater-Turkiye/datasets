@@ -18,6 +18,10 @@ sources:
     title: Two women killed in Russian strike on residential building in Khmelnytskyi
     published_at: 2026-10-19T18:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020084624/https://www.ukrinform.net/rubric-ato/4176061-two-women-killed-in-russian-strike-on-residential-building-in-khmelnytskyi.html
+        captured_at: 2026-10-20T08:46:24Z
 assessment:
   status: unverified
   credibility: 6

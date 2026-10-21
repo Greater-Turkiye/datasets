@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Kyiv region enterprise kills one, injures six
     published_at: 2026-10-19T20:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021212603/https://www.ukrinform.net/rubric-ato/4176072-russian-attack-on-kyiv-region-enterprise-kills-one-injures-six.html
+        captured_at: 2026-10-21T21:26:03Z
 assessment:
   status: unverified
   credibility: 6

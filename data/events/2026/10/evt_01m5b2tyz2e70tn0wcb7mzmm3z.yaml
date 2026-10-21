@@ -18,6 +18,10 @@ sources:
     title: Injury toll in Russian strike on Kryvyi Rih rises to seven, two killed
     published_at: 2026-10-19T11:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021211818/https://www.ukrinform.net/rubric-ato/4175920-injury-toll-in-russian-strike-on-kryvyi-rih-rises-to-seven-two-killed.html
+        captured_at: 2026-10-21T21:18:18Z
 assessment:
   status: unverified
   credibility: 6

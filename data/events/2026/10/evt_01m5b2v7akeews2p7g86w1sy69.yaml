@@ -24,6 +24,10 @@ sources:
     title: Readout of U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Vice Adm. Curt Renshaw's Meeting with Kuwaiti Defense Leaders
     published_at: 2026-10-19T12:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019131427/https://www.dvidshub.net/news/577217/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-kuwaiti
+        captured_at: 2026-10-19T13:14:27Z
 assessment:
   status: unverified
   credibility: 6
