@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces strike Russian drone launch site near Donetsk
     published_at: 2026-10-18T09:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018153220/https://www.ukrinform.net/rubric-ato/4175614-ukrainian-forces-strike-russian-drone-launch-site-near-donetsk.html
+        captured_at: 2026-10-18T15:32:20Z
 assessment:
   status: unverified
   credibility: 6

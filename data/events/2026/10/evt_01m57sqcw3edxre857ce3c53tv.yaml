@@ -18,6 +18,10 @@ sources:
     title: Ukrainian Officials Slam Trump's Waiver Of Russia Sanctions As Rubio Defends Move
     published_at: 2026-10-18T10:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019194806/https://www.rferl.org/a/ukraine-russia-waiver-trump-rubio/33878767.html
+        captured_at: 2026-10-19T19:48:06Z
 assessment:
   status: unverified
   credibility: 6

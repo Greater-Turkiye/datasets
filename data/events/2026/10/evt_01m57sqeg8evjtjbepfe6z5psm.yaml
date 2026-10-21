@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes minibus in Kharkiv region, injuring two
     published_at: 2026-10-18T10:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019071349/https://www.ukrinform.net/rubric-ato/4175625-russian-drone-strikes-minibus-in-kharkiv-region-injuring-two.html
+        captured_at: 2026-10-19T07:13:49Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Russia has attacked Ukraine's energy infrastructure 76 times since Trump announced truce"
     published_at: 2026-10-18T11:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018134604/https://www.ukrinform.net/rubric-ato/4175630-zelensky-russia-has-attacked-ukraines-energy-infrastructure-76-times-since-trump-announced-truce.html
+        captured_at: 2026-10-18T13:46:04Z
 assessment:
   status: unverified
   credibility: 6

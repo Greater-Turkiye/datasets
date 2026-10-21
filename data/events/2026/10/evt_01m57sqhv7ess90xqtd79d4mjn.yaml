@@ -18,6 +18,10 @@ sources:
     title: Fire at Volyn enterprise contained after Russian attack
     published_at: 2026-10-18T12:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018134602/https://www.ukrinform.net/rubric-ato/4175648-fire-at-volyn-enterprise-contained-after-russian-attack.html
+        captured_at: 2026-10-18T13:46:02Z
 assessment:
   status: unverified
   credibility: 6

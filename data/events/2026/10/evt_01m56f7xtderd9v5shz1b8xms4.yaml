@@ -18,6 +18,10 @@ sources:
     title: Kasparov Says Talks With Putin Pointless, War Is 'Ideological Basis' Of His Rule
     published_at: 2026-10-17T14:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261017141812/https://www.rferl.org/a/kasparov-says-talks-with-putin-pointless-war-is-ideological-basis-of-his-rule/33877974.html
+        captured_at: 2026-10-17T14:18:12Z
 assessment:
   status: unverified
   credibility: 6

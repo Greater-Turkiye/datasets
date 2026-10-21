@@ -24,6 +24,10 @@ sources:
     title: Fire extinguished in Odesa apartment building following Russian attack
     published_at: 2026-10-18T14:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018153205/https://www.ukrinform.net/rubric-ato/4175674-fire-extinguished-in-odesa-apartment-building-following-russian-attack.html
+        captured_at: 2026-10-18T15:32:05Z
 assessment:
   status: unverified
   credibility: 6

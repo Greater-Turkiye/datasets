@@ -24,6 +24,10 @@ sources:
     title: Malokaterynivka in Zaporizhzhia region remains under Ukrainian control – CCD
     published_at: 2026-10-18T14:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019071346/https://www.ukrinform.net/rubric-ato/4175673-malokaterynivka-in-zaporizhzhia-region-remains-under-ukrainian-control-ccd.html
+        captured_at: 2026-10-19T07:13:46Z
 assessment:
   status: unverified
   credibility: 6

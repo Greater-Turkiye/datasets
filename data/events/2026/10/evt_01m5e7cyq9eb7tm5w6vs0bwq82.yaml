@@ -1,0 +1,27 @@
+id: evt_01m5e7cyq9eb7tm5w6vs0bwq82
+schema: event/1
+event_type: other
+title:
+  tr: "SBU: Bu yıl 70 'ten fazla kişi Ukrayna'daki askeri mevzilerin fotoğraflarını ve videolarını paylaştığı ve sonrasında saldırdığı için hapis cezasına çarptırıldı"
+  en: Over 70 people sentenced this year for posting photos and videos of Ukrainian military positions and strike aftermath – SBU
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-20T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-20T21:37Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4176124-over-70-people-sentenced-this-year-for-posting-photos-and-videos-of-ukrainian-military-positions-and-strike-aftermath-sbu.html
+    title: Over 70 people sentenced this year for posting photos and videos of Ukrainian military positions and strike aftermath – SBU
+    published_at: 2026-10-20T21:37Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]
