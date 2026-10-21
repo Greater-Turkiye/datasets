@@ -18,6 +18,10 @@ sources:
     title: Air defense forces shoot down four Russian missiles and 243 drones since this evening
     published_at: 2026-10-19T06:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019123212/https://www.ukrinform.net/rubric-ato/4175779-air-defense-forces-shoot-down-four-russian-missiles-and-243-drones-since-this-evening.html
+        captured_at: 2026-10-19T12:32:12Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Russian forces attack industrial facility in Kryvyi Rih, killing two
     published_at: 2026-10-19T08:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019094652/https://www.ukrinform.net/rubric-ato/4175822-russian-forces-attack-industrial-facility-in-kryvyi-rih-killing-two.html
+        captured_at: 2026-10-19T09:46:52Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Foreign Secretary statement on the deadline for bids for the E1 settlement tender
     published_at: 2026-10-19T09:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019173652/https://www.gov.uk/government/news/foreign-secretary-statement-on-the-deadline-for-bids-for-the-e1-settlement-tender
+        captured_at: 2026-10-19T17:36:52Z
 assessment:
   status: unverified
   credibility: 6

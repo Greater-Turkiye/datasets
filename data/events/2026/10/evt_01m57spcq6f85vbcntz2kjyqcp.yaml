@@ -24,6 +24,10 @@ sources:
     title: Woman killed, two injured in Russian attack on Zaporizhzhia
     published_at: 2026-10-18T03:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021111329/https://www.ukrinform.net/rubric-ato/4175539-woman-killed-in-russian-attack-on-zaporizhzhia.html
+        captured_at: 2026-10-21T11:13:29Z
 assessment:
   status: unverified
   credibility: 6

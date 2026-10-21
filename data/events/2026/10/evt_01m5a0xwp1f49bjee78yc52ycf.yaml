@@ -18,6 +18,10 @@ sources:
     title: Part of Vinnytsia region left without electricity and water after Russian attack
     published_at: 2026-10-19T08:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019094720/https://www.ukrinform.net/rubric-ato/4175812-part-of-vinnytsia-region-left-without-electricity-and-water-after-russian-attack.html
+        captured_at: 2026-10-19T09:47:20Z
 assessment:
   status: unverified
   credibility: 6
