@@ -24,6 +24,10 @@ sources:
     title: Fifteen people evacuated from Beryslav in Kherson region
     published_at: 2026-10-18T22:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019043134/https://www.ukrinform.net/rubric-ato/4175631-fifteen-people-evacuated-from-beryslav-in-kherson-region.html
+        captured_at: 2026-10-19T04:31:34Z
 assessment:
   status: unverified
   credibility: 6

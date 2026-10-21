@@ -24,6 +24,10 @@ sources:
     title: Russian forces shell Dnipropetrovsk region more than 20 times in one day, injuring one person
     published_at: 2026-10-19T01:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019083105/https://www.ukrinform.net/rubric-ato/4175707-russian-forces-shell-dnipropetrovsk-region-more-than-20-times-in-one-day-injuring-one-person.html
+        captured_at: 2026-10-19T08:31:05Z
 assessment:
   status: unverified
   credibility: 6

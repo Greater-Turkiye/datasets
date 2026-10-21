@@ -24,6 +24,10 @@ sources:
     title: Russian missile attack on Kyiv kills one person and injures three others
     published_at: 2026-10-19T03:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019091729/https://www.ukrinform.net/rubric-ato/4175736-russian-missile-attack-on-kyiv-kills-one-person-and-injures-three-others.html
+        captured_at: 2026-10-19T09:17:29Z
 assessment:
   status: unverified
   credibility: 6

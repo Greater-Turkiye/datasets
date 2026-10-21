@@ -24,6 +24,10 @@ sources:
     title: Russian UAV strike hits car in Kharkiv region, injuring two people
     published_at: 2026-10-18T17:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019101715/https://www.ukrinform.net/rubric-ato/4175702-russian-uav-strike-hits-car-in-kharkiv-region-injuring-two-people.html
+        captured_at: 2026-10-19T10:17:15Z
 assessment:
   status: unverified
   credibility: 6

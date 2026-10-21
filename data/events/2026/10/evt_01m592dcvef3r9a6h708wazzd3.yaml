@@ -24,6 +24,10 @@ sources:
     title: Trump Defends Russia Sanctions Waivers, Zelenskyy Warns Of Consequences
     published_at: 2026-10-18T22:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020075730/https://www.rferl.org/a/ukraine-russia-trump-putin-zelenskyy-war/33878954.html
+        captured_at: 2026-10-20T07:57:30Z
 assessment:
   status: unverified
   credibility: 6

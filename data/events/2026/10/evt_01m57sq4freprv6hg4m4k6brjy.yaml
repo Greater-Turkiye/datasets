@@ -18,6 +18,10 @@ sources:
     title: 1991 Gulf War landmine injures three Iraqi oil workers
     published_at: 2026-10-18T08:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021111715/https://shafaq.com/en/Security/1991-Gulf-War-landmine-injures-three-Iraqi-oil-workers
+        captured_at: 2026-10-21T11:17:15Z
 assessment:
   status: unverified
   credibility: 6

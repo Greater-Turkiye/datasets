@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike industrial facility in Rivne region
     published_at: 2026-10-18T19:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019101713/https://www.ukrinform.net/rubric-ato/4175718-russian-forces-strike-industrial-facility-in-rivne-region.html
+        captured_at: 2026-10-19T10:17:13Z
 assessment:
   status: unverified
   credibility: 6

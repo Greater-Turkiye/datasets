@@ -18,6 +18,10 @@ sources:
     title: Jeep considering legendary military Willys MB revival – as electric car
     published_at: 2026-10-19T04:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021112357/https://news.am/en/news/1068685
+        captured_at: 2026-10-21T11:23:57Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian attacks leave 19,000 consumers without power in Ternopil region
     published_at: 2026-10-18T19:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261018230211/https://www.ukrinform.net/rubric-ato/4175721-russian-attacks-leave-19000-consumers-without-power-in-ternopil-region.html
+        captured_at: 2026-10-18T23:02:11Z
 assessment:
   status: unverified
   credibility: 6

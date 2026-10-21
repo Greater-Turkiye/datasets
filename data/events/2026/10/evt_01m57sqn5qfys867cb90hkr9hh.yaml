@@ -24,6 +24,10 @@ sources:
     title: Iraqi investment firm targeted in Baghdad shooting
     published_at: 2026-10-18T12:46Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021032203/https://shafaq.com/en/Security/Iraqi-investment-firm-targeted-in-Baghdad-shooting
+        captured_at: 2026-10-21T03:22:03Z
 assessment:
   status: unverified
   credibility: 6
