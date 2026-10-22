@@ -18,6 +18,10 @@ sources:
     title: Operational update 20 October – UK military support to the Kingdom of Saudi Arabia
     published_at: 2026-10-20T10:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021162429/https://www.gov.uk/government/news/operational-update-20-october-uk-military-support-to-the-kingdom-of-saudi-arabia
+        captured_at: 2026-10-21T16:24:29Z
 assessment:
   status: unverified
   credibility: 6

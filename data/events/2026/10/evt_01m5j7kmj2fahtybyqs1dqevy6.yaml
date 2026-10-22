@@ -1,0 +1,27 @@
+id: evt_01m5j7kmj2fahtybyqs1dqevy6
+schema: event/1
+event_type: policy.defense
+title:
+  tr: ABD, Rusya'yı askeri uydu Fly - By ile "kasıtlı olarak pervasızca" hareket etmekle suçladı
+  en: US Accuses Russia Of 'Deliberately Reckless' Move With Military Satellite Fly-By
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-22T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-22T15:40Z
+regions: [black-sea]
+sources:
+  - url: https://www.rferl.org/a/russia-us-satellite-accusation-intelligence-threat/33881569.html
+    title: US Accuses Russia Of 'Deliberately Reckless' Move With Military Satellite Fly-By
+    published_at: 2026-10-22T15:40Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rferl-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rferl-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

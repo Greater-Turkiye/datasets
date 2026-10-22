@@ -18,6 +18,10 @@ sources:
     title: Baqer Al-Saadi accused of directing attacks from prison
     published_at: 2026-10-19T12:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022164137/https://shafaq.com/en/Security/Baqer-Al-Saadi-accused-of-directing-attacks-from-prison
+        captured_at: 2026-10-22T16:41:37Z
 assessment:
   status: unverified
   credibility: 6

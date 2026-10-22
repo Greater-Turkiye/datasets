@@ -18,6 +18,10 @@ sources:
     title: Russian drones attacking energy infrastructure in Vinnytsia region, causing power outages
     published_at: 2026-10-20T09:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020124606/https://www.ukrinform.net/rubric-ato/4176233-russian-drones-attacking-energy-infrastructure-in-vinnytsia-region-causing-power-outages.html
+        captured_at: 2026-10-20T12:46:06Z
 assessment:
   status: unverified
   credibility: 6

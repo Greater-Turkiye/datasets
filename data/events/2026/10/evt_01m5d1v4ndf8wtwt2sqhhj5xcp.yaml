@@ -24,6 +24,10 @@ sources:
     title: "Russian forces shell Kramatorsk: three civilians killed, two more injured"
     published_at: 2026-10-20T10:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020111600/https://www.ukrinform.net/rubric-ato/4176271-russian-forces-shell-kramatorsk-three-civilians-killed-two-more-injured.html
+        captured_at: 2026-10-20T11:16:00Z
 assessment:
   status: unverified
   credibility: 6

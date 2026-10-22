@@ -18,6 +18,10 @@ sources:
     title: "Financial Times: Europe could offer Putin all of Donbas to Russia in exchange for ending war, Ukraine joining NATO"
     published_at: 2026-10-20T07:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022165608/https://news.am/en/news/1068994
+        captured_at: 2026-10-22T16:56:08Z
 assessment:
   status: unverified
   credibility: 6

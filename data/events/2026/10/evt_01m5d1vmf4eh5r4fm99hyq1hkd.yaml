@@ -24,6 +24,10 @@ sources:
     title: Russian drone attacks kill one, injure seven in Kyiv
     published_at: 2026-10-20T13:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022170946/https://www.ukrinform.net/rubric-ato/4176338-russian-drone-attacks-kill-one-injure-seven-in-kyiv.html
+        captured_at: 2026-10-22T17:09:46Z
 assessment:
   status: unverified
   credibility: 6

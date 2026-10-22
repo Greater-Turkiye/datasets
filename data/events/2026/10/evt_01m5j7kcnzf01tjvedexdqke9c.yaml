@@ -1,0 +1,27 @@
+id: evt_01m5j7kcnzf01tjvedexdqke9c
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: "New York Times: ABD ve İsrail, ara seçimlerin ardından İran'a yönelik yeni bir saldırıyı tartışıyor"
+  en: "New York Times: US, Israel discuss new strike on Iran after midterms"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-22T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-22T13:41Z
+regions: [iran]
+sources:
+  - url: https://news.am/en/news/1069673
+    title: "New York Times: US, Israel discuss new strike on Iran after midterms"
+    published_at: 2026-10-22T13:41Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-arm-newsam-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-arm-newsam-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -18,6 +18,10 @@ sources:
     title: US delaying delivery of Patriot interceptor missiles to Ukraine
     published_at: 2026-10-20T07:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022165529/https://news.am/en/news/1068993
+        captured_at: 2026-10-22T16:55:29Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "ArmLur.am: Video posted showing how Azerbaijan soldier who crossed into Armenia, entered Shaki village is arrested (VIDEO)"
     published_at: 2026-10-20T10:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022170002/https://news.am/en/news/1069077
+        captured_at: 2026-10-22T17:00:02Z
 assessment:
   status: unverified
   credibility: 6

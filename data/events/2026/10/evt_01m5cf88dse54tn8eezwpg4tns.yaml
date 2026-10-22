@@ -18,6 +18,10 @@ sources:
     title: US naval group near Iran reduced to 14 ships
     published_at: 2026-10-20T06:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022165157/https://news.am/en/news/1068989
+        captured_at: 2026-10-22T16:51:57Z
 assessment:
   status: unverified
   credibility: 6
