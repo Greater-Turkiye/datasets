@@ -18,6 +18,10 @@ sources:
     title: Karabakh's last education minister to be in charge of morale, psychological situation in Armenia armed forces
     published_at: 2026-10-19T13:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022032802/https://news.am/en/news/1068886
+        captured_at: 2026-10-22T03:28:02Z
 assessment:
   status: unverified
   credibility: 6

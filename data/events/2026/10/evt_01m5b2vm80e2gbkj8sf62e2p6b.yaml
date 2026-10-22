@@ -18,6 +18,10 @@ sources:
     title: "Globes: Israel to supply missiles, multiple launch rocket systems worth $235M to Azerbaijan"
     published_at: 2026-10-19T12:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022032629/https://news.am/en/news/1068873
+        captured_at: 2026-10-22T03:26:29Z
 assessment:
   status: unverified
   credibility: 6

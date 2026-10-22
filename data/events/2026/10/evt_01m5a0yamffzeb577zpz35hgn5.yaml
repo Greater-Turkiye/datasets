@@ -24,6 +24,10 @@ sources:
     title: Russian drone crash damages 11 houses in Lviv region
     published_at: 2026-10-19T10:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019153220/https://www.ukrinform.net/rubric-ato/4175871-russian-drone-crash-damages-11-houses-in-lviv-region.html
+        captured_at: 2026-10-19T15:32:20Z
 assessment:
   status: unverified
   credibility: 6

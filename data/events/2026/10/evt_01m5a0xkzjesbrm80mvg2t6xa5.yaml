@@ -24,6 +24,10 @@ sources:
     title: Direct strike hits Irpin community in Kyiv region, setting business on fire and damaging homes
     published_at: 2026-10-19T06:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261019081710/https://www.ukrinform.net/rubric-ato/4175774-direct-strike-hits-irpin-community-in-kyiv-region-setting-business-on-fire-and-damaging-homes.html
+        captured_at: 2026-10-19T08:17:10Z
 assessment:
   status: unverified
   credibility: 6

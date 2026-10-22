@@ -18,10 +18,18 @@ sources:
     title: Oil tanker caught fire after hitting mine in Hormuz strait, Iran's Islamic Revolutionary Guard Corps says
     published_at: 2026-10-20T04:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022034054/https://news.am/en/news/1068981
+        captured_at: 2026-10-22T03:40:54Z
   - url: https://news.am/en/news/1068984
     title: Iran's Islamic Revolutionary Guard Corps threatens to strike underwater internet cables in Strait of Hormuz
     published_at: 2026-10-20T05:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022034147/https://news.am/en/news/1068984
+        captured_at: 2026-10-22T03:41:47Z
 assessment:
   status: unverified
   credibility: 6

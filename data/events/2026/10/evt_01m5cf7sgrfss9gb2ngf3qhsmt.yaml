@@ -24,6 +24,10 @@ sources:
     title: "Unique evacuation: Kharkiv military hospital tells how wounded soldier was rescued by heavy-lift drone"
     published_at: 2026-10-20T04:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020073134/https://www.ukrinform.net/rubric-ato/4176101-unique-evacuation-kharkiv-military-hospital-tells-how-wounded-soldier-was-rescued-by-heavylift-drone.html
+        captured_at: 2026-10-20T07:31:34Z
 assessment:
   status: unverified
   credibility: 6

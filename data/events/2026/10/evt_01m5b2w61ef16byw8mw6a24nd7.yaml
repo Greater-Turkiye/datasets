@@ -18,6 +18,10 @@ sources:
     title: Serbians Linked to Protest Movement Allegedly Hit by Spyware Attacks
     published_at: 2026-10-19T16:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022033154/https://balkaninsight.com/2026/10/19/serbians-linked-to-protest-movement-allegedly-hit-by-spyware-attacks/bi/
+        captured_at: 2026-10-22T03:31:54Z
 assessment:
   status: unverified
   credibility: 6

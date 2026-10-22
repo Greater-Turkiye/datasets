@@ -24,6 +24,10 @@ sources:
     title: Poland scrambles military aircraft in response to Russian attack on Ukraine
     published_at: 2026-10-19T09:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021211814/https://www.ukrinform.net/rubric-ato/4175857-poland-scrambles-military-aircraft-in-response-to-russian-attack-on-ukraine.html
+        captured_at: 2026-10-21T21:18:14Z
 assessment:
   status: unverified
   credibility: 6

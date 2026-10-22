@@ -24,6 +24,10 @@ sources:
     title: Death toll from strike on Kyiv region enterprise rises to three, six injured
     published_at: 2026-10-20T04:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020063247/https://www.ukrinform.net/rubric-ato/4176102-death-toll-from-strike-on-kyiv-region-enterprise-rises-to-three-six-injured.html
+        captured_at: 2026-10-20T06:32:47Z
 assessment:
   status: unverified
   credibility: 6
