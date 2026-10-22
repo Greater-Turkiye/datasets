@@ -18,6 +18,10 @@ sources:
     title: "War update: 206 clashes on front line in 24 hours as Russian forces step up attacks on Southern Slobozhanskyi axis"
     published_at: 2026-10-20T06:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020073133/https://www.ukrinform.net/rubric-ato/4176128-war-update-206-clashes-on-front-line-in-24-hours-as-russian-forces-step-up-attacks-on-southern-slobozhanskyi-axis.html
+        captured_at: 2026-10-20T07:31:33Z
 assessment:
   status: unverified
   credibility: 6

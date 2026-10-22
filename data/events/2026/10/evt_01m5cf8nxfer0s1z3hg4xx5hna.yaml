@@ -24,6 +24,10 @@ sources:
     title: Cars catch fire on Kyiv-Odesa highway following Russian drone attack, fatalities and injuries reported
     published_at: 2026-10-20T07:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020091708/https://www.ukrinform.net/rubric-ato/4176167-cars-catch-fire-on-kyivodesa-highway-following-russian-drone-attack-fatalities-and-injuries-reported.html
+        captured_at: 2026-10-20T09:17:08Z
 assessment:
   status: unverified
   credibility: 6

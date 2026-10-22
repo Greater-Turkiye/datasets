@@ -24,6 +24,10 @@ sources:
     title: Poland scrambles military aircraft for second time in response to Russian attack on Ukraine
     published_at: 2026-10-19T13:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021212121/https://www.ukrinform.net/rubric-ato/4175974-poland-scrambles-military-aircraft-for-second-time-in-response-to-russian-attack-on-ukraine.html
+        captured_at: 2026-10-21T21:21:21Z
 assessment:
   status: unverified
   credibility: 6

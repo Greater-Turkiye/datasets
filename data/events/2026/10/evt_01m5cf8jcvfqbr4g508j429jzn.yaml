@@ -24,6 +24,10 @@ sources:
     title: Cersanit factory in Zviahel halts operations following Russian attacks
     published_at: 2026-10-20T07:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020090121/https://www.ukrinform.net/rubric-ato/4176163-cersanit-factory-in-zviahel-halts-operations-following-russian-attacks.html
+        captured_at: 2026-10-20T09:01:21Z
 assessment:
   status: unverified
   credibility: 6

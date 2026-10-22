@@ -24,6 +24,10 @@ sources:
     title: Russian forces shell 12 settlements in Kharkiv region in 24 hours, leaving six dead, 21 injured
     published_at: 2026-10-20T06:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020100121/https://www.ukrinform.net/rubric-ato/4176144-russian-forces-shell-12-settlements-in-kharkiv-region-in-24-hours-leaving-six-dead-21-injured.html
+        captured_at: 2026-10-20T10:01:21Z
 assessment:
   status: unverified
   credibility: 6

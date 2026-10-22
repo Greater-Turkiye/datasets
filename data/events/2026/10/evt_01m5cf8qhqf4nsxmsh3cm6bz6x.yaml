@@ -24,6 +24,10 @@ sources:
     title: Russian claims of ‘successes’ in Kharkiv region are false, Trehubov says
     published_at: 2026-10-20T07:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020090120/https://www.ukrinform.net/rubric-ato/4176172-russian-claims-of-successes-in-kharkiv-region-are-false-trehubov-says.html
+        captured_at: 2026-10-20T09:01:20Z
 assessment:
   status: unverified
   credibility: 6

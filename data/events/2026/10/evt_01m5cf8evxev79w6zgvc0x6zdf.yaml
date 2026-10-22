@@ -24,6 +24,10 @@ sources:
     title: Drones strike oil pumping station in Russia’s Tambov region, media report
     published_at: 2026-10-20T07:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020091708/https://www.ukrinform.net/rubric-ato/4176156-drones-strike-oil-pumping-station-in-russias-tambov-region-media-report.html
+        captured_at: 2026-10-20T09:17:08Z
 assessment:
   status: unverified
   credibility: 6

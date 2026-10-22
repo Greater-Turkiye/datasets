@@ -18,6 +18,10 @@ sources:
     title: Air defense neutralizes 115 of 165 Russian drones launched against Ukraine overnight
     published_at: 2026-10-20T06:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020080116/https://www.ukrinform.net/rubric-ato/4176120-air-defense-neutralizes-115-of-165-russian-drones-launched-against-ukraine-overnight.html
+        captured_at: 2026-10-20T08:01:16Z
 assessment:
   status: unverified
   credibility: 6
