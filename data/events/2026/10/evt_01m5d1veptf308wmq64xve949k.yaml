@@ -18,6 +18,10 @@ sources:
     title: The Landscape Of Militancy In The Iran-Pakistan Border Region
     published_at: 2026-10-20T12:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022170641/https://www.rferl.org/a/iran-pakistan-balochistan-sistan-baluchistan-militants/33879549.html
+        captured_at: 2026-10-22T17:06:41Z
 assessment:
   status: unverified
   credibility: 6

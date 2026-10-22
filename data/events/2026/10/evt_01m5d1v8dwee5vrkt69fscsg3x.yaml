@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack warehouses in Zaporizhzhia, three injured
     published_at: 2026-10-20T11:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022212031/https://www.ukrinform.net/rubric-ato/4176275-russian-forces-attack-warehouses-in-zaporizhzhia-three-injured.html
+        captured_at: 2026-10-22T21:20:31Z
   - url: https://www.ukrinform.net/rubric-ato/4176288-three-civilians-injured-as-russian-forces-attack-shopping-center-in-rivne-region.html
     title: Three civilians injured as Russian forces attack shopping center in Rivne region
     published_at: 2026-10-20T11:18Z

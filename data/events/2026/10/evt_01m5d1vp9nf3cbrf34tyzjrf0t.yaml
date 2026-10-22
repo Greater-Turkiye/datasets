@@ -18,6 +18,10 @@ sources:
     title: "France premier: Far-left groups planned to attack presidential, prime ministerial residences"
     published_at: 2026-10-20T13:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022171348/https://news.am/en/news/1069140
+        captured_at: 2026-10-22T17:13:48Z
 assessment:
   status: unverified
   credibility: 6

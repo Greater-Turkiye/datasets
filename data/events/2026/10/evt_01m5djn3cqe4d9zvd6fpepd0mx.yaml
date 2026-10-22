@@ -18,6 +18,10 @@ sources:
     title: Joint statement by Presidents von der Leyen and Costa
     published_at: 2026-10-20T17:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022213457/https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2221
+        captured_at: 2026-10-22T21:34:57Z
 assessment:
   status: unverified
   credibility: 6

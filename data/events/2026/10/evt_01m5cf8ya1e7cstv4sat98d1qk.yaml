@@ -24,6 +24,10 @@ sources:
     title: Ukraine’s Defense Forces strike Russian military depots, command post
     published_at: 2026-10-20T10:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022170946/https://www.ukrinform.net/rubric-ato/4176257-ukraines-defense-forces-strike-russian-military-depots-command-post.html
+        captured_at: 2026-10-22T17:09:46Z
 assessment:
   status: unverified
   credibility: 6

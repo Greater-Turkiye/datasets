@@ -18,6 +18,10 @@ sources:
     title: Armenia premier to speak at EU Enlargement Summit in Brussels on November 3
     published_at: 2026-10-20T13:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022171014/https://news.am/en/news/1069131
+        captured_at: 2026-10-22T17:10:14Z
 assessment:
   status: unverified
   credibility: 6

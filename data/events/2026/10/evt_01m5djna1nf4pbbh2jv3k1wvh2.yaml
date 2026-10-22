@@ -24,6 +24,10 @@ sources:
     title: Iraqi forces redeploy between Kirkuk and Baghdad
     published_at: 2026-10-20T19:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022213745/https://shafaq.com/en/Security/Iraqi-forces-redeploy-between-Kirkuk-and-Baghdad
+        captured_at: 2026-10-22T21:37:45Z
 assessment:
   status: unverified
   credibility: 6

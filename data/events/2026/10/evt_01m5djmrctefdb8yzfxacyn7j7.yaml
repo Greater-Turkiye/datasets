@@ -24,6 +24,10 @@ sources:
     title: Drone hits energy facility in Kyiv’s Shevchenkivskyi District
     published_at: 2026-10-20T15:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261020180149/https://www.ukrinform.net/rubric-ato/4176431-drone-hits-energy-facility-in-kyivs-shevchenkivskyi-district.html
+        captured_at: 2026-10-20T18:01:49Z
 assessment:
   status: unverified
   credibility: 6

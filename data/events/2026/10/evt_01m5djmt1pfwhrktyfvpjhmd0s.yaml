@@ -24,6 +24,10 @@ sources:
     title: Russian attacks leave one dead, 12 injured in Kyiv since midnight
     published_at: 2026-10-20T16:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022212031/https://www.ukrinform.net/rubric-ato/4176435-russian-attacks-leave-one-dead-12-injured-in-kyiv-since-midnight.html
+        captured_at: 2026-10-22T21:20:31Z
 assessment:
   status: unverified
   credibility: 6

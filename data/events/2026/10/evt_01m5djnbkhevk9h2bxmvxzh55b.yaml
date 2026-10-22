@@ -18,6 +18,10 @@ sources:
     title: Wounded Ukrainian Soldier Rescued From Front Lines By Aerial Drone
     published_at: 2026-10-20T19:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022214019/https://www.rferl.org/a/ukraine-aerial-drone-battlefield-rescue-front-lines/33880389.html
+        captured_at: 2026-10-22T21:40:19Z
 assessment:
   status: unverified
   credibility: 6

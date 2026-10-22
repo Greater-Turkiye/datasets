@@ -24,6 +24,10 @@ sources:
     title: Border guards intercept 196K+ narcotic pills in Al-Anbar
     published_at: 2026-10-20T17:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022213058/https://shafaq.com/en/Security/Border-guards-intercept-196K-narcotic-pills-in-Al-Anbar
+        captured_at: 2026-10-22T21:30:58Z
 assessment:
   status: unverified
   credibility: 6
