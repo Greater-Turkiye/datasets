@@ -24,6 +24,10 @@ sources:
     title: Ukraine denies deploying drones in Iraq's Kurdistan Region
     published_at: 2026-10-21T08:13Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023210821/https://shafaq.com/en/Security/Ukraine-denies-deploying-drones-in-Iraq-s-Kurdistan-Region
+        captured_at: 2026-10-23T21:08:21Z
 assessment:
   status: unverified
   credibility: 6

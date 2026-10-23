@@ -18,6 +18,10 @@ sources:
     title: Ukrainian conflict resolution impossible without Ukraine, Kremlin spox says
     published_at: 2026-10-21T07:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023163650/https://news.am/en/news/1069273
+        captured_at: 2026-10-23T16:36:50Z
 assessment:
   status: unverified
   credibility: 6

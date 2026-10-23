@@ -18,6 +18,10 @@ sources:
     title: "War update: 269 clashes on front line over past day, Russian forces pressing hardest in three sectors"
     published_at: 2026-10-21T06:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023110558/https://www.ukrinform.net/rubric-ato/4176536-war-update-269-clashes-on-front-line-over-past-day-russian-forces-pressing-hardest-in-three-sectors.html
+        captured_at: 2026-10-23T11:05:58Z
 assessment:
   status: unverified
   credibility: 6

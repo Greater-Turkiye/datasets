@@ -24,6 +24,10 @@ sources:
     title: Three Ukrainian universities damaged in overnight Russian attack
     published_at: 2026-10-21T10:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023164312/https://www.ukrinform.net/rubric-ato/4176661-three-ukrainian-universities-damaged-in-overnight-russian-attack.html
+        captured_at: 2026-10-23T16:43:12Z
 assessment:
   status: unverified
   credibility: 6

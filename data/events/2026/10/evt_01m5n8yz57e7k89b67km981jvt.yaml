@@ -1,0 +1,33 @@
+id: evt_01m5n8yz57e7k89b67km981jvt
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: Beyaz Saray, Melania Trump Brokers'ın işgal altındaki Ukrayna şehri için ateşkes ilan ettiğini söyledi
+  en: White House Says Melania Trump Brokers Localized Cease-Fire For Occupied Ukrainian City
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-23T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-23T16:32Z
+location:
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Kyiv, en: Kyiv}
+regions: [black-sea]
+sources:
+  - url: https://www.rferl.org/a/white-house-says-melania-trump-brokers-localized-cease-fire-for-occupied-ukrainian-city/33883147.html
+    title: White House Says Melania Trump Brokers Localized Cease-Fire For Occupied Ukrainian City
+    published_at: 2026-10-23T16:32Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rferl-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rferl-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

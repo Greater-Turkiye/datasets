@@ -24,6 +24,10 @@ sources:
     title: Russia strikes critical infrastructure facility in Dnipro
     published_at: 2026-10-21T11:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023164911/https://www.ukrinform.net/rubric-ato/4176679-russia-strikes-critical-infrastructure-facility-in-dnipro.html
+        captured_at: 2026-10-23T16:49:11Z
 assessment:
   status: unverified
   credibility: 6

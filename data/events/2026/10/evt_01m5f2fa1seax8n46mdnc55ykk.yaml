@@ -24,6 +24,10 @@ sources:
     title: US Citizen Accused By Moscow Of Fighting For Ukraine Released From Russian Prison
     published_at: 2026-10-21T09:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023164155/https://www.rferl.org/a/stephen-hubbard-russia-us-prisoner-release-trump/33880760.html
+        captured_at: 2026-10-23T16:41:55Z
 assessment:
   status: unverified
   credibility: 6

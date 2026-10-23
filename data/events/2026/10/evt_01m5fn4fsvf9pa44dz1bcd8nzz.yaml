@@ -24,6 +24,10 @@ sources:
     title: Kosovo Court Sentences Serb for War Crimes
     published_at: 2026-10-21T14:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023165526/https://balkaninsight.com/2026/10/21/kosovo-court-sentences-serb-for-war-crimes/btj/
+        captured_at: 2026-10-23T16:55:26Z
 assessment:
   status: unverified
   credibility: 6

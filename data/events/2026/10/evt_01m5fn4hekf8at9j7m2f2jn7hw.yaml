@@ -18,6 +18,10 @@ sources:
     title: Albania’s Students Demand the Fall of Rama and an End to Corruption
     published_at: 2026-10-21T14:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023165555/https://balkaninsight.com/2026/10/21/albanias-students-demand-the-fall-of-rama-and-an-end-to-corruption/bi/
+        captured_at: 2026-10-23T16:55:55Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Russia's recruitment of foreign fighters is exploitative: UK statement to the OSCE"
     published_at: 2026-10-21T13:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023211554/https://www.gov.uk/government/speeches/russias-recruitment-of-foreign-fighters-is-exploitative-uk-statement-to-the-osce
+        captured_at: 2026-10-23T21:15:54Z
 assessment:
   status: unverified
   credibility: 6

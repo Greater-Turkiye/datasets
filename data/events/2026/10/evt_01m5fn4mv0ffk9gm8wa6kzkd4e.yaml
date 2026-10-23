@@ -18,6 +18,10 @@ sources:
     title: Amid Russia's Onslaught, A Twist In The Pursuit Of Men Fleeing Ukraine For Moldova
     published_at: 2026-10-21T15:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023165844/https://www.rferl.org/a/ukraine-moldova-border-flee-violence-oar/33880923.html
+        captured_at: 2026-10-23T16:58:44Z
 assessment:
   status: unverified
   credibility: 6
