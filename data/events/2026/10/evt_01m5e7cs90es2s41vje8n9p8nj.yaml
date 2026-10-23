@@ -24,6 +24,10 @@ sources:
     title: Injury toll from Russian strike on Epicentr shopping mall in Pervomaisk rises to eight
     published_at: 2026-10-20T20:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023034850/https://www.ukrinform.net/rubric-ato/4176498-injury-toll-from-russian-strike-on-epicentr-shopping-mall-in-pervomaisk-rises-to-eight.html
+        captured_at: 2026-10-23T03:48:50Z
 assessment:
   status: unverified
   credibility: 6

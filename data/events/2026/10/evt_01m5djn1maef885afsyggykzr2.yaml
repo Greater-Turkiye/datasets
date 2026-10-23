@@ -18,6 +18,10 @@ sources:
     title: Security Council, 10250th Meeting (PM) Kosovo/UNMIK
     published_at: 2026-10-20T17:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023033316/https://press.un.org/en/blog/sc16485
+        captured_at: 2026-10-23T03:33:16Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,0 +1,27 @@
+id: evt_01m5m6qc7sfc3a49vtx48qq3p5
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: Rus saldırıları Volyn bölgesinde yaklaşık 105 bin müşteriyi elektriksiz bıraktı, bir kişi yaralandı
+  en: Russian attacks leave nearly 105,000 customers without power in Volyn region, one person injured
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-23T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-23T08:00Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4177388-russian-attacks-leave-nearly-105000-customers-without-power-in-volyn-region-one-person-injured.html
+    title: Russian attacks leave nearly 105,000 customers without power in Volyn region, one person injured
+    published_at: 2026-10-23T08:00Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -24,6 +24,10 @@ sources:
     title: US Envoy Witkoff Begins Meeting With Putin After Zelenskyy Talks On Ukraine Peace
     published_at: 2026-10-21T07:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022080125/https://www.rferl.org/a/us-russia-talks-witkoff-putin-ukraine/33880709.html
+        captured_at: 2026-10-22T08:01:25Z
 assessment:
   status: unverified
   credibility: 6

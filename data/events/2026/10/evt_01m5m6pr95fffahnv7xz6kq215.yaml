@@ -1,0 +1,27 @@
+id: evt_01m5m6pr95fffahnv7xz6kq215
+schema: event/1
+event_type: deployment.announced
+title:
+  tr: Rusya'nın Ukrayna'daki savaş zayiatı geçen gün 1.830 arttı
+  en: Russia’s war casualty toll in Ukraine up by 1,830 over past day
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-23T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-23T04:50Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4177319-russias-war-casualty-toll-in-ukraine-up-by-1830-over-past-day.html
+    title: Russia’s war casualty toll in Ukraine up by 1,830 over past day
+    published_at: 2026-10-23T04:50Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces strike Russian command posts and logistics depots in Luhansk, Donetsk Regions, and Crimea
     published_at: 2026-10-21T11:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021133115/https://www.ukrinform.net/rubric-ato/4176690-ukrainian-forces-strike-russian-command-posts-and-logistics-depots-in-luhansk-donetsk-regions-and-crimea.html
+        captured_at: 2026-10-21T13:31:15Z
 assessment:
   status: unverified
   credibility: 6

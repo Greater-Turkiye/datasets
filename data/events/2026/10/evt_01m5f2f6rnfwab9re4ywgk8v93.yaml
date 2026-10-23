@@ -18,6 +18,10 @@ sources:
     title: Major investment to drive growth and jobs across Britain as Sultan of Oman visits UK
     published_at: 2026-10-21T08:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023111035/https://www.gov.uk/government/news/major-investment-to-drive-growth-and-jobs-across-britain-as-sultan-of-oman-visits-uk
+        captured_at: 2026-10-23T11:10:35Z
 assessment:
   status: unverified
   credibility: 6

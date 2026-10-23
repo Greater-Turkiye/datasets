@@ -18,6 +18,10 @@ sources:
     title: Security Situation in Central African Republic Fragile, Security Council Hears, amid Calls to Adequately Fund Peacekeeping Mission Ahead of Renewal
     published_at: 2026-10-20T20:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023033620/https://press.un.org/en/2026/sc16484.doc.htm
+        captured_at: 2026-10-23T03:36:20Z
 assessment:
   status: unverified
   credibility: 6

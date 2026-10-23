@@ -24,6 +24,10 @@ sources:
     title: Man killed in Russian attack in Kyiv region's Bucha district
     published_at: 2026-10-21T07:46Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021104625/https://www.ukrinform.net/rubric-ato/4176584-man-killed-in-russian-attack-in-kyiv-regions-bucha-district.html
+        captured_at: 2026-10-21T10:46:25Z
 assessment:
   status: unverified
   credibility: 6

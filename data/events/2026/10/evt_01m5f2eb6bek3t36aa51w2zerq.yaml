@@ -24,6 +24,10 @@ sources:
     title: Russian drone hits bus in Zaporizhzhia, injuring one
     published_at: 2026-10-21T02:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023034603/https://www.ukrinform.net/rubric-ato/4176454-russian-drone-hits-bus-in-zaporizhzhia-injuring-one.html
+        captured_at: 2026-10-23T03:46:03Z
 assessment:
   status: unverified
   credibility: 6

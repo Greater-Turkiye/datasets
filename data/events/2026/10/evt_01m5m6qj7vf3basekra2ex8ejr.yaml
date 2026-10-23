@@ -1,0 +1,27 @@
+id: evt_01m5m6qj7vf3basekra2ex8ejr
+schema: event/1
+event_type: kinetic.clash
+title:
+  tr: AB, Yemen'deki insani yardımı güçlendirmek için 22,5 milyon € daha duyurdu
+  en: EU announces an additional €22.5 million to reinforce humanitarian assistance in Yemen
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-23T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-23T08:38Z
+regions: [gulf-red-sea]
+sources:
+  - url: https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2247
+    title: EU announces an additional €22.5 million to reinforce humanitarian assistance in Yemen
+    published_at: 2026-10-23T08:38Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-eu-commission-press. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-eu-commission-press. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

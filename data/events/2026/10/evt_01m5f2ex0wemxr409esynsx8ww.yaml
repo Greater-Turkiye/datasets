@@ -24,6 +24,10 @@ sources:
     title: Russia attacks enterprise in Chernihiv, one person injured
     published_at: 2026-10-21T07:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021113110/https://www.ukrinform.net/rubric-ato/4176567-russia-attacks-enterprise-in-chernihiv-one-person-injured.html
+        captured_at: 2026-10-21T11:31:10Z
 assessment:
   status: unverified
   credibility: 6
