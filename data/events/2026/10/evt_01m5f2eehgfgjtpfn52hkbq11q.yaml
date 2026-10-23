@@ -24,6 +24,10 @@ sources:
     title: Russian drone hits transport infrastructure facility in Kyiv – Klitschko
     published_at: 2026-10-21T03:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021050101/https://www.ukrinform.net/rubric-ato/4176520-russian-drone-hits-transport-infrastructure-facility-in-kyiv-klitschko.html
+        captured_at: 2026-10-21T05:01:01Z
 assessment:
   status: unverified
   credibility: 6

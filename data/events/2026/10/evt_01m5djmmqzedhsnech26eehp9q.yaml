@@ -18,6 +18,10 @@ sources:
     title: As Sudan war spills into Central African Republic, UN warns against early peacekeeper exit
     published_at: 2026-10-20T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023033249/https://news.un.org/feed/view/en/story/2026/10/1168630
+        captured_at: 2026-10-23T03:32:49Z
 assessment:
   status: unverified
   credibility: 6

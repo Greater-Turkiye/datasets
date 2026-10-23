@@ -18,6 +18,10 @@ sources:
     title: Over 70 people sentenced this year for posting photos and videos of Ukrainian military positions and strike aftermath – SBU
     published_at: 2026-10-20T21:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023034428/https://www.ukrinform.net/rubric-ato/4176124-over-70-people-sentenced-this-year-for-posting-photos-and-videos-of-ukrainian-military-positions-and-strike-aftermath-sbu.html
+        captured_at: 2026-10-23T03:44:28Z
 assessment:
   status: unverified
   credibility: 6

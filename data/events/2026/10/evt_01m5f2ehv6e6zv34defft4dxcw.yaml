@@ -24,6 +24,10 @@ sources:
     title: High-rise apartment building hit in Kyiv’s Sviatoshynskyi district, casualties reported
     published_at: 2026-10-21T04:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261021063105/https://www.ukrinform.net/rubric-ato/4176528-highrise-apartment-building-hit-in-kyivs-sviatoshynskyi-district.html
+        captured_at: 2026-10-21T06:31:05Z
 assessment:
   status: unverified
   credibility: 6

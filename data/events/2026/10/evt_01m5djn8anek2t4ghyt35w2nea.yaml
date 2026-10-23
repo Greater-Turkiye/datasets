@@ -24,6 +24,10 @@ sources:
     title: Russian drones strike two Kyiv districts
     published_at: 2026-10-20T19:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023033558/https://www.ukrinform.net/rubric-ato/4176488-russian-drones-strike-two-kyiv-districts.html
+        captured_at: 2026-10-23T03:35:58Z
 assessment:
   status: unverified
   credibility: 6

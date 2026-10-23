@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: We are not losing war, but we are losing people"
     published_at: 2026-10-20T18:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022213526/https://www.ukrinform.net/rubric-ato/4176479-zelensky-we-are-not-losing-war-but-we-are-losing-people.html
+        captured_at: 2026-10-22T21:35:26Z
 assessment:
   status: unverified
   credibility: 6

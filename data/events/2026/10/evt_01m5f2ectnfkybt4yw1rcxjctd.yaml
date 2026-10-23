@@ -24,6 +24,10 @@ sources:
     title: Russian drones attack settlement in Kharkiv region, killing two
     published_at: 2026-10-21T03:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023034418/https://www.ukrinform.net/rubric-ato/4176518-russian-drones-attack-settlement-in-kharkiv-region-killing-two.html
+        captured_at: 2026-10-23T03:44:18Z
 assessment:
   status: unverified
   credibility: 6

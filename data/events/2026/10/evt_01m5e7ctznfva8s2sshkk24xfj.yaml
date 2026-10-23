@@ -24,6 +24,10 @@ sources:
     title: "Russian drone attack on Kyiv: Injury toll rises to 18, one dead"
     published_at: 2026-10-20T20:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022213039/https://www.ukrinform.net/rubric-ato/4176504-russian-drone-attack-on-kyiv-injury-toll-rises-to-18-one-dead.html
+        captured_at: 2026-10-22T21:30:39Z
 assessment:
   status: unverified
   credibility: 6
