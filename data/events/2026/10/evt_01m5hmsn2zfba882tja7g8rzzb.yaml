@@ -24,6 +24,10 @@ sources:
     title: Israel president condemns attacks against Armenian community in Jerusalem
     published_at: 2026-10-21T19:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024035100/https://news.am/en/news/1069473
+        captured_at: 2026-10-24T03:51:00Z
 assessment:
   status: unverified
   credibility: 6

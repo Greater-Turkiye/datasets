@@ -18,6 +18,10 @@ sources:
     title: "Held Together with Wire: Inside Romania’s Neglected Arms Industry"
     published_at: 2026-10-22T06:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024035859/https://balkaninsight.com/2026/10/22/held-together-with-wire-inside-romanias-neglected-arms-industry/rd/
+        captured_at: 2026-10-24T03:58:59Z
 assessment:
   status: unverified
   credibility: 6

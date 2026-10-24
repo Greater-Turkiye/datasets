@@ -18,6 +18,10 @@ sources:
     title: Armenia defense minister, Czechia first deputy PM discuss technico-military cooperation (PHOTOS)
     published_at: 2026-10-22T07:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024153350/https://news.am/en/news/1069540
+        captured_at: 2026-10-24T15:33:50Z
 assessment:
   status: unverified
   credibility: 6

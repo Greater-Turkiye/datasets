@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes hit TV and radio station and energy infrastructure facility in Poltava region
     published_at: 2026-10-22T05:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024035742/https://www.ukrinform.net/rubric-ato/4176914-russian-drone-strikes-hit-tv-and-radio-station-and-energy-infrastructure-facility-in-poltava-region.html
+        captured_at: 2026-10-24T03:57:42Z
 assessment:
   status: unverified
   credibility: 6

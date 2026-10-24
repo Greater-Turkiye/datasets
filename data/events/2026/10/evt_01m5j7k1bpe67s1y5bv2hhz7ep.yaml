@@ -18,6 +18,10 @@ sources:
     title: Ukraine Cuts Chinese Drone Dependence, But Critical Gaps Remain
     published_at: 2026-10-22T11:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023111548/https://www.rferl.org/a/ukraine-cuts-chinese-drone-dependence-but-critical-gaps-remain/33881578.html
+        captured_at: 2026-10-23T11:15:48Z
 assessment:
   status: unverified
   credibility: 6

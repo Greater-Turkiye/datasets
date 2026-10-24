@@ -18,6 +18,10 @@ sources:
     title: Russian strikes hit 12 Ukrainian regions overnight, killing two and injuring 34
     published_at: 2026-10-22T09:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022113220/https://www.ukrinform.net/rubric-ato/4177006-russian-strikes-hit-12-ukrainian-regions-overnight-killing-two-and-injuring-34.html
+        captured_at: 2026-10-22T11:32:20Z
 assessment:
   status: unverified
   credibility: 6

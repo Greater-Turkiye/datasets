@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s air defenses down over 180 Russian drones used to attack Ukraine overnight
     published_at: 2026-10-22T07:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022093213/https://www.ukrinform.net/rubric-ato/4176945-ukraines-air-defenses-down-over-180-russian-drones-used-to-attack-ukraine-overnight.html
+        captured_at: 2026-10-22T09:32:13Z
 assessment:
   status: unverified
   credibility: 6

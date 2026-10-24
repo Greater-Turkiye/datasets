@@ -18,6 +18,10 @@ sources:
     title: "Genuine dialogue requires respect for Ukraine’s sovereignty: UK statement to the OSCE"
     published_at: 2026-10-22T10:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023104556/https://www.gov.uk/government/speeches/genuine-dialogue-requires-respect-for-ukraines-sovereignty-uk-statement-to-the-osce
+        captured_at: 2026-10-23T10:45:56Z
 assessment:
   status: unverified
   credibility: 6

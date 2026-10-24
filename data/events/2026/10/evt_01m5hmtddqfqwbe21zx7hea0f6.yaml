@@ -24,6 +24,10 @@ sources:
     title: Drones attack military plant in Moscow region
     published_at: 2026-10-22T07:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022093212/https://www.ukrinform.net/rubric-ato/4176973-drones-attack-military-plant-in-moscow-region.html
+        captured_at: 2026-10-22T09:32:12Z
 assessment:
   status: unverified
   credibility: 6
