@@ -18,6 +18,10 @@ sources:
     title: Russia launches round 60 strikes on energy and oil and gas infrastructure in three days
     published_at: 2026-10-21T18:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024033822/https://www.ukrinform.net/rubric-ato/4176855-russia-launches-round-60-strikes-on-energy-and-oil-and-gas-infrastructure-in-three-days.html
+        captured_at: 2026-10-24T03:38:22Z
 assessment:
   status: unverified
   credibility: 6

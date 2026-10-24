@@ -24,6 +24,10 @@ sources:
     title: Russian strike on Sloviansk injures five, including two children
     published_at: 2026-10-21T18:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024033502/https://www.ukrinform.net/rubric-ato/4176822-russian-strike-on-sloviansk-injures-five-including-two-children.html
+        captured_at: 2026-10-24T03:35:02Z
 assessment:
   status: unverified
   credibility: 6

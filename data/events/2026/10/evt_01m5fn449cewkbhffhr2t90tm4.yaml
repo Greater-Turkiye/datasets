@@ -24,6 +24,10 @@ sources:
     title: Armenia defense minister in Prague, attends Future Forces Exhibition & Forum opening ceremony (PHOTOS)
     published_at: 2026-10-21T10:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024032307/https://news.am/en/news/1069346
+        captured_at: 2026-10-24T03:23:07Z
 assessment:
   status: unverified
   credibility: 6

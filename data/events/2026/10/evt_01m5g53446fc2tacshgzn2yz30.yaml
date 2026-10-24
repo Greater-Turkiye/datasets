@@ -18,6 +18,10 @@ sources:
     title: "War update: 165 clashes on front line over past day, heaviest fighting on Pokrovsk axis"
     published_at: 2026-10-21T19:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024034146/https://www.ukrinform.net/rubric-ato/4176868-war-update-165-clashes-on-front-line-over-past-day-heaviest-fighting-on-pokrovsk-axis.html
+        captured_at: 2026-10-24T03:41:46Z
 assessment:
   status: unverified
   credibility: 6

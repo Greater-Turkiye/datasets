@@ -24,6 +24,10 @@ sources:
     title: Russian drone attacks evacuation vehicle in Donetsk region
     published_at: 2026-10-21T19:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024034720/https://www.ukrinform.net/rubric-ato/4176863-russian-drone-attacks-evacuation-vehicle-in-donetsk-region.html
+        captured_at: 2026-10-24T03:47:20Z
 assessment:
   status: unverified
   credibility: 6

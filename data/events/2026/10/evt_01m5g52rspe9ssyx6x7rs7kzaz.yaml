@@ -24,6 +24,10 @@ sources:
     title: Two children, adult injured in Russian drone attack in Ternopil region
     published_at: 2026-10-21T16:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024033542/https://www.ukrinform.net/rubric-ato/4176812-two-children-adult-injured-in-russian-drone-attack-in-ternopil-region.html
+        captured_at: 2026-10-24T03:35:42Z
 assessment:
   status: unverified
   credibility: 6

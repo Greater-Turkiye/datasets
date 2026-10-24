@@ -24,6 +24,10 @@ sources:
     title: Summit in Samarkand, a boon for child wellbeing and health
     published_at: 2026-10-21T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024102542/https://news.un.org/feed/view/en/story/2026/10/1168640
+        captured_at: 2026-10-24T10:25:42Z
 assessment:
   status: unverified
   credibility: 6

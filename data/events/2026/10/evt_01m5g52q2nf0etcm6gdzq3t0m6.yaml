@@ -24,6 +24,10 @@ sources:
     title: Invest in Children, Invest in Future, Urges Secretary-General in Message for World Summit
     published_at: 2026-10-21T16:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023170939/https://press.un.org/en/2026/sgsm23341.doc.htm
+        captured_at: 2026-10-23T17:09:39Z
 assessment:
   status: unverified
   credibility: 6

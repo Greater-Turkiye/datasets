@@ -24,6 +24,10 @@ sources:
     title: American Stephen Hubbard Freed After More Than 4 Years In Russian Custody
     published_at: 2026-10-21T19:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024034429/https://www.rferl.org/a/russia-american-citizen-released-prison/33881147.html
+        captured_at: 2026-10-24T03:44:29Z
 assessment:
   status: unverified
   credibility: 6
