@@ -24,6 +24,10 @@ sources:
     title: Defense Forces strike EW station in Russia's Bryansk region and military depot in Luhansk region
     published_at: 2026-10-22T12:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022150105/https://www.ukrinform.net/rubric-ato/4177141-defense-forces-strike-ew-station-in-russias-bryansk-region-and-military-depot-in-luhansk-region.html
+        captured_at: 2026-10-22T15:01:05Z
 assessment:
   status: unverified
   credibility: 6

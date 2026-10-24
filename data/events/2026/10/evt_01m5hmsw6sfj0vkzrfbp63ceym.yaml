@@ -24,6 +24,10 @@ sources:
     title: Ukraine Still Awaiting US Answers On Starlink Restrictions As Lawmakers Demand Probe
     published_at: 2026-10-22T05:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024201459/https://www.rferl.org/a/ukraine-russia-war-starlink-starshield-congress/33881387.html
+        captured_at: 2026-10-24T20:14:59Z
 assessment:
   status: unverified
   credibility: 6

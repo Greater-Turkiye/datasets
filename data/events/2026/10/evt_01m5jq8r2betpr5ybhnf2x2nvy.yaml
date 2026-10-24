@@ -24,6 +24,10 @@ sources:
     title: Russian drone hits house in Zhytomyr region, injuring nine, including children
     published_at: 2026-10-22T16:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022211617/https://www.ukrinform.net/rubric-ato/4177211-russian-drone-hits-house-in-zhytomyr-region-injuring-nine-including-children.html
+        captured_at: 2026-10-22T21:16:17Z
 assessment:
   status: unverified
   credibility: 6

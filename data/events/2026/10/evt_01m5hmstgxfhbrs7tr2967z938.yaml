@@ -24,6 +24,10 @@ sources:
     title: Overnight Russian shelling of Kyiv injures 15 people, including two children
     published_at: 2026-10-22T05:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024152959/https://www.ukrinform.net/rubric-ato/4176910-overnight-russian-shelling-of-kyiv-injures-15-people-including-two-children.html
+        captured_at: 2026-10-24T15:29:59Z
 assessment:
   status: unverified
   credibility: 6

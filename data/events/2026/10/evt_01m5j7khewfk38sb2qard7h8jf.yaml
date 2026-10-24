@@ -18,6 +18,10 @@ sources:
     title: French Caesar self-propelled howitzer fires up to 130 shells in a day – artilleryman
     published_at: 2026-10-22T15:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022164612/https://www.ukrinform.net/rubric-ato/4177199-french-caesar-selfpropelled-howitzer-fires-up-to-130-shells-in-a-day-artilleryman.html
+        captured_at: 2026-10-22T16:46:12Z
 assessment:
   status: unverified
   credibility: 6

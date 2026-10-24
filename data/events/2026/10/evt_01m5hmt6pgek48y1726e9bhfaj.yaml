@@ -18,6 +18,10 @@ sources:
     title: Russian mass attack damages industrial facilities, energy infrastructure and homes in Vinnytsia region
     published_at: 2026-10-22T06:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024152952/https://www.ukrinform.net/rubric-ato/4176939-russian-mass-attack-damages-industrial-facilities-energy-infrastructure-and-homes-in-vinnytsia-region.html
+        captured_at: 2026-10-24T15:29:52Z
 assessment:
   status: unverified
   credibility: 6

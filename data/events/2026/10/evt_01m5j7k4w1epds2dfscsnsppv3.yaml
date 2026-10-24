@@ -18,6 +18,10 @@ sources:
     title: "Dzimi’s Diggers: Big Contract Follows Show of Loyalty to Serbia’s Ruling Party"
     published_at: 2026-10-22T12:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024201927/https://balkaninsight.com/2026/10/22/dzimis-diggers-big-contract-follows-show-of-loyalty-to-serbias-ruling-party/bi/
+        captured_at: 2026-10-24T20:19:27Z
 assessment:
   status: unverified
   credibility: 6

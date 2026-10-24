@@ -24,6 +24,10 @@ sources:
     title: Russian ballistic attack leaves one dead, 22 injured, causes damage in six Kyiv districts
     published_at: 2026-10-22T06:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024152958/https://www.ukrinform.net/rubric-ato/4176929-russian-ballistic-attack-leaves-one-dead-22-injured-causes-damage-in-six-kyiv-districts.html
+        captured_at: 2026-10-24T15:29:58Z
 assessment:
   status: unverified
   credibility: 6

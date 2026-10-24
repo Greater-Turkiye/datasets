@@ -18,6 +18,10 @@ sources:
     title: US Accuses Russia Of 'Deliberately Reckless' Move With Military Satellite Fly-By
     published_at: 2026-10-22T15:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024202434/https://www.rferl.org/a/russia-us-satellite-accusation-intelligence-threat/33881569.html
+        captured_at: 2026-10-24T20:24:34Z
 assessment:
   status: unverified
   credibility: 6

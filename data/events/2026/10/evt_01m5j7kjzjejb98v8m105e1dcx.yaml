@@ -24,6 +24,10 @@ sources:
     title: Russian strike sets commuter train on fire in Kharkiv
     published_at: 2026-10-22T15:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022173155/https://www.ukrinform.net/rubric-ato/4177205-russian-strike-sets-commuter-train-on-fire-in-kharkiv.html
+        captured_at: 2026-10-22T17:31:55Z
 assessment:
   status: unverified
   credibility: 6

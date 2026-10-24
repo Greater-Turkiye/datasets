@@ -24,6 +24,10 @@ sources:
     title: Death toll from Russian strike on Zaporizhzhia rises to three
     published_at: 2026-10-22T19:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261022211603/https://www.ukrinform.net/rubric-ato/4177275-death-toll-from-russian-strike-on-zaporizhzhia-rises-to-three.html
+        captured_at: 2026-10-22T21:16:03Z
 assessment:
   status: unverified
   credibility: 6
