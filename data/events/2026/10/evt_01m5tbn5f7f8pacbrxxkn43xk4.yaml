@@ -1,0 +1,27 @@
+id: evt_01m5tbn5f7f8pacbrxxkn43xk4
+schema: event/1
+event_type: diplomatic.talks
+title:
+  tr: CENTCOM komutanı dönüm noktası haftasında Hürmüz Boğazı'nı ziyaret etti
+  en: CENTCOM Commander Visits Strait of Hormuz during Milestone Week
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-25T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-25T16:42Z
+regions: [gulf-red-sea]
+sources:
+  - url: https://www.dvidshub.net/news/577799/centcom-commander-visits-strait-hormuz-during-milestone-week
+    title: CENTCOM Commander Visits Strait of Hormuz during Milestone Week
+    published_at: 2026-10-25T16:42Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-usa-centcom-dvids. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-usa-centcom-dvids. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

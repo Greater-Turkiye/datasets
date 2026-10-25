@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack gas station in Sumy, injuring two employees
     published_at: 2026-10-23T06:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025112534/https://www.ukrinform.net/rubric-ato/4177351-russian-forces-attack-gas-station-in-sumy-injuring-two-employees.html
+        captured_at: 2026-10-25T11:25:34Z
 assessment:
   status: unverified
   credibility: 6

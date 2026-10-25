@@ -18,6 +18,10 @@ sources:
     title: Von der Leyen condemns Russian attack on vessel off Romanian coast
     published_at: 2026-10-23T13:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025203527/https://www.ukrinform.net/rubric-ato/4177514-von-der-leyen-condemns-russian-attack-on-vessel-off-romanian-coast.html
+        captured_at: 2026-10-25T20:35:27Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Joint ministerial statement on the risk of famine in Sudan
     published_at: 2026-10-23T15:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024122210/https://www.gov.uk/government/news/joint-ministerial-statement-on-the-risk-of-famine-in-sudan
+        captured_at: 2026-10-24T12:22:10Z
 assessment:
   status: unverified
   credibility: 6

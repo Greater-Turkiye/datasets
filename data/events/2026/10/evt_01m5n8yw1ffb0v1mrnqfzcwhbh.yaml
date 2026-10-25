@@ -18,6 +18,10 @@ sources:
     title: "Every Day We 'Wake Up Poorer': Iranians Battle Economic Woes"
     published_at: 2026-10-23T15:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024154642/https://www.rferl.org/a/iran-economy-war-sanctions-cost-living-inflation/33882913.html
+        captured_at: 2026-10-24T15:46:42Z
 assessment:
   status: unverified
   credibility: 6

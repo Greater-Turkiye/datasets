@@ -24,6 +24,10 @@ sources:
     title: "Media reports: Fire breaks out near military airfield in Voronezh after missile alert"
     published_at: 2026-10-23T10:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023134708/https://www.ukrinform.net/rubric-ato/4177442-media-reports-fire-breaks-out-near-military-airfield-in-voronezh-after-missile-alert.html
+        captured_at: 2026-10-23T13:47:08Z
 assessment:
   status: unverified
   credibility: 6

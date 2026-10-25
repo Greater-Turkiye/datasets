@@ -18,6 +18,10 @@ sources:
     title: Belarus continues to help Russia use signal repeaters during attacks on Ukraine – military spox
     published_at: 2026-10-23T12:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023154629/https://www.ukrinform.net/rubric-ato/4177479-belarus-continues-to-help-russia-use-signal-repeaters-during-attacks-on-ukraine-military-spox.html
+        captured_at: 2026-10-23T15:46:29Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Defense Forces strike drone launch site near Donetsk and Russian warehouses
     published_at: 2026-10-23T11:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025203023/https://www.ukrinform.net/rubric-ato/4177457-defense-forces-strike-drone-launch-site-near-donetsk-and-russian-warehouses.html
+        captured_at: 2026-10-25T20:30:23Z
 assessment:
   status: unverified
   credibility: 6

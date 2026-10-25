@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Dnipro and region nearly 20 times since evening, two injured
     published_at: 2026-10-23T05:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025111802/https://www.ukrinform.net/rubric-ato/4177325-russian-forces-attack-dnipro-and-region-nearly-20-times-since-evening-two-injured.html
+        captured_at: 2026-10-25T11:18:02Z
 assessment:
   status: unverified
   credibility: 6

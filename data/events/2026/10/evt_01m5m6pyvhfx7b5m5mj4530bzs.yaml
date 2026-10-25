@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s air defenses down 140 out of 176 Russian drones overnight
     published_at: 2026-10-23T05:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025112108/https://www.ukrinform.net/rubric-ato/4177331-ukraines-air-defenses-down-140-out-of-176-russian-drones-overnight.html
+        captured_at: 2026-10-25T11:21:08Z
 assessment:
   status: unverified
   credibility: 6
