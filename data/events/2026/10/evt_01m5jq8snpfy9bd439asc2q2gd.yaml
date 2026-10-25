@@ -18,6 +18,10 @@ sources:
     title: We were impressed by the CAESAR self-propelled howitzer,” artilleryman “Chaika” says
     published_at: 2026-10-22T16:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025110622/https://www.ukrinform.net/rubric-ato/4177208-we-were-impressed-by-the-caesar-selfpropelled-howitzer-artilleryman-chaika-says.html
+        captured_at: 2026-10-25T11:06:22Z
 assessment:
   status: unverified
   credibility: 6

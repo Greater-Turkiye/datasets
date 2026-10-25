@@ -24,6 +24,10 @@ sources:
     title: Houthis claim to have struck Saudi Arabia MoD building in Riyadh
     published_at: 2026-10-22T14:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025032314/https://news.am/en/news/1069685
+        captured_at: 2026-10-25T03:23:14Z
 assessment:
   status: unverified
   credibility: 6

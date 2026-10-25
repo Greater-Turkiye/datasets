@@ -18,6 +18,10 @@ sources:
     title: "Exclusive: Rubio Receives Request To Sanction 4 Vucic-Linked Businessmen Ahead Of Serbia Elections"
     published_at: 2026-10-22T20:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025111159/https://www.rferl.org/a/serbia-vucic-businessmen-us-sanctions-wilson-rubio/33881862.html
+        captured_at: 2026-10-25T11:11:59Z
 assessment:
   status: unverified
   credibility: 6

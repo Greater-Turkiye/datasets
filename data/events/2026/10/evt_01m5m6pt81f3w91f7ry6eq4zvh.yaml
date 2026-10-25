@@ -18,6 +18,10 @@ sources:
     title: Russians launch massive attack on DTEK thermal power plant
     published_at: 2026-10-23T05:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025111733/https://www.ukrinform.net/rubric-ato/4177322-russians-launch-massive-attack-on-dtek-thermal-power-plant.html
+        captured_at: 2026-10-25T11:17:33Z
 assessment:
   status: unverified
   credibility: 6

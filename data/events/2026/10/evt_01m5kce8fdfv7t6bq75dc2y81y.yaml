@@ -18,6 +18,10 @@ sources:
     title: Ukrainian forces hit two Russian air defense systems targeting Ukrainian aircraft in Huliaipole sector
     published_at: 2026-10-22T22:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025111809/https://www.ukrinform.net/rubric-ato/4177075-ukrainian-forces-hit-two-russian-air-defense-systems-targeting-ukrainian-aircraft-in-huliaipole-sector.html
+        captured_at: 2026-10-25T11:18:09Z
 assessment:
   status: unverified
   credibility: 6

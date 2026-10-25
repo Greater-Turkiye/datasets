@@ -24,6 +24,10 @@ sources:
     title: Russian forces spreading false claims of capturing settlements in Zaporizhzhia region – military
     published_at: 2026-10-22T08:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025110116/https://www.ukrinform.net/rubric-ato/4176997-russian-forces-spreading-false-claims-of-capturing-settlements-in-zaporizhzhia-region-military.html
+        captured_at: 2026-10-25T11:01:16Z
 assessment:
   status: unverified
   credibility: 6

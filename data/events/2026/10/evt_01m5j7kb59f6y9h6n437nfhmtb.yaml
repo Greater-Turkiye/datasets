@@ -24,6 +24,10 @@ sources:
     title: "Zelensky: Russia used three ballistic missiles with cluster warheads in attack on Kyiv"
     published_at: 2026-10-22T13:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025032017/https://www.ukrinform.net/rubric-ato/4177152-zelensky-russia-used-three-ballistic-missiles-with-cluster-warheads-in-attack-on-kyiv.html
+        captured_at: 2026-10-25T03:20:17Z
 assessment:
   status: unverified
   credibility: 6

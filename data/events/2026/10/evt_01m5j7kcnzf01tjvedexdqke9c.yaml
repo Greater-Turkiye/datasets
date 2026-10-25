@@ -18,6 +18,10 @@ sources:
     title: "New York Times: US, Israel discuss new strike on Iran after midterms"
     published_at: 2026-10-22T13:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025031740/https://news.am/en/news/1069673
+        captured_at: 2026-10-25T03:17:40Z
 assessment:
   status: unverified
   credibility: 6

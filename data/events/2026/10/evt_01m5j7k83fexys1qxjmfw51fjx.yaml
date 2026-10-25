@@ -18,6 +18,10 @@ sources:
     title: "Drop Site News: US moving troops closer to Iran border"
     published_at: 2026-10-22T12:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025153634/https://news.am/en/news/1069632
+        captured_at: 2026-10-25T15:36:34Z
 assessment:
   status: unverified
   credibility: 6

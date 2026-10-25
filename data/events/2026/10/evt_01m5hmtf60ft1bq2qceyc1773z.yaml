@@ -18,6 +18,10 @@ sources:
     title: Russian forces preparing to resume mechanized attacks in southern Ukraine after months-long pause – military
     published_at: 2026-10-22T08:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025105722/https://www.ukrinform.net/rubric-ato/4176980-russian-forces-preparing-to-resume-mechanized-attacks-in-southern-ukraine-after-monthslong-pause-military.html
+        captured_at: 2026-10-25T10:57:22Z
 assessment:
   status: unverified
   credibility: 6

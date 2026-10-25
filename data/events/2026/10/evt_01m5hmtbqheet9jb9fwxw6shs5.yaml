@@ -18,6 +18,10 @@ sources:
     title: Decade-old unexploded missiles destroyed in Al-Anbar
     published_at: 2026-10-22T07:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025105431/https://shafaq.com/en/Security/Decade-old-unexploded-missiles-destroyed-in-Al-Anbar
+        captured_at: 2026-10-25T10:54:31Z
 assessment:
   status: unverified
   credibility: 6
