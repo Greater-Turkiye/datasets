@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike enterprise in Dnipropetrovsk region, injuring two
     published_at: 2026-10-23T08:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023103113/https://www.ukrinform.net/rubric-ato/4177390-russian-forces-strike-enterprise-in-dnipropetrovsk-region-injuring-two.html
+        captured_at: 2026-10-23T10:31:13Z
 assessment:
   status: unverified
   credibility: 6

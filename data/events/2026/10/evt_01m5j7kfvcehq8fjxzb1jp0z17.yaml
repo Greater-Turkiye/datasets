@@ -24,6 +24,10 @@ sources:
     title: Merz Sees Montenegro in EU by 2028 as Berlin Process Summit Opens
     published_at: 2026-10-22T14:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025032041/https://balkaninsight.com/2026/10/22/montenegro-could-join-eu-by-2028-says-german-chancellor/bi/
+        captured_at: 2026-10-25T03:20:41Z
 assessment:
   status: unverified
   credibility: 6

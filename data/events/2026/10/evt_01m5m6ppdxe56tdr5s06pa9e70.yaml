@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s Defense Forces neutralize 408,000 Russian drones since start of year
     published_at: 2026-10-23T04:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023081607/https://www.ukrinform.net/rubric-ato/4177317-ukraines-defense-forces-neutralize-408000-russian-drones-since-start-of-year.html
+        captured_at: 2026-10-23T08:16:07Z
 assessment:
   status: unverified
   credibility: 6

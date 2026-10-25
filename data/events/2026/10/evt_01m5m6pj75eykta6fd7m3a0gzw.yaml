@@ -18,6 +18,10 @@ sources:
     title: Canada PM heads to Turkey after lifting arms export ban over Armenia conflict
     published_at: 2026-10-22T14:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025032539/https://news.am/en/news/1069688
+        captured_at: 2026-10-25T03:25:39Z
 assessment:
   status: unverified
   credibility: 6

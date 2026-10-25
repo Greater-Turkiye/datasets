@@ -18,6 +18,10 @@ sources:
     title: Russian attacks leave nearly 105,000 customers without power in Volyn region, one person injured
     published_at: 2026-10-23T08:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023090104/https://www.ukrinform.net/rubric-ato/4177388-russian-attacks-leave-nearly-105000-customers-without-power-in-volyn-region-one-person-injured.html
+        captured_at: 2026-10-23T09:01:04Z
 assessment:
   status: unverified
   credibility: 6

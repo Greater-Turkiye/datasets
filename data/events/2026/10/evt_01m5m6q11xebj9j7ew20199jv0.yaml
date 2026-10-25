@@ -24,10 +24,18 @@ sources:
     title: Russian forces attack energy infrastructure and homes in Zhytomyr region overnight
     published_at: 2026-10-23T06:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023090106/https://www.ukrinform.net/rubric-ato/4177336-russian-forces-attack-energy-infrastructure-and-homes-in-zhytomyr-region.html
+        captured_at: 2026-10-23T09:01:06Z
   - url: https://www.ukrinform.net/rubric-ato/4177365-russian-forces-attack-energy-facility-civilian-infrastructure-in-odesa-region-overnight.html
     title: Russian forces attack energy facility, civilian infrastructure in Odesa region overnight
     published_at: 2026-10-23T07:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261023090105/https://www.ukrinform.net/rubric-ato/4177365-russian-forces-attack-energy-facility-civilian-infrastructure-in-odesa-region-overnight.html
+        captured_at: 2026-10-23T09:01:05Z
 assessment:
   status: unverified
   credibility: 6

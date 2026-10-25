@@ -24,6 +24,10 @@ sources:
     title: Russian nighttime attack damages Ukrainian Diaspora Museum in Kyiv
     published_at: 2026-10-22T14:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025032018/https://www.ukrinform.net/rubric-ato/4177187-russian-nighttime-attack-damages-ukrainian-diaspora-museum-in-kyiv.html
+        captured_at: 2026-10-25T03:20:18Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Security Council chief, EU Partnership Mission head in Armenia confer on further cooperation
     published_at: 2026-10-22T12:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024201956/https://news.am/en/news/1069638
+        captured_at: 2026-10-24T20:19:56Z
 assessment:
   status: unverified
   credibility: 6

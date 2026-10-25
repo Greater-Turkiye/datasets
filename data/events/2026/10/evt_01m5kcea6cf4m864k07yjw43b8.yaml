@@ -24,6 +24,10 @@ sources:
     title: Iraq appoints new defense intelligence chief
     published_at: 2026-10-22T22:33Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024202652/https://shafaq.com/en/Security/Iraq-appoints-new-defense-intelligence-chief
+        captured_at: 2026-10-24T20:26:52Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Iran has not used its entire means, is ready for next stage of war, security council secretary says
     published_at: 2026-10-22T13:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024203053/https://news.am/en/news/1069648
+        captured_at: 2026-10-24T20:30:53Z
 assessment:
   status: unverified
   credibility: 6
