@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces to implement decisions on humanitarian mission in Oleshky – General Staff
     published_at: 2026-10-23T18:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026034436/https://www.ukrinform.net/rubric-ato/4177623-ukrainian-forces-to-implement-decisions-on-humanitarian-mission-in-oleshky-general-staff.html
+        captured_at: 2026-10-26T03:44:36Z
 assessment:
   status: unverified
   credibility: 6

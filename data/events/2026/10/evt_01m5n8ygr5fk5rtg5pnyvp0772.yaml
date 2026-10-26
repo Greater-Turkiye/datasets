@@ -24,6 +24,10 @@ sources:
     title: Russian sabotage and reconnaissance groups step up activity in Sumy and Chernihiv regions – SBGS
     published_at: 2026-10-23T13:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026033101/https://www.ukrinform.net/rubric-ato/4177491-russian-sabotage-and-reconnaissance-groups-step-up-activity-in-sumy-and-chernihiv-regions-sbgs.html
+        captured_at: 2026-10-26T03:31:01Z
 assessment:
   status: unverified
   credibility: 6

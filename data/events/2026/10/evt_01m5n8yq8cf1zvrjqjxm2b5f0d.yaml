@@ -24,6 +24,10 @@ sources:
     title: Drone attacks shut down all four Moscow airports
     published_at: 2026-10-23T14:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026033816/https://www.ukrinform.net/rubric-ato/4177537-drone-attacks-shut-down-all-four-moscow-airports.html
+        captured_at: 2026-10-26T03:38:16Z
 assessment:
   status: unverified
   credibility: 6

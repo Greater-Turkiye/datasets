@@ -18,6 +18,10 @@ sources:
     title: "General Staff: Ukraine to implement ceasefire in Oleshky area starting October 27"
     published_at: 2026-10-23T20:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026034429/https://www.ukrinform.net/rubric-ato/4177661-general-staff-ukraine-to-implement-ceasefire-in-oleshky-area-starting-october-27.html
+        captured_at: 2026-10-26T03:44:29Z
 assessment:
   status: unverified
   credibility: 6

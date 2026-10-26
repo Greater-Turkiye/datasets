@@ -18,6 +18,10 @@ sources:
     title: Alleged Police Violence Against Minors Alarms Albania
     published_at: 2026-10-23T09:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026032216/https://balkaninsight.com/2026/10/23/alleged-police-violence-against-minors-alarms-albania/bi/
+        captured_at: 2026-10-26T03:22:16Z
 assessment:
   status: unverified
   credibility: 6

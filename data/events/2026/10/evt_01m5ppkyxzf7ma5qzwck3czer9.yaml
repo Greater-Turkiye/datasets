@@ -24,6 +24,10 @@ sources:
     title: One killed, six injured in Russian airstrike on Kramatorsk
     published_at: 2026-10-24T03:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026123036/https://www.ukrinform.net/rubric-ato/4177691-one-killed-six-injured-in-russian-airstrike-on-kramatorsk.html
+        captured_at: 2026-10-26T12:30:36Z
 assessment:
   status: unverified
   credibility: 6

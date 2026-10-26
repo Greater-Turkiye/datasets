@@ -24,6 +24,10 @@ sources:
     title: Russian strikes injure seven people in Kharkiv region, including two children
     published_at: 2026-10-24T07:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024184347/https://www.ukrinform.net/rubric-ato/4177727-russian-strikes-injure-seven-people-in-kharkiv-region-including-two-children.html
+        captured_at: 2026-10-24T18:43:47Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "War update: 181 clashes on front lines over past day, heaviest fighting on Kostiantynivka axis"
     published_at: 2026-10-24T06:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026123637/https://www.ukrinform.net/rubric-ato/4177706-war-update-181-clashes-on-front-lines-over-past-day-heaviest-fighting-on-kostiantynivka-axis.html
+        captured_at: 2026-10-26T12:36:37Z
 assessment:
   status: unverified
   credibility: 6

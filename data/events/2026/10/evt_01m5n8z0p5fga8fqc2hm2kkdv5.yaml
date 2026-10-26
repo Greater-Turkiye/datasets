@@ -24,6 +24,10 @@ sources:
     title: Three injured as Russian forces attack civilian, recreational, industrial infrastructure in Odesa region
     published_at: 2026-10-23T17:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026033808/https://www.ukrinform.net/rubric-ato/4177601-three-injured-as-russian-forces-attack-civilian-recreational-industrial-infrastructure-in-odesa-region.html
+        captured_at: 2026-10-26T03:38:08Z
 assessment:
   status: unverified
   credibility: 6

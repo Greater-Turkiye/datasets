@@ -24,6 +24,10 @@ sources:
     title: One killed, 18 injured in Russian attacks in Chernihiv region over past day
     published_at: 2026-10-24T07:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026123114/https://www.ukrinform.net/rubric-ato/4177732-one-killed-18-injured-in-russian-attacks-in-chernihiv-region-over-past-day.html
+        captured_at: 2026-10-26T12:31:14Z
 assessment:
   status: unverified
   credibility: 6
