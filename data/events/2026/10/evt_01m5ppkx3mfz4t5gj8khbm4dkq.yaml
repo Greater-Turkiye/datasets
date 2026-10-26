@@ -18,6 +18,10 @@ sources:
     title: Russia launched 2,597 drones at Ukraine over past week, air defenses neutralized over 87%
     published_at: 2026-10-24T03:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026123113/https://www.ukrinform.net/rubric-ato/4177690-russia-launched-2597-drones-at-ukraine-over-past-week-air-defenses-neutralized-over-87.html
+        captured_at: 2026-10-26T12:31:13Z
 assessment:
   status: unverified
   credibility: 6

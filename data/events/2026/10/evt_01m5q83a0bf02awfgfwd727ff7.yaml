@@ -24,6 +24,10 @@ sources:
     title: US urges citizens to avoid Iraq travel
     published_at: 2026-10-24T11:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026223639/https://shafaq.com/en/Security/US-urges-citizens-to-avoid-Iraq-travel
+        captured_at: 2026-10-26T22:36:39Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Khmara: Starlink and Starshield speeds above 400 km/h have resumed, says DM"
     published_at: 2026-10-24T08:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026223105/https://www.ukrinform.net/rubric-ato/4177752-khmara-starlink-and-starshield-speeds-above-400-kmh-have-resumed-says-dm.html
+        captured_at: 2026-10-26T22:31:05Z
 assessment:
   status: unverified
   credibility: 6

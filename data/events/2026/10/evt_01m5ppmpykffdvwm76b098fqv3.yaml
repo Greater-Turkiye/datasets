@@ -24,6 +24,10 @@ sources:
     title: Defense Forces strike Tolyattikauchuk and Proton-Elektrotex plants, and aircraft at Yeysk airfield in Russia
     published_at: 2026-10-24T09:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024124604/https://www.ukrinform.net/rubric-ato/4177765-defense-forces-strike-tolyattikauchuk-and-protonelektrotex-plants-and-aircraft-at-yeysk-airfield-in-russia.html
+        captured_at: 2026-10-24T12:46:04Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Bipartisan US Lawmakers Push Back On Trump's Russia Policy, Vow Support For Ukraine
     published_at: 2026-10-24T14:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026224931/https://www.rferl.org/a/us-lawmakers-trump-russia-policy-ukraine-bipartisan-pushback/33883500.html
+        captured_at: 2026-10-26T22:49:31Z
 assessment:
   status: unverified
   credibility: 6

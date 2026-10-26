@@ -24,6 +24,10 @@ sources:
     title: Russian drone attack damages house in Kyiv, injures two
     published_at: 2026-10-24T04:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026083630/https://www.ukrinform.net/rubric-ato/4177695-russian-drone-attack-damages-house-in-kyiv-injures-two.html
+        captured_at: 2026-10-26T08:36:30Z
 assessment:
   status: unverified
   credibility: 6

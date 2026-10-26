@@ -24,6 +24,10 @@ sources:
     title: Drones attack Russia's Tolyattikauchuk plant producing components for rocket fuel – media
     published_at: 2026-10-24T06:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024083104/https://www.ukrinform.net/rubric-ato/4177714-drones-attack-russias-tolyattikauchuk-plant-producing-components-for-rocket-fuel-media.html
+        captured_at: 2026-10-24T08:31:04Z
 assessment:
   status: unverified
   credibility: 6

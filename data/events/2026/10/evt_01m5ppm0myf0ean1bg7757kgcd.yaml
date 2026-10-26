@@ -18,6 +18,10 @@ sources:
     title: Large-scale blackout hits Crimea after drone attack
     published_at: 2026-10-24T04:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026123100/https://www.ukrinform.net/rubric-ato/4177692-largescale-blackout-hits-crimea-after-drone-attack.html
+        captured_at: 2026-10-26T12:31:00Z
 assessment:
   status: unverified
   credibility: 6

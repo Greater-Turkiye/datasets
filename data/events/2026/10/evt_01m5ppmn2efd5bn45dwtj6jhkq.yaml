@@ -24,6 +24,10 @@ sources:
     title: "Official: Iraqi border with Saudi Arabia fully secured"
     published_at: 2026-10-24T09:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026223220/https://shafaq.com/en/Security/Official-Iraqi-border-with-Saudi-Arabia-fully-secured
+        captured_at: 2026-10-26T22:32:20Z
 assessment:
   status: unverified
   credibility: 6

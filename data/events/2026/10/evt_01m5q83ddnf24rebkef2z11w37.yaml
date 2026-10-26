@@ -18,6 +18,10 @@ sources:
     title: Drug suspect flees Baquba security facility
     published_at: 2026-10-24T11:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026224141/https://shafaq.com/en/Security/Drug-suspect-flees-Baquba-security-facility
+        captured_at: 2026-10-26T22:41:41Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian missile strike on Lozova kills one person and injures two others
     published_at: 2026-10-24T11:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024141606/https://www.ukrinform.net/rubric-ato/4177789-russian-missile-strike-on-lozova-kills-one-person-and-injures-two-others.html
+        captured_at: 2026-10-24T14:16:06Z
 assessment:
   status: unverified
   credibility: 6

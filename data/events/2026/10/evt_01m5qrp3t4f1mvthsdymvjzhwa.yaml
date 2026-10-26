@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Chernihiv, fire breaks out, two injured
     published_at: 2026-10-24T15:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024181725/https://www.ukrinform.net/rubric-ato/4177845-russian-forces-strike-chernihiv-fire-breaks-out-two-injured.html
+        captured_at: 2026-10-24T18:17:25Z
 assessment:
   status: unverified
   credibility: 6
