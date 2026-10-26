@@ -24,6 +24,10 @@ sources:
     title: "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on"
     published_at: 2026-10-23T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026034402/https://news.un.org/feed/view/en/story/2026/10/1168664
+        captured_at: 2026-10-26T03:44:02Z
 assessment:
   status: unverified
   credibility: 6

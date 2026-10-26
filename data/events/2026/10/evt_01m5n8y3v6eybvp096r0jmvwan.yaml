@@ -18,6 +18,10 @@ sources:
     title: Iran state television, radio reports stopping of law-breaking ships in Hormuz strait
     published_at: 2026-10-23T11:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025203118/https://news.am/en/news/1069830
+        captured_at: 2026-10-25T20:31:18Z
 assessment:
   status: unverified
   credibility: 6

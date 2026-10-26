@@ -18,6 +18,10 @@ sources:
     title: Dodging Russian Drones On Ukrainian Road To Frontline Druzhkivka
     published_at: 2026-10-23T14:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025203752/https://www.rferl.org/a/dodging-russian-drones-on-ukrainian-road-to-frontline-druzhkivka/33883054.html
+        captured_at: 2026-10-25T20:37:52Z
 assessment:
   status: unverified
   credibility: 6

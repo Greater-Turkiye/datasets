@@ -24,6 +24,10 @@ sources:
     title: Bomb attack targets Basra electricity official's house
     published_at: 2026-10-23T07:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025032838/https://shafaq.com/en/Security/Bomb-attack-targets-Basra-electricity-official-s-house
+        captured_at: 2026-10-25T03:28:38Z
 assessment:
   status: unverified
   credibility: 6

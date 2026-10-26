@@ -18,6 +18,10 @@ sources:
     title: "Week in Review: Polls and Storms"
     published_at: 2026-10-23T13:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025203550/https://balkaninsight.com/2026/10/23/week-in-review-polls-and-storms/bi/
+        captured_at: 2026-10-25T20:35:50Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: White House Says Melania Trump Brokers Localized Cease-Fire For Occupied Ukrainian City
     published_at: 2026-10-23T16:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024170115/https://www.rferl.org/a/white-house-says-melania-trump-brokers-localized-cease-fire-for-occupied-ukrainian-city/33883147.html
+        captured_at: 2026-10-24T17:01:15Z
 assessment:
   status: unverified
   credibility: 6

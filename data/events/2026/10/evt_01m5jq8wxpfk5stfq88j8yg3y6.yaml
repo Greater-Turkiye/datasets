@@ -18,6 +18,10 @@ sources:
     title: September’s toll on Russia’s “no-analogue” air defenses
     published_at: 2026-10-22T18:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026031756/https://www.ukrinform.net/rubric-ato/4177260-septembers-toll-on-russias-noanalogue-air-defenses.html
+        captured_at: 2026-10-26T03:17:56Z
 assessment:
   status: unverified
   credibility: 6

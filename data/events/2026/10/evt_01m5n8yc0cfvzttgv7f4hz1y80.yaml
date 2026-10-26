@@ -18,6 +18,10 @@ sources:
     title: "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack"
     published_at: 2026-10-23T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026033033/https://news.un.org/feed/view/en/story/2026/10/1168660
+        captured_at: 2026-10-26T03:30:33Z
 assessment:
   status: unverified
   credibility: 6

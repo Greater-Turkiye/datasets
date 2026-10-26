@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack enterprise in Chernihiv, leaving one killed, 25 injured
     published_at: 2026-10-23T13:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026033420/https://www.ukrinform.net/rubric-ato/4177517-russian-forces-attack-enterprise-in-chernihiv-leaving-one-killed-25-injured.html
+        captured_at: 2026-10-26T03:34:20Z
 assessment:
   status: unverified
   credibility: 6
