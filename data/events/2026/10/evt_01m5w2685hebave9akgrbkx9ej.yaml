@@ -24,6 +24,10 @@ sources:
     title: Drone attack sparks fires at industrial facilities in Russia’s Voronezh region
     published_at: 2026-10-26T10:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026123112/https://www.ukrinform.net/rubric-ato/4178219-drone-attack-sparks-fires-at-industrial-facilities-in-russias-voronezh-region.html
+        captured_at: 2026-10-26T12:31:12Z
 assessment:
   status: unverified
   credibility: 6

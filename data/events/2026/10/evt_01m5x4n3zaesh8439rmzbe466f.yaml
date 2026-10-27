@@ -24,6 +24,10 @@ sources:
     title: General Staff confirms strike on Yelets plant producing batteries for aerial bombs and Iskander-M missiles
     published_at: 2026-10-26T12:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026144611/https://www.ukrinform.net/rubric-ato/4178253-general-staff-confirms-strike-on-yelets-plant-producing-batteries-for-aerial-bombs-and-iskanderm-missiles.html
+        captured_at: 2026-10-26T14:46:11Z
 assessment:
   status: unverified
   credibility: 6

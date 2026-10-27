@@ -18,6 +18,10 @@ sources:
     title: Russian shelling causes new power outages in six regions, Ukrenergo says
     published_at: 2026-10-26T09:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026123113/https://www.ukrinform.net/rubric-ato/4178209-russian-shelling-causes-new-power-outages-in-six-regions-ukrenergo-says.html
+        captured_at: 2026-10-26T12:31:13Z
 assessment:
   status: unverified
   credibility: 6

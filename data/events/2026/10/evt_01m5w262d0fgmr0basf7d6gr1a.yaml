@@ -24,6 +24,10 @@ sources:
     title: UK sanctions senior commanders implicated in campaign of rape in Sudan and unveils new support for survivors
     published_at: 2026-10-26T10:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027121847/https://www.gov.uk/government/news/uk-sanctions-senior-commanders-implicated-in-campaign-of-rape-in-sudan-and-unveils-new-support-for-survivors
+        captured_at: 2026-10-27T12:18:47Z
 assessment:
   status: unverified
   credibility: 6

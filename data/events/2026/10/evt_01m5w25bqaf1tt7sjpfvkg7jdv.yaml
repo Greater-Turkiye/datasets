@@ -24,6 +24,10 @@ sources:
     title: Russian strike on Zaporizhzhia injures two, damages homes and vehicles
     published_at: 2026-10-26T05:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027174756/https://www.ukrinform.net/rubric-ato/4178103-russian-strike-on-zaporizhzhia-injures-two-damages-homes-and-vehicles.html
+        captured_at: 2026-10-27T17:47:56Z
 assessment:
   status: unverified
   credibility: 6

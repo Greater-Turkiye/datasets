@@ -24,6 +24,10 @@ sources:
     title: "Statement from the Coalition on Atrocity Prevention and Justice for Sudan: one year on from the 26 October 2025 Atrocity in El Fasher"
     published_at: 2026-10-26T11:13Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027122213/https://www.gov.uk/government/news/statement-from-the-coalition-on-atrocity-prevention-and-justice-for-sudan-one-year-on-from-the-26-october-2025-atrocity-in-el-fasher
+        captured_at: 2026-10-27T12:22:13Z
 assessment:
   status: unverified
   credibility: 6

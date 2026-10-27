@@ -18,6 +18,10 @@ sources:
     title: Drone attack damages civilian infrastructure facility in Vinnytsia
     published_at: 2026-10-26T10:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026134613/https://www.ukrinform.net/rubric-ato/4178210-drone-attack-damages-civilian-infrastructure-facility-in-vinnytsia.html
+        captured_at: 2026-10-26T13:46:13Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian attack injures one person and damages homes in Kyiv region
     published_at: 2026-10-26T09:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026134613/https://www.ukrinform.net/rubric-ato/4178190-russian-attack-injures-one-person-and-damages-homes-in-kyiv-region.html
+        captured_at: 2026-10-26T13:46:13Z
 assessment:
   status: unverified
   credibility: 6
