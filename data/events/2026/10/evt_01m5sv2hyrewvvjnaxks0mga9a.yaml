@@ -24,6 +24,10 @@ sources:
     title: Maysan protesters block oilfield road over Iran border closure
     published_at: 2026-10-25T06:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025093417/https://shafaq.com/en/Security/Maysan-protesters-block-oilfield-road-over-Iran-border-closure
+        captured_at: 2026-10-25T09:34:17Z
 assessment:
   status: unverified
   credibility: 6

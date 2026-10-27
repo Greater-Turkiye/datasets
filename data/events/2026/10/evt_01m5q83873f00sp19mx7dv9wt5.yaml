@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack critical and civilian infrastructure in Zhytomyr region
     published_at: 2026-10-24T09:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026223402/https://www.ukrinform.net/rubric-ato/4177767-russian-forces-attack-critical-and-civilian-infrastructure-in-zhytomyr-region.html
+        captured_at: 2026-10-26T22:34:02Z
 assessment:
   status: unverified
   credibility: 6

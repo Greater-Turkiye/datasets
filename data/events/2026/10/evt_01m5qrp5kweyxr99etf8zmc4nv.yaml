@@ -24,6 +24,10 @@ sources:
     title: Drones attack industrial hub in Russia's Omsk – social media
     published_at: 2026-10-24T16:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026225001/https://www.ukrinform.net/rubric-ato/4177846-drones-attack-industrial-hub-in-russias-omsk-social-media.html
+        captured_at: 2026-10-26T22:50:01Z
 assessment:
   status: unverified
   credibility: 6

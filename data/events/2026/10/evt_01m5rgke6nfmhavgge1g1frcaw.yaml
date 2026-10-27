@@ -18,6 +18,10 @@ sources:
     title: Russian attack leaves one district in Vinnytsia region without power
     published_at: 2026-10-24T20:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025123359/https://www.ukrinform.net/rubric-ato/4177886-russian-attack-leaves-one-district-in-vinnytsia-region-without-power.html
+        captured_at: 2026-10-25T12:33:59Z
 assessment:
   status: unverified
   credibility: 6

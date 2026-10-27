@@ -24,6 +24,10 @@ sources:
     title: Russian invaders attack Mykolaiv region with drones over past day, causing damage
     published_at: 2026-10-25T06:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025092919/https://www.ukrinform.net/rubric-ato/4177907-russian-invaders-attack-mykolaiv-region-with-drones-over-past-day-causing-damage.html
+        captured_at: 2026-10-25T09:29:19Z
 assessment:
   status: unverified
   credibility: 6

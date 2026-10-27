@@ -24,6 +24,10 @@ sources:
     title: Russian attack sparks warehouse fire in Kharkiv suburb
     published_at: 2026-10-24T18:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025092924/https://www.ukrinform.net/rubric-ato/4177872-russian-attack-sparks-warehouse-fire-in-kharkiv-suburb.html
+        captured_at: 2026-10-25T09:29:24Z
 assessment:
   status: unverified
   credibility: 6

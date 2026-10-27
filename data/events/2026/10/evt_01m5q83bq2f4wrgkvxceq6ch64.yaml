@@ -24,6 +24,10 @@ sources:
     title: Zelenskyy Says Ukraine's Starlink Speed Restored, As Moscow And Kyiv Exchange Attacks
     published_at: 2026-10-24T11:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026223909/https://www.rferl.org/a/kraine-starshield-satellite-speeds-restored-drone-operations/33883512.html
+        captured_at: 2026-10-26T22:39:09Z
 assessment:
   status: unverified
   credibility: 6

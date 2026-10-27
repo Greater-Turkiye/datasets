@@ -1,0 +1,33 @@
+id: evt_01m5xq52n4e8ktqmfhkhsgddw5
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: "Birleşik Krallık, kayıp sevdiklerinin ailelerine cevap vermek için Irak, Kuveyt ve Üçlü Komisyon ile çalışmaya devam ediyor: Birleşik Krallık'ın BM Güvenlik Konseyi'ndeki açıklaması"
+  en: "The United Kingdom remains committed to working with Iraq, Kuwait, and the Tripartite Commission to provide answers for families of missing loved ones: UK statement at the UN Security Council"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-26T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-26T20:07Z
+location:
+  geometry: {type: Point, coordinates: [47.976, 29.372]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Kuveyt, en: Kuwait City}
+regions: [iraq]
+sources:
+  - url: https://www.gov.uk/government/speeches/the-united-kingdom-remains-committed-to-working-with-iraq-kuwait-and-the-tripartite-commission-to-provide-answers-for-families-of-missing-loved-ones-u
+    title: "The United Kingdom remains committed to working with Iraq, Kuwait, and the Tripartite Commission to provide answers for families of missing loved ones: UK statement at the UN Security Council"
+    published_at: 2026-10-26T20:07Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-fcdo. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-fcdo. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

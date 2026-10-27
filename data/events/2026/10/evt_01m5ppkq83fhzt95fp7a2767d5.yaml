@@ -18,6 +18,10 @@ sources:
     title: Security Council Press Statement on 19 October Drone Attacks in Abyei Area
     published_at: 2026-10-23T21:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026222424/https://press.un.org/en/2026/sc16486.doc.htm
+        captured_at: 2026-10-26T22:24:24Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Russian drone strikes five-story apartment building in Vinnytsia, six injured
     published_at: 2026-10-25T07:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025104623/https://www.ukrinform.net/rubric-ato/4177926-russian-drone-strikes-fivestory-apartment-building-in-vinnytsia-six-injured.html
+        captured_at: 2026-10-25T10:46:23Z
 assessment:
   status: unverified
   credibility: 6

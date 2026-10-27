@@ -24,6 +24,10 @@ sources:
     title: Russian airstrikes on Sloviansk injure two people and damage buildings
     published_at: 2026-10-24T17:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261024194614/https://www.ukrinform.net/rubric-ato/4177867-russian-airstrikes-on-sloviansk-injure-two-people-and-damage-buildings.html
+        captured_at: 2026-10-24T19:46:14Z
 assessment:
   status: unverified
   credibility: 6

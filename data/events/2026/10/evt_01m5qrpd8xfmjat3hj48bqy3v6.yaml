@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Synelnykove kills three people and injures eight others
     published_at: 2026-10-24T18:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025073154/https://www.ukrinform.net/rubric-ato/4177875-russian-attack-on-synelnykove-kills-three-people-and-injures-eight-others.html
+        captured_at: 2026-10-25T07:31:54Z
 assessment:
   status: unverified
   credibility: 6
