@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Russia launches 1,600 guided bombs, 48 missiles and nearly 2,300 attack drones at Ukraine in one week"
     published_at: 2026-10-25T09:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027115217/https://www.ukrinform.net/rubric-ato/4177961-zelensky-russia-launches-1600-guided-bombs-48-missiles-and-nearly-2300-attack-drones-at-ukraine-in-one-week.html
+        captured_at: 2026-10-27T11:52:17Z
 assessment:
   status: unverified
   credibility: 6

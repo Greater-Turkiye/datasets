@@ -24,10 +24,18 @@ sources:
     title: Russian drone strikes shopping center in Poltava
     published_at: 2026-10-25T09:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027114645/https://www.ukrinform.net/rubric-ato/4177953-russian-drone-strikes-shopping-center-in-poltava.html
+        captured_at: 2026-10-27T11:46:45Z
   - url: https://www.ukrinform.net/rubric-ato/4177970-russian-drone-strikes-epicenter-shopping-center-in-poltava-injuring-one-person.html
     title: Russian drone strikes Epicenter shopping center in Poltava, injuring one person
     published_at: 2026-10-25T10:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027114644/https://www.ukrinform.net/rubric-ato/4177970-russian-drone-strikes-epicenter-shopping-center-in-poltava-injuring-one-person.html
+        captured_at: 2026-10-27T11:46:44Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Ukrainian forces repel 36 Russian attacks in Pokrovsk sector as 177 clashes reported on front line over past day
     published_at: 2026-10-26T07:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026090128/https://www.ukrinform.net/rubric-ato/4178121-ukrainian-forces-repel-36-russian-attacks-in-pokrovsk-sector-as-177-clashes-reported-on-front-line-over-past-day.html
+        captured_at: 2026-10-26T09:01:28Z
 assessment:
   status: unverified
   credibility: 6

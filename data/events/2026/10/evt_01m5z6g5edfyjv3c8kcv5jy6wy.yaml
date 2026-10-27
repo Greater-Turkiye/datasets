@@ -1,0 +1,27 @@
+id: evt_01m5z6g5edfyjv3c8kcv5jy6wy
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: "Birleşik Krallık'ın BM Güvenlik Konseyi'nde yaptığı açıklama: İran, UAEK müfettişlerinin tüm nükleer tesislere geri dönmesine izin vermelidir"
+  en: "Iran must allow the return of IAEA inspectors to all nuclear sites: UK statement at the UN Security Council"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-27T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-27T15:51Z
+regions: [iran]
+sources:
+  - url: https://www.gov.uk/government/speeches/iran-must-allow-the-return-of-iaea-inspectors-to-all-nuclear-sites
+    title: "Iran must allow the return of IAEA inspectors to all nuclear sites: UK statement at the UN Security Council"
+    published_at: 2026-10-27T15:51Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-fcdo. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-fcdo. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

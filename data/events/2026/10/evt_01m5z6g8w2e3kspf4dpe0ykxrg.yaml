@@ -1,0 +1,33 @@
+id: evt_01m5z6g8w2e3kspf4dpe0ykxrg
+schema: event/1
+event_type: other
+title:
+  tr: Sırbistan Öğrenci Listesi'nin baş adayı AB entegrasyonu ve Rusya Bağları konusunda açık tartışma sözü verdi
+  en: Serbia Student List Lead Candidate Vows EU Integration, Open Debate On Russia Ties
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-27T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-27T16:32Z
+location:
+  geometry: {type: Point, coordinates: [20.466, 44.821]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Belgrad, en: Belgrade}
+regions: [black-sea]
+sources:
+  - url: https://www.rferl.org/a/serbia-student-list-lead-candidate-vows-eu-integration/33885347.html
+    title: Serbia Student List Lead Candidate Vows EU Integration, Open Debate On Russia Ties
+    published_at: 2026-10-27T16:32Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rferl-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rferl-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]
