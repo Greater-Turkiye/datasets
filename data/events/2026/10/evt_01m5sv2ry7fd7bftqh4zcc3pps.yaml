@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack civilian infrastructure in Rivne region overnight
     published_at: 2026-10-25T08:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025104622/https://www.ukrinform.net/rubric-ato/4177938-russian-forces-attack-civilian-infrastructure-in-rivne-region-overnight.html
+        captured_at: 2026-10-25T10:46:22Z
 assessment:
   status: unverified
   credibility: 6

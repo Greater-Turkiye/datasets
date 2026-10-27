@@ -1,0 +1,27 @@
+id: evt_01m5yjaqk6e2ptaz7s2tj73css
+schema: event/1
+event_type: deployment.announced
+title:
+  tr: "Savaş güncellemesi: Rus baskısı Pokrovsk ve Kostiantynivka eksenlerinde yoğunlaşırken geçen gün ön cephede 196 muharebe çatışması yaşandı"
+  en: "War update: 196 combat engagements on frontline in past day as Russian pressure intensifies on Pokrovsk, Kostiantynivka axes"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-27T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-27T07:18Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4178491-war-update-196-combat-engagements-on-frontline-in-past-day-as-russian-pressure-intensifies-on-pokrovsk-kostiantynivka-axes.html
+    title: "War update: 196 combat engagements on frontline in past day as Russian pressure intensifies on Pokrovsk, Kostiantynivka axes"
+    published_at: 2026-10-27T07:18Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

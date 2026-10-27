@@ -18,6 +18,10 @@ sources:
     title: CENTCOM Commander Visits Strait of Hormuz during Milestone Week
     published_at: 2026-10-25T16:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025171819/https://www.dvidshub.net/news/577799/centcom-commander-visits-strait-hormuz-during-milestone-week
+        captured_at: 2026-10-25T17:18:19Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Overnight Russian attack damages homes in two districts of Vinnytsia
     published_at: 2026-10-25T13:44Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261025221618/https://www.ukrinform.net/rubric-ato/4178008-overnight-russian-attack-damages-homes-in-two-districts-of-vinnytsia.html
+        captured_at: 2026-10-25T22:16:18Z
 assessment:
   status: unverified
   credibility: 6

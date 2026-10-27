@@ -18,6 +18,10 @@ sources:
     title: How Russia Is Teaching Children To Fly Military Drones
     published_at: 2026-10-25T08:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026150632/https://www.rferl.org/a/russia-drone-education-warfare/33883534.html
+        captured_at: 2026-10-26T15:06:32Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,0 +1,27 @@
+id: evt_01m5yja8gnf2f9ymxnqmr474m6
+schema: event/1
+event_type: policy.defense
+title:
+  tr: "Bloomberg: Ukrayna savaşında ağır kayıplar veren Rusya, Afrikalı paralı asker alımını genişletiyor"
+  en: Russia expanding recruitment of African mercenaries amid heavy losses in Ukraine war – Bloomberg
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-27T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-27T02:27Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4178288-russia-expanding-recruitment-of-african-mercenaries-amid-heavy-losses-in-ukraine-war-bloomberg.html
+    title: Russia expanding recruitment of African mercenaries amid heavy losses in Ukraine war – Bloomberg
+    published_at: 2026-10-27T02:27Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

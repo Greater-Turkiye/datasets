@@ -24,6 +24,10 @@ sources:
     title: Russian attacks spark fires in Sumy region, one person injured
     published_at: 2026-10-25T14:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027115217/https://www.ukrinform.net/rubric-ato/4178014-russian-attacks-spark-fires-in-sumy-region-one-person-injured.html
+        captured_at: 2026-10-27T11:52:17Z
 assessment:
   status: unverified
   credibility: 6

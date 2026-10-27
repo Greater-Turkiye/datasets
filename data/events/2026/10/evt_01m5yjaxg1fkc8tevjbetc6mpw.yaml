@@ -1,0 +1,27 @@
+id: evt_01m5yjaxg1fkc8tevjbetc6mpw
+schema: event/1
+event_type: diplomatic.agreement
+title:
+  tr: ABD Hava Kuvvetleri AGM -183A hipersonik füze üretimi için sözleşme imzaladı
+  en: US Air Force signs contract for AGM-183A hypersonic missile production
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-27T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-27T07:52Z
+regions: [caucasus]
+sources:
+  - url: https://news.am/en/news/1070524
+    title: US Air Force signs contract for AGM-183A hypersonic missile production
+    published_at: 2026-10-27T07:52Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-arm-newsam-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-arm-newsam-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

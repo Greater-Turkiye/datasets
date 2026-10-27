@@ -24,6 +24,10 @@ sources:
     title: Missile strike hits Russian defense plant Energia in Lipetsk region – media
     published_at: 2026-10-25T13:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026010553/https://www.ukrinform.net/rubric-ato/4178007-missile-strike-hits-russian-defense-plant-energia-in-lipetsk-region-media.html
+        captured_at: 2026-10-26T01:05:53Z
 assessment:
   status: unverified
   credibility: 6
