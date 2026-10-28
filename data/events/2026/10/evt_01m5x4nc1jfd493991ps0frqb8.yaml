@@ -18,6 +18,10 @@ sources:
     title: Ukrainian forces strike Russian communications hub, drone workshop and supply depots
     published_at: 2026-10-26T14:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026210224/https://www.ukrinform.net/rubric-ato/4178318-ukrainian-forces-strike-russian-communications-hub-drone-workshop-and-supply-depots.html
+        captured_at: 2026-10-26T21:02:24Z
 assessment:
   status: unverified
   credibility: 6

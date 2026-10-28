@@ -1,0 +1,27 @@
+id: evt_01m60afq8jf89976a55ad0emfn
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: "World News in Brief: \"Ukrayna'da güvenli bir yer yok \", UAEK İran'a nükleer teftiş çağrısı yaptı, Kenya çatışmalardan kaçan binlerce Etiyopyalıya ev sahipliği yaptı"
+  en: "World News in Brief: ‘No safe place in Ukraine’, IAEA calls for Iran nuclear inspections, Kenya hosts thousands of Ethiopians fleeing clashes"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-27T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-27T12:00Z
+regions: [iran]
+sources:
+  - url: https://news.un.org/feed/view/en/story/2026/10/1168682
+    title: "World News in Brief: ‘No safe place in Ukraine’, IAEA calls for Iran nuclear inspections, Kenya hosts thousands of Ethiopians fleeing clashes"
+    published_at: 2026-10-27T12:00Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: un-news-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: un-news-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

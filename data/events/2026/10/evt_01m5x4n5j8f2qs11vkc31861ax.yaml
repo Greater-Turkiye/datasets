@@ -18,6 +18,10 @@ sources:
     title: Ukraine changes tactics for using Patriot systems, Ihnat says
     published_at: 2026-10-26T12:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026153153/https://www.ukrinform.net/rubric-ato/4178273-ukraine-changes-tactics-for-using-patriot-systems-ihnat-says.html
+        captured_at: 2026-10-26T15:31:53Z
 assessment:
   status: unverified
   credibility: 6

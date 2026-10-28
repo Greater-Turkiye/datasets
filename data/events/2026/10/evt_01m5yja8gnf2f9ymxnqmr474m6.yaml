@@ -18,6 +18,10 @@ sources:
     title: Russia expanding recruitment of African mercenaries amid heavy losses in Ukraine war – Bloomberg
     published_at: 2026-10-27T02:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027083211/https://www.ukrinform.net/rubric-ato/4178288-russia-expanding-recruitment-of-african-mercenaries-amid-heavy-losses-in-ukraine-war-bloomberg.html
+        captured_at: 2026-10-27T08:32:11Z
 assessment:
   status: unverified
   credibility: 6

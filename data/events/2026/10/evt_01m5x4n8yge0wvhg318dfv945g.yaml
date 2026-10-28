@@ -24,6 +24,10 @@ sources:
     title: Russian strikes on Kramatorsk community kill one, injure 10
     published_at: 2026-10-26T13:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026150403/https://www.ukrinform.net/rubric-ato/4178293-russian-strikes-on-kramatorsk-community-kill-one-injure-10.html
+        captured_at: 2026-10-26T15:04:03Z
 assessment:
   status: unverified
   credibility: 6

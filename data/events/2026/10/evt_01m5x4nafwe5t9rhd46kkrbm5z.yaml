@@ -24,6 +24,10 @@ sources:
     title: Russians destroy last Epicentr hypermarket in Kharkiv – Mayor Terekhov
     published_at: 2026-10-26T14:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026170107/https://www.ukrinform.net/rubric-ato/4178310-russians-destroy-last-epicentr-hypermarket-in-kharkiv-mayor-terekhov.html
+        captured_at: 2026-10-26T17:01:07Z
 assessment:
   status: unverified
   credibility: 6

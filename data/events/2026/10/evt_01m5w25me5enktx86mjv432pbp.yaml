@@ -24,6 +24,10 @@ sources:
     title: Russian forces hit shopping mall in Zaporizhzhia again, sparking fire
     published_at: 2026-10-26T07:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027174801/https://www.ukrinform.net/rubric-ato/4178130-russian-forces-hit-shopping-mall-in-zaporizhzhia-again-sparking-fire.html
+        captured_at: 2026-10-27T17:48:01Z
 assessment:
   status: unverified
   credibility: 6

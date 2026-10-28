@@ -24,6 +24,10 @@ sources:
     title: Death toll from Russian strike on park in Kharkiv region rises as third child dies in hospital
     published_at: 2026-10-26T15:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026210223/https://www.ukrinform.net/rubric-ato/4178335-death-toll-from-russian-strike-on-park-in-kharkiv-region-rises-as-third-child-dies-in-hospital.html
+        captured_at: 2026-10-26T21:02:23Z
 assessment:
   status: unverified
   credibility: 6

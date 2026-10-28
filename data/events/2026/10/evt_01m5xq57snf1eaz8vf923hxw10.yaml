@@ -24,6 +24,10 @@ sources:
     title: Russian attack on energy facility in Chernivtsi region causes power outages
     published_at: 2026-10-26T21:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026233152/https://www.ukrinform.net/rubric-ato/4178429-russian-attack-on-energy-facility-in-chernivtsi-region-causes-power-outages.html
+        captured_at: 2026-10-26T23:31:52Z
 assessment:
   status: unverified
   credibility: 6

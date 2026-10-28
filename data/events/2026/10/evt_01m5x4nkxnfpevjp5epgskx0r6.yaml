@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes enterprise site in Poltava region
     published_at: 2026-10-26T16:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261026210221/https://www.ukrinform.net/rubric-ato/4178364-russian-drone-strikes-enterprise-site-in-poltava-region.html
+        captured_at: 2026-10-26T21:02:21Z
 assessment:
   status: unverified
   credibility: 6
