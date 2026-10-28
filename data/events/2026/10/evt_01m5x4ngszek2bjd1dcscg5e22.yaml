@@ -24,6 +24,10 @@ sources:
     title: Security Council, 10252nd Meeting (PM) Iraq, Kuwait
     published_at: 2026-10-26T15:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028222931/https://press.un.org/en/blog/sc16489
+        captured_at: 2026-10-28T22:29:31Z
 assessment:
   status: unverified
   credibility: 6

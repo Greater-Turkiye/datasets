@@ -18,6 +18,10 @@ sources:
     title: Houthis claim to have struck Saudi Arabia oil infrastructure
     published_at: 2026-10-26T05:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028221655/https://news.am/en/news/1070281
+        captured_at: 2026-10-28T22:16:55Z
 assessment:
   status: unverified
   credibility: 6

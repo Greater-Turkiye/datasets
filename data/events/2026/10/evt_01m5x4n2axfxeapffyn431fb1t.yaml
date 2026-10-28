@@ -18,6 +18,10 @@ sources:
     title: Kosovo Woman Murdered Hours After Reporting Domestic Violence to Police
     published_at: 2026-10-26T12:13Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028222804/https://balkaninsight.com/2026/10/26/kosovo-woman-murdered-hours-after-reporting-domestic-violence-to-police/bi/
+        captured_at: 2026-10-28T22:28:04Z
 assessment:
   status: unverified
   credibility: 6

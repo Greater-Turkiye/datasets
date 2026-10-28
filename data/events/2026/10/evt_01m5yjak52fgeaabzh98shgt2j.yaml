@@ -18,6 +18,10 @@ sources:
     title: Bosnian Court Verdicts for Wartime Sexual Violence Show Leniency and Disparities
     published_at: 2026-10-27T07:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028224046/https://balkaninsight.com/2026/10/27/bosnian-court-verdicts-for-wartime-sexual-violence-show-leniency-and-disparities/btj/
+        captured_at: 2026-10-28T22:40:46Z
 assessment:
   status: unverified
   credibility: 6

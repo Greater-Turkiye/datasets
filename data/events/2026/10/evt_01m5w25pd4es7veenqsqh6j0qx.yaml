@@ -24,6 +24,10 @@ sources:
     title: Iraq to integrate YBŞ into state security forces
     published_at: 2026-10-26T08:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028221919/https://shafaq.com/en/Security/Iraq-to-integrate-YBS-into-state-security-forces
+        captured_at: 2026-10-28T22:19:19Z
 assessment:
   status: unverified
   credibility: 6

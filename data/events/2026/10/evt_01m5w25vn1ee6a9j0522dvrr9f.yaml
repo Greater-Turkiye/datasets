@@ -18,6 +18,10 @@ sources:
     title: "Armenia interior minister on Shaki village incident involving Azerbaijan soldier: Our employee handled the process correctly, it couldn’t have been done faster (VIDEO)"
     published_at: 2026-10-26T09:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028222421/https://news.am/en/news/1070355
+        captured_at: 2026-10-28T22:24:21Z
 assessment:
   status: unverified
   credibility: 6

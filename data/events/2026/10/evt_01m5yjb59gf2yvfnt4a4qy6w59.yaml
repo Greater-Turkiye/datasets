@@ -18,6 +18,10 @@ sources:
     title: "Zelensky on overnight attack: Russia targeted energy, logistics, and urban infrastructure almost everywhere"
     published_at: 2026-10-27T09:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027110115/https://www.ukrinform.net/rubric-ato/4178535-zelensky-on-overnight-attack-russia-targeted-energy-logistics-and-urban-infrastructure-almost-everywhere.html
+        captured_at: 2026-10-27T11:01:15Z
 assessment:
   status: unverified
   credibility: 6

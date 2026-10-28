@@ -18,6 +18,10 @@ sources:
     title: Russian forces observing ceasefire in Oleshky as of 9 a.m., Ukrainian Marines say
     published_at: 2026-10-27T08:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027104611/https://www.ukrinform.net/rubric-ato/4178530-russian-forces-observing-ceasefire-in-oleshky-as-of-9-am-ukrainian-marines-say.html
+        captured_at: 2026-10-27T10:46:11Z
 assessment:
   status: unverified
   credibility: 6
