@@ -1,0 +1,27 @@
+id: evt_01m616f7bxed5v2fvjkb0ag6qg
+schema: event/1
+event_type: kinetic.clash
+title:
+  tr: "Savaş güncellemesi: Geçtiğimiz gün cephe hatlarında 190 'dan fazla çatışma yaşandı, Rusya'nın çoğu Pokrovsk eksenine saldırdı"
+  en: "War update: Over 190 clashes on front lines in past day, most Russian attacks on Pokrovsk axis"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-28T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-28T07:00Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4178822-war-update-over-190-clashes-on-front-lines-in-past-day-most-russian-attacks-on-pokrovsk-axis.html
+    title: "War update: Over 190 clashes on front lines in past day, most Russian attacks on Pokrovsk axis"
+    published_at: 2026-10-28T07:00Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

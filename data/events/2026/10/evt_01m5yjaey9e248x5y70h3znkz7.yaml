@@ -24,6 +24,10 @@ sources:
     title: Russian nighttime attack on Kyiv causes several hits, including on administrative building
     published_at: 2026-10-27T06:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027074603/https://www.ukrinform.net/rubric-ato/4178465-russian-nighttime-attack-on-kyiv-causes-several-hits-including-on-administrative-building.html
+        captured_at: 2026-10-27T07:46:03Z
 assessment:
   status: unverified
   credibility: 6

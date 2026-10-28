@@ -24,6 +24,10 @@ sources:
     title: Three killed, eight injured in Russian attacks on Kharkiv Region over past day
     published_at: 2026-10-27T08:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027100103/https://www.ukrinform.net/rubric-ato/4178518-three-killed-eight-injured-in-russian-attacks-on-kharkiv-region-over-past-day.html
+        captured_at: 2026-10-27T10:01:03Z
 assessment:
   status: unverified
   credibility: 6

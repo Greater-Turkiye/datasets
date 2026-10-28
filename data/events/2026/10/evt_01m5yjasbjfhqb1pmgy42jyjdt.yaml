@@ -18,6 +18,10 @@ sources:
     title: Humanitarian mission gets underway in Oleshky, Budanov says
     published_at: 2026-10-27T07:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027083207/https://www.ukrinform.net/rubric-ato/4178492-humanitarian-mission-gets-underway-in-oleshky-budanov-says.html
+        captured_at: 2026-10-27T08:32:07Z
 assessment:
   status: unverified
   credibility: 6

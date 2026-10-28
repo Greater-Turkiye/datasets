@@ -24,6 +24,10 @@ sources:
     title: "Zelensky after Russian strike on Kyiv: Delays in air defense support Ukraine enable terrorism"
     published_at: 2026-10-27T05:44Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027122750/https://www.ukrinform.net/rubric-ato/4178448-zelensky-after-russian-strike-on-kyiv-delays-in-air-defense-support-ukraine-enable-terrorism.html
+        captured_at: 2026-10-27T12:27:50Z
 assessment:
   status: unverified
   credibility: 6
