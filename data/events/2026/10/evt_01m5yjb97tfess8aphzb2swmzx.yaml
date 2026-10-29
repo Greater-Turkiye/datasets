@@ -18,6 +18,10 @@ sources:
     title: "Yeni Safak: Turkey not allowing NATO warships to enter Black Sea"
     published_at: 2026-10-27T09:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028224525/https://news.am/en/news/1070573
+        captured_at: 2026-10-28T22:45:25Z
 assessment:
   status: unverified
   credibility: 6

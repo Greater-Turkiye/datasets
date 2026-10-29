@@ -24,6 +24,10 @@ sources:
     title: Russians fabricating ‘successes’ in Velykyi Burluk area, military spox says
     published_at: 2026-10-27T12:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261027161713/https://www.ukrinform.net/rubric-ato/4178616-russians-fabricating-successes-in-velykyi-burluk-area-military-spox-says.html
+        captured_at: 2026-10-27T16:17:13Z
 assessment:
   status: unverified
   credibility: 6

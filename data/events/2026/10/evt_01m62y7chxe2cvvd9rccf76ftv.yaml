@@ -1,0 +1,27 @@
+id: evt_01m62y7chxe2cvvd9rccf76ftv
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: Oleshky ateşkesi, İnsani Umutların Rusya Sınır Dışı Edilme Korkusuyla Çarpıştığı Üçüncü Güne Girdi
+  en: Oleshky Truce Enters Third Day As Humanitarian Hopes Collide With Russia Deportation Fears
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-29T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-29T01:17Z
+regions: [black-sea]
+sources:
+  - url: https://www.rferl.org/a/oleshky-ukraine-russia-melania-trump-ceasefire/33886379.html
+    title: Oleshky Truce Enters Third Day As Humanitarian Hopes Collide With Russia Deportation Fears
+    published_at: 2026-10-29T01:17Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rferl-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rferl-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

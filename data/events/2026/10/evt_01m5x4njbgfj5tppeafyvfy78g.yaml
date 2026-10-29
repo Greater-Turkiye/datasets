@@ -18,6 +18,10 @@ sources:
     title: Russia And Iran Expand Nuclear Cooperation As International Oversight Weakens
     published_at: 2026-10-26T16:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028223102/https://www.rferl.org/a/russia-and-iran-expand-nuclear-cooperation-as-international-oversight-weakens/33883109.html
+        captured_at: 2026-10-28T22:31:02Z
 assessment:
   status: unverified
   credibility: 6

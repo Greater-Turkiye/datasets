@@ -18,6 +18,10 @@ sources:
     title: Exercise Phoenix Express 2026 begins in Tunisia
     published_at: 2026-09-07T14:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029042130/https://www.c6f.navy.mil/Press-Room/News/Article/4591788/exercise-phoenix-express-2026-begins-in-tunisia/
+        captured_at: 2026-10-29T04:21:30Z
 assessment:
   status: unverified
   credibility: 6
