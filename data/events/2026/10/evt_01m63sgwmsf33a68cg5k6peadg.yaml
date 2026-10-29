@@ -1,0 +1,27 @@
+id: evt_01m63sgwmsf33a68cg5k6peadg
+schema: event/1
+event_type: policy.defense
+title:
+  tr: Polonya, Ukrayna'ya iki MiG -29 savaş uçağı daha gönderecek
+  en: Poland to transfer two more MiG-29 fighter jets to Ukraine
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-29T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-29T11:12Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4179333-poland-to-transfer-two-more-mig29-fighter-jets-to-ukraine.html
+    title: Poland to transfer two more MiG-29 fighter jets to Ukraine
+    published_at: 2026-10-29T11:12Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

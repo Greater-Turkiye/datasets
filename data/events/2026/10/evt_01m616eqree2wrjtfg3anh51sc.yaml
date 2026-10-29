@@ -24,6 +24,10 @@ sources:
     title: Injury toll from Russian attack on Kharkiv rises to five
     published_at: 2026-10-28T05:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028073115/https://www.ukrinform.net/rubric-ato/4178806-injury-toll-from-russian-attack-on-kharkiv-rises-to-five.html
+        captured_at: 2026-10-28T07:31:15Z
 assessment:
   status: unverified
   credibility: 6

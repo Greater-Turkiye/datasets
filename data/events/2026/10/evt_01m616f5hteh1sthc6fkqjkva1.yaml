@@ -18,6 +18,10 @@ sources:
     title: Air defenses neutralize 71 Russian drones overnight
     published_at: 2026-10-28T06:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028093141/https://www.ukrinform.net/rubric-ato/4178816-air-defenses-neutralize-71-russian-drones-overnight.html
+        captured_at: 2026-10-28T09:31:41Z
 assessment:
   status: unverified
   credibility: 6

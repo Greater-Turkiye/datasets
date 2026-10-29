@@ -18,6 +18,10 @@ sources:
     title: Threat to Sloviansk-Kramatorsk agglomeration persists despite success of Vivaldi operation – DeepState
     published_at: 2026-10-27T19:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028091116/https://www.ukrinform.net/rubric-ato/4178766-threat-to-slovianskkramatorsk-agglomeration-persists-despite-success-of-vivaldi-operation-deepstate.html
+        captured_at: 2026-10-28T09:11:16Z
 assessment:
   status: unverified
   credibility: 6

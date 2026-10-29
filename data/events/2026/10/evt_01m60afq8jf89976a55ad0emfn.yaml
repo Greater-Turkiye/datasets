@@ -18,6 +18,10 @@ sources:
     title: "World News in Brief: ‘No safe place in Ukraine’, IAEA calls for Iran nuclear inspections, Kenya hosts thousands of Ethiopians fleeing clashes"
     published_at: 2026-10-27T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029123214/https://news.un.org/feed/view/en/story/2026/10/1168682
+        captured_at: 2026-10-29T12:32:14Z
 assessment:
   status: unverified
   credibility: 6

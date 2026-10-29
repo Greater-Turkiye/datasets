@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Zaporizhzhia region 846 times over past 24 hours, two injured
     published_at: 2026-10-28T05:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028074709/https://www.ukrinform.net/rubric-ato/4178811-russian-forces-strike-zaporizhzhia-region-846-times-over-past-24-hours-two-injured.html
+        captured_at: 2026-10-28T07:47:09Z
 assessment:
   status: unverified
   credibility: 6

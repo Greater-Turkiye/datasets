@@ -24,6 +24,10 @@ sources:
     title: Rescuers in Kramatorsk come under second Russian attack
     published_at: 2026-10-27T13:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029122333/https://www.ukrinform.net/rubric-ato/4178655-rescuers-in-kramatorsk-come-under-second-russian-attack.html
+        captured_at: 2026-10-29T12:23:33Z
 assessment:
   status: unverified
   credibility: 6
