@@ -24,6 +24,10 @@ sources:
     title: On October 27, Vladimir Putin will take part in GECF Summit in Moscow
     published_at: 2026-10-26T14:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029223638/http://en.kremlin.ru/events/president/news/81089
+        captured_at: 2026-10-29T22:36:38Z
 assessment:
   status: unverified
   credibility: 6

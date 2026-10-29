@@ -18,6 +18,10 @@ sources:
     title: "War update: Over 190 clashes on front lines in past day, most Russian attacks on Pokrovsk axis"
     published_at: 2026-10-28T07:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029230315/https://www.ukrinform.net/rubric-ato/4178822-war-update-over-190-clashes-on-front-lines-in-past-day-most-russian-attacks-on-pokrovsk-axis.html
+        captured_at: 2026-10-29T23:03:15Z
 assessment:
   status: unverified
   credibility: 6

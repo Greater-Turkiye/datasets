@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Ukraine receives average of just 12 Patriot missiles per month this year"
     published_at: 2026-10-28T07:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028143119/https://www.ukrinform.net/rubric-ato/4178835-zelensky-ukraine-receives-average-of-just-12-patriot-missiles-per-month-this-year.html
+        captured_at: 2026-10-28T14:31:19Z
 assessment:
   status: unverified
   credibility: 6

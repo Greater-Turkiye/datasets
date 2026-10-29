@@ -18,6 +18,10 @@ sources:
     title: US may resume strikes on Iran after midterm elections, sources say
     published_at: 2026-10-28T06:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029230148/https://news.am/en/news/1070810
+        captured_at: 2026-10-29T23:01:48Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Bloomberg: EU discussing defense reinforcement after Starlink satellite system problems in Ukraine"
     published_at: 2026-10-28T07:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029230510/https://news.am/en/news/1070823
+        captured_at: 2026-10-29T23:05:10Z
 assessment:
   status: unverified
   credibility: 6

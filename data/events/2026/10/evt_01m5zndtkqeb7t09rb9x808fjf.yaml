@@ -24,6 +24,10 @@ sources:
     title: Holding Debate over Iran Sanctions, Security Council Contests Expiry Status, Continuing Nuclear Programme
     published_at: 2026-10-27T20:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029225213/https://press.un.org/en/2026/sc16491.doc.htm
+        captured_at: 2026-10-29T22:52:13Z
 assessment:
   status: unverified
   credibility: 6
