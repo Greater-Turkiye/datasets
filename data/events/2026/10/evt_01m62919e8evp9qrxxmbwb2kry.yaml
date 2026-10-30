@@ -18,6 +18,10 @@ sources:
     title: Russian marketplace Ozon estimates losses from drone attacks on warehouses at over 30 billion rubles
     published_at: 2026-10-28T12:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028144725/https://www.ukrinform.net/rubric-ato/4178991-russian-marketplace-ozon-estimates-losses-from-drone-attacks-on-warehouses-at-over-30-billion-rubles.html
+        captured_at: 2026-10-28T14:47:25Z
 assessment:
   status: unverified
   credibility: 6

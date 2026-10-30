@@ -18,6 +18,10 @@ sources:
     title: Three Russian air defense assets hit over past 24 hours, General Staff says
     published_at: 2026-10-28T12:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028154504/https://www.ukrinform.net/rubric-ato/4178981-three-russian-air-defense-assets-hit-over-past-24-hours-general-staff-says.html
+        captured_at: 2026-10-28T15:45:04Z
 assessment:
   status: unverified
   credibility: 6

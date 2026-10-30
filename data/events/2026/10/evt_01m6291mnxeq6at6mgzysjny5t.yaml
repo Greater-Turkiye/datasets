@@ -18,6 +18,10 @@ sources:
     title: Ukraine may return to nighttime lights-out measures due to new Russian drones – 'Flash'
     published_at: 2026-10-28T15:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028154501/https://www.ukrinform.net/rubric-ato/4179062-ukraine-may-return-to-nighttime-lightsout-measures-due-to-new-russian-drones-flash.html
+        captured_at: 2026-10-28T15:45:01Z
 assessment:
   status: unverified
   credibility: 6

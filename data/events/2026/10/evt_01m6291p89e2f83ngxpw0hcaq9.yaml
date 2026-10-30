@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Ukrnafta gas station in Dnipropetrovsk region
     published_at: 2026-10-28T15:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028174612/https://www.ukrinform.net/rubric-ato/4179072-russian-forces-attack-ukrnafta-gas-station-in-dnipropetrovsk-region.html
+        captured_at: 2026-10-28T17:46:12Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Armenia defense minister announces new information on reservist trainings
     published_at: 2026-10-28T12:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030043750/https://news.am/en/news/1070961
+        captured_at: 2026-10-30T04:37:50Z
 assessment:
   status: unverified
   credibility: 6

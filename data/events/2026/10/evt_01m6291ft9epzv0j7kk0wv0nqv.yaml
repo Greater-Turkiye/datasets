@@ -24,6 +24,10 @@ sources:
     title: Ukrainian, Russian forces observing ceasefire in Oleshky – Lubinets
     published_at: 2026-10-28T13:49Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028154607/https://www.ukrinform.net/rubric-ato/4179022-ukrainian-russian-forces-observing-ceasefire-in-oleshky-lubinets.html
+        captured_at: 2026-10-28T15:46:07Z
 assessment:
   status: unverified
   credibility: 6

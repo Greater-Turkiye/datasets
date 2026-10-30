@@ -24,10 +24,18 @@ sources:
     title: Russian forces strike Kharkiv, killing one and injuring three
     published_at: 2026-10-28T12:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028193118/https://www.ukrinform.net/rubric-ato/4178995-russian-forces-strike-kharkiv-killing-one-and-injuring-two-others.html
+        captured_at: 2026-10-28T19:31:18Z
   - url: https://www.ukrinform.net/rubric-ato/4179173-russian-strike-damages-veterinary-center-in-chernihiv-killing-dog-and-injuring-three-women.html
     title: Russian strike damages veterinary center in Chernihiv, killing dog and injuring three women
     published_at: 2026-10-28T20:33Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029103521/https://www.ukrinform.net/rubric-ato/4179173-russian-strike-damages-veterinary-center-in-chernihiv-killing-dog-and-injuring-three-women.html
+        captured_at: 2026-10-29T10:35:21Z
 assessment:
   status: unverified
   credibility: 6

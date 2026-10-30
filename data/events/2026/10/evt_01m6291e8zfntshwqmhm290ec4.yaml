@@ -18,6 +18,10 @@ sources:
     title: "Russia's war against Ukraine is costing more and achieving less: UK statement to the FSC"
     published_at: 2026-10-28T13:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029093617/https://www.gov.uk/government/speeches/russias-war-against-ukraine-is-costing-more-and-achieving-less-uk-statement-to-the-fsc
+        captured_at: 2026-10-29T09:36:17Z
 assessment:
   status: unverified
   credibility: 6

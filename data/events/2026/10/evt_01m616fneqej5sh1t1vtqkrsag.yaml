@@ -18,6 +18,10 @@ sources:
     title: Ukraine has found a way to respond to Russian attacks on data centers, Zelensky says
     published_at: 2026-10-28T10:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028154617/https://www.ukrinform.net/rubric-ato/4178931-ukraine-has-found-a-way-to-respond-to-russian-attacks-on-data-centers-zelensky-says.html
+        captured_at: 2026-10-28T15:46:17Z
 assessment:
   status: unverified
   credibility: 6
