@@ -1,0 +1,27 @@
+id: evt_01m66bbe1ce5eb90pvnrazv0eh
+schema: event/1
+event_type: diplomatic.talks
+title:
+  tr: Güvenlik Konseyi, 10258. Toplantı (AM) Bosna - Hersek
+  en: Security Council, 10258th Meeting (AM) Bosnia and Herzegovina
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-30T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-30T10:39Z
+regions: [balkans]
+sources:
+  - url: https://press.un.org/en/blog/sc16496
+    title: Security Council, 10258th Meeting (AM) Bosnia and Herzegovina
+    published_at: 2026-10-30T10:39Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: un-press-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: un-press-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

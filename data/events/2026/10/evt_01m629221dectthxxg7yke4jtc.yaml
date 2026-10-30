@@ -24,6 +24,10 @@ sources:
     title: Russian strike sparks fire at factory in Dnipro
     published_at: 2026-10-28T18:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029103522/https://www.ukrinform.net/rubric-ato/4179154-russian-strike-sparks-fire-at-factory-in-dnipro.html
+        captured_at: 2026-10-29T10:35:22Z
 assessment:
   status: unverified
   credibility: 6

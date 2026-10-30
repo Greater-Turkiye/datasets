@@ -18,6 +18,10 @@ sources:
     title: "War update: 181 combat clashes on front line, Pokrovsk axis sees fiercest fighting"
     published_at: 2026-10-28T21:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029151425/https://www.ukrinform.net/rubric-ato/4179181-war-update-181-combat-clashes-on-front-line-pokrovsk-axis-sees-fiercest-fighting.html
+        captured_at: 2026-10-29T15:14:25Z
 assessment:
   status: unverified
   credibility: 6

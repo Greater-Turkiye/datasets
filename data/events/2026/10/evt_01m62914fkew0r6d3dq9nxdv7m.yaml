@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s indigenous ballistic missiles could put Russia’s best-defended targets at risk, Turkish expert says
     published_at: 2026-10-28T11:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030043531/https://www.ukrinform.net/rubric-ato/4178977-ukraines-indigenous-ballistic-missiles-could-put-russias-bestdefended-targets-at-risk-turkish-expert-says.html
+        captured_at: 2026-10-30T04:35:31Z
 assessment:
   status: unverified
   credibility: 6

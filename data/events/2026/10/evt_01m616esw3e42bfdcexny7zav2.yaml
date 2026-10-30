@@ -18,6 +18,10 @@ sources:
     title: Oil prices rising amid reports of new Houthi strikes on Saudi Arabia
     published_at: 2026-10-28T05:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030042704/https://news.am/en/news/1070820
+        captured_at: 2026-10-30T04:27:04Z
 assessment:
   status: unverified
   credibility: 6

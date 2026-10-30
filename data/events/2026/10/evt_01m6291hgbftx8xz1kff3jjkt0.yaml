@@ -24,6 +24,10 @@ sources:
     title: Meeting with heads of African regional organisations
     published_at: 2026-10-28T14:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030121914/http://en.kremlin.ru/events/president/news/81107
+        captured_at: 2026-10-30T12:19:14Z
 assessment:
   status: unverified
   credibility: 6

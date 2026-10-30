@@ -24,6 +24,10 @@ sources:
     title: Gala reception in honour of participants in third Russia–Africa Summit
     published_at: 2026-10-28T17:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030121913/http://en.kremlin.ru/events/president/news/81111
+        captured_at: 2026-10-30T12:19:13Z
 assessment:
   status: unverified
   credibility: 6

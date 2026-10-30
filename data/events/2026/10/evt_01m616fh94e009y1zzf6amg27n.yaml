@@ -24,6 +24,10 @@ sources:
     title: Iraqi PM dismisses four officers over US flag incident
     published_at: 2026-10-28T08:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030042925/https://shafaq.com/en/Security/Iraqi-PM-dismisses-four-officers-over-US-flag-incident
+        captured_at: 2026-10-30T04:29:25Z
 assessment:
   status: unverified
   credibility: 6

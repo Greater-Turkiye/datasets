@@ -24,6 +24,10 @@ sources:
     title: Drone attack targets Moscow, prompting airport restrictions
     published_at: 2026-10-29T05:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029081605/https://www.ukrinform.net/rubric-ato/4179209-drone-attack-targets-moscow-prompting-airport-restrictions.html
+        captured_at: 2026-10-29T08:16:05Z
 assessment:
   status: unverified
   credibility: 6

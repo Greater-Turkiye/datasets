@@ -24,6 +24,10 @@ sources:
     title: "'Life On Every Street': Ukrainians In Kherson Welcome Cease-Fire In Nearby Oleshky"
     published_at: 2026-10-29T00:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030123048/https://www.rferl.org/a/ukraine-kherson-oleshky-cease-fire/33886202.html
+        captured_at: 2026-10-30T12:30:48Z
 assessment:
   status: unverified
   credibility: 6

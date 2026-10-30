@@ -24,6 +24,10 @@ sources:
     title: Meeting with Prime Minister of Ethiopia Abiy Ahmed
     published_at: 2026-10-28T19:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030123524/http://en.kremlin.ru/events/president/news/81112
+        captured_at: 2026-10-30T12:35:24Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Possible US strikes on Iran in November could last several days, media report
     published_at: 2026-10-29T06:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030124057/https://news.am/en/news/1071089
+        captured_at: 2026-10-30T12:40:57Z
 assessment:
   status: unverified
   credibility: 6

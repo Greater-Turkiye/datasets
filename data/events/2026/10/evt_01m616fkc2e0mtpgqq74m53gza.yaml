@@ -24,6 +24,10 @@ sources:
     title: Serbia Raises Terror Alert After Attack on Israeli Embassy
     published_at: 2026-10-28T09:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030043142/https://balkaninsight.com/2026/10/28/serbia-raises-terror-alert-after-attack-on-israeli-embassy/bi/
+        captured_at: 2026-10-30T04:31:42Z
 assessment:
   status: unverified
   credibility: 6

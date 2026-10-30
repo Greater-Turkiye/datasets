@@ -24,6 +24,10 @@ sources:
     title: Russian attacks target four districts in Dnipropetrovsk region, injuring five people
     published_at: 2026-10-28T17:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261028193115/https://www.ukrinform.net/rubric-ato/4179125-russian-attacks-target-four-districts-in-dnipropetrovsk-region-injuring-five-people.html
+        captured_at: 2026-10-28T19:31:15Z
 assessment:
   status: unverified
   credibility: 6
