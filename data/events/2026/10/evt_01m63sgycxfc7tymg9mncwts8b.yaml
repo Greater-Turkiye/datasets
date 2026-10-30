@@ -24,6 +24,10 @@ sources:
     title: Two dead as Russian drone hits apartment building in Kremenchuk
     published_at: 2026-10-29T11:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029130112/https://www.ukrinform.net/rubric-ato/4179336-two-dead-as-russian-drone-hits-apartment-building-in-kremenchuk.html
+        captured_at: 2026-10-29T13:01:12Z
 assessment:
   status: unverified
   credibility: 6

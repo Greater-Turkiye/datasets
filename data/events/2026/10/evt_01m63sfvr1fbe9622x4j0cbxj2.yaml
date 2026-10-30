@@ -18,6 +18,10 @@ sources:
     title: Military personnel can order NRK amphibious vehicles through Brave1 Market
     published_at: 2026-10-29T04:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030123639/https://www.ukrinform.net/rubric-ato/4179207-military-personnel-can-order-nrk-amphibious-vehicles-through-brave1-market.html
+        captured_at: 2026-10-30T12:36:39Z
 assessment:
   status: unverified
   credibility: 6

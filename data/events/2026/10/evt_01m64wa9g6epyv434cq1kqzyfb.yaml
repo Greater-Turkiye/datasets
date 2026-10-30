@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces strike Russian drone depots, fuel storage site, drone launch site
     published_at: 2026-10-29T11:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029140131/https://www.ukrinform.net/rubric-ato/4179348-ukrainian-forces-strike-russian-drone-depots-fuel-storage-site-drone-launch-site.html
+        captured_at: 2026-10-29T14:01:31Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Kosovo Protesters Demand Ministerial, Judicial Resignations After Latest Femicide
     published_at: 2026-10-28T17:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030122640/https://balkaninsight.com/2026/10/28/kosovo-protesters-demand-ministerial-judicial-resignations-after-latest-femicide/bi/
+        captured_at: 2026-10-30T12:26:40Z
 assessment:
   status: unverified
   credibility: 6

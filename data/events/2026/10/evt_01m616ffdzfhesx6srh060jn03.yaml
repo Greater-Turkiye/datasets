@@ -18,6 +18,10 @@ sources:
     title: Armenia, Slovenia sign memorandum of understanding (VIDEO)
     published_at: 2026-10-28T08:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030121536/https://news.am/en/news/1070856
+        captured_at: 2026-10-30T12:15:36Z
 assessment:
   status: unverified
   credibility: 6

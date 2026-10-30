@@ -24,6 +24,10 @@ sources:
     title: Russian FPV drone strikes bus in central Zaporizhzhia, injuring four
     published_at: 2026-10-29T09:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029101721/https://www.ukrinform.net/rubric-ato/4179281-russian-fpv-drone-strikes-bus-in-central-zaporizhzhia-injuring-four.html
+        captured_at: 2026-10-29T10:17:21Z
 assessment:
   status: unverified
   credibility: 6

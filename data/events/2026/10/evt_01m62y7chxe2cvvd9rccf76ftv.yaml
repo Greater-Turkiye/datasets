@@ -18,6 +18,10 @@ sources:
     title: Oleshky Truce Enters Third Day As Humanitarian Hopes Collide With Russia Deportation Fears
     published_at: 2026-10-29T01:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030123210/https://www.rferl.org/a/oleshky-ukraine-russia-melania-trump-ceasefire/33886379.html
+        captured_at: 2026-10-30T12:32:10Z
 assessment:
   status: unverified
   credibility: 6

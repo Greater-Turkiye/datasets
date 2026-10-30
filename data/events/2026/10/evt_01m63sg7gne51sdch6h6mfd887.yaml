@@ -18,6 +18,10 @@ sources:
     title: Those admitted to Armenia interior ministry education institution, then serve in the ministry to be exempted from compulsory military service
     published_at: 2026-10-29T07:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030220203/https://news.am/en/news/1071116
+        captured_at: 2026-10-30T22:02:03Z
 assessment:
   status: unverified
   credibility: 6

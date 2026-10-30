@@ -24,6 +24,10 @@ sources:
     title: Third Russia – Africa Summit
     published_at: 2026-10-29T07:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030155225/http://en.kremlin.ru/events/president/news/81113
+        captured_at: 2026-10-30T15:52:25Z
 assessment:
   status: unverified
   credibility: 6

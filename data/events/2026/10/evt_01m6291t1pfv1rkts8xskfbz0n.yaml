@@ -18,6 +18,10 @@ sources:
     title: Беседа с Президентом Египта Абдельфаттахом Сиси
     published_at: 2026-10-28T15:50Z
     lang: ru
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030122037/http://kremlin.ru/events/president/news/81110
+        captured_at: 2026-10-30T12:20:37Z
 assessment:
   status: unverified
   credibility: 6

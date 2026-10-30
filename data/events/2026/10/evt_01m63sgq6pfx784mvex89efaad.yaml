@@ -18,6 +18,10 @@ sources:
     title: No ceasefire violations in Oleshky, humanitarian aid delivery planned for Friday – Lubinets
     published_at: 2026-10-29T10:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029114432/https://www.ukrinform.net/rubric-ato/4179314-no-ceasefire-violations-in-oleshky-humanitarian-aid-delivery-planned-for-friday-lubinets.html
+        captured_at: 2026-10-29T11:44:32Z
 assessment:
   status: unverified
   credibility: 6

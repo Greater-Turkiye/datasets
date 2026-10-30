@@ -18,6 +18,10 @@ sources:
     title: Poland to transfer two more MiG-29 fighter jets to Ukraine
     published_at: 2026-10-29T11:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029140131/https://www.ukrinform.net/rubric-ato/4179333-poland-to-transfer-two-more-mig29-fighter-jets-to-ukraine.html
+        captured_at: 2026-10-29T14:01:31Z
 assessment:
   status: unverified
   credibility: 6

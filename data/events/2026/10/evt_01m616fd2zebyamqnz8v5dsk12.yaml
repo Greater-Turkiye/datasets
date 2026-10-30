@@ -18,6 +18,10 @@ sources:
     title: Russian airstrike on Sloviansk city center injures one person
     published_at: 2026-10-28T07:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030121352/https://www.ukrinform.net/rubric-ato/4178839-russian-airstrike-on-sloviansk-city-center-injures-one-person.html
+        captured_at: 2026-10-30T12:13:52Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Security Council, 10255th Meeting (AM & PM) Maritime Security and Emerging Technologies
     published_at: 2026-10-29T10:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030220450/https://press.un.org/en/blog/sc16493
+        captured_at: 2026-10-30T22:04:50Z
 assessment:
   status: unverified
   credibility: 6
