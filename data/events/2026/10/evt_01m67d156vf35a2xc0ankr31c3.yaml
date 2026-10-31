@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes building in center of Novhorod-Siverskyi
     published_at: 2026-10-30T12:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030134632/https://www.ukrinform.net/rubric-ato/4179743-russian-drone-strikes-building-in-center-of-novhorodsiverskyi.html
+        captured_at: 2026-10-30T13:46:32Z
 assessment:
   status: unverified
   credibility: 6

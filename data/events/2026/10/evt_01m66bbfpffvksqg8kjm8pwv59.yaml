@@ -24,10 +24,18 @@ sources:
     title: Russian forces strike Dnipro again
     published_at: 2026-10-30T10:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030181310/https://www.ukrinform.net/rubric-ato/4179713-russian-forces-strike-dnipro-again.html
+        captured_at: 2026-10-30T18:13:10Z
   - url: https://www.ukrinform.net/rubric-ato/4179717-russian-forces-strike-facility-in-chernihiv.html
     title: Russian forces strike facility in Chernihiv
     published_at: 2026-10-30T10:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030123218/https://www.ukrinform.net/rubric-ato/4179717-russian-forces-strike-facility-in-chernihiv.html
+        captured_at: 2026-10-30T12:32:18Z
 assessment:
   status: unverified
   credibility: 6

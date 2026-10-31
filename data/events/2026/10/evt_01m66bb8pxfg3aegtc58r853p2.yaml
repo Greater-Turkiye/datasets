@@ -18,6 +18,10 @@ sources:
     title: Humanitarian aid being delivered to Oleshky, 25 buses with 750 seats ready for evacuation – Lubinets
     published_at: 2026-10-30T09:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030154713/https://www.ukrinform.net/rubric-ato/4179663-humanitarian-aid-being-delivered-to-oleshky-25-buses-with-750-seats-ready-for-evacuation-lubinets.html
+        captured_at: 2026-10-30T15:47:13Z
 assessment:
   status: unverified
   credibility: 6

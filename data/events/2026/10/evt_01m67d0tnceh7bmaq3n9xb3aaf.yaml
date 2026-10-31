@@ -24,6 +24,10 @@ sources:
     title: Defense forces strike Iskander-M launcher in Russia’s Kursk region
     published_at: 2026-10-30T11:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030141615/https://www.ukrinform.net/rubric-ato/4179725-defense-forces-strike-iskanderm-launcher-in-russias-kursk-region.html
+        captured_at: 2026-10-30T14:16:15Z
 assessment:
   status: unverified
   credibility: 6

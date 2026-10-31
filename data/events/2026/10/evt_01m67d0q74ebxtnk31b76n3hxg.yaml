@@ -24,6 +24,10 @@ sources:
     title: Meeting with President of Ghana John Dramani Mahama
     published_at: 2026-10-30T11:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031114705/http://en.kremlin.ru/events/president/news/81124
+        captured_at: 2026-10-31T11:47:05Z
 assessment:
   status: unverified
   credibility: 6

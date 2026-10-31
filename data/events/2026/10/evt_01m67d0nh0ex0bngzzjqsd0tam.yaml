@@ -24,6 +24,10 @@ sources:
     title: Humanitarian aid reaches residents of Oleshky
     published_at: 2026-10-30T11:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030134633/https://www.ukrinform.net/rubric-ato/4179720-humanitarian-aid-reaches-residents-of-oleshky.html
+        captured_at: 2026-10-30T13:46:33Z
 assessment:
   status: unverified
   credibility: 6

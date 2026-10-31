@@ -18,6 +18,10 @@ sources:
     title: No ceasefire violations reported in Oleshky over past 75 hours – Lubinets
     published_at: 2026-10-30T09:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030110208/https://www.ukrinform.net/rubric-ato/4179675-no-ceasefire-violations-reported-in-oleshky-over-past-75-hours-lubinets.html
+        captured_at: 2026-10-30T11:02:08Z
 assessment:
   status: unverified
   credibility: 6

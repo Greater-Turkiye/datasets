@@ -24,6 +24,10 @@ sources:
     title: Meeting with Chairman of the Sovereignty Council of Sudan Abdel Fattah al-Burhan
     published_at: 2026-10-30T08:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030200833/http://en.kremlin.ru/events/president/news/81122
+        captured_at: 2026-10-30T20:08:33Z
 assessment:
   status: unverified
   credibility: 6

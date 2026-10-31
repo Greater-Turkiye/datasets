@@ -18,6 +18,10 @@ sources:
     title: Security Council, 10258th Meeting (AM) Bosnia and Herzegovina
     published_at: 2026-10-30T10:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031210348/https://press.un.org/en/blog/sc16496
+        captured_at: 2026-10-31T21:03:48Z
 assessment:
   status: unverified
   credibility: 6
