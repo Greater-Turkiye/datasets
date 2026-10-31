@@ -18,6 +18,10 @@ sources:
     title: ‘The Future of Sudan’s People Cannot Be Built on Impunity’, Third Committee Hears, as Experts Warn of Deadly Repression in Iran, Afghanistan
     published_at: 2026-10-28T23:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031041341/https://press.un.org/en/2026/gashc4452.doc.htm
+        captured_at: 2026-10-31T04:13:41Z
 assessment:
   status: unverified
   credibility: 6

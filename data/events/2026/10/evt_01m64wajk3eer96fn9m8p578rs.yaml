@@ -18,6 +18,10 @@ sources:
     title: Iran says it shot down 2 US drones near Hormuz strait
     published_at: 2026-10-29T13:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031042920/https://news.am/en/news/1071260
+        captured_at: 2026-10-31T04:29:20Z
 assessment:
   status: unverified
   credibility: 6

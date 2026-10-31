@@ -24,6 +24,10 @@ sources:
     title: Russian forces again target public transport in Zaporizhzhia, injuring civilians
     published_at: 2026-10-29T13:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029190209/https://www.ukrinform.net/rubric-ato/4179410-russian-forces-again-target-public-transport-in-zaporizhzhia-injuring-civilians.html
+        captured_at: 2026-10-29T19:02:09Z
 assessment:
   status: unverified
   credibility: 6

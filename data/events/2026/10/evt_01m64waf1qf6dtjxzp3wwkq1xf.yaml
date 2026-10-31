@@ -24,6 +24,10 @@ sources:
     title: Russian drone attack on central Chernihiv kills two teenage girls, injures 11
     published_at: 2026-10-29T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029130111/https://www.ukrinform.net/rubric-ato/4179356-russian-drone-attack-on-central-chernihiv-kills-two-teenage-girls-injures-11.html
+        captured_at: 2026-10-29T13:01:11Z
 assessment:
   status: unverified
   credibility: 6

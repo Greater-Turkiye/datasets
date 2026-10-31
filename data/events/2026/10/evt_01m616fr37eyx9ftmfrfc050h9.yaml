@@ -18,6 +18,10 @@ sources:
     title: Russian forces step up assaults on Huliaipole axis, National Guard says
     published_at: 2026-10-28T11:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030215946/https://www.ukrinform.net/rubric-ato/4178950-russian-forces-step-up-assaults-on-huliaipole-axis-national-guard-says.html
+        captured_at: 2026-10-30T21:59:46Z
 assessment:
   status: unverified
   credibility: 6

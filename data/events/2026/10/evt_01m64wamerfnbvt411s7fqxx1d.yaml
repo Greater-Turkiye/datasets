@@ -18,6 +18,10 @@ sources:
     title: Russian missile strike on Lozova injures six people
     published_at: 2026-10-29T13:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031042120/https://www.ukrinform.net/rubric-ato/4179405-russian-missile-strike-on-lozova-injures-six-people.html
+        captured_at: 2026-10-31T04:21:20Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Flash: Russia produces more ballistic missiles than the entire world produces Patriot missiles"
     published_at: 2026-10-29T14:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029170231/https://www.ukrinform.net/rubric-ato/4179430-flash-russia-produces-more-ballistic-missiles-than-the-entire-world-produces-patriot-missiles.html
+        captured_at: 2026-10-29T17:02:31Z
 assessment:
   status: unverified
   credibility: 6

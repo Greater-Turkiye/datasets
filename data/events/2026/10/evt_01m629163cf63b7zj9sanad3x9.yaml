@@ -24,6 +24,10 @@ sources:
     title: Civilians in Sudan’s El Obeid trapped between drones and incarceration
     published_at: 2026-10-28T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031040839/https://news.un.org/feed/view/en/story/2026/10/1168696
+        captured_at: 2026-10-31T04:08:39Z
 assessment:
   status: unverified
   credibility: 6

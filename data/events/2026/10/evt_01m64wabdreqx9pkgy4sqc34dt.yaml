@@ -24,6 +24,10 @@ sources:
     title: "World News in Brief: 5 children killed in Sudan, Haiti hunger emergency, Yemen war update"
     published_at: 2026-10-29T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031042251/https://news.un.org/feed/view/en/story/2026/10/1168703
+        captured_at: 2026-10-31T04:22:51Z
 assessment:
   status: unverified
   credibility: 6

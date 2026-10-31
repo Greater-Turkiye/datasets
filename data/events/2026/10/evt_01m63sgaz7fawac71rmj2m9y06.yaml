@@ -24,6 +24,10 @@ sources:
     title: Russian forces launch nearly 20 attacks on Dnipropetrovsk region since evening, injuring one person
     published_at: 2026-10-29T07:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030220234/https://www.ukrinform.net/rubric-ato/4179224-russian-forces-launch-nearly-20-attacks-on-dnipropetrovsk-region-since-evening-injuring-one-person.html
+        captured_at: 2026-10-30T22:02:34Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike educational institution in Kharkiv
     published_at: 2026-10-29T05:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031041505/https://www.ukrinform.net/rubric-ato/4179219-russian-forces-strike-educational-institution-in-kharkiv.html
+        captured_at: 2026-10-31T04:15:05Z
 assessment:
   status: unverified
   credibility: 6
