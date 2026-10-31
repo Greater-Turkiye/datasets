@@ -18,6 +18,10 @@ sources:
     title: Private military company destroys more than 60 targets using automated turrets
     published_at: 2026-10-29T16:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031043057/https://www.ukrinform.net/rubric-ato/4179465-private-military-company-destroys-more-than-60-targets-using-automated-turrets.html
+        captured_at: 2026-10-31T04:30:57Z
 assessment:
   status: unverified
   credibility: 6

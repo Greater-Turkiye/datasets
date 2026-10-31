@@ -24,6 +24,10 @@ sources:
     title: "Zelensky: Russian strikes killed 19 people in Dnipro, Chernihiv, Kremenchuk"
     published_at: 2026-10-29T20:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029221710/https://www.ukrinform.net/rubric-ato/4179544-zelensky-russian-strikes-killed-19-people-in-dnipro-chernihiv-kremenchuk.html
+        captured_at: 2026-10-29T22:17:10Z
 assessment:
   status: unverified
   credibility: 6

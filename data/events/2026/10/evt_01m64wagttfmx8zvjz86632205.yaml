@@ -24,6 +24,10 @@ sources:
     title: Death toll from Russian attack on Kremenchuk rises to three, 15 injured
     published_at: 2026-10-29T12:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031043056/https://www.ukrinform.net/rubric-ato/4179371-death-toll-from-russian-attack-on-kremenchuk-rises-to-three-15-injured.html
+        captured_at: 2026-10-31T04:30:56Z
   - url: https://www.ukrinform.net/rubric-ato/4179469-russian-attack-on-kremenchuk-kills-three-and-raises-injury-toll-to-28.html
     title: Russian attack on Kremenchuk kills three and raises injury toll to 28
     published_at: 2026-10-29T17:31Z

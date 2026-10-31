@@ -24,6 +24,10 @@ sources:
     title: Over 460 flights delayed or canceled in Moscow, St. Petersburg amid drone attack – media
     published_at: 2026-10-29T21:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031115431/https://www.ukrinform.net/rubric-ato/4179549-over-460-flights-delayed-or-canceled-in-moscow-st-petersburg-amid-drone-attack-media.html
+        captured_at: 2026-10-31T11:54:31Z
 assessment:
   status: unverified
   credibility: 6

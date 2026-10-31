@@ -18,6 +18,10 @@ sources:
     title: Russia suffers record battlefield losses in October – General Staff
     published_at: 2026-10-29T22:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030013202/https://www.ukrinform.net/rubric-ato/4179308-russia-suffers-record-battlefield-losses-in-october-general-staff.html
+        captured_at: 2026-10-30T01:32:02Z
 assessment:
   status: unverified
   credibility: 6

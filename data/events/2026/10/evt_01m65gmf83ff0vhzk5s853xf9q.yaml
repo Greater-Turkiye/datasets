@@ -24,6 +24,10 @@ sources:
     title: SBU detains driver suspected of directing Russian attacks on Kyiv' regions thermal power plants
     published_at: 2026-10-29T23:46Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030021704/https://www.ukrinform.net/rubric-ato/4179321-sbu-detains-driver-suspected-of-directing-russian-attacks-on-kyiv-regions-thermal-power-plants.html
+        captured_at: 2026-10-30T02:17:04Z
 assessment:
   status: unverified
   credibility: 6

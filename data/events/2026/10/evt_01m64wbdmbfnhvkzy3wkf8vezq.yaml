@@ -24,6 +24,10 @@ sources:
     title: Russian attack on humanitarian mission bus in Zaporizhzhia region kills woman, injures three
     published_at: 2026-10-29T19:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031115436/https://www.ukrinform.net/rubric-ato/4179535-russian-attack-on-humanitarian-mission-bus-in-zaporizhzhia-region-kills-woman-injures-three.html
+        captured_at: 2026-10-31T11:54:36Z
 assessment:
   status: unverified
   credibility: 6

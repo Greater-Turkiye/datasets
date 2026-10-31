@@ -24,6 +24,10 @@ sources:
     title: "Berlin Process Leaders’ Summit 2026: UK statement to the OSCE"
     published_at: 2026-10-29T16:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030121740/https://www.gov.uk/government/speeches/berlin-process-leaders-summit-2026-uk-statement-to-the-osce
+        captured_at: 2026-10-30T12:17:40Z
 assessment:
   status: unverified
   credibility: 6

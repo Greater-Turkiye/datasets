@@ -24,6 +24,10 @@ sources:
     title: Suspected ISIS militants kidnap civilian in Kirkuk’s Hawija
     published_at: 2026-10-29T08:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031041847/https://shafaq.com/en/Security/Suspected-ISIS-militants-kidnap-civilian-in-Kirkuk-s-Hawija
+        captured_at: 2026-10-31T04:18:47Z
 assessment:
   status: unverified
   credibility: 6

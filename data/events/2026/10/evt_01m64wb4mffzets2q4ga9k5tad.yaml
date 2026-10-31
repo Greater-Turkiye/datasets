@@ -18,6 +18,10 @@ sources:
     title: The US Once Called It 'A Slush Fund For Putin.' Now Washington May Lift Sanctions On It.
     published_at: 2026-10-29T17:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030180107/https://www.rferl.org/a/russia-rdif-investment-dmitriev-ukraine-negotiations/33886754.html
+        captured_at: 2026-10-30T18:01:07Z
 assessment:
   status: unverified
   credibility: 6

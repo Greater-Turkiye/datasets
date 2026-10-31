@@ -24,6 +24,10 @@ sources:
     title: Attack on Chernihiv city center leaves two dead and raises injury toll to 25
     published_at: 2026-10-29T16:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029190206/https://www.ukrinform.net/rubric-ato/4179467-attack-on-chernihiv-city-center-leaves-two-dead-and-raises-injury-toll-to-25.html
+        captured_at: 2026-10-29T19:02:06Z
 assessment:
   status: unverified
   credibility: 6

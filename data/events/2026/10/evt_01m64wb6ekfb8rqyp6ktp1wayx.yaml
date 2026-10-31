@@ -24,6 +24,10 @@ sources:
     title: Ukraine strikes Russian airfield with Neptune missiles, two Su-34s destroyed
     published_at: 2026-10-29T18:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261029200241/https://www.ukrinform.net/rubric-ato/4179515-ukraine-strikes-russian-airfield-with-neptune-missiles-two-su34s-destroyed.html
+        captured_at: 2026-10-29T20:02:41Z
 assessment:
   status: unverified
   credibility: 6

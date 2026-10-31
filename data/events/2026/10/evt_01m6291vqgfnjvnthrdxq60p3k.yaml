@@ -24,6 +24,10 @@ sources:
     title: Conversation with President of Egypt Abdel Fattah el-Sisi
     published_at: 2026-10-28T15:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031114703/http://en.kremlin.ru/events/president/news/81110
+        captured_at: 2026-10-31T11:47:03Z
 assessment:
   status: unverified
   credibility: 6

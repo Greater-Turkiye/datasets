@@ -24,6 +24,10 @@ sources:
     title: Iraq confirms YBŞ integration under full federal authority
     published_at: 2026-10-28T11:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031040624/https://shafaq.com/en/Security/Iraq-confirms-YB-integration-under-full-federal-authority
+        captured_at: 2026-10-31T04:06:24Z
 assessment:
   status: unverified
   credibility: 6
