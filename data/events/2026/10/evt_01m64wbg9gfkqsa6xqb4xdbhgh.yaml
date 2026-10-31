@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Intelligence reports Russia preparing new ballistic missile strikes"
     published_at: 2026-10-29T20:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031120640/https://www.ukrinform.net/rubric-ato/4179537-zelensky-intelligence-reports-russia-preparing-new-ballistic-missile-strikes.html
+        captured_at: 2026-10-31T12:06:40Z
 assessment:
   status: unverified
   credibility: 6

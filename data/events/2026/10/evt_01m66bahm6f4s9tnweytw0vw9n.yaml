@@ -24,6 +24,10 @@ sources:
     title: Russian attacks leave over 350,000 without power in Dnipro and surrounding area
     published_at: 2026-10-30T04:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030061709/https://www.ukrinform.net/rubric-ato/4179579-russian-attacks-leave-over-350000-without-power-in-dnipro-and-surrounding-area.html
+        captured_at: 2026-10-30T06:17:09Z
 assessment:
   status: unverified
   credibility: 6

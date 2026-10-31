@@ -18,6 +18,10 @@ sources:
     title: "Admiral Bauer: If Russia attacks, Alliance will fight back to break enemy"
     published_at: 2026-10-29T19:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031130303/https://www.ukrinform.net/rubric-ato/4179528-admiral-bauer-if-russia-attacks-alliance-will-fight-back-to-break-enemy.html
+        captured_at: 2026-10-31T13:03:03Z
 assessment:
   status: unverified
   credibility: 6

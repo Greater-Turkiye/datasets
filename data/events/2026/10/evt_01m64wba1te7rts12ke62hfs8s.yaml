@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike student dormitory in Dnipro, two teenage girls injured
     published_at: 2026-10-29T18:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031120404/https://www.ukrinform.net/rubric-ato/4179523-russian-forces-strike-student-dormitory-in-dnipro-two-teenage-girls-injured.html
+        captured_at: 2026-10-31T12:04:04Z
 assessment:
   status: unverified
   credibility: 6

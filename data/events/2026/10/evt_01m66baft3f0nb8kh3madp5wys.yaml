@@ -18,6 +18,10 @@ sources:
     title: "Military takes control of everything: Flash explains how private air defense works"
     published_at: 2026-10-30T03:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030050157/https://www.ukrinform.net/rubric-ato/4179456-military-takes-control-of-everything-flash-explains-how-private-air-defense-works.html
+        captured_at: 2026-10-30T05:01:57Z
 assessment:
   status: unverified
   credibility: 6

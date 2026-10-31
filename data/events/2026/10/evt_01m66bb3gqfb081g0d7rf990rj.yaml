@@ -24,6 +24,10 @@ sources:
     title: Russian forces launch over 20 attacks on Dnipropetrovsk region overnight
     published_at: 2026-10-30T07:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030090209/https://www.ukrinform.net/rubric-ato/4179624-russian-forces-launch-over-20-attacks-on-dnipropetrovsk-region-overnight.html
+        captured_at: 2026-10-30T09:02:09Z
 assessment:
   status: unverified
   credibility: 6

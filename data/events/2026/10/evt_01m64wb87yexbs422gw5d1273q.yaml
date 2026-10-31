@@ -24,6 +24,10 @@ sources:
     title: Ukrainian, US, Russian representatives arrive at site from which aid will be delivered to Oleshky
     published_at: 2026-10-29T18:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031130313/https://www.ukrinform.net/rubric-ato/4179518-ukrainian-us-russian-representatives-arrive-at-site-from-which-aid-will-be-delivered-to-oleshky.html
+        captured_at: 2026-10-31T13:03:13Z
 assessment:
   status: unverified
   credibility: 6

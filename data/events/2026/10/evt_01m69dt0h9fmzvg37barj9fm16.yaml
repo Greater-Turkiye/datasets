@@ -1,0 +1,27 @@
+id: evt_01m69dt0h9fmzvg37barj9fm16
+schema: event/1
+event_type: deployment.announced
+title:
+  tr: İnsansız Sistem Kuvvetleri, Ekim ayında etkisiz hale getirilen tüm Rus birliklerinin % 40 'ını oluşturabilir
+  en: Unmanned Systems Forces could account for 40% of all Russian troops neutralized in October – Colonel Veres
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-31T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-31T13:00Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4180026-unmanned-systems-forces-could-account-for-40-of-all-russian-troops-neutralized-in-october-veres.html
+    title: Unmanned Systems Forces could account for 40% of all Russian troops neutralized in October – Colonel Veres
+    published_at: 2026-10-31T13:00Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

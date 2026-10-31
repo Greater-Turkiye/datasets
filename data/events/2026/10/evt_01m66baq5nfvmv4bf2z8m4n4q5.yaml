@@ -18,6 +18,10 @@ sources:
     title: Russia’s war casualty toll in Ukraine up by 1,590 over past day
     published_at: 2026-10-30T05:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030074710/https://www.ukrinform.net/rubric-ato/4179586-russias-war-casualty-toll-in-ukraine-up-by-1590-over-past-day.html
+        captured_at: 2026-10-30T07:47:10Z
 assessment:
   status: unverified
   credibility: 6

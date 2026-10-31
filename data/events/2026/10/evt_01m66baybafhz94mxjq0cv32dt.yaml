@@ -18,6 +18,10 @@ sources:
     title: "War update: Over 200 clashes along front line as Russian forces attack in eight sectors"
     published_at: 2026-10-30T07:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030090210/https://www.ukrinform.net/rubric-ato/4179606-war-update-over-200-clashes-along-front-line-as-russian-forces-attack-in-eight-sectors.html
+        captured_at: 2026-10-30T09:02:10Z
 assessment:
   status: unverified
   credibility: 6

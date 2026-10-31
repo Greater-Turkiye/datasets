@@ -24,6 +24,10 @@ sources:
     title: Drones strike Russian oil refinery and military canning plant, media report
     published_at: 2026-10-30T06:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030080156/https://www.ukrinform.net/rubric-ato/4179597-drones-strike-russian-oil-refinery-and-military-canning-plant-media-report.html
+        captured_at: 2026-10-30T08:01:56Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack industrial facility in Kremenchuk district
     published_at: 2026-10-30T04:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030061723/https://www.ukrinform.net/rubric-ato/4179580-russian-forces-attack-industrial-facility-in-kremenchuk-district.html
+        captured_at: 2026-10-30T06:17:23Z
 assessment:
   status: unverified
   credibility: 6
