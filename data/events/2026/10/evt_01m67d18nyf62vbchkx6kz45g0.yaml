@@ -18,6 +18,10 @@ sources:
     title: Evacuations, Humanitarian Mission Begin In Russian-Occupied Ukrainian City Of Oleshky
     published_at: 2026-10-30T13:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101044142/https://www.rferl.org/a/evacuations-humanitarian-mission-begin-in-russian-occupied-ukrainian-city-of-oleshky/33887434.html
+        captured_at: 2026-11-01T04:41:42Z
 assessment:
   status: unverified
   credibility: 6

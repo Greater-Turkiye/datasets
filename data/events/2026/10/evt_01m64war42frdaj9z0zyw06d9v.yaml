@@ -24,6 +24,10 @@ sources:
     title: Russian Drone Strikes Railway Station In Dnipro, Killing At Least 14
     published_at: 2026-10-29T14:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101042408/https://www.rferl.org/a/russian-drone-strikes-railway-station-in-dnipro/33886701.html
+        captured_at: 2026-11-01T04:24:08Z
 assessment:
   status: unverified
   credibility: 6

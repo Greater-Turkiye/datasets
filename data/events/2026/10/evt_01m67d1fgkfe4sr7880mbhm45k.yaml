@@ -24,6 +24,10 @@ sources:
     title: October 31 declared Day of Mourning in Izium as death toll from Russian airstrike rises to five
     published_at: 2026-10-30T14:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030224754/https://www.ukrinform.net/rubric-ato/4179811-october-31-declared-day-of-mourning-in-izium-as-death-toll-from-russian-airstrike-rises-to-five.html
+        captured_at: 2026-10-30T22:47:54Z
 assessment:
   status: unverified
   credibility: 6

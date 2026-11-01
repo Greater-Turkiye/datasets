@@ -24,6 +24,10 @@ sources:
     title: Conversation with Interim President of the Republic of Mali Assimi Goita
     published_at: 2026-10-30T12:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031211153/http://en.kremlin.ru/events/president/news/81125
+        captured_at: 2026-10-31T21:11:53Z
 assessment:
   status: unverified
   credibility: 6

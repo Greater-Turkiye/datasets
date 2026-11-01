@@ -18,6 +18,10 @@ sources:
     title: Armenia Security Council chief to attend CIS colleagues’ meeting in Russia
     published_at: 2026-10-30T11:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031210754/https://news.am/en/news/1071455
+        captured_at: 2026-10-31T21:07:54Z
 assessment:
   status: unverified
   credibility: 6

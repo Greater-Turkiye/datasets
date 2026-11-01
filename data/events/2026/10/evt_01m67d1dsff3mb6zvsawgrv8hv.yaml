@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s SOF ambush enemy in Russia and seize documents
     published_at: 2026-10-30T14:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030201614/https://www.ukrinform.net/rubric-ato/4179800-ukraines-sof-ambush-enemy-in-russia-and-seize-documents.html
+        captured_at: 2026-10-30T20:16:14Z
 assessment:
   status: unverified
   credibility: 6

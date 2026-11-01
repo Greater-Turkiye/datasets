@@ -24,6 +24,10 @@ sources:
     title: Russian strikes on Kyiv kill one, injure another, damage homes and businesses
     published_at: 2026-10-30T06:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101042510/https://www.ukrinform.net/rubric-ato/4179604-russian-strikes-on-kyiv-kill-one-injure-another-damage-homes-and-businesses.html
+        captured_at: 2026-11-01T04:25:10Z
 assessment:
   status: unverified
   credibility: 6

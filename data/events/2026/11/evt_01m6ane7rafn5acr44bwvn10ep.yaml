@@ -1,0 +1,27 @@
+id: evt_01m6ane7rafn5acr44bwvn10ep
+schema: event/1
+event_type: policy.defense
+title:
+  tr: Hava savunması cumartesi günü 122 Rus İHA'sını ve iki Banderol füzesini etkisiz hale getirdi
+  en: Air defense neutralizes 122 Russian drones, two Banderol missiles on Saturday
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-10-31T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-10-31T19:48Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4180121-air-defense-neutralizes-122-russian-drones-two-banderol-missiles-on-saturday.html
+    title: Air defense neutralizes 122 Russian drones, two Banderol missiles on Saturday
+    published_at: 2026-10-31T19:48Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

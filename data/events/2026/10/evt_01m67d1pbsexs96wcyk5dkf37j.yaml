@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Dnipro railway station again, injuring one person
     published_at: 2026-10-30T16:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030193114/https://www.ukrinform.net/rubric-ato/4179850-russian-forces-strike-dnipro-railway-station-again-injuring-one-person.html
+        captured_at: 2026-10-30T19:31:14Z
 assessment:
   status: unverified
   credibility: 6

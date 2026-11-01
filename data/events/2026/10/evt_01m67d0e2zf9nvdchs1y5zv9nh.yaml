@@ -24,6 +24,10 @@ sources:
     title: Conversation with President of the Republic of the Congo Denis Sassou Nguesso
     published_at: 2026-10-29T17:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101043235/http://en.kremlin.ru/events/president/news/81116
+        captured_at: 2026-11-01T04:32:35Z
 assessment:
   status: unverified
   credibility: 6

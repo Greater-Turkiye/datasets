@@ -24,6 +24,10 @@ sources:
     title: Eleven people remain hospitalized after Russian strike on Dnipro railway station
     published_at: 2026-10-30T08:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101042919/https://www.ukrinform.net/rubric-ato/4179627-eleven-people-remain-hospitalized-after-russian-strike-on-dnipro-railway-station.html
+        captured_at: 2026-11-01T04:29:19Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: "Marriage Of Convenience: Russia And Iran Deepen Trade Ties, But Their Partnership Has Limits"
     published_at: 2026-10-30T12:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101044120/https://www.rferl.org/a/russia-iran-deepen-trade-ties-caspian-sea-western-sanctions/33886709.html
+        captured_at: 2026-11-01T04:41:20Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "We support Bosnia and Herzegovina's Euro-Atlantic ambitions, as reflected in the will of the majority of her citizens: UK statement at the UN Security Council"
     published_at: 2026-10-30T15:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031105008/https://www.gov.uk/government/speeches/we-support-bosnia-and-herzegovinas-euro-atlantic-ambitions-as-reflected-in-the-will-of-the-majority-of-her-citizens-uk-statement-at-the-un-security-co
+        captured_at: 2026-10-31T10:50:08Z
 assessment:
   status: unverified
   credibility: 6
