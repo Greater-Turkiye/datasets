@@ -18,6 +18,10 @@ sources:
     title: Meeting with President of the Democratic Republic of the Congo Felix Tshisekedi
     published_at: 2026-10-30T16:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101043235/http://en.kremlin.ru/events/president/news/81129
+        captured_at: 2026-11-01T04:32:35Z
 assessment:
   status: unverified
   credibility: 6

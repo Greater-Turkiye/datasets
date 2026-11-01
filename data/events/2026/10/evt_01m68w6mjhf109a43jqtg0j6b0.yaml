@@ -18,6 +18,10 @@ sources:
     title: Russian forces using mercenaries form Africa and Asia in assaults on Huliaipole front – military
     published_at: 2026-10-31T08:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031124703/https://www.ukrinform.net/rubric-ato/4179966-russian-forces-using-mercenaries-form-africa-and-asia-in-assaults-on-huliaipole-front-military.html
+        captured_at: 2026-10-31T12:47:03Z
 assessment:
   status: unverified
   credibility: 6

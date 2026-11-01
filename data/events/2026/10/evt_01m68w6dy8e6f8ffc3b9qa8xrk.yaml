@@ -24,6 +24,10 @@ sources:
     title: Casualties reported as Russian forces attack Dnipropetrovsk region overnight
     published_at: 2026-10-31T06:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031075624/https://www.ukrinform.net/rubric-ato/4179952-casualties-reported-as-russian-forces-attack-dnipropetrovsk-region-overnight.html
+        captured_at: 2026-10-31T07:56:24Z
 assessment:
   status: unverified
   credibility: 6

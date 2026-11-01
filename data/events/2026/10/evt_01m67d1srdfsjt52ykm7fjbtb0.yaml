@@ -24,6 +24,10 @@ sources:
     title: Defense forces use drones to destroy Russian Mi-8 helicopter in Luhansk region
     published_at: 2026-10-30T18:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261030210146/https://www.ukrinform.net/rubric-ato/4179882-defense-forces-use-drones-to-destroy-russian-mi8-helicopter-in-luhansk-region.html
+        captured_at: 2026-10-30T21:01:46Z
 assessment:
   status: unverified
   credibility: 6

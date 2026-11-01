@@ -24,6 +24,10 @@ sources:
     title: Evacuation From Oleshky Completed As Buses Head To Ukraine, Russia
     published_at: 2026-10-30T06:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101043254/https://www.rferl.org/a/ukraine-russia-oleshky-evacuation-melania-trump/33887157.html
+        captured_at: 2026-11-01T04:32:54Z
 assessment:
   status: unverified
   credibility: 6

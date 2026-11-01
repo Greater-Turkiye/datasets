@@ -1,0 +1,27 @@
+id: evt_01m6bj1423f3cakm1s36vpk0tr
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: "Zelenski: Rusya Ukrayna'ya bir haftada 2 bine yakın insansız hava aracı, 1500 'den fazla güdümlü bomba ve 44 füze fırlattı"
+  en: Russia launches nearly 2,000 attack drones, over 1,500 guided bombs, 44 missiles at Ukraine in one week – Zelensky
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-01T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-01T10:45Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4180226-russia-launches-nearly-2000-attack-drones-over-1500-guided-bombs-44-missiles-at-ukraine-in-one-week-zelensky.html
+    title: Russia launches nearly 2,000 attack drones, over 1,500 guided bombs, 44 missiles at Ukraine in one week – Zelensky
+    published_at: 2026-11-01T10:45Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

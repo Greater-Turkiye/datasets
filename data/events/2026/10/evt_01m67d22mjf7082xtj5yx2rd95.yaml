@@ -18,6 +18,10 @@ sources:
     title: "Russia’s decision to veto this draft resolution risks setting back progress on the political process for the Western Sahara: UK statement at the UN Security Council"
     published_at: 2026-10-30T20:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031103954/https://www.gov.uk/government/speeches/russias-decision-to-veto-this-draft-resolution-risks-setting-back-progress-on-the-political-process-for-the-western-sahara-uk-statement-at-the-un-secu
+        captured_at: 2026-10-31T10:39:54Z
 assessment:
   status: unverified
   credibility: 6

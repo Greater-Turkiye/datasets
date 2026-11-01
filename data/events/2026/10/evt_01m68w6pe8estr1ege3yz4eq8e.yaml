@@ -24,6 +24,10 @@ sources:
     title: Zelenskyy Warns Of Long Delay As US Approves Patriot Interceptors Sale
     published_at: 2026-10-31T08:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101125158/https://www.rferl.org/a/zelenskyy-warns-of-long-delay-as-us-approves-patriot-interceptors-sale/33887884.html
+        captured_at: 2026-11-01T12:51:58Z
 assessment:
   status: unverified
   credibility: 6

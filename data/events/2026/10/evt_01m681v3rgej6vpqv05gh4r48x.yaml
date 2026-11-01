@@ -24,6 +24,10 @@ sources:
     title: Russian attack knocks out power at critical infrastructure facilities in Kyiv, disrupts water supply
     published_at: 2026-10-30T21:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031072518/https://www.ukrinform.net/rubric-ato/4179921-russian-attack-knocks-out-power-at-critical-infrastructure-facilities-in-kyiv-disrupts-water-supply.html
+        captured_at: 2026-10-31T07:25:18Z
 assessment:
   status: unverified
   credibility: 6

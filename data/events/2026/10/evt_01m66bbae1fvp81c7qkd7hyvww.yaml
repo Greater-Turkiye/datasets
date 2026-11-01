@@ -18,6 +18,10 @@ sources:
     title: Mourning Day Declared in Bosnia’s Brcko Following Deadly EUFOR Helicopter Crash
     published_at: 2026-10-30T09:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101042941/https://balkaninsight.com/2026/10/30/mourning-day-declared-in-bosnias-brcko-following-deadly-eufor-helicopter-crash/bi/
+        captured_at: 2026-11-01T04:29:41Z
 assessment:
   status: unverified
   credibility: 6
