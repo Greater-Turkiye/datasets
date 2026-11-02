@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack coal mining facilities in Dnipropetrovsk region, casualties reported
     published_at: 2026-10-31T16:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031232024/https://www.ukrinform.net/rubric-ato/4180086-russian-forces-attack-coal-mining-facilities-in-dnipropetrovsk-region-casualties-reported.html
+        captured_at: 2026-10-31T23:20:24Z
 assessment:
   status: unverified
   credibility: 6

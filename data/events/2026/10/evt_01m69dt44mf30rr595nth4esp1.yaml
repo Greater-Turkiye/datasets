@@ -18,6 +18,10 @@ sources:
     title: Tears Of Joy As Ukrainians Evacuated From Russian-Occupied Oleshky Reunite With Family
     published_at: 2026-10-31T15:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101222559/https://www.rferl.org/a/tears-of-joy-as-ukrainians-evacuated-from-russian-occupied-oleshky-reunite-with-family/33888013.html
+        captured_at: 2026-11-01T22:25:59Z
 assessment:
   status: unverified
   credibility: 6

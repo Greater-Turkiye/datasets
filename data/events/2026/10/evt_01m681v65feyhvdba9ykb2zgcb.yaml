@@ -18,6 +18,10 @@ sources:
     title: Security Council Renews Mandate of European Union-led Stabilization Force in Bosnia and Herzegovina, Adopting Resolution 2834 (2026)
     published_at: 2026-10-30T21:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102042636/https://press.un.org/en/2026/sc16496.doc.htm-0
+        captured_at: 2026-11-02T04:26:36Z
 assessment:
   status: unverified
   credibility: 6

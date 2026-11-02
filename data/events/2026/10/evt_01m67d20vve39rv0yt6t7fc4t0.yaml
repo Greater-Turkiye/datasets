@@ -18,6 +18,10 @@ sources:
     title: US approves potential $2.1B sale of 500 Patriot missiles to Ukraine
     published_at: 2026-10-30T20:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102144854/https://www.ukrinform.net/rubric-ato/4179909-us-approves-potential-21b-sale-of-500-patriot-missiles-to-ukraine.html
+        captured_at: 2026-11-02T14:48:54Z
 assessment:
   status: unverified
   credibility: 6

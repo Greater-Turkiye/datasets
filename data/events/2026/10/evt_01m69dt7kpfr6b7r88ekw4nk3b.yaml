@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Pavlohrad, injuring three
     published_at: 2026-10-31T15:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101091654/https://www.ukrinform.net/rubric-ato/4180072-russian-forces-strike-pavlohrad-injuring-three.html
+        captured_at: 2026-11-01T09:16:54Z
 assessment:
   status: unverified
   credibility: 6

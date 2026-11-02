@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces strike rocket fuel plant in Russia's Rostov region
     published_at: 2026-10-31T11:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101222320/https://www.ukrinform.net/rubric-ato/4180006-ukrainian-forces-strike-rocket-fuel-plant-in-russias-rostov-region.html
+        captured_at: 2026-11-01T22:23:20Z
 assessment:
   status: unverified
   credibility: 6

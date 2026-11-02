@@ -18,6 +18,10 @@ sources:
     title: Ukraine hopes European partners will help fund purchase of 500 Patriot missiles – Zelensky
     published_at: 2026-10-31T18:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101091651/https://www.ukrinform.net/rubric-ato/4180116-ukraine-hopes-european-partners-will-help-fund-purchase-of-500-patriot-missiles-zelensky.html
+        captured_at: 2026-11-01T09:16:51Z
 assessment:
   status: unverified
   credibility: 6

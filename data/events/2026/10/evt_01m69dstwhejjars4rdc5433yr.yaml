@@ -24,6 +24,10 @@ sources:
     title: Energy equipment seriously damaged in Russian attacks in Dnipropetrovsk region
     published_at: 2026-10-31T11:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101221847/https://www.ukrinform.net/rubric-ato/4180002-energy-equipment-seriously-damaged-in-russian-attacks-in-dnipropetrovsk-region.html
+        captured_at: 2026-11-01T22:18:47Z
 assessment:
   status: unverified
   credibility: 6

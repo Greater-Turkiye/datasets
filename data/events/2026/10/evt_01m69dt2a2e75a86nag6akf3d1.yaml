@@ -24,6 +24,10 @@ sources:
     title: Fire breaks out near Moscow’s Sheremetyevo Airport amid reported drone attack – media
     published_at: 2026-10-31T13:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101222314/https://www.ukrinform.net/rubric-ato/4180032-fire-breaks-out-near-moscows-sheremetyevo-airport-amid-reported-drone-attack-media.html
+        captured_at: 2026-11-01T22:23:14Z
 assessment:
   status: unverified
   credibility: 6

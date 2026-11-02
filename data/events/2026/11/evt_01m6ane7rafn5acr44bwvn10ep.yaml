@@ -18,6 +18,10 @@ sources:
     title: Air defense neutralizes 122 Russian drones, two Banderol missiles on Saturday
     published_at: 2026-10-31T19:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101100115/https://www.ukrinform.net/rubric-ato/4180121-air-defense-neutralizes-122-russian-drones-two-banderol-missiles-on-saturday.html
+        captured_at: 2026-11-01T10:01:15Z
 assessment:
   status: unverified
   credibility: 6

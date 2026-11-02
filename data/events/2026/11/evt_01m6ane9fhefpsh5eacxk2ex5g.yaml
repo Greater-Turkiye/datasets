@@ -24,6 +24,10 @@ sources:
     title: Russian drone crashes in Kyiv's Darnytskyi district
     published_at: 2026-10-31T21:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261031220059/https://www.ukrinform.net/rubric-ato/4180129-russian-drone-crashes-in-kyivs-darnytskyi-district.html
+        captured_at: 2026-10-31T22:00:59Z
 assessment:
   status: unverified
   credibility: 6

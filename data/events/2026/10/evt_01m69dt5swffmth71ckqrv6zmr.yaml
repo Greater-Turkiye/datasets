@@ -24,6 +24,10 @@ sources:
     title: Kherson authorities warn residents of possible Russian provocations
     published_at: 2026-10-31T15:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102145211/https://www.ukrinform.net/rubric-ato/4180066-kherson-authorities-warn-residents-of-possible-russian-provocations.html
+        captured_at: 2026-11-02T14:52:11Z
 assessment:
   status: unverified
   credibility: 6
