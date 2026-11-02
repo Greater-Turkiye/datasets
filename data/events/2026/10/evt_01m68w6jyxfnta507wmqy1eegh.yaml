@@ -24,6 +24,10 @@ sources:
     title: One killed, 12 injured as Russian forces attack Sumy region
     published_at: 2026-10-31T07:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101221002/https://www.ukrinform.net/rubric-ato/4179960-one-killed-12-injured-as-russian-forces-attack-sumy-region.html
+        captured_at: 2026-11-01T22:10:02Z
 assessment:
   status: unverified
   credibility: 6

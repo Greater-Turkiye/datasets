@@ -24,6 +24,10 @@ sources:
     title: Meeting with President of Eritrea Isaias Afwerki
     published_at: 2026-10-30T17:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101220021/http://en.kremlin.ru/events/president/news/81131
+        captured_at: 2026-11-01T22:00:21Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Conversation with President for the Re-Foundation of the Republic of Madagascar Michael Randrianirina
     published_at: 2026-10-30T10:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101214558/http://en.kremlin.ru/events/president/news/81123
+        captured_at: 2026-11-01T21:45:58Z
 assessment:
   status: unverified
   credibility: 6

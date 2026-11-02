@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Russia fired 17 ballistic missiles overnight, took no steps toward de-escalation in energy sector"
     published_at: 2026-10-30T19:33Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101215421/https://www.ukrinform.net/rubric-ato/4179903-zelensky-russia-fired-17-ballistic-missiles-overnight-took-no-steps-toward-deescalation-in-energy-sector.html
+        captured_at: 2026-11-01T21:54:21Z
 assessment:
   status: unverified
   credibility: 6

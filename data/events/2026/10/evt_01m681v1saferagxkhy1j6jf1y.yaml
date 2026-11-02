@@ -18,6 +18,10 @@ sources:
     title: Security Council Renews Mandate of United Nations Support Mission in Libya for One Year, Unanimously Adopting Resolution 2835 (2026)
     published_at: 2026-10-30T21:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102042612/https://press.un.org/en/2026/sc16497.doc.htm
+        captured_at: 2026-11-02T04:26:12Z
 assessment:
   status: unverified
   credibility: 6

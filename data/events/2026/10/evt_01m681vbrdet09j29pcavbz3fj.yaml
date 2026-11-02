@@ -18,6 +18,10 @@ sources:
     title: Following Contentious Debate, Security Council Fails to Adopt Resolution to Extend UN Mission for Referendum in Western Sahara
     published_at: 2026-10-31T01:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102000129/https://press.un.org/en/2026/sc16498
+        captured_at: 2026-11-02T00:01:29Z
 assessment:
   status: unverified
   credibility: 6

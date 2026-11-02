@@ -24,6 +24,10 @@ sources:
     title: Russian forces launch double strike on Kharkiv with Banderol missiles
     published_at: 2026-10-31T09:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101220953/https://www.ukrinform.net/rubric-ato/4179981-russian-forces-launch-double-strike-on-kharkiv-with-banderol-missiles.html
+        captured_at: 2026-11-01T22:09:53Z
 assessment:
   status: unverified
   credibility: 6

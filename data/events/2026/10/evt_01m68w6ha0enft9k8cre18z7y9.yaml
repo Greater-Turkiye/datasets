@@ -18,6 +18,10 @@ sources:
     title: "War update: 173 clashes on front line over past day, fiercest fighting in Pokrovsk, Kostiantynivka sectors"
     published_at: 2026-10-31T07:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101220425/https://www.ukrinform.net/rubric-ato/4179959-war-update-173-clashes-on-front-line-over-past-day-fiercest-fighting-in-pokrovsk-kostiantynivka-sectors.html
+        captured_at: 2026-11-01T22:04:25Z
 assessment:
   status: unverified
   credibility: 6

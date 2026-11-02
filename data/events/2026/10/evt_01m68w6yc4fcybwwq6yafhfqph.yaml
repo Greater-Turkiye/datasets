@@ -18,6 +18,10 @@ sources:
     title: Khmara, Drapatyi discuss key security risks, planning of combat operations
     published_at: 2026-10-31T10:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101222321/https://www.ukrinform.net/rubric-ato/4179987-khmara-drapatyi-discuss-key-security-risks-planning-of-combat-operations.html
+        captured_at: 2026-11-01T22:23:21Z
 assessment:
   status: unverified
   credibility: 6

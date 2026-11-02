@@ -18,6 +18,10 @@ sources:
     title: "This mandate will strengthen UNSMIL’s ability to advance a Libyan-led and Libyan-owned political process: UK statement at the UN Security Council"
     published_at: 2026-10-30T19:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101124422/https://www.gov.uk/government/speeches/this-mandate-will-strengthen-unsmils-ability-to-advance-a-libyan-led-and-libyan-owned-political-process-uk-statement-at-the-un-security-council
+        captured_at: 2026-11-01T12:44:22Z
 assessment:
   status: unverified
   credibility: 6

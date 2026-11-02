@@ -24,6 +24,10 @@ sources:
     title: Three injured, homes damaged in Russian drone strike on Kharkiv
     published_at: 2026-10-31T05:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101220354/https://www.ukrinform.net/rubric-ato/4179940-three-injured-homes-damaged-in-russian-drone-strike-on-kharkiv.html
+        captured_at: 2026-11-01T22:03:54Z
 assessment:
   status: unverified
   credibility: 6

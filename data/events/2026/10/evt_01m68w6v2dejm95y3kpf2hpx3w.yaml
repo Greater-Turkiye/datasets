@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Sumy with drones, hits reported in industrial zone
     published_at: 2026-10-31T09:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101221033/https://www.ukrinform.net/rubric-ato/4179983-russian-forces-strike-sumy-with-drones-hits-reported-in-industrial-zone.html
+        captured_at: 2026-11-01T22:10:33Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Meeting with First President of the Council of Ministers of Togo Faure Gnassingbé
     published_at: 2026-10-30T17:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101124934/http://en.kremlin.ru/events/president/news/81130
+        captured_at: 2026-11-01T12:49:34Z
 assessment:
   status: unverified
   credibility: 6

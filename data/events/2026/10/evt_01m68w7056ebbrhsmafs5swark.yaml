@@ -24,6 +24,10 @@ sources:
     title: Senior Generals inspect Iraqi Army posture across Kirkuk
     published_at: 2026-10-31T10:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101221556/https://shafaq.com/en/Security/Senior-Generals-inspect-Iraqi-Army-posture-across-Kirkuk
+        captured_at: 2026-11-01T22:15:56Z
 assessment:
   status: unverified
   credibility: 6

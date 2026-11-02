@@ -24,6 +24,10 @@ sources:
     title: Meeting with President of South Sudan Salva Kiir
     published_at: 2026-10-30T13:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101214913/http://en.kremlin.ru/events/president/news/81126
+        captured_at: 2026-11-01T21:49:13Z
 assessment:
   status: unverified
   credibility: 6
