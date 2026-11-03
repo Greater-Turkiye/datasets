@@ -18,6 +18,10 @@ sources:
     title: Russian SRG activity along Ukraine’s northern border drops significantly – military spox
     published_at: 2026-11-02T00:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102112934/https://www.ukrinform.net/rubric-ato/4180229-russian-srg-activity-along-ukraines-northern-border-drops-significantly-military-spox.html
+        captured_at: 2026-11-02T11:29:34Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Marine Corps spox: Ceasefire in Oleshky holding, we are prepared for any eventuality"
     published_at: 2026-11-01T16:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102070531/https://www.ukrinform.net/rubric-ato/4180295-marine-corps-spox-ceasefire-in-oleshky-holding-we-are-prepared-for-any-eventuality.html
+        captured_at: 2026-11-02T07:05:31Z
 assessment:
   status: unverified
   credibility: 6

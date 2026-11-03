@@ -24,6 +24,10 @@ sources:
     title: "Zelenskyy: Sell Us Patriot Missiles, We'll Stop Strikes On Russian Refineries"
     published_at: 2026-11-01T23:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103153723/https://www.rferl.org/a/zelenskyy-patriot-missile-russia-refinery-trump/33888449.html
+        captured_at: 2026-11-03T15:37:23Z
 assessment:
   status: unverified
   credibility: 6

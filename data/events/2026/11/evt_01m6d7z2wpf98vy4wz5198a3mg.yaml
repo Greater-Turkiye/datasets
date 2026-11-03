@@ -24,6 +24,10 @@ sources:
     title: Zaporizhzhia region provides UAH 105M worth of military equipment to Ukrainian forces in October
     published_at: 2026-11-01T22:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101233058/https://www.ukrinform.net/rubric-ato/4180189-zaporizhzhia-region-provides-uah-105m-worth-of-military-equipment-to-ukrainian-forces-in-october.html
+        captured_at: 2026-11-01T23:30:58Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Injury toll in Russian strike on Vinnytsia region rises to six, two killed
     published_at: 2026-11-01T20:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102061718/https://www.ukrinform.net/rubric-ato/4180334-injury-toll-in-russian-strike-on-vinnytsia-region-rises-to-six-two-killed.html
+        captured_at: 2026-11-02T06:17:18Z
 assessment:
   status: unverified
   credibility: 6

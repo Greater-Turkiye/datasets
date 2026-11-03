@@ -1,0 +1,31 @@
+id: evt_01m6hsxe62e158ehkeyc4xdc73
+schema: event/1
+event_type: policy.defense
+title:
+  tr: Kodlama Klozu
+  en: Codification Clause
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-02T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-02T10:40Z
+regions: [balkans]
+sources:
+  - url: https://www.morh.hr/en/codification-clause/
+    title: Codification Clause
+    published_at: 2026-11-02T10:40Z
+    lang: en
+  - url: https://www.morh.hr/en/qa-codification/
+    title: Q&A Codification
+    published_at: 2026-11-02T11:08Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-hrv-mod. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-hrv-mod. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

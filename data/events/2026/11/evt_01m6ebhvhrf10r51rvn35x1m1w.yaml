@@ -18,6 +18,10 @@ sources:
     title: Air defenses down 154 out of 193 drones used by Russia to attack Ukraine since evening
     published_at: 2026-11-02T05:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102100151/https://www.ukrinform.net/rubric-ato/4180368-air-defenses-down-154-out-of-193-drones-used-by-russia-to-attack-ukraine-since-evening.html
+        captured_at: 2026-11-02T10:01:51Z
 assessment:
   status: unverified
   credibility: 6

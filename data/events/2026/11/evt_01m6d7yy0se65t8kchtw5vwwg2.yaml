@@ -24,6 +24,10 @@ sources:
     title: Russian forces hit energy facility in Ternopil region, causing power outages
     published_at: 2026-11-01T19:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102101901/https://www.ukrinform.net/rubric-ato/4180324-russian-forces-hit-energy-facility-in-ternopil-region-causing-power-outages.html
+        captured_at: 2026-11-02T10:19:01Z
 assessment:
   status: unverified
   credibility: 6

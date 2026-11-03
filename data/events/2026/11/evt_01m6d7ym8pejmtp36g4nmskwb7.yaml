@@ -18,6 +18,10 @@ sources:
     title: Two killed, three injured in Russian attack on Vinnytsia region
     published_at: 2026-11-01T16:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102044819/https://www.ukrinform.net/rubric-ato/4180293-two-killed-three-injured-in-russian-attack-on-vinnytsia-region.html
+        captured_at: 2026-11-02T04:48:19Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russia used humanitarian pause in Oleshky to fortify its positions – General Staff
     published_at: 2026-11-02T06:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102081604/https://www.ukrinform.net/rubric-ato/4180373-russia-used-humanitarian-pause-in-oleshky-to-fortify-its-positions-general-staff.html
+        captured_at: 2026-11-02T08:16:04Z
 assessment:
   status: unverified
   credibility: 6
