@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Ukrainian forces liberated more territory in October than Russian invaders seized"
     published_at: 2026-11-01T13:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102034938/https://www.ukrinform.net/rubric-ato/4180268-zelensky-ukrainian-forces-liberated-more-territory-in-october-than-russian-invaders-seized.html
+        captured_at: 2026-11-02T03:49:38Z
 assessment:
   status: unverified
   credibility: 6

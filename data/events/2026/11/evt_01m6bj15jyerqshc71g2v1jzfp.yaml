@@ -24,6 +24,10 @@ sources:
     title: Russian drone attack damages homes, warehouse and vehicles in Lviv community
     published_at: 2026-11-01T11:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101134659/https://www.ukrinform.net/rubric-ato/4180237-russian-drone-attack-damages-homes-warehouse-and-vehicles-in-lviv-community.html
+        captured_at: 2026-11-01T13:46:59Z
 assessment:
   status: unverified
   credibility: 6

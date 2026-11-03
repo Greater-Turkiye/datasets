@@ -24,6 +24,10 @@ sources:
     title: Zelensky reports strikes on Russian defense industry plant, air defense assets worth $70 million
     published_at: 2026-11-01T11:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101134610/https://www.ukrinform.net/rubric-ato/4180240-zelensky-reports-strikes-on-russian-defense-industry-plant-air-defense-assets-worth-70-million.html
+        captured_at: 2026-11-01T13:46:10Z
 assessment:
   status: unverified
   credibility: 6

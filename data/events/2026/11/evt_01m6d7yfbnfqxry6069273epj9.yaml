@@ -24,6 +24,10 @@ sources:
     title: Security directive restricts sharing of Iraqi military locations
     published_at: 2026-11-01T13:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103135524/https://shafaq.com/en/Security/Security-directive-restricts-sharing-of-Iraqi-military-locations
+        captured_at: 2026-11-03T13:55:24Z
 assessment:
   status: unverified
   credibility: 6

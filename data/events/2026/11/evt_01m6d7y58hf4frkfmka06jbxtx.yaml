@@ -18,6 +18,10 @@ sources:
     title: Drones violate Moldovan airspace twice during massive Russian attack on Ukraine
     published_at: 2026-11-01T11:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103135025/https://www.ukrinform.net/rubric-ato/4180243-drones-violate-moldovan-airspace-twice-during-massive-russian-attack-on-ukraine.html
+        captured_at: 2026-11-03T13:50:25Z
 assessment:
   status: unverified
   credibility: 6

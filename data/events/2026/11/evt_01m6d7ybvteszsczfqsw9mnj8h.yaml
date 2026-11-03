@@ -24,6 +24,10 @@ sources:
     title: Russian drone attack injures two people in Kyiv region, damages homes and vehicles
     published_at: 2026-11-01T12:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101213109/https://www.ukrinform.net/rubric-ato/4180261-russian-drone-attack-injures-two-people-in-kyiv-region-damages-homes-and-vehicles.html
+        captured_at: 2026-11-01T21:31:09Z
 assessment:
   status: unverified
   credibility: 6

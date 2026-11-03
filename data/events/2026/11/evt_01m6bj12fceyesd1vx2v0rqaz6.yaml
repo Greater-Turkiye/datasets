@@ -24,6 +24,10 @@ sources:
     title: Iraq sentences ISIS member over Arbaeen attack plot
     published_at: 2026-11-01T10:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103134612/https://shafaq.com/en/Security/Iraq-sentences-ISIS-member-over-Arbaeen-attack-plot
+        captured_at: 2026-11-03T13:46:12Z
 assessment:
   status: unverified
   credibility: 6

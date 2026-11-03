@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack industrial facility in Dnipro, sparking fire
     published_at: 2026-11-01T12:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101144713/https://www.ukrinform.net/rubric-ato/4180253-russian-forces-attack-industrial-facility-in-dnipro-sparking-fire.html
+        captured_at: 2026-11-01T14:47:13Z
 assessment:
   status: unverified
   credibility: 6

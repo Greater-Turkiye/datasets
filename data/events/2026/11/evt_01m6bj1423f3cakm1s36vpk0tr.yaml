@@ -18,6 +18,10 @@ sources:
     title: Russia launches nearly 2,000 attack drones, over 1,500 guided bombs, 44 missiles at Ukraine in one week – Zelensky
     published_at: 2026-11-01T10:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101113225/https://www.ukrinform.net/rubric-ato/4180226-russia-launches-nearly-2000-attack-drones-over-1500-guided-bombs-44-missiles-at-ukraine-in-one-week-zelensky.html
+        captured_at: 2026-11-01T11:32:25Z
 assessment:
   status: unverified
   credibility: 6

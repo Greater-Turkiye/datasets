@@ -24,6 +24,10 @@ sources:
     title: Child injured in Russian drone attack in Poltava region
     published_at: 2026-11-01T10:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101134700/https://www.ukrinform.net/rubric-ato/4180224-child-injured-in-russian-drone-attack-in-poltava-region.html
+        captured_at: 2026-11-01T13:47:00Z
 assessment:
   status: unverified
   credibility: 6
