@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike energy infrastructure in Zhytomyr region, leaving over 650 settlements without power
     published_at: 2026-11-01T08:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101144716/https://www.ukrinform.net/rubric-ato/4180198-russian-forces-strike-energy-infrastructure-in-zhytomyr-region-leaving-over-650-settlements-without-power.html
+        captured_at: 2026-11-01T14:47:16Z
 assessment:
   status: unverified
   credibility: 6

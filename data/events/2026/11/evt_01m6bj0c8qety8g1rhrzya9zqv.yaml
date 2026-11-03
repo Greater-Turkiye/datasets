@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Zaporizhzhia region 699 times in past 24 hours, six injured
     published_at: 2026-11-01T05:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101074608/https://www.ukrinform.net/rubric-ato/4180161-russian-forces-strike-zaporizhzhia-region-699-times-in-past-24-hours-six-injured.html
+        captured_at: 2026-11-01T07:46:08Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Debris from Russian drones damages power lines, educational facility in Kirovohrad region
     published_at: 2026-11-01T08:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101093104/https://www.ukrinform.net/rubric-ato/4180186-debris-from-russian-drones-damages-power-lines-educational-facility-in-kirovohrad-region.html
+        captured_at: 2026-11-01T09:31:04Z
 assessment:
   status: unverified
   credibility: 6

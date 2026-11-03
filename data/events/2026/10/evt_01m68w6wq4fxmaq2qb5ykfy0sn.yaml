@@ -18,6 +18,10 @@ sources:
     title: Bomb attack targets government employee in Dhi Qar
     published_at: 2026-10-31T09:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102144924/https://shafaq.com/en/Security/Bomb-attack-targets-government-employee-in-Dhi-Qar
+        captured_at: 2026-11-02T14:49:24Z
 assessment:
   status: unverified
   credibility: 6

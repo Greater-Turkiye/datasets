@@ -1,0 +1,27 @@
+id: evt_01m6fd09p7fyds2syd206cg9dy
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: İstihbarat, 1.200 km'ye kadar menzile sahip Rus Gerbera -2 insansız hava aracının ayrıntılarını ortaya çıkardı
+  en: Intelligence reveals details of Russian Gerbera-2 drone with range of up to 1,200 km
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-02T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-02T22:35Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4180428-intelligence-reveals-details-of-russian-gerbera2-drone-with-range-of-up-to-1200-km.html
+    title: Intelligence reveals details of Russian Gerbera-2 drone with range of up to 1,200 km
+    published_at: 2026-11-02T22:35Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

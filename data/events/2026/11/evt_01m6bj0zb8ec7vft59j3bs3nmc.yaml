@@ -24,6 +24,10 @@ sources:
     title: Russian forces stepping up efforts to expand control in northern Kharkiv region, border guards say
     published_at: 2026-11-01T10:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101192832/https://www.ukrinform.net/rubric-ato/4180212-russian-forces-stepping-up-efforts-to-expand-control-in-northern-kharkiv-region-border-guards-say.html
+        captured_at: 2026-11-01T19:28:32Z
 assessment:
   status: unverified
   credibility: 6

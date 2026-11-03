@@ -1,0 +1,27 @@
+id: evt_01m6fczs1af0evmtn4n39gyghw
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: Genel Sekreter, Yemen'de Husi de facto Yetkilileri Tarafından Gözaltına Alınan BM İnsan Hakları Yüksek Komiseri İşçisinin Ölümünü Kınadı, Acil Soruşturma Çağrısında Bulundu
+  en: Secretary-General Condemns Death of UN High Commissioner for Human Rights’ Worker Detained by Houthi de facto Authorities in Yemen, Urges Immediate Investigation
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-02T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-02T17:03Z
+regions: [gulf-red-sea]
+sources:
+  - url: https://press.un.org/en/2026/sgsm23354.doc.htm
+    title: Secretary-General Condemns Death of UN High Commissioner for Human Rights’ Worker Detained by Houthi de facto Authorities in Yemen, Urges Immediate Investigation
+    published_at: 2026-11-02T17:03Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: un-press-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: un-press-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

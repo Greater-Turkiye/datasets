@@ -18,6 +18,10 @@ sources:
     title: Air defense neutralizes 371 of 433 Russian drones launched against Ukraine overnight
     published_at: 2026-11-01T06:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101081243/https://www.ukrinform.net/rubric-ato/4180165-air-defense-neutralizes-371-of-433-russian-drones-launched-against-ukraine-overnight.html
+        captured_at: 2026-11-01T08:12:43Z
 assessment:
   status: unverified
   credibility: 6

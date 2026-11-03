@@ -18,6 +18,10 @@ sources:
     title: SBU's Alpha unit sets record, neutralizing 3,198 Russian troops in one week
     published_at: 2026-11-01T00:46Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101020106/https://www.ukrinform.net/rubric-ato/4180019-sbus-alpha-unit-sets-record-neutralizing-3198-russian-troops-in-one-week.html
+        captured_at: 2026-11-01T02:01:06Z
 assessment:
   status: unverified
   credibility: 6

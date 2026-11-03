@@ -24,6 +24,10 @@ sources:
     title: Russian strike destroys Kramatorsk city executive committee building
     published_at: 2026-11-01T04:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101064411/https://www.ukrinform.net/rubric-ato/4180155-russian-strike-destroys-kramatorsk-city-executive-committee-building.html
+        captured_at: 2026-11-01T06:44:11Z
 assessment:
   status: unverified
   credibility: 6

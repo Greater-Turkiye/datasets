@@ -24,6 +24,10 @@ sources:
     title: Nearly 100,000 consumers remain without power in Dnipropetrovsk region following Russian attacks
     published_at: 2026-11-01T07:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261101093106/https://www.ukrinform.net/rubric-ato/4180169-nearly-100000-consumers-remain-without-power-in-dnipropetrovsk-region-following-russian-attacks.html
+        captured_at: 2026-11-01T09:31:06Z
 assessment:
   status: unverified
   credibility: 6
