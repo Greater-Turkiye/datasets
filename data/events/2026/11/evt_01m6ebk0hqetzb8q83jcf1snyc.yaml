@@ -24,6 +24,10 @@ sources:
     title: Russian bombs strike apartment building in Sloviansk, klling one and injuring six
     published_at: 2026-11-02T12:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102150122/https://www.ukrinform.net/rubric-ato/4180514-russian-bombs-strike-apartment-building-in-sloviansk-klling-one-and-injuring-six.html
+        captured_at: 2026-11-02T15:01:22Z
 assessment:
   status: unverified
   credibility: 6

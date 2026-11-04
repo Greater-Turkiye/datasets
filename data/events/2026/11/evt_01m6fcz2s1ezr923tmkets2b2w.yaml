@@ -18,6 +18,10 @@ sources:
     title: "Ethiopia: Violence in the north is pushing health system to the brink, WHO chief warns"
     published_at: 2026-11-02T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104140305/https://news.un.org/feed/view/en/story/2026/11/1168720
+        captured_at: 2026-11-04T14:03:05Z
 assessment:
   status: unverified
   credibility: 6

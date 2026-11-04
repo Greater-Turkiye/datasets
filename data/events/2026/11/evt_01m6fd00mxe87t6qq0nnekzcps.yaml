@@ -18,6 +18,10 @@ sources:
     title: ADF neutralizes 139 drones, eight 'Banderol' missiles during Russian daytime attack
     published_at: 2026-11-02T18:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103000140/https://www.ukrinform.net/rubric-ato/4180645-adf-neutralizes-139-drones-eight-banderol-missiles-during-russian-daytime-attack.html
+        captured_at: 2026-11-03T00:01:40Z
 assessment:
   status: unverified
   credibility: 6

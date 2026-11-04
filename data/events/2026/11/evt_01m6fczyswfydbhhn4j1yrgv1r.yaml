@@ -24,6 +24,10 @@ sources:
     title: Russian forces launch massive bomb attacks on Komyshuvakha, killing 18 people
     published_at: 2026-11-02T18:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103091654/https://www.ukrinform.net/rubric-ato/4180639-russian-forces-launch-massive-bomb-attacks-on-komyshuvakha-killing-18-people.html
+        captured_at: 2026-11-03T09:16:54Z
 assessment:
   status: unverified
   credibility: 6

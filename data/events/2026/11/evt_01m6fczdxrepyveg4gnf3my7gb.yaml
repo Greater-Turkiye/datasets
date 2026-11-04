@@ -18,6 +18,10 @@ sources:
     title: Minefields kill 279 Russian troops on southern front in October – military
     published_at: 2026-11-02T14:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102154604/https://www.ukrinform.net/rubric-ato/4180561-minefields-kill-279-russian-troops-on-southern-front-in-october-military.html
+        captured_at: 2026-11-02T15:46:04Z
 assessment:
   status: unverified
   credibility: 6

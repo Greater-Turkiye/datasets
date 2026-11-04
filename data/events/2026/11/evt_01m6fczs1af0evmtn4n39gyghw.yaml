@@ -18,6 +18,10 @@ sources:
     title: Secretary-General Condemns Death of UN High Commissioner for Human Rights’ Worker Detained by Houthi de facto Authorities in Yemen, Urges Immediate Investigation
     published_at: 2026-11-02T17:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104142011/https://press.un.org/en/2026/sgsm23354.doc.htm
+        captured_at: 2026-11-04T14:20:11Z
 assessment:
   status: unverified
   credibility: 6

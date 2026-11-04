@@ -24,10 +24,18 @@ sources:
     title: Injury toll after Russian attack on Chuhuiv rises to seven
     published_at: 2026-11-02T16:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103000142/https://www.ukrinform.net/rubric-ato/4180616-injury-toll-after-russian-attack-on-chuhuiv-rises-to-seven.html
+        captured_at: 2026-11-03T00:01:42Z
   - url: https://www.ukrinform.net/rubric-ato/4180619-injury-toll-in-russian-strikes-on-izium-rises-to-27-one-killed.html
     title: Injury toll in Russian strikes on Izium rises to 27, one killed
     published_at: 2026-11-02T16:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104140920/https://www.ukrinform.net/rubric-ato/4180619-injury-toll-in-russian-strikes-on-izium-rises-to-27-one-killed.html
+        captured_at: 2026-11-04T14:09:20Z
 assessment:
   status: unverified
   credibility: 6

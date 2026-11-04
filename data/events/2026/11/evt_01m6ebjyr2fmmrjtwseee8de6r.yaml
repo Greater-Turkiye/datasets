@@ -18,6 +18,10 @@ sources:
     title: Romania and Moldova Seal First Joint Defence Procurement Deal
     published_at: 2026-11-02T12:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104135928/https://balkaninsight.com/2026/11/02/romania-and-moldova-seal-first-joint-defence-procurement-deal/bi/
+        captured_at: 2026-11-04T13:59:28Z
 assessment:
   status: unverified
   credibility: 6

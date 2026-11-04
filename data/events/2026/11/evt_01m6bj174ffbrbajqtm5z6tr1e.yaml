@@ -24,6 +24,10 @@ sources:
     title: Moscow Reports Drone Attack On Nizhny Novgorod As Russian Strikes Cut Power In Ukraine
     published_at: 2026-11-01T11:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104135306/https://www.rferl.org/a/russia-ukraine-war-drone-nizhny-novgorod-power/33888277.html
+        captured_at: 2026-11-04T13:53:06Z
 assessment:
   status: unverified
   credibility: 6

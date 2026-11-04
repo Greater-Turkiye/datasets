@@ -24,6 +24,10 @@ sources:
     title: Russian drone attack on residential area in Sumy district kills one and injures another
     published_at: 2026-11-02T13:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104140924/https://www.ukrinform.net/rubric-ato/4180535-russian-drone-attack-on-residential-area-in-sumy-district-kills-one-and-injures-another.html
+        captured_at: 2026-11-04T14:09:24Z
 assessment:
   status: unverified
   credibility: 6

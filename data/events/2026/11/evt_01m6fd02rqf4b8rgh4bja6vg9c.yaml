@@ -24,6 +24,10 @@ sources:
     title: Death toll from Russian strike on School in Komyshuvakha rises to 24
     published_at: 2026-11-02T18:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103091653/https://www.ukrinform.net/rubric-ato/4180656-death-toll-from-russian-strike-on-school-in-komyshuvakha-rises-to-24.html
+        captured_at: 2026-11-03T09:16:53Z
   - url: https://www.ukrinform.net/rubric-ato/4180689-death-toll-from-russian-strikes-on-school-in-komyshuvakha-rises-to-24.html
     title: Death toll from Russian strikes on school in Komyshuvakha rises to 24
     published_at: 2026-11-02T20:54Z
