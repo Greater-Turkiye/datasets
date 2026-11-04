@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes facility in Bila Tserkva community in Kyiv region
     published_at: 2026-11-02T11:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102130440/https://www.ukrinform.net/rubric-ato/4180485-russian-drone-strikes-facility-in-bila-tserkva-community-in-kyiv-region.html
+        captured_at: 2026-11-02T13:04:40Z
 assessment:
   status: unverified
   credibility: 6

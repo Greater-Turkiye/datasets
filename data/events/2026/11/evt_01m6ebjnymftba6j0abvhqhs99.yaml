@@ -18,6 +18,10 @@ sources:
     title: Attack on Izium leaves one dead and 11 injured, damaging homes and stores
     published_at: 2026-11-02T10:44Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102130416/https://www.ukrinform.net/rubric-ato/4180477-attack-on-izium-leaves-one-dead-and-11-injured-damaging-homes-and-stores.html
+        captured_at: 2026-11-02T13:04:16Z
 assessment:
   status: unverified
   credibility: 6

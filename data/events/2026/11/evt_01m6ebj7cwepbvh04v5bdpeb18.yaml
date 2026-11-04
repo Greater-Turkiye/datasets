@@ -24,6 +24,10 @@ sources:
     title: Drones attack Samara oil pumping station in Russia – media
     published_at: 2026-11-02T07:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102100149/https://www.ukrinform.net/rubric-ato/4180399-drones-attack-samara-oil-pumping-station-in-russia-media.html
+        captured_at: 2026-11-02T10:01:49Z
 assessment:
   status: unverified
   credibility: 6

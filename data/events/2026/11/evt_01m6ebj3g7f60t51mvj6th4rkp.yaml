@@ -18,6 +18,10 @@ sources:
     title: "War update: 205 clashes on front lines over past day, Pokrovsk sector hottest"
     published_at: 2026-11-02T07:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102110138/https://www.ukrinform.net/rubric-ato/4180385-war-update-205-clashes-on-front-lines-over-past-day-pokrovsk-sector-hottest.html
+        captured_at: 2026-11-02T11:01:38Z
 assessment:
   status: unverified
   credibility: 6

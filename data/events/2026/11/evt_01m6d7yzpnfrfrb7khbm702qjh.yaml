@@ -24,10 +24,18 @@ sources:
     title: Two people injured in Russian attack on Zaporizhzhia
     published_at: 2026-11-01T19:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103230129/https://www.ukrinform.net/rubric-ato/4180332-two-people-injured-in-russian-attack-on-zaporizhzhia.html
+        captured_at: 2026-11-03T23:01:29Z
   - url: https://www.ukrinform.net/rubric-ato/4180337-russian-drones-attack-settlement-in-kharkiv-region-five-people-injured.html
     title: Russian drones attack settlement in Kharkiv region, five people injured
     published_at: 2026-11-01T21:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103230225/https://www.ukrinform.net/rubric-ato/4180337-russian-drones-attack-settlement-in-kharkiv-region-five-people-injured.html
+        captured_at: 2026-11-03T23:02:25Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian drone attacks civilian car in Kherson, leaving two injured
     published_at: 2026-11-02T10:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102154617/https://www.ukrinform.net/rubric-ato/4180473-russian-drone-attacks-civilian-car-in-kherson-leaving-two-injured.html
+        captured_at: 2026-11-02T15:46:17Z
 assessment:
   status: unverified
   credibility: 6

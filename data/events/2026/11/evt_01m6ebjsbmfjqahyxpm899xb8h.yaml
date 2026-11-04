@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Chuhuiv district in Kharkiv region, several people injured
     published_at: 2026-11-02T11:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102124604/https://www.ukrinform.net/rubric-ato/4180487-russian-forces-strike-chuhuiv-district-in-kharkiv-region-several-people-injured.html
+        captured_at: 2026-11-02T12:46:04Z
 assessment:
   status: unverified
   credibility: 6

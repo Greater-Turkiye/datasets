@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s Armed Forces report record 2,500 Russian troops killed in one day
     published_at: 2026-11-02T12:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261102134604/https://www.ukrinform.net/rubric-ato/4180503-ukraines-armed-forces-report-record-2500-russian-troops-killed-in-one-day.html
+        captured_at: 2026-11-02T13:46:04Z
 assessment:
   status: unverified
   credibility: 6

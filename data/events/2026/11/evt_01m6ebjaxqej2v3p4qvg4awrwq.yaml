@@ -18,6 +18,10 @@ sources:
     title: "Media: Armenian soldier driven to suicide; two people detained"
     published_at: 2026-11-02T08:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104045126/https://news.am/en/news/1071904
+        captured_at: 2026-11-04T04:51:26Z
 assessment:
   status: unverified
   credibility: 6
