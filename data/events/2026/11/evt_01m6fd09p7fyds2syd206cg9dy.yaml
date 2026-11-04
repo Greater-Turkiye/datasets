@@ -18,6 +18,10 @@ sources:
     title: Intelligence reveals details of Russian Gerbera-2 drone with range of up to 1,200 km
     published_at: 2026-11-02T22:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103073848/https://www.ukrinform.net/rubric-ato/4180428-intelligence-reveals-details-of-russian-gerbera2-drone-with-range-of-up-to-1200-km.html
+        captured_at: 2026-11-03T07:38:48Z
 assessment:
   status: unverified
   credibility: 6

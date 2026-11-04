@@ -18,6 +18,10 @@ sources:
     title: "War update: 191 clashes on front line"
     published_at: 2026-11-02T21:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103114841/https://www.ukrinform.net/rubric-ato/4180692-war-update-191-clashes-on-front-line.html
+        captured_at: 2026-11-03T11:48:41Z
 assessment:
   status: unverified
   credibility: 6

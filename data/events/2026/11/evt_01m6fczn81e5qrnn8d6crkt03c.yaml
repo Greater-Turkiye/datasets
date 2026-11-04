@@ -18,6 +18,10 @@ sources:
     title: Secretary-General Strongly Condemns Escalating Drone Attacks in Sudan
     published_at: 2026-11-02T16:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104141505/https://press.un.org/en/2026/sgsm23353.doc.htm
+        captured_at: 2026-11-04T14:15:05Z
 assessment:
   status: unverified
   credibility: 6

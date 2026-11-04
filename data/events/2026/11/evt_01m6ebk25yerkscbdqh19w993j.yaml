@@ -24,6 +24,10 @@ sources:
     title: Is Europe In Iran's Crosshairs? Tehran Hints At Wider Military Reach
     published_at: 2026-11-02T13:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104140006/https://www.rferl.org/a/iran-europe-target-missile-range/33888908.html
+        captured_at: 2026-11-04T14:00:06Z
 assessment:
   status: unverified
   credibility: 6

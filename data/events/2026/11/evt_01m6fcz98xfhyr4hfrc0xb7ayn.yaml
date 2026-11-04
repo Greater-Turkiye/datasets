@@ -18,6 +18,10 @@ sources:
     title: "Flash: Russia increases deployment of satellite-based EW systems targeting Starlink"
     published_at: 2026-11-02T13:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104140919/https://www.ukrinform.net/rubric-ato/4180533-flash-russia-increases-deployment-of-satellitebased-ew-systems-targeting-starlink.html
+        captured_at: 2026-11-04T14:09:19Z
 assessment:
   status: unverified
   credibility: 6

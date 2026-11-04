@@ -24,6 +24,10 @@ sources:
     title: Russian attacks in Kherson region leave seven injured throughout day
     published_at: 2026-11-02T17:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104142034/https://www.ukrinform.net/rubric-ato/4180626-russian-attacks-in-kherson-region-leave-seven-injured-throughout-day.html
+        captured_at: 2026-11-04T14:20:34Z
 assessment:
   status: unverified
   credibility: 6

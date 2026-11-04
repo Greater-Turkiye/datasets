@@ -18,6 +18,10 @@ sources:
     title: Croatian National Codification System
     published_at: 2026-11-02T07:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260724151417/https://www.morh.hr/en/croatian-national-codification/
+        captured_at: 2026-07-24T15:14:17Z
   - url: https://www.morh.hr/en/nato-codification-system/
     title: NATO Codification System
     published_at: 2026-11-02T08:22Z

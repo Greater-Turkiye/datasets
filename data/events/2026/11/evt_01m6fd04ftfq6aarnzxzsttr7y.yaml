@@ -24,6 +24,10 @@ sources:
     title: Teenager injured in Russian attack on Kyiv region
     published_at: 2026-11-02T19:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103000139/https://www.ukrinform.net/rubric-ato/4180666-teenager-injured-in-russian-attack-on-kyiv-region.html
+        captured_at: 2026-11-03T00:01:39Z
 assessment:
   status: unverified
   credibility: 6

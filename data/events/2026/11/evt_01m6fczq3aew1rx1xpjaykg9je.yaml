@@ -24,6 +24,10 @@ sources:
     title: "'Flash' explains how electronic warfare shield created over Kyiv"
     published_at: 2026-11-02T16:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104232114/https://www.ukrinform.net/rubric-ato/4180620-flash-explains-how-electronic-warfare-shield-created-over-kyiv.html
+        captured_at: 2026-11-04T23:21:14Z
 assessment:
   status: unverified
   credibility: 6

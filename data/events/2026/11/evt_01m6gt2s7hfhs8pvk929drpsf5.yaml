@@ -18,6 +18,10 @@ sources:
     title: National Codification Bureau of the Republic of Croatia
     published_at: 2026-11-02T07:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003074413/https://www.morh.hr/en/ncbcr/
+        captured_at: 2026-10-03T07:44:13Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Ukrainian Navy destroys six Russian aircraft, ten multiple launch rocket systems in October
     published_at: 2026-11-02T05:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104135335/https://www.ukrinform.net/rubric-ato/4180363-ukrainian-navy-destroys-six-russian-aircraft-ten-multiple-launch-rocket-systems-in-october.html
+        captured_at: 2026-11-04T13:53:35Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: UN Experts Sound Alarm over Continuing Devastation in Gaza, West Bank, at Palestinian Rights Committee Briefing
     published_at: 2026-10-30T17:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104135015/https://press.un.org/en/2026/gapal1497.doc.htm
+        captured_at: 2026-11-04T13:50:15Z
 assessment:
   status: unverified
   credibility: 6
