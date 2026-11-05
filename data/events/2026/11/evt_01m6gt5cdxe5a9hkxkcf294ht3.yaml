@@ -18,6 +18,10 @@ sources:
     title: "'We Are Here For You': Love Helps Ukrainian Soldier Rebuild Life After Devastating Injuries"
     published_at: 2026-11-03T11:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105142315/https://www.rferl.org/a/ukrainian-soldier-learns-to-live-again-after-losing-his-arms-and-eyes/33889619.html
+        captured_at: 2026-11-05T14:23:15Z
 assessment:
   status: unverified
   credibility: 6

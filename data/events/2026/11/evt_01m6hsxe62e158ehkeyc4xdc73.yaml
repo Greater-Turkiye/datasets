@@ -26,6 +26,10 @@ sources:
     title: Q&A Codification
     published_at: 2026-11-02T11:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003074118/https://www.morh.hr/en/qa-codification/
+        captured_at: 2026-10-03T07:41:18Z
 assessment:
   status: unverified
   credibility: 6

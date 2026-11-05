@@ -18,6 +18,10 @@ sources:
     title: Ukrainian troops strike 30 strategic targets in Russia in October - MoD
     published_at: 2026-11-04T05:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104071608/https://www.ukrinform.net/rubric-ato/4181157-ukrainian-troops-strike-30-strategic-targets-in-russia-in-october-mod.html
+        captured_at: 2026-11-04T07:16:08Z
 assessment:
   status: unverified
   credibility: 6

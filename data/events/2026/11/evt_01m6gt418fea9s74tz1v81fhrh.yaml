@@ -18,6 +18,10 @@ sources:
     title: Hamik Sayadyan to be appointed Armenia military attaché in China effective November 23
     published_at: 2026-11-03T07:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105140423/https://news.am/en/news/1072160
+        captured_at: 2026-11-05T14:04:23Z
 assessment:
   status: unverified
   credibility: 6

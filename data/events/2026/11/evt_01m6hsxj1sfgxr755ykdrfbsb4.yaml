@@ -18,6 +18,10 @@ sources:
     title: "Air raid alerts and attacks on schools: the devastating face of education in Ukraine"
     published_at: 2026-11-03T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105232447/https://news.un.org/feed/view/en/story/2026/11/1168724
+        captured_at: 2026-11-05T23:24:47Z
 assessment:
   status: unverified
   credibility: 6

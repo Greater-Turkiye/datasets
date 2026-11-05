@@ -24,6 +24,10 @@ sources:
     title: Russian forces damage DTEK facility in southern Odesa region
     published_at: 2026-11-03T08:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105141031/https://www.ukrinform.net/rubric-ato/4180773-russian-forces-damage-dtek-facility-in-southern-odesa-region.html
+        captured_at: 2026-11-05T14:10:31Z
 assessment:
   status: unverified
   credibility: 6

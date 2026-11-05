@@ -24,6 +24,10 @@ sources:
     title: ATESH identifies radar regiment positions at Cape Fiolent in Sevastopol
     published_at: 2026-11-03T22:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105233603/https://www.ukrinform.net/rubric-ato/4180728-atesh-identifies-radar-regiment-positions-at-cape-fiolent-in-sevastopol.html
+        captured_at: 2026-11-05T23:36:03Z
 assessment:
   status: unverified
   credibility: 6

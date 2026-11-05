@@ -24,6 +24,10 @@ sources:
     title: "The calm before the storm: life in Kherson during the ceasefire"
     published_at: 2026-11-03T14:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105232833/https://www.ukrinform.net/rubric-ato/4180640-the-calm-before-the-storm-life-in-kherson-during-the-ceasefire.html
+        captured_at: 2026-11-05T23:28:33Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Overnight Russian shelling damages three medical facilities and 17 apartment buildings in Kharkiv
     published_at: 2026-11-03T16:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104082138/https://www.ukrinform.net/rubric-ato/4181054-overnight-russian-shelling-damages-three-medical-facilities-and-17-apartment-buildings-in-kharkiv.html
+        captured_at: 2026-11-04T08:21:38Z
 assessment:
   status: unverified
   credibility: 6

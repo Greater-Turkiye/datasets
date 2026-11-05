@@ -1,0 +1,27 @@
+id: evt_01m6pzyqyve59rnh68mvr0394p
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: "Medya özgürlüğünü ve gazetecilerin güvenliğini savunmak: İngiltere'nin AGİT'e yaptığı açıklama, Kasım 2026"
+  en: "Defending media freedom and the safety of journalists: UK statement to the OSCE, November 2026"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-05T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-05T14:16Z
+regions: [black-sea]
+sources:
+  - url: https://www.gov.uk/government/speeches/defending-media-freedom-and-the-safety-of-journalists-uk-statement-to-the-osce-november-2026
+    title: "Defending media freedom and the safety of journalists: UK statement to the OSCE, November 2026"
+    published_at: 2026-11-05T14:16Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-fcdo. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-fcdo. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

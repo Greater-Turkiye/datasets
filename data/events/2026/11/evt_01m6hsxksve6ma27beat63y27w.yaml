@@ -24,6 +24,10 @@ sources:
     title: Russian drone hits house in Kyiv region, 14-year-old child killed
     published_at: 2026-11-03T13:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103181657/https://www.ukrinform.net/rubric-ato/4180942-russian-drone-hits-house-in-kyiv-region-14yearold-child-killed.html
+        captured_at: 2026-11-03T18:16:57Z
 assessment:
   status: unverified
   credibility: 6

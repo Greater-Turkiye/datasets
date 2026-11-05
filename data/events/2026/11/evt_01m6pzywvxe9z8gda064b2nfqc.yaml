@@ -1,0 +1,27 @@
+id: evt_01m6pzywvxe9z8gda064b2nfqc
+schema: event/1
+event_type: policy.defense
+title:
+  tr: "Ukrayna'nın Sessiz Karşı Saldırısı: Vivaldi İç Operasyonu"
+  en: "Ukraine's Quiet Counteroffensive: Inside Operation Vivaldi"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-05T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-05T16:44Z
+regions: [black-sea]
+sources:
+  - url: https://www.rferl.org/a/ukraine-s-quiet-counteroffensive-inside-operation-vivaldi/33891774.html
+    title: "Ukraine's Quiet Counteroffensive: Inside Operation Vivaldi"
+    published_at: 2026-11-05T16:44Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rferl-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rferl-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

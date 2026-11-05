@@ -18,6 +18,10 @@ sources:
     title: Ukraine hacked Russia's emergency alert system in response to Russian cyberattack – Zelensky
     published_at: 2026-11-03T10:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105141653/https://www.ukrinform.net/rubric-ato/4180868-ukraine-hacked-russias-emergency-alert-system-in-response-to-russian-cyberattack-zelensky.html
+        captured_at: 2026-11-05T14:16:53Z
 assessment:
   status: unverified
   credibility: 6

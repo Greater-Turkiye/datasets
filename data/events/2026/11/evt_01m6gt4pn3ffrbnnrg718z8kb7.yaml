@@ -18,6 +18,10 @@ sources:
     title: Latvia calls emergency UN Security Council meeting
     published_at: 2026-11-03T09:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105141341/https://news.am/en/news/1072123
+        captured_at: 2026-11-05T14:13:41Z
 assessment:
   status: unverified
   credibility: 6
