@@ -24,6 +24,10 @@ sources:
     title: Russian attacks damage homes and power lines in Cherkasy, two people injured
     published_at: 2026-11-03T06:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103081615/https://www.ukrinform.net/rubric-ato/4180740-russian-attacks-damage-homes-and-power-lines-in-cherkasy-two-people-injured.html
+        captured_at: 2026-11-03T08:16:15Z
 assessment:
   status: unverified
   credibility: 6

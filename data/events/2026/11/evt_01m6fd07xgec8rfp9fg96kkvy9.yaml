@@ -18,6 +18,10 @@ sources:
     title: Netherlands seeks ways to speed up delivery of Patriot missiles to Ukraine
     published_at: 2026-11-02T21:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105051000/https://www.ukrinform.net/rubric-ato/4180695-netherlands-seeks-ways-to-speed-up-delivery-of-patriot-missiles-to-ukraine.html
+        captured_at: 2026-11-05T05:10:00Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Serbia Bank Owner Arrested Following Licence Revocation
     published_at: 2026-11-02T14:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105050825/https://balkaninsight.com/2026/11/02/serbia-bank-owner-arrested-following-licence-revocation/bi/
+        captured_at: 2026-11-05T05:08:25Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Tucker Carlson: Trump administration may be within days of launching nuclear strike on Iran"
     published_at: 2026-11-02T14:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104231559/https://news.am/en/news/1072006
+        captured_at: 2026-11-04T23:15:59Z
 assessment:
   status: unverified
   credibility: 6

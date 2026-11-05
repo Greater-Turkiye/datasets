@@ -24,6 +24,10 @@ sources:
     title: Zaporizhzhia region declares Day of Mourning for victims of Komyshuvakha attack
     published_at: 2026-11-02T19:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105050956/https://www.ukrinform.net/rubric-ato/4180664-zaporizhzhia-region-declares-day-of-mourning-for-victims-of-komyshuvakha-attack.html
+        captured_at: 2026-11-05T05:09:56Z
 assessment:
   status: unverified
   credibility: 6

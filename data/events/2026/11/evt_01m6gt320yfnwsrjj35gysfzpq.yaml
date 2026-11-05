@@ -18,6 +18,10 @@ sources:
     title: US Strikes Iranian Island As Trump Downplays Prospect Of Renewed Conflict
     published_at: 2026-11-03T02:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105051352/https://www.rferl.org/a/33889371.html
+        captured_at: 2026-11-05T05:13:52Z
 assessment:
   status: unverified
   credibility: 6

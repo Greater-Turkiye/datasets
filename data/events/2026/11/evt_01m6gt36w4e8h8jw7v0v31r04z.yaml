@@ -24,10 +24,18 @@ sources:
     title: Injury toll in Russian attack on Kharkiv rises to 62
     published_at: 2026-11-03T05:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103073128/https://www.ukrinform.net/rubric-ato/4180727-injury-toll-in-russian-attack-on-kharkiv-rises-to-62.html
+        captured_at: 2026-11-03T07:31:28Z
   - url: https://www.ukrinform.net/rubric-ato/4180763-russian-strike-on-kharkiv-hospital-raises-injury-toll-to-73.html
     title: Russian strike on Kharkiv hospital raises injury toll to 73
     published_at: 2026-11-03T07:29Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105051527/https://www.ukrinform.net/rubric-ato/4180763-russian-strike-on-kharkiv-hospital-raises-injury-toll-to-73.html
+        captured_at: 2026-11-05T05:15:27Z
 assessment:
   status: unverified
   credibility: 6

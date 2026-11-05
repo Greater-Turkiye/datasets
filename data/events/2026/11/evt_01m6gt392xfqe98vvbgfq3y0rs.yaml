@@ -18,6 +18,10 @@ sources:
     title: Ukraine intercepts 66% of Russia’s jet-powered Shahed drones in October – General Staff
     published_at: 2026-11-03T05:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103114634/https://www.ukrinform.net/rubric-ato/4180726-ukraine-intercepts-66-of-russias-jetpowered-shahed-drones-in-october-general-staff.html
+        captured_at: 2026-11-03T11:46:34Z
 assessment:
   status: unverified
   credibility: 6
