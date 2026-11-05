@@ -18,6 +18,10 @@ sources:
     title: Codification Clause
     published_at: 2026-11-02T10:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20260803052629/https://www.morh.hr/en/codification-clause/
+        captured_at: 2026-08-03T05:26:29Z
   - url: https://www.morh.hr/en/qa-codification/
     title: Q&A Codification
     published_at: 2026-11-02T11:08Z

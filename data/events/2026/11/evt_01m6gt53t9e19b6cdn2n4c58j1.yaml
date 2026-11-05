@@ -24,6 +24,10 @@ sources:
     title: Russian forces may be planning new landing attempts in Kherson's Korabel district – South Group of Forces
     published_at: 2026-11-03T11:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103141614/https://www.ukrinform.net/rubric-ato/4180879-russian-forces-may-be-planning-new-landing-attempts-in-khersons-korabel-district-south-group-of-forces.html
+        captured_at: 2026-11-03T14:16:14Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Death toll from Komyshuvakha airstrike rises to 31, nearly 50 people missing
     published_at: 2026-11-03T10:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105141523/https://www.ukrinform.net/rubric-ato/4180863-death-toll-from-komyshuvakha-airstrike-rises-to-31-nearly-50-people-missing.html
+        captured_at: 2026-11-05T14:15:23Z
 assessment:
   status: unverified
   credibility: 6

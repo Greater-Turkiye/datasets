@@ -1,0 +1,27 @@
+id: evt_01m6p03dwreqcrbm7j9bkvfb6m
+schema: event/1
+event_type: policy.defense
+title:
+  tr: İşgal altındaki Oleshky topluluğundaki sakinlere insani yardımın ulaşmadığı bildirildi – Askeri Yönetim
+  en: Humanitarian aid reportedly not reaching residents in occupied Oleshky community – Military Administration
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-05T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-05T10:27Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4181697-humanitarian-aid-reportedly-not-reaching-residents-in-occupied-oleshky-community-military-administration.html
+    title: Humanitarian aid reportedly not reaching residents in occupied Oleshky community – Military Administration
+    published_at: 2026-11-05T10:27Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

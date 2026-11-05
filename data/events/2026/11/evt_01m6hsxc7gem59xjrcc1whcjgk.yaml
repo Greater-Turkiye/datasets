@@ -18,6 +18,10 @@ sources:
     title: NATO Stock Numbers (NSNs)
     published_at: 2026-11-02T08:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261003074411/https://www.morh.hr/en/nato-stock-numbers-nsns/
+        captured_at: 2026-10-03T07:44:11Z
 assessment:
   status: unverified
   credibility: 6

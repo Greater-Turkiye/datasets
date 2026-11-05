@@ -24,6 +24,10 @@ sources:
     title: Russian forces launch repeated strike on Dnipro, leaving people injured
     published_at: 2026-11-03T05:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105051748/https://www.ukrinform.net/rubric-ato/4180730-russian-forces-launch-repeated-strike-on-dnipro-leaving-people-injured.html
+        captured_at: 2026-11-05T05:17:48Z
 assessment:
   status: unverified
   credibility: 6

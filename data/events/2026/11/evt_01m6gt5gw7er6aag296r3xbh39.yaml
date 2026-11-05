@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack agricultural enterprise in Zhytomyr region, three injured
     published_at: 2026-11-03T12:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103161607/https://www.ukrinform.net/rubric-ato/4180916-russian-forces-attack-agricultural-enterprise-in-zhytomyr-region-three-injured.html
+        captured_at: 2026-11-03T16:16:07Z
 assessment:
   status: unverified
   credibility: 6

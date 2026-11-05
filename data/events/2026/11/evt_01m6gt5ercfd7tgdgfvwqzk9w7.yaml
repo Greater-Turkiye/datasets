@@ -24,6 +24,10 @@ sources:
     title: Ukrainians, Riot Police Clash In Latest Fight Over Recruitment Tactics, Military Morale
     published_at: 2026-11-03T11:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105142506/https://www.rferl.org/a/ukraine-men-soldiers-recruitment-busification/33889589.html
+        captured_at: 2026-11-05T14:25:06Z
 assessment:
   status: unverified
   credibility: 6

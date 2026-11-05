@@ -1,0 +1,27 @@
+id: evt_01m6p02c4kfpkajy3he0pn6he7
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: Savunma Kuvvetleri ekim ayında 8 binden fazla Rus insansız hava aracı ve füzesini imha etti
+  en: Defense Forces destroy more than 8,000 Russian drones and missiles in October
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-05T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-05T05:17Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4181583-defence-forces-destroy-more-than-8000-russian-drones-and-missiles-in-october.html
+    title: Defense Forces destroy more than 8,000 Russian drones and missiles in October
+    published_at: 2026-11-05T05:17Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -18,6 +18,10 @@ sources:
     title: Under what conditions will Armenia withdraw cases against Azerbaijan before international bodies? Official outlines terms
     published_at: 2026-11-03T09:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105141215/https://news.am/en/news/1072185
+        captured_at: 2026-11-05T14:12:15Z
 assessment:
   status: unverified
   credibility: 6

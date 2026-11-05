@@ -18,6 +18,10 @@ sources:
     title: Albanian Journalists Complain of Police Violence, Abuse During Anti-Govt Protests
     published_at: 2026-11-03T06:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105140245/https://balkaninsight.com/2026/11/03/albanian-journalists-complain-of-police-violence-abuse-during-anti-govt-protests/bi/
+        captured_at: 2026-11-05T14:02:45Z
 assessment:
   status: unverified
   credibility: 6

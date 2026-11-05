@@ -24,6 +24,10 @@ sources:
     title: Drone attack sparks fire at one of Russia’s largest oil refineries in Yaroslavl, media report
     published_at: 2026-11-03T08:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261103090118/https://www.ukrinform.net/rubric-ato/4180769-drone-attack-sparks-fire-at-one-of-russias-largest-oil-refineries-in-yaroslavl-media-report.html
+        captured_at: 2026-11-03T09:01:18Z
 assessment:
   status: unverified
   credibility: 6
