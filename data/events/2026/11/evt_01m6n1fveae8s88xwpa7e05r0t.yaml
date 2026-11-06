@@ -18,6 +18,10 @@ sources:
     title: Russia stockpiles up to 700 ballistic missiles, several thousand cruise missiles – Ukrainian intelligence
     published_at: 2026-11-04T22:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106142324/https://www.ukrinform.net/rubric-ato/4181269-russia-stockpiles-up-to-700-ballistic-missiles-several-thousand-cruise-missiles-ukrainian-intelligence.html
+        captured_at: 2026-11-06T14:23:24Z
 assessment:
   status: unverified
   credibility: 6

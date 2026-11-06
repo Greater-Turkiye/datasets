@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Death toll in Komyshuvakha rises to 40, more than 30 may remain trapped under rubble"
     published_at: 2026-11-04T14:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106142034/https://www.ukrinform.net/rubric-ato/4181429-zelensky-death-toll-in-komyshuvakha-rises-to-40-more-than-30-may-remain-trapped-under-rubble.html
+        captured_at: 2026-11-06T14:20:34Z
 assessment:
   status: unverified
   credibility: 6

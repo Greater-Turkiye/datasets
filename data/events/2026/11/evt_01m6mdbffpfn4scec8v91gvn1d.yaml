@@ -18,6 +18,10 @@ sources:
     title: Ukraine holds initiative on battlefield – NATO Military Committee chief
     published_at: 2026-11-04T19:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106142329/https://www.ukrinform.net/rubric-ato/4181528-ukraine-holds-initiative-on-battlefield-nato-military-committee-chief.html
+        captured_at: 2026-11-06T14:23:29Z
 assessment:
   status: unverified
   credibility: 6

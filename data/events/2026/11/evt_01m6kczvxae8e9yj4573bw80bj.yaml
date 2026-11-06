@@ -18,6 +18,10 @@ sources:
     title: Air defense neutralizes 272 of 310 drones launched by Russia against Ukraine overnight
     published_at: 2026-11-04T07:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106052604/https://www.ukrinform.net/rubric-ato/4181220-air-defense-neutralizes-272-of-310-drones-launched-by-russia-against-ukraine-overnight.html
+        captured_at: 2026-11-06T05:26:04Z
 assessment:
   status: unverified
   credibility: 6

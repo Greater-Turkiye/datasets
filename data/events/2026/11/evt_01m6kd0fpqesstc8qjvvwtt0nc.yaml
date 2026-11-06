@@ -24,6 +24,10 @@ sources:
     title: Former Saladin health chief jailed over refinery contracts
     published_at: 2026-11-04T12:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106141459/https://shafaq.com/en/Security/Former-Saladin-health-chief-jailed-over-refinery-contracts
+        captured_at: 2026-11-06T14:14:59Z
 assessment:
   status: unverified
   credibility: 6

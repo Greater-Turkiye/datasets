@@ -18,6 +18,10 @@ sources:
     title: CSTO Collective Security Council may consider invoking article 25 of the charter against Armenia
     published_at: 2026-11-04T09:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106051906/https://news.am/en/news/1072499
+        captured_at: 2026-11-06T05:19:06Z
 assessment:
   status: unverified
   credibility: 6

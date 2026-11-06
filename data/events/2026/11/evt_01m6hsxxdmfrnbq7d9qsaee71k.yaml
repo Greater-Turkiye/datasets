@@ -24,6 +24,10 @@ sources:
     title: Clashes Near Kyiv Highlight Tension Over Military Manpower Challenges
     published_at: 2026-11-03T16:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106135942/https://www.rferl.org/a/clashes-near-kyiv-highlight-tension-over-military-manpower-challenges/33889849.html
+        captured_at: 2026-11-06T13:59:42Z
 assessment:
   status: unverified
   credibility: 6

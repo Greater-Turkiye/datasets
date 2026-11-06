@@ -24,6 +24,10 @@ sources:
     title: Tehran lifts restrictions on Indian, Chinese, Iraqi and Qatari ships transiting the Strait of Hormuz
     published_at: 2026-11-04T07:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106141024/https://news.am/en/news/1072451
+        captured_at: 2026-11-06T14:10:24Z
 assessment:
   status: unverified
   credibility: 6

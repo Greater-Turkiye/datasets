@@ -24,6 +24,10 @@ sources:
     title: Debris from Russian drones falls in Kyiv's Sviatoshynskyi, Holosiivskyi districts, fires break out
     published_at: 2026-11-04T09:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106141424/https://www.ukrinform.net/rubric-ato/4181295-debris-from-russian-drones-falls-in-kyivs-sviatoshynskyi-holosiivskyi-districts-fires-break-out.html
+        captured_at: 2026-11-06T14:14:24Z
 assessment:
   status: unverified
   credibility: 6
