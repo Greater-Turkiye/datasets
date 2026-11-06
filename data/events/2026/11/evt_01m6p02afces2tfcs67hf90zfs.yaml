@@ -18,6 +18,10 @@ sources:
     title: USF destroys Russian Tunguska air defence system
     published_at: 2026-11-05T04:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105114623/https://www.ukrinform.net/rubric-ato/4181582-usf-destroys-russian-tunguska-air-defence-system.html
+        captured_at: 2026-11-05T11:46:23Z
 assessment:
   status: unverified
   credibility: 6

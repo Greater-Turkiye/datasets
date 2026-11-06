@@ -24,6 +24,10 @@ sources:
     title: "Search and rescue operation in Komyshuvakha: 38 more people may be trapped under rubble, 59 remain missing"
     published_at: 2026-11-04T08:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106142034/https://www.ukrinform.net/rubric-ato/4181234-search-and-rescue-operation-in-komyshuvakha-38-more-people-may-be-trapped-under-rubble-59-remain-missing.html
+        captured_at: 2026-11-06T14:20:34Z
 assessment:
   status: unverified
   credibility: 6

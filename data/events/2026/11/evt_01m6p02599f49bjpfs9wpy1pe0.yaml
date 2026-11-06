@@ -18,6 +18,10 @@ sources:
     title: Russian drone carrying propaganda leaflets with phishing QR code shot down over Ukraine
     published_at: 2026-11-05T02:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105061700/https://www.ukrinform.net/rubric-ato/4181533-russian-drone-carrying-propaganda-leaflets-with-phishing-qr-code-shot-down-over-ukraine.html
+        captured_at: 2026-11-05T06:17:00Z
 assessment:
   status: unverified
   credibility: 6

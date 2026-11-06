@@ -24,6 +24,10 @@ sources:
     title: Russian airstrike on Kramatorsk community kills two women, injures another
     published_at: 2026-11-04T18:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105112050/https://www.ukrinform.net/rubric-ato/4181523-russian-airstrike-on-kramatorsk-community-kills-two-women-injures-another.html
+        captured_at: 2026-11-05T11:20:50Z
 assessment:
   status: unverified
   credibility: 6

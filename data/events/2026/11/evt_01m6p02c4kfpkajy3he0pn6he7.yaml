@@ -18,6 +18,10 @@ sources:
     title: Defense Forces destroy more than 8,000 Russian drones and missiles in October
     published_at: 2026-11-05T05:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106224624/https://www.ukrinform.net/rubric-ato/4181583-defence-forces-destroy-more-than-8000-russian-drones-and-missiles-in-october.html
+        captured_at: 2026-11-06T22:46:24Z
 assessment:
   status: unverified
   credibility: 6

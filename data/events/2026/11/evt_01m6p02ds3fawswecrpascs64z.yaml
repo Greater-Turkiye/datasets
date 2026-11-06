@@ -24,6 +24,10 @@ sources:
     title: Unexploded Kh-101 cruise missile discovered in Mykolaiv region
     published_at: 2026-11-05T05:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105073128/https://www.ukrinform.net/rubric-ato/4181584-unexploded-kh101-cruise-missile-discovered-in-mykolaiv-region.html
+        captured_at: 2026-11-05T07:31:28Z
 assessment:
   status: unverified
   credibility: 6

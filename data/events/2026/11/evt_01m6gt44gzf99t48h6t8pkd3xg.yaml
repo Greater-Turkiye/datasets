@@ -24,6 +24,10 @@ sources:
     title: US, Russia, Ukraine To Resume Peace Talks Amid Doubts Over Breakthrough
     published_at: 2026-11-03T07:46Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106135346/https://www.rferl.org/a/us-russia-ukraine-peace-talks-abu-dhabi-ceasefire/33889451.html
+        captured_at: 2026-11-06T13:53:46Z
 assessment:
   status: unverified
   credibility: 6

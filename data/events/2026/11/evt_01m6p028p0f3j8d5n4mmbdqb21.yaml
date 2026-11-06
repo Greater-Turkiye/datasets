@@ -18,6 +18,10 @@ sources:
     title: Russian attack causes fire at warehouse in Bucha district
     published_at: 2026-11-05T04:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105061659/https://www.ukrinform.net/rubric-ato/4181581-russian-attack-causes-fire-at-warehouse-in-bucha-district.html
+        captured_at: 2026-11-05T06:16:59Z
 assessment:
   status: unverified
   credibility: 6

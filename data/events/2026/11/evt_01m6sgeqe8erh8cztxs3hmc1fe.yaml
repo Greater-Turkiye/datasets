@@ -1,0 +1,27 @@
+id: evt_01m6sgeqe8erh8cztxs3hmc1fe
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: "Zelenskiy: Ukrayna, Rusya'nın enerji altyapısına yönelik saldırılarına bir sonraki tepkisini belirliyor"
+  en: "Zelensky: Ukraine determines its next responses to Russian attacks on energy infrastructure"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-06T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-06T19:21Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4182257-zelensky-ukraine-determines-its-next-responses-to-russian-attacks-on-energy-infrastructure.html
+    title: "Zelensky: Ukraine determines its next responses to Russian attacks on energy infrastructure"
+    published_at: 2026-11-06T19:21Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

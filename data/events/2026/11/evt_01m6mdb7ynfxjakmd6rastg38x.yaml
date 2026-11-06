@@ -24,6 +24,10 @@ sources:
     title: Oleksandr Prokudin, Head of the Kherson Regional Military Administration
     published_at: 2026-11-04T13:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106141659/https://www.ukrinform.net/rubric-ato/4181156-oleksandr-prokudin-head-of-the-kherson-regional-military-administration.html
+        captured_at: 2026-11-06T14:16:59Z
 assessment:
   status: unverified
   credibility: 6
