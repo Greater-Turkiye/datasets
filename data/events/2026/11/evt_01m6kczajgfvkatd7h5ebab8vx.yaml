@@ -18,6 +18,10 @@ sources:
     title: Trump says US has no plans to strike Iran in the near future
     published_at: 2026-11-04T04:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106050738/https://news.am/en/news/1072388
+        captured_at: 2026-11-06T05:07:38Z
 assessment:
   status: unverified
   credibility: 6

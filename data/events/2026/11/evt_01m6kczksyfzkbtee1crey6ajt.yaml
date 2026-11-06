@@ -24,6 +24,10 @@ sources:
     title: Drone attack debris falls near private home in Kyiv’s Desnianskyi district
     published_at: 2026-11-04T06:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104090106/https://www.ukrinform.net/rubric-ato/4181182-drone-attack-debris-falls-near-private-home-in-kyivs-desnianskyi-district.html
+        captured_at: 2026-11-04T09:01:06Z
 assessment:
   status: unverified
   credibility: 6

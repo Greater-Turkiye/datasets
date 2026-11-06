@@ -18,6 +18,10 @@ sources:
     title: U.S. and Madagascar Advance Maritime Security Cooperation
     published_at: 2026-11-04T11:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106052145/https://www.dvidshub.net/news/578485/us-and-madagascar-advance-maritime-security-cooperation
+        captured_at: 2026-11-06T05:21:45Z
 assessment:
   status: unverified
   credibility: 6

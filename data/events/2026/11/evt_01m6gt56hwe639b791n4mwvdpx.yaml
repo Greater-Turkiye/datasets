@@ -18,6 +18,10 @@ sources:
     title: Bosnian Serb Army Ex-Members Jailed for 83 Years for Sokolac Crimes
     published_at: 2026-11-03T11:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105232233/https://balkaninsight.com/2026/11/03/bosnian-serb-army-ex-members-jailed-for-83-years-for-sokolac-crimes/btj/btj-bosnia-and-herzegovina/
+        captured_at: 2026-11-05T23:22:33Z
 assessment:
   status: unverified
   credibility: 6

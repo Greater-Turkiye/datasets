@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack civilians on road in Sumy region with drones, woman injured
     published_at: 2026-11-03T13:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105232642/https://www.ukrinform.net/rubric-ato/4180955-russian-forces-attack-civilians-on-road-in-sumy-region-with-drones-woman-injured.html
+        captured_at: 2026-11-05T23:26:42Z
 assessment:
   status: unverified
   credibility: 6

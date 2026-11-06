@@ -24,6 +24,10 @@ sources:
     title: CTS arrests “high-value” ISIS suspect in Kirkuk
     published_at: 2026-11-04T09:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106051605/https://shafaq.com/en/Security/CTS-arrests-high-value-ISIS-suspect-in-Kirkuk
+        captured_at: 2026-11-06T05:16:05Z
 assessment:
   status: unverified
   credibility: 6

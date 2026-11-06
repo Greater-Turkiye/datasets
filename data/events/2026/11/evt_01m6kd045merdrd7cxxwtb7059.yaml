@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Vilniansk with drones, killing two
     published_at: 2026-11-04T09:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104104613/https://www.ukrinform.net/rubric-ato/4181274-russian-forces-attack-vilniansk-with-drones-killing-two.html
+        captured_at: 2026-11-04T10:46:13Z
 assessment:
   status: unverified
   credibility: 6

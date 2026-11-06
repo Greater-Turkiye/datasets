@@ -18,6 +18,10 @@ sources:
     title: Russians strike an underground school in Komyshuvakha with the same type of bomb used to destroy Azovstal
     published_at: 2026-11-04T07:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106051116/https://www.ukrinform.net/rubric-ato/4181151-russians-strike-an-underground-school-in-komyshuvakha-with-the-same-type-of-bomb-used-to-destroy-azovstal.html
+        captured_at: 2026-11-06T05:11:16Z
 assessment:
   status: unverified
   credibility: 6

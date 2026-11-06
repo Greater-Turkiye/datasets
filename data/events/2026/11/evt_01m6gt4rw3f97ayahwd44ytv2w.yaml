@@ -18,6 +18,10 @@ sources:
     title: Iraq denies airstrike in Diyala after explosions heard
     published_at: 2026-11-03T09:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105232004/https://shafaq.com/en/Security/Iraq-denies-airstrike-in-Diyala-after-explosions-heard
+        captured_at: 2026-11-05T23:20:04Z
 assessment:
   status: unverified
   credibility: 6
