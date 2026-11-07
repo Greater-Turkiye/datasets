@@ -18,6 +18,10 @@ sources:
     title: "The Week In Russia: A Political Killing, A Seismic Shift, And A 'Vile' Attack"
     published_at: 2026-11-05T11:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107044507/https://www.rferl.org/a/russia-novaya-gazeta-ukraine-war-peace-talks/33890879.html
+        captured_at: 2026-11-07T04:45:07Z
 assessment:
   status: unverified
   credibility: 6

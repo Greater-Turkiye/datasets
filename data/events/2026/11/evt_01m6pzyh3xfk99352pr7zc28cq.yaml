@@ -18,6 +18,10 @@ sources:
     title: Russian drone attacks firefighters while they battle blaze in Sloviansk
     published_at: 2026-11-05T12:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105150202/https://www.ukrinform.net/rubric-ato/4181760-russian-drone-attacks-firefighters-while-they-battle-blaze-in-sloviansk.html
+        captured_at: 2026-11-05T15:02:02Z
 assessment:
   status: unverified
   credibility: 6

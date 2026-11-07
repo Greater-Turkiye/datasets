@@ -24,6 +24,10 @@ sources:
     title: Debris from Russian drone falls in Kyiv's Pecherskyi district
     published_at: 2026-11-05T08:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105094612/https://www.ukrinform.net/rubric-ato/4181631-debris-from-russian-drone-falls-in-kyivs-pecherskyi-district.html
+        captured_at: 2026-11-05T09:46:12Z
 assessment:
   status: unverified
   credibility: 6

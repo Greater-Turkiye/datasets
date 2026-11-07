@@ -24,6 +24,10 @@ sources:
     title: Death toll from airstrike on Komyshuvakha rises to 42, search operations continue
     published_at: 2026-11-05T09:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105113114/https://www.ukrinform.net/rubric-ato/4181666-death-toll-from-airstrike-on-komyshuvakha-rises-to-42-search-operations-continue.html
+        captured_at: 2026-11-05T11:31:14Z
 assessment:
   status: unverified
   credibility: 6

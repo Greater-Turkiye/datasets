@@ -24,6 +24,10 @@ sources:
     title: "Russia must show the evidence behind its claims: UK statement to the OSCE"
     published_at: 2026-11-05T11:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106090146/https://www.gov.uk/government/speeches/russia-must-show-the-evidence-behind-its-claims-uk-statement-to-the-osce
+        captured_at: 2026-11-06T09:01:46Z
 assessment:
   status: unverified
   credibility: 6

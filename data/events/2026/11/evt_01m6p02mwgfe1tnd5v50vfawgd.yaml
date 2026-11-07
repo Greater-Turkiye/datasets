@@ -18,6 +18,10 @@ sources:
     title: ADF neutralises 105 Russian drones since yesterday evening
     published_at: 2026-11-05T06:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105084648/https://www.ukrinform.net/rubric-ato/4181598-adf-neutralises-105-russian-drones-since-yesterday-evening.html
+        captured_at: 2026-11-05T08:46:48Z
 assessment:
   status: unverified
   credibility: 6

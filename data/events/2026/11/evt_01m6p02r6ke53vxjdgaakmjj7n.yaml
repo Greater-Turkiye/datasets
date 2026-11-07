@@ -28,6 +28,10 @@ sources:
     title: Russian forces attack energy infrastructure in Chernihiv region
     published_at: 2026-11-05T08:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105114618/https://www.ukrinform.net/rubric-ato/4181661-russian-forces-attack-energy-infrastructure-in-chernihiv-region.html
+        captured_at: 2026-11-05T11:46:18Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Armenia’s Foreign Minister: Borders could open and diplomatic relations with Turkey could be established at any time"
     published_at: 2026-11-05T08:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105150139/https://news.am/en/news/1072785
+        captured_at: 2026-11-05T15:01:39Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,10 +24,18 @@ sources:
     title: Russian drones attack Dnipropetrovsk region, injuring three, damaging critical infrastructure
     published_at: 2026-11-05T05:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106224841/https://www.ukrinform.net/rubric-ato/4181585-russian-drones-attack-dnipropetrovsk-region-injuring-three-damaging-critical-infrastructure.html
+        captured_at: 2026-11-06T22:48:41Z
   - url: https://www.ukrinform.net/rubric-ato/4181731-russian-forces-strike-civilian-and-critical-infrastructure-in-vinnytsia-region-injuring-three.html
     title: Russian forces strike civilian and critical infrastructure in Vinnytsia region, injuring three
     published_at: 2026-11-05T11:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106073117/https://www.ukrinform.net/rubric-ato/4181731-russian-forces-strike-civilian-and-critical-infrastructure-in-vinnytsia-region-injuring-three.html
+        captured_at: 2026-11-06T07:31:17Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: "53rd Universal Periodic Review of human rights: UK Statement on Greece"
     published_at: 2026-11-05T10:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106084827/https://www.gov.uk/government/news/53rd-universal-periodic-review-of-human-rights-uk-statement-on-greece
+        captured_at: 2026-11-06T08:48:27Z
 assessment:
   status: unverified
   credibility: 6

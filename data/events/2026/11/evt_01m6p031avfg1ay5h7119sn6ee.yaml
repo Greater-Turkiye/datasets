@@ -24,6 +24,10 @@ sources:
     title: "Ryazan under massive drone attack: Fire breaks out at one of Russia's largest oil refineries, Wildberries warehouse"
     published_at: 2026-11-05T08:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105143209/https://www.ukrinform.net/rubric-ato/4181641-ryazan-under-massive-drone-attack-fire-breaks-out-at-one-of-russias-largest-oil-refineries-and-wildberries-warehouse.html
+        captured_at: 2026-11-05T14:32:09Z
 assessment:
   status: unverified
   credibility: 6

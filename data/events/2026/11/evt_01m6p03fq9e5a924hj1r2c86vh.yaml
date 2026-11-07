@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Hlukhiv with drone, two injured
     published_at: 2026-11-05T10:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261105124644/https://www.ukrinform.net/rubric-ato/4181706-russian-forces-strike-hlukhiv-with-drone-two-injured.html
+        captured_at: 2026-11-05T12:46:44Z
 assessment:
   status: unverified
   credibility: 6
