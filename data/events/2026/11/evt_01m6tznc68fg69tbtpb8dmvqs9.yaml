@@ -1,0 +1,33 @@
+id: evt_01m6tznc68fg69tbtpb8dmvqs9
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: Ruslar Harkov'a Banderol dronlarıyla saldırdı, evlere, troleybüslere ve arabalara zarar verdi
+  en: Russians strike Kharkiv with Bandерol drones, damaging houses, trolleybuses and cars
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-07T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-07T10:38Z
+location:
+  geometry: {type: Point, coordinates: [36.248, 50.002]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Kharkiv, en: Kharkiv}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4182397-russians-strike-kharkiv-with-banderol-drones-damaging-houses-trolleybuses-and-cars.html
+    title: Russians strike Kharkiv with Bandерol drones, damaging houses, trolleybuses and cars
+    published_at: 2026-11-07T10:38Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, başlıktaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the headline (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

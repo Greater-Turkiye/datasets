@@ -24,6 +24,10 @@ sources:
     title: Death toll from Russian airstrike on Komyshuvakha rises to 43 – Zelensky
     published_at: 2026-11-05T13:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106073116/https://www.ukrinform.net/rubric-ato/4181787-death-toll-from-russian-airstrike-on-komyshuvakha-rises-to-43-zelensky.html
+        captured_at: 2026-11-06T07:31:16Z
 assessment:
   status: unverified
   credibility: 6

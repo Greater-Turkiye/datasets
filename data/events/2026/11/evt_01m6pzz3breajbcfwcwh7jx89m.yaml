@@ -24,6 +24,10 @@ sources:
     title: "Over 600 hectares cleared of Russian forces: Ukraine's military intelligence reveals details of operation in Sumy region"
     published_at: 2026-11-05T19:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106111329/https://www.ukrinform.net/rubric-ato/4181910-over-600-hectares-cleared-of-russian-forces-ukraines-military-intelligence-reveals-details-of-operation-in-sumy-region.html
+        captured_at: 2026-11-06T11:13:29Z
 assessment:
   status: unverified
   credibility: 6

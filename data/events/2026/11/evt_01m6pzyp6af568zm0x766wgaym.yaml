@@ -18,6 +18,10 @@ sources:
     title: Woman reported missing after Russian attack on Komyshuvakha found alive
     published_at: 2026-11-05T14:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106073115/https://www.ukrinform.net/rubric-ato/4181811-woman-reported-missing-after-russian-attack-on-komyshuvakha-found-alive.html
+        captured_at: 2026-11-06T07:31:15Z
 assessment:
   status: unverified
   credibility: 6

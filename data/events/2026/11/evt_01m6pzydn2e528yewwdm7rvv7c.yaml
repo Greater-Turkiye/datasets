@@ -18,6 +18,10 @@ sources:
     title: Security Council, 10266th Meeting (AM) Sudan, South Sudan
     published_at: 2026-11-05T11:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107123649/https://press.un.org/en/blog/sc16502
+        captured_at: 2026-11-07T12:36:49Z
 assessment:
   status: unverified
   credibility: 6

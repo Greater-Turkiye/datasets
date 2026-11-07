@@ -18,6 +18,10 @@ sources:
     title: Armenia to continue building closer ties with EU member states, Foreign Minister says
     published_at: 2026-11-05T08:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107044309/https://news.am/en/news/1072799
+        captured_at: 2026-11-07T04:43:09Z
 assessment:
   status: unverified
   credibility: 6

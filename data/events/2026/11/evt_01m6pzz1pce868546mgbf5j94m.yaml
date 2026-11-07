@@ -18,6 +18,10 @@ sources:
     title: Russia has begun conscripting abducted Ukrainian children into its army – Zelensky
     published_at: 2026-11-05T19:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107124122/https://www.ukrinform.net/rubric-ato/4181905-russia-has-begun-conscripting-abducted-ukrainian-children-into-its-army-zelensky.html
+        captured_at: 2026-11-07T12:41:22Z
 assessment:
   status: unverified
   credibility: 6

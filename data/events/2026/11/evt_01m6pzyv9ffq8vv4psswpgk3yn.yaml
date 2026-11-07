@@ -18,6 +18,10 @@ sources:
     title: "Continued violations of Abyei’s demilitarised status are unacceptable: UK statement at the UN Security Council"
     published_at: 2026-11-05T16:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106090533/https://www.gov.uk/government/speeches/continued-violations-of-abyeis-demilitarised-status-are-unacceptable-uk-statement-at-the-un-security-council
+        captured_at: 2026-11-06T09:05:33Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Defending media freedom and the safety of journalists: UK statement to the OSCE, November 2026"
     published_at: 2026-11-05T14:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106090420/https://www.gov.uk/government/speeches/defending-media-freedom-and-the-safety-of-journalists-uk-statement-to-the-osce-november-2026
+        captured_at: 2026-11-06T09:04:20Z
 assessment:
   status: unverified
   credibility: 6

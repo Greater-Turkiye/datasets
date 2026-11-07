@@ -24,6 +24,10 @@ sources:
     title: Syrian intelligence dismantles ISIS cell in Manbij
     published_at: 2026-11-05T11:46Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107123236/https://shafaq.com/en/Security/Syrian-intelligence-dismantles-ISIS-cell-in-Manbij
+        captured_at: 2026-11-07T12:32:36Z
 assessment:
   status: unverified
   credibility: 6

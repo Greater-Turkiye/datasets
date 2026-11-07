@@ -24,6 +24,10 @@ sources:
     title: Russian attack damages college, warehouse and energy infrastructure in Odesa region
     published_at: 2026-11-05T07:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107044016/https://www.ukrinform.net/rubric-ato/4181629-russian-attack-damages-college-warehouse-and-energy-infrastructure-in-odesa-region.html
+        captured_at: 2026-11-07T04:40:16Z
   - url: https://www.ukrinform.net/rubric-ato/4181661-russian-forces-attack-energy-infrastructure-in-chernihiv-region.html
     title: Russian forces attack energy infrastructure in Chernihiv region
     published_at: 2026-11-05T08:55Z

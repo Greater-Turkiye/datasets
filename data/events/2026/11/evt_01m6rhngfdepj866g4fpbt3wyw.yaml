@@ -18,6 +18,10 @@ sources:
     title: Defense Forces neutralize more than 90% of Russian Lancet and Molniya drones in one week
     published_at: 2026-11-06T04:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106061612/https://www.ukrinform.net/rubric-ato/4181958-defense-forces-neutralize-more-than-90-of-russian-lancet-and-molniya-drones-in-one-week.html
+        captured_at: 2026-11-06T06:16:12Z
 assessment:
   status: unverified
   credibility: 6
