@@ -24,6 +24,10 @@ sources:
     title: Drones attack Afipsky Oil Refinery in Russia's Krasnodar Krai, fire breaks out – media
     published_at: 2026-11-06T08:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106100218/https://www.ukrinform.net/rubric-ato/4182002-drones-attack-afipsky-oil-refinery-in-russias-krasnodar-krai-fire-breaks-out-media.html
+        captured_at: 2026-11-06T10:02:18Z
 assessment:
   status: unverified
   credibility: 6

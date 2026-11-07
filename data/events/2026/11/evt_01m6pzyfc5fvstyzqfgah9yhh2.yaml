@@ -18,6 +18,10 @@ sources:
     title: "World News in Brief: Korea tensions mount, UN demands answers over staff death in Yemen, Guterres in Spain, Nepal alert ahead of COP31"
     published_at: 2026-11-05T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107213147/https://news.un.org/feed/view/en/story/2026/11/1168750
+        captured_at: 2026-11-07T21:31:47Z
 assessment:
   status: unverified
   credibility: 6

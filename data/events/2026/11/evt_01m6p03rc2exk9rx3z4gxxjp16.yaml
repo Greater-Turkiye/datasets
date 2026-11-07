@@ -24,6 +24,10 @@ sources:
     title: Iraq ready for nuclear emergency, sees limited fallout risk
     published_at: 2026-11-05T12:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107123513/https://shafaq.com/en/Security/Iraq-ready-for-nuclear-emergency-sees-limited-fallout-risk
+        captured_at: 2026-11-07T12:35:13Z
 assessment:
   status: unverified
   credibility: 6

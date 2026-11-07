@@ -24,6 +24,10 @@ sources:
     title: Russia drones attack five districts of Dnipropetrovsk region overnight
     published_at: 2026-11-06T06:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106100219/https://www.ukrinform.net/rubric-ato/4181982-russia-drones-attack-five-districts-of-dnipropetrovsk-region-overnight.html
+        captured_at: 2026-11-06T10:02:19Z
 assessment:
   status: unverified
   credibility: 6

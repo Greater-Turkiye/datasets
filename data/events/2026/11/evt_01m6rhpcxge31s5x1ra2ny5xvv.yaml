@@ -24,6 +24,10 @@ sources:
     title: Bodies of 53 people recovered from rubble of underground school in Komyshuvakha
     published_at: 2026-11-06T09:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107214154/https://www.ukrinform.net/rubric-ato/4182051-bodies-of-53-people-recovered-from-rubble-of-underground-school-in-komyshuvakha.html
+        captured_at: 2026-11-07T21:41:54Z
 assessment:
   status: unverified
   credibility: 6

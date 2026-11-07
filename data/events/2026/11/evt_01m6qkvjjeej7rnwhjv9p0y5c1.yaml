@@ -18,6 +18,10 @@ sources:
     title: Security Council Hears Update on Yemen Sanctions Committee’s Work, Including Panel Recommendations
     published_at: 2026-11-05T22:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107073914/https://press.un.org/en/2026/sc16501.doc.htm
+        captured_at: 2026-11-07T07:39:14Z
 assessment:
   status: unverified
   credibility: 6

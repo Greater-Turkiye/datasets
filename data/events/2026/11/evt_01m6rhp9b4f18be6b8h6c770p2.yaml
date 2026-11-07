@@ -24,6 +24,10 @@ sources:
     title: Man killed in Russian morning attack on Rivne region, damage reported
     published_at: 2026-11-06T09:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106141627/https://www.ukrinform.net/rubric-ato/4182013-man-killed-in-russian-morning-attack-on-rivne-region-damage-reported.html
+        captured_at: 2026-11-06T14:16:27Z
 assessment:
   status: unverified
   credibility: 6

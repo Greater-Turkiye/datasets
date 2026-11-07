@@ -18,6 +18,10 @@ sources:
     title: U.S. and Mozambique strengthen security and defense economic cooperation
     published_at: 2026-11-06T07:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106071545/https://www.dvidshub.net/news/578763/us-and-mozambique-strengthen-security-and-defense-economic-cooperation
+        captured_at: 2026-11-06T07:15:45Z
 assessment:
   status: unverified
   credibility: 6

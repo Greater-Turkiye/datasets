@@ -18,6 +18,10 @@ sources:
     title: Armenia’s Foreign Minister hopes for improvement in relations with Russia
     published_at: 2026-11-05T08:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107212917/https://news.am/en/news/1072800
+        captured_at: 2026-11-07T21:29:17Z
 assessment:
   status: unverified
   credibility: 6

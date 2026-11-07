@@ -18,6 +18,10 @@ sources:
     title: Serbian President’s Controversial Last-Minute Pardons Face Legal Challenges
     published_at: 2026-11-06T06:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107213647/https://balkaninsight.com/2026/11/06/serbian-presidents-controversial-last-minute-pardons-face-legal-challenges/bi/
+        captured_at: 2026-11-07T21:36:47Z
 assessment:
   status: unverified
   credibility: 6
