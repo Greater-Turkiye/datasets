@@ -18,6 +18,10 @@ sources:
     title: Humanitarian aid reportedly not reaching residents in occupied Oleshky community – Military Administration
     published_at: 2026-11-05T10:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108042740/https://www.ukrinform.net/rubric-ato/4181697-humanitarian-aid-reportedly-not-reaching-residents-in-occupied-oleshky-community-military-administration.html
+        captured_at: 2026-11-08T04:27:40Z
 assessment:
   status: unverified
   credibility: 6

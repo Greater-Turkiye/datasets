@@ -24,6 +24,10 @@ sources:
     title: Russian night attack damages energy infrastructure in Kyiv region, three injured
     published_at: 2026-11-06T07:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107214224/https://www.ukrinform.net/rubric-ato/4181995-russian-night-attack-damages-energy-infrastructure-in-kyiv-region-three-injured.html
+        captured_at: 2026-11-07T21:42:24Z
 assessment:
   status: unverified
   credibility: 6

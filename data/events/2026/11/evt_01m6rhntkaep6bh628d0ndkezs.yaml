@@ -18,6 +18,10 @@ sources:
     title: Tetiana Hasanenko, Head of the Oleshky Military Administration
     published_at: 2026-11-06T07:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107213717/https://www.ukrinform.net/rubric-ato/4181756-tetiana-hasanenko-head-of-the-oleshky-military-administration.html
+        captured_at: 2026-11-07T21:37:17Z
 assessment:
   status: unverified
   credibility: 6

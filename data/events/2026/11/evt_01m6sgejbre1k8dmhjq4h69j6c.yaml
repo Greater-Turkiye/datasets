@@ -18,6 +18,10 @@ sources:
     title: Iran's Isolation Closes Doors For Young People Hoping To Build A Future Abroad
     published_at: 2026-11-06T18:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108043528/https://www.rferl.org/a/iran-s-isolation-closes-doors-for-young-people-hoping-to-build-a-future-abroad/33892509.html
+        captured_at: 2026-11-08T04:35:28Z
 assessment:
   status: unverified
   credibility: 6

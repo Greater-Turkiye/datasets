@@ -24,6 +24,10 @@ sources:
     title: Five houses damaged, woman injured by falling drone debris in Cherkasy region
     published_at: 2026-11-06T15:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107052752/https://www.ukrinform.net/rubric-ato/4182167-five-houses-damaged-woman-injured-by-falling-drone-debris-in-cherkasy-region.html
+        captured_at: 2026-11-07T05:27:52Z
 assessment:
   status: unverified
   credibility: 6

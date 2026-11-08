@@ -18,6 +18,10 @@ sources:
     title: Ukraine introduces unified rules for identifying fallen military personnel and civilians
     published_at: 2026-11-06T13:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106161622/https://www.ukrinform.net/rubric-ato/4182140-ukraine-introduces-unified-rules-for-identifying-fallen-military-personnel-and-civilians.html
+        captured_at: 2026-11-06T16:16:22Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Russian drone attacks repair crew in frontline region,killing energy worker
     published_at: 2026-11-06T18:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106204222/https://www.ukrinform.net/rubric-ato/4182236-russian-drone-attacks-repair-crew-in-frontline-regionkilling-energy-worker.html
+        captured_at: 2026-11-06T20:42:22Z
 assessment:
   status: unverified
   credibility: 6

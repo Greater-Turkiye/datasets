@@ -32,6 +32,10 @@ sources:
     title: Russian forces attack energy facilities in Kirovohrad region
     published_at: 2026-11-06T09:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107214223/https://www.ukrinform.net/rubric-ato/4182025-russian-forces-attack-energy-facilities-in-kirovohrad-region.html
+        captured_at: 2026-11-07T21:42:23Z
 assessment:
   status: unverified
   credibility: 6

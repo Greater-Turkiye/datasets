@@ -24,6 +24,10 @@ sources:
     title: Russian drone attack damages warehouse complex, house in Kyiv region, injures man
     published_at: 2026-11-06T17:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106191604/https://www.ukrinform.net/rubric-ato/4182192-russian-drone-attack-damages-warehouse-complex-house-in-kyiv-region-injures-man.html
+        captured_at: 2026-11-06T19:16:04Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Mala Tokmachka remains under Ukrainian control – military
     published_at: 2026-11-06T17:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107083252/https://www.ukrinform.net/rubric-ato/4182196-mala-tokmachka-remains-under-ukrainian-control-military.html
+        captured_at: 2026-11-07T08:32:52Z
 assessment:
   status: unverified
   credibility: 6

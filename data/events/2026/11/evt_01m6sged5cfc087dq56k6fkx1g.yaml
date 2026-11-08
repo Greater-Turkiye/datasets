@@ -18,6 +18,10 @@ sources:
     title: Russia faces shortage of air defense systems to protect military airfields – Ukrainian Navy
     published_at: 2026-11-06T15:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106173118/https://www.ukrinform.net/rubric-ato/4182171-russia-faces-shortage-of-air-defense-systems-to-protect-military-airfields-ukrainian-navy.html
+        captured_at: 2026-11-06T17:31:18Z
 assessment:
   status: unverified
   credibility: 6

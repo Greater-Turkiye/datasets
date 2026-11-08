@@ -24,6 +24,10 @@ sources:
     title: "Zelensky: Kyiv facing most severe electricity and water supply disruptions following Russian attacks"
     published_at: 2026-11-06T14:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106164609/https://www.ukrinform.net/rubric-ato/4182153-zelensky-kyiv-facing-most-severe-electricity-and-water-supply-disruptions-following-russian-attacks.html
+        captured_at: 2026-11-06T16:46:09Z
 assessment:
   status: unverified
   credibility: 6

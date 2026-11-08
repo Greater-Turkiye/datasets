@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces strike Russian ammunition depots in Zaporizhzhia, Donetsk regions
     published_at: 2026-11-06T10:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107214217/https://www.ukrinform.net/rubric-ato/4182057-ukrainian-forces-strike-russian-ammunition-depots-in-zaporizhzhia-donetsk-regions.html
+        captured_at: 2026-11-07T21:42:17Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: ADF neutralizes 196 Russian drones used to attack Ukraine overnight
     published_at: 2026-11-06T07:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108043025/https://www.ukrinform.net/rubric-ato/4181994-adf-neutralizes-196-russian-drones-used-to-attack-ukraine-overnight.html
+        captured_at: 2026-11-08T04:30:25Z
 assessment:
   status: unverified
   credibility: 6
