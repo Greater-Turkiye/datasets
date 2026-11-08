@@ -24,6 +24,10 @@ sources:
     title: Injury toll after Russian attack on Sumy rises to seven
     published_at: 2026-11-06T21:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107003104/https://www.ukrinform.net/rubric-ato/4182280-injury-toll-after-russian-attack-on-sumy-rises-to-seven.html
+        captured_at: 2026-11-07T00:31:04Z
 assessment:
   status: unverified
   credibility: 6

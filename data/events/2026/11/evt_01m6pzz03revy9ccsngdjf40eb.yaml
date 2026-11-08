@@ -24,6 +24,10 @@ sources:
     title: Iraqi army reinforces western desert defenses
     published_at: 2026-11-05T18:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108124859/https://shafaq.com/en/Security/Iraqi-army-reinforces-western-desert-defenses
+        captured_at: 2026-11-08T12:48:59Z
 assessment:
   status: unverified
   credibility: 6

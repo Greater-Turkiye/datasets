@@ -1,0 +1,27 @@
+id: evt_01m6xk175xf5g803cqn1bjm6ya
+schema: event/1
+event_type: policy.defense
+title:
+  tr: Savunma Bakanlığı uzmanları savaşın başlamasından bu yana 480.000 'den fazla patlayıcı cihazı imha etti
+  en: Defence Ministry specialists destroy more than 480,000 explosive devices since start of war
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-08T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-08T05:58Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4182547-defence-ministry-specialists-destroy-more-than-480000-explosive-devices-since-start-of-war.html
+    title: Defence Ministry specialists destroy more than 480,000 explosive devices since start of war
+    published_at: 2026-11-08T05:58Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

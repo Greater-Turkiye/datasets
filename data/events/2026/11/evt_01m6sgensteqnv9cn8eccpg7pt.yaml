@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Sumy with glide bombs, three injured
     published_at: 2026-11-06T18:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106223105/https://www.ukrinform.net/rubric-ato/4182237-russian-forces-strike-sumy-with-glide-bombs-three-injured.html
+        captured_at: 2026-11-06T22:31:05Z
 assessment:
   status: unverified
   credibility: 6

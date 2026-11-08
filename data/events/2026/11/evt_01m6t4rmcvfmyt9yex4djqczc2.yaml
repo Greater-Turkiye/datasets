@@ -18,6 +18,10 @@ sources:
     title: Russian female soldier involved in assault killed in Pokrovsk sector
     published_at: 2026-11-06T22:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107013105/https://www.ukrinform.net/rubric-ato/4182029-russian-female-soldier-involved-in-assault-killed-in-pokrovsk-sector.html
+        captured_at: 2026-11-07T01:31:05Z
 assessment:
   status: unverified
   credibility: 6

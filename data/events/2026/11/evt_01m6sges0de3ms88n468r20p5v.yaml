@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack energy infrastructure facility in Zhytomyr community
     published_at: 2026-11-06T19:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106223104/https://www.ukrinform.net/rubric-ato/4182262-russian-forces-attack-energy-infrastructure-facility-in-zhytomyr-community.html
+        captured_at: 2026-11-06T22:31:04Z
 assessment:
   status: unverified
   credibility: 6

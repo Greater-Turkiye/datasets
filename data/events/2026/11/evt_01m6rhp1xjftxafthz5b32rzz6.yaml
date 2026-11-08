@@ -24,6 +24,10 @@ sources:
     title: White House Outlines Broader European Security Plan Ahead Of Ukraine Peace Talks
     published_at: 2026-11-06T07:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108043050/https://www.rferl.org/a/white-house-outlines-broader-european-security-plan-ahead-of-ukraine-peace-talks/33892135.html
+        captured_at: 2026-11-08T04:30:50Z
 assessment:
   status: unverified
   credibility: 6

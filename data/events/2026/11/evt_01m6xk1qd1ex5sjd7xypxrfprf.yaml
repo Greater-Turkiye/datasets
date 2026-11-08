@@ -1,0 +1,33 @@
+id: evt_01m6xk1qd1ex5sjd7xypxrfprf
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: Rus kuvvetleri Çerkasy'deki kritik altyapı tesisini vurdu, elektrik ve ısıtma kesintileri olası
+  en: Russian forces strike critical infrastructure facility in Cherkasy, power and heating disruptions possible
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-08T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-08T09:33Z
+location:
+  geometry: {type: Point, coordinates: [32.071, 49.435]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Cherkasy, en: Cherkasy}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4182598-russian-forces-strike-critical-infrastructure-facility-in-cherkasy-power-and-heating-disruptions-possible.html
+    title: Russian forces strike critical infrastructure facility in Cherkasy, power and heating disruptions possible
+    published_at: 2026-11-08T09:33Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, başlıktaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the headline (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

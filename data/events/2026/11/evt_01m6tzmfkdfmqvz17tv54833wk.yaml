@@ -24,10 +24,18 @@ sources:
     title: Russian ballistic attack injures three in Kyiv, including child
     published_at: 2026-11-07T04:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107071604/https://www.ukrinform.net/rubric-ato/4182310-russian-ballistic-attack-injures-three-in-kyiv-including-child.html
+        captured_at: 2026-11-07T07:16:04Z
   - url: https://www.ukrinform.net/rubric-ato/4182377-injury-toll-after-russian-attack-on-kyiv-rises-to-six-including-one-child.html
     title: Injury toll after Russian attack on Kyiv rises to six, including one child
     published_at: 2026-11-07T09:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107171629/https://www.ukrinform.net/rubric-ato/4182377-injury-toll-after-russian-attack-on-kyiv-rises-to-six-including-one-child.html
+        captured_at: 2026-11-07T17:16:29Z
 assessment:
   status: unverified
   credibility: 6

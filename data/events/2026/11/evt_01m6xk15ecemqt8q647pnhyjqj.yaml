@@ -1,0 +1,27 @@
+id: evt_01m6xk15ecemqt8q647pnhyjqj
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: SSU Alfa Özel Kuvvetleri, bir ay içinde yaklaşık 4.900 düşman İHA'sını ve yer insansız hava aracını imha etti
+  en: SSU Alpha Special Forces destroy nearly 4,900 enemy UAVs, ground drones in one month
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-08T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-08T05:33Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4182546-ssu-alpha-special-forces-destroy-nearly-4900-enemy-uavs-ground-drones-in-one-month.html
+    title: SSU Alpha Special Forces destroy nearly 4,900 enemy UAVs, ground drones in one month
+    published_at: 2026-11-08T05:33Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -18,6 +18,10 @@ sources:
     title: Meeting with Secretary of the Supreme National Security Council of Iran Mohsen Rezaei
     published_at: 2026-11-05T13:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108042808/http://en.kremlin.ru/events/president/news/81187
+        captured_at: 2026-11-08T04:28:08Z
 assessment:
   status: unverified
   credibility: 6

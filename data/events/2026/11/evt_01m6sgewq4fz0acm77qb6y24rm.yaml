@@ -18,6 +18,10 @@ sources:
     title: Zelensky announces personnel changes in AFU
     published_at: 2026-11-06T20:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261106223104/https://www.ukrinform.net/rubric-ato/4182273-zelensky-announces-personnel-changes-in-afu.html
+        captured_at: 2026-11-06T22:31:04Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Ukraine Hopes Oleshky Can Serve As Model For Wider Truce, Delegation Says In DC
     published_at: 2026-11-06T21:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108125315/https://www.rferl.org/a/ukraine-oleshky-lubinets-melania-trump-ceasefire/33892549.html
+        captured_at: 2026-11-08T12:53:15Z
 assessment:
   status: unverified
   credibility: 6
