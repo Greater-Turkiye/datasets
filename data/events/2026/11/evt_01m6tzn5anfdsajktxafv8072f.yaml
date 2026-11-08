@@ -18,6 +18,10 @@ sources:
     title: Ukrainian forces strike Proton plant in Oryol with Neptune missiles – General Staff
     published_at: 2026-11-07T09:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107111612/https://www.ukrinform.net/rubric-ato/4182374-ukrainian-forces-strike-proton-plant-in-oryol-with-neptune-missiles-general-staff.html
+        captured_at: 2026-11-07T11:16:12Z
 assessment:
   status: unverified
   credibility: 6

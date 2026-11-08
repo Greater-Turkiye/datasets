@@ -24,6 +24,10 @@ sources:
     title: "Massive Russian attack: Energy facilities damaged in two districts of Kyiv region"
     published_at: 2026-11-07T08:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107103121/https://www.ukrinform.net/rubric-ato/4182373-massive-russian-attack-energy-facilities-damaged-in-two-districts-of-kyiv-region.html
+        captured_at: 2026-11-07T10:31:21Z
 assessment:
   status: unverified
   credibility: 6

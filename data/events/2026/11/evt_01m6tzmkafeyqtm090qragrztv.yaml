@@ -24,6 +24,10 @@ sources:
     title: Northern Bridge in Kyiv damaged in Russian attack
     published_at: 2026-11-07T06:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107111615/https://www.ukrinform.net/rubric-ato/4182328-northern-bridge-in-kyiv-damaged-in-russian-attack.html
+        captured_at: 2026-11-07T11:16:15Z
 assessment:
   status: unverified
   credibility: 6

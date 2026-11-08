@@ -24,6 +24,10 @@ sources:
     title: DIU identifies Russian military personnel involved in airstrike on Komyshuvakha
     published_at: 2026-11-07T08:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107111613/https://www.ukrinform.net/rubric-ato/4182363-diu-identifies-russian-military-personnel-involved-in-airstrike-on-komyshuvakha.html
+        captured_at: 2026-11-07T11:16:13Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Dmytro Pishko, Head of the Support Forces Directorate, Air Assault Forces Command
     published_at: 2026-11-06T13:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108214737/https://www.ukrinform.net/rubric-ato/4181945-dmytro-pishko-head-of-the-support-forces-directorate-air-assault-forces-command.html
+        captured_at: 2026-11-08T21:47:37Z
 assessment:
   status: unverified
   credibility: 6

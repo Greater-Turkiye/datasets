@@ -18,6 +18,10 @@ sources:
     title: "Ukraine's Quiet Counteroffensive: Inside Operation Vivaldi"
     published_at: 2026-11-05T16:44Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108124809/https://www.rferl.org/a/ukraine-s-quiet-counteroffensive-inside-operation-vivaldi/33891774.html
+        captured_at: 2026-11-08T12:48:09Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Security Council Weighs United Nations Abyei Mission Mandate Renewal Ahead of Vote
     published_at: 2026-11-05T20:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108181412/https://press.un.org/en/2026/sc16502.doc.htm
+        captured_at: 2026-11-08T18:14:12Z
 assessment:
   status: unverified
   credibility: 6

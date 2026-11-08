@@ -24,6 +24,10 @@ sources:
     title: Missile found on old drone defused in Kirkuk
     published_at: 2026-11-05T17:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108214335/https://shafaq.com/en/Security/Missile-found-on-old-drone-defused-in-Kirkuk
+        captured_at: 2026-11-08T21:43:35Z
 assessment:
   status: unverified
   credibility: 6

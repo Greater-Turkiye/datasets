@@ -24,6 +24,10 @@ sources:
     title: Russia Strikes Kyiv's Energy Infrastructure, Northern Bridge Ahead Of Abu Dhabi Talks
     published_at: 2026-11-07T10:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108194800/https://www.rferl.org/a/russia-strikes-kyiv-ukraine-trilateral-talks/33892815.html
+        captured_at: 2026-11-08T19:48:00Z
 assessment:
   status: unverified
   credibility: 6

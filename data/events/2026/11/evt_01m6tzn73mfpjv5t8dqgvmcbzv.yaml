@@ -24,6 +24,10 @@ sources:
     title: "Zelensky: In addition to Kyiv, 12 regions of Ukraine come under attack overnight"
     published_at: 2026-11-07T09:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107123123/https://www.ukrinform.net/rubric-ato/4182380-zelensky-in-addition-to-kyiv-12-regions-of-ukraine-come-under-attack-overnight.html
+        captured_at: 2026-11-07T12:31:23Z
 assessment:
   status: unverified
   credibility: 6

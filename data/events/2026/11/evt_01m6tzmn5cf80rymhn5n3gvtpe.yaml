@@ -24,6 +24,10 @@ sources:
     title: Kyiv facing extremely difficult energy situation after overnight Russian attack – Klitschko
     published_at: 2026-11-07T07:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107083112/https://www.ukrinform.net/rubric-ato/4182333-kyiv-faces-extremely-difficult-energy-situation-after-overnight-russian-attack-klitschko.html
+        captured_at: 2026-11-07T08:31:12Z
 assessment:
   status: unverified
   credibility: 6
