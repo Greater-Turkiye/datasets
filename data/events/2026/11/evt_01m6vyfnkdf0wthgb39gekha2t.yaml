@@ -24,6 +24,10 @@ sources:
     title: Russian drones attack businesses in Poltava region, four people injured
     published_at: 2026-11-07T12:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107153105/https://www.ukrinform.net/rubric-ato/4182426-russian-drones-attack-businesses-in-poltava-region-four-people-injured.html
+        captured_at: 2026-11-07T15:31:05Z
 assessment:
   status: unverified
   credibility: 6

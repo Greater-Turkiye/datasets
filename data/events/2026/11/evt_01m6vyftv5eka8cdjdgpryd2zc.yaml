@@ -18,6 +18,10 @@ sources:
     title: Russia may have used North Korean KN-23 missiles to strike Ukrainian energy facility – Zelensky
     published_at: 2026-11-07T14:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107153103/https://www.ukrinform.net/rubric-ato/4182444-russia-may-have-used-north-korean-kn23-missiles-to-strike-ukrainian-energy-facility-zelensky.html
+        captured_at: 2026-11-07T15:31:03Z
 assessment:
   status: unverified
   credibility: 6

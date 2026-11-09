@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Kharkiv leaves two injured
     published_at: 2026-11-07T12:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107153148/https://www.ukrinform.net/rubric-ato/4182427-russian-attack-on-kharkiv-leaves-two-injured.html
+        captured_at: 2026-11-07T15:31:48Z
 assessment:
   status: unverified
   credibility: 6

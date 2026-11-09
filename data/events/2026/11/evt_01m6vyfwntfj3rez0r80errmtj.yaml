@@ -24,6 +24,10 @@ sources:
     title: Private house damaged in Russian attack on Kyiv's Shevchenkivskyi district
     published_at: 2026-11-07T14:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107164605/https://www.ukrinform.net/rubric-ato/4182452-private-house-damaged-in-russian-attack-on-kyivs-shevchenkivskyi-district.html
+        captured_at: 2026-11-07T16:46:05Z
 assessment:
   status: unverified
   credibility: 6

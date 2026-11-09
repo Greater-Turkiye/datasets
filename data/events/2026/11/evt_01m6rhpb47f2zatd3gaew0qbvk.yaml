@@ -24,6 +24,10 @@ sources:
     title: Security forces destroy armed drone in Iraq’s Kirkuk
     published_at: 2026-11-06T09:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108214524/https://shafaq.com/en/Security/Security-forces-destroy-armed-drone-in-Iraq-s-Kirkuk
+        captured_at: 2026-11-08T21:45:24Z
 assessment:
   status: unverified
   credibility: 6

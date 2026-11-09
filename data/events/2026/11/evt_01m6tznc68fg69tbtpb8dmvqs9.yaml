@@ -24,6 +24,10 @@ sources:
     title: Russians strike Kharkiv with Bandерol drones, damaging houses, trolleybuses and cars
     published_at: 2026-11-07T10:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107123122/https://www.ukrinform.net/rubric-ato/4182397-russians-strike-kharkiv-with-banderol-drones-damaging-houses-trolleybuses-and-cars.html
+        captured_at: 2026-11-07T12:31:22Z
 assessment:
   status: unverified
   credibility: 6

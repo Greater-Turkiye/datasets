@@ -24,6 +24,10 @@ sources:
     title: Russian forces shell Lozova, damaging apartment buildings, heating facility and kindergarten
     published_at: 2026-11-07T11:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107134620/https://www.ukrinform.net/rubric-ato/4182405-russian-forces-shell-lozova-damaging-apartment-buildings-heating-facility-and-kindergarten.html
+        captured_at: 2026-11-07T13:46:20Z
 assessment:
   status: unverified
   credibility: 6

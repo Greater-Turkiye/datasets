@@ -24,6 +24,10 @@ sources:
     title: Defense Forces strike two Iskander launchers, Pantsir-S1 system in Russia's Bryansk region
     published_at: 2026-11-07T10:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108004414/https://www.ukrinform.net/rubric-ato/4182395-defense-forces-strike-two-iskander-launchers-pantsirs1-system-in-russias-bryansk-region.html
+        captured_at: 2026-11-08T00:44:14Z
 assessment:
   status: unverified
   credibility: 6

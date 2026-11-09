@@ -24,6 +24,10 @@ sources:
     title: Woman killed, others injured in Russian attacks on Kharkiv region since morning
     published_at: 2026-11-07T19:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108094821/https://www.ukrinform.net/rubric-ato/4182512-woman-killed-others-injured-in-russian-attacks-on-kharkiv-region-since-morning.html
+        captured_at: 2026-11-08T09:48:21Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Russian attack causes power outage in Khmelnytskyi region
     published_at: 2026-11-07T15:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107164605/https://www.ukrinform.net/rubric-ato/4182465-russian-attack-causes-power-outage-in-khmelnytskyi-region.html
+        captured_at: 2026-11-07T16:46:05Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack two districts of Dnipropetrovsk region more than 10 times since morning, one injured
     published_at: 2026-11-07T18:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108094824/https://www.ukrinform.net/rubric-ato/4182509-russian-forces-attack-two-districts-of-dnipropetrovsk-region-more-than-10-times-since-morning-one-injured.html
+        captured_at: 2026-11-08T09:48:24Z
 assessment:
   status: unverified
   credibility: 6
