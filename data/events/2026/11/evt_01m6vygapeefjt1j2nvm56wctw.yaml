@@ -24,6 +24,10 @@ sources:
     title: Prosecutor's office building damaged in Russian attack on Kyiv
     published_at: 2026-11-07T19:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261107211605/https://www.ukrinform.net/rubric-ato/4182521-prosecutors-office-building-damaged-in-russian-attack-on-kyiv.html
+        captured_at: 2026-11-07T21:16:05Z
 assessment:
   status: unverified
   credibility: 6

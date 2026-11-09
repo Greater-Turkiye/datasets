@@ -18,6 +18,10 @@ sources:
     title: Drone damages residential buildings in Khmelnytskyi, leaving one injured
     published_at: 2026-11-08T07:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108213352/https://www.ukrinform.net/rubric-ato/4182569-drone-damages-residential-buildings-in-khmelnytskyi-leaving-one-injured.html
+        captured_at: 2026-11-08T21:33:52Z
 assessment:
   status: unverified
   credibility: 6

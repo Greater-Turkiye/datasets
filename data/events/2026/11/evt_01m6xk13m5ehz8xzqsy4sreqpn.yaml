@@ -18,6 +18,10 @@ sources:
     title: Russian forces making attempts to advance towards Radkivka in Kupiansk sector – Trehubov
     published_at: 2026-11-08T05:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108080104/https://www.ukrinform.net/rubric-ato/4182545-russian-forces-making-attempts-to-advance-towards-radkivka-in-kupiansk-sector-trehubov.html
+        captured_at: 2026-11-08T08:01:04Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Drapatyi, Zaits visit marine corps headquarters
     published_at: 2026-11-07T20:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109083832/https://www.ukrinform.net/rubric-ato/4182529-drapatyi-zaits-visit-marine-corps-headquarters.html
+        captured_at: 2026-11-09T08:38:32Z
 assessment:
   status: unverified
   credibility: 6

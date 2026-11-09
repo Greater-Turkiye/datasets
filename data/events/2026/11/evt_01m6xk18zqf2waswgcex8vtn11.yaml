@@ -18,6 +18,10 @@ sources:
     title: ADF neutralises 137 of 164 Russian drones overnight
     published_at: 2026-11-08T06:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109151854/https://www.ukrinform.net/rubric-ato/4182552-adf-neutralises-137-of-164-russian-drones-overnight.html
+        captured_at: 2026-11-09T15:18:54Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Russia loses another 2,290 troops, four air defence systems in war in Ukraine over past day
     published_at: 2026-11-08T06:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108080103/https://www.ukrinform.net/rubric-ato/4182553-russia-loses-another-2290-troops-four-air-defence-systems-in-war-in-ukraine-over-past-day.html
+        captured_at: 2026-11-08T08:01:03Z
 assessment:
   status: unverified
   credibility: 6
