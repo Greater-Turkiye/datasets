@@ -24,6 +24,10 @@ sources:
     title: Russian forces launch massive attack on Odesa region’s energy infrastructure
     published_at: 2026-11-08T19:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109092210/https://www.ukrinform.net/rubric-ato/4182739-russian-forces-launch-massive-attack-on-odesa-regions-energy-infrastructure.html
+        captured_at: 2026-11-09T09:22:10Z
 assessment:
   status: unverified
   credibility: 6

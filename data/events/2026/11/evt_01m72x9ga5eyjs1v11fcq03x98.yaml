@@ -1,0 +1,33 @@
+id: evt_01m72x9ga5eyjs1v11fcq03x98
+schema: event/1
+event_type: kinetic.clash
+title:
+  tr: Ukrayna 7. Hava Taarruz Kolordusu Komutanı, savunmacıların neden Pokrovsk'tan çekildiğini açıkladı
+  en: Commander of Ukraine's 7th Air Assault Corps explains why defenders withdrew from Pokrovsk
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-10T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-10T10:59Z
+location:
+  geometry: {type: Point, coordinates: [37.828, 48.002]}
+  precision: admin1
+  uncertainty_m: 100000
+  method: inferred
+  place_name: {tr: Donetsk bölgesi, en: Donetsk region}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4183292-commander-of-ukraines-7th-air-assault-corps-explains-why-defenders-withdrew-from-pokrovsk.html
+    title: Commander of Ukraine's 7th Air Assault Corps explains why defenders withdrew from Pokrovsk
+    published_at: 2026-11-10T10:59Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±100 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±100 km). Not verified."
+tags: [otomatik]

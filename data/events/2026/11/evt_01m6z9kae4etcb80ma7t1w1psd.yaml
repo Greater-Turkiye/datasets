@@ -18,6 +18,10 @@ sources:
     title: "War update: 127 clashes on front line, Pokrovsk sector remains hottest"
     published_at: 2026-11-08T21:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109124830/https://www.ukrinform.net/rubric-ato/4182752-war-update-127-clashes-on-front-line-pokrovsk-sector-remains-hottest.html
+        captured_at: 2026-11-09T12:48:30Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Two rescuers injured in Russian drone attack on Komyshuvakha
     published_at: 2026-11-08T18:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109092211/https://www.ukrinform.net/rubric-ato/4182730-two-rescuers-injured-in-russian-drone-attack-on-komyshuvakha.html
+        captured_at: 2026-11-09T09:22:11Z
 assessment:
   status: unverified
   credibility: 6

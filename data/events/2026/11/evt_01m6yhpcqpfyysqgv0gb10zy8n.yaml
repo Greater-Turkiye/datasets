@@ -24,6 +24,10 @@ sources:
     title: Injury toll in Russian strikes on Kremenchuk rises to four
     published_at: 2026-11-08T20:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110142526/https://www.ukrinform.net/rubric-ato/4182743-injury-toll-in-russian-strikes-on-kremenchuk-rises-to-four.html
+        captured_at: 2026-11-10T14:25:26Z
 assessment:
   status: unverified
   credibility: 6

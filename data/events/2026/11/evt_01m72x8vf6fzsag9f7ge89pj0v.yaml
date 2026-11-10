@@ -1,0 +1,33 @@
+id: evt_01m72x8vf6fzsag9f7ge89pj0v
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: İHA'lar Rusya'nın Novgorod bölgesindeki uçak onarım tesisine saldırdı
+  en: Drones attack aircraft repair plant in Russia’s Novgorod region
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-10T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-10T07:10Z
+location:
+  geometry: {type: Point, coordinates: [43.998, 56.335]}
+  precision: admin1
+  uncertainty_m: 100000
+  method: inferred
+  place_name: {tr: Nizhny Novgorod bölgesi, en: Nizhny Novgorod region}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4183182-drones-attack-aircraft-repair-plant-in-russias-novgorod-region.html
+    title: Drones attack aircraft repair plant in Russia’s Novgorod region
+    published_at: 2026-11-10T07:10Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±100 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±100 km). Not verified."
+tags: [otomatik]

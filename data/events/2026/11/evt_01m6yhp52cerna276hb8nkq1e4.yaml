@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Kharkiv’s Kyivskyi district again, injuring one person
     published_at: 2026-11-08T18:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109092211/https://www.ukrinform.net/rubric-ato/4182724-russian-forces-attack-kharkivs-kyivskyi-district-again-injuring-one-person.html
+        captured_at: 2026-11-09T09:22:11Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Ukraine Battles To Restore Power After Russian Attacks, As Trump Hints At Potential Territorial Changes
     published_at: 2026-11-08T23:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109235852/https://www.rferl.org/a/ukraine-power-restore-russia-zaporizhzhya-abudhabi/33893359.html
+        captured_at: 2026-11-09T23:58:52Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russia brings additional forces into Oleshky and surrounding community under cover of humanitarian operation – Zelensky
     published_at: 2026-11-08T16:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108193118/https://www.ukrinform.net/rubric-ato/4182709-russia-brings-additional-forces-into-oleshky-and-surrounding-community-under-cover-of-humanitarian-operation-zelensky.html
+        captured_at: 2026-11-08T19:31:18Z
 assessment:
   status: unverified
   credibility: 6

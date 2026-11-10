@@ -24,6 +24,10 @@ sources:
     title: How military engineers are strengthening Ukraine’s defenses in the South
     published_at: 2026-11-07T07:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110011821/https://www.ukrinform.net/rubric-ato/4182204-how-military-engineers-are-strengthening-ukraines-defenses-in-the-south.html
+        captured_at: 2026-11-10T01:18:21Z
 assessment:
   status: unverified
   credibility: 6

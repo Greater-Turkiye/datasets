@@ -24,6 +24,10 @@ sources:
     title: "Airstrike on underground school in Komyshuvakha: 29 of 55 victims identified"
     published_at: 2026-11-08T14:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108164615/https://www.ukrinform.net/rubric-ato/4182688-airstrike-on-underground-school-in-komyshuvakha-29-of-55-victims-identified.html
+        captured_at: 2026-11-08T16:46:15Z
 assessment:
   status: unverified
   credibility: 6

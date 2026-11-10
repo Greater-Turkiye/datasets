@@ -18,6 +18,10 @@ sources:
     title: Ukraine's 7th Air Assault Corps receives over 50 types of drones, 40 ground robotic systems this year
     published_at: 2026-11-09T04:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109061611/https://www.ukrinform.net/rubric-ato/4182767-ukraines-7th-air-assault-corps-receives-over-50-types-of-drones-40-ground-robotic-systems-this-year.html
+        captured_at: 2026-11-09T06:16:11Z
 assessment:
   status: unverified
   credibility: 6

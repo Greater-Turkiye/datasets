@@ -24,6 +24,10 @@ sources:
     title: Three injured in Russian strike on Balakliia
     published_at: 2026-11-09T04:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109092206/https://www.ukrinform.net/rubric-ato/4182766-three-injured-in-russian-strike-on-balakliia.html
+        captured_at: 2026-11-09T09:22:06Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Kirkuk launches weekend security deployment
     published_at: 2026-11-06T13:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110011404/https://shafaq.com/en/Security/Kirkuk-launches-weekend-security-deployment
+        captured_at: 2026-11-10T01:14:04Z
 assessment:
   status: unverified
   credibility: 6
