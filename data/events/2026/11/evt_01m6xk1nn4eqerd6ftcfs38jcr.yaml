@@ -24,6 +24,10 @@ sources:
     title: Russian drones attack Volyn region overnight, fire breaks out at agricultural enterprise
     published_at: 2026-11-08T09:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110142325/https://www.ukrinform.net/rubric-ato/4182591-russian-drones-attack-volyn-region-overnight-fire-breaks-out-at-agricultural-enterprise.html
+        captured_at: 2026-11-10T14:23:25Z
 assessment:
   status: unverified
   credibility: 6

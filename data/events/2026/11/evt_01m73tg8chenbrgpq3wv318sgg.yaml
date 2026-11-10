@@ -1,0 +1,27 @@
+id: evt_01m73tg8chenbrgpq3wv318sgg
+schema: event/1
+event_type: kinetic.clash
+title:
+  tr: 7. Hava Taarruz Kolordusu, Huliaipole ekseninde Rus kuvvetlerine yönelik saldırıların etkinliğinin Eylül ayından bu yana 1,5 kat arttığını söylüyor
+  en: Effectiveness of strikes against Russian forces on Huliaipole axis up 1.5-fold since September, 7th Air Assault Corps says
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-10T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-10T16:13Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4183462-effectiveness-of-strikes-against-russian-forces-on-huliaipole-axis-up-15fold-since-september-7th-air-assault-corps-says.html
+    title: Effectiveness of strikes against Russian forces on Huliaipole axis up 1.5-fold since September, 7th Air Assault Corps says
+    published_at: 2026-11-10T16:13Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

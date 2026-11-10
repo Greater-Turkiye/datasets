@@ -18,6 +18,10 @@ sources:
     title: Air defense neutralizes 271 of 317 Russian drones targeting Ukraine overnight
     published_at: 2026-11-09T07:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109093145/https://www.ukrinform.net/rubric-ato/4182779-air-defense-neutralizes-271-of-317-russian-drones-targeting-ukraine-overnight.html
+        captured_at: 2026-11-09T09:31:45Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Dnipropetrovsk region nearly 20 times overnight, causing damage in five districts
     published_at: 2026-11-09T06:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109093145/https://www.ukrinform.net/rubric-ato/4182777-russian-forces-attack-dnipropetrovsk-region-nearly-20-times-overnight-causing-damage-in-five-districts.html
+        captured_at: 2026-11-09T09:31:45Z
 assessment:
   status: unverified
   credibility: 6

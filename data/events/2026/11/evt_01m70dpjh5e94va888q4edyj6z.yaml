@@ -18,6 +18,10 @@ sources:
     title: Russian losses in Ukraine war rise by 2,980 over past day
     published_at: 2026-11-09T06:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109083114/https://www.ukrinform.net/rubric-ato/4182776-russian-losses-in-ukraine-war-rise-by-2980-over-past-day.html
+        captured_at: 2026-11-09T08:31:14Z
 assessment:
   status: unverified
   credibility: 6

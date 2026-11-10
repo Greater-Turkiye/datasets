@@ -24,6 +24,10 @@ sources:
     title: Russian forces launch 819 attacks on Zaporizhzhia region over past day, six injured
     published_at: 2026-11-09T05:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109110132/https://www.ukrinform.net/rubric-ato/4182774-russian-forces-launch-819-attacks-on-zaporizhzhia-region-over-past-day-six-injured.html
+        captured_at: 2026-11-09T11:01:32Z
 assessment:
   status: unverified
   credibility: 6

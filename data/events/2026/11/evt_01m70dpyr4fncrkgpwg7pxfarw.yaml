@@ -18,6 +18,10 @@ sources:
     title: Drones strike Russia’s second-largest oil refinery
     published_at: 2026-11-09T07:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109084602/https://www.ukrinform.net/rubric-ato/4182797-drones-strike-russias-secondlargest-oil-refinery.html
+        captured_at: 2026-11-09T08:46:02Z
 assessment:
   status: unverified
   credibility: 6

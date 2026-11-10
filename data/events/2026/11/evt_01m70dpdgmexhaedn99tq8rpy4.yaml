@@ -18,6 +18,10 @@ sources:
     title: "Source: Khor Mor drone attack launched from Saladin"
     published_at: 2026-11-09T05:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110225348/https://shafaq.com/ar/Security/Source-Khor-Mor-drone-attack-launched-from-Saladin
+        captured_at: 2026-11-10T22:53:48Z
 assessment:
   status: unverified
   credibility: 6

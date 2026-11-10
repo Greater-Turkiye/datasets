@@ -1,0 +1,27 @@
+id: evt_01m73tg314fgnsteatm81pc93m
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: "İstihbarat kaynağı: Rusya, Ukrayna'daki gıda endüstrisi tesislerine yönelik saldırılara hazırlanıyor"
+  en: Russia preparing strikes on food industry facilities in Ukraine – intelligence source
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-10T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-10T14:32Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4183401-russia-preparing-strikes-on-food-industry-facilities-in-ukraine-intelligence-source.html
+    title: Russia preparing strikes on food industry facilities in Ukraine – intelligence source
+    published_at: 2026-11-10T14:32Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -24,6 +24,10 @@ sources:
     title: Russian drone hits private property in Poltava region, fire breaks out
     published_at: 2026-11-09T05:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109090123/https://www.ukrinform.net/rubric-ato/4182769-russian-drone-hits-private-property-in-poltava-region-fire-breaks-out.html
+        captured_at: 2026-11-09T09:01:23Z
 assessment:
   status: unverified
   credibility: 6
