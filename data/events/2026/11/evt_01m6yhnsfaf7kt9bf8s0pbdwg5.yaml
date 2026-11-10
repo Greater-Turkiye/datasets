@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s 7th Air Assault Corps reports 20,000 Russian casualties in one year on Pokrovsk front
     published_at: 2026-11-08T13:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108144645/https://www.ukrinform.net/rubric-ato/4182664-ukraines-7th-air-assault-corps-reports-20000-russian-casualties-in-one-year-on-pokrovsk-front.html
+        captured_at: 2026-11-08T14:46:45Z
 assessment:
   status: unverified
   credibility: 6

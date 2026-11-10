@@ -18,6 +18,10 @@ sources:
     title: Russian attack in Khmelnytskyi region leaves two injured
     published_at: 2026-11-08T13:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108164707/https://www.ukrinform.net/rubric-ato/4182682-russian-attack-in-khmelnytskyi-region-leaves-two-injured.html
+        captured_at: 2026-11-08T16:47:07Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Russia launches 115 missiles, nearly 1,900 guided bombs, over 3,000 drones at Ukraine in a week"
     published_at: 2026-11-08T10:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108134633/https://www.ukrinform.net/rubric-ato/4182632-zelensky-russia-launches-115-missiles-nearly-1900-guided-bombs-over-3000-drones-at-ukraine-in-a-week.html
+        captured_at: 2026-11-08T13:46:33Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian attack sets trucks and warehouses ablaze at transport company in Dnipro
     published_at: 2026-11-08T11:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108134614/https://www.ukrinform.net/rubric-ato/4182640-russian-attack-sets-trucks-and-warehouses-ablaze-at-transport-company-in-dnipro.html
+        captured_at: 2026-11-08T13:46:14Z
 assessment:
   status: unverified
   credibility: 6

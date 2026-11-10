@@ -18,6 +18,10 @@ sources:
     title: More than 800 km² liberated in Oleksandrivka sector this year thanks to Airborne Assault Forces – Zelensky
     published_at: 2026-11-08T13:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108171614/https://www.ukrinform.net/rubric-ato/4182679-more-than-800-km-liberated-in-oleksandrivka-sector-this-year-thanks-to-airborne-assault-forces-zelensky.html
+        captured_at: 2026-11-08T17:16:14Z
 assessment:
   status: unverified
   credibility: 6

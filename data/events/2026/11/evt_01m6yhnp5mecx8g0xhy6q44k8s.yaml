@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s 7th Air Assault Corps identifies its most in-demand military specialties
     published_at: 2026-11-08T11:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108144646/https://www.ukrinform.net/rubric-ato/4182643-ukraines-7th-air-assault-corps-identifies-its-most-indemand-military-specialties.html
+        captured_at: 2026-11-08T14:46:46Z
 assessment:
   status: unverified
   credibility: 6

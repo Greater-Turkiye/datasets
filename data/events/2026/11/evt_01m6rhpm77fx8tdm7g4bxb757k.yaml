@@ -24,6 +24,10 @@ sources:
     title: Statement by Veronika Zonabend on the Humanitarian Visit to Baku
     published_at: 2026-11-06T12:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110011342/https://news.am/en/news/1073146
+        captured_at: 2026-11-10T01:13:42Z
 assessment:
   status: unverified
   credibility: 6

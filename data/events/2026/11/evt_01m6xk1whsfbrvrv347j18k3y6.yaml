@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s 7th Air Assault Corps expands APACHI Unmanned Systems Battalion
     published_at: 2026-11-08T10:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108121613/https://www.ukrinform.net/rubric-ato/4182615-ukraines-7th-air-assault-corps-expands-apachi-unmanned-systems-battalion.html
+        captured_at: 2026-11-08T12:16:13Z
 assessment:
   status: unverified
   credibility: 6

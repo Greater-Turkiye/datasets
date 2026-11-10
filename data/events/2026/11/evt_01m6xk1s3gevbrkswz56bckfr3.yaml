@@ -24,6 +24,10 @@ sources:
     title: Russian Strikes On Energy Targets Leave 600,000 Ukrainians Without Electricity
     published_at: 2026-11-08T09:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110012232/https://www.rferl.org/a/russia-strikes-ukraine-energy/33893219.html
+        captured_at: 2026-11-10T01:22:32Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russia reports damage to bridge on highway connecting Rostov-on-Don with temporarily occupied Ukrainian territories
     published_at: 2026-11-08T08:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261108101612/https://www.ukrinform.net/rubric-ato/4182576-russia-reports-damage-to-bridge-on-highway-connecting-rostovondon-with-temporarily-occupied-ukrainian-territories.html
+        captured_at: 2026-11-08T10:16:12Z
 assessment:
   status: unverified
   credibility: 6

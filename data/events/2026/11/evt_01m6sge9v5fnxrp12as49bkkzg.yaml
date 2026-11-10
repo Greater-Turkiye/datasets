@@ -24,6 +24,10 @@ sources:
     title: Three PMF members arrested with 35 rockets near Baghdad
     published_at: 2026-11-06T14:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110011557/https://shafaq.com/en/Security/Three-PMF-members-arrested-with-35-rockets-near-Baghdad
+        captured_at: 2026-11-10T01:15:57Z
 assessment:
   status: unverified
   credibility: 6
