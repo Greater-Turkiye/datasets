@@ -18,6 +18,10 @@ sources:
     title: "‘This is not about politics. This is about people’: UN warns of impact of deadly drone strikes in Sudan"
     published_at: 2026-11-03T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111133709/https://news.un.org/feed/view/en/story/2026/11/1168731
+        captured_at: 2026-11-11T13:37:09Z
 assessment:
   status: unverified
   credibility: 6

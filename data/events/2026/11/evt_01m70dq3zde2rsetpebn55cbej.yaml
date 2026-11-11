@@ -18,6 +18,10 @@ sources:
     title: Armenia-Azerbaijan relations’ normalization has contributed to improvement of situation in South Caucasus, Russia Security Council head says
     published_at: 2026-11-09T07:49Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111135122/https://news.am/en/news/1073575
+        captured_at: 2026-11-11T13:51:22Z
 assessment:
   status: unverified
   credibility: 6

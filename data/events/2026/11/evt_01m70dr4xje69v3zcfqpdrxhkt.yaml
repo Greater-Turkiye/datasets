@@ -18,6 +18,10 @@ sources:
     title: India air force Il-76 sets world record by landing at Himalaya airbase
     published_at: 2026-11-09T13:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111045326/https://news.am/en/news/1073670
+        captured_at: 2026-11-11T04:53:26Z
 assessment:
   status: unverified
   credibility: 6

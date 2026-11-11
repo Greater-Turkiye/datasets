@@ -24,6 +24,10 @@ sources:
     title: Russians attack inactive warehouses for third time in Odesa region, sparking fire
     published_at: 2026-11-09T10:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111045049/https://www.ukrinform.net/rubric-ato/4182892-russians-attack-inactive-warehouses-for-third-time-in-odesa-region-sparking-fire.html
+        captured_at: 2026-11-11T04:50:49Z
 assessment:
   status: unverified
   credibility: 6

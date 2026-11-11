@@ -18,6 +18,10 @@ sources:
     title: "Along with our partners we will stand with Ukraine for as long as it takes: UK statement at the UN Security Council"
     published_at: 2026-11-09T16:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110164713/https://www.gov.uk/government/speeches/along-with-our-partners-we-will-stand-with-ukraine-for-as-long-as-it-takes-uk-statement-at-the-un-security-council
+        captured_at: 2026-11-10T16:47:13Z
 assessment:
   status: unverified
   credibility: 6

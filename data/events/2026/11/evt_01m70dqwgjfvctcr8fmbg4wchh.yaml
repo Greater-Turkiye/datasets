@@ -24,6 +24,10 @@ sources:
     title: Security Council, 10267th Meeting (AM) Ukriane
     published_at: 2026-11-09T11:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111135702/https://press.un.org/en/blog/sc16503
+        captured_at: 2026-11-11T13:57:02Z
 assessment:
   status: unverified
   credibility: 6

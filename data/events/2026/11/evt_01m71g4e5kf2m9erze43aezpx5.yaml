@@ -24,6 +24,10 @@ sources:
     title: Ukraine's USF strike Russian Solntsepyok heavy flamethrower system in occupied Donetsk region
     published_at: 2026-11-09T17:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109194617/https://www.ukrinform.net/rubric-ato/4183053-ukraines-usf-strike-russian-solntsepyok-heavy-flamethrower-system-in-occupied-donetsk-region.html
+        captured_at: 2026-11-09T19:46:17Z
 assessment:
   status: unverified
   credibility: 6

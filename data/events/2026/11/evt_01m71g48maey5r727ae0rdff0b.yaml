@@ -18,6 +18,10 @@ sources:
     title: Greece Retrieves 21 Dead Migrants off Crete Island
     published_at: 2026-11-09T15:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111140931/https://balkaninsight.com/2026/11/09/greece-retrieves-21-dead-migrants-off-crete-island/bi/
+        captured_at: 2026-11-11T14:09:31Z
 assessment:
   status: unverified
   credibility: 6

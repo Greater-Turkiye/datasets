@@ -18,6 +18,10 @@ sources:
     title: Families who fled Ethiopia for Kenya’s Moyale need food, water and shelter
     published_at: 2026-11-09T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111140553/https://news.un.org/feed/view/en/story/2026/11/1168762
+        captured_at: 2026-11-11T14:05:53Z
 assessment:
   status: unverified
   credibility: 6

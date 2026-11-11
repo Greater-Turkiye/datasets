@@ -18,6 +18,10 @@ sources:
     title: Canada announces new sanctions against Russia
     published_at: 2026-11-09T16:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110053428/https://www.ukrinform.net/rubric-ato/4183027-canada-announces-new-sanctions-against-russia.html
+        captured_at: 2026-11-10T05:34:28Z
 assessment:
   status: unverified
   credibility: 6

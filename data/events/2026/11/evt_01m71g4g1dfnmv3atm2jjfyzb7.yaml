@@ -24,6 +24,10 @@ sources:
     title: Russian attacks trigger power outages in parts of Dnipro and Kamianske
     published_at: 2026-11-09T19:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110105524/https://www.ukrinform.net/rubric-ato/4183083-russian-attacks-trigger-power-outages-in-parts-of-dnipro-and-kamianske.html
+        captured_at: 2026-11-10T10:55:24Z
 assessment:
   status: unverified
   credibility: 6
