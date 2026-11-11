@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Kharkiv, injuring two adults, two-year-old child
     published_at: 2026-11-09T14:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109180117/https://www.ukrinform.net/rubric-ato/4182979-russian-forces-strike-kharkiv-injuring-two-adults-twoyearold-child.html
+        captured_at: 2026-11-09T18:01:17Z
 assessment:
   status: unverified
   credibility: 6

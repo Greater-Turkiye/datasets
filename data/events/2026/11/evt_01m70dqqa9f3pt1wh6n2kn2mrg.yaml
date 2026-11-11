@@ -24,6 +24,10 @@ sources:
     title: Russian attack on infrastructure facility in Odesa leaves three killed, one injured
     published_at: 2026-11-09T10:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109124614/https://www.ukrinform.net/rubric-ato/4182896-russian-attack-on-infrastructure-facility-in-odesa-leaves-three-killed-one-injured.html
+        captured_at: 2026-11-09T12:46:14Z
 assessment:
   status: unverified
   credibility: 6

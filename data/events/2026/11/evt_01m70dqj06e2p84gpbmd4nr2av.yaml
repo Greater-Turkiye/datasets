@@ -24,6 +24,10 @@ sources:
     title: Ukrainian Drone Strike Sets Russia's Second-Largest Oil Refinery Ablaze
     published_at: 2026-11-09T10:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111045020/https://www.rferl.org/a/rusian-refinery-hit-by-ukraine-drones/33893740.html
+        captured_at: 2026-11-11T04:50:20Z
 assessment:
   status: unverified
   credibility: 6

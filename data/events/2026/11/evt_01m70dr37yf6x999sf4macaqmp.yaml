@@ -18,6 +18,10 @@ sources:
     title: Montenegro Registers 14 Citizens Fighting in Foreign Wars Since 2022
     published_at: 2026-11-09T12:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111045252/https://balkaninsight.com/2026/11/09/montenegro-registers-14-citizens-fighting-in-foreign-wars-since-2022/bi/
+        captured_at: 2026-11-11T04:52:52Z
 assessment:
   status: unverified
   credibility: 6

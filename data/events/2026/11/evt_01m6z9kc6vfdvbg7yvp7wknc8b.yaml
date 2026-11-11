@@ -24,6 +24,10 @@ sources:
     title: PM Al-Zaidi orders probe into Khor Mor attack
     published_at: 2026-11-08T22:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111044419/https://shafaq.com/en/Security/PM-Al-Zaidi-orders-probe-into-Khor-Mor-attack
+        captured_at: 2026-11-11T04:44:19Z
 assessment:
   status: unverified
   credibility: 6

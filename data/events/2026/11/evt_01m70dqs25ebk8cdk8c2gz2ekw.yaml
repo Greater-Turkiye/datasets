@@ -24,6 +24,10 @@ sources:
     title: Defense Forces strike plant near St. Petersburg that produces missile fuel for Iskander systems
     published_at: 2026-11-09T11:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109140108/https://www.ukrinform.net/rubric-ato/4182905-defense-forces-strike-plant-near-st-petersburg-that-produces-missile-fuel-for-iskander-systems.html
+        captured_at: 2026-11-09T14:01:08Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Fires caused by Russian drone attack extinguished in Kyiv
     published_at: 2026-11-09T12:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109140108/https://www.ukrinform.net/rubric-ato/4182929-fires-caused-by-russian-drone-attack-extinguished-in-kyiv.html
+        captured_at: 2026-11-09T14:01:08Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Joint statement on the closure of Novaya Gazeta in Russia
     published_at: 2026-11-09T10:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110112456/https://www.gov.uk/government/news/joint-statement-on-the-closure-of-novaya-gazeta-in-russia
+        captured_at: 2026-11-10T11:24:56Z
 assessment:
   status: unverified
   credibility: 6

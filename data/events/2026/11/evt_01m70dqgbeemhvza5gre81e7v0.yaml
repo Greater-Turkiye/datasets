@@ -24,6 +24,10 @@ sources:
     title: Debris from Russian drone falls near school in Kyiv's Desnianskyi district
     published_at: 2026-11-09T10:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109121604/https://www.ukrinform.net/rubric-ato/4182889-debris-from-russian-drone-falls-near-school-in-kyivs-desnianskyi-district.html
+        captured_at: 2026-11-09T12:16:04Z
   - url: https://www.ukrinform.net/rubric-ato/4182932-russian-drone-debris-that-fell-near-school-recovered-in-kyivs-desnianskyi-district.html
     title: Russian drone debris that fell near school recovered in Kyiv’s Desnianskyi district
     published_at: 2026-11-09T12:18Z
