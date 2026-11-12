@@ -18,6 +18,10 @@ sources:
     title: FMs discuss possibility of exporting Armenian products to Estonia
     published_at: 2026-11-09T17:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110105741/https://news.am/en/news/1073751
+        captured_at: 2026-11-10T10:57:41Z
 assessment:
   status: unverified
   credibility: 6

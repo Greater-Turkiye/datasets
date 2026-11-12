@@ -18,6 +18,10 @@ sources:
     title: Armenia to maintain right to collective security, Russia’s Lavrov says
     published_at: 2026-11-10T11:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112194450/https://news.am/en/news/1073901
+        captured_at: 2026-11-12T19:44:50Z
 assessment:
   status: unverified
   credibility: 6

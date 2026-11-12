@@ -18,6 +18,10 @@ sources:
     title: ADF down 135 of 162 Russian drones launched against Ukraine overnight
     published_at: 2026-11-10T06:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112193541/https://www.ukrinform.net/rubric-ato/4183161-adf-down-135-of-162-russian-drones-launched-against-ukraine-overnight.html
+        captured_at: 2026-11-12T19:35:41Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,0 +1,27 @@
+id: evt_01m78kxmvgebsrh7ebqjkgbbre
+schema: event/1
+event_type: diplomatic.talks
+title:
+  tr: Belarus Dışişleri Bakanı, "sahte müttefik" Ermenistan'ın KGAÖ'nün gizli belgelerine erişimini sınırlamayı öneriyor
+  en: Belarus FM proposes limiting "false ally" Armenia’s access to CSTO secret documents
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-11T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-11T21:07Z
+regions: [caucasus]
+sources:
+  - url: https://news.am/en/news/1074264
+    title: Belarus FM proposes limiting "false ally" Armenia’s access to CSTO secret documents
+    published_at: 2026-11-11T21:07Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-arm-newsam-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-arm-newsam-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

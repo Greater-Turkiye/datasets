@@ -24,6 +24,10 @@ sources:
     title: Defense Forces retain control of Kupiansk as Russian troops try to advance from North – Trehubov
     published_at: 2026-11-10T12:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110133112/https://www.ukrinform.net/rubric-ato/4183327-defense-forces-retain-control-of-kupiansk-as-russian-troops-try-to-advance-from-north-trehubov.html
+        captured_at: 2026-11-10T13:31:12Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Erdogan's visit to Azerbaijan considered diplomatic humiliation in Turkey
     published_at: 2026-11-09T06:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109125939/https://news.am/en/news/1073547
+        captured_at: 2026-11-09T12:59:39Z
 assessment:
   status: unverified
   credibility: 6

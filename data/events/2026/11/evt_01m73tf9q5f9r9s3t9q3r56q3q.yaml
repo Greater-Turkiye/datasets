@@ -18,6 +18,10 @@ sources:
     title: Russia MFA calls on Armenia to hold referendum before applying for EU membership
     published_at: 2026-11-09T06:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109123944/https://news.am/en/news/1073550
+        captured_at: 2026-11-09T12:39:44Z
 assessment:
   status: unverified
   credibility: 6

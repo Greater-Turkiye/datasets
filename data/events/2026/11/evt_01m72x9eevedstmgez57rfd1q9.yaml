@@ -24,6 +24,10 @@ sources:
     title: No enemy activity observed in Chernihiv region or along border with Belarus – Demchenko
     published_at: 2026-11-10T10:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110143132/https://www.ukrinform.net/rubric-ato/4183287-no-enemy-activity-observed-in-chernihiv-region-or-along-border-with-belarus-demchenko.html
+        captured_at: 2026-11-10T14:31:32Z
 assessment:
   status: unverified
   credibility: 6

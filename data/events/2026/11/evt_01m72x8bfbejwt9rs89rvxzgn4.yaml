@@ -18,6 +18,10 @@ sources:
     title: Latvia digs anti-tank trenches, installs dragon’s teeth along its border with Russia
     published_at: 2026-11-10T03:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110073134/https://www.ukrinform.net/rubric-ato/4183127-latvia-digs-antitank-trenches-installs-dragons-teeth-along-its-border-with-russia.html
+        captured_at: 2026-11-10T07:31:34Z
 assessment:
   status: unverified
   credibility: 6

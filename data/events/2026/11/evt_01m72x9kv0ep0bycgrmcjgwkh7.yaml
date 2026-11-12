@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Zaporizhzhia with drones, sparking fire, injuring residents
     published_at: 2026-11-10T11:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110133113/https://www.ukrinform.net/rubric-ato/4183312-russian-forces-attack-zaporizhzhia-with-drones-sparking-fire-injuring-residents.html
+        captured_at: 2026-11-10T13:31:13Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: £90 million investment for new drones and sensors to protect undersea cables and hunt Russian submarines
     published_at: 2026-11-10T11:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112044211/https://www.gov.uk/government/news/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines
+        captured_at: 2026-11-12T04:42:11Z
 assessment:
   status: unverified
   credibility: 6

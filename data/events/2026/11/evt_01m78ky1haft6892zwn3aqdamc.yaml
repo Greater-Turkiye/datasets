@@ -1,0 +1,27 @@
+id: evt_01m78ky1haft6892zwn3aqdamc
+schema: event/1
+event_type: kinetic.clash
+title:
+  tr: Polonya Neden On Yılı Anayasa Mahkemesi İçin Mücadele Etmekle Geçirdi?
+  en: Why Poland Has Spent a Decade Fighting Over Its Constitutional Tribunal
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-12T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-12T07:14Z
+regions: [balkans]
+sources:
+  - url: https://balkaninsight.com/2026/11/12/why-poland-has-spent-a-decade-fighting-over-its-constitutional-tribunal/rd/
+    title: Why Poland Has Spent a Decade Fighting Over Its Constitutional Tribunal
+    published_at: 2026-11-12T07:14Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-bih-balkaninsight. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-bih-balkaninsight. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

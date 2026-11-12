@@ -18,6 +18,10 @@ sources:
     title: Opposition Strong Armenia party's Stepanavan city mayoral candidate Arsen Gevorgyan dies of heart attack in prison
     published_at: 2026-11-10T07:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112071350/https://news.am/en/news/1073822
+        captured_at: 2026-11-12T07:13:50Z
 assessment:
   status: unverified
   credibility: 6
