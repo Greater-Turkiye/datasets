@@ -18,6 +18,10 @@ sources:
     title: Russia strikes retail facility in Kropyvnytskyi
     published_at: 2026-11-10T07:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110093105/https://www.ukrinform.net/rubric-ato/4183194-russia-strikes-retail-facility-in-kropyvnytskyi.html
+        captured_at: 2026-11-10T09:31:05Z
 assessment:
   status: unverified
   credibility: 6

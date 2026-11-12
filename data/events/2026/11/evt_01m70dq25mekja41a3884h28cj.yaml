@@ -18,6 +18,10 @@ sources:
     title: "Mehr: US strikes Iran’s Qeshm island in Hormuz strait"
     published_at: 2026-11-09T07:49Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112070108/https://news.am/en/news/1073565
+        captured_at: 2026-11-12T07:01:08Z
 assessment:
   status: unverified
   credibility: 6

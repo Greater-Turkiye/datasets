@@ -18,6 +18,10 @@ sources:
     title: Albanian Talk Show Hosts Slam TV Regulator’s ‘Orwellian’ Fines
     published_at: 2026-11-10T06:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112071316/https://balkaninsight.com/2026/11/10/albanian-talk-show-hosts-slam-tv-regulators-orwellian-fines/bi/
+        captured_at: 2026-11-12T07:13:16Z
 assessment:
   status: unverified
   credibility: 6

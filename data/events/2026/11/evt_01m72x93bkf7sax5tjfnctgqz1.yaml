@@ -18,6 +18,10 @@ sources:
     title: Drone attack kills two in Ladyzhyn
     published_at: 2026-11-10T08:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110110315/https://www.ukrinform.net/rubric-ato/4183224-drone-attack-kills-two-in-ladyzhyn.html
+        captured_at: 2026-11-10T11:03:15Z
 assessment:
   status: unverified
   credibility: 6

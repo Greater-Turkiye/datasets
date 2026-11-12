@@ -24,6 +24,10 @@ sources:
     title: Baghdad directs funding for $2.78B Korean defense deal
     published_at: 2026-11-10T09:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112072002/https://shafaq.com/en/Security/Baghdad-directs-funding-for-2-78B-Korean-defense-deal
+        captured_at: 2026-11-12T07:20:02Z
 assessment:
   status: unverified
   credibility: 6

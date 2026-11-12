@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes commuter train in Sumy
     published_at: 2026-11-10T07:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110110316/https://www.ukrinform.net/rubric-ato/4183204-russian-drone-strikes-commuter-train-in-sumy.html
+        captured_at: 2026-11-10T11:03:16Z
 assessment:
   status: unverified
   credibility: 6

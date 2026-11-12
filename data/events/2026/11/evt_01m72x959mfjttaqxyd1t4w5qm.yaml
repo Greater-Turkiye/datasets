@@ -18,6 +18,10 @@ sources:
     title: "Wall Street Journal: US aircraft evacuated from another UK air base due to Iran threat"
     published_at: 2026-11-10T08:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112071938/https://news.am/en/news/1073813
+        captured_at: 2026-11-12T07:19:38Z
 assessment:
   status: unverified
   credibility: 6
