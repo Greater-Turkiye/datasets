@@ -18,6 +18,10 @@ sources:
     title: "DIU examines new Russian Geran-5 K5-K drone: Nearly 100 foreign components, most of them American"
     published_at: 2026-11-09T23:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110021603/https://www.ukrinform.net/rubric-ato/4182825-diu-examines-new-russian-geran5-k5k-drone-nearly-100-foreign-components-most-of-them-american.html
+        captured_at: 2026-11-10T02:16:03Z
 assessment:
   status: unverified
   credibility: 6

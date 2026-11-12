@@ -24,6 +24,10 @@ sources:
     title: Civilian Toll Mounts in Ukraine as Russian Federation Intensifies Attacks, Senior UN Official Warns Security Council
     published_at: 2026-11-09T22:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111053458/https://press.un.org/en/2026/sc16503.doc.htm
+        captured_at: 2026-11-11T05:34:58Z
 assessment:
   status: unverified
   credibility: 6

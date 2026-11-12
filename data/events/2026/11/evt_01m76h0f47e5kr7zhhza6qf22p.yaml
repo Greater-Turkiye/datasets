@@ -1,0 +1,27 @@
+id: evt_01m76h0f47e5kr7zhhza6qf22p
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: Güvenlik Konseyi 2140 Komitesi, Yemen'le ilgili Uzmanlar Panelinin 2801 (2025) sayılı kararın 19. fıkrası uyarınca sunduğu nihai raporu görüştü
+  en: Security Council 2140 Committee Discusses Final Report Submitted by Panel of Experts on Yemen Pursuant to Paragraph 19 of Resolution 2801 (2025)
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-11T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-11T17:42Z
+regions: [gulf-red-sea]
+sources:
+  - url: https://press.un.org/en/2026/sc16505.doc.htm
+    title: Security Council 2140 Committee Discusses Final Report Submitted by Panel of Experts on Yemen Pursuant to Paragraph 19 of Resolution 2801 (2025)
+    published_at: 2026-11-11T17:42Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: un-press-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: un-press-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

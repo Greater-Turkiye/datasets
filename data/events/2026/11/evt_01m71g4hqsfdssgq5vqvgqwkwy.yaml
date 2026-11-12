@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes enterprise in Poltava again
     published_at: 2026-11-09T19:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110105337/https://www.ukrinform.net/rubric-ato/4183097-russian-drone-strikes-enterprise-in-poltava-again.html
+        captured_at: 2026-11-10T10:53:37Z
 assessment:
   status: unverified
   credibility: 6

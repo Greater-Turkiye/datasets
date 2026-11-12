@@ -24,6 +24,10 @@ sources:
     title: "TASS: NATO reconnaissance aircraft spotted near Russia’s Kaliningrad 70 times since year’s beginning"
     published_at: 2026-11-09T13:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111140657/https://news.am/en/news/1073700
+        captured_at: 2026-11-11T14:06:57Z
 assessment:
   status: unverified
   credibility: 6

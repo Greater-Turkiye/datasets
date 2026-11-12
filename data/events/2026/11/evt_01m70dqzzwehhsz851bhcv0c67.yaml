@@ -24,6 +24,10 @@ sources:
     title: Incident involving Russian military base soldiers occurs in Armenia’s Gyumri, victim is Ukrainian
     published_at: 2026-11-09T12:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111135727/https://news.am/en/news/1073679
+        captured_at: 2026-11-11T13:57:27Z
 assessment:
   status: unverified
   credibility: 6

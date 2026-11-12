@@ -18,6 +18,10 @@ sources:
     title: On November 11, the President of Russia will hold a meeting of the CSTO Collective Security Council
     published_at: 2026-11-09T09:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111135149/http://en.kremlin.ru/events/president/news/81200
+        captured_at: 2026-11-11T13:51:49Z
 assessment:
   status: unverified
   credibility: 6

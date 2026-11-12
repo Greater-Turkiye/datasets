@@ -18,6 +18,10 @@ sources:
     title: China rocket launches SatNet internet satellite constellation into orbit
     published_at: 2026-11-09T07:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111044558/https://news.am/en/news/1073557
+        captured_at: 2026-11-11T04:45:58Z
 assessment:
   status: unverified
   credibility: 6

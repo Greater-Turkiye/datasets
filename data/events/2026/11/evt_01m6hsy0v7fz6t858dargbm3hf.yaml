@@ -24,6 +24,10 @@ sources:
     title: Army WCAP Women Wrestlers Help Team USA Capture World Title
     published_at: 2026-11-03T20:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261104213933/https://www.war.gov/News/News-Stories/Article/Article/4640708/army-wcap-women-wrestlers-help-team-usa-capture-world-title/
+        captured_at: 2026-11-04T21:39:33Z
 assessment:
   status: unverified
   credibility: 6

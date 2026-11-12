@@ -18,6 +18,10 @@ sources:
     title: "War update: 148 clashes on front line since morning"
     published_at: 2026-11-09T21:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110011629/https://www.ukrinform.net/rubric-ato/4183122-war-update-148-clashes-on-front-line-since-morning.html
+        captured_at: 2026-11-10T01:16:29Z
 assessment:
   status: unverified
   credibility: 6

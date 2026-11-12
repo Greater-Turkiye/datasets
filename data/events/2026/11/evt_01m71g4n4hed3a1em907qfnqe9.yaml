@@ -24,10 +24,18 @@ sources:
     title: Russian drone strikes car in Kherson region, injuring three people
     published_at: 2026-11-09T19:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110105337/https://www.ukrinform.net/rubric-ato/4183102-russian-drone-strikes-car-in-kherson-region-injuring-three-people.html
+        captured_at: 2026-11-10T10:53:37Z
   - url: https://www.ukrinform.net/rubric-ato/4183118-russian-drone-strikes-apartment-building-in-kherson-injuring-elderly-woman.html
     title: Russian drone strikes apartment building in Kherson, injuring elderly woman
     published_at: 2026-11-09T20:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110123806/https://www.ukrinform.net/rubric-ato/4183118-russian-drone-strikes-apartment-building-in-kherson-injuring-elderly-woman.html
+        captured_at: 2026-11-10T12:38:06Z
 assessment:
   status: unverified
   credibility: 6
