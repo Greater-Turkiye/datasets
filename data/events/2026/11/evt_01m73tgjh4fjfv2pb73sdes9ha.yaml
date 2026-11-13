@@ -24,6 +24,10 @@ sources:
     title: Gas supply disruptions possible in Kirovohrad region following Russian strike on critical infrastructure
     published_at: 2026-11-10T19:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110221716/https://www.ukrinform.net/rubric-ato/4183533-gas-supply-disruptions-possible-in-kirovohrad-region-following-russian-strike-on-critical-infrastructure.html
+        captured_at: 2026-11-10T22:17:16Z
 assessment:
   status: unverified
   credibility: 6

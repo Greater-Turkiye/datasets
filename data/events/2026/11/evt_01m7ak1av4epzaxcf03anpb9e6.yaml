@@ -1,0 +1,33 @@
+id: evt_01m7ak1av4epzaxcf03anpb9e6
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: Rusya Dışişleri Bakanlığı sözcüsü, Ermenistan Güvenlik Konseyi başkanının Erivan'ın taleplerine karşılık KGAÖ'nün sessiz kalmasına ilişkin sözlerini "kurgu" olarak nitelendiriyor
+  en: Russia MFA spox deems as "fiction" Armenia Security Council chief’s words on CSTO’s silence in response to Yerevan's inquiries
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-12T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-12T17:15Z
+location:
+  geometry: {type: Point, coordinates: [44.512, 40.183]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Erivan, en: Yerevan}
+regions: [caucasus]
+sources:
+  - url: https://news.am/en/news/1074510
+    title: Russia MFA spox deems as "fiction" Armenia Security Council chief’s words on CSTO’s silence in response to Yerevan's inquiries
+    published_at: 2026-11-12T17:15Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-arm-newsam-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, başlıktaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-arm-newsam-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the headline (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

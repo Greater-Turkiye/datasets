@@ -1,0 +1,27 @@
+id: evt_01m7ak1n19efzba2b02vj1z0zp
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: Rus saldırısında Vinnytsia'da iki kadın yaralandı, evler ve bir anaokulu hasar gördü
+  en: Russian attack injures two women in Vinnytsia, damages homes, kindergarten
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-13T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-13T05:19Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4184149-russian-attack-injures-two-women-in-vinnytsia-damages-homes-kindergarten.html
+    title: Russian attack injures two women in Vinnytsia, damages homes, kindergarten
+    published_at: 2026-11-13T05:19Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

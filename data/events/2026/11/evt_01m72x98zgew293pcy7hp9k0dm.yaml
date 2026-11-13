@@ -24,6 +24,10 @@ sources:
     title: Statement on today's meeting in Abu Dhabi between the EU, France, Germany, Italy, United Kingdom, Ukraine, United States and NATO
     published_at: 2026-11-10T09:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113050507/https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2390
+        captured_at: 2026-11-13T05:05:07Z
 assessment:
   status: unverified
   credibility: 6

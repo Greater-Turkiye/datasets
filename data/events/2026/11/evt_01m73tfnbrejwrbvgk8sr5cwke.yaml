@@ -18,6 +18,10 @@ sources:
     title: Era of US defense subsidies for Europe is over, Pentagon chief says
     published_at: 2026-11-10T08:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113140239/https://news.am/en/news/1073808
+        captured_at: 2026-11-13T14:02:39Z
 assessment:
   status: unverified
   credibility: 6

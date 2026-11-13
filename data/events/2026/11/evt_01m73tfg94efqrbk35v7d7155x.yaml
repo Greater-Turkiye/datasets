@@ -18,6 +18,10 @@ sources:
     title: Turkey furious over Azerbaijan boxer’s insults (VIDEO)
     published_at: 2026-11-09T11:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113140216/https://news.am/en/news/1073654
+        captured_at: 2026-11-13T14:02:16Z
 assessment:
   status: unverified
   credibility: 6

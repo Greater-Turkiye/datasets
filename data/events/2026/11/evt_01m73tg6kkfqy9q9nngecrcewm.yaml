@@ -24,6 +24,10 @@ sources:
     title: Moscow Police Detain Hundreds Of Youths, Pressure Those Of Military Age Into Service
     published_at: 2026-11-10T15:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113141409/https://www.rferl.org/a/moscow-police-detain-hundreds-of-youths/33894696.html
+        captured_at: 2026-11-13T14:14:09Z
 assessment:
   status: unverified
   credibility: 6

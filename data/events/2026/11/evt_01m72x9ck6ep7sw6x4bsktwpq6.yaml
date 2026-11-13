@@ -18,6 +18,10 @@ sources:
     title: Armenia has not announced intention to withdraw from CIS, secretary general says
     published_at: 2026-11-10T09:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113135932/https://news.am/en/news/1073867
+        captured_at: 2026-11-13T13:59:32Z
 assessment:
   status: unverified
   credibility: 6

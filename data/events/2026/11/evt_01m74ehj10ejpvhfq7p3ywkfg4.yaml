@@ -24,6 +24,10 @@ sources:
     title: Russia cannot destroy Kyiv HPP with airstrikes, expert says
     published_at: 2026-11-11T02:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111064605/https://www.ukrinform.net/rubric-ato/4183482-russia-cannot-destroy-kyiv-hpp-with-airstrikes-expert-says.html
+        captured_at: 2026-11-11T06:46:05Z
 assessment:
   status: unverified
   credibility: 6

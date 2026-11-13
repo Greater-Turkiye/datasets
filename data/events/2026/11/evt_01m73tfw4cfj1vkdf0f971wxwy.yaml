@@ -18,6 +18,10 @@ sources:
     title: "Sudan war: First ‘suicide’ drone attacks, now long-range strikes are the norm"
     published_at: 2026-11-10T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113140732/https://news.un.org/feed/view/en/story/2026/11/1168771
+        captured_at: 2026-11-13T14:07:32Z
 assessment:
   status: unverified
   credibility: 6

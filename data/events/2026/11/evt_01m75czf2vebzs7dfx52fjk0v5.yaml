@@ -24,6 +24,10 @@ sources:
     title: "TASS: Putin to open CSTO summit where Armenia's future in the organization will be discussed"
     published_at: 2026-11-10T21:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111144655/https://news.am/en/news/1074021
+        captured_at: 2026-11-11T14:46:55Z
 assessment:
   status: unverified
   credibility: 6
