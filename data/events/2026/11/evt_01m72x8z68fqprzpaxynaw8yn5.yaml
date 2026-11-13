@@ -24,6 +24,10 @@ sources:
     title: Promised a Job in Moscow, Forced to Fight in Ukraine
     published_at: 2026-11-10T07:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113050444/https://www.rferl.org/a/russia-recruiting-foreign-fighters-scheme/33892476.html
+        captured_at: 2026-11-13T05:04:44Z
 assessment:
   status: unverified
   credibility: 6

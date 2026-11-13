@@ -18,6 +18,10 @@ sources:
     title: Aliyev, Erdogan meet in Azerbaijan-occupied Nagorno-Karabakh’s Shushi
     published_at: 2026-11-08T11:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261109062003/https://news.am/en/news/1073455
+        captured_at: 2026-11-09T06:20:03Z
 assessment:
   status: unverified
   credibility: 6

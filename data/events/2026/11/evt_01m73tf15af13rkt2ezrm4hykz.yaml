@@ -24,6 +24,10 @@ sources:
     title: Aliyev speaks – on 6th anniversary of Azerbaijani occupation of Karabakh – about “war criminals” who “served punishment”
     published_at: 2026-11-08T08:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112193824/https://news.am/en/news/1073430
+        captured_at: 2026-11-12T19:38:24Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Ukrainian air defenses neutralize 124 hostile drones, 14 Bandrol jet-powered munitions
     published_at: 2026-11-10T18:46Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111044105/https://www.ukrinform.net/rubric-ato/4183518-ukrainian-air-defenses-neutralize-124-hostile-drones-14-bandrol-jetpowered-munitions.html
+        captured_at: 2026-11-11T04:41:05Z
 assessment:
   status: unverified
   credibility: 6

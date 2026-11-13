@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes municipal utility vehicle in Kramatorsk, killing one worker and injuring another
     published_at: 2026-11-10T18:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111090958/https://www.ukrinform.net/rubric-ato/4183503-russian-drone-strikes-municipal-utility-vehicle-in-kramatorsk-killing-one-worker-and-injuring-another.html
+        captured_at: 2026-11-11T09:09:58Z
 assessment:
   status: unverified
   credibility: 6

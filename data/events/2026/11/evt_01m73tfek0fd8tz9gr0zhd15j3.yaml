@@ -24,6 +24,10 @@ sources:
     title: "MFA spox: Iran received guarantees from Armenia on TRIPP project implementation"
     published_at: 2026-11-09T09:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112194251/https://news.am/en/news/1073619
+        captured_at: 2026-11-12T19:42:51Z
 assessment:
   status: unverified
   credibility: 6

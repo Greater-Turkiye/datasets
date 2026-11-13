@@ -18,6 +18,10 @@ sources:
     title: Russia preparing strikes on food industry facilities in Ukraine – intelligence source
     published_at: 2026-11-10T14:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110163204/https://www.ukrinform.net/rubric-ato/4183401-russia-preparing-strikes-on-food-industry-facilities-in-ukraine-intelligence-source.html
+        captured_at: 2026-11-10T16:32:04Z
 assessment:
   status: unverified
   credibility: 6

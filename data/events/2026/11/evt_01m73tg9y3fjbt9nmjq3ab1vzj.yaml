@@ -24,6 +24,10 @@ sources:
     title: USF strike Russian drone hub at Donetsk Airport
     published_at: 2026-11-10T16:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110180112/https://www.ukrinform.net/rubric-ato/4183466-usf-strike-russian-drone-hub-at-donetsk-airport.html
+        captured_at: 2026-11-10T18:01:12Z
 assessment:
   status: unverified
   credibility: 6

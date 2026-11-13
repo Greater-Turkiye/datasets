@@ -24,6 +24,10 @@ sources:
     title: Ukraine strikes Russian plant responsible for repairing A-50 spy planes, General Staff confirms
     published_at: 2026-11-10T13:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113051554/https://www.ukrinform.net/rubric-ato/4183386-ukraine-strikes-russian-plant-responsible-for-repairing-a50-spy-planes-general-staff-confirms.html
+        captured_at: 2026-11-13T05:15:54Z
 assessment:
   status: unverified
   credibility: 6

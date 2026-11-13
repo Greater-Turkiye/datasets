@@ -1,0 +1,27 @@
+id: evt_01m79mfs27fka846pknwq2fcrs
+schema: event/1
+event_type: diplomatic.talks
+title:
+  tr: Başbakan Rama, Arnavutluk'un 2027'de NATO Zirvesi'ne ev sahipliği yapmayacağını söyledi
+  en: Albania will not host NATO summit in 2027, PM Rama says
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-12T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-12T13:48Z
+regions: [balkans]
+sources:
+  - url: https://news.am/en/news/1074458
+    title: Albania will not host NATO summit in 2027, PM Rama says
+    published_at: 2026-11-12T13:48Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-arm-newsam-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-arm-newsam-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -24,6 +24,10 @@ sources:
     title: Russia strikes energy infrastructure in Nizhyn
     published_at: 2026-11-10T17:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261110183156/https://www.ukrinform.net/rubric-ato/4183484-russia-strikes-energy-infrastructure-in-nizhyn.html
+        captured_at: 2026-11-10T18:31:56Z
 assessment:
   status: unverified
   credibility: 6
