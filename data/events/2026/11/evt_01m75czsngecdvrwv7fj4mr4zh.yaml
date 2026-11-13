@@ -18,6 +18,10 @@ sources:
     title: US Treasury secretary is moved to military base amid Iran threats
     published_at: 2026-11-11T06:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113233256/https://news.am/en/news/1074046
+        captured_at: 2026-11-13T23:32:56Z
 assessment:
   status: unverified
   credibility: 6

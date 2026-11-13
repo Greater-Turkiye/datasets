@@ -24,6 +24,10 @@ sources:
     title: 44-day Nagorno-Karabakh war ended 6 years ago today, commemoration at Yerevan military pantheon
     published_at: 2026-11-09T12:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113232127/https://news.am/en/news/1073683
+        captured_at: 2026-11-13T23:21:27Z
 assessment:
   status: unverified
   credibility: 6

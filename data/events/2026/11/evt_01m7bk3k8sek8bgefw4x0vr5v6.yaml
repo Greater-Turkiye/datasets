@@ -1,0 +1,27 @@
+id: evt_01m7bk3k8sek8bgefw4x0vr5v6
+schema: event/1
+event_type: deployment.announced
+title:
+  tr: Ukrayna Savunma Kuvvetleri Ekim ayında yaklaşık 24.000 Rus askerini etkisiz hâle getirdi
+  en: Ukraine’s Defense Forces eliminate nearly 24,000 Russian troops in October
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-13T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-13T21:19Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4184535-ukraines-defense-forces-eliminate-nearly-24000-russian-troops-in-october.html
+    title: Ukraine’s Defense Forces eliminate nearly 24,000 Russian troops in October
+    published_at: 2026-11-13T21:19Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

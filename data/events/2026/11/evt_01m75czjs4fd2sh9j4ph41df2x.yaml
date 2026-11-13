@@ -18,6 +18,10 @@ sources:
     title: "Zelensky on front line situation assessments: Putin lives in different reality"
     published_at: 2026-11-11T04:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111063131/https://www.ukrinform.net/rubric-ato/4183594-zelensky-on-front-line-situation-assessments-putin-lives-in-different-reality.html
+        captured_at: 2026-11-11T06:31:31Z
 assessment:
   status: unverified
   credibility: 6

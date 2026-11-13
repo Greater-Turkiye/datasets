@@ -18,6 +18,10 @@ sources:
     title: Armenia PM arrives in Turkey (VIDEO)
     published_at: 2026-11-11T03:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111103305/https://news.am/en/news/1074022
+        captured_at: 2026-11-11T10:33:05Z
 assessment:
   status: unverified
   credibility: 6

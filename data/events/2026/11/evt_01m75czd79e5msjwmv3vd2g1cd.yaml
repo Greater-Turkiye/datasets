@@ -24,6 +24,10 @@ sources:
     title: Meeting with President of Belarus Alexander Lukashenko
     published_at: 2026-11-10T16:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113200449/http://en.kremlin.ru/events/president/news/81227
+        captured_at: 2026-11-13T20:04:49Z
 assessment:
   status: unverified
   credibility: 6

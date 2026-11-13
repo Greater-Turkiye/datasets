@@ -18,6 +18,10 @@ sources:
     title: Russian army loses another 2,580 personnel, two air defense systems in war against Ukraine
     published_at: 2026-11-11T06:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111120503/https://www.ukrinform.net/rubric-ato/4183611-russian-army-loses-another-2580-personnel-two-air-defense-systems-in-war-against-ukraine.html
+        captured_at: 2026-11-11T12:05:03Z
 assessment:
   status: unverified
   credibility: 6

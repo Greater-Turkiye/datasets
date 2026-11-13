@@ -24,6 +24,10 @@ sources:
     title: Russian nighttime attack on Chernihiv sparks fire at private enterprise, damages vehicles
     published_at: 2026-11-11T07:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111093229/https://www.ukrinform.net/rubric-ato/4183636-russian-nighttime-attack-on-chernihiv-sparks-fire-at-private-enterprise-damages-vehicles.html
+        captured_at: 2026-11-11T09:32:29Z
 assessment:
   status: unverified
   credibility: 6

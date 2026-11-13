@@ -18,6 +18,10 @@ sources:
     title: "War update: 125 clashes on front line over past day, Kostiantynivka and Pokrovsk sectors remain hottest"
     published_at: 2026-11-11T07:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111103133/https://www.ukrinform.net/rubric-ato/4183624-war-update-125-clashes-on-front-line-over-past-day-kostiantynivka-and-pokrovsk-sectors-remain-hottest.html
+        captured_at: 2026-11-11T10:31:33Z
 assessment:
   status: unverified
   credibility: 6

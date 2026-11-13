@@ -24,6 +24,10 @@ sources:
     title: Drones attack Russia's strategic Ust-Luga port, sparking fire
     published_at: 2026-11-11T06:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111110140/https://www.ukrinform.net/rubric-ato/4183614-drones-attack-russias-strategic-ustluga-port-sparking-fire.html
+        captured_at: 2026-11-11T11:01:40Z
 assessment:
   status: unverified
   credibility: 6

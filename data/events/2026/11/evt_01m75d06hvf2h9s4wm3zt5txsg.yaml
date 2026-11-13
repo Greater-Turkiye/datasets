@@ -18,6 +18,10 @@ sources:
     title: "Armenia opposition MP: Azerbaijani soldier held in good conditions in NSS “basement,” but Armenian former President Robert Kocharyan held in inhumane conditions"
     published_at: 2026-11-11T07:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113233833/https://news.am/en/news/1074072
+        captured_at: 2026-11-13T23:38:33Z
 assessment:
   status: unverified
   credibility: 6

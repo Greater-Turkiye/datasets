@@ -18,6 +18,10 @@ sources:
     title: CSTO to discuss Armenia’s voting rights in the organization, Russia FM says
     published_at: 2026-11-10T11:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113232642/https://news.am/en/news/1073902
+        captured_at: 2026-11-13T23:26:42Z
 assessment:
   status: unverified
   credibility: 6
