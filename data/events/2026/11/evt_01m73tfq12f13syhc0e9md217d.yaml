@@ -18,6 +18,10 @@ sources:
     title: "Russia FM: CSTO countries discussed Armenia's non-payment of membership fees"
     published_at: 2026-11-10T11:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114045534/https://news.am/en/news/1073900
+        captured_at: 2026-11-14T04:55:34Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "COP31: Armenia’s Pashinyan in 2nd row, Turkey’s Erdogan and Azerbaijan’s Aliyev side by side at leaders’ photoshoot"
     published_at: 2026-11-11T09:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114045831/https://news.am/en/news/1074116
+        captured_at: 2026-11-14T04:58:31Z
 assessment:
   status: unverified
   credibility: 6

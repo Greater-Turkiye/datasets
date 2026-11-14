@@ -24,6 +24,10 @@ sources:
     title: Russian attack damages private house in Kyiv’s Darnytskyi district
     published_at: 2026-11-11T08:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111110139/https://www.ukrinform.net/rubric-ato/4183643-russian-attack-damages-private-house-in-kyivs-darnytskyi-district.html
+        captured_at: 2026-11-11T11:01:39Z
 assessment:
   status: unverified
   credibility: 6

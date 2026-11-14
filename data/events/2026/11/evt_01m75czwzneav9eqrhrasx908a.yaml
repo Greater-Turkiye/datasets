@@ -24,6 +24,10 @@ sources:
     title: US Embassy in Armenia closed today
     published_at: 2026-11-11T06:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113233324/https://news.am/en/news/1074054
+        captured_at: 2026-11-13T23:33:24Z
 assessment:
   status: unverified
   credibility: 6

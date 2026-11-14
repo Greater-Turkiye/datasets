@@ -24,6 +24,10 @@ sources:
     title: Russian strikes in Kharkiv region injure woman, damage infrastructure
     published_at: 2026-11-11T08:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111103131/https://www.ukrinform.net/rubric-ato/4183655-russian-strikes-in-kharkiv-region-injure-woman-damage-infrastructure.html
+        captured_at: 2026-11-11T10:31:31Z
 assessment:
   status: unverified
   credibility: 6

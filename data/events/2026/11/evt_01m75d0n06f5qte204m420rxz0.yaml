@@ -24,6 +24,10 @@ sources:
     title: US Congress Urged To Tighten Russia Sanctions, Speed Military Aid
     published_at: 2026-11-11T09:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111141411/https://www.rferl.org/a/ukraine-supporters-urge-us-congress-russia-sanctions-military-aid/33895140.html
+        captured_at: 2026-11-11T14:14:11Z
 assessment:
   status: unverified
   credibility: 6

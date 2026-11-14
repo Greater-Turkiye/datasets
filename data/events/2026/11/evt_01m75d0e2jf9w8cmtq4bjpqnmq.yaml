@@ -18,6 +18,10 @@ sources:
     title: "Bloomberg: Iran can build up to 50 ballistic missiles per month"
     published_at: 2026-11-11T08:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114045745/https://news.am/en/news/1074080
+        captured_at: 2026-11-14T04:57:45Z
 assessment:
   status: unverified
   credibility: 6

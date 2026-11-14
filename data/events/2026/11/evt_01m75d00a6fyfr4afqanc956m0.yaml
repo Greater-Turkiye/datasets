@@ -18,6 +18,10 @@ sources:
     title: Iran designates Argentina navy, air force as terrorist organizations
     published_at: 2026-11-11T06:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114045651/https://news.am/en/news/1074050
+        captured_at: 2026-11-14T04:56:51Z
 assessment:
   status: unverified
   credibility: 6

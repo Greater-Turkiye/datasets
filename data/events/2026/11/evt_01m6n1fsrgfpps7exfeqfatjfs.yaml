@@ -18,6 +18,10 @@ sources:
     title: UN peacekeeping chief warns of ‘security vacuum’ as Blue Helmets leave Lebanon and Western Sahara
     published_at: 2026-11-04T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113231849/https://news.un.org/feed/view/en/story/2026/11/1168741
+        captured_at: 2026-11-13T23:18:49Z
 assessment:
   status: unverified
   credibility: 6

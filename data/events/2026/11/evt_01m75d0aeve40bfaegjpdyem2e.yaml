@@ -18,6 +18,10 @@ sources:
     title: Two Russian Banderol missiles enter Moldovan airspace during attack on Ukraine
     published_at: 2026-11-11T07:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111094619/https://www.ukrinform.net/rubric-ato/4183637-two-russian-banderol-missiles-enter-moldovan-airspace-during-attack-on-ukraine.html
+        captured_at: 2026-11-11T09:46:19Z
 assessment:
   status: unverified
   credibility: 6
