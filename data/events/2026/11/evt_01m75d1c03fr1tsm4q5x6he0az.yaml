@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces strike three Russian UAV command-and-control posts
     published_at: 2026-11-11T12:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112160125/https://www.ukrinform.net/rubric-ato/4183777-ukrainian-forces-strike-three-russian-uav-commandandcontrol-posts.html
+        captured_at: 2026-11-12T16:01:25Z
 assessment:
   status: unverified
   credibility: 6

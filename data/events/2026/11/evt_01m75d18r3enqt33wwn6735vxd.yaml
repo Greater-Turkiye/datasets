@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces launch massive strike on military vehicle depot in Donetsk – Center for the Study of the Occupation
     published_at: 2026-11-11T11:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111140139/https://www.ukrinform.net/rubric-ato/4183752-ukrainian-forces-launch-massive-strike-on-military-vehicle-depot-in-donetsk-center-for-the-study-of-the-occupation.html
+        captured_at: 2026-11-11T14:01:39Z
 assessment:
   status: unverified
   credibility: 6

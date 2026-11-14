@@ -24,6 +24,10 @@ sources:
     title: Russian military may attempt another landing on Quarantine Island in Kherson, military intelligence
     published_at: 2026-11-11T11:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112160127/https://www.ukrinform.net/rubric-ato/4183742-russian-military-may-attempt-another-landing-on-quarantine-island-in-kherson-military-intelligence.html
+        captured_at: 2026-11-12T16:01:27Z
 assessment:
   status: unverified
   credibility: 6

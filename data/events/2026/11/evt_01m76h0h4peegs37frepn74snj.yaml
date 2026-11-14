@@ -24,6 +24,10 @@ sources:
     title: Abu Dhabi Talks Advance Diplomacy, Not Peace, as Russia Seeks Wider Security Bargain
     published_at: 2026-11-11T23:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112233107/https://www.rferl.org/a/33895568.html
+        captured_at: 2026-11-12T23:31:07Z
 assessment:
   status: unverified
   credibility: 6

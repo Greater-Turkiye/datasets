@@ -24,6 +24,10 @@ sources:
     title: "Axios: US asks Russia to propose new security agreement with Europe"
     published_at: 2026-11-12T07:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112134657/https://news.am/en/news/1074296
+        captured_at: 2026-11-12T13:46:57Z
 assessment:
   status: unverified
   credibility: 6

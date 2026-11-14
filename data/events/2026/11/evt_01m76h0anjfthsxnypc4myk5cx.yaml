@@ -18,6 +18,10 @@ sources:
     title: "Kremlin spox: Armenia has also been deprived of right to appoint its representatives to responsible positions in CSTO"
     published_at: 2026-11-11T14:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114130319/https://news.am/en/news/1074210
+        captured_at: 2026-11-14T13:03:19Z
 assessment:
   status: unverified
   credibility: 6

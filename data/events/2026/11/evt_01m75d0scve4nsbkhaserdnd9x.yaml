@@ -18,6 +18,10 @@ sources:
     title: Ukraine working with partners on drone escorts for ships in Black Sea
     published_at: 2026-11-11T10:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111120147/https://www.ukrinform.net/rubric-ato/4183720-ukraine-working-with-partners-on-drone-escorts-for-ships-in-black-sea.html
+        captured_at: 2026-11-11T12:01:47Z
 assessment:
   status: unverified
   credibility: 6

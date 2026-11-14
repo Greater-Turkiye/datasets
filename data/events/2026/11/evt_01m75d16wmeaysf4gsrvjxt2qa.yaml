@@ -18,6 +18,10 @@ sources:
     title: Armenia premier attends opening ceremony of Leaders’ Summit within COP31 climate conference in Turkey
     published_at: 2026-11-11T11:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114130047/https://news.am/en/news/1074161
+        captured_at: 2026-11-14T13:00:47Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Pashinyan, Erdogan emphasize importance of advancing Armenia-Turkey relations
     published_at: 2026-11-11T15:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112113046/https://news.am/en/news/1074222
+        captured_at: 2026-11-12T11:30:46Z
 assessment:
   status: unverified
   credibility: 6
