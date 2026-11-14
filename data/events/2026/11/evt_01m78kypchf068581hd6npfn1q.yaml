@@ -18,6 +18,10 @@ sources:
     title: "Ukraine's armed forces are lawful combatants: UK statement to the OSCE"
     published_at: 2026-11-12T10:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113010518/https://www.gov.uk/government/speeches/ukraines-armed-forces-are-lawful-combatants-uk-statement-to-the-osce
+        captured_at: 2026-11-13T01:05:18Z
 assessment:
   status: unverified
   credibility: 6

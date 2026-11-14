@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike energy infrastructure facility in Korosten
     published_at: 2026-11-11T13:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112143133/https://www.ukrinform.net/rubric-ato/4183813-russian-forces-strike-energy-infrastructure-facility-in-korosten.html
+        captured_at: 2026-11-12T14:31:33Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,10 +24,18 @@ sources:
     title: Russian drone attacks on Kharkiv leaves five injured
     published_at: 2026-11-11T13:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112143133/https://www.ukrinform.net/rubric-ato/4183806-russian-drone-attacks-on-kharkiv-leaves-five-injured.html
+        captured_at: 2026-11-12T14:31:33Z
   - url: https://www.ukrinform.net/rubric-ato/4183810-russian-fpv-drone-strike-on-zaporizhzhia-leaves-three-injured.html
     title: Russian FPV drone strike on Zaporizhzhia leaves three injured
     published_at: 2026-11-11T13:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112143153/https://www.ukrinform.net/rubric-ato/4183810-russian-fpv-drone-strike-on-zaporizhzhia-leaves-three-injured.html
+        captured_at: 2026-11-12T14:31:53Z
 assessment:
   status: unverified
   credibility: 6

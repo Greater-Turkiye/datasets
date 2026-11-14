@@ -18,6 +18,10 @@ sources:
     title: "Armenia PM in Turkey: We had very positive meeting with President Erdogan, now we need to repair, open railway (VIDEO)"
     published_at: 2026-11-12T09:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114221134/https://news.am/en/news/1074396
+        captured_at: 2026-11-14T22:11:34Z
 assessment:
   status: unverified
   credibility: 6

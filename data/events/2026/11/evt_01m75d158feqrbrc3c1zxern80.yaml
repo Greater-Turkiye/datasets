@@ -24,6 +24,10 @@ sources:
     title: Iranian Security Chief Insists Enriched Uranium Won't Leave Country
     published_at: 2026-11-11T11:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114220115/https://www.rferl.org/a/iran-enriched-uranium-transfer-russia-us-war/33895253.html
+        captured_at: 2026-11-14T22:01:15Z
 assessment:
   status: unverified
   credibility: 6

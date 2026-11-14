@@ -18,6 +18,10 @@ sources:
     title: Turkey ‘Hiding Weak Climate Record’ Behind Hosting of COP31
     published_at: 2026-11-12T07:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112183938/https://balkaninsight.com/2026/11/12/turkey-hiding-weak-climate-record-behind-hosting-of-cop31/bi/
+        captured_at: 2026-11-12T18:39:38Z
 assessment:
   status: unverified
   credibility: 6

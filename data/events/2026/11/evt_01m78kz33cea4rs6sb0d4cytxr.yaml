@@ -18,6 +18,10 @@ sources:
     title: EU To Add Wildberries CEO, Other Business Chiefs To Russia Sanctions Blacklist
     published_at: 2026-11-12T12:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114221620/https://www.rferl.org/a/eu-sanctions-russia-wildberries-tatyana-kim/33896996.html
+        captured_at: 2026-11-14T22:16:20Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,0 +1,27 @@
+id: evt_01m7e12q4ff8br9426ypq5g1b4
+schema: event/1
+event_type: maritime.incident
+title:
+  tr: ABD, İran'ın deniz ablukasının ötesindeki tedarik ağlarını da bozmaya çalışıyor
+  en: US Seeks To Disrupt Iran's Supply Networks Beyond Naval Blockade
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-14T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-14T12:11Z
+regions: [iran]
+sources:
+  - url: https://www.rferl.org/a/us-iran-war-supply-trade-blockade-russia-caspian/33898178.html
+    title: US Seeks To Disrupt Iran's Supply Networks Beyond Naval Blockade
+    published_at: 2026-11-14T12:11Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-rferl-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-rferl-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

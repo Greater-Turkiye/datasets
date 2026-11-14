@@ -18,6 +18,10 @@ sources:
     title: "War update: 167 clashes on front line over past day, Kostiantynivka sector sees fiercest fighting"
     published_at: 2026-11-12T06:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112171735/https://www.ukrinform.net/rubric-ato/4183975-war-update-167-clashes-on-front-line-over-past-day-kostiantynivka-sector-sees-fiercest-fighting.html
+        captured_at: 2026-11-12T17:17:35Z
 assessment:
   status: unverified
   credibility: 6

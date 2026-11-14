@@ -24,6 +24,10 @@ sources:
     title: Meeting with President of Tajikistan Emomali Rahmon
     published_at: 2026-11-12T08:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113034420/http://en.kremlin.ru/events/president/news/81245
+        captured_at: 2026-11-13T03:44:20Z
 assessment:
   status: unverified
   credibility: 6
