@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s drone pioneers bring battle-tested tech and high-skilled jobs to Britain
     published_at: 2026-11-12T17:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113120129/https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain
+        captured_at: 2026-11-13T12:01:29Z
 assessment:
   status: unverified
   credibility: 6

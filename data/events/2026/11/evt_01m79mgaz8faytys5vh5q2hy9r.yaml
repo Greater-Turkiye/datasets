@@ -24,6 +24,10 @@ sources:
     title: Call to Action Joint Statement on health and humanitarian access into Gaza
     published_at: 2026-11-12T15:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113024442/https://www.gov.uk/government/speeches/call-to-action-joint-statement-on-health-and-humanitarian-access-into-gaza
+        captured_at: 2026-11-13T02:44:42Z
 assessment:
   status: unverified
   credibility: 6

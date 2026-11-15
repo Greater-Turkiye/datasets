@@ -1,0 +1,33 @@
+id: evt_01m7fp64jfea1bh0t8emfj1h5k
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: Tataristan'da insansız hava aracı saldırısı sonrası petrokimya fabrikasında yangın çıktı, Taganrog'da trafo merkezi hasar gördü - medya
+  en: Petrochemical plant on fire in Tatarstan following drone attack, substation damaged in Taganrog – media
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-15T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-15T08:14Z
+location:
+  geometry: {type: Point, coordinates: [38.92, 47.23]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Taganrog, en: Taganrog}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4184802-petrochemical-plant-on-fire-in-tatarstan-following-drone-attack-substation-damaged-in-taganrog-media.html
+    title: Petrochemical plant on fire in Tatarstan following drone attack, substation damaged in Taganrog – media
+    published_at: 2026-11-15T08:14Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, başlıktaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the headline (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

@@ -24,6 +24,10 @@ sources:
     title: Zelensky's Office explains why Putin proposing humanitarian operation in Kostiantynivka
     published_at: 2026-11-12T14:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112224557/https://www.ukrinform.net/rubric-ato/4183894-zelenskys-office-explains-why-putin-proposing-humanitarian-operation-in-kostiantynivka.html
+        captured_at: 2026-11-12T22:45:57Z
 assessment:
   status: unverified
   credibility: 6

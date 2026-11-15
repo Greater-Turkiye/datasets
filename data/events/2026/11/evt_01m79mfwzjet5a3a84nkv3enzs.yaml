@@ -24,6 +24,10 @@ sources:
     title: "Minister Doughty Statement to the House of Commons: 12 November 2026"
     published_at: 2026-11-12T14:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114180734/https://www.gov.uk/government/speeches/minister-doughty-statement-to-the-house-of-commons-12-november-2026
+        captured_at: 2026-11-14T18:07:34Z
 assessment:
   status: unverified
   credibility: 6

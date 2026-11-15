@@ -18,6 +18,10 @@ sources:
     title: What Did Pashinyan and Aliyev Discuss? Details
     published_at: 2026-11-12T17:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115133739/https://news.am/en/news/1074508
+        captured_at: 2026-11-15T13:37:39Z
 assessment:
   status: unverified
   credibility: 6

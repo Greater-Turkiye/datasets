@@ -24,6 +24,10 @@ sources:
     title: "Russian forces strike Zlatopil in Kharkiv region: Enterprise destroyed, people injured"
     published_at: 2026-11-12T15:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112224545/https://www.ukrinform.net/rubric-ato/4183911-russian-forces-strike-zlatopil-in-kharkiv-region-enterprise-destroyed-people-injured.html
+        captured_at: 2026-11-12T22:45:45Z
 assessment:
   status: unverified
   credibility: 6
