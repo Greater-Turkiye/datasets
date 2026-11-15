@@ -18,6 +18,10 @@ sources:
     title: Встреча с Президентом Таджикистана Эмомали Рахмоном
     published_at: 2026-11-12T08:55Z
     lang: ru
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114220853/http://kremlin.ru/events/president/news/81245
+        captured_at: 2026-11-14T22:08:53Z
 assessment:
   status: unverified
   credibility: 6

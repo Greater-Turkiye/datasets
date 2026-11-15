@@ -18,6 +18,10 @@ sources:
     title: Armenia, Azerbaijan leaders may meet in Dublin, Azerbaijani media report
     published_at: 2026-11-12T07:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114220646/https://news.am/en/news/1074338
+        captured_at: 2026-11-14T22:06:46Z
 assessment:
   status: unverified
   credibility: 6

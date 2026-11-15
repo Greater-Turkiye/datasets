@@ -18,6 +18,10 @@ sources:
     title: Security Council 2140 Committee Discusses Final Report Submitted by Panel of Experts on Yemen Pursuant to Paragraph 19 of Resolution 2801 (2025)
     published_at: 2026-11-11T17:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115044932/https://press.un.org/en/2026/sc16505.doc.htm
+        captured_at: 2026-11-15T04:49:32Z
 assessment:
   status: unverified
   credibility: 6

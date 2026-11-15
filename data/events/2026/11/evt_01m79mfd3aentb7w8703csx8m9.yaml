@@ -24,6 +24,10 @@ sources:
     title: Truck catches fire near warehouses in Brovary following Russian missile attack, driver injured
     published_at: 2026-11-12T07:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112171708/https://www.ukrinform.net/rubric-ato/4183981-truck-catches-fire-near-warehouses-in-brovary-following-russian-missile-attack-driver-injured.html
+        captured_at: 2026-11-12T17:17:08Z
 assessment:
   status: unverified
   credibility: 6

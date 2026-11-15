@@ -24,6 +24,10 @@ sources:
     title: US Envoys To Meet Putin And Zelenskyy Following Abu Dhabi Talks
     published_at: 2026-11-11T10:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111201741/https://www.rferl.org/a/ukraine-russia-talks-resume-in-abu-dhabi-amid-drone-attacks/33895197.html
+        captured_at: 2026-11-11T20:17:41Z
 assessment:
   status: unverified
   credibility: 6

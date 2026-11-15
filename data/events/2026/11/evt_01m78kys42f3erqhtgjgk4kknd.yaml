@@ -18,6 +18,10 @@ sources:
     title: "The Week In Russia: Arrests, Attacks, And A Familiar Kremlin Refrain"
     published_at: 2026-11-12T11:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114221208/https://www.rferl.org/a/gutterman-week-in-russia-newsletter/33895561.html
+        captured_at: 2026-11-14T22:12:08Z
 assessment:
   status: unverified
   credibility: 6

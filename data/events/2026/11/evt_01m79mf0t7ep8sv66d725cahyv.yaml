@@ -18,6 +18,10 @@ sources:
     title: Emergency power outages reported in Khmelnytskyi Region’s Shepetivka District
     published_at: 2026-11-11T16:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114221904/https://www.ukrinform.net/rubric-ato/4184003-emergency-power-outages-reported-in-khmelnytskyi-regions-shepetivka-district.html
+        captured_at: 2026-11-14T22:19:04Z
 assessment:
   status: unverified
   credibility: 6

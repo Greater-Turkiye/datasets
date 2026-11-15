@@ -24,6 +24,10 @@ sources:
     title: One killed, seven injured as Russian drone hits apartment building in Kyiv's Solomianskyi district
     published_at: 2026-11-12T10:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261112170216/https://www.ukrinform.net/rubric-ato/4183954-one-killed-seven-injured-as-russian-drone-hits-apartment-building-in-kyivs-solomianskyi-district.html
+        captured_at: 2026-11-12T17:02:16Z
 assessment:
   status: unverified
   credibility: 6

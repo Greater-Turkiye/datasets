@@ -24,6 +24,10 @@ sources:
     title: PM Al-Zaidi orders completion of Khor Mor attack investigation
     published_at: 2026-11-11T14:46Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261111155742/https://shafaq.com/en/Security/Ali-Al-Zaidi-orders-completion-of-Khor-Mor-attack-investigation
+        captured_at: 2026-11-11T15:57:42Z
 assessment:
   status: unverified
   credibility: 6

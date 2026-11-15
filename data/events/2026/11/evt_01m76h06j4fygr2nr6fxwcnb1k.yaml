@@ -24,6 +24,10 @@ sources:
     title: Putin presents Collective Security Treaty Organization summit agenda
     published_at: 2026-11-11T13:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114220411/https://news.am/en/news/1074196
+        captured_at: 2026-11-14T22:04:11Z
 assessment:
   status: unverified
   credibility: 6
