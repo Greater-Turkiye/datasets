@@ -18,6 +18,10 @@ sources:
     title: "This resolution demonstrates this Council’s determination to take decisive action against reckless attacks by the Houthis in Yemen: UK Explanation of Vote at the UN Security Council"
     published_at: 2026-11-12T20:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115042302/https://www.gov.uk/government/speeches/this-resolution-demonstrates-this-councils-determination-to-take-decisive-action-against-reckless-attacks-by-the-houthis-in-yemen-uk-explanation-of-vo
+        captured_at: 2026-11-15T04:23:02Z
 assessment:
   status: unverified
   credibility: 6

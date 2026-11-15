@@ -18,6 +18,10 @@ sources:
     title: Armenia’s Pashinyan drinks Turkish tea in Antalya (VIDEO)
     published_at: 2026-11-11T12:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115223714/https://news.am/en/news/1074177
+        captured_at: 2026-11-15T22:37:14Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Over 11,000 foreign nationals fighting for Russia killed in Ukraine – Bloomberg
     published_at: 2026-11-12T22:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113051619/https://www.ukrinform.net/rubric-ato/4183916-over-11000-foreign-nationals-fighting-for-russia-killed-in-ukraine-bloomberg.html
+        captured_at: 2026-11-13T05:16:19Z
 assessment:
   status: unverified
   credibility: 6

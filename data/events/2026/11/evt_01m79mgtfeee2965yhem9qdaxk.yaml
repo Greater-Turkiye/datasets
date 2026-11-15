@@ -18,6 +18,10 @@ sources:
     title: Zelensky, Rutte discuss air defense missile shortages, Starshield disruptions
     published_at: 2026-11-12T19:46Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113024513/https://www.ukrinform.net/rubric-ato/4184096-zelensky-rutte-discuss-air-defense-missile-shortages-starshield-disruptions.html
+        captured_at: 2026-11-13T02:45:13Z
 assessment:
   status: unverified
   credibility: 6

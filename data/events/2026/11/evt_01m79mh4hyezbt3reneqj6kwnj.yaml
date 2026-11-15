@@ -24,6 +24,10 @@ sources:
     title: Four killed, six injured in Russian strikes on Kramatorsk
     published_at: 2026-11-12T21:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113073123/https://www.ukrinform.net/rubric-ato/4184107-four-killed-six-injured-in-russian-strikes-on-kramatorsk.html
+        captured_at: 2026-11-13T07:31:23Z
 assessment:
   status: unverified
   credibility: 6

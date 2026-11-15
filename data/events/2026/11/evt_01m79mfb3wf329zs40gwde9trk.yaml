@@ -18,6 +18,10 @@ sources:
     title: ADF down five Banderol missiles, 89 drones launched by Russia against Ukraine overnight
     published_at: 2026-11-12T06:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115224648/https://www.ukrinform.net/rubric-ato/4183987-adf-down-five-banderol-missiles-89-drones-launched-by-russia-against-ukraine-overnight.html
+        captured_at: 2026-11-15T22:46:48Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Security Council, 10270th Meeting (PM) Yemen Sanctions
     published_at: 2026-11-12T19:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115225818/https://press.un.org/en/blog/sc16508
+        captured_at: 2026-11-15T22:58:18Z
 assessment:
   status: unverified
   credibility: 6

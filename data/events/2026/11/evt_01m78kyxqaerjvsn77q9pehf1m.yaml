@@ -24,6 +24,10 @@ sources:
     title: Security Council chief reacts – with Russian poetry – to decision to deprive Armenia of voting rights in CSTO
     published_at: 2026-11-12T12:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115224328/https://news.am/en/news/1074438
+        captured_at: 2026-11-15T22:43:28Z
 assessment:
   status: unverified
   credibility: 6

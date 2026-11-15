@@ -24,6 +24,10 @@ sources:
     title: "Russia Federation Council speaker: Armenia will lose a lot if it withdraws from CSTO"
     published_at: 2026-11-12T08:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115132931/https://news.am/en/news/1074356
+        captured_at: 2026-11-15T13:29:31Z
 assessment:
   status: unverified
   credibility: 6
