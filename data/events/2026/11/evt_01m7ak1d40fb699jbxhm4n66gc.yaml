@@ -18,6 +18,10 @@ sources:
     title: FM Mirzoyan, foreign policy chief Kallas discuss agenda matters for Armenia-EU partnership development
     published_at: 2026-11-12T17:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113111344/https://news.am/en/news/1074517
+        captured_at: 2026-11-13T11:13:44Z
 assessment:
   status: unverified
   credibility: 6

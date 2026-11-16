@@ -18,6 +18,10 @@ sources:
     title: Russian attack injures two women in Vinnytsia, damages homes, kindergarten
     published_at: 2026-11-13T05:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113090252/https://www.ukrinform.net/rubric-ato/4184149-russian-attack-injures-two-women-in-vinnytsia-damages-homes-kindergarten.html
+        captured_at: 2026-11-13T09:02:52Z
 assessment:
   status: unverified
   credibility: 6

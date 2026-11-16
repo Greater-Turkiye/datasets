@@ -24,6 +24,10 @@ sources:
     title: Russia MFA spox deems as "fiction" Armenia Security Council chief’s words on CSTO’s silence in response to Yerevan's inquiries
     published_at: 2026-11-12T17:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113111346/https://news.am/en/news/1074510
+        captured_at: 2026-11-13T11:13:46Z
 assessment:
   status: unverified
   credibility: 6

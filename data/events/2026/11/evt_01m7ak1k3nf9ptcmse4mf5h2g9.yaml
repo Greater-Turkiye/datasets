@@ -24,6 +24,10 @@ sources:
     title: Drone debris sparks fire at medical facility in Kyiv
     published_at: 2026-11-13T05:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113090253/https://www.ukrinform.net/rubric-ato/4184147-drone-debris-sparks-fire-at-medical-facility-in-kyiv.html
+        captured_at: 2026-11-13T09:02:53Z
 assessment:
   status: unverified
   credibility: 6

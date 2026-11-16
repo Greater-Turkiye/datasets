@@ -18,6 +18,10 @@ sources:
     title: France train station being inspected after bomb alert
     published_at: 2026-11-12T11:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116044608/https://news.am/en/news/1074394
+        captured_at: 2026-11-16T04:46:08Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,10 +24,18 @@ sources:
     title: Russian drone hits apartment building in Rivne, children among injured
     published_at: 2026-11-13T04:46Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113090253/https://www.ukrinform.net/rubric-ato/4184146-russian-drone-hits-apartment-building-in-rivne-children-among-injured.html
+        captured_at: 2026-11-13T09:02:53Z
   - url: https://www.ukrinform.net/rubric-ato/4184173-fire-in-rivne-apartment-building-after-russian-strike-extinguished-six-injured-including-two-children.html
     title: Fire in Rivne apartment building after Russian strike extinguished, six injured, including two children
     published_at: 2026-11-13T07:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113090112/https://www.ukrinform.net/rubric-ato/4184173-fire-in-rivne-apartment-building-after-russian-strike-extinguished-six-injured-including-two-children.html
+        captured_at: 2026-11-13T09:01:12Z
 assessment:
   status: unverified
   credibility: 6

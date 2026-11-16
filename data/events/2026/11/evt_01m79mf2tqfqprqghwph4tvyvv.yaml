@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack energy facilities in Cherkasy Region
     published_at: 2026-11-11T16:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115224358/https://www.ukrinform.net/rubric-ato/4184004-russian-forces-attack-energy-facilities-in-cherkasy-region.html
+        captured_at: 2026-11-15T22:43:58Z
 assessment:
   status: unverified
   credibility: 6

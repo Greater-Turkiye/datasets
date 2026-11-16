@@ -24,6 +24,10 @@ sources:
     title: Iraq places military units on highest alert
     published_at: 2026-11-12T23:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113053837/https://shafaq.com/en/Security/Iraq-places-military-units-on-highest-alert
+        captured_at: 2026-11-13T05:38:37Z
 assessment:
   status: unverified
   credibility: 6

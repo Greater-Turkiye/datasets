@@ -18,6 +18,10 @@ sources:
     title: Armenia, Azerbaijan FMs chat “while standing” in Dublin (VIDEO)
     published_at: 2026-11-12T16:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113051050/https://news.am/en/news/1074507
+        captured_at: 2026-11-13T05:10:50Z
 assessment:
   status: unverified
   credibility: 6

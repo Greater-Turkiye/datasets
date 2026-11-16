@@ -24,6 +24,10 @@ sources:
     title: First four L-39 Skyfox aircraft could be delivered to Ukraine next year – Czech FM
     published_at: 2026-11-13T03:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113060118/https://www.ukrinform.net/rubric-ato/4184101-first-four-l39-skyfox-aircraft-could-be-delivered-to-ukraine-next-year-czech-fm.html
+        captured_at: 2026-11-13T06:01:18Z
 assessment:
   status: unverified
   credibility: 6
