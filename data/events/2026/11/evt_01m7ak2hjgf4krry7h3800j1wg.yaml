@@ -18,6 +18,10 @@ sources:
     title: Iraqi committee begins on-site probe into Jurf Al-Sakhr
     published_at: 2026-11-13T09:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116150229/https://shafaq.com/en/Security/Iraqi-authorities-begin-on-site-investigation-into-Jurf-Al-Sakhr
+        captured_at: 2026-11-16T15:02:29Z
 assessment:
   status: unverified
   credibility: 6

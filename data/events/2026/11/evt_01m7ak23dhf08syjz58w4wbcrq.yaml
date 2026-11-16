@@ -18,6 +18,10 @@ sources:
     title: "War update: 175 clashes on front lines over past day, most attacks recorded on Kostiantynivka axis"
     published_at: 2026-11-13T07:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115044636/https://www.ukrinform.net/rubric-ato/4184182-war-update-175-clashes-on-front-lines-over-past-day-most-attacks-recorded-on-kostiantynivka-axis.html
+        captured_at: 2026-11-15T04:46:36Z
 assessment:
   status: unverified
   credibility: 6

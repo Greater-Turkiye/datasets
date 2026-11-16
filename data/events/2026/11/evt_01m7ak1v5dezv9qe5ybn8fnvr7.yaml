@@ -18,6 +18,10 @@ sources:
     title: Air defense downs 80 of 117 Russian drones launched overnight
     published_at: 2026-11-13T06:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115100509/https://www.ukrinform.net/rubric-ato/4184168-air-defense-downs-80-of-117-russian-drones-launched-overnight.html
+        captured_at: 2026-11-15T10:05:09Z
 assessment:
   status: unverified
   credibility: 6

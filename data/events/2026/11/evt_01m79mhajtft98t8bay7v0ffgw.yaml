@@ -18,6 +18,10 @@ sources:
     title: Security Council Updates Yemen Sanctions Regime to Address Evolving Houthi Threats through Resolution 2837 (2026)
     published_at: 2026-11-12T22:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113044610/https://press.un.org/en/2026/sc16508.doc.htm
+        captured_at: 2026-11-13T04:46:10Z
 assessment:
   status: unverified
   credibility: 6

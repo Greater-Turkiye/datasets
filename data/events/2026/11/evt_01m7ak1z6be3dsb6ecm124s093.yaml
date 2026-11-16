@@ -24,10 +24,18 @@ sources:
     title: One killed, several injured in Russian attack on Odesa
     published_at: 2026-11-13T07:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261113124646/https://www.ukrinform.net/rubric-ato/4184171-one-killed-several-injured-in-russian-attack-on-odesa.html
+        captured_at: 2026-11-13T12:46:46Z
   - url: https://www.ukrinform.net/rubric-ato/4184185-death-toll-from-russian-attack-on-odesa-rises-to-two-five-injured.html
     title: Death toll from Russian attack on Odesa rises to two, five injured
     published_at: 2026-11-13T07:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115033045/https://www.ukrinform.net/rubric-ato/4184185-death-toll-from-russian-attack-on-odesa-rises-to-two-five-injured.html
+        captured_at: 2026-11-15T03:30:45Z
 assessment:
   status: unverified
   credibility: 6

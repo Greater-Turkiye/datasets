@@ -24,6 +24,10 @@ sources:
     title: Russian overnight attack partially destroys second floor of Kyiv hospital, injures three patients
     published_at: 2026-11-13T08:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115050855/https://www.ukrinform.net/rubric-ato/4184199-russian-overnight-attack-partially-destroys-second-floor-of-kyiv-hospital-injures-three-patients.html
+        captured_at: 2026-11-15T05:08:55Z
 assessment:
   status: unverified
   credibility: 6

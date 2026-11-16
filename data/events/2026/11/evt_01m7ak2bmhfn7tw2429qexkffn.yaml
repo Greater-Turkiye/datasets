@@ -18,6 +18,10 @@ sources:
     title: "Russian attack on Vinnytsia: three injured, over 20 homes damaged"
     published_at: 2026-11-13T08:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116064946/https://www.ukrinform.net/rubric-ato/4184217-russian-attack-on-vinnytsia-three-injured-over-20-homes-damaged.html
+        captured_at: 2026-11-16T06:49:46Z
 assessment:
   status: unverified
   credibility: 6
