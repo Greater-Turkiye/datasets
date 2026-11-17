@@ -18,6 +18,10 @@ sources:
     title: Zelensky holds meeting with mayors on winter preparations, says talks will be regular
     published_at: 2026-11-14T04:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116104610/https://www.ukrinform.net/rubric-ato/4184566-zelensky-holds-meeting-with-mayors-on-winter-preparations-says-talks-will-be-regular.html
+        captured_at: 2026-11-16T10:46:10Z
 assessment:
   status: unverified
   credibility: 6

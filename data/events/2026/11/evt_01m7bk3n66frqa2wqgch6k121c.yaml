@@ -18,6 +18,10 @@ sources:
     title: "War update: 243 clashes on front line, fiercest fighting in Pokrovsk sector"
     published_at: 2026-11-13T21:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115043315/https://www.ukrinform.net/rubric-ato/4184540-war-update-243-clashes-on-front-line-fiercest-fighting-in-pokrovsk-sector.html
+        captured_at: 2026-11-15T04:33:15Z
 assessment:
   status: unverified
   credibility: 6

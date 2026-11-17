@@ -24,6 +24,10 @@ sources:
     title: Russian troops fail to advance toward Orikhiv – South Group of Forces
     published_at: 2026-11-13T17:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115112314/https://www.ukrinform.net/rubric-ato/4184466-russian-troops-fail-to-advance-toward-orikhiv-south-group-of-forces.html
+        captured_at: 2026-11-15T11:23:14Z
 assessment:
   status: unverified
   credibility: 6

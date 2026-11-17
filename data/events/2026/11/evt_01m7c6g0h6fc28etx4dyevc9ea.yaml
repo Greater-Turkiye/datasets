@@ -24,6 +24,10 @@ sources:
     title: Security Council Hears Competing Gulf, Iranian Narratives on Maritime Insecurity
     published_at: 2026-11-13T23:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115000614/https://press.un.org/en/2026/sc16509.doc.htm
+        captured_at: 2026-11-15T00:06:14Z
 assessment:
   status: unverified
   credibility: 6

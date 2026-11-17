@@ -24,6 +24,10 @@ sources:
     title: Remains of Russian drone recovered from Dnipro River in Kyiv
     published_at: 2026-11-13T23:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114101652/https://www.ukrinform.net/rubric-ato/4184176-remains-of-russian-drone-recovered-from-dnipro-river-in-kyiv.html
+        captured_at: 2026-11-14T10:16:52Z
 assessment:
   status: unverified
   credibility: 6

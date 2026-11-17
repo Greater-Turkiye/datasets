@@ -24,6 +24,10 @@ sources:
     title: PM Pashinyan returning to Armenia for “short visit,” to leave for Cambodia tomorrow (VIDEO)
     published_at: 2026-11-13T13:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117014349/https://news.am/en/news/1074680
+        captured_at: 2026-11-17T01:43:49Z
 assessment:
   status: unverified
   credibility: 6

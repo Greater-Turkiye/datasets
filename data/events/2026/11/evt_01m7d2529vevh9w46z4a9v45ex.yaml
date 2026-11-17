@@ -24,6 +24,10 @@ sources:
     title: Armenia did not sign declaration on European security over wording concerning Russia
     published_at: 2026-11-13T11:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117153837/https://news.am/en/news/1074811
+        captured_at: 2026-11-17T15:38:37Z
 assessment:
   status: unverified
   credibility: 6

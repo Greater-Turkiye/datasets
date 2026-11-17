@@ -24,6 +24,10 @@ sources:
     title: Ukraine’s air defenders down Russian Geran-5 jet drone for first time using Swedish RBS-70 MANPADS
     published_at: 2026-11-13T20:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115085936/https://www.ukrinform.net/rubric-ato/4184527-ukraines-air-defenders-down-russian-geran5-jet-drone-for-first-time-using-swedish-rbs70-manpads.html
+        captured_at: 2026-11-15T08:59:36Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Europe must learn modern warfare from Ukraine – ARX Robotics CEO
     published_at: 2026-11-14T05:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117065148/https://www.ukrinform.net/rubric-ato/4184567-europe-must-learn-modern-warfare-from-ukraine-arx-robotics-ceo.html
+        captured_at: 2026-11-17T06:51:48Z
 assessment:
   status: unverified
   credibility: 6

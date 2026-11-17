@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s Defense Forces eliminate nearly 24,000 Russian troops in October
     published_at: 2026-11-13T21:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115054103/https://www.ukrinform.net/rubric-ato/4184535-ukraines-defense-forces-eliminate-nearly-24000-russian-troops-in-october.html
+        captured_at: 2026-11-15T05:41:03Z
 assessment:
   status: unverified
   credibility: 6

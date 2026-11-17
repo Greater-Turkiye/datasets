@@ -24,6 +24,10 @@ sources:
     title: "Russian strike on Zaporizhzhia: Injury toll rises to 50, including eight children"
     published_at: 2026-11-13T18:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115031318/https://www.ukrinform.net/rubric-ato/4184479-russian-strike-on-zaporizhzhia-injury-toll-rises-to-50-including-eight-children.html
+        captured_at: 2026-11-15T03:13:18Z
 assessment:
   status: unverified
   credibility: 6

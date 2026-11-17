@@ -18,6 +18,10 @@ sources:
     title: National Guard drones hit over 316,000 enemy targets since Russia’s full-scale invasion – Pivnenko
     published_at: 2026-11-14T00:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117065150/https://www.ukrinform.net/rubric-ato/4184233-national-guard-drones-hit-over-316000-enemy-targets-since-russias-fullscale-invasion-pivnenko.html
+        captured_at: 2026-11-17T06:51:50Z
 assessment:
   status: unverified
   credibility: 6

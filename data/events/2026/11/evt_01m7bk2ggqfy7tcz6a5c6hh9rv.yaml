@@ -18,6 +18,10 @@ sources:
     title: "Security Council LIVE: Fragile Gulf calm tested as threats to Hormuz shipping mount"
     published_at: 2026-11-13T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117153559/https://news.un.org/feed/view/en/story/2026/11/1168804
+        captured_at: 2026-11-17T15:35:59Z
 assessment:
   status: unverified
   credibility: 6
