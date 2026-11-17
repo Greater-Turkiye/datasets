@@ -18,6 +18,10 @@ sources:
     title: Ukrainian battlefield successes shape allies’ stance and influence negotiations – Air Assault Forces Commander
     published_at: 2026-11-13T10:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115103934/https://www.ukrinform.net/rubric-ato/4184278-ukrainian-battlefield-successes-shape-allies-stance-and-influence-negotiations-air-assault-forces-commander.html
+        captured_at: 2026-11-15T10:39:34Z
 assessment:
   status: unverified
   credibility: 6

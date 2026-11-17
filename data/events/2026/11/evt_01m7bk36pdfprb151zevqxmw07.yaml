@@ -24,6 +24,10 @@ sources:
     title: Readout of U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Vice Adm. Curt Renshaw's Meeting with Israeli Navy Leadership
     published_at: 2026-11-13T16:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114150552/https://www.dvidshub.net/news/579289/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-israeli
+        captured_at: 2026-11-14T15:05:52Z
 assessment:
   status: unverified
   credibility: 6

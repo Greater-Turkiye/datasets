@@ -24,10 +24,18 @@ sources:
     title: Russian forces strike apartment building in Zaporizhzhia, four injured, including children
     published_at: 2026-11-13T10:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116064943/https://www.ukrinform.net/rubric-ato/4184290-russian-forces-strike-apartment-building-in-zaporizhzhia-four-injured-including-children.html
+        captured_at: 2026-11-16T06:49:43Z
   - url: https://www.ukrinform.net/rubric-ato/4184338-injury-toll-in-russian-strike-on-apartment-building-in-zaporizhzhia-rises-to-13-including-five-children.html
     title: Injury toll in Russian strike on apartment building in Zaporizhzhia rises to 13, including five children
     published_at: 2026-11-13T12:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115173021/https://www.ukrinform.net/rubric-ato/4184338-injury-toll-in-russian-strike-on-apartment-building-in-zaporizhzhia-rises-to-13-including-five-children.html
+        captured_at: 2026-11-15T17:30:21Z
 assessment:
   status: unverified
   credibility: 6

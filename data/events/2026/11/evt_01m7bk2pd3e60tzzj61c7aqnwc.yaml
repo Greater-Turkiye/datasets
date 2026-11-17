@@ -24,6 +24,10 @@ sources:
     title: "Russian attack on Zaporizhzhia: Injury toll rises to 25, rescue operations completed"
     published_at: 2026-11-13T13:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116064931/https://www.ukrinform.net/rubric-ato/4184371-russian-attack-on-zaporizhzhia-injury-toll-rises-to-25-rescue-operations-completed.html
+        captured_at: 2026-11-16T06:49:31Z
 assessment:
   status: unverified
   credibility: 6

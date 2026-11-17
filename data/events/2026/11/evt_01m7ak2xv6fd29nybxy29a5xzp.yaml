@@ -18,6 +18,10 @@ sources:
     title: CENTCOM Denies Iranian Claim It Struck A US Radar In Bahrain
     published_at: 2026-11-13T11:47Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114150712/https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html
+        captured_at: 2026-11-14T15:07:12Z
 assessment:
   status: unverified
   credibility: 6

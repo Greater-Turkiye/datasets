@@ -18,6 +18,10 @@ sources:
     title: Dollars Rain From Balcony As Kazakhstan's State Giants Rocked By Corruption Arrests
     published_at: 2026-11-13T14:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261114122938/https://www.rferl.org/a/kazakhstan-state-companies-corruption-toqaev/33898113.html
+        captured_at: 2026-11-14T12:29:38Z
 assessment:
   status: unverified
   credibility: 6

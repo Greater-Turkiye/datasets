@@ -18,6 +18,10 @@ sources:
     title: George Washington Dental Team Boosts Readiness in U.S. 5th Fleet
     published_at: 2026-11-13T13:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115201103/https://www.dvidshub.net/news/579243/george-washington-dental-team-boosts-readiness-us-5th-fleet
+        captured_at: 2026-11-15T20:11:03Z
 assessment:
   status: unverified
   credibility: 6
