@@ -24,10 +24,18 @@ sources:
     title: Russian forces attack Hlukhiv in morning drone strike, three injured, including child
     published_at: 2026-11-14T09:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117065133/https://www.ukrinform.net/rubric-ato/4184605-russian-forces-attack-hlukhiv-in-morning-drone-strike-three-injured-including-child.html
+        captured_at: 2026-11-17T06:51:33Z
   - url: https://www.ukrinform.net/rubric-ato/4184657-russian-forces-strike-derhachi-with-drone-leaving-three-injured.html
     title: Russian forces strike Derhachi with drone, leaving three injured
     published_at: 2026-11-14T11:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116112339/https://www.ukrinform.net/rubric-ato/4184657-russian-forces-strike-derhachi-with-drone-leaving-three-injured.html
+        captured_at: 2026-11-16T11:23:39Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Svitlana Linnyk, Head of the Hola Prystan Military Administration
     published_at: 2026-11-14T07:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116110806/https://www.ukrinform.net/rubric-ato/4184447-svitlana-linnyk-head-of-the-hola-prystan-military-administration.html
+        captured_at: 2026-11-16T11:08:06Z
 assessment:
   status: unverified
   credibility: 6

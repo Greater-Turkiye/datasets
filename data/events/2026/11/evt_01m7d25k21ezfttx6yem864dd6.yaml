@@ -24,14 +24,26 @@ sources:
     title: Three killed, 62 injured in Russian attacks on Zaporizhzhia region over past day
     published_at: 2026-11-14T07:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115054103/https://www.ukrinform.net/rubric-ato/4184591-three-killed-62-injured-in-russian-attacks-on-zaporizhzhia-region-over-past-day.html
+        captured_at: 2026-11-15T05:41:03Z
   - url: https://www.ukrinform.net/rubric-ato/4184592-two-killed-five-injured-in-russian-attacks-on-kherson-region-over-past-day.html
     title: Two killed, five injured in Russian attacks on Kherson region over past day
     published_at: 2026-11-14T08:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117065145/https://www.ukrinform.net/rubric-ato/4184592-two-killed-five-injured-in-russian-attacks-on-kherson-region-over-past-day.html
+        captured_at: 2026-11-17T06:51:45Z
   - url: https://www.ukrinform.net/rubric-ato/4184598-one-killed-two-injured-in-russian-attacks-on-kharkiv-region-over-past-day.html
     title: One killed, two injured in Russian attacks on Kharkiv region over past day
     published_at: 2026-11-14T08:22Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116094026/https://www.ukrinform.net/rubric-ato/4184598-one-killed-two-injured-in-russian-attacks-on-kharkiv-region-over-past-day.html
+        captured_at: 2026-11-16T09:40:26Z
 assessment:
   status: unverified
   credibility: 6

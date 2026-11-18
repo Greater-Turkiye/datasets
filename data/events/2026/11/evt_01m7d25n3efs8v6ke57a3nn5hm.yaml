@@ -24,6 +24,10 @@ sources:
     title: Trump To Discuss Iran, Nuclear Arms With Putin, Xi At Landmark Summit
     published_at: 2026-11-14T08:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115091606/https://www.rferl.org/a/trump-to-discuss-iran-nuclear-arms-with-putin-xi-at-landmark-summit/33898521.html
+        captured_at: 2026-11-15T09:16:06Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Warehouses damaged in Russian drone attack on Kyiv region
     published_at: 2026-11-14T09:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116061616/https://www.ukrinform.net/rubric-ato/4184607-warehouses-damaged-in-russian-drone-attack-on-kyiv-region.html
+        captured_at: 2026-11-16T06:16:16Z
 assessment:
   status: unverified
   credibility: 6
