@@ -1,0 +1,27 @@
+id: evt_01m7qk39d7fcjrkntsw8xennaa
+schema: event/1
+event_type: diplomatic.talks
+title:
+  tr: Şi Cinping, Çin'in Dünya Ticaret Örgütü reformunu desteklediğini söylüyor
+  en: Xi Jinping says China supports World Trade Organization reform
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-18T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-18T04:27Z
+regions: [caucasus]
+sources:
+  - url: https://news.am/en/news/1075488
+    title: Xi Jinping says China supports World Trade Organization reform
+    published_at: 2026-11-18T04:27Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-arm-newsam-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-arm-newsam-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

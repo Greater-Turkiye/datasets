@@ -24,6 +24,10 @@ sources:
     title: Voskresenka in Zaporizhzhia Region remains under Ukrainian control despite Russian claims, military says
     published_at: 2026-11-14T19:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116074725/https://www.ukrinform.net/rubric-ato/4184739-voskresenka-in-zaporizhzhia-region-remains-under-ukrainian-control-despite-russian-claims-military-says.html
+        captured_at: 2026-11-16T07:47:25Z
 assessment:
   status: unverified
   credibility: 6

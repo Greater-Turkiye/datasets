@@ -1,0 +1,27 @@
+id: evt_01m7qk5n1sfgc8qx60z5nknzdm
+schema: event/1
+event_type: deployment.announced
+title:
+  tr: Rusya askerî varlığını artırdıkça Oleşki'deki sivillerin durumu kötüleşecek - basın görevlisi
+  en: Situation for civilians in Oleshky will worsen as Russia increases troop presence – press officer
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-18T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-18T13:12Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4186017-situation-for-civilians-in-oleshky-will-worsen-as-russia-increases-troop-presence-press-officer.html
+    title: Situation for civilians in Oleshky will worsen as Russia increases troop presence – press officer
+    published_at: 2026-11-18T13:12Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

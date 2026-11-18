@@ -24,6 +24,10 @@ sources:
     title: Injury toll after Russian attack on Zaporizhzhia rises to 22
     published_at: 2026-11-14T15:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116050843/https://www.ukrinform.net/rubric-ato/4184708-injury-toll-after-russian-attack-on-zaporizhzhia-rises-to-22.html
+        captured_at: 2026-11-16T05:08:43Z
 assessment:
   status: unverified
   credibility: 6

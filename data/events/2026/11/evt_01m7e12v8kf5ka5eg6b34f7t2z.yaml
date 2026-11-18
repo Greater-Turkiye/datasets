@@ -18,6 +18,10 @@ sources:
     title: "Zelenskyy: US Floated Trading Donbas For NATO Membership"
     published_at: 2026-11-14T13:07Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116120437/https://www.rferl.org/a/zelenskyy-us-floated-trading-donbas-for-nato-membership/33898583.html
+        captured_at: 2026-11-16T12:04:37Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: US Seeks To Disrupt Iran's Supply Networks Beyond Naval Blockade
     published_at: 2026-11-14T12:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115042141/https://www.rferl.org/a/us-iran-war-supply-trade-blockade-russia-caspian/33898178.html
+        captured_at: 2026-11-15T04:21:41Z
 assessment:
   status: unverified
   credibility: 6

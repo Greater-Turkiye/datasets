@@ -18,6 +18,10 @@ sources:
     title: US to cut fewer troops in Europe than previously planned – Bloomberg
     published_at: 2026-11-14T19:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116014204/https://www.ukrinform.net/rubric-ato/4184740-us-to-cut-fewer-troops-in-europe-than-previously-planned-bloomberg.html
+        captured_at: 2026-11-16T01:42:04Z
 assessment:
   status: unverified
   credibility: 6

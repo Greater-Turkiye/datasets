@@ -24,6 +24,10 @@ sources:
     title: SSU drones strike oil facility in Russia’s Samara region
     published_at: 2026-11-14T11:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116095759/https://www.ukrinform.net/rubric-ato/4184658-ssu-drones-strike-oil-facility-in-russia39s-samara-region.html
+        captured_at: 2026-11-16T09:57:59Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,0 +1,27 @@
+id: evt_01m7qk1njtepqr5mxwvj4zcdv1
+schema: event/1
+event_type: procurement.delivery
+title:
+  tr: Birleşik Krallık'ın kış desteği kapsamında 240 milyon £ değerinde yardım göndermesiyle Ukrayna'ya 1.000'den fazla hava savunma füzesi ulaştı
+  en: More than 1,000 air defence missiles for Ukraine as UK delivers £240 million in winter support
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-17T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-17T15:00Z
+regions: [black-sea]
+sources:
+  - url: https://www.gov.uk/government/news/more-than-1000-air-defence-missiles-for-ukraine-as-uk-delivers-240-million-in-winter-support
+    title: More than 1,000 air defence missiles for Ukraine as UK delivers £240 million in winter support
+    published_at: 2026-11-17T15:00Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-mod. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-mod. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

@@ -24,6 +24,10 @@ sources:
     title: "Russians strike Zaporizhzhia: Residential building, educational institution damaged, 15 injured"
     published_at: 2026-11-14T12:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116094602/https://www.ukrinform.net/rubric-ato/4184669-russians-strike-zaporizhzhia-residential-building-educational-institution-damaged-15-injured.html
+        captured_at: 2026-11-16T09:46:02Z
 assessment:
   status: unverified
   credibility: 6
