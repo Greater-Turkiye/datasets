@@ -24,6 +24,10 @@ sources:
     title: Petrochemical plant on fire in Tatarstan following drone attack, substation damaged in Taganrog – media
     published_at: 2026-11-15T08:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115110831/https://www.ukrinform.net/rubric-ato/4184802-petrochemical-plant-on-fire-in-tatarstan-following-drone-attack-substation-damaged-in-taganrog-media.html
+        captured_at: 2026-11-15T11:08:31Z
 assessment:
   status: unverified
   credibility: 6

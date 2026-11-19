@@ -24,6 +24,10 @@ sources:
     title: Armenia announces its candidacy, readiness to host COP34 climate conference in 2029
     published_at: 2026-11-13T11:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118235608/https://news.am/en/news/1074639
+        captured_at: 2026-11-18T23:56:08Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russians strike Zaporizhzhia eight times, injuring five people, including an elderly woman
     published_at: 2026-11-15T05:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115082415/https://www.ukrinform.net/rubric-ato/4184768-russians-strike-zaporizhzhia-eight-times-injuring-five-people-including-an-elderly-woman.html
+        captured_at: 2026-11-15T08:24:15Z
 assessment:
   status: unverified
   credibility: 6

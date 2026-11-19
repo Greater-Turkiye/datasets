@@ -24,6 +24,10 @@ sources:
     title: Russian attacks leave 14 injured in Kharkiv region, damage businesses, warehouses, and homes
     published_at: 2026-11-15T08:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115153132/https://www.ukrinform.net/rubric-ato/4184803-russian-attacks-leave-14-injured-in-kharkiv-region-damage-businesses-warehouses-and-homes.html
+        captured_at: 2026-11-15T15:31:32Z
 assessment:
   status: unverified
   credibility: 6

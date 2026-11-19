@@ -18,6 +18,10 @@ sources:
     title: "Islamic Revolutionary Guard Corps Aerospace Force adviser: Iran can increase range of its missiles"
     published_at: 2026-11-13T08:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118151023/https://news.am/en/news/1074582
+        captured_at: 2026-11-18T15:10:23Z
 assessment:
   status: unverified
   credibility: 6
