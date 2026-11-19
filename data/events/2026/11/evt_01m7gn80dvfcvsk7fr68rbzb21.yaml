@@ -24,6 +24,10 @@ sources:
     title: Joint Foreign Ministers Statement on Gaza
     published_at: 2026-11-15T19:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117042318/https://www.gov.uk/government/news/joint-foreign-ministers-statement-on-gaza--2
+        captured_at: 2026-11-17T04:23:18Z
 assessment:
   status: unverified
   credibility: 6

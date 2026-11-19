@@ -1,0 +1,27 @@
+id: evt_01m7t5znvfe51sfn3fr6gkp2r5
+schema: event/1
+event_type: diplomatic.talks
+title:
+  tr: "Gazete: Ermenistan'da erken parlamento seçimleri ufukta görünüyor, muhalefet anayasal anlaşmaya kapıyı kapatıyor"
+  en: "Newspaper: Snap parliamentary elections loom in Armenia, opposition closes door to constitutional deal"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-19T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-19T03:20Z
+regions: [caucasus]
+sources:
+  - url: https://news.am/en/news/1075758
+    title: "Newspaper: Snap parliamentary elections loom in Armenia, opposition closes door to constitutional deal"
+    published_at: 2026-11-19T03:20Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-arm-newsam-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-arm-newsam-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

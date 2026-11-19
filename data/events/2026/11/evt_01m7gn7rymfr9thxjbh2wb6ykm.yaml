@@ -24,6 +24,10 @@ sources:
     title: Auto dealership damaged in Russian attack in Kyiv region
     published_at: 2026-11-15T16:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116043122/https://www.ukrinform.net/rubric-ato/4184935-auto-dealership-damaged-in-russian-attack-in-kyiv-region.html
+        captured_at: 2026-11-16T04:31:22Z
 assessment:
   status: unverified
   credibility: 6

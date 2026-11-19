@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack car with drone in Kharkiv, injuring three people
     published_at: 2026-11-15T14:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115173156/https://www.ukrinform.net/rubric-ato/4184890-russian-forces-attack-car-with-drone-in-kharkiv-injuring-three-people.html
+        captured_at: 2026-11-15T17:31:56Z
 assessment:
   status: unverified
   credibility: 6

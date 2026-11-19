@@ -24,6 +24,10 @@ sources:
     title: Russian army carries out six attacks violating Geneva Convention provisions in nine days – Ministry of Defense
     published_at: 2026-11-15T16:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115181619/https://www.ukrinform.net/rubric-ato/4184932-russian-army-carries-out-six-attacks-violating-geneva-convention-provisions-in-nine-days-ministry-of-defense.html
+        captured_at: 2026-11-15T18:16:19Z
 assessment:
   status: unverified
   credibility: 6

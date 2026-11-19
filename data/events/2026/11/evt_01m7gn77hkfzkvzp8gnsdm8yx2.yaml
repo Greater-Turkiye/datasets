@@ -24,6 +24,10 @@ sources:
     title: Enemy strikes energy facility, triggering emergency power outages in Zaporizhzhia and Dnipropetrovsk regions
     published_at: 2026-11-15T13:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115153113/https://www.ukrinform.net/rubric-ato/4184884-enemy-strikes-energy-facility-triggering-emergency-power-outages-in-zaporizhzhia-and-dnipropetrovsk-regions.html
+        captured_at: 2026-11-15T15:31:13Z
 assessment:
   status: unverified
   credibility: 6

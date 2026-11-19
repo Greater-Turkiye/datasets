@@ -24,6 +24,10 @@ sources:
     title: INSS seizes 1.4M+ medicines, arrests five suspects
     published_at: 2026-11-13T16:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261119151943/https://shafaq.com/ar/Security/INSS-seizes-1-4M-medicines-arrests-five-suspects
+        captured_at: 2026-11-19T15:19:43Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,0 +1,27 @@
+id: evt_01m7t61st0f4qs40k95e7x9n9j
+schema: event/1
+event_type: other
+title:
+  tr: "Azerbaycan Cumhurbaşkanı Yardımcısı: Ermenistan'ın 200'den fazla toplu mezarın yerini açıklamasını hâlâ bekliyoruz"
+  en: "Azerbaijan presidential aide: We are still waiting for Armenia to disclose the locations of more than 200 mass graves"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-19T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-19T10:23Z
+regions: [caucasus]
+sources:
+  - url: https://news.am/en/news/1075908
+    title: "Azerbaijan presidential aide: We are still waiting for Armenia to disclose the locations of more than 200 mass graves"
+    published_at: 2026-11-19T10:23Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-arm-newsam-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-arm-newsam-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

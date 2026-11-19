@@ -24,6 +24,10 @@ sources:
     title: Power supply restored in Zaporizhzhia region after Russian attack
     published_at: 2026-11-15T19:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116093020/https://www.ukrinform.net/rubric-ato/4184955-power-supply-restored-in-zaporizhzhia-region-after-russian-attack.html
+        captured_at: 2026-11-16T09:30:20Z
 assessment:
   status: unverified
   credibility: 6

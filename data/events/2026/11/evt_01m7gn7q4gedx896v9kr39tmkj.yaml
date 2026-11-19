@@ -24,6 +24,10 @@ sources:
     title: FPV drone strikes in Kharkiv leave three injured
     published_at: 2026-11-15T16:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115184717/https://www.ukrinform.net/rubric-ato/4184936-fpv-drone-strikes-in-kharkiv-leave-three-injured.html
+        captured_at: 2026-11-15T18:47:17Z
 assessment:
   status: unverified
   credibility: 6

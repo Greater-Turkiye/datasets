@@ -1,0 +1,27 @@
+id: evt_01m7t621y3fpc87e7mna1vfdw6
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: "Rusya'nın enerji saldırıları Ukrayna'daki insani ve nükleer riskleri derinleştiriyor: Birleşik Krallık'ın AGİT'e yaptığı açıklama"
+  en: "Russia’s energy attacks deepen humanitarian and nuclear risks in Ukraine: UK statement to the OSCE"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-19T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-19T10:57Z
+regions: [black-sea]
+sources:
+  - url: https://www.gov.uk/government/speeches/russias-energy-attacks-deepen-humanitarian-and-nuclear-risks-in-ukraine-uk-statement-to-the-osce
+    title: "Russia’s energy attacks deepen humanitarian and nuclear risks in Ukraine: UK statement to the OSCE"
+    published_at: 2026-11-19T10:57Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-fcdo. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-fcdo. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]
