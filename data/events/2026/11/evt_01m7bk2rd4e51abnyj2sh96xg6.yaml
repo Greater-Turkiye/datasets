@@ -18,6 +18,10 @@ sources:
     title: "BFMTV: France security services expect up to 60,000 protesters in Paris on Saturday"
     published_at: 2026-11-13T13:31Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117153639/https://news.am/en/news/1074660
+        captured_at: 2026-11-17T15:36:39Z
 assessment:
   status: unverified
   credibility: 6

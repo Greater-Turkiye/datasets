@@ -24,6 +24,10 @@ sources:
     title: Two injured in Russian drone strike on Bilozerka
     published_at: 2026-11-15T10:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115204935/https://www.ukrinform.net/rubric-ato/4184828-two-injured-in-russian-drone-strike-on-bilozerka.html
+        captured_at: 2026-11-15T20:49:35Z
 assessment:
   status: unverified
   credibility: 6

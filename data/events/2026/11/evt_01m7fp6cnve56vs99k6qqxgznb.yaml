@@ -18,6 +18,10 @@ sources:
     title: Russian drone strikes residential building in Kropyvnytskyi, three injured
     published_at: 2026-11-15T09:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115225515/https://www.ukrinform.net/rubric-ato/4184816-russian-drone-strikes-residential-building-in-kropyvnytskyi.html
+        captured_at: 2026-11-15T22:55:15Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,10 +18,18 @@ sources:
     title: The Prime Minister departs for Cambodia on a working visit
     published_at: 2026-11-14T07:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261119000427/https://news.am/en/news/1074775
+        captured_at: 2026-11-19T00:04:27Z
   - url: https://news.am/en/news/1074881
     title: The Prime Minister arrives in Cambodia
     published_at: 2026-11-14T19:10Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261119055547/https://news.am/en/news/1074881
+        captured_at: 2026-11-19T05:55:47Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Enemy drone attacks damage property in five districts of Kyiv region, one person injured
     published_at: 2026-11-15T10:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115141217/https://www.ukrinform.net/rubric-ato/4184822-russian-drone-attacks-damage-property-in-five-districts-of-kyiv-region-one-person-injured.html
+        captured_at: 2026-11-15T14:12:17Z
 assessment:
   status: unverified
   credibility: 6

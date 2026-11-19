@@ -24,6 +24,10 @@ sources:
     title: Baghdad bust nets 5kg of meth, three traffickers
     published_at: 2026-11-14T17:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261119000321/https://shafaq.com/en/Security/Baghdad-bust-nets-5kg-of-meth-three-traffickers
+        captured_at: 2026-11-19T00:03:21Z
 assessment:
   status: unverified
   credibility: 6

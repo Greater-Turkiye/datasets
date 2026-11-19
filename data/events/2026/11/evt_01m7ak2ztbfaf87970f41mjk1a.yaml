@@ -18,6 +18,10 @@ sources:
     title: Woman shot by Azerbaijan soldier in Armenia village undergoes 3rd surgery
     published_at: 2026-11-13T12:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118235640/https://news.am/en/news/1074652
+        captured_at: 2026-11-18T23:56:40Z
 assessment:
   status: unverified
   credibility: 6

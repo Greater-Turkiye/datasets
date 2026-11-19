@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike energy infrastructure in Zhytomyr region
     published_at: 2026-11-15T08:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115110840/https://www.ukrinform.net/rubric-ato/4184808-russian-forces-strike-energy-infrastructure-in-zhytomyr-region.html
+        captured_at: 2026-11-15T11:08:40Z
 assessment:
   status: unverified
   credibility: 6

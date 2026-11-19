@@ -24,6 +24,10 @@ sources:
     title: Invaders hit company in Chuhuiv with drone, fire breaks out
     published_at: 2026-11-15T11:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115153115/https://www.ukrinform.net/rubric-ato/4184837-invaders-hit-company-in-chuhuiv-with-drone-fire-breaks-out.html
+        captured_at: 2026-11-15T15:31:15Z
 assessment:
   status: unverified
   credibility: 6

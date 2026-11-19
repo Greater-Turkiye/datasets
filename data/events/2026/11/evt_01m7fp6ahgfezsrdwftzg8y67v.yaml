@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Chornomorsk leaves six injured, damages energy infrastructure
     published_at: 2026-11-15T09:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117012326/https://www.ukrinform.net/rubric-ato/4184809-russian-attack-on-chornomorsk-leaves-six-injured-damages-energy-infrastructure.html
+        captured_at: 2026-11-17T01:23:26Z
 assessment:
   status: unverified
   credibility: 6
