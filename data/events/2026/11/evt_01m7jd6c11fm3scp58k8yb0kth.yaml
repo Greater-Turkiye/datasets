@@ -18,6 +18,10 @@ sources:
     title: Crimean Bridge closed after attack – media
     published_at: 2026-11-16T08:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117093017/https://www.ukrinform.net/rubric-ato/4185047-crimean-bridge-closed-after-attack-media.html
+        captured_at: 2026-11-17T09:30:17Z
 assessment:
   status: unverified
   credibility: 6

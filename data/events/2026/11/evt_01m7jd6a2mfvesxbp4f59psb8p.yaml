@@ -24,6 +24,10 @@ sources:
     title: Fire breaks out near two oil depots in Russia's Azov following drone attack – media
     published_at: 2026-11-16T07:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117023720/https://www.ukrinform.net/rubric-ato/4185041-fire-breaks-out-near-two-oil-depots-in-russias-azov-following-drone-attack-media.html
+        captured_at: 2026-11-17T02:37:20Z
 assessment:
   status: unverified
   credibility: 6

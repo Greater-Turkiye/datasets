@@ -18,6 +18,10 @@ sources:
     title: "Zelensky: Russia targets all infrastructure in one Ukrainian region for days at a time"
     published_at: 2026-11-15T20:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117042301/https://www.ukrinform.net/rubric-ato/4184970-zelensky-russia-targets-all-infrastructure-in-one-ukrainian-region-for-days-at-a-time.html
+        captured_at: 2026-11-17T04:23:01Z
 assessment:
   status: unverified
   credibility: 6

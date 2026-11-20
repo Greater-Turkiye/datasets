@@ -18,6 +18,10 @@ sources:
     title: Iraqi forces launch sweep after Hatra attack
     published_at: 2026-11-15T19:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116024616/https://shafaq.com/en/Security/Iraqi-forces-launch-sweep-after-Hatra-attack
+        captured_at: 2026-11-16T02:46:16Z
 assessment:
   status: unverified
   credibility: 6

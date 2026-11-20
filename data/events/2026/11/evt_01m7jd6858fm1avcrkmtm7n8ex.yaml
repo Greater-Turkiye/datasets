@@ -18,6 +18,10 @@ sources:
     title: "War update: 141 clashes on front lines over past day, Kostiantynivka axis hottest"
     published_at: 2026-11-16T07:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117085003/https://www.ukrinform.net/rubric-ato/4185037-war-update-141-clashes-on-front-lines-over-past-day-kostiantynivka-axis-hottest.html
+        captured_at: 2026-11-17T08:50:03Z
 assessment:
   status: unverified
   credibility: 6

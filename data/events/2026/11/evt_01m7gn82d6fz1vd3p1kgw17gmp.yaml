@@ -18,6 +18,10 @@ sources:
     title: Jurf Al-Sakhr blasts attributed to explosives disposal
     published_at: 2026-11-15T19:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261115233627/https://shafaq.com/en/Security/Jurf-Al-Sakhr-blasts-attributed-to-explosives-disposal
+        captured_at: 2026-11-15T23:36:27Z
 assessment:
   status: unverified
   credibility: 6

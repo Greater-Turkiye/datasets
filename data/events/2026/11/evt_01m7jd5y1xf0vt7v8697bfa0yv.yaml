@@ -18,6 +18,10 @@ sources:
     title: Russian attack hits critical industrial facility in Vinnytsia region
     published_at: 2026-11-16T04:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117115709/https://www.ukrinform.net/rubric-ato/4184997-russian-attack-hits-critical-industrial-facility-in-vinnytsia-region.html
+        captured_at: 2026-11-17T11:57:09Z
 assessment:
   status: unverified
   credibility: 6

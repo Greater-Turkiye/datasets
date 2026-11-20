@@ -24,6 +24,10 @@ sources:
     title: Russian strike on Dnipro kills one, injures three
     published_at: 2026-11-16T06:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117100034/https://www.ukrinform.net/rubric-ato/4185025-russian-strike-on-dnipro-kills-one-injures-three.html
+        captured_at: 2026-11-17T10:00:34Z
 assessment:
   status: unverified
   credibility: 6

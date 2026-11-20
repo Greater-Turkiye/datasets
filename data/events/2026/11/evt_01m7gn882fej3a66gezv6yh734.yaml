@@ -18,6 +18,10 @@ sources:
     title: Russia preparing new ballistic missile strikes on Ukraine – Zelensky
     published_at: 2026-11-15T21:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116131509/https://www.ukrinform.net/rubric-ato/4184977-russia-preparing-new-ballistic-missile-strikes-on-ukraine-zelensky.html
+        captured_at: 2026-11-16T13:15:09Z
 assessment:
   status: unverified
   credibility: 6

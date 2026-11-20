@@ -18,6 +18,10 @@ sources:
     title: Ukrainian athlete and servicewoman Rayana killed in action
     published_at: 2026-11-16T00:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117023230/https://www.ukrinform.net/rubric-ato/4184949-ukrainian-athlete-and-servicewoman-rayana-killed-in-action.html
+        captured_at: 2026-11-17T02:32:30Z
 assessment:
   status: unverified
   credibility: 6
