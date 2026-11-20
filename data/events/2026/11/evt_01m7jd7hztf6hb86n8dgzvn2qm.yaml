@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike Balakliia in Kharkiv region, killing one, injuring four
     published_at: 2026-11-16T12:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117052637/https://www.ukrinform.net/rubric-ato/4185147-russian-forces-strike-balakliia-in-kharkiv-region-killing-one-injuring-four.html
+        captured_at: 2026-11-17T05:26:37Z
 assessment:
   status: unverified
   credibility: 6

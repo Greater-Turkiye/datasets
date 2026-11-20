@@ -18,6 +18,10 @@ sources:
     title: Russian forces attack Kryvyi Rih with Banderol missiles
     published_at: 2026-11-16T11:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117042656/https://www.ukrinform.net/rubric-ato/4185125-russian-forces-attack-kryvyi-rih-with-banderol-missiles.html
+        captured_at: 2026-11-17T04:26:56Z
 assessment:
   status: unverified
   credibility: 6

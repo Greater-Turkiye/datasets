@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack food industry facility in Dnipro, causing fire
     published_at: 2026-11-16T10:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117104148/https://www.ukrinform.net/rubric-ato/4185108-russian-forces-attack-food-industry-facility-in-dnipro-causing-fire.html
+        captured_at: 2026-11-17T10:41:48Z
 assessment:
   status: unverified
   credibility: 6

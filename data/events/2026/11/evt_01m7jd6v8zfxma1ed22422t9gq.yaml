@@ -18,6 +18,10 @@ sources:
     title: "Financial Times: UK could scrap Brexit border checkpoints due to rapprochement with EU"
     published_at: 2026-11-16T09:44Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116164935/https://news.am/en/news/1075065
+        captured_at: 2026-11-16T16:49:35Z
 assessment:
   status: unverified
   credibility: 6

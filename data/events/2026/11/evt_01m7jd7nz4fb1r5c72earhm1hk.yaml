@@ -24,6 +24,10 @@ sources:
     title: "Russian strikes on Dnipro: woman killed, 13 injured, including two in critical condition"
     published_at: 2026-11-16T12:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117031233/https://www.ukrinform.net/rubric-ato/4185153-russian-strikes-on-dnipro-woman-killed-13-injured-including-two-in-critical-condition.html
+        captured_at: 2026-11-17T03:12:33Z
 assessment:
   status: unverified
   credibility: 6

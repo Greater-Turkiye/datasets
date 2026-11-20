@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike energy facilities in Odesa region, leaving thousands without power
     published_at: 2026-11-16T10:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117045809/https://www.ukrinform.net/rubric-ato/4185106-russian-forces-strike-energy-facilities-in-odesa-region-leaving-thousands-without-power.html
+        captured_at: 2026-11-17T04:58:09Z
 assessment:
   status: unverified
   credibility: 6

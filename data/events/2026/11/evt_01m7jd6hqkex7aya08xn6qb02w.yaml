@@ -24,6 +24,10 @@ sources:
     title: Injury toll from Russian strike on apartment buildings in Dnipro rises to ten, one dead
     published_at: 2026-11-16T08:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117090542/https://www.ukrinform.net/rubric-ato/4185060-injury-toll-from-russian-strike-on-apartment-buildings-in-dnipro-rises-to-ten-one-dead.html
+        captured_at: 2026-11-17T09:05:42Z
 assessment:
   status: unverified
   credibility: 6

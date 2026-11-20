@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack businesses in Odesa region, injuring civilians
     published_at: 2026-11-16T10:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117125520/https://www.ukrinform.net/rubric-ato/4185109-russian-forces-attack-businesses-in-odesa-region-injuring-civilians.html
+        captured_at: 2026-11-17T12:55:20Z
 assessment:
   status: unverified
   credibility: 6

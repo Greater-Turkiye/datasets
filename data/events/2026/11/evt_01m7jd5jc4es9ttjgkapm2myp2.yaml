@@ -18,6 +18,10 @@ sources:
     title: Armenia PM attends 20th Francophonie Summit opening ceremony
     published_at: 2026-11-15T05:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261120002351/https://news.am/en/news/1074897
+        captured_at: 2026-11-20T00:23:51Z
 assessment:
   status: unverified
   credibility: 6

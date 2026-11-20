@@ -24,10 +24,18 @@ sources:
     title: Russian forces attack industrial facilities in Dnipro, leaving two injured
     published_at: 2026-11-16T11:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117092853/https://www.ukrinform.net/rubric-ato/4185123-russian-forces-attack-industrial-facilities-in-dnipro-leaving-two-injured.html
+        captured_at: 2026-11-17T09:28:53Z
   - url: https://www.ukrinform.net/rubric-ato/4185150-russian-forces-attack-two-industrial-facilities-in-chernihiv-killing-two-injuring-four.html
     title: Russian forces attack two industrial facilities in Chernihiv, killing two, injuring four
     published_at: 2026-11-16T12:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117013921/https://www.ukrinform.net/rubric-ato/4185150-russian-forces-attack-two-industrial-facilities-in-chernihiv-killing-two-injuring-four.html
+        captured_at: 2026-11-17T01:39:21Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Security Council, 10273rd Meeting (AM) Syria
     published_at: 2026-11-16T11:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116123116/https://press.un.org/en/blog/sc16511
+        captured_at: 2026-11-16T12:31:16Z
 assessment:
   status: unverified
   credibility: 6

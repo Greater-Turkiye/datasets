@@ -1,0 +1,33 @@
+id: evt_01m7wq6h0dftzaa0c8ckpqpz1r
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: Rusya'nın Smolensk bölgesinde patlayıcı bileşenleri üreten kimya fabrikasına dronlarla saldırı - medya
+  en: Drones attack chemical plant producing components for explosives in Russia's Smolensk region – media
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-20T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-20T08:15Z
+location:
+  geometry: {type: Point, coordinates: [32.047, 54.783]}
+  precision: admin1
+  uncertainty_m: 100000
+  method: inferred
+  place_name: {tr: Smolensk bölgesi, en: Smolensk region}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4186683-drones-attack-chemical-plant-producing-components-for-explosives-in-russias-smolensk-region-media.html
+    title: Drones attack chemical plant producing components for explosives in Russia's Smolensk region – media
+    published_at: 2026-11-20T08:15Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, başlıktaki yer adından çıkarıldı (Natural Earth; ±100 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the headline (Natural Earth; ±100 km). Not verified."
+tags: [otomatik]

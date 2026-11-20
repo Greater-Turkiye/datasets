@@ -1,0 +1,45 @@
+id: evt_01m7wq5vvjf4krw1xhat3wqp3n
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: Rusya'nın Kiev'e düzenlediği saldırıda üç kişi öldü, 15 kişi yaralandı
+  en: Three killed, 15 injured in Russian attack on Kyiv
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-20T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-20T06:00Z
+location:
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Kyiv, en: Kyiv}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4186645-three-killed-15-injured-in-russian-attack-on-kyiv.html
+    title: Three killed, 15 injured in Russian attack on Kyiv
+    published_at: 2026-11-20T06:00Z
+    lang: en
+  - url: https://www.ukrinform.net/rubric-ato/4186678-two-killed-four-injured-in-russian-attack-on-railway-station-in-lviv.html
+    title: Two killed, four injured in Russian attack on railway station in Lviv
+    published_at: 2026-11-20T07:51Z
+    lang: en
+  - url: https://www.ukrinform.net/rubric-ato/4186726-death-toll-from-russian-attack-on-kyiv-rises-to-six-15-injured.html
+    title: Death toll from Russian attack on Kyiv rises to six, 15 injured
+    published_at: 2026-11-20T09:40Z
+    lang: en
+  - url: https://www.ukrinform.net/rubric-ato/4186847-death-toll-from-russian-attack-on-kyiv-rises-to-seven-17-injured.html
+    title: Death toll from Russian attack on Kyiv rises to seven, 17 injured
+    published_at: 2026-11-20T13:21Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, başlıktaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the headline (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]
