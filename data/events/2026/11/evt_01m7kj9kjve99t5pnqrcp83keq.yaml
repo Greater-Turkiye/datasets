@@ -18,6 +18,10 @@ sources:
     title: Zelensky urges Ukrainians to heed air raid alerts, says Russia prepares new attack
     published_at: 2026-11-16T19:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117103132/https://www.ukrinform.net/rubric-ato/4185326-zelensky-urges-ukrainians-to-heed-air-raid-alerts-says-russia-prepares-new-attack.html
+        captured_at: 2026-11-17T10:31:32Z
 assessment:
   status: unverified
   credibility: 6

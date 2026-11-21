@@ -24,6 +24,10 @@ sources:
     title: Search and rescue operations completed in Komyshuvakha, death toll rises to 72
     published_at: 2026-11-16T19:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117070223/https://www.ukrinform.net/rubric-ato/4185328-search-and-rescue-operations-completed-in-komyshuvakha-death-toll-rises-to-72.html
+        captured_at: 2026-11-17T07:02:23Z
 assessment:
   status: unverified
   credibility: 6

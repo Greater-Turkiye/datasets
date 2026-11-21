@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes residential area in Sumy, two people injured
     published_at: 2026-11-16T21:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118005701/https://www.ukrinform.net/rubric-ato/4185348-russian-drone-strikes-residential-area-in-sumy-two-people-injured.html
+        captured_at: 2026-11-18T00:57:01Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Iraq deploys military reinforcements near Jurf Al-Sakhr
     published_at: 2026-11-15T21:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261120234536/https://shafaq.com/en/Security/Iraq-deploys-military-reinforcements-near-Jurf-Al-Sakhr
+        captured_at: 2026-11-20T23:45:36Z
 assessment:
   status: unverified
   credibility: 6

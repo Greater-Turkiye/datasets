@@ -18,6 +18,10 @@ sources:
     title: Russia redeploys strategic bombers to protect them from attacks – Ukrainian Air Force
     published_at: 2026-11-17T00:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118012901/https://www.ukrinform.net/rubric-ato/4185082-russia-redeploys-strategic-bombers-to-protect-them-from-attacks-ukrainian-air-force.html
+        captured_at: 2026-11-18T01:29:01Z
 assessment:
   status: unverified
   credibility: 6

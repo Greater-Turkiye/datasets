@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Zaporizhzhia, woman injured
     published_at: 2026-11-16T19:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117061645/https://www.ukrinform.net/rubric-ato/4185324-russian-forces-attack-zaporizhzhia-woman-injured.html
+        captured_at: 2026-11-17T06:16:45Z
 assessment:
   status: unverified
   credibility: 6

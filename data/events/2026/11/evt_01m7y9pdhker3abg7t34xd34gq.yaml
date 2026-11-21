@@ -1,0 +1,27 @@
+id: evt_01m7y9pdhker3abg7t34xd34gq
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: Rusya her gece 200'e kadar, gündüzleri ise 100'den fazla saldırı dronu fırlatıyor - Ihnat
+  en: Russia launches up to 200 attack drones nightly and more than 100 during the day – Ihnat
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-21T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-21T03:22Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4186874-russia-launches-up-to-200-attack-drones-nightly-and-more-than-100-during-the-day-ihnat.html
+    title: Russia launches up to 200 attack drones nightly and more than 100 during the day – Ihnat
+    published_at: 2026-11-21T03:22Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

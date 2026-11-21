@@ -24,6 +24,10 @@ sources:
     title: Russian attack cuts power to 76 settlements in Mykolaiv region
     published_at: 2026-11-16T20:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118021734/https://www.ukrinform.net/rubric-ato/4185337-russian-attack-cuts-power-to-76-settlements-in-mykolaiv-region.html
+        captured_at: 2026-11-18T02:17:34Z
 assessment:
   status: unverified
   credibility: 6

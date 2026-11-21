@@ -18,6 +18,10 @@ sources:
     title: "War update: 133 combat engagements on front line"
     published_at: 2026-11-16T21:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118075254/https://www.ukrinform.net/rubric-ato/4185350-war-update-133-combat-engagements-on-front-line.html
+        captured_at: 2026-11-18T07:52:54Z
 assessment:
   status: unverified
   credibility: 6

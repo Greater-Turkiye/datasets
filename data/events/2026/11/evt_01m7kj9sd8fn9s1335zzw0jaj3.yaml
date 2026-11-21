@@ -24,6 +24,10 @@ sources:
     title: Emergency power outages introduced in Uman district following Russian attack
     published_at: 2026-11-16T20:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118040401/https://www.ukrinform.net/rubric-ato/4185338-emergency-power-outages-introduced-in-uman-district-following-russian-attack.html
+        captured_at: 2026-11-18T04:04:01Z
 assessment:
   status: unverified
   credibility: 6

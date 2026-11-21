@@ -18,6 +18,10 @@ sources:
     title: "EU foreign policy chief: We have a lot to discuss with South Caucasus partners"
     published_at: 2026-11-16T14:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121054901/https://news.am/en/news/1075174
+        captured_at: 2026-11-21T05:49:01Z
 assessment:
   status: unverified
   credibility: 6

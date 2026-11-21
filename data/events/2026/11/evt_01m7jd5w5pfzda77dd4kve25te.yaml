@@ -18,6 +18,10 @@ sources:
     title: Armenia, Cambodia premiers meet in Phnom Penh
     published_at: 2026-11-16T04:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261120235100/https://news.am/en/news/1075005
+        captured_at: 2026-11-20T23:51:00Z
 assessment:
   status: unverified
   credibility: 6

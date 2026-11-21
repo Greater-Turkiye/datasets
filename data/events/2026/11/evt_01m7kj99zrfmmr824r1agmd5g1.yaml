@@ -24,6 +24,10 @@ sources:
     title: Attacks against Journalists Covering Occupied Palestinian Territory Must End, Violators Held Accountable, Secretary-General Urges at Media Seminar on Middle East Peace
     published_at: 2026-11-16T17:16Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121000004/https://press.un.org/en/2026/sgsm23376.doc.htm
+        captured_at: 2026-11-21T00:00:04Z
 assessment:
   status: unverified
   credibility: 6

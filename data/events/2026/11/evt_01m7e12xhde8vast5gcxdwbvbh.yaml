@@ -18,6 +18,10 @@ sources:
     title: Statement by the Council of the SINJAR NGO on Ethnically Motivated Attacks Against Boris Murazi
     published_at: 2026-11-14T14:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121053914/https://news.am/en/news/1074843
+        captured_at: 2026-11-21T05:39:14Z
 assessment:
   status: unverified
   credibility: 6
