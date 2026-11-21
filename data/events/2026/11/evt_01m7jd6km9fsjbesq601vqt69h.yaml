@@ -18,6 +18,10 @@ sources:
     title: Iraq uncovers ISIS cache, seizes 185 ammunition containers
     published_at: 2026-11-16T08:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121225557/https://shafaq.com/en/Security/Iraq-uncovers-ISIS-cache-seizes-185-ammunition-containers
+        captured_at: 2026-11-21T22:55:57Z
 assessment:
   status: unverified
   credibility: 6

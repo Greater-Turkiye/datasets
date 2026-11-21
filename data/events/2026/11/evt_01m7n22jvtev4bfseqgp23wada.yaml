@@ -18,6 +18,10 @@ sources:
     title: "Parliament speaker: Iran to consider dams, ports, power plants near US, Israeli bases as military targets"
     published_at: 2026-11-17T07:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121231252/https://news.am/en/news/1075256
+        captured_at: 2026-11-21T23:12:52Z
 assessment:
   status: unverified
   credibility: 6

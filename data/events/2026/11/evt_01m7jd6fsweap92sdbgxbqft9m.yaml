@@ -24,6 +24,10 @@ sources:
     title: "Financial Times: Putin-Trump-Xi meeting to go ahead without pre-agreed agenda"
     published_at: 2026-11-16T08:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121141621/https://news.am/en/news/1075031
+        captured_at: 2026-11-21T14:16:21Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Palestinians Still Killed Daily in Gaza, Settler Violence Rising in West Bank, Says Fourth Committee, Stressing Need for Accountability, Palestinian State
     published_at: 2026-11-16T22:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121141950/https://press.un.org/en/2026/gaspd856.doc.htm
+        captured_at: 2026-11-21T14:19:50Z
 assessment:
   status: unverified
   credibility: 6

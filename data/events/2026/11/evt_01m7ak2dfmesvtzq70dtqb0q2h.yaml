@@ -18,6 +18,10 @@ sources:
     title: "Politico: Trump pulls Vance off Iran talks"
     published_at: 2026-11-13T09:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121224952/https://news.am/en/news/1074600
+        captured_at: 2026-11-21T22:49:52Z
 assessment:
   status: unverified
   credibility: 6

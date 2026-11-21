@@ -24,6 +24,10 @@ sources:
     title: Armenia Investigative Committee chair leaves for official visit to Iran (VIDEO)
     published_at: 2026-11-16T11:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121230052/https://news.am/en/news/1075142
+        captured_at: 2026-11-21T23:00:52Z
 assessment:
   status: unverified
   credibility: 6

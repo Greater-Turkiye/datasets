@@ -1,0 +1,33 @@
+id: evt_01m804m7nmedjadyvw7tddxfn2
+schema: event/1
+event_type: diplomatic.talks
+title:
+  tr: Birleşik Krallık'ın Ukrayna'ya sağladığı sanayi desteğini artırmasıyla Savunma Bakanı, Kiev'de Zelenskiy ve Bakan Khmara ile görüştü
+  en: Defence Secretary meets President Zelensky and Minister Khmara in Kyiv as UK deepens industrial support for Ukraine
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-21T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-21T15:50Z
+location:
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  precision: locality
+  uncertainty_m: 20000
+  method: inferred
+  place_name: {tr: Kyiv, en: Kyiv}
+regions: [black-sea]
+sources:
+  - url: https://www.gov.uk/government/news/defence-secretary-meets-president-zelensky-and-minister-khmara-in-kyiv-as-uk-deepens-industrial-support-for-ukraine
+    title: Defence Secretary meets President Zelensky and Minister Khmara in Kyiv as UK deepens industrial support for Ukraine
+    published_at: 2026-11-21T15:50Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-mod. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, başlıktaki yer adından çıkarıldı (Natural Earth; ±20 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-mod. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the headline (Natural Earth; ±20 km). Not verified."
+tags: [otomatik]

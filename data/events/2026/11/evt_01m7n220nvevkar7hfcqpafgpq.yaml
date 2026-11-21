@@ -18,6 +18,10 @@ sources:
     title: "From Drones to Robotic Evacuation: New Defence Technologies Showcased in the Netherlands"
     published_at: 2026-11-17T06:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121230925/https://www.ukrinform.net/rubric-ato/4185112-from-drones-to-robotic-evacuation-new-defence-technologies-showcased-in-the-netherlands.html
+        captured_at: 2026-11-21T23:09:25Z
 assessment:
   status: unverified
   credibility: 6

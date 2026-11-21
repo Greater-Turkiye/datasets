@@ -18,6 +18,10 @@ sources:
     title: Armenia’s Pashinyan in Cambodia, speaks about establishing peace with Azerbaijan
     published_at: 2026-11-15T10:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121225521/https://news.am/en/news/1074941
+        captured_at: 2026-11-21T22:55:21Z
 assessment:
   status: unverified
   credibility: 6
