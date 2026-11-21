@@ -24,6 +24,10 @@ sources:
     title: With Soaring Prices And Police Crackdowns, Free Time Now Costs Too Much For Tehran's Youth
     published_at: 2026-11-16T14:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117163537/https://www.rferl.org/a/iran-tehran-crackdown-life-war/33899547.html
+        captured_at: 2026-11-17T16:35:37Z
 assessment:
   status: unverified
   credibility: 6

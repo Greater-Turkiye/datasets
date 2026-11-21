@@ -24,6 +24,10 @@ sources:
     title: Russian forces strike confectionery factory warehouse in Dnipro, one injured
     published_at: 2026-11-16T15:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117081207/https://www.ukrinform.net/rubric-ato/4185227-russian-forces-strike-confectionery-factory-warehouse-in-dnipro-one-injured.html
+        captured_at: 2026-11-17T08:12:07Z
 assessment:
   status: unverified
   credibility: 6

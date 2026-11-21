@@ -18,6 +18,10 @@ sources:
     title: "Three minutes to strike: how unmanned systems are transforming the battlefield and National Guard operations"
     published_at: 2026-11-16T17:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117131742/https://www.ukrinform.net/rubric-ato/4185195-three-minutes-to-strike-how-unmanned-systems-are-transforming-the-battlefield-and-national-guard-operations.html
+        captured_at: 2026-11-17T13:17:42Z
 assessment:
   status: unverified
   credibility: 6

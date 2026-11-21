@@ -24,6 +24,10 @@ sources:
     title: Dnipro left completely without power after Russian attack
     published_at: 2026-11-16T18:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261116200134/https://www.ukrinform.net/rubric-ato/4185289-dnipro-left-completely-without-power-after-russian-attack.html
+        captured_at: 2026-11-16T20:01:34Z
 assessment:
   status: unverified
   credibility: 6

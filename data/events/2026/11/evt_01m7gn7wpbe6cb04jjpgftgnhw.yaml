@@ -18,6 +18,10 @@ sources:
     title: PMF reinforces Iraqi Army positions after Nineveh attack
     published_at: 2026-11-15T18:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261120234351/https://shafaq.com/en/Security/PMF-reinforces-Iraqi-army-positions-after-Nineveh-attack
+        captured_at: 2026-11-20T23:43:51Z
 assessment:
   status: unverified
   credibility: 6

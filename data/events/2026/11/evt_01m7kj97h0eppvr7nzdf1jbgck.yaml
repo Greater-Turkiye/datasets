@@ -24,6 +24,10 @@ sources:
     title: Iranian Top Cleric Visits Bosnia As Tehran Seeks Opening To Europe
     published_at: 2026-11-16T17:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261120235938/https://www.rferl.org/a/33899774.html
+        captured_at: 2026-11-20T23:59:38Z
 assessment:
   status: unverified
   credibility: 6

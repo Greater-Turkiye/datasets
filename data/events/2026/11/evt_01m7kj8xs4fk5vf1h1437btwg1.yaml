@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack food processing facility in Kirovohrad region, two injured
     published_at: 2026-11-16T14:26Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117111825/https://www.ukrinform.net/rubric-ato/4185202-russian-forces-attack-food-processing-facility-in-kirovohrad-region-two-injured.html
+        captured_at: 2026-11-17T11:18:25Z
 assessment:
   status: unverified
   credibility: 6

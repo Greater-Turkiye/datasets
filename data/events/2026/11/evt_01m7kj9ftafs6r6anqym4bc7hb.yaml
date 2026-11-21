@@ -24,6 +24,10 @@ sources:
     title: "Drone attack: Fire extinguished in courtyard of Kyiv apartment building"
     published_at: 2026-11-16T19:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117120656/https://www.ukrinform.net/rubric-ato/4185302-drone-attack-fire-extinguished-in-courtyard-of-kyiv-apartment-building.html
+        captured_at: 2026-11-17T12:06:56Z
 assessment:
   status: unverified
   credibility: 6

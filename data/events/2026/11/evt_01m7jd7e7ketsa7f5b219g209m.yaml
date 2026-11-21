@@ -24,6 +24,10 @@ sources:
     title: "PM Kobakhidze: Georgia, Russia representatives’ first meeting will take place soon"
     published_at: 2026-11-16T11:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261120235546/https://news.am/en/news/1075120
+        captured_at: 2026-11-20T23:55:46Z
 assessment:
   status: unverified
   credibility: 6

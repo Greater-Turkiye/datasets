@@ -24,6 +24,10 @@ sources:
     title: Ukrainian forces strike Ilsky Oil Refinery, two oil depots in Russia’s Rostov region
     published_at: 2026-11-16T13:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117024356/https://www.ukrinform.net/rubric-ato/4185174-ukrainian-forces-strike-ilsky-oil-refinery-two-oil-depots-in-russias-rostov-region.html
+        captured_at: 2026-11-17T02:43:56Z
 assessment:
   status: unverified
   credibility: 6

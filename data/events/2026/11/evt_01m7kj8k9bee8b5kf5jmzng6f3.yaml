@@ -24,6 +24,10 @@ sources:
     title: On November 18–19, Vladimir Putin will travel to China on a working visit and will attend the 33rd APEC Summit in Shenzhen
     published_at: 2026-11-16T13:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118000324/http://en.kremlin.ru/events/president/news/81268
+        captured_at: 2026-11-18T00:03:24Z
 assessment:
   status: unverified
   credibility: 6
