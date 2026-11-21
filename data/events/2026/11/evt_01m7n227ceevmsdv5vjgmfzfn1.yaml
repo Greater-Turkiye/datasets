@@ -18,6 +18,10 @@ sources:
     title: One of Crimean Bridge’s arches damaged in second strike
     published_at: 2026-11-17T07:01Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118052417/https://www.ukrinform.net/rubric-ato/4185406-one-of-crimean-bridges-arches-damaged-in-second-strike.html
+        captured_at: 2026-11-18T05:24:17Z
 assessment:
   status: unverified
   credibility: 6

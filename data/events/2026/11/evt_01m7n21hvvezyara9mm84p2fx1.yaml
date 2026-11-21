@@ -24,6 +24,10 @@ sources:
     title: Kyiv metro's above-ground infrastructure damaged in Russian attack, Green Line services suspended
     published_at: 2026-11-17T04:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118064002/https://www.ukrinform.net/rubric-ato/4185373-kyiv-metros-aboveground-infrastructure-damaged-in-russian-attack-green-line-services-suspended.html
+        captured_at: 2026-11-18T06:40:02Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Nearly Two Years after Assad’s Fall, Deputy Special Envoy Warns Security Council on Syria’s Political Gains, Persistent Violence
     published_at: 2026-11-16T22:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121141926/https://press.un.org/en/2026/sc16511.doc.htm
+        captured_at: 2026-11-21T14:19:26Z
 assessment:
   status: unverified
   credibility: 6

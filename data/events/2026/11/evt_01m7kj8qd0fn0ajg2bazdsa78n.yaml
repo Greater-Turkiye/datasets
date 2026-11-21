@@ -18,6 +18,10 @@ sources:
     title: Russia, Iran FMs hold telephone talk
     published_at: 2026-11-16T13:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121054631/https://news.am/en/news/1075164
+        captured_at: 2026-11-21T05:46:31Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "First Person: Managing risk on Ukraine’s frontline"
     published_at: 2026-11-15T12:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121141556/https://news.un.org/feed/view/en/story/2026/11/1168807
+        captured_at: 2026-11-21T14:15:56Z
 assessment:
   status: unverified
   credibility: 6

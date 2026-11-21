@@ -18,6 +18,10 @@ sources:
     title: PJAK-linked armed group neutralized in western Iran
     published_at: 2026-11-16T10:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121054425/https://news.am/en/news/1075073
+        captured_at: 2026-11-21T05:44:25Z
 assessment:
   status: unverified
   credibility: 6

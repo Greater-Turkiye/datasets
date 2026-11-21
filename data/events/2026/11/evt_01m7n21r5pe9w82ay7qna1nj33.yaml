@@ -24,6 +24,10 @@ sources:
     title: Car driver killed in drone attack on Zaporizhzhia
     published_at: 2026-11-17T05:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118052209/https://www.ukrinform.net/rubric-ato/4185381-car-driver-killed-in-drone-attack-on-zaporizhzhia.html
+        captured_at: 2026-11-18T05:22:09Z
 assessment:
   status: unverified
   credibility: 6

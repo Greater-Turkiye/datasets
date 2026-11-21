@@ -24,6 +24,10 @@ sources:
     title: Russian shelling reported in four Kyiv districts, one person injured
     published_at: 2026-11-17T06:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117111631/https://www.ukrinform.net/rubric-ato/4185397-russian-shelling-reported-in-four-kyiv-districts-one-person-injured.html
+        captured_at: 2026-11-17T11:16:31Z
 assessment:
   status: unverified
   credibility: 6

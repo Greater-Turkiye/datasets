@@ -18,6 +18,10 @@ sources:
     title: Armenia-NATO partnership development discussed in Brussels
     published_at: 2026-11-17T06:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117070147/https://news.am/en/news/1075270
+        captured_at: 2026-11-17T07:01:47Z
 assessment:
   status: unverified
   credibility: 6
