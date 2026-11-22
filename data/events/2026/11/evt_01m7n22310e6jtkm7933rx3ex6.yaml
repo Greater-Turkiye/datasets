@@ -18,6 +18,10 @@ sources:
     title: Opposition's draft statement on democratic backsliding in Armenia not put on parliament agenda
     published_at: 2026-11-17T06:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121230946/https://news.am/en/news/1075268
+        captured_at: 2026-11-21T23:09:46Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Palianytsia struck road section of Crimean Bridge, Neptune, Ruta, and FP-5 hit rail section - Zelensky
     published_at: 2026-11-17T09:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117123302/https://www.ukrinform.net/rubric-ato/4185493--palianytsia-struck-road-section-of-crimean-bridge-neptune-ruta-and-fp5-hit-rail-section-zelensky.html
+        captured_at: 2026-11-17T12:33:02Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Crimea Bridge Critically Damaged As Ukraine, Russia Exchange Strikes
     published_at: 2026-11-17T09:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117163525/https://www.rferl.org/a/russia-ukraine-trade-strikes-on-key-bridges/33900167.html
+        captured_at: 2026-11-17T16:35:25Z
 assessment:
   status: unverified
   credibility: 6

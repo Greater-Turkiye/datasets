@@ -24,6 +24,10 @@ sources:
     title: "Arch and road span collapse: General Staff confirms results of strike on Crimean Bridge"
     published_at: 2026-11-17T11:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117125218/https://www.ukrinform.net/rubric-ato/4185542-arch-and-road-span-collapse-general-staff-confirms-results-of-strike-on-crimean-bridge.html
+        captured_at: 2026-11-17T12:52:18Z
 assessment:
   status: unverified
   credibility: 6

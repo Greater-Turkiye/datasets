@@ -24,6 +24,10 @@ sources:
     title: Russian strike cuts power to more than 300 settlements in Rivne region
     published_at: 2026-11-17T09:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117153259/https://www.ukrinform.net/rubric-ato/4185482-russian-strike-cuts-power-to-more-than-300-settlements-in-rivne-region.html
+        captured_at: 2026-11-17T15:32:59Z
 assessment:
   status: unverified
   credibility: 6

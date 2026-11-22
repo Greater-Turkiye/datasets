@@ -18,6 +18,10 @@ sources:
     title: Turkey is central link in ensuring transport connectivity between Caucasus and Europe, FM says
     published_at: 2026-11-16T19:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261122050339/https://news.am/en/news/1075220
+        captured_at: 2026-11-22T05:03:39Z
 assessment:
   status: unverified
   credibility: 6

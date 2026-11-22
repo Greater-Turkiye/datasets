@@ -18,6 +18,10 @@ sources:
     title: Case of Azerbaijan soldier who infiltrated into Armenia village sent to court
     published_at: 2026-11-16T09:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261121225815/https://news.am/en/news/1075099
+        captured_at: 2026-11-21T22:58:15Z
 assessment:
   status: unverified
   credibility: 6

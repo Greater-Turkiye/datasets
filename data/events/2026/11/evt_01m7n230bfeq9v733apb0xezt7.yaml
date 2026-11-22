@@ -18,6 +18,10 @@ sources:
     title: Russian drone strikes parking lot in Vinnytsia, killing one woman and injuring another
     published_at: 2026-11-17T09:06Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117104754/https://www.ukrinform.net/rubric-ato/4185465-russian-drone-strikes-parking-lot-in-vinnytsia-killing-one-woman-and-injuring-another.html
+        captured_at: 2026-11-17T10:47:54Z
 assessment:
   status: unverified
   credibility: 6

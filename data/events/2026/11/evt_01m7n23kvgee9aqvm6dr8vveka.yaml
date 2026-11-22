@@ -18,6 +18,10 @@ sources:
     title: Russian forces strike Mukachevo in Zakarpattia region
     published_at: 2026-11-17T10:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118084322/https://www.ukrinform.net/rubric-ato/4185517-russian-forces-strike-mukachevo-in-zakarpattia-region.html
+        captured_at: 2026-11-18T08:43:22Z
 assessment:
   status: unverified
   credibility: 6

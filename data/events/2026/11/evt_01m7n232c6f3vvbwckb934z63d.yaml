@@ -24,6 +24,10 @@ sources:
     title: Emergency power outages affect four regions following Russian attacks
     published_at: 2026-11-17T09:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118030321/https://www.ukrinform.net/rubric-ato/4185477-emergency-power-outages-affect-four-regions-following-russian-attacks.html
+        captured_at: 2026-11-18T03:03:21Z
 assessment:
   status: unverified
   credibility: 6

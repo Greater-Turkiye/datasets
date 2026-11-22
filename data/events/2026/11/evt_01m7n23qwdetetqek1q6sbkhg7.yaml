@@ -24,6 +24,10 @@ sources:
     title: Families with children ordered to evacuate from Balabyne in Zaporizhzhia region
     published_at: 2026-11-17T10:48Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118090144/https://www.ukrinform.net/rubric-ato/4185529-families-with-children-ordered-to-evacuate-from-balabyne-in-zaporizhzhia-region.html
+        captured_at: 2026-11-18T09:01:44Z
 assessment:
   status: unverified
   credibility: 6

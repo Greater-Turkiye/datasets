@@ -24,6 +24,10 @@ sources:
     title: Fire breaks out at a petrochemical complex after attack in Russia’s Bashkortostan – media
     published_at: 2026-11-17T07:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118051646/https://www.ukrinform.net/rubric-ato/4185432-fire-breaks-out-at-a-petrochemical-complex-after-attack-in-russias-bashkortostan-media.html
+        captured_at: 2026-11-18T05:16:46Z
 assessment:
   status: unverified
   credibility: 6
