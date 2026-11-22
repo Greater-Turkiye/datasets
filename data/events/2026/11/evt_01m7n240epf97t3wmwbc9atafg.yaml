@@ -18,6 +18,10 @@ sources:
     title: "Wider Europe Briefing: An EU-Western Balkans Summit And A Tough Year Ahead For EU Hopefuls"
     published_at: 2026-11-17T11:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118083715/https://www.rferl.org/a/wider-europe-briefing-jozwiak-western-balkans-enlargement/33899782.html
+        captured_at: 2026-11-18T08:37:15Z
 assessment:
   status: unverified
   credibility: 6

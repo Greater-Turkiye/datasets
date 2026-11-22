@@ -24,6 +24,10 @@ sources:
     title: USF commander shows drones used in strike on Crimean Bridge
     published_at: 2026-11-17T11:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118022802/https://www.ukrinform.net/rubric-ato/4185551-usf-commander-shows-drones-used-in-strike-on-crimean-bridge.html
+        captured_at: 2026-11-18T02:28:02Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: More than 1,000 air defence missiles for Ukraine as UK delivers £240 million in winter support
     published_at: 2026-11-17T15:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118090023/https://www.gov.uk/government/news/more-than-1000-air-defence-missiles-for-ukraine-as-uk-delivers-240-million-in-winter-support
+        captured_at: 2026-11-18T09:00:23Z
 assessment:
   status: unverified
   credibility: 6

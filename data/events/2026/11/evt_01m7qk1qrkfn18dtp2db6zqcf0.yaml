@@ -18,6 +18,10 @@ sources:
     title: "Missiles and equipment: Sweden, UK to help arm Ukraine’s Gripen fighter jets"
     published_at: 2026-11-17T16:02Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118050715/https://www.ukrinform.net/rubric-ato/4185698-missiles-and-equipment-sweden-uk-to-help-arm-ukraines-gripen-fighter-jets.html
+        captured_at: 2026-11-18T05:07:15Z
 assessment:
   status: unverified
   credibility: 6

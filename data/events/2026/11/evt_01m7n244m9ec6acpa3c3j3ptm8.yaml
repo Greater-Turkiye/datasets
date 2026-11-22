@@ -18,6 +18,10 @@ sources:
     title: General strike to be held in Italy Friday
     published_at: 2026-11-17T12:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261122141104/https://news.am/en/news/1075376
+        captured_at: 2026-11-22T14:11:04Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Prison Release Plea for Besieger of Sarajevo Rejected Yet Again
     published_at: 2026-11-17T14:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118064830/https://balkaninsight.com/2026/11/17/prison-release-plea-for-besieger-of-sarajevo-rejected-yet-again/btj/
+        captured_at: 2026-11-18T06:48:30Z
 assessment:
   status: unverified
   credibility: 6

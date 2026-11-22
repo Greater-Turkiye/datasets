@@ -24,6 +24,10 @@ sources:
     title: General Staff confirms strike on Gazprom oil refinery in Bashkortostan
     published_at: 2026-11-17T12:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118081905/https://www.ukrinform.net/rubric-ato/4185570-general-staff-confirms-strike-on-gazprom-oil-refinery-in-bashkortostan.html
+        captured_at: 2026-11-18T08:19:05Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes police vehicle in Sumy region, two officers injured
     published_at: 2026-11-17T11:53Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117232317/https://www.ukrinform.net/rubric-ato/4185553-russian-drone-strikes-police-vehicle-in-sumy-region-two-officers-injured.html
+        captured_at: 2026-11-17T23:23:17Z
 assessment:
   status: unverified
   credibility: 6

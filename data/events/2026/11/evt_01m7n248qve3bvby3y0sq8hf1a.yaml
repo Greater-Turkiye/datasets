@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s air defense neutralizes three Russian missiles, three Banderols, 205 drones
     published_at: 2026-11-17T12:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117153246/https://www.ukrinform.net/rubric-ato/4185574-ukraines-air-defense-neutralizes-three-russian-missiles-three-banderols-205-drones.html
+        captured_at: 2026-11-17T15:32:46Z
 assessment:
   status: unverified
   credibility: 6

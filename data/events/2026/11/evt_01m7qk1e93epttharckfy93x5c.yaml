@@ -24,6 +24,10 @@ sources:
     title: UN Media Seminar on Peace in Middle East Examines How to Cover Gaza as Foreign Journalists Barred, Local Reporters Face Attacks
     published_at: 2026-11-17T00:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261122050408/https://press.un.org/en/2026/pal2254.doc.htm
+        captured_at: 2026-11-22T05:04:08Z
 assessment:
   status: unverified
   credibility: 6

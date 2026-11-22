@@ -18,6 +18,10 @@ sources:
     title: Iran intelligence reports disruption of separatist plans in Kurdistan Province
     published_at: 2026-11-17T14:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261122141351/https://news.am/en/news/1075409
+        captured_at: 2026-11-22T14:13:51Z
 assessment:
   status: unverified
   credibility: 6
