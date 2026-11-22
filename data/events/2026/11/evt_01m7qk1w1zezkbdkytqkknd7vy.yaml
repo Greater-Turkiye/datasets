@@ -18,6 +18,10 @@ sources:
     title: UK to announce new commitments to strengthen Ukraine's air defenses – defense secretary
     published_at: 2026-11-17T17:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118073054/https://www.ukrinform.net/rubric-ato/4185729-uk-to-announce-new-commitments-to-strengthen-ukraines-air-defenses-defense-secretary.html
+        captured_at: 2026-11-18T07:30:54Z
 assessment:
   status: unverified
   credibility: 6

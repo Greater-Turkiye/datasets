@@ -18,6 +18,10 @@ sources:
     title: Zelensky calls on US to enable satellite communications to target ballistic missile launchers
     published_at: 2026-11-17T19:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117201646/https://www.ukrinform.net/rubric-ato/4185790-zelensky-calls-on-us-to-enable-satellite-communications-to-target-ballistic-missile-launchers.html
+        captured_at: 2026-11-17T20:16:46Z
 assessment:
   status: unverified
   credibility: 6

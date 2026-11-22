@@ -18,6 +18,10 @@ sources:
     title: Russian strike on central Vinnytsia injures four
     published_at: 2026-11-17T18:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118051843/https://www.ukrinform.net/rubric-ato/4185762-russian-strike-on-central-vinnytsia-injures-four.html
+        captured_at: 2026-11-18T05:18:43Z
 assessment:
   status: unverified
   credibility: 6

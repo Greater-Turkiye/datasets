@@ -24,6 +24,10 @@ sources:
     title: "Ukrainian Defense Minister On Crimea Bridge Strike: 'We're Just Getting Started'"
     published_at: 2026-11-17T19:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118144848/https://www.rferl.org/a/ukraine-russia-crimea-bridge-attacks/33900561.html
+        captured_at: 2026-11-18T14:48:48Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: PM Al-Zaidi’s cabinet approves counterterrorism drone system
     published_at: 2026-11-17T18:28Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117224349/https://shafaq.com/en/Security/PM-Al-Zaidi-s-cabinet-approves-counterterrorism-drone-system
+        captured_at: 2026-11-17T22:43:49Z
 assessment:
   status: unverified
   credibility: 6

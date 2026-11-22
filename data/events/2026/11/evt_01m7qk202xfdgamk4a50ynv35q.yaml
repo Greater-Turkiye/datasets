@@ -18,6 +18,10 @@ sources:
     title: Bundeswehr tests Ukraine’s DELTA system, considers adopting it – Pistorius
     published_at: 2026-11-17T17:34Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118002424/https://www.ukrinform.net/rubric-ato/4185739-bundeswehr-tests-ukraines-delta-system-considers-adopting-it-pistorius.html
+        captured_at: 2026-11-18T00:24:24Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,0 +1,41 @@
+id: evt_01m82rm2v4efdbwgwehgy3r1z1
+schema: event/1
+event_type: kinetic.attack
+title:
+  tr: Rusya'nın Vışneve'deki süpermarkete yönelik saldırısında ölü sayısı ikiye yükseldi
+  en: Death toll from Russian attack on supermarket in Vyshneve rises to two
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-22T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-22T18:38Z
+location:
+  geometry: {type: Point, coordinates: [30.515, 50.435]}
+  precision: admin1
+  uncertainty_m: 100000
+  method: inferred
+  place_name: {tr: Kyiv bölgesi, en: Kyiv region}
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4187456-death-toll-from-russian-attack-on-supermarket-in-vyshneve-rises-to-two.html
+    title: Death toll from Russian attack on supermarket in Vyshneve rises to two
+    published_at: 2026-11-22T18:38Z
+    lang: en
+  - url: https://www.ukrinform.net/rubric-ato/4187471-death-toll-from-russian-strike-on-supermarket-in-vyshneve-rises-to-three.html
+    title: Death toll from Russian strike on supermarket in Vyshneve rises to three
+    published_at: 2026-11-22T19:37Z
+    lang: en
+  - url: https://www.ukrinform.net/rubric-ato/4187474-death-toll-from-russian-attack-in-dymer-rises-to-four-zelensky.html
+    title: Death toll from Russian attack in Dymer rises to four – Zelensky
+    published_at: 2026-11-22T19:56Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Konum, alıntıdaki yer adından çıkarıldı (Natural Earth; ±100 km). Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. The location was inferred from the place named in the excerpt (Natural Earth; ±100 km). Not verified."
+tags: [otomatik]

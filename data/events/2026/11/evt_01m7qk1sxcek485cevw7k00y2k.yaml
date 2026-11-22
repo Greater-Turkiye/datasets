@@ -18,6 +18,10 @@ sources:
     title: "Over 1,000 air defense missiles: UK announces GBP 240M military aid package for Ukraine"
     published_at: 2026-11-17T16:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118065148/https://www.ukrinform.net/rubric-ato/4185706-over-1000-air-defense-missiles-uk-announces-gbp-240m-military-aid-package-for-ukraine.html
+        captured_at: 2026-11-18T06:51:48Z
 assessment:
   status: unverified
   credibility: 6

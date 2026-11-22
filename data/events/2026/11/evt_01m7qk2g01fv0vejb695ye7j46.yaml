@@ -24,6 +24,10 @@ sources:
     title: Drone debris falls in park area in Kyiv’s Desnianskyi district
     published_at: 2026-11-17T19:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118082037/https://www.ukrinform.net/rubric-ato/4185786-drone-debris-falls-in-park-area-in-kyivs-desnianskyi-district.html
+        captured_at: 2026-11-18T08:20:37Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Seven drones enter Moldovan airspace
     published_at: 2026-11-17T20:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118040121/https://www.ukrinform.net/rubric-ato/4185796-seven-drones-enter-moldovan-airspace.html
+        captured_at: 2026-11-18T04:01:21Z
 assessment:
   status: unverified
   credibility: 6

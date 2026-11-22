@@ -24,6 +24,10 @@ sources:
     title: Russian drone strikes park in Dnipro, injuring two people
     published_at: 2026-11-17T19:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118080044/https://www.ukrinform.net/rubric-ato/4185787-russian-drone-strikes-park-in-dnipro-injuring-two-people.html
+        captured_at: 2026-11-18T08:00:44Z
 assessment:
   status: unverified
   credibility: 6

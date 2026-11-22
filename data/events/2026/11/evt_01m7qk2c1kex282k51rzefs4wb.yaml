@@ -18,6 +18,10 @@ sources:
     title: Sweden allocates additional SEK 720M in military aid to Ukraine
     published_at: 2026-11-17T18:54Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118051847/https://www.ukrinform.net/rubric-ato/4185767-sweden-allocates-additional-sek-720m-in-military-aid-to-ukraine.html
+        captured_at: 2026-11-18T05:18:47Z
 assessment:
   status: unverified
   credibility: 6

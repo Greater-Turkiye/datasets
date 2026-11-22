@@ -24,6 +24,10 @@ sources:
     title: Strike on Kerch Bridge marks another impressive success for Ukraine – Austrian colonel
     published_at: 2026-11-17T18:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118064108/https://www.ukrinform.net/rubric-ato/4185747-strike-on-kerch-bridge-marks-another-impressive-success-for-ukraine-austrian-colonel.html
+        captured_at: 2026-11-18T06:41:08Z
 assessment:
   status: unverified
   credibility: 6

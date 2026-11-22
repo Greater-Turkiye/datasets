@@ -18,6 +18,10 @@ sources:
     title: "Ramstein: Zelensky proposes swapping partners’ Patriot and IRIS-T missile stockpiles for future deliveries"
     published_at: 2026-11-17T17:20Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117193120/https://www.ukrinform.net/rubric-ato/4185731-ramstein-zelensky-proposes-swapping-partners-patriot-and-irist-missile-stockpiles-for-future-deliveries.html
+        captured_at: 2026-11-17T19:31:20Z
 assessment:
   status: unverified
   credibility: 6
