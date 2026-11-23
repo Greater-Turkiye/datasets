@@ -18,6 +18,10 @@ sources:
     title: Moldova temporarily closes six border crossing points with Ukraine following Russian drone attack
     published_at: 2026-11-17T21:59Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118063439/https://www.ukrinform.net/rubric-ato/4185798-moldova-temporarily-closes-six-border-crossing-points-with-ukraine-following-russian-drone-attack.html
+        captured_at: 2026-11-18T06:34:39Z
 assessment:
   status: unverified
   credibility: 6

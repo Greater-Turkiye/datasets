@@ -24,6 +24,10 @@ sources:
     title: Pentagon Official Says Ukraine War Likely To Last Through Winter, Despite Mediation Efforts
     published_at: 2026-11-17T21:42Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261117225447/https://www.rferl.org/a/pentagon-colby-ukraine-russia-pistorius-ceasefire-talks/33900531.html
+        captured_at: 2026-11-17T22:54:47Z
 assessment:
   status: unverified
   credibility: 6

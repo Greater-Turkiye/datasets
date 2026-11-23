@@ -18,6 +18,10 @@ sources:
     title: Azerbaijan soldier who illegally crossed Armenia border fired 6 shots at Armenian woman, threatened her children with firearm, stole money, phone, 2 left shoes
     published_at: 2026-11-17T07:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261123054626/https://news.am/en/news/1075301
+        captured_at: 2026-11-23T05:46:26Z
 assessment:
   status: unverified
   credibility: 6

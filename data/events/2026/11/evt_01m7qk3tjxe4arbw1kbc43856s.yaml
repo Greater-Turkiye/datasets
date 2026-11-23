@@ -24,6 +24,10 @@ sources:
     title: Russian army attacks Dnipro, Dnipro region, injuring six people
     published_at: 2026-11-18T06:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118064638/https://www.ukrinform.net/rubric-ato/4185844-russian-army-attacks-dnipro-dnipro-region-injuring-six-people.html
+        captured_at: 2026-11-18T06:46:38Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: Joint Iraqi force clears 16 ISIS explosives in Saladin
     published_at: 2026-11-18T06:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261123055705/https://shafaq.com/en/Security/Joint-Iraqi-force-clears-16-ISIS-explosives-in-Saladin
+        captured_at: 2026-11-23T05:57:05Z
 assessment:
   status: unverified
   credibility: 6

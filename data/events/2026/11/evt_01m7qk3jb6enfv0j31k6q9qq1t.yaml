@@ -24,6 +24,10 @@ sources:
     title: Optics Over Substance Expected At Trump-Xi-Putin Summit
     published_at: 2026-11-18T06:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118070931/https://www.rferl.org/a/trump-putin-xi-usa-russia-china-meeting-shenzhen-/33899555.html
+        captured_at: 2026-11-18T07:09:31Z
 assessment:
   status: unverified
   credibility: 6

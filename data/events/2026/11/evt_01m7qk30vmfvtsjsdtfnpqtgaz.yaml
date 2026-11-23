@@ -18,6 +18,10 @@ sources:
     title: Tit-For-Tat US-Iran Attacks Persist As Peace Deal Remains Elusive
     published_at: 2026-11-18T00:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118032101/https://www.rferl.org/a/iran-qeshm-oman-bahrain-kuwait-attacks/33900601.html
+        captured_at: 2026-11-18T03:21:01Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: "Kalibr missile strike on Kyiv apartment building: Ukraine issues in-absentia notice of suspicion to Russian vice admiral"
     published_at: 2026-11-18T05:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118081801/https://www.ukrinform.net/rubric-ato/4185836-kalibr-missile-strike-on-kyiv-apartment-building-ukraine-issues-inabsentia-notice-of-suspicion-to-russian-vice-admiral.html
+        captured_at: 2026-11-18T08:18:01Z
 assessment:
   status: unverified
   credibility: 6

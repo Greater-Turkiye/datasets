@@ -18,6 +18,10 @@ sources:
     title: Russia loses 1,970 troops over past day in war against Ukraine
     published_at: 2026-11-18T06:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118080349/https://www.ukrinform.net/rubric-ato/4185843-russia-loses-1970-troops-over-past-day-in-war-against-ukraine.html
+        captured_at: 2026-11-18T08:03:49Z
 assessment:
   status: unverified
   credibility: 6

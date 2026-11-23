@@ -18,6 +18,10 @@ sources:
     title: US soldiers being given passes to play GTA VI video game in exchange for reenlistment contract
     published_at: 2026-11-17T12:41Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261122231752/https://news.am/en/news/1075384
+        captured_at: 2026-11-22T23:17:52Z
 assessment:
   status: unverified
   credibility: 6

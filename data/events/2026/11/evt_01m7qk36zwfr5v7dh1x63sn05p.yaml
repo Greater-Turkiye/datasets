@@ -24,6 +24,10 @@ sources:
     title: Putin expects productive meeting with Xi, Trump on sidelines of APEC summit in China
     published_at: 2026-11-18T04:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261123055425/https://news.am/en/news/1075487
+        captured_at: 2026-11-23T05:54:25Z
 assessment:
   status: unverified
   credibility: 6

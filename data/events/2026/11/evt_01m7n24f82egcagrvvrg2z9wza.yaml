@@ -18,6 +18,10 @@ sources:
     title: At least 6 strikes on Qeshm island, Iran reports downing of US drone
     published_at: 2026-11-17T14:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261123054913/https://news.am/en/news/1075422
+        captured_at: 2026-11-23T05:49:13Z
 assessment:
   status: unverified
   credibility: 6
