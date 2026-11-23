@@ -1,0 +1,27 @@
+id: evt_01m84pxxjmfgmbh27z3xtabw9c
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: Hava savunma sistemleri, Ukrayna'ya gece boyunca fırlatılan 153 Rus dronunun 134'ünü etkisiz hale getirdi
+  en: Air defenses neutralize 134 of 153 Russian drones launched at Ukraine overnight
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-23T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-23T06:55Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4187520-air-defenses-neutralize-134-of-153-russian-drones-launched-at-ukraine-overnight.html
+    title: Air defenses neutralize 134 of 153 Russian drones launched at Ukraine overnight
+    published_at: 2026-11-23T06:55Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

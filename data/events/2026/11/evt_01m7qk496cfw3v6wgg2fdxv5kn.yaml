@@ -24,6 +24,10 @@ sources:
     title: Russian attacks kill one, injures eight in Kharkiv region
     published_at: 2026-11-18T07:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118125024/https://www.ukrinform.net/rubric-ato/4185867-russian-attacks-kill-one-injures-eight-in-kharkiv-region.html
+        captured_at: 2026-11-18T12:50:24Z
 assessment:
   status: unverified
   credibility: 6

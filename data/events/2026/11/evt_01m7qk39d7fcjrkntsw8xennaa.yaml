@@ -18,6 +18,10 @@ sources:
     title: Xi Jinping says China supports World Trade Organization reform
     published_at: 2026-11-18T04:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261123055449/https://news.am/en/news/1075488
+        captured_at: 2026-11-23T05:54:49Z
 assessment:
   status: unverified
   credibility: 6

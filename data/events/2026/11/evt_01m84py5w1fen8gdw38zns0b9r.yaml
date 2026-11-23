@@ -1,0 +1,27 @@
+id: evt_01m84py5w1fen8gdw38zns0b9r
+schema: event/1
+event_type: kinetic.drone-strike
+title:
+  tr: "Sosyal medya: Drone'lar Rusya'nın Tataristan bölgesindeki Kaleykino petrol pompalama istasyonuna saldırdı"
+  en: Drones attack Kaleykino oil pumping station in Russia's Tatarstan – social media
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-23T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-23T08:24Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4187556-drones-attack-kaleykino-oil-pumping-station-in-russias-tatarstan-social-media.html
+    title: Drones attack Kaleykino oil pumping station in Russia's Tatarstan – social media
+    published_at: 2026-11-23T08:24Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

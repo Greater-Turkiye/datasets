@@ -18,6 +18,10 @@ sources:
     title: "Armenia infrastructure deputy minister on talks with Russian side: Discussion was on effectiveness of South Caucasus Railway company’s concession agreement"
     published_at: 2026-11-17T12:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261123054831/https://news.am/en/news/1075402
+        captured_at: 2026-11-23T05:48:31Z
 assessment:
   status: unverified
   credibility: 6

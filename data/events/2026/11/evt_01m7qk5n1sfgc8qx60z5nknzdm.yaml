@@ -18,6 +18,10 @@ sources:
     title: Situation for civilians in Oleshky will worsen as Russia increases troop presence – press officer
     published_at: 2026-11-18T13:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261123173802/https://www.ukrinform.net/rubric-ato/4186017-situation-for-civilians-in-oleshky-will-worsen-as-russia-increases-troop-presence-press-officer.html
+        captured_at: 2026-11-23T17:38:02Z
 assessment:
   status: unverified
   credibility: 6

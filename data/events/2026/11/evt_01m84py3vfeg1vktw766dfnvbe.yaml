@@ -1,0 +1,27 @@
+id: evt_01m84py3vfeg1vktw766dfnvbe
+schema: event/1
+event_type: maritime.incident
+title:
+  tr: Zelenski, Rus korveti Merkury ve Libya'daki kargo gemisine düzenlenen saldırıları doğruladı, operasyonu örnek niteliğinde olarak nitelendirdi
+  en: Zelensky confirms strikes on Russian corvette Merkury and cargo ship in Libya, calls operation exemplary
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-23T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-23T08:01Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4187541-zelensky-confirms-strikes-on-russian-corvette-merkury-and-cargo-ship-in-libya-calls-operation-exemplary.html
+    title: Zelensky confirms strikes on Russian corvette Merkury and cargo ship in Libya, calls operation exemplary
+    published_at: 2026-11-23T08:01Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

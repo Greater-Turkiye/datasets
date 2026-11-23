@@ -18,6 +18,10 @@ sources:
     title: US says it carried out new airstrikes on Iran
     published_at: 2026-11-17T21:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261123172716/https://news.am/en/news/1075480
+        captured_at: 2026-11-23T17:27:16Z
 assessment:
   status: unverified
   credibility: 6

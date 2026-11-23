@@ -18,6 +18,10 @@ sources:
     title: Air defence neutralises 126 Russian drones used to attack Ukraine overnight
     published_at: 2026-11-18T07:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118080133/https://www.ukrinform.net/rubric-ato/4185864-air-defence-neutralises-126-russian-drones-used-to-attack-ukraine-overnight.html
+        captured_at: 2026-11-18T08:01:33Z
 assessment:
   status: unverified
   credibility: 6

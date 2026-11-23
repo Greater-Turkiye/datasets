@@ -24,6 +24,10 @@ sources:
     title: RFE/RL Visits Ukraine's Newly Liberated Territory After Operation Vivaldi
     published_at: 2026-11-18T14:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261122035710/https://www.rferl.org/a/rfe-rl-visits-ukraine-s-newly-liberated-territory-after-operation-vivaldi/33901166.html
+        captured_at: 2026-11-22T03:57:10Z
 assessment:
   status: unverified
   credibility: 6

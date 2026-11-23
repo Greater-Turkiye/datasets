@@ -24,6 +24,10 @@ sources:
     title: Residential building damaged in Russian attack on central Odesa
     published_at: 2026-11-18T09:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261118130336/https://www.ukrinform.net/rubric-ato/4185898-residential-building-damaged-in-russian-attack-on-central-odesa.html
+        captured_at: 2026-11-18T13:03:36Z
 assessment:
   status: unverified
   credibility: 6

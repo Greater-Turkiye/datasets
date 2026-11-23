@@ -18,6 +18,10 @@ sources:
     title: China’s Xi says global economy lacks stimulus to sustain growth
     published_at: 2026-11-18T04:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261123055152/https://news.am/en/news/1075486
+        captured_at: 2026-11-23T05:51:52Z
 assessment:
   status: unverified
   credibility: 6
