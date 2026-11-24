@@ -24,6 +24,10 @@ sources:
     title: Al-Zaidi approves plan to secure Jurf Al-Sakhr
     published_at: 2026-11-18T12:46Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124041900/https://shafaq.com/en/Security/Al-Zaidi-approves-plan-to-secure-Jurf-Al-Sakhr
+        captured_at: 2026-11-24T04:19:00Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian attack on Kyiv region leaves four injured, including child
     published_at: 2026-11-18T12:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124041753/https://www.ukrinform.net/rubric-ato/4186004-russian-attack-on-kyiv-region-leaves-four-injured-including-child.html
+        captured_at: 2026-11-24T04:17:53Z
 assessment:
   status: unverified
   credibility: 6

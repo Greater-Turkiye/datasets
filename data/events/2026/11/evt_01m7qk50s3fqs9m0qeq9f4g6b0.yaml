@@ -18,6 +18,10 @@ sources:
     title: Agricultural enterprise, gas station damaged in Russian attack on Vinnytsia region
     published_at: 2026-11-18T10:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261123173759/https://www.ukrinform.net/rubric-ato/4185951-agricultural-enterprise-gas-station-damaged-in-russian-attack-on-vinnytsia-region.html
+        captured_at: 2026-11-23T17:37:59Z
 assessment:
   status: unverified
   credibility: 6

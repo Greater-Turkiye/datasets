@@ -1,0 +1,27 @@
+id: evt_01m85tqwasfw3avbp77nz30ybz
+schema: event/1
+event_type: diplomatic.statement
+title:
+  tr: "Savaş alanında hedeflerine ulaşamayan Başkan Putin, gıda ve enerjiyi silah olarak kullanmaya çalışıyor: Birleşik Krallık'ın BM Güvenlik Konseyi'ndeki açıklaması"
+  en: "Unable to achieve his objectives on the battlefield, President Putin is seeking to weaponise food and energy: UK statement at the UN Security Council"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-23T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-23T17:00Z
+regions: [black-sea]
+sources:
+  - url: https://www.gov.uk/government/speeches/unable-to-achieve-his-objectives-on-the-battlefield-president-putin-is-seeking-to-weaponise-food-and-energy-uk-statement-at-the-un-security-council
+    title: "Unable to achieve his objectives on the battlefield, President Putin is seeking to weaponise food and energy: UK statement at the UN Security Council"
+    published_at: 2026-11-23T17:00Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: atom-gbr-fcdo. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: atom-gbr-fcdo. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

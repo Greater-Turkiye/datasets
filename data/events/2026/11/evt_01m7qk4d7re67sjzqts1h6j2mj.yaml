@@ -24,6 +24,10 @@ sources:
     title: More than 80 settlements without electricity in Rivne region following Russian attack
     published_at: 2026-11-18T08:19Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124040156/https://www.ukrinform.net/rubric-ato/4185876-more-than-80-settlements-without-electricity-in-rivne-region-following-russian-attack.html
+        captured_at: 2026-11-24T04:01:56Z
 assessment:
   status: unverified
   credibility: 6

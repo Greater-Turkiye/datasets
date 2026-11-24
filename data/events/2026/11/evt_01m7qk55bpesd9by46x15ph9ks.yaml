@@ -18,6 +18,10 @@ sources:
     title: Security Council, 10275th Meeting (AM) Libya/ICC
     published_at: 2026-11-18T12:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124041105/https://press.un.org/en/blog/sc16513
+        captured_at: 2026-11-24T04:11:05Z
 assessment:
   status: unverified
   credibility: 6

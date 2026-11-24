@@ -18,6 +18,10 @@ sources:
     title: Outgoing Japan ambassador meets with PM Pashinyan, welcomes Armenia’s anti-corruption policy
     published_at: 2026-11-18T09:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124040503/https://news.am/en/news/1075590
+        captured_at: 2026-11-24T04:05:03Z
 assessment:
   status: unverified
   credibility: 6
