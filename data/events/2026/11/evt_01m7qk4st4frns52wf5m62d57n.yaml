@@ -24,6 +24,10 @@ sources:
     title: Security personnel injured in Baghdad demolition clashes
     published_at: 2026-11-18T09:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124040327/https://shafaq.com/en/Security/Security-personnel-injured-in-Baghdad-demolition-clashes
+        captured_at: 2026-11-24T04:03:27Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: General Staff confirms strikes on Ilsky and Afipsky oil refineries
     published_at: 2026-11-18T14:09Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124042041/https://www.ukrinform.net/rubric-ato/4186044-general-staff-confirms-strikes-on-ilsky-and-afipsky-oil-refineries.html
+        captured_at: 2026-11-24T04:20:41Z
 assessment:
   status: unverified
   credibility: 6

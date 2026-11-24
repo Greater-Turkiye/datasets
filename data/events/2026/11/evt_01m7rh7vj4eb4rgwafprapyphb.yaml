@@ -24,6 +24,10 @@ sources:
     title: Three injured in Russian attacks on Kyiv
     published_at: 2026-11-18T16:27Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124170506/https://www.ukrinform.net/rubric-ato/4186107-three-injured-in-russian-attacks-on-kyiv.html
+        captured_at: 2026-11-24T17:05:06Z
 assessment:
   status: unverified
   credibility: 6

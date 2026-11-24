@@ -18,6 +18,10 @@ sources:
     title: Trump “not concerned” about South China Sea situation
     published_at: 2026-11-18T07:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124035910/https://news.am/en/news/1075502
+        captured_at: 2026-11-24T03:59:10Z
 assessment:
   status: unverified
   credibility: 6

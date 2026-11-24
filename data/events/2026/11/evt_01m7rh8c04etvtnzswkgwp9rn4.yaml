@@ -24,6 +24,10 @@ sources:
     title: Drone strikes apartment building, post office in Chuhuiv
     published_at: 2026-11-18T18:18Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261119112831/https://www.ukrinform.net/rubric-ato/4186143-drone-strikes-apartment-building-post-office-in-chuhuiv.html
+        captured_at: 2026-11-19T11:28:31Z
 assessment:
   status: unverified
   credibility: 6

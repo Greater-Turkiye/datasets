@@ -1,0 +1,27 @@
+id: evt_01m877yz0ffh8s6vde6y7qk60z
+schema: event/1
+event_type: diplomatic.talks
+title:
+  tr: Ermenistan Başbakanı'nın Romanya'daki mevkidaşıyla görüşmesi öncesinde düzenlenen resmi karşılama töreni (VİDEO)
+  en: Official welcoming ceremony held before visiting Armenia premier’s meeting with Romania counterpart (VIDEO)
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-24T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-24T13:23Z
+regions: [caucasus]
+sources:
+  - url: https://news.am/en/news/1076921
+    title: Official welcoming ceremony held before visiting Armenia premier’s meeting with Romania counterpart (VIDEO)
+    published_at: 2026-11-24T13:23Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-arm-newsam-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-arm-newsam-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

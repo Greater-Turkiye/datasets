@@ -18,6 +18,10 @@ sources:
     title: In Croatia, 35 Years On, Vukovar is Restored, But Still Divided
     published_at: 2026-11-18T07:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124170228/https://balkaninsight.com/2026/11/18/in-croatia-35-years-on-vukovar-is-restored-but-still-divided/btj/
+        captured_at: 2026-11-24T17:02:28Z
 assessment:
   status: unverified
   credibility: 6

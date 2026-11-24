@@ -24,6 +24,10 @@ sources:
     title: Train services on Crimean Bridge suspended after overnight drone attack – media
     published_at: 2026-11-19T07:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124172044/https://www.ukrinform.net/rubric-ato/4186231-train-services-on-crimean-bridge-suspended-after-overnight-drone-attack-media.html
+        captured_at: 2026-11-24T17:20:44Z
 assessment:
   status: unverified
   credibility: 6
