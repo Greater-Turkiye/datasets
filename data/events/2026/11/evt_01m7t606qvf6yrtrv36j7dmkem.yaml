@@ -24,6 +24,10 @@ sources:
     title: What Putin, Trump talked about in China is announced
     published_at: 2026-11-19T06:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124171924/https://news.am/en/news/1075802
+        captured_at: 2026-11-24T17:19:24Z
 assessment:
   status: unverified
   credibility: 6

@@ -18,6 +18,10 @@ sources:
     title: "War update: 205 clashes on front line; 80 Russian troops neutralized on Pokrovsk axis"
     published_at: 2026-11-18T21:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124171104/https://www.ukrinform.net/rubric-ato/4186183-war-update-205-clashes-on-front-line-80-russian-troops-neutralized-on-pokrovsk-axis.html
+        captured_at: 2026-11-24T17:11:04Z
 assessment:
   status: unverified
   credibility: 6

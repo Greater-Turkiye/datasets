@@ -32,6 +32,10 @@ sources:
     title: Reports of drone debris hitting residential building in Kyiv's Pecherskyi district not confirmed
     published_at: 2026-11-18T15:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261125020311/https://www.ukrinform.net/rubric-ato/4186084-reports-of-drone-debris-hitting-residential-building-in-kyivs-pecherskyi-district-not-confirmed.html
+        captured_at: 2026-11-25T02:03:11Z
 assessment:
   status: unverified
   credibility: 6

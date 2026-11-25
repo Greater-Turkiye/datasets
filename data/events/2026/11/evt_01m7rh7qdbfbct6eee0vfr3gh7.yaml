@@ -24,6 +24,10 @@ sources:
     title: Russian forces launch another attack on Naftogaz facility in Poltava region
     published_at: 2026-11-18T16:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124170506/https://www.ukrinform.net/rubric-ato/4186088-russian-forces-launch-another-attack-on-naftogaz-facility-in-poltava-region.html
+        captured_at: 2026-11-24T17:05:06Z
 assessment:
   status: unverified
   credibility: 6

@@ -36,6 +36,10 @@ sources:
     title: Russian forces attack industrial facility in Mykolaiv region, one injured
     published_at: 2026-11-19T11:11Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261124172044/https://www.ukrinform.net/rubric-ato/4186323-russian-forces-attack-industrial-facility-in-mykolaiv-region-one-injured.html
+        captured_at: 2026-11-24T17:20:44Z
 assessment:
   status: unverified
   credibility: 6
