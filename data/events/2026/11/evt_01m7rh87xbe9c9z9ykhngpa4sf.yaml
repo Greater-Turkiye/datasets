@@ -24,6 +24,10 @@ sources:
     title: Fire breaks out in Kremenchuk following Russian attack
     published_at: 2026-11-18T17:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261125021038/https://www.ukrinform.net/rubric-ato/4186121-fire-breaks-out-in-kremenchuk-following-russian-attack.html
+        captured_at: 2026-11-25T02:10:38Z
 assessment:
   status: unverified
   credibility: 6

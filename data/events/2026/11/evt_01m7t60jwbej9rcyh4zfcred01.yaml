@@ -18,6 +18,10 @@ sources:
     title: Black Sea Attacks Threaten Ukrainian Grain Trade, Disrupt Region’s Exports
     published_at: 2026-11-19T07:04Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261125172319/https://balkaninsight.com/2026/11/19/black-sea-attacks-threaten-ukrainian-grain-trade-disrupt-regions-exports/rd/
+        captured_at: 2026-11-25T17:23:19Z
 assessment:
   status: unverified
   credibility: 6
