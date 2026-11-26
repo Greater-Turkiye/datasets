@@ -18,6 +18,10 @@ sources:
     title: Iraqi F-16s target suspected militants in Al-Anbar
     published_at: 2026-11-18T16:50Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126013745/https://shafaq.com/en/Security/Iraqi-F-16s-target-suspected-militants-in-Al-Anbar
+        captured_at: 2026-11-26T01:37:45Z
 assessment:
   status: unverified
   credibility: 6

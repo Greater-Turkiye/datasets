@@ -18,6 +18,10 @@ sources:
     title: Concluding Session, Fourth Committee Approves Five Drafts, Including Texts on UNRWA Humanitarian Response, Israeli Settlements in Palestine, Syrian Golan
     published_at: 2026-11-18T22:43Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261125170935/https://press.un.org/en/2026/gaspd858.doc.htm
+        captured_at: 2026-11-25T17:09:35Z
 assessment:
   status: unverified
   credibility: 6

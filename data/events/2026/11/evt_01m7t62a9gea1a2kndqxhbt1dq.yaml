@@ -24,6 +24,10 @@ sources:
     title: UK to provide Ukraine with more than 1,000 long-range drones
     published_at: 2026-11-19T12:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126014952/https://www.ukrinform.net/rubric-ato/4186372-uk-to-provide-ukraine-with-more-than-1000-longrange-drones.html
+        captured_at: 2026-11-26T01:49:52Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,0 +1,27 @@
+id: evt_01m8aqth53fnqvpz4zrfxttbtk
+schema: event/1
+event_type: kinetic.clash
+title:
+  tr: "Savaşla ilgili son durum: Cephe hattında 151 çatışma; Pokrovsk ekseninde 40 Rus askeri öldürüldü"
+  en: "War update: 151 clashes along the front line; 40 Russian troops killed on Pokrovsk axis"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-25T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-25T22:06Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4188683-war-update-151-clashes-along-the-front-line-40-russian-troops-killed-on-pokrovsk-axis.html
+    title: "War update: 151 clashes along the front line; 40 Russian troops killed on Pokrovsk axis"
+    published_at: 2026-11-25T22:06Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

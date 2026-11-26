@@ -24,6 +24,10 @@ sources:
     title: Injury toll in Russian strike on Izium rises to 21, including four children
     published_at: 2026-11-19T14:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261119154623/https://www.ukrinform.net/rubric-ato/4186412-injury-toll-in-russian-strike-on-izium-rises-to-21-including-four-children.html
+        captured_at: 2026-11-19T15:46:23Z
 assessment:
   status: unverified
   credibility: 6
