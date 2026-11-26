@@ -24,6 +24,10 @@ sources:
     title: Drone attack reported on Kaleykino oil pumping station in Russia's Tatarstan
     published_at: 2026-11-19T09:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126014950/https://www.ukrinform.net/rubric-ato/4186277-drone-attack-reported-on-kaleykino-oil-pumping-station-in-russias-tatarstan.html
+        captured_at: 2026-11-26T01:49:50Z
 assessment:
   status: unverified
   credibility: 6

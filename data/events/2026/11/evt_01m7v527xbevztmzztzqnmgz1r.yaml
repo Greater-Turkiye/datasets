@@ -24,6 +24,10 @@ sources:
     title: Austrian Embassy in Kyiv damaged in Russian attack
     published_at: 2026-11-19T17:03Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126164834/https://www.ukrinform.net/rubric-ato/4186509-austrian-embassy-in-kyiv-damaged-in-russian-attack.html
+        captured_at: 2026-11-26T16:48:34Z
 assessment:
   status: unverified
   credibility: 6

@@ -1,0 +1,27 @@
+id: evt_01m8candf0eqmvm9g9ga4yz5y6
+schema: event/1
+event_type: policy.defense
+title:
+  tr: "Gazete: Başbakan'a yaklaşan Rusya gezilerinde kimler eşlik edecek? Ermenistan makamlarının özensiz imzası"
+  en: "Newspaper: Who will accompany PM in upcoming Russia trips? Armenia authorities' sloppy signature"
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-25T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-25T04:44Z
+regions: [caucasus]
+sources:
+  - url: https://news.am/en/news/1077004
+    title: "Newspaper: Who will accompany PM in upcoming Russia trips? Armenia authorities' sloppy signature"
+    published_at: 2026-11-25T04:44Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-arm-newsam-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-arm-newsam-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

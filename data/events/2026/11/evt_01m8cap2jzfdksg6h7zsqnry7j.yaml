@@ -1,0 +1,27 @@
+id: evt_01m8cap2jzfdksg6h7zsqnry7j
+schema: event/1
+event_type: deployment.announced
+title:
+  tr: Rusya, Ukrayna'ya karşı savaşta son 24 saatte 2.319 askerini ve dört uçağını daha kaybetti
+  en: Russia loses another 2,319 troops and four aircraft in war against Ukraine in past 24 hours
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-26T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-26T06:56Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4188726-russia-loses-another-2319-troops-and-four-aircraft-in-war-against-ukraine-in-past-24-hours.html
+    title: Russia loses another 2,319 troops and four aircraft in war against Ukraine in past 24 hours
+    published_at: 2026-11-26T06:56Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

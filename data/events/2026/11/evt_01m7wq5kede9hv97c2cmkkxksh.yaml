@@ -24,6 +24,10 @@ sources:
     title: Russian drone hits hospital in Kharkiv, four people injured
     published_at: 2026-11-20T04:25Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126165559/https://www.ukrinform.net/rubric-ato/4186633-russian-drone-hits-hospital-in-kharkiv-four-people-injured.html
+        captured_at: 2026-11-26T16:55:59Z
 assessment:
   status: unverified
   credibility: 6

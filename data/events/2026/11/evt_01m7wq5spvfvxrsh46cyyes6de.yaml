@@ -24,6 +24,10 @@ sources:
     title: Kyiv’s Podilskyi and Darnytskyi bridges damaged in Russian ballistic attack – mayor
     published_at: 2026-11-20T05:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126170149/https://www.ukrinform.net/rubric-ato/4186643-kyivs-podilskyi-and-darnytskyi-bridges-damaged-in-russian-ballistic-attack-mayor.html
+        captured_at: 2026-11-26T17:01:49Z
 assessment:
   status: unverified
   credibility: 6

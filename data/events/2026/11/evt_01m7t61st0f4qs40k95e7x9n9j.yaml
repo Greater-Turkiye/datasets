@@ -18,6 +18,10 @@ sources:
     title: "Azerbaijan presidential aide: We are still waiting for Armenia to disclose the locations of more than 200 mass graves"
     published_at: 2026-11-19T10:23Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126163433/https://news.am/en/news/1075908
+        captured_at: 2026-11-26T16:34:33Z
 assessment:
   status: unverified
   credibility: 6

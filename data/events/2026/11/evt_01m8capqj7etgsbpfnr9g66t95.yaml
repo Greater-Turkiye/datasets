@@ -1,0 +1,27 @@
+id: evt_01m8capqj7etgsbpfnr9g66t95
+schema: event/1
+event_type: deployment.announced
+title:
+  tr: Rusya'nın Kasım ayında Ukrayna'da verdiği kayıplar 55.000'i aştı ve yeni bir savaş zamanı rekoru kırdı – Genelkurmay Başkanlığı
+  en: Russia’s November losses in Ukraine already top 55,000, setting new wartime record – General Staff
+i18n:
+  source: en
+  machine: [tr]
+time:
+  start: 2026-11-26T00:00Z
+  precision: day
+  basis: reported
+reported_at: 2026-11-26T10:19Z
+regions: [black-sea]
+sources:
+  - url: https://www.ukrinform.net/rubric-ato/4188814-russias-november-losses-in-ukraine-already-top-55000-setting-new-wartime-record-general-staff.html
+    title: Russia’s November losses in Ukraine already top 55,000, setting new wartime record – General Staff
+    published_at: 2026-11-26T10:19Z
+    lang: en
+assessment:
+  status: unverified
+  credibility: 6
+  note:
+    tr: "Otomatik kayıt: toplayıcının ilgi süzgecinden geçen bir aday, kimse okumadan yayımlandı (ADR 0023). Akış: rss-ukr-ukrinform-war-en. Başlık kaynağın başlığıdır, çevirisi makinecedir (MyMemory); tür ve bölge anahtar kelimeyle bulundu, olay tarihi yayın tarihidir. Doğrulanmamıştır."
+    en: "Automatic record: a candidate that passed the collector's relevance filter, published without anyone reading it (ADR 0023). Feed: rss-ukr-ukrinform-war-en. The title is the source's headline, machine-translated (MyMemory); type and region were found by keyword and the event date is the publication date. Not verified."
+tags: [otomatik]

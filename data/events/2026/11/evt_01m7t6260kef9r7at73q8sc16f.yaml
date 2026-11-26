@@ -24,6 +24,10 @@ sources:
     title: Al-Zaidi orders new security command in Jurf Al-Sakhr
     published_at: 2026-11-19T11:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126163755/https://shafaq.com/en/Security/Al-Zaidi-orders-new-security-command-in-Jurf-Al-Sakhr
+        captured_at: 2026-11-26T16:37:55Z
 assessment:
   status: unverified
   credibility: 6
