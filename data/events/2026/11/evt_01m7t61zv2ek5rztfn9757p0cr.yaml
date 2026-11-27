@@ -18,6 +18,10 @@ sources:
     title: Funds allocated for preparations within TRIPP project framework
     published_at: 2026-11-19T10:57Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126163603/https://news.am/en/news/1075919
+        captured_at: 2026-11-26T16:36:03Z
 assessment:
   status: unverified
   credibility: 6

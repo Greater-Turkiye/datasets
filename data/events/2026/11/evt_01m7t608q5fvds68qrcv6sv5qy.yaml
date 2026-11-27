@@ -24,6 +24,10 @@ sources:
     title: Armenia Security Council chief to visit Azerbaijan in December
     published_at: 2026-11-19T06:17Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127013242/https://news.am/en/news/1075804
+        captured_at: 2026-11-27T01:32:42Z
 assessment:
   status: unverified
   credibility: 6

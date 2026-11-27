@@ -24,6 +24,10 @@ sources:
     title: PMF to rotate Jurf Al-Sakhr units Friday
     published_at: 2026-11-19T17:14Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126164957/https://shafaq.com/en/Security/PMF-to-rotate-Jurf-Al-Sakhr-units-Friday
+        captured_at: 2026-11-26T16:49:57Z
 assessment:
   status: unverified
   credibility: 6

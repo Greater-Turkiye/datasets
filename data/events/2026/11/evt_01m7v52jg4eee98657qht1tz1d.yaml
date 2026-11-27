@@ -24,6 +24,10 @@ sources:
     title: Ukrainian Defense Forces strike Russian drone operators in occupied Kherson region
     published_at: 2026-11-19T21:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126170149/https://www.ukrinform.net/rubric-ato/4186599-ukrainian-defense-forces-strike-russian-drone-operators-in-occupied-kherson-region.html
+        captured_at: 2026-11-26T17:01:49Z
 assessment:
   status: unverified
   credibility: 6

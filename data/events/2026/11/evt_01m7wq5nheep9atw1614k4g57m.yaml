@@ -18,6 +18,10 @@ sources:
     title: "Newspaper: Armenia PM's statement on new constitution causes panic in ruling force circles"
     published_at: 2026-11-20T04:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126165742/https://news.am/en/news/1076049
+        captured_at: 2026-11-26T16:57:42Z
 assessment:
   status: unverified
   credibility: 6

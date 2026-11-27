@@ -18,6 +18,10 @@ sources:
     title: New US Bill Seeks To Track Russian Hybrid Attacks
     published_at: 2026-11-19T13:39Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126164046/https://www.rferl.org/a/us-congress-russian-cyberattacks-europe/33901810.html
+        captured_at: 2026-11-26T16:40:46Z
 assessment:
   status: unverified
   credibility: 6

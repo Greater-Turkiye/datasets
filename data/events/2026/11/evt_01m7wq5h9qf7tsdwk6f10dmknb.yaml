@@ -18,6 +18,10 @@ sources:
     title: Ukraine’s Defense Forces strike over two million enemy targets with drones this year
     published_at: 2026-11-20T02:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126165553/https://www.ukrinform.net/rubric-ato/4186397-ukraines-defense-forces-strike-over-two-million-enemy-targets-with-drones-this-year.html
+        captured_at: 2026-11-26T16:55:53Z
 assessment:
   status: unverified
   credibility: 6

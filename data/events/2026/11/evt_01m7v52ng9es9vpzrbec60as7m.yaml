@@ -24,6 +24,10 @@ sources:
     title: Simferopol residents rush to stock up on food and fuel after attacks on Kerch Bridge – Chubarov
     published_at: 2026-11-19T22:32Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126165554/https://www.ukrinform.net/rubric-ato/4186257-simferopol-residents-rush-to-stock-up-on-food-and-fuel-after-attacks-on-kerch-bridge-chubarov.html
+        captured_at: 2026-11-26T16:55:54Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian aircraft strike hits Myrne in Donetsk region, injuring elderly couple
     published_at: 2026-11-19T14:38Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261126164831/https://www.ukrinform.net/rubric-ato/4186432-russian-aircraft-strike-hits-myrne-in-donetsk-region-injuring-elderly-couple.html
+        captured_at: 2026-11-26T16:48:31Z
 assessment:
   status: unverified
   credibility: 6

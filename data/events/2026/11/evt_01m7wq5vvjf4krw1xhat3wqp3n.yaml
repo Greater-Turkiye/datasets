@@ -28,6 +28,10 @@ sources:
     title: Two killed, four injured in Russian attack on railway station in Lviv
     published_at: 2026-11-20T07:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261120094625/https://www.ukrinform.net/rubric-ato/4186678-two-killed-four-injured-in-russian-attack-on-railway-station-in-lviv.html
+        captured_at: 2026-11-20T09:46:25Z
   - url: https://www.ukrinform.net/rubric-ato/4186726-death-toll-from-russian-attack-on-kyiv-rises-to-six-15-injured.html
     title: Death toll from Russian attack on Kyiv rises to six, 15 injured
     published_at: 2026-11-20T09:40Z
@@ -36,6 +40,10 @@ sources:
     title: Death toll from Russian attack on Kyiv rises to seven, 17 injured
     published_at: 2026-11-20T13:21Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261120144706/https://www.ukrinform.net/rubric-ato/4186847-death-toll-from-russian-attack-on-kyiv-rises-to-seven-17-injured.html
+        captured_at: 2026-11-20T14:47:06Z
 assessment:
   status: unverified
   credibility: 6
