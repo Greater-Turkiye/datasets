@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack transport and industrial infrastructure in Zhytomyr region, one injured
     published_at: 2026-11-20T08:52Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127162459/https://www.ukrinform.net/rubric-ato/4186710-russian-forces-attack-transport-and-industrial-infrastructure-in-zhytomyr-region-one-injured.html
+        captured_at: 2026-11-27T16:24:59Z
 assessment:
   status: unverified
   credibility: 6

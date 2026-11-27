@@ -24,6 +24,10 @@ sources:
     title: US Envoys See Ukraine Peace Progress As NATO Debate Resurfaces
     published_at: 2026-11-20T09:35Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127164321/https://www.rferl.org/a/ukraine-peace-talks-us-envoys-nato-security-guarantees-russia/33902431.html
+        captured_at: 2026-11-27T16:43:21Z
 assessment:
   status: unverified
   credibility: 6

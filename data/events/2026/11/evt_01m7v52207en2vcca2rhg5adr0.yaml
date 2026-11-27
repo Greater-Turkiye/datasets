@@ -32,6 +32,10 @@ sources:
     title: One killed, five injured in Russian drone attack on Kyiv, St. Volodymyr’s Cathedral damaged
     published_at: 2026-11-19T15:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127162303/https://www.ukrinform.net/rubric-ato/4186467-one-killed-four-injured-in-russian-drone-attack-on-kyiv.html
+        captured_at: 2026-11-27T16:23:03Z
 assessment:
   status: unverified
   credibility: 6

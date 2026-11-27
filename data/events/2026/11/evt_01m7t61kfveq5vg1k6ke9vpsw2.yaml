@@ -24,6 +24,10 @@ sources:
     title: China president urges world powers to respect each other's sovereignty
     published_at: 2026-11-19T09:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127013921/https://news.am/en/news/1075898
+        captured_at: 2026-11-27T01:39:21Z
 assessment:
   status: unverified
   credibility: 6

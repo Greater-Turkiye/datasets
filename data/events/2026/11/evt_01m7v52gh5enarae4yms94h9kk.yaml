@@ -24,6 +24,10 @@ sources:
     title: Iraqi units head toward Jurf Al-Sakhr
     published_at: 2026-11-19T20:40Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127014409/https://shafaq.com/en/Security/Iraqi-units-head-toward-Jurf-Al-Sakhr
+        captured_at: 2026-11-27T01:44:09Z
 assessment:
   status: unverified
   credibility: 6

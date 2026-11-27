@@ -18,6 +18,10 @@ sources:
     title: SoftConstruct and the French University in Armenia Sign A New Memorandum of Understanding
     published_at: 2026-11-20T10:56Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127164621/https://news.am/en/news/1076144
+        captured_at: 2026-11-27T16:46:21Z
 assessment:
   status: unverified
   credibility: 6

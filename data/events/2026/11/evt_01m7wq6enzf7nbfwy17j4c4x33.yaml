@@ -18,6 +18,10 @@ sources:
     title: Russian attack damages railway infrastructure, several trains delayed
     published_at: 2026-11-20T08:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127162501/https://www.ukrinform.net/rubric-ato/4186680-russian-attack-damages-railway-infrastructure-several-trains-delayed.html
+        captured_at: 2026-11-27T16:25:01Z
 assessment:
   status: unverified
   credibility: 6

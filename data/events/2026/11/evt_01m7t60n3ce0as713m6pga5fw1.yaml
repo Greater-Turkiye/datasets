@@ -18,6 +18,10 @@ sources:
     title: "Russia cannot bomb its way to victory: UK statement to the OSCE"
     published_at: 2026-11-19T07:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127161408/https://www.gov.uk/government/speeches/russia-cannot-bomb-its-way-to-victory-uk-statement-to-the-osce
+        captured_at: 2026-11-27T16:14:08Z
 assessment:
   status: unverified
   credibility: 6

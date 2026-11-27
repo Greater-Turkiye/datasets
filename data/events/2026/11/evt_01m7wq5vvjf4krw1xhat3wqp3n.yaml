@@ -24,6 +24,10 @@ sources:
     title: Three killed, 15 injured in Russian attack on Kyiv
     published_at: 2026-11-20T06:00Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127162504/https://www.ukrinform.net/rubric-ato/4186645-three-killed-15-injured-in-russian-attack-on-kyiv.html
+        captured_at: 2026-11-27T16:25:04Z
   - url: https://www.ukrinform.net/rubric-ato/4186678-two-killed-four-injured-in-russian-attack-on-railway-station-in-lviv.html
     title: Two killed, four injured in Russian attack on railway station in Lviv
     published_at: 2026-11-20T07:51Z
