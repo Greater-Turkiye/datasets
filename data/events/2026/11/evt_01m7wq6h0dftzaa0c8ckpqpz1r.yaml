@@ -24,6 +24,10 @@ sources:
     title: Drones attack chemical plant producing components for explosives in Russia's Smolensk region – media
     published_at: 2026-11-20T08:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127163536/https://www.ukrinform.net/rubric-ato/4186683-drones-attack-chemical-plant-producing-components-for-explosives-in-russias-smolensk-region-media.html
+        captured_at: 2026-11-27T16:35:36Z
 assessment:
   status: unverified
   credibility: 6

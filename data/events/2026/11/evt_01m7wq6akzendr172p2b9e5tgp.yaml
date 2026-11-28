@@ -24,6 +24,10 @@ sources:
     title: Oil prices up on reports of new Houthi attacks on Riyadh
     published_at: 2026-11-20T07:36Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127163230/https://news.am/en/news/1076061
+        captured_at: 2026-11-27T16:32:30Z
 assessment:
   status: unverified
   credibility: 6

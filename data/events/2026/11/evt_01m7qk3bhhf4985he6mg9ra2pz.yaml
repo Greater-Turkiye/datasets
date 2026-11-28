@@ -18,6 +18,10 @@ sources:
     title: China’s Xi calls for safeguarding post-war world order to ensure stability in Asia-Pacific
     published_at: 2026-11-18T05:12Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261128011109/https://news.am/en/news/1075491
+        captured_at: 2026-11-28T01:11:09Z
 assessment:
   status: unverified
   credibility: 6

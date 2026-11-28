@@ -18,6 +18,10 @@ sources:
     title: Zelenskyy proposes deploying US, European troops in Ukraine after war
     published_at: 2026-11-20T09:08Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127164128/https://news.am/en/news/1076073
+        captured_at: 2026-11-27T16:41:28Z
 assessment:
   status: unverified
   credibility: 6

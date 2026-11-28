@@ -18,6 +18,10 @@ sources:
     title: Russia launches up to 100 missiles at Ukraine, one may have crossed into Poland – Ignat
     published_at: 2026-11-20T09:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127164442/https://www.ukrinform.net/rubric-ato/4186714-russia-launches-up-to-100-missiles-at-ukraine-one-may-have-crossed-into-poland-ignat.html
+        captured_at: 2026-11-27T16:44:42Z
 assessment:
   status: unverified
   credibility: 6

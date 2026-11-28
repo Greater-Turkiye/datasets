@@ -24,6 +24,10 @@ sources:
     title: At Least 9 Killed In Russian Attacks On Ukraine, Kyiv Bridges Damaged
     published_at: 2026-11-20T06:45Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261128012048/https://www.rferl.org/a/russia-ballistic-missile-attack--ukraine-kyiv/33902371.html
+        captured_at: 2026-11-28T01:20:48Z
 assessment:
   status: unverified
   credibility: 6

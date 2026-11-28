@@ -18,6 +18,10 @@ sources:
     title: NATO focuses on building integrated air defense ecosystem for Ukraine – NSATU commander
     published_at: 2026-11-20T08:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261127164019/https://www.ukrinform.net/rubric-ato/4186685-nato-focuses-on-building-integrated-air-defense-ecosystem-for-ukraine-nsatu-commander.html
+        captured_at: 2026-11-27T16:40:19Z
 assessment:
   status: unverified
   credibility: 6

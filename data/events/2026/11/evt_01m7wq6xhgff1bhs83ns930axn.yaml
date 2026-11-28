@@ -18,6 +18,10 @@ sources:
     title: Security Council secretary, Germany ambassador talk about Armenia-EU ties, regional developments
     published_at: 2026-11-20T09:24Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261128012859/https://news.am/en/news/1076121
+        captured_at: 2026-11-28T01:28:59Z
 assessment:
   status: unverified
   credibility: 6
