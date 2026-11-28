@@ -18,6 +18,10 @@ sources:
     title: "PM Pashinyan responds to First Ter-Petrosyan: He who turned Armenia into outpost, founded Yerablur Military Pantheon"
     published_at: 2026-11-20T13:30Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261128152750/https://news.am/en/news/1076198
+        captured_at: 2026-11-28T15:27:50Z
 assessment:
   status: unverified
   credibility: 6

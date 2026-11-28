@@ -18,6 +18,10 @@ sources:
     title: Armenia Security Council chief, Estonia ambassador discuss cooperation
     published_at: 2026-11-20T07:51Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261128151135/https://news.am/en/news/1076098
+        captured_at: 2026-11-28T15:11:35Z
 assessment:
   status: unverified
   credibility: 6

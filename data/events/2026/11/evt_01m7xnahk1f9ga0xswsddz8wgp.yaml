@@ -24,6 +24,10 @@ sources:
     title: 20,000 people protesting in Milan against rising cost of living
     published_at: 2026-11-20T13:58Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261128152854/https://news.am/en/news/1076178
+        captured_at: 2026-11-28T15:28:54Z
 assessment:
   status: unverified
   credibility: 6

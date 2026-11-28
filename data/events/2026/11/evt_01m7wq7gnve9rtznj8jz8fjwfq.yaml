@@ -18,6 +18,10 @@ sources:
     title: "NATO fully recognizes new war domains: Cyber and electromagnetic – NSATU Commander"
     published_at: 2026-11-20T12:15Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261128152015/https://www.ukrinform.net/rubric-ato/4186814-nato-fully-recognizes-new-war-domains-cyber-and-electromagnetic-nsatu-commander.html
+        captured_at: 2026-11-28T15:20:15Z
 assessment:
   status: unverified
   credibility: 6

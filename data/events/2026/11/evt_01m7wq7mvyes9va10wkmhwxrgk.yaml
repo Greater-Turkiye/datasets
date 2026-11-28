@@ -18,6 +18,10 @@ sources:
     title: Russian forces maneuver under cover of fog in Huliaipole sector – Air Assault Forces
     published_at: 2026-11-20T12:37Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261128151635/https://www.ukrinform.net/rubric-ato/4186823-russian-forces-maneuver-under-cover-of-fog-in-huliaipole-sector-air-assault-forces.html
+        captured_at: 2026-11-28T15:16:35Z
 assessment:
   status: unverified
   credibility: 6

@@ -24,6 +24,10 @@ sources:
     title: Russian forces attack Sumy region, injuring woman and sparking massive fire
     published_at: 2026-11-20T11:05Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261128151505/https://www.ukrinform.net/rubric-ato/4186778-russian-forces-attack-sumy-region-injuring-woman-and-sparking-massive-fire.html
+        captured_at: 2026-11-28T15:15:05Z
 assessment:
   status: unverified
   credibility: 6

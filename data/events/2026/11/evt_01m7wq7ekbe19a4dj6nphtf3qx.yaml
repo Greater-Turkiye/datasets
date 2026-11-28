@@ -24,6 +24,10 @@ sources:
     title: General Staff confirms three oil tanks hit at pumping station in Russia’s Tatarstan
     published_at: 2026-11-20T11:55Z
     lang: en
+    archives:
+      - service: wayback
+        url: https://web.archive.org/web/20261128151636/https://www.ukrinform.net/rubric-ato/4186809-general-staff-confirms-three-oil-tanks-hit-at-pumping-station-in-russias-tatarstan.html
+        captured_at: 2026-11-28T15:16:36Z
 assessment:
   status: unverified
   credibility: 6
